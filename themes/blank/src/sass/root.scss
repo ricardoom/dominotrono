@@ -25,7 +25,30 @@ body {
     font-size: $base-font-small;
   }
 }
+
 ///
+/// Set a base link style here:
+///
+
+a {
+  &:link {
+    color: $site-link;
+  }
+
+  &:visited {
+    color: $site-link-visited;
+  }
+
+  &:hover {
+    background-color: $site-link-hover-bg;
+    color: $site-main-text-color;
+  }
+
+  &:active {
+    background-color: $site-link-active-bg;
+  }
+}
+
 /// the main site header
 /// eventually to its own partial
 ///

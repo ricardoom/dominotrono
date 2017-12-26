@@ -416,7 +416,7 @@ template {
 
 html {
   background-color: #2b4e63;
-  color: #ffffff;
+  color: #fff;
   font-family: sans-serif;
   font-size: 76.95%;
 }
@@ -431,12 +431,29 @@ body.minus-body {
   font-size: 65.4075%;
 }
 
+a:link {
+  color: #fff;
+}
+
+a:visited {
+  color: #f544ae;
+}
+
+a:hover {
+  background-color: #80ea1e;
+  color: #111;
+}
+
+a:active {
+  background-color: #4a86aa;
+}
+
 .site-header {
   padding: 3ex 0;
 }
 
 .site-header__siteName {
-  color: #ffffff;
+  color: #fff;
   font-family: sans-serif;
   font-size: 2em;
 }
@@ -453,7 +470,7 @@ body.minus-body {
 }
 
 .site-footer {
-  background: #111111;
+  background: #111;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -462,7 +479,7 @@ body.minus-body {
 }
 
 .site-footer * {
-  color: #ffffff;
+  color: #fff;
 }
 
 .site-footer__siteCredit {

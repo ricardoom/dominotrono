@@ -4,6 +4,18 @@
 
 $site-dark-blue: #2b4e63;
 $site-green-blue: #4a86aa;
-$site-white: #ffffff;
-$site-black: #111111;
+$site-white: #fff;
+$site-punk-pink: #f544ae;
+$site-acid-green: #80ea1e;
+$site-black: #111;
+
+
+///
+/// further abstract away the site's colors so we can do work on them:
+///
+$site-main-text-color: $site-black;
 $site-background-color: $site-dark-blue;
+$site-link: $site-white;
+$site-link-visited: $site-punk-pink;
+$site-link-hover-bg: $site-acid-green;
+$site-link-active-bg: $site-green-blue;

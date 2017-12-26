@@ -1,11 +1,5 @@
 ---
-title: "where you go?"
+title: "home"
 date:
 draft: false
 ---
-
-# where you go?
-
-* What about here?
-
-* and another? whats the criteria

@@ -73,7 +73,9 @@ a {
   padding: 3ex 0;
 
   &__sidebarTitle {
-  
+    @include media(">tablet") {
+    background-color: #bad;
+     }
   }
 
   &__sidebarList {

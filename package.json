@@ -1,5 +1,5 @@
 {
-  "name": "animotrono",
+  "name": "domimotrono",
   "version": "1.0.0",
   "description": "personal website thing",
   "main": "index.html",
@@ -9,6 +9,10 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardoom/dominotrono.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -5,7 +5,8 @@ const sass = require('gulp-sass');
 
 const sourcemaps = require('gulp-sourcemaps');
 
-//const autoprefixer = require('gulp-autoprefixer');
+const autoprefixer = require('gulp-autoprefixer');
+
 
 // variables:
 const input = 'themes/blank/src/sass/**/*.scss';

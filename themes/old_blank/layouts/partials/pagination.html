@@ -1,4 +1,5 @@
 <div>
+	<i>paginator</i>
 {{ if .Paginator.HasPrev }}
 	<a href="{{ .Paginator.Prev.URL }}">Previous Page</a>
 {{ end }}
@@ -7,3 +8,4 @@
 	<a href="{{ .Paginator.Next.URL }}">Next Page</a>
 {{ end }}
 </div>
+<p>the paginator</p>

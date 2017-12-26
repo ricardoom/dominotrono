@@ -85,6 +85,14 @@ a {
   }
 }
 
+///
+/// some pagination rules
+///
+.site-pagination {
+  background-color: lighten($site-background-color, 25%);
+  padding: 2ex 2em;
+}
+
 //
 // Footer
 // to its own partial

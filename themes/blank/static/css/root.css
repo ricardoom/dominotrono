@@ -475,6 +475,11 @@ a:active {
   padding: 0;
 }
 
+.site-pagination {
+  background-color: #5793b6;
+  padding: 2ex 2em;
+}
+
 .site-footer {
   background: #111;
   -webkit-box-sizing: border-box;

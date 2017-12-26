@@ -1,7 +1,8 @@
 {{ partial "header.html" . }}
 	<main>
-    <span>here we have layouts/_default/experiments/list.html</span>
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+    <p>++ section list template ++</p>
+    <p>here we have layouts/_default/experiments/list.html</p>
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "experiments") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}

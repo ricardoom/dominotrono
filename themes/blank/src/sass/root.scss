@@ -73,7 +73,7 @@ a {
   padding: 3ex 0;
 
   &__sidebarTitle {
-
+  
   }
 
   &__sidebarList {
@@ -95,12 +95,8 @@ a {
   min-height: 5em;
   padding: 1em;
 
-  * {
-    color: $site-white;
-  }
-
   &__siteCredit {
-    font-size: $bast-font-gigantic;
+    font-size: $base-font-gigantic;
     margin: 0;
   }
 }

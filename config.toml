@@ -4,6 +4,8 @@ title = "bulletprooftoupee"
 theme="blank"
 defaultLayout="posts"
 
+sectionPagesMenu = "main"
+
 [params]
   author="Ricardo Galvez"
   subtitle="we run the rondo"

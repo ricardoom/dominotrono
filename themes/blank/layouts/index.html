@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 	<!-- === root index === -->
 	<main aria-role="main" class="site-content">
-
-		{{ with .Params.subtitle }}
+		subtitle
+		{{ with $.Site.Params.subtitle }}
 			 <span class="subtitle">{{ . }}</span>
 		{{ end }}
 		<div class="site-content__homePage">
@@ -13,11 +13,11 @@
         {{ .Render "summary"}}
       {{ end }}
 		</div>
-		{{ $paginator := .Paginate (where .Site.Pages) }}
+		{{ $paginator := .Paginate (where .Site.Pages "Type" "posts") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}
-		{{ partial "pagination.html" . }}
+		<!-- {{ partial "pagination.html" . }} -->
 	</main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}

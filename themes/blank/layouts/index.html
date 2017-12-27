@@ -1,6 +1,19 @@
 {{ partial "header.html" . }}
-	<main>
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+	<!-- === root index === -->
+	<main aria-role="main" class="site-content">
+
+		{{ with .Params.subtitle }}
+			 <span class="subtitle">{{ . }}</span>
+		{{ end }}
+		<div class="site-content__homePage">
+			{{ .Content }}
+		</div>
+		<div class="site-data">
+			{{ range first 20 .Data.Pages }}
+        {{ .Render "summary"}}
+      {{ end }}
+		</div>
+		{{ $paginator := .Paginate (where .Site.Pages) }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}

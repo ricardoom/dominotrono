@@ -4,5 +4,5 @@ date: {{ .Date }}
 draft: false
 categories: "experiments"
 author: Ricardo G.
-tags: [ "canvas", "svg", "css" ]
+tags: []
 ---

@@ -458,6 +458,10 @@ a:active {
   font-size: 2em;
 }
 
+.site-experiments {
+  background-color: #2b4d62;
+}
+
 .asidebar-prime {
   background: #4a86aa;
   padding: 3ex 0;
@@ -465,7 +469,8 @@ a:active {
 
 @media (min-width: 48.01em) {
   .asidebar-prime__sidebarTitle {
-    background-color: #bad;
+    background: #4b87ac;
+    border-left: 3em solid #c0ff08;
   }
 }
 

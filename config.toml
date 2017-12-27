@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://bulletprooftoupee.com/"
 languageCode = "en-us"
 title = "bulletprooftoupee"
 theme="blank"
@@ -6,3 +6,4 @@ defaultLayout="posts"
 
 [params]
   author="Ricardo Galvez"
+  subtitle="we run the rondo"

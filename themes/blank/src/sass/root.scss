@@ -63,6 +63,14 @@ a {
   }
 }
 
+///
+/// site experiments
+///
+
+.site-experiments {
+  background-color: darken($site-background-color, 0.2);
+}
+
 //
 // Sidebar prime
 // to its own partial
@@ -74,7 +82,8 @@ a {
 
   &__sidebarTitle {
     @include media(">tablet") {
-    background-color: #bad;
+      background: lighten($site-green-blue, 0.5);
+      border-left: 3em solid $site-acid-green;
      }
   }
 

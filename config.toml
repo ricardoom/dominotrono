@@ -5,5 +5,4 @@ theme="blank"
 defaultLayout="posts"
 
 [params]
-  subtitle="we build the indigo"
   author="Ricardo Galvez"

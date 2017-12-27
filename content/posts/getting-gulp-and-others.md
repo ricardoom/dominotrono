@@ -2,6 +2,7 @@
 title: "Getting Gulp and Others"
 date: 2017-12-17T22:29:33-05:00
 draft: false
+tags: [ "javascript", "sass", "css"]
 ---
 
 ## What do you need gulp.js for anyway?

@@ -418,7 +418,7 @@ html {
   background-color: #2b4e63;
   color: #fff;
   font-family: sans-serif;
-  font-size: 76.95%;
+  font-size: 62.5%;
 }
 
 body {
@@ -428,7 +428,7 @@ body {
 }
 
 body.minus-body {
-  font-size: 65.4075%;
+  font-size: 53.125%;
 }
 
 a:link {
@@ -480,6 +480,16 @@ a:active {
   padding: 2ex 2em;
 }
 
+.site-tags {
+  margin: 2ex 0;
+  padding: 0;
+}
+
+.site-tags__tag {
+  display: inline-block;
+  font-style: italic;
+}
+
 .site-footer {
   background: #111;
   -webkit-box-sizing: border-box;
@@ -490,7 +500,7 @@ a:active {
 }
 
 .site-footer__siteCredit {
-  font-size: 269.325%;
+  font-size: 218.75%;
   margin: 0;
 }
 

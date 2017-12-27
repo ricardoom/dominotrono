@@ -1,8 +1,13 @@
-// type family
+///
+/// type family
+///
 $serif: serif;
 $sans-serif: sans-serif;
 $monospace: monospace;
-// type size
-$base-font: 76.95%;
+
+///
+/// type size
+///
+$base-font: 62.5%;
 $base-font-small: ($base-font * 0.85);
 $base-font-gigantic: ($base-font * 3.5);

@@ -54,6 +54,7 @@ rules:
         margin:
           - em
           - '%'
+          - ex
   quotes:
     - 1
     - style: double

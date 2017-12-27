@@ -93,6 +93,20 @@ a {
   padding: 2ex 2em;
 }
 
+///
+/// Basic rules for tags
+///
+
+.site-tags {
+  margin: 2ex 0;
+  padding: 0;
+
+  &__tag {
+    display: inline-block;
+    font-style: italic;
+  }
+}
+
 //
 // Footer
 // to its own partial

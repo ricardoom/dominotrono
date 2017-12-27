@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 	<main>
-    <p>++ section list template ++</p>
+    <p>++ experiments list template ++</p>
     <p>here we have layouts/_default/experiments/list.html</p>
 		{{ $paginator := .Paginate (where .Data.Pages "Type" "experiments") }}
 		{{ range $paginator.Pages }}

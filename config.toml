@@ -2,3 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "bulletprooftoupee"
 theme="blank"
+defaultLayout="posts"
+
+[params]
+  subtitle="we build the indigo"
+  author="Ricardo Galvez"

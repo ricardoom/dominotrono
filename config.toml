@@ -2,7 +2,7 @@ baseURL = "http://bulletprooftoupee.com/"
 languageCode = "en-us"
 title = "bulletprooftoupee"
 theme="blank"
-defaultLayout="posts"
+#defaultLayout="posts"
 
 sectionPagesMenu = "main"
 

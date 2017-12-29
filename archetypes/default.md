@@ -1,6 +1,8 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+author: Ricardo G.
+categories: []
 date: {{ .Date }}
 draft: false
-author: Ricardo G.
+tags: []
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 ---

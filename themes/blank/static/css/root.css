@@ -436,7 +436,7 @@ template {
 }
 
 .site-navigation ul li {
-  border: 0.0625em dotted #f544ae;
+  border-bottom: 0.1875em solid #f544ae;
   height: 2ex;
   padding: 2ex;
 }
@@ -528,14 +528,13 @@ li {
 
 @media (min-width: 48.01em) {
   .asidebar-prime__sidebarTitle {
-    background: #4b87ac;
     border-left: 3em solid #c0ff08;
   }
 }
 
 .asidebar-prime__sidebarList {
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 3.5em;
   padding: 0;
 }
 

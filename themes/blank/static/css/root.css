@@ -414,6 +414,24 @@ template {
   display: none;
 }
 
+@media (min-width: 20.01em) {
+  article {
+    background: pink;
+  }
+}
+
+@media (min-width: 48.01em) {
+  article {
+    background: yellow;
+  }
+}
+
+@media (min-width: 64.01em) {
+  article {
+    background: blue;
+  }
+}
+
 .site-navigation ul {
   display: inline-block;
   margin: 0;
@@ -492,7 +510,8 @@ a:active {
 
 a:focus {
   outline: none;
-  border: 0.0625em dotted #fbae6c;
+  -webkit-box-shadow: inset 0 0 0 0.0625em #fbae6c;
+  box-shadow: inset 0 0 0 0.0625em #fbae6c;
 }
 
 li {

@@ -16,3 +16,22 @@ $monospace: "SFMono-Regular", Consolas, "Andale Mono WT", "Andale Mono", "Lucida
 $base-font: 62.5%;
 $base-font-small: ($base-font * 0.85);
 $base-font-gigantic: ($base-font * 3.5);
+$base-letter-spacing: 0.01;
+
+///
+/// Basic typographic rules
+///
+
+article {
+  @include media(">phone") {
+    background: pink;
+  }
+
+  @include media(">tablet") {
+    background: yellow;
+  }
+
+  @include media(">desktop") {
+    background: blue;
+  }
+}

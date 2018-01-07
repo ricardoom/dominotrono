@@ -3,11 +3,11 @@
 //
 
 @import "vendor/normalize";
+@import "vendor/include_media";
+@import "vendor/fluid_type.scss";
+@import "partials/custom_breakpoints";
 @import "partials/typography";
 @import "partials/colors";
-@import "vendor/include_media";
-@import "partials/custom_breakpoints";
-@import "vendor/fluid_type.scss";
 @import "partials/grid";
 @import "partials/nav";
 
@@ -52,15 +52,14 @@ a {
 
   &:focus {
     outline: none;
-    border: (1em / 16) dotted $site-focus-ring;
+    //border: (1em / 16) dotted $site-focus-ring;
+    box-shadow: inset 0 0 0 (1em / 16) $site-focus-ring;
   }
 }
 
 ///
-/// Override the webkit focus for  our own
+/// Override the webkit focus with our own
 ///
-
-
 
 li {
   list-style: none;

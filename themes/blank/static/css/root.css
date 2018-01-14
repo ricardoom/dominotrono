@@ -414,22 +414,14 @@ template {
   display: none;
 }
 
-@media (min-width: 20.01em) {
-  article {
-    background: pink;
-  }
+h1 {
+  font-weight: 200;
 }
 
-@media (min-width: 48.01em) {
-  article {
-    background: yellow;
-  }
-}
-
-@media (min-width: 64.01em) {
-  article {
-    background: blue;
-  }
+.site-single__default {
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  font-size: 1.8rem;
+  line-height: 1.65;
 }
 
 .site-navigation ul {
@@ -460,8 +452,8 @@ template {
 }
 
 .site-navigation ul li:nth-child(1) {
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
+  -ms-flex-preferred-size: 70%;
+  flex-basis: 70%;
 }
 
 .site-navigation ul li:nth-child(2) {
@@ -475,7 +467,7 @@ template {
 }
 
 html {
-  background-color: #2b4e63;
+  background-color: #06172b;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 62.5%;
@@ -537,11 +529,11 @@ li {
 }
 
 .site-experiments {
-  background-color: #2b4d62;
+  background-color: #06172a;
 }
 
 .asidebar-prime {
-  background: #2a4b60;
+  background: #051527;
   padding: 3ex 0;
 }
 
@@ -558,7 +550,7 @@ li {
 }
 
 .site-pagination {
-  background-color: #5793b6;
+  background-color: #16539b;
   padding: 2ex 2em;
 }
 

@@ -24,14 +24,26 @@ $base-letter-spacing: 0.01;
 
 article {
   @include media(">phone") {
-    background: pink;
+    //background: pink;
   }
 
   @include media(">tablet") {
-    background: yellow;
+    //background: yellow;
   }
 
   @include media(">desktop") {
-    background: blue;
+    //background: blue;
+  }
+}
+
+h1 {
+  font-weight: 200;
+}
+
+.site-single {
+  &__default {
+    font-family: $serif;
+    font-size: 1.8rem;
+    line-height: 1.65;
   }
 }

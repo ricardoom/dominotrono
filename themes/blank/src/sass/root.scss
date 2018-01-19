@@ -6,8 +6,8 @@
 @import "vendor/include_media";
 @import "vendor/fluid_type.scss";
 @import "partials/custom_breakpoints";
-@import "partials/typography";
 @import "partials/colors";
+@import "partials/typography";
 @import "partials/grid";
 @import "partials/nav";
 
@@ -18,10 +18,13 @@ html {
   font-size: $base-font;
 }
 
-body {
+header,
+main,
+footer {
   font-size: 1.6rem;
   margin: 0 auto;
-  width: 80%;
+  padding: 0 0 0 15vw;
+  width: 85vw;
 
   &.minus-body {
     font-size: $base-font-small;
@@ -70,7 +73,7 @@ li {
 ///
 
 .site-header {
-  padding: 3ex 0;
+  padding: 3ex inherit;
 
   &__siteName {
 
@@ -84,6 +87,36 @@ li {
     0.15rem 0.15rem 0 rgba(0, 0, 0, 0.75),
     0.25rem 0.25rem 0 rgba(0, 0, 0, 0.5),
     0.35rem 0.35rem 0 rgba(0, 0, 0, 0.15);
+  }
+}
+
+///
+/// Home Page
+///
+///
+
+.site-content {
+
+  .subtitle {
+    display: block;
+    font-style: oblique;
+    padding: 1ex 0;
+  }
+}
+
+///
+/// Articles. Posts and general page rules
+/// But not typographic...
+///
+
+time {
+  @include media(">phone") {
+  // transform: rotate(-90deg);
+  // transform-origin: top right;
+  min-width: 5em;
+  position: relative;
+  top: 1em;
+  left: 0;
   }
 }
 

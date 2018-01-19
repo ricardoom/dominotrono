@@ -25,12 +25,12 @@ Some things that still need doing before long:
   * it would be cool to have screen shots after each commit
   * some sort of shell script might be in order
 * Fix the about page
-  * should be a combination of bio and resume, w/ a downloadable resume or just have a really good `print.css` file set up.
+  * should be a combination of bio and resume, w/ a downloadable resume or just have a really good print.css file set up.
 * Move this site an logogogo out of my nypl github account
 * do a better job of documentation in general
 
 Oveall the whole point of this exercise to get better at web development in general w/ an emphasis on the front end
 
-  * `svg`
+  * svg
   * animations
-  * `css`
+  * css

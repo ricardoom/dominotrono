@@ -5,7 +5,7 @@
 
 $sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-$serif: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+$serif: "Liberation Serif", Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 
 $monospace: "SFMono-Regular", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
@@ -21,18 +21,23 @@ $base-letter-spacing: 0.01;
 ///
 /// Basic typographic rules
 ///
+code {
+  font-family: $monospace;
+  font-size: 1.4rem;
+}
 
 article {
+  // We want to control overall line length, so we set the width of the container here:
   @include media(">phone") {
-    //background: pink;
+    max-width: 31em;
   }
 
   @include media(">tablet") {
-    //background: yellow;
+    max-width: 25em;
   }
 
   @include media(">desktop") {
-    //background: blue;
+    max-width: 20em;
   }
 }
 
@@ -40,10 +45,36 @@ h1 {
   font-weight: 200;
 }
 
+.site-author {
+  font-size: 1.3rem;
+}
+
 .site-single {
-  &__default {
-    font-family: $serif;
-    font-size: 1.8rem;
-    line-height: 1.65;
+  &__content {
+
+    h2 {
+      font-weight: 100;
+    }
+
+    p, ul  {
+      //font-family: $serif;
+      font-size: 1.8rem;
+      font-weight: 100;
+      line-height: 1.65;
+    }
+
+    ul {
+      background: lighten($site-dark-blue, 0.8);
+      border-left: 1em solid $site-white;
+      padding-left: 0.5em;
+
+      > li ul {
+        border: 0;
+      }
+    }
   }
+}
+
+.asidebar-prime {
+  font-size: 1.6rem;
 }

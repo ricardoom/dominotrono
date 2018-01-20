@@ -18,17 +18,37 @@ html {
   font-size: $base-font;
 }
 
+body {
+  font-size: 1.6rem;
+}
+
 header,
 main,
 footer {
-  font-size: 1.6rem;
-  margin: 0 auto;
-  padding: 0 0 0 15vw;
-  width: 85vw;
+
+  @include media(">=phone") {
+    background-color: lighten($site-background-color, 1%);
+    padding: 0 0 0 2vw;
+    width: 90vw;
+  }
+
+  @include media(">=tablet") {
+    background-color: lighten($site-background-color, 8%);
+    padding: 0 0 0 15vw;
+    width: 80vw;
+  }
+
+  @include media(">=desktop") {
+    background-color: lighten($site-background-color, 5%);
+    padding: 0 0 0 10vw;
+    width: 60vw;
+  }
 
   &.minus-body {
     font-size: $base-font-small;
   }
+
+  margin: 0 auto;
 }
 
 ///
@@ -73,7 +93,8 @@ li {
 ///
 
 .site-header {
-  padding: 3ex inherit;
+  padding-top: 3ex;
+  padding-bottom: 3ex;
 
   &__siteName {
 
@@ -117,6 +138,17 @@ time {
   position: relative;
   top: 1em;
   left: 0;
+  }
+}
+
+.site-single {
+
+  &__content {
+    //background: $site-punk-pink;
+
+    .shortcode-canvas {
+      border: 1px solid $site-punk-pink;
+    }
   }
 }
 

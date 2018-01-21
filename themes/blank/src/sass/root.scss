@@ -33,13 +33,13 @@ footer {
   }
 
   @include media(">=tablet") {
-    background-color: lighten($site-background-color, 8%);
+    background-color: lighten($site-background-color, 5%);
     padding: 0 0 0 15vw;
     width: 80vw;
   }
 
   @include media(">=desktop") {
-    background-color: lighten($site-background-color, 5%);
+    background-color: lighten($site-background-color, 8.5%);
     padding: 0 0 0 10vw;
     width: 60vw;
   }
@@ -195,12 +195,14 @@ time {
 ///
 
 .site-tags {
+  background: $site-black;
   margin: 2ex 0;
   padding: 0;
 
   &__tag {
     display: inline-block;
     font-style: italic;
+    @include responsive-font(4vw, 3em);
   }
 }
 

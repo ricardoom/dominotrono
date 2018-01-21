@@ -14,4 +14,4 @@ A few things to consider:
 * learning and reading
 * in the end discipline is key
 
-much to do. with time running out
+much to do. with time running out.

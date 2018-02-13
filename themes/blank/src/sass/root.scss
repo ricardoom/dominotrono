@@ -10,9 +10,11 @@
 @import "partials/typography";
 @import "partials/grid";
 @import "partials/nav";
+@import "partials/articles";
 
 html {
   background-color: $site-background-color;
+  background: linear-gradient(187deg, lighten($site-background-color, 1%) 0%, lighten($site-background-color, 15%) 100%);
   color: $site-white;
   font-family: $sans-serif;
   font-size: $base-font;
@@ -28,19 +30,19 @@ footer {
 
   @include media(">=phone") {
     background-color: lighten($site-background-color, 1%);
-    padding: 0 0 0 2vw;
+    padding: 0 0 0 2ex;
     width: 90vw;
   }
 
   @include media(">=tablet") {
     background-color: lighten($site-background-color, 5%);
-    padding: 0 0 0 15vw;
+    padding: 0 0 0 15ex;
     width: 80vw;
   }
 
   @include media(">=desktop") {
     background-color: lighten($site-background-color, 8.5%);
-    padding: 0 0 0 10vw;
+    padding: 0 0 0 10ex;
     width: 60vw;
   }
 
@@ -88,6 +90,9 @@ li {
   list-style: none;
 }
 
+
+
+///
 /// the main site header
 /// eventually to its own partial
 ///
@@ -98,7 +103,7 @@ li {
 
   &__siteName {
 
-    @include responsive-font(5vw, 2.75em);
+    @include responsive-font(6vw, 2.1em);
 
     color: $site-white;
     font-family: $sans-serif;
@@ -111,9 +116,10 @@ li {
   }
 }
 
+
+
 ///
 /// Home Page
-///
 ///
 
 .site-content {
@@ -126,29 +132,26 @@ li {
 }
 
 ///
-/// Articles. Posts and general page rules
-/// But not typographic...
+/// List page / template summary rules
 ///
 
-time {
-  @include media(">phone") {
-  // transform: rotate(-90deg);
-  // transform-origin: top right;
-  min-width: 5em;
-  position: relative;
-  top: 1em;
-  left: 0;
+.site-summary {
+  @include media(">=phone") {
+    border-bottom: 3vh solid $site-dark-blue;
+    max-width: 90vw;
   }
-}
+  @include media(">=tablet") {
+    border-bottom: 3vh solid $site-green-blue;
+    max-width: 70vw;
+  }
+  @include media(">=desktop") {
+    border-bottom: 4vh solid $site-green-blue;
+    max-width: 70vw;
+    padding-right: 3vw;
+  }
 
-.site-single {
-
-  &__content {
-    //background: $site-punk-pink;
-
-    .shortcode-canvas {
-      border: 1px solid $site-punk-pink;
-    }
+  &__copy {
+    line-height: 1.6;
   }
 }
 

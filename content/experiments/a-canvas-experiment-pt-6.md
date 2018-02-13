@@ -1,5 +1,5 @@
 ---
-title: "Another Bad Post"
+title: "A Canvas Experiment Pt 6"
 date: 2017-12-27T18:24:35-05:00
 categories: "experiments"
 draft: false

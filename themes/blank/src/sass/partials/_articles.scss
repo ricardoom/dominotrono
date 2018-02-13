@@ -1,0 +1,25 @@
+///
+/// Articles. Posts and general page rules
+/// But not typographic...
+///
+
+time {
+  @include media(">=phone") {
+  // transform: rotate(-90deg);
+  // transform-origin: top right;
+  min-width: 5em;
+  position: relative;
+  top: 1em;
+  left: 0;
+  }
+}
+
+.site-single {
+
+  &__content {
+
+    .shortcode-canvas {
+      border-left: 0.8rem solid $site-punk-pink;
+    }
+  }
+}

@@ -30,7 +30,7 @@ const autoprefixerOptions = {
 gulp.task('js', function () {
   return gulp.src(jsInput)
   .pipe(concat('main.js'))
-  .pipe(uglify())
+  //.pipe(uglify())
   .pipe(gulp.dest(jsOutput));
 });
 

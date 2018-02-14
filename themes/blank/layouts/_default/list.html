@@ -1,6 +1,8 @@
+<!--
+++ default list template ++
+-->
 {{ partial "header.html" . }}
 	<main>
-		++ default list template ++
 		{{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}

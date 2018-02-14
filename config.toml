@@ -8,4 +8,7 @@ sectionPagesMenu = "main"
 
 [params]
   author="Ricardo Galvez"
-  subtitle="we run the rondo"
+  subtitle="Projects, Creative Works and Writings of Ricardo E. Galvez"
+
+[permalinks]
+    post = "/:year/:month/:title/"

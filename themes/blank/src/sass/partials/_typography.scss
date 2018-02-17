@@ -37,7 +37,8 @@ article {
   }
 
   @include media(">desktop") {
-    max-width: 20em;
+    max-width: 50vw;
+    overflow: auto;
   }
 }
 
@@ -52,8 +53,10 @@ h1 {
 .site-single {
   &__content {
 
-    h2 {
+    h2,
+    h3 {
       font-weight: 100;
+      margin-bottom: 0.5ex;
     }
 
     p, ul  {
@@ -64,13 +67,15 @@ h1 {
     }
 
     ul {
-      background: lighten($site-dark-blue, 0.8);
-      border-left: 1em solid $site-white;
+      border-left: 0.25ex solid transparentize($site-white, 0.45);
       padding-left: 0.5em;
 
       > li ul {
         border: 0;
       }
+    }
+    h3 + ul {
+      margin-top: 0.5ex;
     }
   }
 }

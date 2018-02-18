@@ -34,19 +34,27 @@ This project is to fulfill a couple ends. The first is purely for professional d
 ### Wireframes
 
 ### Implementation
-* data from weather station
+* Hardware
   - Arudino
   - raspberryPi
-* data from garden sensors
+* Software
+  - wiring / processing Arduino I/O
+  - node
+  - html / js front end UI
+* Data
+  - from weather station
+  - data from garden sensors
   - soil temp
   - air temp
   - moisture levels
+  - UV levels
 * UI
+  - main page / system status dashboard
+    * see Data section above
   - irrigation control
   - greenhouse control
     * ventilation
-  - system status dashboard
-  - garden cameras
+  - _Optional:_ garden cameras
     * IR raspberryPi (NoIR?) cameras
 * Database
 

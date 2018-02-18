@@ -203,10 +203,10 @@ li {
 
 .site-footer {
   background: $site-black;
-  box-sizing: border-box;
-  font-family: $sans-serif;
-  min-height: 5em;
-  padding: 1em;
+  //box-sizing: border-box;
+  //font-family: $sans-serif;
+  height: 15vh;
+  padding-top: 1ex;
 
   &__siteCredit {
     font-size: $base-font-gigantic;

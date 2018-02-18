@@ -13,7 +13,8 @@
      }
   }
 
-  &__sidebarList {
+  &__sidebarList,
+  &__sidebarTags {
     list-style: none;
     padding: 0;
   }

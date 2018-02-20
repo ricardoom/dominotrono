@@ -1,0 +1,21 @@
+///
+/// A Sidebar Prime
+///
+
+
+.asidebar-prime {
+  background: darken($site-background-color, 0.9);
+
+
+  &__sidebarTitle {
+    @include media(">tablet") {
+      border-left: 3em solid $site-acid-green;
+     }
+  }
+
+  &__sidebarList,
+  &__sidebarTags {
+    list-style: none;
+    padding: 0;
+  }
+}

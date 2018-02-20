@@ -9,7 +9,7 @@
 				</ul>
 
 				<h3 class="asidebar-prime__sidebarTitle">Categories</h3>
-				<ul class="tags">
+				<ul class="asidebar-prime__sidebarTags">
   				{{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
    					<li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
   				{{ end }}

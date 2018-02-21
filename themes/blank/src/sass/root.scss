@@ -146,15 +146,15 @@ li {
 
 .site-summary {
   @include media(">=phone") {
-    border-bottom: 3vh solid $site-dark-blue;
+    border-bottom: 0.5vh dotted $site-dark-blue;
     max-width: 90vw;
   }
   @include media(">=tablet") {
-    border-bottom: 3vh solid $site-green-blue;
+    border-bottom: 0.3vh dotted $site-green-blue;
     max-width: 70vw;
   }
   @include media(">=desktop") {
-    border-bottom: 4vh solid $site-green-blue;
+    border-bottom: 0.4vh dashed $site-green-blue;
     max-width: 70vw;
     padding-right: 3vw;
   }

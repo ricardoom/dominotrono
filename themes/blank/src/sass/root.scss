@@ -24,70 +24,42 @@ html {
 
 body {
   font-size: 1.6rem;
+
 }
 
 header,
 main,
 footer,
 .asidebar-prime {
+  margin: 0 auto;
+  //overflow: auto;
+}
+
+.full-width-wrapper {
 
   @include media(">=phone") {
     background-color: $small-bg-color;
-    padding: 0 0 0 2ex;
+    //padding: 0 0 0 2ex;
     width: 90vw;
   }
 
   @include media(">=tablet") {
     background-color: $medium-bg-color;
-    padding: 0 0 0 15ex;
+    //padding: 0 0 0 15ex;
     width: 80vw;
   }
 
   @include media(">=desktop") {
     background-color: $large-bg-color;
-    padding: 0 0 0 10ex;
+    //padding: 0 0 0 15%;
     width: 60vw;
   }
 
   &.minus-body {
     font-size: $base-font-small;
   }
-
-  margin: 0 auto;
-  overflow: auto;
 }
 
-///
-/// Set a base link style here:
-///
-
-a {
-  &:link {
-    @include descender(
-    $large-bg-color
-    );
-    color: $site-link;
-  }
-
-  &:visited {
-    color: $site-link-visited;
-  }
-
-  &:hover {
-    // background-color: $site-link-hover-bg;
-    // color: $site-main-text-color;
-  }
-
-  &:active {
-    background-color: $site-link-active-bg;
-  }
-
-  &:focus {
-    outline: none;
-    //border: (1em / 16) dotted $site-focus-ring;
-    box-shadow: inset 0 0 0 (1em / 16) $site-focus-ring;
-  }
-}
 
 ///
 /// Override the webkit focus with our own
@@ -96,7 +68,6 @@ a {
 li {
   list-style: none;
 }
-
 
 
 ///
@@ -142,15 +113,22 @@ li {
     font-style: oblique;
     padding: 1ex 0;
   }
+
+/// to its own partial
+  &__jumboJumbo {
+    background: transparent;
+    height: 85vh;
+  }
 }
 
 ///
 /// List page / template summary rules
 ///
 
+
 .site-summary {
   @include media(">=phone") {
-    border-bottom: 0.5ex dotted $site-dark-blue;
+    border-bottom: 0.5vh dotted $site-dark-blue;
     max-width: 90vw;
   }
   @include media(">=tablet") {
@@ -158,13 +136,17 @@ li {
     max-width: 70vw;
   }
   @include media(">=desktop") {
-    border-bottom: 0.4vh dashed $site-green-blue;
+    border-bottom: 0.4vh dotted $site-green-blue;
     max-width: 70vw;
     padding-right: 3vw;
   }
 
   &__copy {
     line-height: 1.6;
+  }
+
+  &__tags {
+    display: inline-block;
   }
 }
 
@@ -213,7 +195,7 @@ li {
   padding-top: 1ex;
 
   &__siteCredit {
-    font-size: $base-font-gigantic;
+    font-size: $base-font-small;
     margin: 0;
   }
 }

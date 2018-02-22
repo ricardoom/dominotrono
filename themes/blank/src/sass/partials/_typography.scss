@@ -26,14 +26,17 @@ $base-letter-spacing: 0.01;
 /// descender fixing
 ///
 
-@mixin descender($descender-bg) {
-  text-decoration: none;
-  padding: 10px 0;
+@mixin descender(
+  //$color: $site-white,
+  $descender-bg: '') {
   background-image: linear-gradient(currentColor,currentColor);
   background-repeat: no-repeat;
   background-size: 100% 0.0625em;
   background-position: center bottom 21%;
   background-origin: padding-box;
+  //color: $color;
+  padding: 10px 0;
+  text-decoration: none;
   text-shadow:
     3px 0 $descender-bg,
     2px 0 $descender-bg,
@@ -43,6 +46,42 @@ $base-letter-spacing: 0.01;
     -3px 0 $descender-bg;
   transition: color 0.1s ease-out;
 }
+
+
+
+///
+/// Set a base link style here:
+///
+
+a {
+  &:link {
+    @include descender(
+      $large-bg-color
+    );
+    color: $site-link;
+  }
+
+  &:visited {
+    color: $site-link-visited;
+    text-shadow: $site-link-visited;
+  }
+
+  &:hover {
+    // background-color: $site-link-hover-bg;
+    // color: $site-main-text-color;
+  }
+
+  &:active {
+    background-color: $site-link-active-bg;
+  }
+
+  &:focus {
+    outline: none;
+    //border: (1em / 16) dotted $site-focus-ring;
+    box-shadow: inset 0 0 0 (1em / 16) $site-focus-ring;
+  }
+}
+
 
 
 ///
@@ -56,17 +95,17 @@ code {
 article {
   // We want to control overall line length, so we set the width of the container here:
   @include media(">phone") {
-    max-width: 31em;
+    max-width: 90vw;
   }
 
   @include media(">tablet") {
-    max-width: 25em;
+    max-width: 75vw;
   }
 
   @include media(">desktop") {
-    max-width: 50vw;
-    overflow: auto;
+    max-width: 65vw;
   }
+  overflow: auto;
 }
 
 h1 {

@@ -1,9 +1,13 @@
 {{ partial "header.html" . }}
 	<!-- === root index === -->
 	<main class="site-content">
+		<div class="full-width-wrapper">
 		{{ with $.Site.Params.subtitle }}
 			 <span class="subtitle">{{ . }}</span>
 		{{ end }}
+		<div class="site-content__jumboJumbo">
+			{{ partial "jumbo.html" . }}
+		</div>
 		<div class="site-content__homePage">
 			{{ .Content }}
 		</div>
@@ -15,7 +19,7 @@
 		{{ $paginator := .Paginate (where .Site.Pages "Type" "posts") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
-		{{ end }}
+		{{ end }}</div>
 		<!-- {{ partial "pagination.html" . }} -->
 	</main>
 {{ partial "sidebar.html" . }}

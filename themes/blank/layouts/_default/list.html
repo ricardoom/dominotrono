@@ -3,10 +3,10 @@
 -->
 {{ partial "header.html" . }}
 	<main>
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+		<div class="full-width-wrapper">{{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
-		{{ end }}
+		{{ end }}</div>
 		<!-- {{ partial "pagination.html" . }} -->
 	</main>
 {{ partial "sidebar.html" . }}

@@ -18,6 +18,7 @@ const output = 'themes/blank/static/css';
 const jsInput = 'themes/blank/src/js/**/*.js';
 const jsOutput = 'themes/blank/static/js';
 
+
 const sassOptions = {
   errLogToConsole: true,
   outputStyle: 'compressed'
@@ -26,6 +27,9 @@ const sassOptions = {
 const autoprefixerOptions = {
   browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
 };
+
+
+
 // gulp tasks:
 gulp.task('js', function () {
   return gulp.src(jsInput)

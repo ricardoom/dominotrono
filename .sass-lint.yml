@@ -47,6 +47,7 @@ rules:
         - '%'
         - s
         - vw
+        - vh
         - em
         - ex
       per-property:

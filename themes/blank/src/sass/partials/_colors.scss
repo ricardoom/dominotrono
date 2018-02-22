@@ -21,3 +21,11 @@ $site-link: $site-white;
 $site-link-visited: $site-punk-pink;
 $site-link-hover-bg: $site-acid-green;
 $site-link-active-bg: $site-green-blue;
+
+///
+/// per screen size bg colors
+///
+
+$small-bg-color: lighten($site-background-color, 1%);
+$medium-bg-color: lighten($site-background-color, 5%);
+$large-bg-color: lighten($site-background-color, 8.5%);

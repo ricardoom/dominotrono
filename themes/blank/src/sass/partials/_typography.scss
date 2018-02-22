@@ -19,6 +19,33 @@ $base-font-gigantic: ($base-font * 3.5);
 $base-letter-spacing: 0.01;
 
 ///
+/// Mixins
+///
+
+///
+/// descender fixing
+///
+
+@mixin descender($descender-bg) {
+  text-decoration: none;
+  padding: 10px 0;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-repeat: no-repeat;
+  background-size: 100% 0.0625em;
+  background-position: center bottom 21%;
+  background-origin: padding-box;
+  text-shadow:
+    3px 0 $descender-bg,
+    2px 0 $descender-bg,
+    1px 0 $descender-bg,
+    -1px 0 $descender-bg,
+    -2px 0 $descender-bg,
+    -3px 0 $descender-bg;
+  transition: color 0.1s ease-out;
+}
+
+
+///
 /// Basic typographic rules
 ///
 code {

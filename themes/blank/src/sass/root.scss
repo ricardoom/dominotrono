@@ -7,6 +7,7 @@
 @import "vendor/fluid_type.scss";
 @import "partials/custom_breakpoints";
 @import "partials/colors";
+//@import "partials/type/descender";
 @import "partials/typography";
 @import "partials/grid";
 @import "partials/nav";
@@ -31,19 +32,19 @@ footer,
 .asidebar-prime {
 
   @include media(">=phone") {
-    background-color: lighten($site-background-color, 1%);
+    background-color: $small-bg-color;
     padding: 0 0 0 2ex;
     width: 90vw;
   }
 
   @include media(">=tablet") {
-    background-color: lighten($site-background-color, 5%);
+    background-color: $medium-bg-color;
     padding: 0 0 0 15ex;
     width: 80vw;
   }
 
   @include media(">=desktop") {
-    background-color: lighten($site-background-color, 8.5%);
+    background-color: $large-bg-color;
     padding: 0 0 0 10ex;
     width: 60vw;
   }
@@ -62,6 +63,9 @@ footer,
 
 a {
   &:link {
+    @include descender(
+    $large-bg-color
+    );
     color: $site-link;
   }
 
@@ -70,8 +74,8 @@ a {
   }
 
   &:hover {
-    background-color: $site-link-hover-bg;
-    color: $site-main-text-color;
+    // background-color: $site-link-hover-bg;
+    // color: $site-main-text-color;
   }
 
   &:active {
@@ -146,7 +150,7 @@ li {
 
 .site-summary {
   @include media(">=phone") {
-    border-bottom: 0.5vh dotted $site-dark-blue;
+    border-bottom: 0.5ex dotted $site-dark-blue;
     max-width: 90vw;
   }
   @include media(">=tablet") {

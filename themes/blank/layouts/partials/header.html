@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/root.css">
 	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
 	{{ .Hugo.Generator }}
+	<script src="{{ .Site.BaseURL }}js/p5/p5.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/sketch.js"></script>
 </head>
 <body>
 	<header class="site-header">

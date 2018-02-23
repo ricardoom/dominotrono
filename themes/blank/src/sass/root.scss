@@ -113,7 +113,9 @@ li {
     font-style: oblique;
     padding: 1ex 0;
   }
-
+  &__homePage {
+    width: 90vw;
+  }
 /// to its own partial
   &__jumboJumbo {
     background: transparent;

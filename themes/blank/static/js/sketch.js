@@ -1,5 +1,6 @@
 
 
+
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
   cnv.parent('canvas-container');
@@ -7,13 +8,16 @@ function setup() {
 }
 
 function goData(data) {
-  console.log(data);
+  //console.log(data);
   //background(255, 0, 200);
-  // for (var i= 0; i < data.number; i++) {
-  //   ellipse(random(width), random(height), random(64), random(64));
-  //   fill(255);
-  // }
+  for (var i= 0; i < data.number; i++) {
+    rect(random(width), random(height), random(64), random(64));
+    fill(255);
+  }
 }
+
+
+
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);

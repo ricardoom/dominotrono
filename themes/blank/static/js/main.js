@@ -138,6 +138,51 @@ if (jumboCanvas != null) {
 }
 
 
+var newJumbo = document.querySelector('.new-jumbo');
+
+/// here are the papers!
+
+// var myPath = new Path();
+// myPath.strokeColor = 'black';
+// myPath.add(new Point(0, 0));
+// myPath.add(new Point(100, 50));
+
+
+
+
+function setup() {
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.parent('canvas-container');
+  loadJSON("http://api.openweathermap.org/data/2.5/weather?zip=11221,us&units=imperial&appid=d335a16d5b5a98484b5566b3f3e2991e", goData);
+}
+
+function goData(data) {
+  //console.log(data);
+  //background(255, 0, 200);
+  for (var i= 0; i < data.number; i++) {
+    rect(random(width), random(height), random(64), random(64));
+    fill(255);
+  }
+}
+
+
+
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+
+
+// function draw() {
+//   if (mouseIsPressed) {
+//     fill(0);
+//   } else {
+//     fill(255);
+//   }
+//   ellipse(mouseX, mouseY, 80, 80);
+// }
+
 ///
 /// This is to get the time of day and then do stuff
 /// Mostly the idea is to change the background color
@@ -151,8 +196,28 @@ var bgcolors = [
   "#567",
   "#789",
   "#ABC",
-  "#AF0"
-]
+  "#AF0",
+  "#333",
+  "#444",
+  "#567",
+  "#7D9",
+  "#AFC",
+  "#A10",
+  "#3D3",
+  "#4A4",
+  "#537",
+  "#729",
+  "#A1C",
+  "#9F0",
+  "#333",
+  "#444",
+  "#5A7",
+  "#7E9",
+  "#1B2",
+  "#4D0",
+  "#7B9",
+  "#D09"
+];
 
 function addZero(i) {
   if (i < 10) {
@@ -166,19 +231,23 @@ function getHours() {
 var d = new Date();
 var h = addZero(d.getUTCHours() - 5);
 var m = addZero(d.getUTCMinutes());
-console.log(h,m);
+
+return h;
 }
 
 
 
 function setBackGround(color) {
   var container = document.querySelector('body');
-  console.log(container);
+  //console.log(container);
   // getHours()
   // look at the array of colors assign the colors sequentially
   // if its between 0 & 0:59 change the bg color to the first item in the color array [0], if its between 1 & 1:59 put change the color the second item in the array [1], etc
-  container.style.backgroundColor = bgcolors[4];
+  var theHour = getHours();
+  console.log(theHour);
+  container.style.backgroundColor = bgcolors[theHour];
 
+  // set the hour to the background arrary
 
 }
 

@@ -190,15 +190,15 @@ function windowResized() {
 
 // some colors... in an array;
 // might be easier in the future to work w/ HSL instead of Hex...
-var bgcolors = [
+const bgcolors = [
   "#333",
-  "#444",
+  "#4C4",
   "#567",
   "#789",
   "#ABC",
   "#AF0",
   "#333",
-  "#444",
+  "#1AC",
   "#567",
   "#7D9",
   "#AFC",
@@ -219,31 +219,41 @@ var bgcolors = [
   "#D09"
 ];
 
-function addZero(i) {
-  if (i < 10) {
-    i = "0" + i;
-  }
-  return i;
-}
+const bg-pairs = [
+  {
+    start: "#abc",
+    end: "#ef0"
+  },
+];
 
-// ask the time
+// where we want to put a 0 in front of our number,
+// since we're passing the value of time directly as a numeric corallary to our array, we dont want a zero. leaving here for ref. though.
+// function addZero(i) {
+//   if (i < 10) {
+//     i = "0" + i;
+//   }
+//   return i;
+// }
+// var h = addZero(d.getUTCHours() - 5);
+// var m = addZero(d.getUTCMinutes());
+
+
+// get the time
 function getHours() {
-var d = new Date();
-var h = addZero(d.getUTCHours() - 5);
-var m = addZero(d.getUTCMinutes());
+  const d = new Date();
+  let offset = d.getTimezoneOffset() / 60;
+  console.log(offset);
+  let h = d.getUTCHours() - offset;
 
 return h;
 }
 
 
-
 function setBackGround(color) {
   var container = document.querySelector('body');
-  //console.log(container);
-  // getHours()
   // look at the array of colors assign the colors sequentially
-  // if its between 0 & 0:59 change the bg color to the first item in the color array [0], if its between 1 & 1:59 put change the color the second item in the array [1], etc
-  var theHour = getHours();
+  // if its between 0 & 0:59 change the bg color to the first item in the color array [0], if its between 1 & 1:59 change the color the second item in the array [1], etc
+  let theHour = getHours();
   console.log(theHour);
   container.style.backgroundColor = bgcolors[theHour];
 

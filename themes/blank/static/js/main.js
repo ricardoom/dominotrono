@@ -237,8 +237,27 @@ function getHours() {
   let offset = d.getTimezoneOffset() / 60;
   //console.log(offset);
   let h = d.getUTCHours() - offset;
-  console.log(h);
-return h;
+
+  //if hour is later than 19 then do something
+  // function fixOffset() {
+  //     let o = offset % h;
+  //     if (h >= 19) {
+  //       // do stuff w/ o
+  //       o = h + o
+  //     }
+  //   console.log("this is the fixed offset number: " + o);
+  //   return o;
+  // }
+  // fixedTime = fixOffset();
+
+  //let h = d.getUTCHours() - offset;
+  // for each hour add 1
+  // until 0 (11:59)
+  // then start again dividing by 60
+  //
+  //console.log(h);
+
+ return h;
 }
 
 
@@ -248,7 +267,7 @@ function setBackGround() {
   // look at the array of colors assign the colors sequentially
   // if its between 0 & 0:59 change the bg color to the first item in the color array [0], if its between 1 & 1:59 change the color the second item in the array [1], etc
   let theHour = getHours();
-  //console.log(theHour);
+
   // set the background color to the corollary position in the bgColors array
   container.style.backgroundColor = bgcolors[theHour];
 }
@@ -259,14 +278,6 @@ function setBackGround() {
 /// Now now dot the graient works
 ///
 const bgPairs = [
-  // {
-  //   start: "#abc",
-  //   end: "#ef0"
-  // },
-  // {
-  //   start: "#db0",
-  //   end: "#1fa"
-  // },
   {
     start: [
         "#333",
@@ -277,7 +288,7 @@ const bgPairs = [
         "#AF0",
         "#333",
         "#1AC",
-        "#567",
+        "#5d7",
         "#7D9",
         "#AFC",
         "#A10",
@@ -326,17 +337,21 @@ const bgPairs = [
 function setBackGroundGradient() {
   const container = document.querySelector('body');
   let theHour = getHours();
+
   bgPairs.forEach(pair => {
-  //const getTheGradients = '$start, $end';
-  let getTheStart = pair.start;
-  let getTheEnd = pair.end;
-  console.log(getTheStart[theHour]);
-  console.log(getTheEnd[theHour]);
+
+    const start = pair.start;
+    const end = pair.end;
+
+    const colorStart = start;
+    const colorEnd = end;
+
+    //console.log(colorStart, colorEnd);
+    console.log(theHour);
   });
 
-  container.style.backgroundImage = 'linear-gradient(187deg,' + getTheStart[theHour] ',' + getTheEnd[theHour] ')';
+container.style.backgroundImage = "linear-gradient(187deg", + colorStart[6] + "," + colorEnd[2] + ")";
   //console.log(container);
-  //return gradient;
 }
 
 setBackGroundGradient();

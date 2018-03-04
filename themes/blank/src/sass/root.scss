@@ -50,9 +50,14 @@ footer,
   }
 
   @include media(">=desktop") {
-    background-color: $large-bg-color;
-    //padding: 0 0 0 15%;
-    width: 60vw;
+    //background-color: $large-bg-color;
+    background-color: transparent;
+    padding: 0 0 0 15%;
+    width: 100vw;
+
+    > :nth-child(n) {
+      width: 60vw;
+    }
   }
 
   &.minus-body {
@@ -116,11 +121,12 @@ li {
   &__homePage {
     width: 90vw;
   }
-/// to its own partial
-  &__jumboJumbo {
-    background: transparent;
-    height: 85vh;
-  }
+  /// to its own partial
+  ///
+  // &__jumboJumbo {
+  //   background: transparent;
+  //   height: 85vh;
+  // }
 }
 
 ///

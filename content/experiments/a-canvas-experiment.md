@@ -1,7 +1,7 @@
 ---
 title: "A Canvas Experiment"
 date: 2017-12-26T14:02:52-05:00
-draft: false
+draft: true
 tags: [ "canvas" ]
 ---
 

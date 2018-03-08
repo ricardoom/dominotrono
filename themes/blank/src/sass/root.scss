@@ -82,13 +82,24 @@ li {
 /// eventually to its own partial
 ///
 
+@keyframes dropIn {
+  from {
+    transform: translateX(-250px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
 .site-header {
+  animation: dropIn 2s running;
   // padding-top: 3ex;
   // padding-bottom: 3ex;
-
   &__siteName {
 
     @include responsive-font(4vw, 2.1em);
+
     color: $site-white;
     font-family: $sans-serif;
     font-weight: 500;

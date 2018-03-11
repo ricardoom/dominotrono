@@ -61,7 +61,7 @@ function fixTime() {
   console.log(fix);
    if (fix <= 19) {
      //fix = fix + (fix % 19);
-     fix = fix % 19;
+     fix = fix + (fix % 19);
      console.log("heyo " + fix);
    }
    //  else {

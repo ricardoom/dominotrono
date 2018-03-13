@@ -14,7 +14,8 @@
 <body>
 	<header class="site-header">
 		<div class="full-width-wrapper">
-			<a href="{{ .Site.BaseURL }}" class="site-header__siteName">{{ .Site.Title }}</a>
+			<div class="single-column">
+				<a href="{{ .Site.BaseURL }}" class="site-header__siteName">{{ .Site.Title }}</a>
 			<nav class="site-navigation">
 				<ul>
 					{{ range .Site.Menus.main }}
@@ -22,5 +23,6 @@
 					{{ end }}
 				</ul>
 			</nav>
+		</div>
 		</div>
 	</header>

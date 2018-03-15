@@ -264,7 +264,7 @@ function setBackGround() {
   // look at the array of colors assign the colors sequentially
   // if its between 0 & 0:59 change the bg color to the first item in the color array [0], if its between 1 & 1:59 change the color the second item in the array [1], etc
   let theHour = getHours();
-  //console.log(theHour);
+
   // set the background color to the corollary position in the bgColors array
   container.style.backgroundColor = bgcolors[theHour];
 }

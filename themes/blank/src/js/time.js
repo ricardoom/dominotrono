@@ -52,29 +52,26 @@ function getHours() {
   let offset = d.getTimezoneOffset() / 60;
   //console.log(offset);
   let h = d.getUTCHours() - offset;
-
-  //if hour is later than 19 then do something
-  // function fixOffset() {
-  //     let o = offset % h;
-  //     if (h >= 19) {
-  //       // do stuff w/ o
-  //       o = h + o
-  //     }
-  //   console.log("this is the fixed offset number: " + o);
-  //   return o;
-  // }
-  // fixedTime = fixOffset();
-
-  //let h = d.getUTCHours() - offset;
-  // for each hour add 1
-  // until 0 (11:59)
-  // then start again dividing by 60
-  //
   //console.log(h);
-
- return h;
+return h;
 }
 
+function fixTime() {
+  let fix = getHours();
+  console.log(fix);
+   if (fix <= 19) {
+     //fix = fix + (fix % 19);
+     fix = fix + (fix % 19);
+     console.log("heyo " + fix);
+   }
+   //  else {
+   //   //fix = fix % 19;
+   //   //fix = 19 % fix;
+   //   console.log("pendejo " + fix);
+   // }
+}
+
+fixTime();
 
 function setBackGround() {
   const container = document.querySelector('body');
@@ -92,81 +89,38 @@ function setBackGround() {
 ///
 /// Now now dot the graient works
 ///
+// hsl colors would be better than a bunch of hex numbers...
 const bgPairs = [
   {
     start: [
-        "#333",
-        "#4C4",
-        "#567",
-        "#789",
-        "#ABC",
-        "#AF0",
-        "#333",
-        "#1AC",
-        "#5d7",
-        "#7D9",
-        "#AFC",
-        "#A10",
-        "#3D3",
-        "#4A4",
-        "#537",
-        "#729",
-        "#A1C",
-        "#9F0",
-        "#333",
-        "#444",
-        "#5A7",
-        "#7E9",
-        "#1B2",
-        "#4D0"
+        "#333", "#4C4", "#567", "#789", "#ABC", "#AF0", "#333", "#1AC", "#567", "#7D9", "#AFC", "#A10", "#3D3", "#4A4", "#537", "#cff", "#A1C", "#9F0", "#333", "#444", "#5A7", "#7E9", "#1B2", "#4D0"
       ],
     end: [
-        "#abc",
-        "#bcd",
-        "#ef1",
-        "#123",
-        "#456",
-        "#789",
-        "#012",
-        "#c1e",
-        "#abc",
-        "#bcd",
-        "#ef1",
-        "#123",
-        "#456",
-        "#789",
-        "#012",
-        "#c1e",
-        "#bcd",
-        "#ef1",
-        "#123",
-        "#456",
-        "#789",
-        "#012",
-        "#c1e",
-        "#7B9"
+      "#abc", "#bcd", "#ef1", "#123", "#456", "#789", "#012", "#c1e", "#abc", "#a3f2f3", "#1fe", "#123", "#456", "#28b", "#012", "#c1e", "#bcd", "#edc00b", "#123", "#456", "#789", "#012", "#c1e", "#7B9"
       ]
   }
 ];
+// Now set them to the hour:
+const theHour = getHours();
+const start = bgPairs[0].start[theHour];
+const end = bgPairs[0].end[theHour];
 
-function setBackGroundGradient() {
-  const container = document.querySelector('body');
-  let theHour = getHours();
 
-  bgPairs.forEach(pair => {
 
-    const start = pair.start;
-    const end = pair.end;
 
-    const colorStart = start;
-    const colorEnd = end;
+const container = document.querySelector('html');
 
-    //console.log(colorStart, colorEnd);
-    console.log(theHour);
-  });
 
-container.style.backgroundImage = "linear-gradient(187deg", + colorStart[6] + "," + colorEnd[2] + ")";
-  //console.log(container);
-}
 
-setBackGroundGradient();
+// console.log("the current hour: " + theHour);
+// console.log("the start hex: " + bgPairs[0].start[theHour]);
+// console.log("the end hex: " + bgPairs[0].end[theHour]);
+
+
+function setTheGradient() {
+  container.style.backgroundImage = 'linear-gradient(187deg,' + start + ',' + end + ')';
+};
+
+setTheGradient();
+
+// TODO: instead of big ass arrays of colors. find a way to pipe hsl() colors to the background...

@@ -24,6 +24,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  margin: 0;
 
 }
 
@@ -37,27 +38,33 @@ footer,
 
 .full-width-wrapper {
 
-  @include media(">=phone") {
-    background-color: $small-bg-color;
-    //padding: 0 0 0 2ex;
-    width: 90vw;
-  }
+  > :nth-child(n) {
 
-  @include media(">=tablet") {
-    background-color: $medium-bg-color;
-    //padding: 0 0 0 15ex;
-    width: 80vw;
-  }
+    @include media(">=phone") {
+      //background-color: $small-bg-color;
+      margin: 0 0 0 5vw;
+      width: 85vw;
+    }
 
-  @include media(">=desktop") {
-    background-color: $large-bg-color;
-    //padding: 0 0 0 15%;
-    width: 60vw;
+    @include media(">=tablet") {
+      //background-color: $medium-bg-color;
+      //padding: 0 0 0 15ex;
+      //width: 80vw;
+    }
+
+    @include media(">=desktop") {
+      //background-color: $large-bg-color;
+      //padding: 0 0 0 15%;
+      margin: 0 0 0 10vw;
+      width: 60vw;
+    }
   }
 
   &.minus-body {
     font-size: $base-font-small;
   }
+
+  width: 100vw;
 }
 
 
@@ -76,8 +83,8 @@ li {
 ///
 
 .site-header {
-  padding-top: 3ex;
-  padding-bottom: 3ex;
+  // padding-top: 3ex;
+  // padding-bottom: 3ex;
 
   &__siteName {
 
@@ -92,9 +99,9 @@ li {
     0.25rem 0.25rem 0 rgba(0, 0, 0, 0.5),
     0.35rem 0.35rem 0 rgba(0, 0, 0, 0.15);
 
-    &:hover {
-      background-color: $site-dark-blue;
-      color: $site-acid-green;
+    &:visited {
+      // background-color: $site-dark-blue;
+      color: $site-white;
       clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 20%) border-box;
     }
   }
@@ -116,11 +123,12 @@ li {
   &__homePage {
     width: 90vw;
   }
-/// to its own partial
-  &__jumboJumbo {
-    background: transparent;
-    height: 85vh;
-  }
+  /// to its own partial
+  ///
+  // &__jumboJumbo {
+  //   background: transparent;
+  //   height: 85vh;
+  // }
 }
 
 ///

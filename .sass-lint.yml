@@ -61,6 +61,8 @@ rules:
           - em
           - '%'
           - ex
+          - vw
+          - vh
   quotes:
     - 1
     - style: double

@@ -1,5 +1,5 @@
 
-var newJumbo = document.querySelector('.new-jumbo');
+//var newJumbo = document.querySelector('.new-jumbo');
 
 /// here are the papers!
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on bulletprooftoupee</title>
+    <link>http://bulletprooftoupee.com/about/</link>
+    <description>Recent content in Abouts on bulletprooftoupee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Dec 2017 13:48:52 -0500</lastBuildDate>
+    
+	<atom:link href="http://bulletprooftoupee.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://bulletprooftoupee.com/about/about/</link>
+      <pubDate>Wed, 27 Dec 2017 13:48:52 -0500</pubDate>
+      
+      <guid>http://bulletprooftoupee.com/about/about/</guid>
+      <description> Resume in markdown here&amp;hellip; Post the things that have been done where
+ item done another item down some things here&amp;hellip;  more things done: Other things done:   </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -59,15 +59,17 @@ $base-letter-spacing: 0.01;
 
 a {
   &:link {
-    @include descender(
-      $large-bg-color
-    );
+    // @include descender(
+    //   $large-bg-color
+    // );
     color: $site-link;
   }
 
   &:visited {
+    @include descender(
+    $site-link-visited
+    );
     color: $site-link-visited;
-    text-shadow: $site-link-visited;
   }
 
   &:hover {

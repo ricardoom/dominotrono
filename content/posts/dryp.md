@@ -72,3 +72,5 @@ This project is to fulfill a couple ends. The first is purely for professional d
 ### Screen Design
 * primarily a small screen app,
   - tablet and desktop versions would be cool
+
+{{< figure src="/media/IMG_3997.jpg" title="a manager of gardens" >}}

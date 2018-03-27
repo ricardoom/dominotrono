@@ -1,26 +1,30 @@
 {{ partial "header.html" . }}
 	<!-- === root index === -->
 	<main class="site-content" id="siteContent">
-		<div class="full-width-wrapper">
-			<div class="single-column">{{ with $.Site.Params.subtitle }}
+		<div class="grid-wrapper">
+			<div class="prime-box">
+
+			</div>
+			<div class="subtitle-grid-container">{{ with $.Site.Params.subtitle }}
 				 <span class="subtitle">{{ . }}</span>
 			{{ end }}
-			<div class="site-content__jumboJumbo">
+			</div>
+			<div class="jumbo-grid-container">
 				{{ partial "jumbo.html" . }}
 			</div>
-			<div class="site-content__homePage">
+			<div class="home-page-grid-member">
 				{{ .Content }}
+				{{ $paginator := .Paginate (where .Site.Pages "Type" "posts") }}
+				{{ range $paginator.Pages }}
+					{{ partial "summary.html" . }}
+				{{ end }}
 			</div>
-			<div class="site-data">
+			<div class="grid-site-data">
 				{{ range first 20 .Data.Pages }}
 	        {{ .Render "summary"}}
 	      {{ end }}
 			</div>
-			{{ $paginator := .Paginate (where .Site.Pages "Type" "posts") }}
-			{{ range $paginator.Pages }}
-				{{ partial "summary.html" . }}
-			{{ end }}
-			</div>
+
 		</div>
 		<!-- {{ partial "pagination.html" . }} -->
 	</main>

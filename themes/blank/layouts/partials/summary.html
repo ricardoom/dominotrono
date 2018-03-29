@@ -10,15 +10,17 @@
 				<a href="{{ .Permalink }}">Read more...</a>
 			{{ end }}
 			</p>
-			{{ if .Params.postimage }}
+			{{ if and (.Params.postimage) (ne .Params.postimage "") }}
 			<img src="{{ .Params.postimage}}" alt="{{ .Site.Params.postimagealt }}" />
 			{{ end }}
+			{{if and (.Params.tags) (ne .Params.tags "") }}
 			<ul>
-			{{ range .Params.tags }}
-			<li class="site-summary__tags">
-				<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-			</li>
-			{{ end }}
+				{{ range .Params.tags }}
+				<li class="site-summary__tags">
+					<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+				</li>
+				{{ end }}
 			</ul>
+			{{ end }}
 		</div>
 	</article>

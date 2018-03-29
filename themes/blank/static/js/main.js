@@ -211,6 +211,7 @@ const bgPairs = [
 ];
 
 
+
 // Now set them to the hour:
 const theHour = getHours();
 console.log(theHour);

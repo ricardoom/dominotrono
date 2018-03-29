@@ -29,3 +29,6 @@ $site-link-active-bg: $site-green-blue;
 $small-bg-color: lighten($site-background-color, 1%);
 $medium-bg-color: lighten($site-background-color, 5%);
 $large-bg-color: lighten($site-background-color, 8.5%);
+
+/// Colors that have transparency by virtue of hsla vs. sass doing that work for us
+$site-transparent-black: hsla(0, 5%, 5%, 0.15);

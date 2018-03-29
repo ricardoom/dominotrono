@@ -9,6 +9,9 @@ sectionPagesMenu = "main"
 [params]
   author="Ricardo Galvez"
   subtitle="Projects, Creative Works and Writings of Ricardo E. Galvez"
+  # Make an image post
+  postimage = ""
+    postimagealt = ""
 
 [permalinks]
     post = "/:year/:month/:title/"

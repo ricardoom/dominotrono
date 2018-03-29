@@ -24,7 +24,7 @@
     }
 
 // 1st square
-  //:nth-child(1) 
+  //:nth-child(1)
   .prime-box {
     //background-color: hsla(254, 54%, 80%, 1);
     grid-column: 1 / 1;
@@ -34,7 +34,7 @@
   //:nth-child(2)
   .subtitle-grid-container {
     //background: hsla(270, 56%, 45%, 0.5);
-    background: rgba(144,38,212,0.50);
+    //background: rgba(144,38,212,0.50);
     grid-column: 2 / 5;
     width: 100%;
   }
@@ -59,6 +59,9 @@
 
   //:nth-child(5)
   .home-page-grid-member {
+    @include media(">=phone") {
+      grid-column: 1 / span 4;
+    }
     //background: rgba(104,201,234,0.25);
     grid-column: 1 / span 3;
     grid-row: 9 / span 3;
@@ -68,12 +71,20 @@
 
   //:nth-child(6)
   .grid-site-data {
+
+    @include media(">=phone") {
+      grid-column: 1 / span 4;
+      grid-row: 12 / 15;
+    }
+
+    @include media(">=desktop") {
     //background-image: linear-gradient(-220deg, rgba(52,167,255,0.150) 0%, #98E2FC 100%);
     font-size: 4vh;
     grid-column: 4 / 5;
     grid-row: 9 / 12;
     height: 100%;
     width: 100%;
+    }
   }
 
   .subtitle {

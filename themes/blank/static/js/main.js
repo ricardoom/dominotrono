@@ -238,9 +238,17 @@ setTheGradient();
   // find libaray to convert from string to morse
   // or will have to create our own
   // create the morse code alphabet
+  // map sound to each character
+  // map custom svg shape to each character
   const alphaMorse = [
       {
-        "a" : ". _",
+        "a" : [
+          {
+            morse : ". _",
+            svg : "<svg></svg>",
+            mp3 : "",
+          },
+        ],
         "b" : "_ . . .",
         "c" : "_ . _ .",
         "d" : "_ . .",
@@ -249,6 +257,19 @@ setTheGradient();
         "g" : "_ _ .",
       }
     ];
+
+  // convert the response to morse code
+  // get the response from twitter
+  function twitterResponse() {
+    let theResponse = "whatever we got from twitter...";
+    //console.log(theResponse);
+    return theResponse;
+  }
+  function convertToMorse() {
+    let convert = twitterResponse;
+    //convert.split("");
+    console.log(convert);
+  }
 // play back the messages as morse
 // functionality
   // allow for user input

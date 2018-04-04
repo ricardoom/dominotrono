@@ -14,7 +14,6 @@ let params = {
 
 function gotData(err, data, response) {
   let tweets = data.statuses;
-  //console.log(tweets);
   for (let i =0; i < tweets.length; i++) {
     console.log(tweets[i].text);
   }

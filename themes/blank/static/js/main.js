@@ -242,34 +242,70 @@ setTheGradient();
   // map custom svg shape to each character
   const alphaMorse = [
       {
-        "a" : [
-          {
-            morse : ". _",
-            svg : "<svg></svg>",
-            mp3 : "",
-          },
-        ],
+        "a" : ". _",
         "b" : "_ . . .",
         "c" : "_ . _ .",
         "d" : "_ . .",
         "e" : ".",
         "f" : ". . _ .",
         "g" : "_ _ .",
+        "h" : ". . . .",
+        "i" : ". .",
+        "j" : ". _ _ _",
+        "k" : "_ . _",
+        "l" : ". _ . .",
+        "m" : "_ _",
+        "o" : "_ _ _",
+        "p" : ". _ _ .",
+        "q" : "_ _ . _",
+        "r" : ". _ .",
+        "s" : ". . .",
+        "t" : "_",
+        "u" : ". . _",
+        "v" : ". . . _",
+        "w" : ". _ _",
+        "x" : "_ . . _",
+        "y" : "_ . _ _",
+        "z" : "_ _ . .",
+        "0" : "_ _ _ _ _",
+        "1" : ". _ _ _ _",
+        "2" : ". . _ _ _",
+        "3" : ". . . _ _",
+        "4" : ". . . . _",
+        "5" : ". . . . ",
+        "6" : "_ . . . .",
+        "7" : "_ _ . . .",
+        "8" : "_ _ _ . .",
+        "9" : "_ _ _ _ .",
       }
     ];
 
   // convert the response to morse code
   // get the response from twitter
   function twitterResponse() {
-    let theResponse = "whatever we got from twitter...";
+    let theResponse = "Whatever We Get From Twitter...";
     //console.log(theResponse);
+    theResponse = theResponse.toLowerCase();
     return theResponse;
   }
-  function convertToMorse() {
-    let convert = twitterResponse;
-    //convert.split("");
-    console.log(convert);
-  }
+
+///
+/// Convert string to morse code:
+///
+
+function convertToMorse(charactersToConvert, separator) {
+  //let convert = twitterResponse();
+  let characters = charactersToConvert.split(separator);
+  console.log("the string is: " + characters);
+
+}
+let tweets = twitterResponse();
+
+convertToMorse(tweets, "");
+
+
+
+
 // play back the messages as morse
 // functionality
   // allow for user input
@@ -331,62 +367,62 @@ resetButton.addEventListener("click", resetInput);
 //Morse code converter- By Luke Watson (luke@lukewatson.f2s.com)
 //Script featured on JK (http://javascriptkit.com)
 //Visit http://javascriptkit.com for this script and more
-//
-// var charCodes = new Array(36);
-// charCodes["a"]=". _";
-// charCodes["b"]="_ . . .";
-// charCodes["c"]="_ . _ .";
-// charCodes["d"]="_ . .";
-// charCodes["e"]=".";
-// charCodes["f"]=". . _ .";
-// charCodes["g"]="_ _ .";
-// charCodes["h"]=". . . .";
-// charCodes["i"]=". .";
-// charCodes["j"]=". _ _ _";
-// charCodes["k"]="_ . _";
-// charCodes["l"]=". _ . .";
-// charCodes["m"]="_ _";
-// charCodes["n"]="_ .";
-// charCodes["o"]="_ _ _";
-// charCodes["p"]=". _ _ .";
-// charCodes["q"]="_ _ . _";
-// charCodes["r"]=". _ .";
-// charCodes["s"]=". . .";
-// charCodes["t"]="_";
-// charCodes["u"]=". . _";
-// charCodes["v"]=". . . _";
-// charCodes["w"]=". _ _";
-// charCodes["x"]="_ . . _";
-// charCodes["y"]="_ . _ _";
-// charCodes["z"]="_ _ . .";
-// charCodes["1"]=". _ _ _ _";
-// charCodes["2"]=". . _ _ _";
-// charCodes["3"]=". . . _ _";
-// charCodes["4"]=". . . . _";
-// charCodes["5"]=". . . . .";
-// charCodes["6"]="_ . . . .";
-// charCodes["7"]="_ _ . . .";
-// charCodes["8"]="_ _ _ . .";
-// charCodes["9"]="_ _ _ _ .";
-// charCodes["0"]="_ _ _ _ _";
-// var temp=''
-//
-// function encode() {
-//   document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
-//   document.morsecode.codebox.value = "";
-//   temp = ''
-//
-//   var chars = document.morsecode.chars.value.split("");
-//
-//   for (a = 0; a < chars.length; a++) {
-//     if (chars[a] != " ") {
-//         if (window.charCodes[chars[a]]) {
-//           document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
-//           temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
-//         }
-//           else temp += chars[a] + "=(None)\n";
-//         }
-//         else temp += "\n";
-//     }
-    //document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
-//}
+
+var charCodes = new Array(36);
+charCodes["a"]=". _";
+charCodes["b"]="_ . . .";
+charCodes["c"]="_ . _ .";
+charCodes["d"]="_ . .";
+charCodes["e"]=".";
+charCodes["f"]=". . _ .";
+charCodes["g"]="_ _ .";
+charCodes["h"]=". . . .";
+charCodes["i"]=". .";
+charCodes["j"]=". _ _ _";
+charCodes["k"]="_ . _";
+charCodes["l"]=". _ . .";
+charCodes["m"]="_ _";
+charCodes["n"]="_ .";
+charCodes["o"]="_ _ _";
+charCodes["p"]=". _ _ .";
+charCodes["q"]="_ _ . _";
+charCodes["r"]=". _ .";
+charCodes["s"]=". . .";
+charCodes["t"]="_";
+charCodes["u"]=". . _";
+charCodes["v"]=". . . _";
+charCodes["w"]=". _ _";
+charCodes["x"]="_ . . _";
+charCodes["y"]="_ . _ _";
+charCodes["z"]="_ _ . .";
+charCodes["1"]=". _ _ _ _";
+charCodes["2"]=". . _ _ _";
+charCodes["3"]=". . . _ _";
+charCodes["4"]=". . . . _";
+charCodes["5"]=". . . . .";
+charCodes["6"]="_ . . . .";
+charCodes["7"]="_ _ . . .";
+charCodes["8"]="_ _ _ . .";
+charCodes["9"]="_ _ _ _ .";
+charCodes["0"]="_ _ _ _ _";
+var temp=''
+
+function encode() {
+  document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
+  document.morsecode.codebox.value = "";
+  temp = ''
+
+  var chars = document.morsecode.chars.value.split("");
+
+  for (a = 0; a < chars.length; a++) {
+    if (chars[a] != " ") {
+        if (window.charCodes[chars[a]]) {
+          document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
+          temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
+        }
+          else temp += chars[a] + "=(None)\n";
+        }
+        else temp += "\n";
+    }
+    document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
+}

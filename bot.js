@@ -8,15 +8,20 @@ const T = new Twit(config);
 //
 
 let params = {
-  q: '%23morsecode since:2018-04-4',
-  count: 5
+  q: '%23trumpsucks since:2018-04-4',
+  count: 1
 }
 
 function gotData(err, data, response) {
   let tweets = data.statuses;
   for (let i =0; i < tweets.length; i++) {
-    console.log(tweets[i].text);
+    //console.log(tweets[i].text);
   }
+  let theResponse = response;
+
+      console.log(theResponse);
+    
 }
 
-T.get('search/tweets', params, gotData);
+//T.get('search/tweets', params, gotData);
+let twitterReturn = T.get('search/tweets', params, gotData);

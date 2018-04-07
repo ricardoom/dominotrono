@@ -51,6 +51,7 @@
   // get the response from twitter
   function twitterResponse() {
     // a placeholder. theResponse will be replaced by the return from bot.js
+    // only call api when new query is sent from ui
     let theResponse = "Whatever We Get From Twitter";
     // make sure we convert the response to lower case since morse doesnt care about case and our charCodes object uses lower case.
     theResponse = theResponse.toLowerCase();
@@ -74,18 +75,12 @@ function convertToMorse(charactersToConvert, separator) {
   }
 }
 
+// invoke the convertToMorse() and pass it as a variable called tweets which is output of the twitterResponse() function.
 let tweets = twitterResponse();
-// invoke the convertToMorse() and pass it as a variable called tweets
 convertToMorse(tweets, "");
 
-
-
-
-// play back the messages as morse
-// functionality
-  // allow for user input
+// Get User Input
     // get the user input from the input field
-
     let usersHash = document.getElementById("the-hash-input");
     const userButton = document.getElementById("hash-button");
     const resetButton = document.getElementById("reset-button");
@@ -127,12 +122,15 @@ convertToMorse(tweets, "");
 userButton.addEventListener("click", callTwitter);
 resetButton.addEventListener("click", resetInput);
 
-  // allow user to control speed of playback
-  // contols to repeat / start at the beginning
-  // allow all messages to be played concurrently
-  // allow all messages to be played in serial
+  // play back the messages as morse
+    // functionality
+
+    // allow user to control speed of playback
+    // contols to repeat / start at the beginning
+    // allow all messages to be played concurrently
+    // allow all messages to be played in serial
     // concurent playback is default
-// only call api when new query is sent from ui
+
 //
 
 
@@ -188,22 +186,22 @@ resetButton.addEventListener("click", resetInput);
 // charCodes["0"]="_ _ _ _ _";
 // var temp=''
 //
-function encode() {
-  document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
-  document.morsecode.codebox.value = "";
-  temp = ''
-
-  var chars = document.morsecode.chars.value.split("");
-
-  for (a = 0; a < chars.length; a++) {
-    if (chars[a] != " ") {
-        if (window.charCodes[chars[a]]) {
-          document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
-          temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
-        }
-          else temp += chars[a] + "=(None)\n";
-        }
-        else temp += "\n";
-    }
-    document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
-}
+// function encode() {
+//   document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
+//   document.morsecode.codebox.value = "";
+//   temp = ''
+//
+//   var chars = document.morsecode.chars.value.split("");
+//
+//   for (a = 0; a < chars.length; a++) {
+//     if (chars[a] != " ") {
+//         if (window.charCodes[chars[a]]) {
+//           document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
+//           temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
+//         }
+//           else temp += chars[a] + "=(None)\n";
+//         }
+//         else temp += "\n";
+//     }
+//     document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
+// }

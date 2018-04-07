@@ -13,7 +13,9 @@
 @import "partials/nav";
 @import "partials/articles";
 @import "partials/sidebar";
-@import "partials/site-content";
+@import "partials/site_content";
+@import "partials/_twitter_hash";
+
 
 html {
   background-color: $site-background-color;

@@ -50,14 +50,15 @@
 // convert the response to morse code
   // get the response from twitter
   function twitterResponse() {
-    // a placeholder. theResponse will be replaced by
+    // a placeholder. theResponse will be replaced by the return from bot.js
     let theResponse = "Whatever We Get From Twitter...";
+    // make sure we convert the response to lower case since morse doesnt care about case and our charCodes object uses lower case.
     theResponse = theResponse.toLowerCase();
     return theResponse;
   }
 
 ///
-/// split the string into indivdual strings so we can map them to their corresponding morse code character in charCodes above
+/// split the return into indivdual strings so we can map them to their corresponding morse code character in charCodes above.
 ///
 
 function convertToMorse(charactersToConvert, separator) {

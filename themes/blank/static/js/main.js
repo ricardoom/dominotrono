@@ -300,7 +300,6 @@ function convertToMorse(charactersToConvert, separator) {
       console.log("The phoentic glyph is: " + characters[c] + "\n " + "The Morse code is: " + alphaMorse[0][characters[c]]);
       let theFinalMorse = alphaMorse[0][characters[c]];
       document.getElementById("morseOutput").innerHTML += theFinalMorse;
-      //return theFinalMorse
     }
   }
 }

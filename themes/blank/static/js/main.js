@@ -277,6 +277,30 @@ setTheGradient();
       }
     ];
 
+const textToSVG = [
+  {
+    dotSVG : `<svg xmlns="http://www.w3.org/2000/svg" width="108.66667" height="108.66667" viewBox="0 0 108.66667 108.66667">
+      <title>dot</title>
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+          <circle id="_Ellipse_" data-name="&lt;Ellipse&gt;" cx="54.33333" cy="54.33333" r="53.83333" fill="#231f20" stroke="#fff" stroke-miterlimit="10"/>
+        </g>
+      </g>
+    </svg>
+`,
+    dashSVG : `<svg xmlns="http://www.w3.org/2000/svg" width="201" height="109.48468" viewBox="0 0 201 109.48468">
+      <title>dash</title>
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+          <rect x="0.5" y="0.5" width="200" height="108.48468" rx="54.24229" ry="54.24229" fill="#231f20" stroke="#fff" stroke-miterlimit="10"/>
+        </g>
+      </g>
+    </svg>
+`
+  }
+];
+
+
 // convert the response to morse code
   // get the response from twitter
   function twitterResponse() {
@@ -292,22 +316,36 @@ setTheGradient();
 /// split the return into indivdual strings so we can map them to their corresponding morse code character in charCodes above.
 ///
 
+// a function to convert the text dots and dashes to svgs
+// should take the output from convertToMorse() as an argument and return the input text morse code as svgs in the shapes of dots or dashes.
+function transformDotsDashes(theMorseText) {
+  const dot = ".";
+  const dash = "_";
+  const svgDash = textToSVG[0].dashSVG;
+  const svgDot = textToSVG[0].dotSVG;
+  console.log(dot, dash, svgDot, svgDash);
+  }
+
 function convertToMorse(charactersToConvert, separator) {
   let characters = charactersToConvert.split(separator);
-  console.log("the string is: " + characters);
+  //console.log("the string is: " + characters);
 
   for (c = 0; c < characters.length; c++) {
     if (characters[c] != " ") {
-      console.log("The phoentic glyph is: " + characters[c] + "\n " + "The Morse code is: " + alphaMorse[0][characters[c]]);
-      let theFinalMorse = alphaMorse[0][characters[c]];
-      document.getElementById("morseOutput").innerHTML += theFinalMorse;
+      //console.log("The phoentic glyph is: " + characters[c] + "\n " + "The Morse code is: " + alphaMorse[0][characters[c]]);
+      let theFinalMorseText = alphaMorse[0][characters[c]];
+      document.getElementById("morseOutput").innerHTML += theFinalMorseText;
+      let theFinalMorseSVG = transformDotsDashes(theFinalMorseText);
+      document.getElementById("morseOutputSVG").innerHTML += theFinalMorseSVG;
     }
   }
 }
 
-// invoke the convertToMorse() and pass it as a variable called tweets which is output of the twitterResponse() function.
-let tweets = twitterResponse();
-convertToMorse(tweets, "");
+ // // invoke the convertToMorse() and pass it as a variable called tweets which is output of the twitterResponse() function.
+  let tweets = twitterResponse();
+  convertToMorse(tweets, "")
+
+//transformDotsDashes();
 
 // Get User Input
     // get the user input from the input field

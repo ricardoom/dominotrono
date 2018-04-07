@@ -51,7 +51,7 @@
   // get the response from twitter
   function twitterResponse() {
     // a placeholder. theResponse will be replaced by the return from bot.js
-    let theResponse = "Whatever We Get From Twitter...";
+    let theResponse = "Whatever We Get From Twitter";
     // make sure we convert the response to lower case since morse doesnt care about case and our charCodes object uses lower case.
     theResponse = theResponse.toLowerCase();
     return theResponse;
@@ -64,7 +64,15 @@
 function convertToMorse(charactersToConvert, separator) {
   let characters = charactersToConvert.split(separator);
   console.log("the string is: " + characters);
-  //
+
+  for (c = 0; c < characters.length; c++) {
+    if (characters[c] != " ") {
+      console.log("The phoentic glyph is: " + characters[c] + "\n " + "The Morse code is: " + alphaMorse[0][characters[c]]);
+      let theFinalMorse = alphaMorse[0][characters[c]];
+      document.getElementById("morseOutput").innerHTML += theFinalMorse;
+      //return theFinalMorse
+    }
+  }
 }
 
 let tweets = twitterResponse();
@@ -181,22 +189,22 @@ resetButton.addEventListener("click", resetInput);
 // charCodes["0"]="_ _ _ _ _";
 // var temp=''
 //
-// function encode() {
-//   document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
-//   document.morsecode.codebox.value = "";
-//   temp = ''
-//
-//   var chars = document.morsecode.chars.value.split("");
-//
-//   for (a = 0; a < chars.length; a++) {
-//     if (chars[a] != " ") {
-//         if (window.charCodes[chars[a]]) {
-//           document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
-//           temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
-//         }
-//           else temp += chars[a] + "=(None)\n";
-//         }
-//         else temp += "\n";
-//     }
-//     document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
-// }
+function encode() {
+  document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
+  document.morsecode.codebox.value = "";
+  temp = ''
+
+  var chars = document.morsecode.chars.value.split("");
+
+  for (a = 0; a < chars.length; a++) {
+    if (chars[a] != " ") {
+        if (window.charCodes[chars[a]]) {
+          document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
+          temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
+        }
+          else temp += chars[a] + "=(None)\n";
+        }
+        else temp += "\n";
+    }
+    document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
+}

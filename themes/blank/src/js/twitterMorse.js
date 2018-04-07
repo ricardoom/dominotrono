@@ -1,12 +1,9 @@
-/// get the twitter api key and make sure we can make requests and get a responsive
 
 // do stuff w/ the response,
-
-// asumes we can have a string back from twitter w/ last 25 posts w/ a given hastag
 // concatenate all the posts to a single string
 // convert string to morse code
-  // find libaray to convert from string to morse
-  // or will have to create our own
+
+
   // create the morse code alphabet
   // map sound to each character
   // map custom svg shape to each character
@@ -104,14 +101,14 @@ convertToMorse(tweets, "");
       noSpaceHash = hashTag.replace(/\s/g, "");
       return noSpaceHash;
     };
-    // put the input (for now) from into the div below:
+
 
     // a function to pass the input to bot.js
     function callTwitter() {
       let theTwitterHash = cleanUpInput();
       console.log("callTwitter() output: " + theTwitterHash);
       //return theTwitterHash
-      // put the output back on the screen:
+      // put the input (for now) from into the div below:
       let theOutput = document.getElementById("twitterReturn").innerHTML = theTwitterHash;
       }
 

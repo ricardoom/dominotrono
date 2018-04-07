@@ -280,23 +280,24 @@ setTheGradient();
 // convert the response to morse code
   // get the response from twitter
   function twitterResponse() {
+    // a placeholder. theResponse will be replaced by
     let theResponse = "Whatever We Get From Twitter...";
     theResponse = theResponse.toLowerCase();
-    // console.log(Array.from(theResponse));
     return theResponse;
   }
 
 ///
-/// split the string into
+/// split the string into indivdual strings so we can map them to their corresponding morse code character in charCodes above
 ///
 
 function convertToMorse(charactersToConvert, separator) {
   let characters = charactersToConvert.split(separator);
   console.log("the string is: " + characters);
-
+  //
 }
-let tweets = twitterResponse();
 
+let tweets = twitterResponse();
+// invoke the convertToMorse() and pass it as a variable called tweets
 convertToMorse(tweets, "");
 
 

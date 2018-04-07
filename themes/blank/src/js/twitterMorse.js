@@ -55,7 +55,7 @@
   function twitterResponse() {
     let theResponse = "Whatever We Get From Twitter...";
     theResponse = theResponse.toLowerCase();
-    console.log(Array.from(theResponse));
+    // console.log(Array.from(theResponse));
     return theResponse;
   }
 

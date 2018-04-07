@@ -1,7 +1,17 @@
 .twitter-hash {
 
   &__twitter-return {
-  
+
+    .morse-output {
+      font-size: 8rem;
+      line-height: 1;
+      margin: 0;
+      padding: 0;
+
+      &-svg {
+        color: $site-dark-blue;
+      }
+    }
 }
 
 }

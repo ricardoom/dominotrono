@@ -237,69 +237,134 @@ setTheGradient();
   // create the morse code alphabet
   // map sound to each character
   // map custom svg shape to each character
-  const alphaMorse = [
-      {
-        "a" : ". _",
-        "b" : "_ . . .",
-        "c" : "_ . _ .",
-        "d" : "_ . .",
-        "e" : ".",
-        "f" : ". . _ .",
-        "g" : "_ _ .",
-        "h" : ". . . .",
-        "i" : ". .",
-        "j" : ". _ _ _",
-        "k" : "_ . _",
-        "l" : ". _ . .",
-        "m" : "_ _",
-        "o" : "_ _ _",
-        "p" : ". _ _ .",
-        "q" : "_ _ . _",
-        "r" : ". _ .",
-        "s" : ". . .",
-        "t" : "_",
-        "u" : ". . _",
-        "v" : ". . . _",
-        "w" : ". _ _",
-        "x" : "_ . . _",
-        "y" : "_ . _ _",
-        "z" : "_ _ . .",
-        "0" : "_ _ _ _ _",
-        "1" : ". _ _ _ _",
-        "2" : ". . _ _ _",
-        "3" : ". . . _ _",
-        "4" : ". . . . _",
-        "5" : ". . . . ",
-        "6" : "_ . . . .",
-        "7" : "_ _ . . .",
-        "8" : "_ _ _ . .",
-        "9" : "_ _ _ _ .",
-      }
-    ];
+  // const alphaMorse = [
+  //     {
+  //       "a" : ". _",
+  //       "b" : "_ . . .",
+  //       "c" : "_ . _ .",
+  //       "d" : "_ . .",
+  //       "e" : ".",
+  //       "f" : ". . _ .",
+  //       "g" : "_ _ .",
+  //       "h" : ". . . .",
+  //       "i" : ". .",
+  //       "j" : ". _ _ _",
+  //       "k" : "_ . _",
+  //       "l" : ". _ . .",
+  //       "m" : "_ _",
+  //       "o" : "_ _ _",
+  //       "p" : ". _ _ .",
+  //       "q" : "_ _ . _",
+  //       "r" : ". _ .",
+  //       "s" : ". . .",
+  //       "t" : "_",
+  //       "u" : ". . _",
+  //       "v" : ". . . _",
+  //       "w" : ". _ _",
+  //       "x" : "_ . . _",
+  //       "y" : "_ . _ _",
+  //       "z" : "_ _ . .",
+  //       "0" : "_ _ _ _ _",
+  //       "1" : ". _ _ _ _",
+  //       "2" : ". . _ _ _",
+  //       "3" : ". . . _ _",
+  //       "4" : ". . . . _",
+  //       "5" : ". . . . ",
+  //       "6" : "_ . . . .",
+  //       "7" : "_ _ . . .",
+  //       "8" : "_ _ _ . .",
+  //       "9" : "_ _ _ _ .",
+  //     }
+  //   ];
 
-const textToSVG = [
-  {
-    dotSVG : `<svg xmlns="http://www.w3.org/2000/svg" width="108.66667" height="108.66667" viewBox="0 0 108.66667 108.66667">
-      <title>dot</title>
-      <g id="Layer_2" data-name="Layer 2">
-        <g id="Layer_1-2" data-name="Layer 1">
-          <circle id="_Ellipse_" data-name="&lt;Ellipse&gt;" cx="54.33333" cy="54.33333" r="53.83333" fill="#231f20" stroke="#fff" stroke-miterlimit="10"/>
-        </g>
-      </g>
-    </svg>
-`,
-    dashSVG : `<svg xmlns="http://www.w3.org/2000/svg" width="201" height="109.48468" viewBox="0 0 201 109.48468">
-      <title>dash</title>
-      <g id="Layer_2" data-name="Layer 2">
-        <g id="Layer_1-2" data-name="Layer 1">
-          <rect x="0.5" y="0.5" width="200" height="108.48468" rx="54.24229" ry="54.24229" fill="#231f20" stroke="#fff" stroke-miterlimit="10"/>
-        </g>
-      </g>
-    </svg>
-`
-  }
-];
+  const morseSVG =
+    {
+      dotSVG : `<svg width="107.66667" height="107.66667" viewBox="0 0 107.66667 107.66667">
+        <title>dot</title>
+        <circle id="_Ellipse_" cx="53.83333" cy="53.83333" r="53.83333" />
+      </svg>`,
+      dashSVG : `<svg width="200" height="108.48468" viewBox="0 0 200 108.48468">
+        <title>dash</title>
+        <rect width="200" height="108.48468" rx="54.24229" ry="54.24229" />
+      </svg>`
+    };
 
+    const Dash = morseSVG.dashSVG;
+    const Dot = morseSVG.dotSVG;
+    const alphaMorse = [
+        {
+          //"a" : ". _",
+          "a" : `${Dot}${Dash}`,
+          //"b" : "_ . . .",
+          "b" : `${Dash}${Dot}${Dot}${Dot}`,
+          //"c" : "_ . _ .",
+          "c" : `${Dash}${Dot}${Dash}${Dot}`,
+          //"d" : "_ . .",
+          "d" : `${Dash} ${Dot} ${Dot}`,
+          //"e" : ".",
+          "e" : `${Dot}`,
+          //"f" : ". . _ .",
+          "f" : `${Dot} ${Dot} ${Dash} ${Dot}`,
+          //"g" : "_ _ .",
+          "g" : `${Dash} ${Dash} ${Dot}`,
+          //"h" : ". . . .",
+          "h" : `${Dot} ${Dot} ${Dot} ${Dot}`,
+          // "i" : ". .",
+          "i" : `${Dot} ${Dot}`,
+          // "j" : ". _ _ _",
+          "j" : `${Dot} ${Dash} ${Dash} ${Dash}`,
+          // "k" : "_ . _",
+          "k" : `${Dash} ${Dot} ${Dash}`,
+          //"l" : ". _ . .",
+          "l" : `${Dot} ${Dash} ${Dot} ${Dot}`,
+          // "m" : "_ _",
+          "m" : `${Dash} ${Dash}`,
+          //"o" : "_ _ _",
+          "o" : `${Dash} ${Dash} ${Dash}`,
+          //"p" : ". _ _ .",
+          "p" : `${Dot} ${Dash} ${Dash} ${Dot}`,
+          //"q" : "_ _ . _",
+          "q" : `${Dash} ${Dash} ${Dot} ${Dash}`,
+          // "r" : ". _ .",
+          "r" : `${Dot} ${Dash} ${Dot}`,
+          //"s" : ". . .",
+          "s" : `${Dot} ${Dot} ${Dot}`,
+          //"t" : "_",
+          "t" : `${Dash}`,
+          // "u" : ". . _",
+          "u" : `${Dot} ${Dot} ${Dash}`,
+          // "v" : ". . . _",
+          "v" : `${Dot} ${Dot} ${Dot} ${Dash}`,
+          //"w" : ". _ _",
+          "w" : `${Dot}${Dash}${Dash}`,
+          // "x" : "_ . . _",
+          "x" : `${Dash} ${Dot} ${Dot} ${Dash}`,
+          // "y" : "_ . _ _",
+          "y" : `${Dash} ${Dot} ${Dash} ${Dash}`,
+          // "z" : "_ _ . .",
+          "z" : `${Dash} ${Dash} ${Dot} ${Dot}`,
+          // "0" : "_ _ _ _ _",
+          "0" : `${Dash} ${Dash} ${Dash} ${Dash} ${Dash}`,
+          // "1" : ". _ _ _ _",
+          "1" : `${Dot} ${Dash} ${Dash} ${Dash} ${Dash}`,
+          // "2" : ". . _ _ _",
+          "2" : `${Dot} ${Dot} ${Dash} ${Dash} ${Dash}`,
+          // "3" : ". . . _ _",
+          "3" : `${Dot} ${Dot} ${Dot} ${Dash} ${Dash}`,
+          // "4" : ". . . . _",
+          "4" : `${Dot} ${Dot} ${Dot} ${Dot} ${Dash}`,
+          // "5" : ". . . . ",
+          "5" : `${Dot} ${Dot} ${Dot} ${Dot} `,
+          // "6" : "_ . . . .",
+          "6" : `${Dash} ${Dot} ${Dot} ${Dot} ${Dot}`,
+          // "7" : "_ _ . . .",
+          "7" : `${Dash} ${Dash} ${Dot} ${Dot} ${Dot}`,
+          // "8" : "_ _ _ . .",
+          "8" : `${Dash} ${Dash} ${Dash} ${Dot} ${Dot}`,
+          // "9" : "_ _ _ _ .",
+          "9" : `${Dash} ${Dash} ${Dash} ${Dash} ${Dot}`,
+        }
+      ];
 
 // convert the response to morse code
   // get the response from twitter
@@ -321,9 +386,17 @@ const textToSVG = [
 function transformDotsDashes(theMorseText) {
   const dot = ".";
   const dash = "_";
-  const svgDash = textToSVG[0].dashSVG;
-  const svgDot = textToSVG[0].dotSVG;
-  console.log(dot, dash, svgDot, svgDash);
+  const svgDash = morseSVG.dashSVG;
+  const svgDot = morseSVG.dotSVG;
+  let incomingMorse = theMorseText;
+  console.log("transformDotsDashes() is logging this: " + theMorseText);
+  //console.log(theMorseText);
+  //console.log(dot, dash, svgDot, svgDash);
+    // for (dot = 0; dot < theMorseText.length; dot++) {
+    //   let theSVGDots = alphaMorse[0][theMorseText][dot];
+    //   console.log(theSVGDots);
+    // };
+  //return svgDotsAndDashes;
   }
 
 function convertToMorse(charactersToConvert, separator) {
@@ -335,8 +408,8 @@ function convertToMorse(charactersToConvert, separator) {
       //console.log("The phoentic glyph is: " + characters[c] + "\n " + "The Morse code is: " + alphaMorse[0][characters[c]]);
       let theFinalMorseText = alphaMorse[0][characters[c]];
       document.getElementById("morseOutput").innerHTML += theFinalMorseText;
-      let theFinalMorseSVG = transformDotsDashes(theFinalMorseText);
-      document.getElementById("morseOutputSVG").innerHTML += theFinalMorseSVG;
+      // let theFinalMorseSVG = transformDotsDashes(theFinalMorseText);
+      // document.getElementById("morseOutputSVG").innerHTML += theFinalMorseSVG;
     }
   }
 }
@@ -344,8 +417,6 @@ function convertToMorse(charactersToConvert, separator) {
  // // invoke the convertToMorse() and pass it as a variable called tweets which is output of the twitterResponse() function.
   let tweets = twitterResponse();
   convertToMorse(tweets, "")
-
-//transformDotsDashes();
 
 // Get User Input
     // get the user input from the input field

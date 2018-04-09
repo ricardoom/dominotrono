@@ -25,8 +25,6 @@ function gotData(err, data, response) {
 //T.get('search/tweets', params, gotData);
 let twitterReturn = T.get('search/tweets', params, gotData);
 
-//console.log('the bot works');
-
 app.get('/', (req, res) => res.send(twitterReturn))
 
 app.listen(3000, () => console.log('Twitter (bot.js) is doing the listening on port 3000! \n'))

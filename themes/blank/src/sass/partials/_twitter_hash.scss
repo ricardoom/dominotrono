@@ -3,6 +3,7 @@
   &__twitter-return {
 
     .morse-output {
+      fill: transparentize($site-white, 0.4);
       font-size: 8rem;
       line-height: 1;
       margin: 0;

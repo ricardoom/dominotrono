@@ -11,18 +11,15 @@ This is moving right along. Faithful readers will now see I have created a custo
 {{< image 
 srcsetOne="/media/portfolio/placeholders/desktopPlaceHolderTemplate640@2x.png 640w"
 srcsetTwo="/media/portfolio/placeholders/desktopPlaceHolderTemplate320@2x.png 320w"
+srcsetThree="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png 320w"
+srcsetFour="/media/portfolio/placeholders/desktopPlaceHolderTemplate640.png 640w"
 src="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png" class="image-block__100" 
 alt="this image is only a placeholder there is nothing to see" 
 figcaption="This Image is the supplied caption yeah..." >}}
-
 {{< image src="https://i.pinimg.com/736x/c5/0d/24/c50d24c6a9f9b44d29e92e77ffb9018c.jpg" srcsetOne="https://i.pinimg.com/736x/c5/0d/24/c50d24c6a9f9b44d29e92e77ffb9018c.jpg 500w" srcsetTwo="https://i.pinimg.com/736x/c5/0d/24/c50d24c6a9f9b44d29e92e77ffb9018c.jpg 250w" class="image-block__50" alt="the alt via the source file" >}}
-
 {{< image src="https://picsum.photos/200/300/?random" srcsetOne="https://picsum.photos/200/120/?random 150w" srcsetTwo="https://picsum.photos/300/160/?random 160w" class="image-block__33" >}}
-
 {{< image src="https://picsum.photos/200/300/?random" srcsetOne="https://picsum.photos/200/120/?random" srcsetTwo="https://picsum.photos/300/160/?random" class="image-block__33" >}}
-
 {{< image src="https://picsum.photos/200/300/?random" srcsetOne="https://picsum.photos/200/120/?random" srcsetTwo="https://picsum.photos/300/160/?random" class="image-block__33" >}}
-
 {{< image class="image-block__25"  scrsetOne="https://picsum.photos/160/90/?random" >}}
 {{< image class="image-block__25" >}}
 {{< image class="image-block__25" >}}

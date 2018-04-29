@@ -1,0 +1,8 @@
+<!-- short code for big-blog-image.html -->
+<figure {{ with .Get "class" }} class="{{ . }}" {{ end }}>
+    <img
+    srcset="{{ .Get "srcsetOne" }}, {{ .Get "srcsetTwo" }}"
+    src="{{ .Get "src" }}" alt="{{ .Get "alt" }}"
+    sizes="(max-width: 20em) 100vw, (max-width: 50em) 75vw, (max-width: 60em) 65vw">
+    <figcaption>{{ .Get "figcaption" }}</figcaption>
+</figure>

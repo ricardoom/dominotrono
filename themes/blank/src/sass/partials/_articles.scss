@@ -21,5 +21,31 @@ time {
     .shortcode-canvas {
       border-left: 0.8rem solid $site-punk-pink;
     }
-  }
+ 
+    //
+    // These are the image rules for an article or portfolio screen:
+    //  The images are provided via a custom {{ image }} shortcode, see the shortcode image.html
+    figure {
+      margin: 0;
+    }
+
+   .image-block {
+
+     &__100 {
+       border: 1px dotted $site-punk-pink;
+     }
+
+     &__50 {
+      border: 1px dotted $site-acid-green;
+     } 
+
+     &__33 {
+      border: 1px dotted $site-white;
+     }
+
+     &__25 {
+      border: 1px dotted $site-hot-orange;
+     }
+   } // /.image-block 
+  } //
 }

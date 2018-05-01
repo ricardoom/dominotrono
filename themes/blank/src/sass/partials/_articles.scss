@@ -14,6 +14,12 @@ time {
   }
 }
 
+.site-article {
+    @include media(">=phone") {
+  }
+  padding: 0 1em;
+}
+
 .site-single {
 
   &__content {
@@ -21,5 +27,66 @@ time {
     .shortcode-canvas {
       border-left: 0.8rem solid $site-punk-pink;
     }
-  }
+ 
+    //
+    // These are the image rules for an article or portfolio screen:
+    //  The images are provided via a custom {{ image }} shortcode, see the shortcode image.html
+    .portfolio-image-wrapper {
+      display: flex;
+      margin: 0.5em 0;
+      @include media("<=tablet") {
+        display: block;
+      }
+    }
+
+    figure {
+      margin: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+   .image-block {
+
+     &__100 {
+       //border: 1px dotted $site-punk-pink;
+       width: 100%;
+     }
+
+     &__50 {
+
+      @include media("<=tablet") {
+        display: block; 
+        width: 100%;
+      }
+
+      //border: 1px dotted $site-acid-green;
+      // display: flex;
+      // flex-direction: column;
+      // width: 100%;
+     } 
+
+     &__33 {
+      @include media("<tablet") {
+        display: block;
+        width: 100%;
+      }
+
+      //border: 1px dotted $site-white;
+      width: 33.33%;
+      display: flex;
+     }
+
+     &__25 {
+      @include media("<tablet") {
+        display: block;
+        width: 100%;
+      }
+
+      border: 1px dotted $site-hot-orange;
+      width: 25%;
+     }
+   } // /.image-block 
+  } //
 }

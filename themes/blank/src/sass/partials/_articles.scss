@@ -15,8 +15,7 @@ time {
 }
 
 .site-article {
-  @include media(">=phone") {
-    background: pink;
+    @include media(">=phone") {
   }
   padding: 0 1em;
 }
@@ -32,6 +31,14 @@ time {
     //
     // These are the image rules for an article or portfolio screen:
     //  The images are provided via a custom {{ image }} shortcode, see the shortcode image.html
+    .portfolio-image-wrapper {
+      display: flex;
+
+      @include media("<=tablet") {
+        display: block;
+      }
+    }
+
     figure {
       margin: 0;
 
@@ -48,16 +55,34 @@ time {
      }
 
      &__50 {
+
+      @include media("<=tablet") {
+        display: block; 
+        width: 100%;
+      }
+
       border: 1px dotted $site-acid-green;
-      width: 50%;
+      // display: flex;
+      // flex-direction: column;
+      // width: 100%;
      } 
 
      &__33 {
+      @include media("<tablet") {
+        display: block;
+        width: 100%;
+      }
+
       border: 1px dotted $site-white;
       width: 33%;
      }
 
      &__25 {
+      @include media("<tablet") {
+        display: block;
+        width: 100%;
+      }
+
       border: 1px dotted $site-hot-orange;
       width: 25%;
      }

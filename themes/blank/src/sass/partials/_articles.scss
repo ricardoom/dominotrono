@@ -33,7 +33,7 @@ time {
     //  The images are provided via a custom {{ image }} shortcode, see the shortcode image.html
     .portfolio-image-wrapper {
       display: flex;
-
+      margin: 0.5em 0;
       @include media("<=tablet") {
         display: block;
       }
@@ -50,7 +50,7 @@ time {
    .image-block {
 
      &__100 {
-       border: 1px dotted $site-punk-pink;
+       //border: 1px dotted $site-punk-pink;
        width: 100%;
      }
 
@@ -61,7 +61,7 @@ time {
         width: 100%;
       }
 
-      border: 1px dotted $site-acid-green;
+      //border: 1px dotted $site-acid-green;
       // display: flex;
       // flex-direction: column;
       // width: 100%;
@@ -73,8 +73,9 @@ time {
         width: 100%;
       }
 
-      border: 1px dotted $site-white;
-      width: 33%;
+      //border: 1px dotted $site-white;
+      width: 33.33%;
+      display: flex;
      }
 
      &__25 {

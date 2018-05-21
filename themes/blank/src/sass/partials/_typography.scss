@@ -14,8 +14,8 @@ $monospace: "SFMono-Regular", Consolas, "Andale Mono WT", "Andale Mono", "Lucida
 ///
 /// type size
 ///
-
-$base-font: 62.5%;
+$base-font-raw: 62.5;
+$base-font: $base-font-raw * 1%;
 $base-font-small: ($base-font * 0.85);
 $base-font-gigantic: ($base-font * 3.5);
 $base-letter-spacing: 0.01;

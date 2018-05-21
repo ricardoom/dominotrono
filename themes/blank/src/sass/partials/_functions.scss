@@ -1,0 +1,19 @@
+//
+// Fun with functions:
+//
+
+//
+// Do some craziness to text shadows...
+@function multiple-text-shadow ($n, $r, $g, $b, $x, $y, $u) {
+    $unit: '#{$u}';
+    $value: '#{$x}$unit #{$y}$unit 0 rgba(#{$r}, #{$g}, #{$b}, 1),';
+    @for $i from 1 through $n {
+      $x: ($i * $x);
+      $y: ($i * $y);
+      $a: 1 / ($n * $i);
+      // remove trailing comma...or not...
+      $value: '#{$value} #{$x}$unit #{$y}$unit 0 ' + 'rgba(#{$r}, #{$g}, #{$b}, #{$a})' + ',';
+    }
+    @return unquote($value);
+  }
+  

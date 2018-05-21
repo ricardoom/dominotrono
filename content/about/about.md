@@ -1,16 +1,18 @@
 ---
-title: "About"
+title: "about"
 date: 2017-12-27T13:48:52-05:00
 draft: false
-author: Ricardo G.
+menu: 
+  main:
+    weight: -130
 ---
+## Contact
+  * phone
+  * masked email address
 
-## Resume in markdown here...
+## Experience
 
-Post the things that have been done where
-
-* item done
-* another item down
-* some things here...
-  - more things done:
-  - Other things done:
+## Stuff needed:
+  * download this resume
+  * print css for this page
+  * head shot? (yuk) 

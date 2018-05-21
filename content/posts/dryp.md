@@ -5,12 +5,11 @@ date: 2018-02-17T09:07:37-05:00
 draft: false
 postimage: "media/placeHolder.png"
 postimagealt: "an alt tag here"
+figcaption: "here is the figure caption"
 tags: ["javascript" , "gardening" ]
 title: "Dryp: A remote garden manager"
 ---
 This project is to fulfill a couple ends. The first is purely for professional development and add new and relevant work to my portfolio. The idea is to create a "mock" product and run it through from basic concept to a finished product complete w/ screen designs, work flows, functional and technical specs. While it may never see the light of day in terms of a real, functional product, I think that, as a project demonstrating the breadth of my abilities it will be apparent.
-
-
 
 ## A Project outline
 

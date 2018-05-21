@@ -9,9 +9,7 @@
     srcset="{{ $srcsetOne }}, {{ $srcsetTwo }}, {{ $srcsetThree }}, {{ $srcsetFour }} "
     src="{{ .Get "src" }}" alt="{{ .Get "alt" }}"
     sizes="(max-width: 20em) 100vw, (max-width: 50em) 75vw, (max-width: 60em) 65vw" />
-
-    {{- $figcap := .Get "figcaption" -}}
-        {{ if $figcap }}
-        <figcaption>{{ $figcap }}</figcaption>
+        {{ with .Get "figcaption" }}
+        <figcaption>{{ . }}</figcaption>
         {{ end }}
 </figure>

@@ -15,6 +15,26 @@
 @import "partials/sidebar";
 @import "partials/site-content";
 
+//
+// Functions
+// TODO: put into _functions partial
+
+@function multiple-text-shadow ($n, $r, $g, $b) {
+  $value: '0.05em 0 0 rgba(#{$r}, #{$g}, #{$b}, 1),';
+  @for $i from 1 through $n {
+    //$value: '#{$value} , #{$i * -0.15}em 0 0 ' + darken($color, $i);
+    $x: $i * -0.15;
+    $y: $i * -0.15;
+    $a: '#{1 / ($n * $i)}';
+    // remove trailing comma...
+    $value: '#{$value} #{$x}em #{$y}em 0 ' + 'rgba(#{$r}, #{$g}, #{$b}, #{$a})' + ',';
+  }
+  @return unquote($value);
+}
+
+//
+// rules
+//
 html {
   background-color: $site-background-color;
   color: $site-white;
@@ -81,6 +101,14 @@ li {
 /// the main site header
 /// eventually to its own partial
 ///
+@keyframes twistShadow {
+  from {
+    transform: translateY(0)
+  }
+  to {
+    transform: translateY(-45deg)
+  }
+}
 
 @keyframes dropIn {
   from {
@@ -93,8 +121,18 @@ li {
 }
 
 .site-header {
-  animation: dropIn 0.92s running;
+  // animation: dropIn 0.92s running;
   background: transparent;
+
+  &__siteNameContainer {
+    backface-visibility: visible;
+    height: 13vh;
+    perspective: 30vh;
+    perspective-origin: 90% 100%;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+
   &__siteName {
 
     @include responsive-font(4vw, 2.1em);
@@ -102,12 +140,14 @@ li {
     color: $site-white;
     font-family: $sans-serif;
     font-weight: 500;
+    height: 7vh;
+    left: 9vw;
     padding: 1rem;
+    position: absolute;
     text-decoration: none;
-    text-shadow:
-    0.15rem 0.15rem 0 rgba(0, 0, 0, 0.75),
-    0.25rem 0.25rem 0 rgba(0, 0, 0, 0.5),
-    0.35rem 0.35rem 0 rgba(0, 0, 0, 0.15);
+    text-shadow: multiple-text-shadow(5, 122, 233, 144);
+    top: 7vh;
+    transform: rotateY(118deg);
 
     &:visited {
       // background-color: $site-dark-blue;
@@ -145,6 +185,14 @@ li {
 /// List page / template summary rules
 ///
 
+///
+/// for landing pages w/ rivers of posts:
+
+.single-column {
+  @include media(">=phone") {
+  }
+  padding: 0 1em;
+}
 
 .site-summary {
 
@@ -183,12 +231,17 @@ li {
       flex-basis: 75%;
       padding-right: 3ex;
     }
-    img {
-      border-left: 3px solid $site-transparent-black;
-      border-radius: 50% 50%;
+    
+    figure {
       flex-basis: 25%;
-      height: 25%;
-      width: 25%;
+      margin: 0;
+      
+      img {
+        border-left: 3px solid $site-transparent-black;
+        border-radius: 50% 50%;
+        height: 25%;
+        width: 25%;
+      }
     }
   }
   &__tags {

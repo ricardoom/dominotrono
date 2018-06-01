@@ -71,11 +71,6 @@ footer,
   width: 100vw;
 }
 
-
-///
-/// Override the webkit focus with our own
-///
-
 li {
   list-style: none;
 }
@@ -87,10 +82,10 @@ li {
 ///
 @keyframes twistShadow {
   from {
-    transform: translateY(0)
+    transform: translateY(0);
   }
   to {
-    transform: translateY(-45deg)
+    transform: rotateY(118deg);
   }
 }
 
@@ -112,7 +107,7 @@ li {
     backface-visibility: visible;
     height: 13vh;
     perspective: 30vh;
-    perspective-origin: 90% 100%;
+    perspective-origin: 85% 60%;
     position: relative;
     transform-style: preserve-3d;
   }
@@ -129,14 +124,19 @@ li {
     padding: 1rem;
     position: absolute;
     text-decoration: none;
+    transform: rotateY(118deg);
     text-shadow: multiple-text-shadow(4, 122, 233, 144, -0.015, 0, px);
     top: 7vh;
-    transform: rotateY(118deg);
+
+    &:hover {
+      // transform: rotateY(118deg);
+      //animation: twistShadow 0.25s forwards;
+    }
 
     &:visited {
       // background-color: $site-dark-blue;
       color: $site-white;
-      clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 20%) border-box;
+      //clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 20%) border-box;
     }
   }
 }

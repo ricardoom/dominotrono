@@ -4,6 +4,13 @@
 
 //
 // Do some craziness to text shadows...
+// @pararm {number} $n - number of shadows to add
+// @pararm {number} $r - red value as in rgb
+// @pararm {number} $g - green value
+// @pararm {number} $b - blue value
+// @pararm {number} $x - the x value in text-shadow rule set
+// @pararm {number} $y - the y value in text-shadow rule set
+// @pararm {number} $u - unit, px, ex, etc..
 @function multiple-text-shadow ($n, $r, $g, $b, $x, $y, $u) {
     //$unit: '#{$u}';
     $value: '#{$x}#{$u} #{$y}#{$u} 0 rgba(#{$r}, #{$g}, #{$b}, 1),';
@@ -16,4 +23,25 @@
     }
     @return unquote($value);
   }
+
   
+//
+// This produces a solid 3d 
+// @param $color {value} - hex or rgba
+// @param $num {number} - number of shadows to apply
+// @param $spread {number} - the shadow's spread
+// @param $blur {number} - the text shadow's blur
+// @param $y {number} - the y value
+// @param $x {number} - the x value
+//
+
+@function big-3d($x, $y, $blur, $spread, $color, $num) {
+  $output: #{$x}px #{$y}px #{$blur} #{$spread} #{$color};
+  @for $i from 1 to $num {
+    $x: ($i + 1);
+    $y: ($i + 1);
+  }
+  @return unquote($output);
+}
+
+// text-shadow: 1px 1px 0 #333, 2px 2px 0 #333,3px 3px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333,5px 5px 0 #333,6px 6px 0 #333, 7px 7px 0 #333, 8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 11px 11px 0 #333;

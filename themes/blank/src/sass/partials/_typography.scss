@@ -66,8 +66,8 @@ a {
   }
 
   &:visited {
-    @include descender(
-    $site-link-visited);
+    // @include descender(
+    // $site-link-visited);
     color: $site-link-visited;
   }
 

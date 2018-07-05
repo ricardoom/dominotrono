@@ -180,9 +180,9 @@ li {
 
 .site-summary {
 
-  @include media(">=phone") {
-    max-width: 90vw;
-  }
+
+  @include basic-article-wrapper(">=phone", 95vw, 5vw);
+  
 
   @include media(">=tablet") {
     max-width: 70vw;
@@ -212,15 +212,22 @@ li {
 
 
     p {
-      flex-basis: 75%;
+      flex-basis: 70%;
       padding-right: 3ex;
     }
     
     figure {
-      flex-basis: 25%;
+      flex-basis: 30%;
       margin: 0;
       
       img {
+        @include media(">=phone") {
+          height: 12.5em;
+          width: 12.5em;
+        }
+        @include media(">=desktop") {
+         
+        }
         border-left: 3px solid $site-transparent-black;
         border-radius: 50% 50%;
         height: 25%;

@@ -7,11 +7,16 @@ time {
   @include media(">=phone") {
   // transform: rotate(-90deg);
   // transform-origin: top right;
+  font-size: 1.3rem;
   min-width: 5em;
   position: relative;
   top: 1em;
   left: 0;
   }
+}
+
+.site-article {
+  @include basic-article-wrapper(">=phone", 95vw, 5vw);
 }
 
 .site-single {

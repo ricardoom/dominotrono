@@ -11,14 +11,12 @@
 			{{ end }}
 			</p>
 			{{ if and (.Params.postimage) (ne .Params.postimage "") }}
-			
 			<figure>
 				<img src="{{ .Params.postimage }}" alt="{{ .Site.Params.postimagealt }}" />
 				{{ if and (.Params.figcaption) (ne .Params.figcaption "") }}
 				<figcaption>{{ .Params.figcaption }}</figcaption>
 				{{ end }}
 			</figure>
-			
 			{{ end }}
 			{{if and (.Params.tags) (ne .Params.tags "") }}
 			<ul>

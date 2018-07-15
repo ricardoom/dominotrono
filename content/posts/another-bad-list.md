@@ -16,7 +16,7 @@ I've been having a rough go of it lately, trouble w/ work, difficulty parenting,
 
 - resume up
 - finish one tutorial series a week
-- read one chapter from desig, ux book over week,
+- read one chapter from design, ux book over week,
     - think on it
     - write on it
 

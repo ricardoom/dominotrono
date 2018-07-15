@@ -439,10 +439,17 @@ function convertToMorse(charactersToConvert, separator) {
 
     // function to remove white space after user input
     function cleanUpInput() {
+<<<<<<< HEAD
       hashTag = getHashTag();
       // a simple regular expression to remove whitespace
       noSpaceHash = hashTag.replace(/\s/g, "");
       return noSpaceHash;
+=======
+      cleanHash = usersHash.value;
+      let newCleanHash = cleanHash.str.replace(/^\s+|\s+$|\s+(?=\s)/g, "");;
+      console.log(newCleanHash);
+      // regular expression to remove whitespace
+>>>>>>> :meat_on_bone:  still banging on the twitter morse thing...not sure where to go from here...≈y
     };
 
 

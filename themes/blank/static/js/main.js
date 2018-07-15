@@ -266,7 +266,7 @@ setTheGradient();
     };
     function cleanUpInput() {
       cleanHash = usersHash.value;
-      newCleanHash = str.replace(/^\s+|\s+$|\s+(?=\s)/g, "");
+      let newCleanHash = cleanHash.str.replace(/^\s+|\s+$|\s+(?=\s)/g, "");;
       console.log(newCleanHash);
       // regular expression to remove whitespace
     };

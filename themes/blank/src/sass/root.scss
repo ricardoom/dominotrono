@@ -180,7 +180,7 @@ li {
 
 .site-summary {
   background: #74e3ec; /* Old Browsers */
-  background: linear-gradient(117deg, transparent, #74e3ec, #c7ffe2); 
+  background: linear-gradient(117deg, transparent, rgba(116, 227, 236, 0.2), rgba(199, 255, 226, 0.5)); 
 
   @include basic-article-wrapper(">=phone", 95vw, 5vw);
   

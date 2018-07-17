@@ -51,6 +51,24 @@ $base-letter-spacing: 0.01;
   transition: color 0.1s ease-out;
 }
 
+///
+/// basic <h#> shadow
+///
+
+@each $heading in h1, h2, h3, h4, h5, h6 {
+
+  #{$heading} {
+    text-shadow: 1px 1px 1px $site-dark-blue, 0.02em 0.35em 0.29em transparentize($site-dark-blue, 0.11); 
+    
+    ///
+    /// Headings that wrap links
+    ///
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
 
 
 ///
@@ -59,21 +77,15 @@ $base-letter-spacing: 0.01;
 
 a {
   &:link {
-    // @include descender(
-    //   $large-bg-color
-    // );
     color: $site-link;
   }
 
   &:visited {
-    // @include descender(
-    // $site-link-visited);
     color: $site-link-visited;
   }
 
   &:hover {
-    // background-color: $site-link-hover-bg;
-    // color: $site-main-text-color;
+    @include focus-ring(outline, $site-acid-green)
   }
 
   &:active {
@@ -81,12 +93,9 @@ a {
   }
 
   &:focus {
-    outline: none;
-    //border: (1em / 16) dotted $site-focus-ring;
-    box-shadow: inset 0 0 0 (1em / 16) $site-focus-ring;
+    @include focus-ring(outline)
   }
 }
-
 
 
 ///

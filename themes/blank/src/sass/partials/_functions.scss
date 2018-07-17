@@ -1,7 +1,10 @@
 //
 // Fun with functions:
+// Also general mixins here too!
 //
 
+//
+// Functions aqui
 //
 // Do some craziness to text shadows...
 // @pararm {number} $n - number of shadows to add
@@ -44,9 +47,7 @@
   @return unquote($output);
 }
 
-// text-shadow: 1px 1px 0 #333, 2px 2px 0 #333,3px 3px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333,5px 5px 0 #333,6px 6px 0 #333, 7px 7px 0 #333, 8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 11px 11px 0 #333;
-
-/// TODO: make a mixins file:
+/// Mixins 
 
   // mixin for basic padding
   // todo: add {params}
@@ -56,4 +57,20 @@
       max-width: $mw;
       padding-left: $pl;
     }  
+  }
+
+/// In some cases we might want to vary the kind of focus ring we apply,
+/// @Param 
+///
+
+  @mixin focus-ring(
+    $type,
+    $color: $site-focus-ring) {
+    @if $type == "outline" {
+      outline: dotted $color (1em / 16);
+    } @else if $type == "border" {
+      border: (1em / 16) dotted $color;
+    } @else if $type == "box-shadow" {
+      box-shadow: inset 0 0 0 (1em / 16) $color;
+    }
   }

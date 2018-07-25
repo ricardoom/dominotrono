@@ -124,7 +124,7 @@ li {
     text-decoration: none;
     //transform: rotateY(118deg);
     //text-shadow: multiple-text-shadow(4, 122, 233, 144, -0.015, 0, px);
-    text-shadow: 1px 1px 0 #333, 2px 2px 0 #333,3px 3px 0 #333,3px 3px 0 #333,4px 4px 0 #333,5px 5px 0 #333,6px 6px 0 #333,7px 7px 0 #333, 8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 11px 11px 0 #333;
+    text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333, 5px 5px 0 hsla(0, 0%, 20%, 0.6), 6px 6px 0 hsla(0, 0%, 20%, 0.5), 7px 7px 0 hsla(0, 0%, 20%, 0.4), 8px 8px 0 hsla(0, 0%, 20%, 0.422), 9px 9px 0 hsla(0, 0%, 20%, 0.3), 10px 10px 0 hsla(0, 0%, 20%, 0.2), 11px 11px 0 hsla(0, 0%, 20%, 0.1);
     top: 7vh;
 
     &:hover {

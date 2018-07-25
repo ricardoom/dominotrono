@@ -1,55 +1,245 @@
-/// get the twitter api key and make sure we can make requests and get a responsive
 
 // do stuff w/ the response,
-
-// asumes we can have a string back from twitter w/ last 25 posts w/ a given hastag
 // concatenate all the posts to a single string
 // convert string to morse code
-  // find libaray to convert from string to morse
-  // or will have to create our own
-  // create the morse code alphabet
-  const alphaMorse = [
-      {
-        "a" : ". _",
-        "b" : "_ . . .",
-        "c" : "_ . _ .",
-        "d" : "_ . .",
-        "e" : ".",
-        "f" : ". . _ .",
-        "g" : "_ _ .",
-      }
-    ];
-// play back the messages as morse
-// functionality
-  // allow for user input
-    // get the user input from the input field
 
+
+  // create the morse code alphabet
+  // map sound to each character
+  // map custom svg shape to each character
+  // const alphaMorse = [
+  //     {
+  //       "a" : ". _",
+  //       "b" : "_ . . .",
+  //       "c" : "_ . _ .",
+  //       "d" : "_ . .",
+  //       "e" : ".",
+  //       "f" : ". . _ .",
+  //       "g" : "_ _ .",
+  //       "h" : ". . . .",
+  //       "i" : ". .",
+  //       "j" : ". _ _ _",
+  //       "k" : "_ . _",
+  //       "l" : ". _ . .",
+  //       "m" : "_ _",
+  //       "o" : "_ _ _",
+  //       "p" : ". _ _ .",
+  //       "q" : "_ _ . _",
+  //       "r" : ". _ .",
+  //       "s" : ". . .",
+  //       "t" : "_",
+  //       "u" : ". . _",
+  //       "v" : ". . . _",
+  //       "w" : ". _ _",
+  //       "x" : "_ . . _",
+  //       "y" : "_ . _ _",
+  //       "z" : "_ _ . .",
+  //       "0" : "_ _ _ _ _",
+  //       "1" : ". _ _ _ _",
+  //       "2" : ". . _ _ _",
+  //       "3" : ". . . _ _",
+  //       "4" : ". . . . _",
+  //       "5" : ". . . . ",
+  //       "6" : "_ . . . .",
+  //       "7" : "_ _ . . .",
+  //       "8" : "_ _ _ . .",
+  //       "9" : "_ _ _ _ .",
+  //     }
+  //   ];
+
+  const morseSVG =
+    {
+      dotSVG : `<svg width="107.66667" height="107.66667" viewBox="0 0 107.66667 107.66667">
+        <title>dot</title>
+        <circle id="_Ellipse_" cx="53.83333" cy="53.83333" r="53.83333" />
+      </svg>`,
+      dashSVG : `<svg width="200" height="108.48468" viewBox="0 0 200 108.48468">
+        <title>dash</title>
+        <rect width="200" height="108.48468" rx="54.24229" ry="54.24229" />
+      </svg>`
+    };
+
+    const Dash = morseSVG.dashSVG;
+    const Dot = morseSVG.dotSVG;
+    const alphaMorse = [
+        {
+          //"a" : ". _",
+          "a" : `${Dot}${Dash}`,
+          //"b" : "_ . . .",
+          "b" : `${Dash}${Dot}${Dot}${Dot}`,
+          //"c" : "_ . _ .",
+          "c" : `${Dash}${Dot}${Dash}${Dot}`,
+          //"d" : "_ . .",
+          "d" : `${Dash} ${Dot} ${Dot}`,
+          //"e" : ".",
+          "e" : `${Dot}`,
+          //"f" : ". . _ .",
+          "f" : `${Dot} ${Dot} ${Dash} ${Dot}`,
+          //"g" : "_ _ .",
+          "g" : `${Dash} ${Dash} ${Dot}`,
+          //"h" : ". . . .",
+          "h" : `${Dot} ${Dot} ${Dot} ${Dot}`,
+          // "i" : ". .",
+          "i" : `${Dot} ${Dot}`,
+          // "j" : ". _ _ _",
+          "j" : `${Dot} ${Dash} ${Dash} ${Dash}`,
+          // "k" : "_ . _",
+          "k" : `${Dash} ${Dot} ${Dash}`,
+          //"l" : ". _ . .",
+          "l" : `${Dot} ${Dash} ${Dot} ${Dot}`,
+          // "m" : "_ _",
+          "m" : `${Dash} ${Dash}`,
+          //"o" : "_ _ _",
+          "o" : `${Dash} ${Dash} ${Dash}`,
+          //"p" : ". _ _ .",
+          "p" : `${Dot} ${Dash} ${Dash} ${Dot}`,
+          //"q" : "_ _ . _",
+          "q" : `${Dash} ${Dash} ${Dot} ${Dash}`,
+          // "r" : ". _ .",
+          "r" : `${Dot} ${Dash} ${Dot}`,
+          //"s" : ". . .",
+          "s" : `${Dot} ${Dot} ${Dot}`,
+          //"t" : "_",
+          "t" : `${Dash}`,
+          // "u" : ". . _",
+          "u" : `${Dot} ${Dot} ${Dash}`,
+          // "v" : ". . . _",
+          "v" : `${Dot} ${Dot} ${Dot} ${Dash}`,
+          //"w" : ". _ _",
+          "w" : `${Dot}${Dash}${Dash}`,
+          // "x" : "_ . . _",
+          "x" : `${Dash} ${Dot} ${Dot} ${Dash}`,
+          // "y" : "_ . _ _",
+          "y" : `${Dash} ${Dot} ${Dash} ${Dash}`,
+          // "z" : "_ _ . .",
+          "z" : `${Dash} ${Dash} ${Dot} ${Dot}`,
+          // "0" : "_ _ _ _ _",
+          "0" : `${Dash} ${Dash} ${Dash} ${Dash} ${Dash}`,
+          // "1" : ". _ _ _ _",
+          "1" : `${Dot} ${Dash} ${Dash} ${Dash} ${Dash}`,
+          // "2" : ". . _ _ _",
+          "2" : `${Dot} ${Dot} ${Dash} ${Dash} ${Dash}`,
+          // "3" : ". . . _ _",
+          "3" : `${Dot} ${Dot} ${Dot} ${Dash} ${Dash}`,
+          // "4" : ". . . . _",
+          "4" : `${Dot} ${Dot} ${Dot} ${Dot} ${Dash}`,
+          // "5" : ". . . . ",
+          "5" : `${Dot} ${Dot} ${Dot} ${Dot} `,
+          // "6" : "_ . . . .",
+          "6" : `${Dash} ${Dot} ${Dot} ${Dot} ${Dot}`,
+          // "7" : "_ _ . . .",
+          "7" : `${Dash} ${Dash} ${Dot} ${Dot} ${Dot}`,
+          // "8" : "_ _ _ . .",
+          "8" : `${Dash} ${Dash} ${Dash} ${Dot} ${Dot}`,
+          // "9" : "_ _ _ _ .",
+          "9" : `${Dash} ${Dash} ${Dash} ${Dash} ${Dot}`,
+        }
+      ];
+
+// convert the response to morse code
+  // get the response from twitter
+  function twitterResponse() {
+    // a placeholder. theResponse will be replaced by the return from bot.js
+    // only call api when new query is sent from ui
+    let theResponse = "Whatever We Get From Twitter";
+    // make sure we convert the response to lower case since morse doesnt care about case and our charCodes object uses lower case.
+    theResponse = theResponse.toLowerCase();
+    return theResponse;
+  }
+
+///
+/// split the return into indivdual strings so we can map them to their corresponding morse code character in charCodes above.
+///
+
+// a function to convert the text dots and dashes to svgs
+// should take the output from convertToMorse() as an argument and return the input text morse code as svgs in the shapes of dots or dashes.
+function transformDotsDashes(theMorseText) {
+  const dot = ".";
+  const dash = "_";
+  const svgDash = morseSVG.dashSVG;
+  const svgDot = morseSVG.dotSVG;
+  let incomingMorse = theMorseText;
+  console.log("transformDotsDashes() is logging this: " + theMorseText);
+  //console.log(theMorseText);
+  //console.log(dot, dash, svgDot, svgDash);
+    // for (dot = 0; dot < theMorseText.length; dot++) {
+    //   let theSVGDots = alphaMorse[0][theMorseText][dot];
+    //   console.log(theSVGDots);
+    // };
+  //return svgDotsAndDashes;
+  }
+
+function convertToMorse(charactersToConvert, separator) {
+  let characters = charactersToConvert.split(separator);
+  //console.log("the string is: " + characters);
+
+  for (c = 0; c < characters.length; c++) {
+    if (characters[c] != " ") {
+      //console.log("The phoentic glyph is: " + characters[c] + "\n " + "The Morse code is: " + alphaMorse[0][characters[c]]);
+      let theFinalMorseText = alphaMorse[0][characters[c]];
+      document.getElementById("morseOutput").innerHTML += theFinalMorseText;
+      // let theFinalMorseSVG = transformDotsDashes(theFinalMorseText);
+      // document.getElementById("morseOutputSVG").innerHTML += theFinalMorseSVG;
+    }
+  }
+}
+
+ // // invoke the convertToMorse() and pass it as a variable called tweets which is output of the twitterResponse() function.
+  let tweets = twitterResponse();
+  convertToMorse(tweets, "")
+
+// Get User Input
+    // get the user input from the input field
     let usersHash = document.getElementById("the-hash-input");
     const userButton = document.getElementById("hash-button");
-    // function to remove white space
-    // will need to modify this based on api responses available
+    const resetButton = document.getElementById("reset-button");
+    resetButton.setAttribute("type", "reset");
 
+    function resetInput() {
+      if (usersHash.value != "") {
+      usersHash.value = "";
+    }
+  }
+
+    // capture the user's input
     function getHashTag() {
-      newHash = usersHash.value
-      console.log(newHash);
-      //return newHash;
+      let newHash = usersHash.value
+      return newHash;
     };
+
+    // function to remove white space after user input
     function cleanUpInput() {
-      cleanHash = usersHash.value;
-      let newCleanHash = cleanHash.str.replace(/^\s+|\s+$|\s+(?=\s)/g, "");;
-      console.log(newCleanHash);
-      // regular expression to remove whitespace
+      hashTag = getHashTag();
+      // a simple regular expression to remove whitespace
+      noSpaceHash = hashTag.replace(/\s/g, "");
+      return noSpaceHash;
     };
 
 
-    userButton.addEventListener("click", getHashTag);
+    // a function to pass the input to bot.js
+    function callTwitter() {
+      let theTwitterHash = cleanUpInput();
+      console.log("callTwitter() output: " + theTwitterHash);
+      //return theTwitterHash
+      // put the input (for now) from into the div below:
+      let theOutput = document.getElementById("twitterReturn").innerHTML = theTwitterHash;
+      }
 
-  // allow user to control speed of playback
-  // contols to repeat / start at the beginning
-  // allow all messages to be played concurrently
-  // allow all messages to be played in serial
+
+//
+// On button press, clean up the user input and request the last 25 tweets about said hashTag
+userButton.addEventListener("click", callTwitter);
+resetButton.addEventListener("click", resetInput);
+
+  // play back the messages as morse
+    // functionality
+
+    // allow user to control speed of playback
+    // contols to repeat / start at the beginning
+    // allow all messages to be played concurrently
+    // allow all messages to be played in serial
     // concurent playback is default
-// only call api when new query is sent from ui
+
 //
 
 
@@ -65,62 +255,62 @@
 //Morse code converter- By Luke Watson (luke@lukewatson.f2s.com)
 //Script featured on JK (http://javascriptkit.com)
 //Visit http://javascriptkit.com for this script and more
-
-var charCodes = new Array(36);
-charCodes["a"]=". _";
-charCodes["b"]="_ . . .";
-charCodes["c"]="_ . _ .";
-charCodes["d"]="_ . .";
-charCodes["e"]=".";
-charCodes["f"]=". . _ .";
-charCodes["g"]="_ _ .";
-charCodes["h"]=". . . .";
-charCodes["i"]=". .";
-charCodes["j"]=". _ _ _";
-charCodes["k"]="_ . _";
-charCodes["l"]=". _ . .";
-charCodes["m"]="_ _";
-charCodes["n"]="_ .";
-charCodes["o"]="_ _ _";
-charCodes["p"]=". _ _ .";
-charCodes["q"]="_ _ . _";
-charCodes["r"]=". _ .";
-charCodes["s"]=". . .";
-charCodes["t"]="_";
-charCodes["u"]=". . _";
-charCodes["v"]=". . . _";
-charCodes["w"]=". _ _";
-charCodes["x"]="_ . . _";
-charCodes["y"]="_ . _ _";
-charCodes["z"]="_ _ . .";
-charCodes["1"]=". _ _ _ _";
-charCodes["2"]=". . _ _ _";
-charCodes["3"]=". . . _ _";
-charCodes["4"]=". . . . _";
-charCodes["5"]=". . . . .";
-charCodes["6"]="_ . . . .";
-charCodes["7"]="_ _ . . .";
-charCodes["8"]="_ _ _ . .";
-charCodes["9"]="_ _ _ _ .";
-charCodes["0"]="_ _ _ _ _";
-var temp=''
-
-function encode() {
-  document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
-  document.morsecode.codebox.value = "";
-  temp = ''
-
-  var chars = document.morsecode.chars.value.split("");
-
-  for (a = 0; a < chars.length; a++) {
-    if (chars[a] != " ") {
-        if (window.charCodes[chars[a]]) {
-          document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
-          temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
-        }
-          else temp += chars[a] + "=(None)\n";
-        }
-        else temp += "\n";
-    }
-    //document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
-}
+//
+// var charCodes = new Array(36);
+// charCodes["a"]=". _";
+// charCodes["b"]="_ . . .";
+// charCodes["c"]="_ . _ .";
+// charCodes["d"]="_ . .";
+// charCodes["e"]=".";
+// charCodes["f"]=". . _ .";
+// charCodes["g"]="_ _ .";
+// charCodes["h"]=". . . .";
+// charCodes["i"]=". .";
+// charCodes["j"]=". _ _ _";
+// charCodes["k"]="_ . _";
+// charCodes["l"]=". _ . .";
+// charCodes["m"]="_ _";
+// charCodes["n"]="_ .";
+// charCodes["o"]="_ _ _";
+// charCodes["p"]=". _ _ .";
+// charCodes["q"]="_ _ . _";
+// charCodes["r"]=". _ .";
+// charCodes["s"]=". . .";
+// charCodes["t"]="_";
+// charCodes["u"]=". . _";
+// charCodes["v"]=". . . _";
+// charCodes["w"]=". _ _";
+// charCodes["x"]="_ . . _";
+// charCodes["y"]="_ . _ _";
+// charCodes["z"]="_ _ . .";
+// charCodes["1"]=". _ _ _ _";
+// charCodes["2"]=". . _ _ _";
+// charCodes["3"]=". . . _ _";
+// charCodes["4"]=". . . . _";
+// charCodes["5"]=". . . . .";
+// charCodes["6"]="_ . . . .";
+// charCodes["7"]="_ _ . . .";
+// charCodes["8"]="_ _ _ . .";
+// charCodes["9"]="_ _ _ _ .";
+// charCodes["0"]="_ _ _ _ _";
+// var temp=''
+//
+// function encode() {
+//   document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
+//   document.morsecode.codebox.value = "";
+//   temp = ''
+//
+//   var chars = document.morsecode.chars.value.split("");
+//
+//   for (a = 0; a < chars.length; a++) {
+//     if (chars[a] != " ") {
+//         if (window.charCodes[chars[a]]) {
+//           document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
+//           temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
+//         }
+//           else temp += chars[a] + "=(None)\n";
+//         }
+//         else temp += "\n";
+//     }
+//     document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
+// }

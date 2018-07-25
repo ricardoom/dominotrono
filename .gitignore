@@ -3,3 +3,5 @@ node_modules/
 *.css.map
 .DS_Store
 npm-debug.log
+botConfig.js
+artwork/

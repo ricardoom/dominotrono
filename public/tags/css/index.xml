@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css on bulletprooftoupee</title>
-    <link>http://bulletprooftoupee.com/tags/css/</link>
+    <link>http://proto.bulletprooftoupee.com/tags/css/</link>
     <description>Recent content in Css on bulletprooftoupee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Dec 2017 22:29:33 -0500</lastBuildDate>
     
-	<atom:link href="http://bulletprooftoupee.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://proto.bulletprooftoupee.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Gulp and Others</title>
-      <link>http://bulletprooftoupee.com/posts/getting-gulp-and-others/</link>
+      <link>http://proto.bulletprooftoupee.com/posts/getting-gulp-and-others/</link>
       <pubDate>Sun, 17 Dec 2017 22:29:33 -0500</pubDate>
       
-      <guid>http://bulletprooftoupee.com/posts/getting-gulp-and-others/</guid>
+      <guid>http://proto.bulletprooftoupee.com/posts/getting-gulp-and-others/</guid>
       <description>What do you need gulp.js for anyway? The whole point is to learn a few things, where to start? I suppose with fundamentals. I&amp;rsquo;ve been avoiding JS for years. It was in the early 2000&amp;rsquo;s when I came across a JS book and I did some examples and ran through the chapters. None of it stuck. I blamed it on poor writing and inadequate documentation. Really, though, I couldn&amp;rsquo;t grok some of the concepts and gave up.</description>
     </item>
     

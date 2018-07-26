@@ -17,7 +17,7 @@
 @function multiple-text-shadow ($n, $r, $g, $b, $x, $y, $u) {
     //$unit: '#{$u}';
     $value: '#{$x}#{$u} #{$y}#{$u} 0 rgba(#{$r}, #{$g}, #{$b}, 1),';
-    @for $i from 1 through $n {
+    @for $i from 0.5 through $n {
       $x: ($i * $x);
       $y: ($i * $y);
       $a: 1 / ($n * $i);
@@ -39,7 +39,7 @@
 //
 
 @function big-3d($x, $y, $blur, $spread, $color, $num) {
-  $output: #{$x}px #{$y}px #{$blur} #{$spread} #{$color};
+  $output: '#{$x}px #{$y}px #{$blur} #{$spread} #{$color}';
   @for $i from 1 to $num {
     $x: ($i + 1);
     $y: ($i + 1);

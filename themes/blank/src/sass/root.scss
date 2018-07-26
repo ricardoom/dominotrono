@@ -125,9 +125,9 @@ li {
     //position: absolute;
     text-decoration: none;
     //transform: rotateY(118deg);
-    //text-shadow: multiple-text-shadow(4, 122, 233, 144, -0.015, 0, px);
-    text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333, 5px 5px 0 hsla(0, 0%, 20%, 0.6), 6px 6px 0 hsla(0, 0%, 20%, 0.5), 7px 7px 0 hsla(0, 0%, 20%, 0.4), 8px 8px 0 hsla(0, 0%, 20%, 0.422), 9px 9px 0 hsla(0, 0%, 20%, 0.3), 10px 10px 0 hsla(0, 0%, 20%, 0.2), 11px 11px 0 hsla(0, 0%, 20%, 0.1);
-    top: 7vh;
+    text-shadow: multiple-text-shadow(4, 122, 233, 144, -0.015, 0, px);
+    // text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333, 5px 5px 0 hsla(0, 0%, 20%, 0.6), 6px 6px 0 hsla(0, 0%, 20%, 0.5), 7px 7px 0 hsla(0, 0%, 20%, 0.4), 8px 8px 0 hsla(0, 0%, 20%, 0.422), 9px 9px 0 hsla(0, 0%, 20%, 0.3), 10px 10px 0 hsla(0, 0%, 20%, 0.2), 11px 11px 0 hsla(0, 0%, 20%, 0.1);
+    // top: 7vh;
 
     &:hover {
       // transform: rotateY(118deg);
@@ -284,8 +284,10 @@ li {
   padding: 0;
 
   &__tag {
-    @include responsive-font(4vw, 3em);
-    text-shadow: big-3d(1, 1, 0, 0, $site-acid-green, 15);
+    @include responsive-font(2vw, 1em);
+    //text-shadow: big-3d(1, 1, 0, 0, $site-acid-green, 15);
+    text-decoration: none;
+    text-shadow: multiple-text-shadow(6, 50, 50, 50, -0.15, 0.2, em);
     display: inline-block;
     font-style: italic;
     // text-shadow: 1px 1px 0 #333, 2px 2px 0 #333,3px 3px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333,5px 5px 0 #333,6px 6px 0 #333, 7px 7px 0 #333, 8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 11px 11px 0 #333;

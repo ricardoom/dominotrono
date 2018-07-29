@@ -1,0 +1,76 @@
+//
+// Fun with functions:
+// Also general mixins here too!
+//
+
+//
+// Functions aqui
+//
+// Do some craziness to text shadows...
+// @pararm {number} $n - number of shadows to add
+// @pararm {number} $r - red value as in rgb
+// @pararm {number} $g - green value
+// @pararm {number} $b - blue value
+// @pararm {number} $x - the x value in text-shadow rule set
+// @pararm {number} $y - the y value in text-shadow rule set
+// @pararm {number} $u - unit, px, ex, etc..
+@function multiple-text-shadow ($n, $r, $g, $b, $x, $y, $u) {
+    //$unit: '#{$u}';
+    $value: '#{$x}#{$u} #{$y}#{$u} 0 rgba(#{$r}, #{$g}, #{$b}, 1),';
+    @for $i from 1 through $n {
+      $x: ($i * $x);
+      $y: ($i * $y);
+      $a: 1 / ($n * $i);
+      // remove trailing comma...or not...
+      $value: '#{$value} #{$x}#{$u} #{$y}#{$u} 0 ' + 'rgba(#{$r}, #{$g}, #{$b}, #{$a})' + ',';
+    }
+    @return unquote($value);
+  }
+
+  
+//
+// This produces a solid 3d 
+// @param $color {value} - hex or rgba
+// @param $num {number} - number of shadows to apply
+// @param $spread {number} - the shadow's spread
+// @param $blur {number} - the text shadow's blur
+// @param $y {number} - the y value
+// @param $x {number} - the x value
+//
+
+@function big-3d($x, $y, $blur, $spread, $color, $num) {
+  $output: #{$x}px #{$y}px #{$blur} #{$spread} #{$color};
+  @for $i from 1 to $num {
+    $x: ($i + 1);
+    $y: ($i + 1);
+  }
+  @return unquote($output);
+}
+
+/// Mixins 
+
+  // mixin for basic padding
+  // todo: add {params}
+  // param {$media} : >=phone
+  @mixin basic-article-wrapper($breakpoint, $mw, $pl) {
+    @include media(#{$breakpoint}) {
+      max-width: $mw;
+      padding-left: $pl;
+    }  
+  }
+
+/// In some cases we might want to vary the kind of focus ring we apply,
+/// @Param 
+///
+
+  @mixin focus-ring(
+    $type,
+    $color: $site-focus-ring) {
+    @if $type == "outline" {
+      outline: dotted $color (1em / 16);
+    } @else if $type == "border" {
+      border: (1em / 16) dotted $color;
+    } @else if $type == "box-shadow" {
+      box-shadow: inset 0 0 0 (1em / 16) $color;
+    }
+  }

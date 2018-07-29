@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/portfolio/nypl-blogs/</loc>
+    <lastmod>2018-06-30T00:05:50-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/posts/another-bad-list/</loc>
+    <lastmod>2018-06-29T23:56:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/posts/dryp/</loc>
+    <lastmod>2018-02-17T09:07:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/posts/library-life/</loc>
+    <lastmod>2018-01-23T14:14:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/experiments/canvas-workings/</loc>
+    <lastmod>2018-01-21T14:59:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/posts/planning-the-new-bpt/</loc>
+    <lastmod>2018-01-05T15:32:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/posts/why-fluid-type/</loc>
+    <lastmod>2017-12-29T08:09:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/experiments/a-canvas-experiment-pt-6/</loc>
+    <lastmod>2017-12-27T18:24:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/about/about/</loc>
+    <lastmod>2017-12-27T13:48:52-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/experiments/my-new-experience/</loc>
+    <lastmod>2017-12-27T13:46:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/posts/getting-gulp-and-others/</loc>
+    <lastmod>2017-12-17T22:29:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/posts/getting-hugo-up-and-running/</loc>
+    <lastmod>2017-12-14T22:12:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/about/</loc>
+    <lastmod>2017-12-27T13:48:52-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/canvas/</loc>
+    <lastmod>2018-01-21T14:59:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/css/</loc>
+    <lastmod>2017-12-17T22:29:33-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/experiments/</loc>
+    <lastmod>2018-01-21T14:59:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/categories/experiments/</loc>
+    <lastmod>2018-01-21T14:59:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/gardening/</loc>
+    <lastmod>2018-02-17T09:07:37-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/javascript/</loc>
+    <lastmod>2018-02-17T09:07:37-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/portfolio/</loc>
+    <lastmod>2018-06-30T00:05:50-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/categories/portfolio/</loc>
+    <lastmod>2018-06-30T00:05:50-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/portfolio/</loc>
+    <lastmod>2018-06-30T00:05:50-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/posts/</loc>
+    <lastmod>2018-06-29T23:56:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/sass/</loc>
+    <lastmod>2017-12-29T08:09:02-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/</loc>
+    <lastmod>2018-01-21T14:59:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/test/</loc>
+    <lastmod>2017-12-27T18:24:35-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/typography/</loc>
+    <lastmod>2017-12-29T08:09:02-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/categories/typography/</loc>
+    <lastmod>2017-12-29T08:09:02-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/</loc>
+    <lastmod>2018-06-30T00:05:50-04:00</lastmod>
+  </url>
+  
+</urlset>

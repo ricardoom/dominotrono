@@ -1,0 +1,9 @@
+node_modules/
+.sass-cache
+*.css.map
+.DS_Store
+npm-debug.log
+artwork/
+
+# the deploy file
+deploy

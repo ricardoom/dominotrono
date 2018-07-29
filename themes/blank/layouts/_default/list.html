@@ -1,0 +1,16 @@
+
+<!-- ++ default list template ++ -->
+
+{{ partial "header.html" . }}
+	<main>
+		<div class="full-width-wrapper">
+			<div class="single-column">{{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+		{{ range $paginator.Pages }}
+			{{ partial "summary.html" . }}
+		{{ end }}
+		</div>
+	</div>
+		<!-- {{ partial "pagination.html" . }} -->
+	</main>
+{{ partial "sidebar.html" . }}
+{{ partial "footer.html" . }}

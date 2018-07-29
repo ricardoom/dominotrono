@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dryp: A remote garden manager</title>
+    
+    <meta name="author" content="Ricardo Galvez">
+    <link rel="stylesheet" href="http://proto.bulletprooftoupee.com/css/root.css">
+    
+    <meta name="generator" content="Hugo 0.37.1" />
+</head>
+<body>
+    <header role="banner" class="site-header">
+        <div class="full-width-wrapper">
+            <div class="single-column">
+                <div class="site-header__siteNameContainer">
+                    <a href="http://proto.bulletprooftoupee.com/" class="site-header__siteName">bulletprooftoupee</a>
+                </div>
+                <nav class="site-navigation">
+                    <ul>
+                        
+                        <li><a href="/about/about/">about</a></li>
+                        
+                        <li><a href="/posts/">web-log</a></li>
+                        
+                        <li><a href="/experiments/">experiments</a></li>
+                        
+                        <li><a href="/portfolio/">portfolio</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+	<main>
+		<div class="full-width-wrapper">
+			<div class="single-column">
+				<article class="site-article">
+				<h1>Dryp: A remote garden manager</h1>
+				<p class="site-author">by: Ricardo Galvez</p>
+				<time>02.17.2018 09:07</time>
+				<div class="site-single__content">
+					
+
+<p>This project is to fulfill a couple ends. The first is purely for professional development and add new and relevant work to my portfolio. The idea is to create a &ldquo;mock&rdquo; product and run it through from basic concept to a finished product complete w/ screen designs, work flows, functional and technical specs. While it may never see the light of day in terms of a real, functional product, I think that, as a project demonstrating the breadth of my abilities it will be apparent.</p>
+
+<h2 id="a-project-outline">A Project outline</h2>
+
+<h3 id="story-frames">Story Frames</h3>
+
+<ul>
+<li>the Dryp app tells you the story about your garden from day to day</li>
+<li>the Dryp is a configurable garden control system that lets you monitor, control and memorialize your garden using open source software and hardware.</li>
+<li>Users will access their &ldquo;plot&rdquo; via the Dryp interface and be able to see air and soil temps, soil pH, irrigation and ventilation settings.</li>
+<li>Dryp will visualize the status of various aspects of the garden.</li>
+<li>Dryp will allow user&rsquo;s to schedule</li>
+<li>Dryp will record and monitor Air and soil temp and save it to a database</li>
+<li>The Dryp application can help you control ventilation and lighting if connected</li>
+<li>micro-geography of plants can be mapped</li>
+</ul>
+
+<h3 id="functional-specs-software-hardware-interface">Functional specs / Software ~ Hardware interface</h3>
+
+<ul>
+<li>Overall the project would be expressed as a web app</li>
+<li>requires a local weather stataion (arduino / raspberry pi)</li>
+<li>raspberryPi
+
+<ul>
+<li>hosts node app</li>
+<li>hosts DB</li>
+<li>tcp/ip communication</li>
+</ul></li>
+<li>remote, web based application to control various functions of an automated garden
+
+<ul>
+<li>node.js / golang / python / electron?</li>
+<li>core application / controller: node / go / python</li>
+<li>hardware control: processing / wiring</li>
+</ul></li>
+<li>collect data about garden status and store it</li>
+
+<li><p>requires access to local weather data</p></li>
+
+<li><p>Irrigation can be scheduled / programmed</p></li>
+
+<li><p>Soil pH can be monitored</p></li>
+</ul>
+
+<h3 id="users">Users</h3>
+
+<ul>
+<li>me, but could be useful for DIYer who possesses a fair amout of technical ability</li>
+</ul>
+
+<h3 id="wireframes">Wireframes</h3>
+
+<h3 id="implementation">Implementation</h3>
+
+<ul>
+<li>Hardware
+
+<ul>
+<li>Arudino</li>
+<li>raspberryPi</li>
+</ul></li>
+<li>Software
+
+<ul>
+<li>wiring / processing Arduino I/O</li>
+<li>node</li>
+<li>html / js front end UI</li>
+</ul></li>
+<li>Data
+
+<ul>
+<li>from weather station</li>
+<li>data from garden sensors</li>
+<li>soil temp</li>
+<li>air temp</li>
+<li>moisture levels</li>
+<li>UV levels</li>
+</ul></li>
+<li>UI
+
+<ul>
+<li>main page / system status dashboard</li>
+<li>see Data section above</li>
+<li>irrigation control</li>
+<li>greenhouse control</li>
+<li>ventilation</li>
+<li><em>Optional:</em> garden cameras</li>
+<li>IR raspberryPi (NoIR?) cameras</li>
+</ul></li>
+<li>Database</li>
+</ul>
+
+<h3 id="screen-design">Screen Design</h3>
+
+<ul>
+<li>primarily a small screen app,
+
+<ul>
+<li>tablet and desktop versions would be cool</li>
+</ul></li>
+</ul>
+
+
+<figure>
+    
+        <img src="/media/IMG_3997.jpg" />
+    
+    
+    <figcaption>
+        <h4>a manager of gardens</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+				</div>
+			</article>
+		</div>
+		<div class="single-column">
+			<ul id="tags" class="site-tags">
+				
+				<li class="site-tags__tag">
+					<a href="/tags/javascript">javascript</a> </li>
+				
+				<li class="site-tags__tag">
+					<a href="/tags/gardening">gardening</a> </li>
+				
+			</ul>
+		</div>
+		</div>
+	</main>
+	<aside class="asidebar-prime">
+		<div>
+
+				<h3 class="asidebar-prime__sidebarTitle">LATEST POSTS</h3>
+				<ul class="asidebar-prime__sidebarList">
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/portfolio/nypl-blogs/">N</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/posts/another-bad-list/">A</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/posts/dryp/">D</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/posts/library-life/">L</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/experiments/canvas-workings/">C</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/posts/planning-the-new-bpt/">P</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/posts/why-fluid-type/">W</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/experiments/a-canvas-experiment-pt-6/">A</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/about/about/">a</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/experiments/my-new-experience/">M</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/posts/getting-gulp-and-others/">G</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/posts/getting-hugo-up-and-running/">G</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/about/">A</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/canvas/">C</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/categories/">C</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/css/">C</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/experiments/">E</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/categories/experiments/">E</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/gardening/">G</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/javascript/">J</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/portfolio/">P</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/categories/portfolio/">P</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/portfolio/">P</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/posts/">P</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/sass/">S</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/">T</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/test/">T</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/tags/typography/">T</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/categories/typography/">T</a></li>
+
+					
+						
+<li><a href="http://proto.bulletprooftoupee.com/">b</a></li>
+
+					
+				</ul>
+
+				<h3 class="asidebar-prime__sidebarTitle">Categories</h3>
+				<ul class="asidebar-prime__sidebarTags">
+  				
+   					<li><a href="http://proto.bulletprooftoupee.com/categories/experiments/">Experiments</a></li>
+  				
+   					<li><a href="http://proto.bulletprooftoupee.com/categories/portfolio/">Portfolio</a></li>
+  				
+   					<li><a href="http://proto.bulletprooftoupee.com/categories/typography/">Typography</a></li>
+  				
+				</ul>
+
+		</div>
+	</aside>
+
+	<footer class="site-footer">
+		<p class="site-footer__siteCredit">&copy; 2018 <a href="http://proto.bulletprooftoupee.com/">bulletprooftoupee</a></p>
+	</footer>
+
+
+
+	<script src="http://proto.bulletprooftoupee.com/js/main.js"></script>
+</body>
+</html>
+

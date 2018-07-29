@@ -5,3 +5,6 @@ node_modules/
 npm-debug.log
 botConfig.js
 artwork/
+
+# the deploy file
+deploy

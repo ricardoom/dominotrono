@@ -3,7 +3,7 @@
 
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
-  cnv.parent('canvas-container');
+  cnv.parent('jumbo-container');
   loadJSON("http://api.openweathermap.org/data/2.5/weather?zip=11221,us&units=imperial&appid=d335a16d5b5a98484b5566b3f3e2991e", goData);
 }
 

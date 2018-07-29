@@ -18,7 +18,7 @@ $site-focus-ring: #fbae6c;
 $site-main-text-color: $site-black;
 $site-background-color: $site-dark-blue;
 $site-link: $site-white;
-$site-link-visited: $site-punk-pink;
+$site-link-visited: darken($site-white, 3%);
 $site-link-hover-bg: $site-acid-green;
 $site-link-active-bg: $site-green-blue;
 

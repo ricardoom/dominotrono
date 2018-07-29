@@ -3,11 +3,11 @@
 //
 
 @import "vendor/normalize";
+@import "partials/functions";
 @import "vendor/include_media";
-@import "vendor/fluid_type.scss";
+@import "vendor/fluid_type";
 @import "partials/custom_breakpoints";
 @import "partials/colors";
-//@import "partials/type/descender";
 @import "partials/typography";
 @import "partials/grid";
 @import "partials/nav";
@@ -17,6 +17,9 @@
 @import "partials/_twitter_hash";
 
 
+//
+// rules
+//
 html {
   background-color: $site-background-color;
   color: $site-white;
@@ -43,15 +46,14 @@ footer,
   > :nth-child(n) {
 
     @include media(">=phone") {
-      //background-color: $small-bg-color;
-      margin: 0 0 0 5vw;
-      width: 85vw;
+      margin: 0;
+      width: 100vw;
     }
 
     @include media(">=tablet") {
-      //background-color: $medium-bg-color;
-      //padding: 0 0 0 15ex;
-      //width: 80vw;
+      margin: 0 0 0 5vw;
+      padding: 0 0 0 15ex;
+      width: 75vw;
     }
 
     @include media(">=desktop") {
@@ -69,11 +71,6 @@ footer,
   width: 100vw;
 }
 
-
-///
-/// Override the webkit focus with our own
-///
-
 li {
   list-style: none;
 }
@@ -83,6 +80,14 @@ li {
 /// the main site header
 /// eventually to its own partial
 ///
+@keyframes twistShadow {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: rotateY(118deg);
+  }
+}
 
 @keyframes dropIn {
   from {
@@ -95,8 +100,18 @@ li {
 }
 
 .site-header {
-  //animation: dropIn 0.92s running;
+  // animation: dropIn 0.92s running;
   background: transparent;
+
+  &__siteNameContainer {
+    //backface-visibility: visible;
+    height: 13vh;
+    //perspective: 30vh;
+    //perspective-origin: 85% 60%;
+    position: relative;
+    //transform-style: preserve-3d;
+  }
+
   &__siteName {
 
     @include responsive-font(4vw, 2.1em);
@@ -104,17 +119,25 @@ li {
     color: $site-white;
     font-family: $sans-serif;
     font-weight: 500;
+    height: 7vh;
+    left: 9vw;
     padding: 1rem;
+    //position: absolute;
     text-decoration: none;
-    text-shadow:
-    0.15rem 0.15rem 0 rgba(0, 0, 0, 0.75),
-    0.25rem 0.25rem 0 rgba(0, 0, 0, 0.5),
-    0.35rem 0.35rem 0 rgba(0, 0, 0, 0.15);
+    //transform: rotateY(118deg);
+    text-shadow: multiple-text-shadow(4, 122, 233, 144, -0.015, 0, px);
+    // text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333, 5px 5px 0 hsla(0, 0%, 20%, 0.6), 6px 6px 0 hsla(0, 0%, 20%, 0.5), 7px 7px 0 hsla(0, 0%, 20%, 0.4), 8px 8px 0 hsla(0, 0%, 20%, 0.422), 9px 9px 0 hsla(0, 0%, 20%, 0.3), 10px 10px 0 hsla(0, 0%, 20%, 0.2), 11px 11px 0 hsla(0, 0%, 20%, 0.1);
+    // top: 7vh;
+
+    &:hover {
+      // transform: rotateY(118deg);
+      //animation: twistShadow 0.25s forwards;
+    }
 
     &:visited {
       // background-color: $site-dark-blue;
       color: $site-white;
-      clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 20%) border-box;
+      //clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 20%) border-box;
     }
   }
 }
@@ -162,12 +185,22 @@ li {
 /// List page / template summary rules
 ///
 
+///
+/// for landing pages w/ rivers of posts:
+
+.single-column {
+  @include media(">=phone") {
+    padding: 0;
+  }
+  padding: 0 1em;
+}
 
 .site-summary {
+  background: #74e3ec; /* Old Browsers */
+  background: linear-gradient(117deg, transparent, rgba(116, 227, 236, 0.2), rgba(199, 255, 226, 0.5)); 
 
-  @include media(">=phone") {
-    max-width: 90vw;
-  }
+  @include basic-article-wrapper(">=phone", 95vw, 5vw);
+  
 
   @include media(">=tablet") {
     max-width: 70vw;
@@ -197,15 +230,27 @@ li {
 
 
     p {
-      flex-basis: 75%;
+      flex-basis: 70%;
       padding-right: 3ex;
     }
-    img {
-      border-left: 3px solid $site-transparent-black;
-      border-radius: 50% 50%;
-      flex-basis: 25%;
-      height: 25%;
-      width: 25%;
+    
+    figure {
+      flex-basis: 30%;
+      margin: 0;
+      
+      img {
+        @include media(">=phone") {
+          height: 12.5em;
+          width: 12.5em;
+        }
+        @include media(">=desktop") {
+         
+        }
+        border-left: 3px solid $site-transparent-black;
+        border-radius: 50% 50%;
+        height: 25%;
+        width: 25%;
+      }
     }
   }
   &__tags {
@@ -234,14 +279,20 @@ li {
 ///
 
 .site-tags {
-  background: $site-black;
+  // 
   margin: 2ex 0;
   padding: 0;
 
   &__tag {
-    @include responsive-font(4vw, 3em);
+    @include responsive-font(2vw, 1em);
+    //text-shadow: big-3d(1, 1, 0, 0, $site-acid-green, 15);
+    text-decoration: none;
+    text-shadow: multiple-text-shadow(6, 50, 50, 50, -0.15, 0.2, em);
     display: inline-block;
     font-style: italic;
+    // text-shadow: 1px 1px 0 #333, 2px 2px 0 #333,3px 3px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333,5px 5px 0 #333,6px 6px 0 #333, 7px 7px 0 #333, 8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 11px 11px 0 #333;
+    margin: 2ex 0;
+    padding: 0;
   }
 }
 

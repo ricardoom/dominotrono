@@ -3,7 +3,7 @@ title: "bulletprooftoupee.com | The personal site of Ricardo E. Galvez"
 draft: false
 ---
 
-## the home page
+# the home page
 
 A few things to consider:
 

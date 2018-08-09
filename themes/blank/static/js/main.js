@@ -210,6 +210,14 @@ const bgPairs = [
   }
 ];
 
+// Use HSLA values instead of HEX...
+// const hslaPairs = [
+//   {
+
+//   }
+// ];
+
+
 
 
 // Now set them to the hour:
@@ -217,17 +225,36 @@ const theHour = getHours();
 console.log(theHour);
 const start = bgPairs[0].start[theHour];
 const end = bgPairs[0].end[theHour];
-const alpha = 0.25;
-const container = document.querySelector('body');
 
+function makeRandomNumber(min, max) {
+  min = Math.ceil(min);
+  max = Math.ceil(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+// function walk(angle) {
+//     angle = Math.Random(180 - theHour);
+//     return angle;
+//     console.log(angle); 
+// }
+
+const theAngle = makeRandomNumber(0,360);
+const thePercentage = makeRandomNumber(0,100);
+const angle = theAngle - theHour; // Hue
+const saturation = thePercentage - theHour; // Saturation
+const lightness = thePercentage - theHour; // Lightness
+const alpha = 0.75; // Alpha
+
+const container = document.querySelector('body');
 function setTheGradient() {
   container.style.backgroundImage = 'linear-gradient(182deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg,' + start + ',' + end + ')';
 };
 
-setTheGradient();
+function setTheGradientHSLA() {
+  container.style.backgroundImage = 'linear-gradient(182deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg, hsla('+ angle +', '+ saturation +'%,'+ lightness +'%,' + alpha +'), hsla(180, 5%, 12%, 0.2))';
+};
 
-// TODO: instead of big ass arrays of colors. find a way to pipe hsl() colors to the background...
-
+setTheGradientHSLA();
 
 // do stuff w/ the response,
 // concatenate all the posts to a single string
@@ -471,76 +498,3 @@ resetButton.addEventListener("click", resetInput);
     // concurent playback is default
 
 //
-
-
-
-
-
-
-
-
-
-<!--
-
-//Morse code converter- By Luke Watson (luke@lukewatson.f2s.com)
-//Script featured on JK (http://javascriptkit.com)
-//Visit http://javascriptkit.com for this script and more
-//
-// var charCodes = new Array(36);
-// charCodes["a"]=". _";
-// charCodes["b"]="_ . . .";
-// charCodes["c"]="_ . _ .";
-// charCodes["d"]="_ . .";
-// charCodes["e"]=".";
-// charCodes["f"]=". . _ .";
-// charCodes["g"]="_ _ .";
-// charCodes["h"]=". . . .";
-// charCodes["i"]=". .";
-// charCodes["j"]=". _ _ _";
-// charCodes["k"]="_ . _";
-// charCodes["l"]=". _ . .";
-// charCodes["m"]="_ _";
-// charCodes["n"]="_ .";
-// charCodes["o"]="_ _ _";
-// charCodes["p"]=". _ _ .";
-// charCodes["q"]="_ _ . _";
-// charCodes["r"]=". _ .";
-// charCodes["s"]=". . .";
-// charCodes["t"]="_";
-// charCodes["u"]=". . _";
-// charCodes["v"]=". . . _";
-// charCodes["w"]=". _ _";
-// charCodes["x"]="_ . . _";
-// charCodes["y"]="_ . _ _";
-// charCodes["z"]="_ _ . .";
-// charCodes["1"]=". _ _ _ _";
-// charCodes["2"]=". . _ _ _";
-// charCodes["3"]=". . . _ _";
-// charCodes["4"]=". . . . _";
-// charCodes["5"]=". . . . .";
-// charCodes["6"]="_ . . . .";
-// charCodes["7"]="_ _ . . .";
-// charCodes["8"]="_ _ _ . .";
-// charCodes["9"]="_ _ _ _ .";
-// charCodes["0"]="_ _ _ _ _";
-// var temp=''
-//
-// function encode() {
-//   document.morsecode.chars.value = document.morsecode.chars.value.toLowerCase();
-//   document.morsecode.codebox.value = "";
-//   temp = ''
-//
-//   var chars = document.morsecode.chars.value.split("");
-//
-//   for (a = 0; a < chars.length; a++) {
-//     if (chars[a] != " ") {
-//         if (window.charCodes[chars[a]]) {
-//           document.morsecode.codebox.value += charCodes[chars[a]] + "    ";
-//           temp += chars[a] + "=" + charCodes[chars[a]] + "\n";
-//         }
-//           else temp += chars[a] + "=(None)\n";
-//         }
-//         else temp += "\n";
-//     }
-//     document.morsecode.codebox.value+="\n\n\nEXPLANATION:\n\n"+temp
-// }

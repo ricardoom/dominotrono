@@ -25,6 +25,14 @@ const bgPairs = [
   }
 ];
 
+// Use HSLA values instead of HEX...
+// const hslaPairs = [
+//   {
+
+//   }
+// ];
+
+
 
 
 // Now set them to the hour:
@@ -32,13 +40,33 @@ const theHour = getHours();
 console.log(theHour);
 const start = bgPairs[0].start[theHour];
 const end = bgPairs[0].end[theHour];
-const alpha = 0.25;
-const container = document.querySelector('body');
 
+function makeRandomNumber(min, max) {
+  min = Math.ceil(min);
+  max = Math.ceil(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+// function walk(angle) {
+//     angle = Math.Random(180 - theHour);
+//     return angle;
+//     console.log(angle); 
+// }
+
+const theAngle = makeRandomNumber(0,360);
+const thePercentage = makeRandomNumber(0,100);
+const angle = theAngle - theHour; // Hue
+const saturation = thePercentage - theHour; // Saturation
+const lightness = thePercentage - theHour; // Lightness
+const alpha = 0.75; // Alpha
+
+const container = document.querySelector('body');
 function setTheGradient() {
   container.style.backgroundImage = 'linear-gradient(182deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg,' + start + ',' + end + ')';
 };
 
-setTheGradient();
+function setTheGradientHSLA() {
+  container.style.backgroundImage = 'linear-gradient(182deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg, hsla('+ angle +', '+ saturation +'%,'+ lightness +'%,' + alpha +'), hsla(180, 5%, 12%, 0.2))';
+};
 
-// TODO: instead of big ass arrays of colors. find a way to pipe hsl() colors to the background...
+setTheGradientHSLA();

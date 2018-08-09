@@ -1,32 +1,33 @@
 {{ partial "header.html" . }}
-	<!-- === root index === -->
-	<main class="site-content" id="siteContent">
-		<div class="grid-wrapper">
-			<div class="prime-box">
-				some dynamic thing here would be cool... animated svg perhaps
-			</div>
-			<div class="subtitle-grid-container">{{ with $.Site.Params.subtitle }}
-				 <span class="subtitle">{{ . }}</span>
-			{{ end }}
-			</div>
-			<div class="jumbo-grid-container twitter-hash">
-				{{ partial "jumbo.html" . }}
-			</div>
-			<div class="home-page-grid-member">
-				{{ .Content }}
-				{{ $paginator := .Paginate (where .Site.Pages "Type" "posts") }}
-				{{ range $paginator.Pages }}
-					{{ partial "summary.html" . }}
-				{{ end }}
-			</div>
-			<div class="grid-site-data">
-				{{ range first 20 .Data.Pages }}
-	        {{ .Render "summary"}}
-	      {{ end }}
-			</div>
+<!-- === root index === -->
+<main class="site-content" id="siteContent">
+  <div class="grid-wrapper">
+    <div class="prime-box">
+      <p>some dynamic thing here would be cool... animated svg perhaps</p>
+    </div>
+    <div class="subtitle-grid-container">
+      {{ with $.Site.Params.subtitle }}
+        <span class="subtitle">{{ . }}</span>
+      {{ end }}
+    </div>
+    <div class="jumbo-grid-container twitter-hash">
+    {{ partial "jumbo.html" . }}
+    </div>
+    <div class="home-page-grid-member">
+      {{ .Content }}
+        {{ $paginator := .Paginate .Site.RegularPages }}
+          {{ range $paginator.Pages }}
+        {{ partial "summary.html" . }}
+      {{ end }}
+    </div>
+    <div class="grid-site-data">
+      {{ range first 20 .Data.Pages }}
+        {{ .Render "summary"}}
+      {{ end }}
+    </div>
 
-		</div>
-		<!-- {{ partial "pagination.html" . }} -->
-	</main>
+</div>
+<!-- {{ partial "pagination.html" . }} -->
+</main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}

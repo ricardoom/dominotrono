@@ -11,20 +11,20 @@ const T = new Twit(config);
 
 
 let params = {
-  q: '%23woodworking since:2016-01-1',
-  count: 5
+  q: '%23chess since:2016-01-1',
+  count: 17
 }
 
 function gotData(err, data, response) {
   let tweets = data.statuses;
   for (let i =0; i < tweets.length; i++) {
-    //console.log(tweets[i].text);
+    console.log(tweets[i].text);
   }
 }
 
 //T.get('search/tweets', params, gotData);
 let twitterReturn = T.get('search/tweets', params, gotData);
 
-app.get('/', (req, res) => res.send(twitterReturn))
+app.get('/', (req, res) => res.send(twitterReturn));
 
-app.listen(3000, () => console.log('Twitter (bot.js) is doing the listening on port 3000! \n'))
+app.listen(3000, () => console.log('Twitter (bot.js) is doing the listening on port 3000! \n'));

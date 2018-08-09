@@ -250,7 +250,7 @@ resetButton.addEventListener("click", resetInput);
 
 
 
-<!--
+
 
 //Morse code converter- By Luke Watson (luke@lukewatson.f2s.com)
 //Script featured on JK (http://javascriptkit.com)

@@ -22,12 +22,19 @@
 //
 html {
   background-color: $site-background-color;
+  background-image: url(../images/moonScapeBG.jpg);
+  // Retina-specific stuff here
+  // TODO: Create a Mixin to handle any device pixel ratio
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    background-image: url(../images/moonScapeBG@2x.jpg) 
+  }
   color: $site-white;
   font-family: $sans-serif;
   font-size: $base-font;
 }
 
 body {
+  background-blend-mode: multiply;
   font-size: 1.6rem;
   margin: 0;
 

@@ -10,19 +10,25 @@
       padding: 0;
 
       & svg {
-        fill: transparentize($site-white, 0.3);
+        fill: transparentize($site-white, 0.7);
         margin: 0 0.25rem;
       }
 
+$dot-height: 3.364584375rem;
+$dot-width: $dot-height;
+
       .dot {
-        height: 3.364584375rem;
-        width: 3.364584375rem;
+        height: ($dot-height * 2);
+        width: ($dot-width * 2);
         // width="107.66667" height="107.66667" 
       }
 
+
+$dash-height: $dot-height;
+$dash-width: 6.25rem;
       .dash {
-        height: 3.39014625rem;
-        width: 6.25rem;
+        height: ($dash-height * 2); // the old & orginal height 3.39014625rem;
+        width: ($dash-width * 2);
         // width="200" height="108.48468"
       }
     }

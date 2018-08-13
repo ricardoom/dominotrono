@@ -20,6 +20,14 @@
 //
 // rules
 //
+
+/// Box Sizing
+/// TODO: Make sure this box-sizing rule is in fact the one we want
+///
+* {
+  box-sizing: border-box;
+}
+
 html {
   //background-color: $site-background-color;
   background-image: url(../images/moonScapeBG5.svg);
@@ -158,39 +166,6 @@ li {
 ///
 /// Home Page
 ///
-
-.site-content {
-
-  button {
-    background: transparent;
-    border: 0.15em solid $site-white;
-    border-radius: 0.35em;
-    color: $site-white;
-    font-size: 1.25rem;
-    padding: 0.5em 1em;
-  }
-  input {
-    background: $site-white;
-    border: 0.15em solid $site-white;
-    border-radius: 0.35em;
-    font-size: 1.25rem;
-    padding: 0.5em 1em;
-  }
-  .subtitle {
-    display: block;
-    font-style: oblique;
-    padding: 1ex 0;
-  }
-  &__homePage {
-    width: 90vw;
-  }
-  /// to its own partial
-  ///
-  // &__jumboJumbo {
-  //   background: transparent;
-  //   height: 85vh;
-  // }
-}
 
 ///
 /// List page / template summary rules

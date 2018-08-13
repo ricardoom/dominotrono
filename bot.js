@@ -11,8 +11,8 @@ const T = new Twit(config);
 
 
 let params = {
-  q: '%23chess since:2016-01-1',
-  count: 17
+  q: '%23cactus since:2016-01-1',
+  count: 5
 }
 
 function gotData(err, data, response) {

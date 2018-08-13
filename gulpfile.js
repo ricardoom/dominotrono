@@ -57,6 +57,7 @@ gulp.task('copy', function(){
 gulp.task('watch', function () {
   gulp.watch('themes/blank/src/sass/**/*.scss', ['sass']);
   gulp.watch('themes/blank/src/js/**/*.js', ['js']);
+  gulp.watch('themes/blank/images/**/*.*', ['copy']);
 });
 
 gulp.task('default', ['copy', 'sass', 'js', 'watch']);

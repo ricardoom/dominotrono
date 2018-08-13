@@ -22,6 +22,7 @@
   //       "k" : "_ . _",
   //       "l" : ". _ . .",
   //       "m" : "_ _",
+  //       "n" : "_ .",
   //       "o" : "_ _ _",
   //       "p" : ". _ _ .",
   //       "q" : "_ _ . _",
@@ -46,14 +47,14 @@
   //       "9" : "_ _ _ _ .",
   //     }
   //   ];
-
+// 
   const morseSVG =
     {
-      dotSVG : `<svg width="107.66667" height="107.66667" viewBox="0 0 107.66667 107.66667">
+      dotSVG : `<svg class="dot" viewBox="0 0 107.66667 107.66667">
         <title>dot</title>
         <circle id="_Ellipse_" cx="53.83333" cy="53.83333" r="53.83333" />
       </svg>`,
-      dashSVG : `<svg width="200" height="108.48468" viewBox="0 0 200 108.48468">
+      dashSVG : `<svg class="dash" viewBox="0 0 200 108.48468">
         <title>dash</title>
         <rect width="200" height="108.48468" rx="54.24229" ry="54.24229" />
       </svg>`
@@ -89,6 +90,8 @@
           "l" : `${Dot} ${Dash} ${Dot} ${Dot}`,
           // "m" : "_ _",
           "m" : `${Dash} ${Dash}`,
+          // "n"
+          "n" : `${Dash} ${Dot}`,
           //"o" : "_ _ _",
           "o" : `${Dash} ${Dash} ${Dash}`,
           //"p" : ". _ _ .",
@@ -133,6 +136,8 @@
           "8" : `${Dash} ${Dash} ${Dash} ${Dot} ${Dot}`,
           // "9" : "_ _ _ _ .",
           "9" : `${Dash} ${Dash} ${Dash} ${Dash} ${Dot}`,
+          // spell out "hash"
+          "#" : `${Dot} ${Dot} ${Dot} ${Dot} ${Dot}${Dash} ${Dot} ${Dot} ${Dot} ${Dot} ${Dot} ${Dot} ${Dot}`,
         }
       ];
 
@@ -141,7 +146,7 @@
   function twitterResponse() {
     // a placeholder. theResponse will be replaced by the return from bot.js
     // only call api when new query is sent from ui
-    let theResponse = "Whatever We Get From Twitter";
+    let theResponse = "cactus girls #summerartcamp #imaginestudios #cactus #create";
     // make sure we convert the response to lower case since morse doesnt care about case and our charCodes object uses lower case.
     theResponse = theResponse.toLowerCase();
     return theResponse;
@@ -160,7 +165,7 @@ function transformDotsDashes(theMorseText) {
   const svgDot = morseSVG.dotSVG;
   let incomingMorse = theMorseText;
   console.log("transformDotsDashes() is logging this: " + theMorseText);
-  //console.log(theMorseText);
+  console.log(theMorseText);
   //console.log(dot, dash, svgDot, svgDash);
     // for (dot = 0; dot < theMorseText.length; dot++) {
     //   let theSVGDots = alphaMorse[0][theMorseText][dot];
@@ -193,7 +198,7 @@ function convertToMorse(charactersToConvert, separator) {
     let usersHash = document.getElementById("the-hash-input");
     const userButton = document.getElementById("hash-button");
     const resetButton = document.getElementById("reset-button");
-    resetButton.setAttribute("type", "reset");
+    //resetButton.setAttribute("type", "reset");
 
     function resetInput() {
       if (usersHash.value != "") {
@@ -228,8 +233,8 @@ function convertToMorse(charactersToConvert, separator) {
 
 //
 // On button press, clean up the user input and request the last 25 tweets about said hashTag
-userButton.addEventListener("click", callTwitter);
-resetButton.addEventListener("click", resetInput);
+//userButton.addEventListener("click", callTwitter);
+//resetButton.addEventListener("click", resetInput);
 
   // play back the messages as morse
     // functionality

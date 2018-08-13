@@ -2,7 +2,7 @@
 author: Ricardo G.
 categories: []
 date: 2018-01-23T14:14:36-05:00
-draft: false
+draft: true
 tags: []
 title: "Library Life"
 ---

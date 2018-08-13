@@ -3,7 +3,7 @@ author: Ricardo G.
 categories: ["portfolio"]
 date: 2018-06-30T00:05:50-04:00
 draft: false
-postimage: "media/placeHolder_sm.png"
+postimage: ""
 postimagealt: "an alt tag here"
 figcaption: "here is the figure caption"
 tags: ["portfolio"]

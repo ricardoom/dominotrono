@@ -3,14 +3,27 @@
   &__twitter-return {
 
     .morse-output {
-      fill: transparentize($site-white, 0.4);
+      
       font-size: 8rem;
       line-height: 1;
       margin: 0;
       padding: 0;
 
-      &-svg {
-        color: $site-dark-blue;
+      & svg {
+        fill: transparentize($site-white, 0.3);
+        margin: 0 0.25rem;
+      }
+
+      .dot {
+        height: 3.364584375rem;
+        width: 3.364584375rem;
+        // width="107.66667" height="107.66667" 
+      }
+
+      .dash {
+        height: 3.39014625rem;
+        width: 6.25rem;
+        // width="200" height="108.48468"
       }
     }
 }

@@ -3,15 +3,4 @@ title: "bulletprooftoupee.com | The personal site of Ricardo E. Galvez"
 draft: false
 ---
 
-# the home page
-
-A few things to consider:
-
-* Should this be a masthead of sorts?
-* Working with Hugo,
-* how to organize
-* making something everyday (does code count?)
-* learning and reading
-* in the end discipline is key
-
-much to do. with time running out.
+This site is build with love and dedication. Much has gone into it, and will continue to do so. Its built with hugo, sass, vanilla javascript. I use gulp, git and some standard tools for design. It takes advantage of newer technologies, mostly css grids and svgs

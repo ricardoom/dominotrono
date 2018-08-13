@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://proto.bulletprooftoupee.com/portfolio/svg-icons/</loc>
+    <lastmod>2018-07-29T17:03:37-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://proto.bulletprooftoupee.com/portfolio/nypl-blogs/</loc>
     <lastmod>2018-06-30T00:05:50-04:00</lastmod>
   </url>
@@ -15,11 +20,6 @@
   <url>
     <loc>http://proto.bulletprooftoupee.com/posts/dryp/</loc>
     <lastmod>2018-02-17T09:07:37-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://proto.bulletprooftoupee.com/posts/library-life/</loc>
-    <lastmod>2018-01-23T14:14:36-05:00</lastmod>
   </url>
   
   <url>
@@ -55,11 +55,6 @@
   <url>
     <loc>http://proto.bulletprooftoupee.com/posts/getting-gulp-and-others/</loc>
     <lastmod>2017-12-17T22:29:33-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://proto.bulletprooftoupee.com/posts/getting-hugo-up-and-running/</loc>
-    <lastmod>2017-12-14T22:12:24-05:00</lastmod>
   </url>
   
   <url>
@@ -110,20 +105,20 @@
   </url>
   
   <url>
+    <loc>http://proto.bulletprooftoupee.com/categories/portfolio/</loc>
+    <lastmod>2018-07-29T17:03:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://proto.bulletprooftoupee.com/tags/portfolio/</loc>
     <lastmod>2018-06-30T00:05:50-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://proto.bulletprooftoupee.com/categories/portfolio/</loc>
-    <lastmod>2018-06-30T00:05:50-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://proto.bulletprooftoupee.com/portfolio/</loc>
-    <lastmod>2018-06-30T00:05:50-04:00</lastmod>
+    <lastmod>2018-07-29T17:03:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -152,20 +147,20 @@
   </url>
   
   <url>
-    <loc>http://proto.bulletprooftoupee.com/tags/typography/</loc>
-    <lastmod>2017-12-29T08:09:02-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://proto.bulletprooftoupee.com/categories/typography/</loc>
     <lastmod>2017-12-29T08:09:02-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://proto.bulletprooftoupee.com/tags/typography/</loc>
+    <lastmod>2017-12-29T08:09:02-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://proto.bulletprooftoupee.com/</loc>
-    <lastmod>2018-06-30T00:05:50-04:00</lastmod>
+    <lastmod>2018-07-29T17:03:37-04:00</lastmod>
   </url>
   
 </urlset>

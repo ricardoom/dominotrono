@@ -53,8 +53,8 @@ function makeRandomNumber(min, max) {
 //     console.log(angle); 
 // }
 
-const theAngle = makeRandomNumber(0,360);
-const thePercentage = makeRandomNumber(0,100);
+const theAngle = makeRandomNumber(0, 360);
+const thePercentage = makeRandomNumber(0, 100);
 const angle = theAngle - theHour; // Hue
 const saturation = thePercentage - theHour; // Saturation
 const lightness = thePercentage - theHour; // Lightness

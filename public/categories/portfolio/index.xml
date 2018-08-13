@@ -6,10 +6,19 @@
     <description>Recent content in Portfolio on bulletprooftoupee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Jun 2018 00:05:50 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jul 2018 17:03:37 -0400</lastBuildDate>
     
 	<atom:link href="http://proto.bulletprooftoupee.com/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Svg Icons</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/svg-icons/</link>
+      <pubDate>Sun, 29 Jul 2018 17:03:37 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/svg-icons/</guid>
+      <description> DGX Icon works here yo </description>
+    </item>
     
     <item>
       <title>Nypl Blogs</title>

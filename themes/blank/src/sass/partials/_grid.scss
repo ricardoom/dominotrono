@@ -23,7 +23,7 @@
   @include media(">=phone") {
 
     .prime-box {
-      grid-column: 1 / 5;
+      grid-column: 1 / 1;
       grid-row: 1 /1;
 
       svg {
@@ -33,32 +33,45 @@
     }
 
     .subtitle-grid-container {
-      grid-column: 1 / 5;
+      grid-column: 1 / 1;
       grid-row: 2 / 2;
      }
 
     .jumbo-grid-container {
-      grid-column: 1 / 5;
+      grid-column: 1 / 1;
       grid-row: 3 / 9;
 
       &__content {
-       position: fixed;
+      // position: fixed;
        top: 0;
       }
     }
 
     .home-page-grid-member {
-      z-index: 2;
+      grid-column: 1 / 1;
+      grid-row: 10 / 12;
+    }
+
+    .grid-site-data {
+      background-color: $site-background-color;
+      grid-column: 1 / 1;
+      grid-row: 11 / 12;
     }
   } // / phone breakpoint 
 
-  @include media(">=tablet") {
     
-      
+
+  @include media(">=tablet") {
+
     .prime-box {
       grid-column: 1 / 1;
       grid-row: 1 / 1;
     }
+
+    .subtitle-grid-container {
+      grid-column: 1 / 1;
+      grid-row: 2 / 2;
+     }
   }
 
   @include media(">=desktop") {

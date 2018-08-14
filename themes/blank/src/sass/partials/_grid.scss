@@ -2,6 +2,43 @@
 /// Grid Settings Y Styles
 ///
 
+.site-header {
+  
+  &__siteNameContainer {
+    /// set up the grids for the breakpoints... really need to make this a mixin or function
+
+    //function take named media q. as arg
+    //          take number after each as arg of number of frs to output
+
+    @include media(">=phone") {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  @include media(">=tablet") {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @include media(">=desktop") {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  display: grid;
+  }
+
+  &__siteName{
+    @include media(">=phone") {
+      grid-column: 1 / 1;
+      //padding: 0.5em 0 3vw 0.65em;
+    }
+    @include media(">=tablet") {
+      grid-column: 2 / 4;
+      //padding: 0.5em 0 3vw 0.65em;
+    }
+  }
+}
+
+
+/// TODO: needs better name...
 .grid-wrapper {
 
   @include media(">=phone") {
@@ -126,6 +163,6 @@
   }
 
   @include media(">=desktop") {
-    background: #098765;
+    // background: #098765;
   }
 }

@@ -309,7 +309,7 @@ setTheGradientHSLA();
     {
       dotSVG : `<svg class="dot" viewBox="0 0 107.66667 107.66667">
         <title>dot</title>
-        <circle id="_Ellipse_" cx="53.83333" cy="53.83333" r="53.83333" />
+        <circle cx="53.83333" cy="53.83333" r="53.83333" />
       </svg>`,
       dashSVG : `<svg class="dash" viewBox="0 0 200 108.48468">
         <title>dash</title>

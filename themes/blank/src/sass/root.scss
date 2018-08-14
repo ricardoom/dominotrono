@@ -35,7 +35,7 @@ html {
   // TODO: Create a Mixin to handle any device pixel ratio
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     background-image: url(../images/moonScapeBG5.svg) 
-  }
+   }
   background-attachment: fixed;
   background-origin: 0 0;
   background-position: 0 0;

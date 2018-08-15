@@ -132,8 +132,8 @@ li {
 
   &__siteName {
 
-    @include responsive-font(4vw, 2.1em);
-
+    @include responsive-font(2.5vw, 2.1em, 4em, 36px);
+    align-self: end;
     color: $site-white;
     font-family: $sans-serif;
     font-weight: 500;

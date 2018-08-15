@@ -76,8 +76,6 @@ footer,
     }
 
     @include media(">=desktop") {
-      //background-color: $large-bg-color;
-      //padding: 0 0 0 15%;
       margin: 0 0 0 10vw;
       width: 60vw;
     }

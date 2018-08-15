@@ -7,20 +7,23 @@
   &__siteNameContainer {
     /// set up the grids for the breakpoints... really need to make this a mixin or function
 
-    //function take named media q. as arg
+    //function take named media q. as args
     //          take number after each as arg of number of frs to output
 
     @include media(">=phone") {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
+      grid-template-columns: 1fr;
+      grid-template-rows: 3em;
+    }
 
-  @include media(">=tablet") {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  @include media(">=desktop") {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+    @include media(">=tablet") {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 8em;
+    }
+
+    @include media(">=desktop") {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 10em;
+    }
 
   display: grid;
   }
@@ -30,6 +33,7 @@
       grid-column: 1 / 1;
       //padding: 0.5em 0 3vw 0.65em;
     }
+
     @include media(">=tablet") {
       grid-column: 2 / 4;
       //padding: 0.5em 0 3vw 0.65em;

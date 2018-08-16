@@ -17,6 +17,7 @@ $monospace: "SFMono-Regular", Consolas, "Andale Mono WT", "Andale Mono", "Lucida
 $base-font-raw: 62.5;
 $base-font: $base-font-raw * 1%;
 $base-font-small: ($base-font * 0.85);
+$base-font-normal: ($base-font * 1.8);
 $base-font-gigantic: ($base-font * 3.5);
 $base-letter-spacing: 0.01;
 
@@ -147,10 +148,15 @@ h1 {
     }
 
     ul {
-      border-left: 0.25ex solid transparentize($site-white, 0.45);
-      padding-left: 0.5em;
-
-      > li ul {
+      // border-left: 0.25ex solid transparentize($site-white, 0.45);
+      padding-left: 0;
+      
+      li {
+        border-left: 0.25ex solid transparentize($site-white, 0.45);
+        padding-left: 2ex;
+      }
+      
+      li ul {
         border: 0;
       }
     }

@@ -18,7 +18,7 @@
                 <div class="site-header__siteNameContainer">
                     <a href="{{ .Site.BaseURL }}" class="site-header__siteName">{{ .Site.Title }}</a>
                 </div>
-                <nav class="site-navigation">
+                <nav class="site-header__siteNavigation">
                     <ul>
                         {{ range .Site.Menus.main }}
                         <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>

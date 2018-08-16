@@ -1,13 +1,13 @@
 baseURL = "http://proto.bulletprooftoupee.com/"
 languageCode = "en-us"
-title = "bulletprooftoupee"
+title = "bulletprooftoupee.com"
 theme="blank"
 #defaultLayout="posts"
 
 #sectionPagesMenu = "main"
 
 [params]
-  author="Ricardo Galvez"
+  author="Ricardo Eric Galvez"
   subtitle="Projects, Creative Works and Writings of Ricardo E. Galvez"
   # Make an image post
   postimage = ""
@@ -20,16 +20,16 @@ theme="blank"
 [menus]
     [[menu.main]]
         identifier = "blog"
-        name = "web-log"
+        name = "blog"
         title = "the blog section"
         url = "/posts/"
-        weight = -110
+        weight = 5
     [[menu.main]]
         identifier = "experiments"
         name = "experiments"
-        title = "experiments title"
+        title = "experiments"
         url = "/experiments/"
-        weight = -100
+        weight = -10
     [[menu.main]]
         identifier = "portfolio"
         name = "portfolio"

@@ -7,7 +7,7 @@ postimage: ""
 postimagealt: "an alt tag here"
 figcaption: "here is the figure caption"
 tags: ["portfolio"]
-title: "Nypl Blogs"
+title: "NYPL Blogs"
 ---
 ## the cat is meowing
 

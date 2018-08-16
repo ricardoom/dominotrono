@@ -31,11 +31,22 @@
   }
 
   .subtitle {
-    @include responsive-font(8vw, 5rem, 10rem, 30px);
+    @include media(">=phone") {
+      padding: 2.5ex;
+    }
+
+    @include media(">=tablet") {
+      padding: 1ex 0;
+    }
+
+    @include media(">=desktop") {
+      padding: 1.3ex 0;
+    }
+    @include responsive-font(8vw, 3rem, 10rem, 30px);
     display: block;
-    font-family:$serif;
+    font-family: $serif;
     line-height: 1em;
-    padding: 1ex 0;
+    
   }
 
     &__homePage {
@@ -90,16 +101,17 @@
       }
 
       @include media(">=tablet") {
-        background: transparentize($site-background-color, 0.5) url(../images/swoopUno.png);
+        // background: transparentize($site-background-color, 0.5) url(../images/swoopUno.png);
+        background: transparentize($site-background-color, 0.5);
         background-repeat: no-repeat;
         line-height: 4rem;
-        padding: 2em 8vw 8em;
+        padding: 4ex 8vw;
         background-position: 0 4em;
         background-size: cover;
         // background-color: transparentize($site-background-color, 0.5);
-        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-          background-image: url(../images/swoopUno@2x.png) ;
-         }
+        // @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+        //   background-image: url(../images/swoopUno@2x.png) ;
+        //  }
       }
 
       @include responsive-font(2.75vw, 3.25rem, 5.5rem, 32px);

@@ -2,9 +2,19 @@
 /// Grid Settings Y Styles
 ///
 
+
+///
+/// Header
+///
+
+/// Some Common Variables that should be moved to a separate file, possibly the _functions mixin...
+/// Desktop view ports
+$left-column: 25vw;
+
 .site-header {
   
-  &__siteNameContainer {
+  &__siteNameContainer,
+  &__siteNavigation {
     /// set up the grids for the breakpoints... really need to make this a mixin or function
 
     //function take named media q. as args
@@ -21,22 +31,43 @@
     }
 
     @include media(">=desktop") {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: $left-column 1fr 1fr 1fr;
       grid-template-rows: 10em;
     }
 
   display: grid;
   }
 
-  &__siteName{
+  &__siteName {
     @include media(">=phone") {
       grid-column: 1 / 1;
-      //padding: 0.5em 0 3vw 0.65em;
+      padding-left: 6vw;
     }
 
     @include media(">=tablet") {
-      grid-column: 2 / 4;
+      grid-column: 2 / 3;
+      padding-left: 0;
       //padding: 0.5em 0 3vw 0.65em;
+    }
+  }
+
+  /// Do some adjusting of the site nav
+  &__siteNavigation {
+    grid-template-rows: initial;
+
+    ul {
+      @include media(">=phone"){
+        grid-column: 1
+      }
+
+      @include media(">=tablet"){
+        grid-column: 2 / 4
+      }
+      
+      @include media(">=desktop"){
+        grid-column: 2 / 5;
+      }
+      
     }
   }
 }
@@ -55,7 +86,7 @@
   }
 
   @include media(">=desktop"){
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: $left-column 1fr 1fr 1fr;
     grid-template-rows: calc(100vh / 4) calc(100vh / 4) calc(100vh / 4) calc(100vh / 4);
   }
 

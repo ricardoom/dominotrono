@@ -10,7 +10,7 @@ I have been living and working in New York City since 2005. I am originally from
  
 As of July 2018 I was part of the wonderful digital team at the New York Public Library as the senior visual designer. For the majority of my time there, I was a lone designer, so my work spanned many projects and disciplines. From simple product ideation with stake holders and content managers, UX and Interface design to building functional prototypes with HTML, SASS and on many occasions wrestling with React (though I had ace engineers to help me out when needed). We also designed and built a Jekyll based Design Toolkit a reusable component library and overall style and principals guide.
  
-I started my design carreer in the 5th grade by entering and winning a "crazy t-shirt" contest. I've designed skateboard graphics and used to muck about in Flash and Drupal. I am highly proficient in the art of the Adobe Photoshop. Not to mention Illustrator and InDesign. I have strong expertise working with the Sketch app, InVison and Avocode, as well as a variety of command line tools, notably git as well as npm.
+I started my design career in the 5th grade by entering and winning a "crazy t-shirt" contest. I've designed skateboard graphics and used to muck about in Flash and Drupal. I am highly proficient in the art of the Adobe Photoshop. Not to mention Illustrator and InDesign. I have strong expertise working with the Sketch app, InVison and Avocode, as well as a variety of command line tools, notably git as well as npm.
 
 Javascript rules everything around me.
  

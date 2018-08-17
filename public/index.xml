@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bulletprooftoupee.com | The personal site of Ricardo E. Galvez on bulletprooftoupee</title>
+    <title>bulletprooftoupee.com | The personal site of Ricardo E. Galvez on bulletprooftoupee.com</title>
     <link>http://proto.bulletprooftoupee.com/</link>
-    <description>Recent content in bulletprooftoupee.com | The personal site of Ricardo E. Galvez on bulletprooftoupee</description>
+    <description>Recent content in bulletprooftoupee.com | The personal site of Ricardo E. Galvez on bulletprooftoupee.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jul 2018 17:03:37 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 16 Aug 2018 09:21:38 -0400</lastBuildDate>
     
 	<atom:link href="http://proto.bulletprooftoupee.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Design Toolkit</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/design-toolkit/</link>
+      <pubDate>Thu, 16 Aug 2018 09:21:38 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/design-toolkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nasa Posters</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/nasa-posters/</link>
+      <pubDate>Thu, 16 Aug 2018 09:19:06 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/nasa-posters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decks</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/decks/</link>
+      <pubDate>Thu, 16 Aug 2018 09:16:55 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/decks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notch</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/notch/</link>
+      <pubDate>Thu, 16 Aug 2018 09:05:33 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/notch/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Svg Icons</title>
@@ -21,7 +57,7 @@
     </item>
     
     <item>
-      <title>Nypl Blogs</title>
+      <title>NYPL Blogs</title>
       <link>http://proto.bulletprooftoupee.com/portfolio/nypl-blogs/</link>
       <pubDate>Sat, 30 Jun 2018 00:05:50 -0400</pubDate>
       
@@ -91,7 +127,19 @@ I don&amp;rsquo;t mind terribly the way the old site is, with portfolio centric 
       <pubDate>Wed, 27 Dec 2017 13:48:52 -0500</pubDate>
       
       <guid>http://proto.bulletprooftoupee.com/about/about/</guid>
-      <description> Contact  phone masked email address  Experience Stuff needed:  download this resume print css for this page head shot? (yuk)  </description>
+      <description>I have been living and working in New York City since 2005. I am originally from Albuquerque New Mexico. I have a wife, two kids, two cats and an old house. We live in Brooklyn on a street with trees. I cook, and mess around with a woodworking on my little CNC machine. I am fascinated how technology shapes our lives, culture and relationships with each other and the world as a whole.</description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://proto.bulletprooftoupee.com/about/cv/</link>
+      <pubDate>Wed, 27 Dec 2017 13:48:52 -0500</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/about/cv/</guid>
+      <description>Work Experience The New York Public Library 2015 - 2018 Interface Desgin and Direction
+Lead roll in design and implementation of new design for the Library’s main website. Close collaboration with front-end developers on implementation across viewports.
+Style Maintenance and Guidance
+Collaborate with design team and developers to develop a code based style guide the allows developers to easily apply core styles to a given application with little friction.</description>
     </item>
     
     <item>

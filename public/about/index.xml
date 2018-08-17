@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on bulletprooftoupee</title>
+    <title>Abouts on bulletprooftoupee.com</title>
     <link>http://proto.bulletprooftoupee.com/about/</link>
-    <description>Recent content in Abouts on bulletprooftoupee</description>
+    <description>Recent content in Abouts on bulletprooftoupee.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Dec 2017 13:48:52 -0500</lastBuildDate>
@@ -17,7 +17,19 @@
       <pubDate>Wed, 27 Dec 2017 13:48:52 -0500</pubDate>
       
       <guid>http://proto.bulletprooftoupee.com/about/about/</guid>
-      <description> Contact  phone masked email address  Experience Stuff needed:  download this resume print css for this page head shot? (yuk)  </description>
+      <description>I have been living and working in New York City since 2005. I am originally from Albuquerque New Mexico. I have a wife, two kids, two cats and an old house. We live in Brooklyn on a street with trees. I cook, and mess around with a woodworking on my little CNC machine. I am fascinated how technology shapes our lives, culture and relationships with each other and the world as a whole.</description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://proto.bulletprooftoupee.com/about/cv/</link>
+      <pubDate>Wed, 27 Dec 2017 13:48:52 -0500</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/about/cv/</guid>
+      <description>Work Experience The New York Public Library 2015 - 2018 Interface Desgin and Direction
+Lead roll in design and implementation of new design for the Library’s main website. Close collaboration with front-end developers on implementation across viewports.
+Style Maintenance and Guidance
+Collaborate with design team and developers to develop a code based style guide the allows developers to easily apply core styles to a given application with little friction.</description>
     </item>
     
   </channel>

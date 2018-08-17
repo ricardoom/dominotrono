@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio on bulletprooftoupee</title>
+    <title>Portfolio on bulletprooftoupee.com</title>
     <link>http://proto.bulletprooftoupee.com/tags/portfolio/</link>
-    <description>Recent content in Portfolio on bulletprooftoupee</description>
+    <description>Recent content in Portfolio on bulletprooftoupee.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Jun 2018 00:05:50 -0400</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Nypl Blogs</title>
+      <title>NYPL Blogs</title>
       <link>http://proto.bulletprooftoupee.com/portfolio/nypl-blogs/</link>
       <pubDate>Sat, 30 Jun 2018 00:05:50 -0400</pubDate>
       

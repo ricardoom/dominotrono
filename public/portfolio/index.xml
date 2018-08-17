@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on bulletprooftoupee</title>
+    <title>Portfolios on bulletprooftoupee.com</title>
     <link>http://proto.bulletprooftoupee.com/portfolio/</link>
-    <description>Recent content in Portfolios on bulletprooftoupee</description>
+    <description>Recent content in Portfolios on bulletprooftoupee.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jul 2018 17:03:37 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 16 Aug 2018 09:21:38 -0400</lastBuildDate>
     
 	<atom:link href="http://proto.bulletprooftoupee.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Design Toolkit</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/design-toolkit/</link>
+      <pubDate>Thu, 16 Aug 2018 09:21:38 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/design-toolkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nasa Posters</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/nasa-posters/</link>
+      <pubDate>Thu, 16 Aug 2018 09:19:06 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/nasa-posters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decks</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/decks/</link>
+      <pubDate>Thu, 16 Aug 2018 09:16:55 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/decks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notch</title>
+      <link>http://proto.bulletprooftoupee.com/portfolio/notch/</link>
+      <pubDate>Thu, 16 Aug 2018 09:05:33 -0400</pubDate>
+      
+      <guid>http://proto.bulletprooftoupee.com/portfolio/notch/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Svg Icons</title>
@@ -21,7 +57,7 @@
     </item>
     
     <item>
-      <title>Nypl Blogs</title>
+      <title>NYPL Blogs</title>
       <link>http://proto.bulletprooftoupee.com/portfolio/nypl-blogs/</link>
       <pubDate>Sat, 30 Jun 2018 00:05:50 -0400</pubDate>
       

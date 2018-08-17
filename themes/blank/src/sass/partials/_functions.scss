@@ -47,21 +47,37 @@
   @return unquote($output);
 }
 
-/// Mixins 
+// Mixins 
 
-  // mixin for basic padding
-  // todo: add {params}
-  // param {$media} : >=phone
+// mixin for basic padding
+// todo: add {params}
+// param {$media} : >=phone
+
   @mixin basic-article-wrapper($breakpoint, $mw, $pl) {
     @include media(#{$breakpoint}) {
       max-width: $mw;
       padding-left: $pl;
     }  
   }
+  
+//
+// Make grids easier to utilize
+//  @param $color {value} - hex or rgba
+// 
+   @mixin addToGrid(
+    $breakpoint: "", 
+    $col-start: "", 
+    $col-end: "", 
+    $row-start: "", 
+    $row-end: "") {
+    grid-template-columns: $col-start / $col-end;
+    grid-template-rows: $row-start / $row-end;
+    @content;
+  }
 
-/// In some cases we might want to vary the kind of focus ring we apply,
-/// @Param 
-///
+// In some cases we might want to vary the kind of focus ring we apply,
+// @Param 
+//
 
   @mixin focus-ring(
     $type,

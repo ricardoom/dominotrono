@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://proto.bulletprooftoupee.com/portfolio/design-toolkit/</loc>
+    <lastmod>2018-08-16T09:21:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/portfolio/nasa-posters/</loc>
+    <lastmod>2018-08-16T09:19:06-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/portfolio/decks/</loc>
+    <lastmod>2018-08-16T09:16:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/portfolio/notch/</loc>
+    <lastmod>2018-08-16T09:05:33-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://proto.bulletprooftoupee.com/portfolio/svg-icons/</loc>
     <lastmod>2018-07-29T17:03:37-04:00</lastmod>
   </url>
@@ -44,6 +64,11 @@
   
   <url>
     <loc>http://proto.bulletprooftoupee.com/about/about/</loc>
+    <lastmod>2017-12-27T13:48:52-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://proto.bulletprooftoupee.com/about/cv/</loc>
     <lastmod>2017-12-27T13:48:52-05:00</lastmod>
   </url>
   
@@ -112,13 +137,13 @@
   
   <url>
     <loc>http://proto.bulletprooftoupee.com/categories/portfolio/</loc>
-    <lastmod>2018-07-29T17:03:37-04:00</lastmod>
+    <lastmod>2018-08-16T09:21:38-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://proto.bulletprooftoupee.com/portfolio/</loc>
-    <lastmod>2018-07-29T17:03:37-04:00</lastmod>
+    <lastmod>2018-08-16T09:21:38-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -160,7 +185,7 @@
   
   <url>
     <loc>http://proto.bulletprooftoupee.com/</loc>
-    <lastmod>2018-07-29T17:03:37-04:00</lastmod>
+    <lastmod>2018-08-16T09:21:38-04:00</lastmod>
   </url>
   
 </urlset>

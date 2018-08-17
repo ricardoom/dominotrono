@@ -4,6 +4,6 @@ date: {{ .Date }}
 draft: true
 categories: ""
 tags: ""
-postimage: ""
+postimage: "media/placeHolder_sm.png"
 postimagealt: ""
 ---

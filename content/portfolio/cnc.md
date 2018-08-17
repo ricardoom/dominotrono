@@ -1,6 +1,6 @@
 ---
-title: "Notch"
-date: 2018-08-16T09:05:33-04:00
+title: "Cnc"
+date: 2018-08-17T15:42:52-04:00
 draft: false
 categories: "portfolio"
 author: Ricardo G.
@@ -9,3 +9,4 @@ postimagealt: ""
 figcaption: ""
 tags: []
 ---
+## a thing to work on

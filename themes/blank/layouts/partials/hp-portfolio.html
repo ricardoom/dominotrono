@@ -1,0 +1,28 @@
+<article class="portfolio-grid-summary">
+  <!-- +++ hp-portfolio summary template +++ -->
+  <div class="site-summary__content"> 
+    {{ if and (.Params.postimage) (ne .Params.postimage "") }}
+    <a href="{{ .Permalink }}">
+    <figure>
+      <img src="{{ .Params.postimage }}" alt="{{ if .Params.postimagealt }}
+      {{ .Params.postimagealt }}  
+    {{ else }}
+      {{ .Title }}
+    {{ end }}" />
+      {{ if and (.Params.figcaption) (ne .Params.figcaption "") }}
+      <figcaption>{{ .Params.figcaption }}</figcaption>
+      {{ end }}
+    </figure>
+  </a>
+    {{ end }}
+    {{if and (.Params.tags) (ne .Params.tags "") }}
+    <!-- <ul>
+      {{ range .Params.tags }}
+      <li class="site-summary__tags">
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      </li>
+      {{ end }}
+    </ul> -->
+    {{ end }}
+  </div>
+</article>

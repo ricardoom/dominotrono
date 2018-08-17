@@ -45,7 +45,7 @@ $left-column: 25vw;
     }
 
     @include media(">=tablet") {
-      grid-column: 2 / 3;
+      grid-column: 2 / 4;
       padding-left: 0;
       //padding: 0.5em 0 3vw 0.65em;
     }
@@ -72,8 +72,9 @@ $left-column: 25vw;
   }
 }
 
-
-/// TODO: needs better name...
+//
+// TODO: needs better name...
+//
 .grid-wrapper {
 
   @include media(">=phone") {
@@ -87,7 +88,7 @@ $left-column: 25vw;
 
   @include media(">=desktop"){
     grid-template-columns: $left-column 1fr 1fr 1fr;
-    grid-template-rows: calc(100vh / 4) calc(100vh / 4) calc(100vh / 4) calc(100vh / 4);
+    //grid-template-rows: calc(100vh / 4) calc(100vh / 4) calc(100vh / 4) calc(100vh / 4);
   }
 
   display: grid;
@@ -115,6 +116,9 @@ $left-column: 25vw;
       }
     } // prime box
 
+
+
+    &__siteRiverOf,
     .subtitle-grid-container {
       @include media(">=phone") {
         grid-column: 1 / 1;
@@ -126,7 +130,12 @@ $left-column: 25vw;
         grid-row: 1 / 1;
        }
       } // subtitle grid container
-     
+
+    &__siteRiverOf {
+
+    }
+
+
       .jumbo-grid-container {
        @include media (">=phone") {
           grid-column: 1 / 1;
@@ -143,24 +152,27 @@ $left-column: 25vw;
        }
     } // /.jumbo-grid-container
 
-      .home-page-grid-member {
+      .portfolio-grid-container {
          @include media(">=phone") {
           grid-column: 1 / 4;
           grid-row: 10 / 12;
         }
+
         @include media(">=tablet"){
 
         }
-      
+        $quarter-vp: 100% / 4;
+        display: grid;
+        grid: 25% / 1fr 1fr 1fr 1fr;
+
+        .mast-head {
+          grid-column: 1 / 5;
+          grid-row: 1 / 5;
+        }
     }
 
   @include media(">=phone") {
-
-    
-
-   
-
-    // .jumbo-grid-container {
+// .jumbo-grid-container {
     //   grid-column: 1 / 1;
     //   grid-row: 3 / 9;
 
@@ -170,7 +182,7 @@ $left-column: 25vw;
       // }
     //}
 
-    // .home-page-grid-member {
+    // .portfolio-grid-container {
     //   grid-column: 1 / 1;
     //   grid-row: 10 / 12;
     // }

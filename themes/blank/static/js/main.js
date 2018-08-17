@@ -244,14 +244,15 @@ const angle = theAngle - theHour; // Hue
 const saturation = thePercentage - theHour; // Saturation
 const lightness = thePercentage - theHour; // Lightness
 const alpha = 0.75; // Alpha
+const position = 100 - theHour;
 
 const container = document.querySelector('body');
 function setTheGradient() {
-  container.style.backgroundImage = 'linear-gradient(182deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg,' + start + ',' + end + ')';
+  container.style.backgroundImage = 'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg,' + start + ',' + end + ')';
 };
 
 function setTheGradientHSLA() {
-  container.style.backgroundImage = 'linear-gradient(182deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg, hsla('+ angle +', '+ saturation +'%,'+ lightness +'%,' + alpha +'), hsla(180, 5%, 12%, 0.2))';
+  container.style.backgroundImage = 'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75)' + position + '%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg, hsla('+ angle +', '+ saturation +'%,'+ lightness +'%,' + alpha +'), hsla(180, 5%, 12%, 0.2))';
 };
 
 setTheGradientHSLA();

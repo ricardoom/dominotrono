@@ -91,7 +91,7 @@
   }
 
   //:nth-child(5)
-  .home-page-grid-member {
+  .portfolio-grid-container {
 
     .mast-head {
       @include media(">=phone") {
@@ -119,6 +119,14 @@
       font-weight: 100;
       padding: 5vw;
     }
+
+      /// Portfolio Grid Summary 
+      /// as found in hp-portfolio.html
+
+      .portfolio-grid-summary {
+        // border: 1px solid $site-white;
+        max-width: initial;
+      }
   }
 
   //:nth-child(6)

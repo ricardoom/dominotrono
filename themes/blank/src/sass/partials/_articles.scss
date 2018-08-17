@@ -17,6 +17,8 @@ time {
 
 .site-article {
   @include basic-article-wrapper(">=phone", 95vw, 5vw);
+  @include basic-article-wrapper(">=tablet", 100vw, 0, 6.5vw);
+  @include basic-article-wrapper(">=desktop", 100vw, 0, 0);
 }
 
 .site-single {
@@ -30,6 +32,7 @@ time {
     //
     // These are the image rules for an article or portfolio screen:
     //  The images are provided via a custom {{ image }} shortcode, see the shortcode image.html
+
     .portfolio-image-wrapper {
       display: flex;
       margin: 0.5em 0;

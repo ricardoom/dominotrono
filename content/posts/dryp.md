@@ -3,7 +3,7 @@ author: Ricardo G.
 categories: []
 date: 2018-02-17T09:07:37-05:00
 draft: false
-postimage: ""
+postimage: "media/placeHolder_sm.png"
 postimagealt: ""
 figcaption: ""
 tags: ["javascript" , "gardening" ]

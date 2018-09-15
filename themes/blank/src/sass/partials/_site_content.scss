@@ -87,13 +87,13 @@
 
   //:nth-child(4)
   .jumbo-grid-container {
-
+    // styles for the jumbo grid container
   }
 
-  //:nth-child(5)
-  .portfolio-grid-container {
+  
+  .portfolio-grid {
 
-    .mast-head {
+    &__mastHead {
       @include media(">=phone") {
         background: $site-background-color;
         line-height: 4rem;
@@ -123,13 +123,11 @@
       /// Portfolio Grid Summary 
       /// as found in hp-portfolio.html
 
-      .portfolio-grid-summary {
-        // border: 1px solid $site-white;
+      &__summary {
         max-width: initial;
       }
   }
 
-  //:nth-child(6)
   .grid-site-data {
 
     @include media(">=phone") {

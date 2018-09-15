@@ -87,13 +87,13 @@
 
   //:nth-child(4)
   .jumbo-grid-container {
-
+    // styles for the jumbo grid container
   }
 
-  //:nth-child(5)
-  .portfolio-grid-container {
+  
+  .portfolio-grid {
 
-    .mast-head {
+    &__mastHead {
       @include media(">=phone") {
         background: $site-background-color;
         line-height: 4rem;
@@ -124,8 +124,7 @@
       /// as found in hp-portfolio.html
       /// TODO: Move these rules to own Partial
 
-      .portfolio-grid-summary {
-        border: 1px solid transparentize($site-white, 0.9);
+      &__summary {
         max-width: initial;
 
         &__content {
@@ -200,7 +199,6 @@
       }
   }
 
-  //:nth-child(6)
   .grid-site-data {
 
     @include media(">=phone") {

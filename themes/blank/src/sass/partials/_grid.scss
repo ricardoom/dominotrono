@@ -132,7 +132,7 @@ $left-column: 25vw;
       } // subtitle grid container
 
     &__siteRiverOf {
-
+      // the river of posts... probably needs a better name
     }
 
 
@@ -152,22 +152,61 @@ $left-column: 25vw;
        }
     } // /.jumbo-grid-container
 
-      .portfolio-grid-container {
+
+
+///
+/// Home page portfolio grid
+///
+      .portfolio-grid {
+
+        &__mastHead {
+          @include media(">=phone") {
+            grid-column: 1 / 1;
+          }
+          
+          @include media(">=tablet") {
+            grid-column: 1 / 4;
+          }
+
+          @include media(">=desktop") {
+            grid-column: 1 / 5;
+          }
+
+          grid-row: 1 / 1;
+        }
+
          @include media(">=phone") {
-          grid-column: 1 / 4;
+          grid: auto / 1fr; 
+          grid-column: 1 / 1;
           grid-row: 10 / 12;
         }
 
         @include media(">=tablet"){
-
+          grid: auto / 1fr 1fr 1fr 1fr;
+          grid-column: 1 / 4;
         }
-        $quarter-vp: 100% / 4;
-        display: grid;
-        grid: 25% / 1fr 1fr 1fr 1fr;
 
-        .mast-head {
+        @include media(">=desktop") {
+          grid: auto / 1fr 1fr 1fr 1fr 1fr;
           grid-column: 1 / 5;
-          grid-row: 1 / 5;
+        }
+
+        display: grid;
+
+        & > article {
+          //
+        }
+
+        &__summary {
+          @include media(">=phone"){
+            background-color: $site-punk-pink;
+          }
+          @include media(">=tablet"){
+            background-color: hsl(22, 100%, 50%);
+          }
+          @include media(">=desktop"){
+            background-color: hsl(80, 61%, 50%);
+          }
         }
     }
 

@@ -11,6 +11,7 @@ const concat = require('gulp-concat');
 
 const uglify = require('gulp-uglify');
 
+const imagemin = require('gulp-imagemin');
 
 // variables:
 const input = 'themes/blank/src/sass/**/*.scss';
@@ -53,6 +54,12 @@ gulp.task('copy', function(){
   gulp.src(imgInput)
     .pipe(gulp.dest(imgOutput));
 });
+
+// gulp.task('images', function(){
+//   return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
+//   .pipe(imagemin())
+//   .pipe(gulp.dest('dist/images'))
+// });
 
 gulp.task('watch', function () {
   gulp.watch('themes/blank/src/sass/**/*.scss', ['sass']);

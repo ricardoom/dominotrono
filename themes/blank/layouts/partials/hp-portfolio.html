@@ -1,4 +1,4 @@
-<article class="portfolio-grid-summary">
+<article class="portfolio-grid__summary">
   <!-- +++ hp-portfolio summary template +++ -->
   <div class="portfolio-grid-summary__content"> 
     {{ if and (.Params.postimage) (ne .Params.postimage "") }}
@@ -21,14 +21,6 @@
     </figure>
   </a>
     {{ end }}
-    {{if and (.Params.tags) (ne .Params.tags "") }}
-    <!-- <ul>
-      {{ range .Params.tags }}
-      <li class="site-summary__tags">
-        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-      </li>
-      {{ end }}
-    </ul> -->
-    {{ end }}
+    
   </div>
 </article>

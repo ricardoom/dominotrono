@@ -64,7 +64,7 @@
   
 //
 // Make grids easier to utilize
-//  @param $color {value} - hex or rgba
+// ex: @include addToGrid() {}
 // 
    @mixin addToGrid(
     $breakpoint: "", 

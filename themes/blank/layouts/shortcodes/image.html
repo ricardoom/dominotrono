@@ -4,6 +4,7 @@
 {{- $srcsetTwo := .Get "srcsetTwo" -}}
 {{- $srcsetThree := .Get "srcsetThree" -}}
 {{- $srcsetFour := .Get "srcsetFour" -}}
+
 <figure {{ with .Get "class" }} class="{{ . }}" {{ end }}>
     <img
     srcset="{{ $srcsetOne }}, {{ $srcsetTwo }}, {{ $srcsetThree }}, {{ $srcsetFour }} "

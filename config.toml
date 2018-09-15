@@ -13,6 +13,7 @@ theme="blank"
   postimage = ""
     postimagealt = ""
   figcaption = ""
+  svgClipObjectClass = ""
 
 [permalinks]
     post = "/:year/:month/:title/"

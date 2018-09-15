@@ -7,5 +7,7 @@ author: Ricardo G.
 postimage: "http://proto.bulletprooftoupee.com/media/placeHolder_sm.png"
 postimagealt: "A Card for the Diorama project"
 figcaption: ""
+svgClipObjectClass: "fourDots"
 tags: []
 ---
+Something from Diorama...

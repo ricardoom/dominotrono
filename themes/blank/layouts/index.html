@@ -15,10 +15,12 @@
     </div>
     <div class="portfolio-grid-container">
       {{ .Content }}
+      
         {{ $paginator := .Paginate .Site.RegularPages }}
           {{ range where $paginator.Pages "Section" "portfolio"}}
         {{ partial "hp-portfolio.html" . }}
       {{ end }}
+      {{ partial "svg/portfolio_overlay.html" }}
     </div>
     <div class="grid-site-data">
       <!-- {{ range first 20 .Data.Pages }}

@@ -122,10 +122,81 @@
 
       /// Portfolio Grid Summary 
       /// as found in hp-portfolio.html
+      /// TODO: Move these rules to own Partial
 
       .portfolio-grid-summary {
-        // border: 1px solid $site-white;
+        border: 1px solid transparentize($site-white, 0.9);
         max-width: initial;
+
+        &__content {
+          // Placeholder / Development Classes... 
+          // TODO: Remove these classes
+          
+          /// In some cases we have an overlay here
+          a:hover {
+            border: 0;
+          }
+
+          figure {
+            margin: 0;
+
+            img {
+              border-radius: 0;
+              height: 100%;
+              width: 100%;
+            }
+            /// In some cases we overlay SVG Clipping here.
+            .svgShapeClip {}
+            
+            // TODO: Add a function or mixin to make this shorter
+            
+            .fourDots {
+              clip-path: url(#four_dots);
+            }
+            
+            .leftDots {
+              clip-path: url(#left_dots);
+            }
+            
+            .overDots {
+              clip-path: url(#over_dots);
+            }
+
+            .oneCircle {
+              clip-path: url(#one_circle);
+            }
+            
+            .oneDiagonal {
+              clip-path: url(#one_diagonal);
+            }
+            .twoSquares {
+              clip-path: url(#two_squares);
+            }
+            .rightStepr {
+              clip-path: url(#right_stepr);
+            }
+          }
+        }
+
+      }
+
+      svg {
+        height: 0;
+        width: 0;
+
+        .a {fill:rgb(39, 169, 225)}
+        
+        .b {fill:hsl(300, 100%, 50%)}
+        
+        .c {fill:hsl(153, 68%, 42%)}
+        
+        .d {fill:hsl(274, 53%, 37%)}
+        
+        .e {fill:hsl(302, 58%, 36%)}
+        
+        .f {fill:hsl(204, 100%, 37%)}
+
+        .g {fill: hsl(300, 100%, 50%)}
       }
   }
 

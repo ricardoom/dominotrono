@@ -7,6 +7,7 @@ author: Ricardo G.
 postimage: "media/placeHolder_sm.png"
 postimagealt: ""
 figcaption: ""
+svgClipObjectClass: "leftDots"
 tags: []
 ---
 ## a thing to work on

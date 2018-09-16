@@ -44,7 +44,7 @@ Collaborate with design team and developers to develop a code based style guide 
 
 - User Interface, Experience and graphic designer for new NJTV News daily news program. Excelled in Agile team structure designing and building a complex news site from ideation through wireframing, prototyping and final design. Developed scenarios for mobile, tablet and desktop usage as well look and feel for site.
  
-## Freelance Projects 2009 - Present
+## Freelance Projects 2009 - 2015
 
 **Il Coro Pasta and Osteria Il Nido, Seattle WA, 2018**
 - Consultation, Development, User Experience Design, Branding Strategy

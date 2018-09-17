@@ -13,7 +13,7 @@
     <div class="jumbo-grid-container twitter-hash">
     {{ partial "jumbo.html" . }}
     </div>
-    <div class="portfolio-grid">
+    <div class="portfolio-flex">
       {{ .Content }}
       
         {{ $paginator := .Paginate .Site.RegularPages }}

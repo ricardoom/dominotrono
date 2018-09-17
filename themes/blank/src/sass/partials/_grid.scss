@@ -118,7 +118,7 @@ $left-column: 25vw;
 
 
 
-    &__siteRiverOf,
+    &__listParent,
     .subtitle-grid-container {
       @include media(">=phone") {
         grid-column: 1 / 1;
@@ -131,7 +131,7 @@ $left-column: 25vw;
        }
       } // subtitle grid container
 
-    &__siteRiverOf {
+    &__listParent {
       // the river of posts... probably needs a better name
     }
 
@@ -157,6 +157,48 @@ $left-column: 25vw;
 ///
 /// Home page portfolio grid
 ///
+      .portfolio-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        // .item {
+        //   flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+        // }
+          &__mastHead {
+            flex: 1 100%;
+          }
+          
+          &__summary {
+            flex: 1 25%;
+          }
+
+          &__content {
+            a {
+              margin: 0;
+              padding: 0;
+            }
+          }
+        // handles placement on the parent grid:
+        @include media(">=phone") {
+          grid: auto / 1fr; 
+          grid-column: 1 / 1;
+          grid-row: 10 / 12;
+        }
+
+        @include media(">=tablet"){
+          grid: auto / 1fr 1fr 1fr 1fr;
+          grid-column: 1 / 4;
+        }
+
+        @include media(">=desktop") {
+          grid: auto / 1fr 1fr 1fr 1fr 1fr;
+          grid-column: 1 / 5;
+        }
+      }
+
+      // /flex box version of the portfolio grid...
+
       .portfolio-grid {
 
         &__mastHead {
@@ -173,7 +215,7 @@ $left-column: 25vw;
           }
 
           grid-row: 1 / 1;
-        }
+        } // /__masthead
 
          @include media(">=phone") {
           grid: auto / 1fr; 
@@ -198,13 +240,13 @@ $left-column: 25vw;
         }
 
         &__summary {
-          @include media(">=phone"){
+          @include media(">=phone") {
             background-color: $site-punk-pink;
           }
-          @include media(">=tablet"){
+          @include media(">=tablet") {
             background-color: hsl(22, 100%, 50%);
           }
-          @include media(">=desktop"){
+          @include media(">=desktop") {
             background-color: hsl(80, 61%, 50%);
           }
         }

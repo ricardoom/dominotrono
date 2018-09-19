@@ -4,11 +4,14 @@ date: 2018-08-18T08:12:38-04:00
 draft: false
 categories: "portfolio"
 author: Ricardo G.
-postimage: "http://bulletprooftoupee.com/sites/default/files/diorama.intro_.goat_.png"
+postimage1x: "http://localhost:1313/media/portfolio/diorama/dioramaCard320.png"
+postimage2x: "http://localhost:1313/media/portfolio/diorama/dioramaCard640@2x.png"
+postimage3x: "http://localhost:1313/media/portfolio/diorama/dioramaCard960@3x.png"
 postimagealt: "A Card for the Diorama project"
 figcaption: ""
 svgClipObjectClass: "fourDots"
 tags: []
+weight: 1
 ---
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}

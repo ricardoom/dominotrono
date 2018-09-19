@@ -71,26 +71,13 @@
     @include media(">=phone") {
       background: transparentize($site-background-color, 0.25)
     }
+
     @include media(">=tablet") {
       background: transparent;
     }
   }
 
-  // :nth-child(3) {
-  //   background: #acd3e5;
-  //   background-image: linear-gradient(-135deg, hsla(300, 45%, 50%, .25) 0%, rgba(255,117,117,0.07) 100%);
-  //   grid-column: 1 / 1;
-  //   grid-row: 2 / 9;
-  //   width: 100%;
-  //   height: 100%;
-  // }
-
-  //:nth-child(4)
-  .jumbo-grid-container {
-    // styles for the jumbo grid container
-  }
-
-  
+  .portfolio-flex,
   .portfolio-grid {
 
     &__mastHead {
@@ -101,17 +88,12 @@
       }
 
       @include media(">=tablet") {
-        // background: transparentize($site-background-color, 0.5) url(../images/swoopUno.png);
         background: transparentize($site-background-color, 0.5);
         background-repeat: no-repeat;
         line-height: 4rem;
         padding: 4ex 8vw;
         background-position: 0 4em;
         background-size: cover;
-        // background-color: transparentize($site-background-color, 0.5);
-        // @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-        //   background-image: url(../images/swoopUno@2x.png) ;
-        //  }
       }
 
       @include responsive-font(2.75vw, 3.25rem, 5.5rem, 32px);
@@ -127,56 +109,44 @@
       &__summary {
         max-width: initial;
 
-        &__content {
+      &__content {
           // Placeholder / Development Classes... 
           // TODO: Remove these classes
-          
+          border: dotted 2px $site-punk-pink;
           /// In some cases we have an overlay here
           a:hover {
             border: 0;
           }
 
           figure {
-            margin: 0;
+            // margin: 0;
 
-            img {
-              border-radius: 0;
-              height: 100%;
-              width: 100%;
-            }
+            // img {
+            //   border-radius: 0;
+            //   height: 100%;
+            //   width: 100%;
+            // }
             /// In some cases we overlay SVG Clipping here.
-            .svgShapeClip {}
-            
+
             // TODO: Add a function or mixin to make this shorter
-            
+
             .fourDots {
               clip-path: url(#four_dots);
             }
-            
+
             .leftDots {
               clip-path: url(#left_dots);
-            }
-            
-            .overDots {
-              clip-path: url(#over_dots);
             }
 
             .oneCircle {
               clip-path: url(#one_circle);
             }
-            
-            .oneDiagonal {
-              clip-path: url(#one_diagonal);
-            }
-            .twoSquares {
-              clip-path: url(#two_squares);
-            }
+
             .rightStepr {
               clip-path: url(#right_stepr);
             }
-          }
-        }
-
+          } // /figure
+        } // /content
       }
 
       svg {

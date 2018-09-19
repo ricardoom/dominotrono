@@ -9,6 +9,8 @@
 
 /// Some Common Variables that should be moved to a separate file, possibly the _functions mixin...
 /// Desktop view ports
+
+
 $left-column: 25vw;
 
 .site-header {
@@ -63,11 +65,10 @@ $left-column: 25vw;
       @include media(">=tablet"){
         grid-column: 2 / 4
       }
-      
+
       @include media(">=desktop"){
         grid-column: 2 / 5;
       }
-      
     }
   }
 }
@@ -155,30 +156,82 @@ $left-column: 25vw;
 
 
 ///
-/// Home page portfolio grid
+/// Home page portfolio grid & flex
 ///
       .portfolio-flex {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
 
-        // .item {
-        //   flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-        // }
           &__mastHead {
             flex: 1 100%;
           }
-          
+
           &__summary {
-            flex: 1 25%;
+
+            a {
+              display: block;
+            }
+
+            @include media(">=phone") {
+              //background-color: $site-acid-green;
+              flex: 1 100%;
+            }
+
+            @include media(">=tablet"){
+              //background-color: $site-green-blue;
+              flex: 1 25%;
+            }
           }
 
           &__content {
-            a {
+
+            figure {
               margin: 0;
               padding: 0;
-            }
+
+              img {
+                height: 100%;;
+                width: 100%;
+                border: 0
+              }
+
+              .svgShapeClip {
+              
+              }
+
+              &.fourDots {
+                @include svgOverlay(
+                  $site-acid-green,
+                  #four_dots);
+              }
+
+              &.twoSquares {
+                @include svgOverlay(
+                  $site-lava-orange,
+                  #two_squares);
+              }
+
+              &.overDots {
+                clip-path: url(#over_dots);
+              }
+
+              &.oneDiagonal {
+               @include svgOverlay(
+                 $site-dark-blue,
+                 #one_diagonal);
+              }
+
+              &.boxDiagonals {
+                @include svgOverlay (
+                  $site-green-blue,
+                  #box_diagonals);
+              }
+            } // /figure
           }
+
         // handles placement on the parent grid:
         @include media(">=phone") {
           grid: auto / 1fr; 
@@ -223,7 +276,7 @@ $left-column: 25vw;
           grid-row: 10 / 12;
         }
 
-        @include media(">=tablet"){
+        @include media(">=tablet") {
           grid: auto / 1fr 1fr 1fr 1fr;
           grid-column: 1 / 4;
         }

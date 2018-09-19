@@ -4,12 +4,14 @@ date: 2018-08-17T15:42:52-04:00
 draft: false
 categories: "portfolio"
 author: Ricardo G.
-postimage: "media/placeHolder_sm.png"
-postimagealt: ""
+postimage1x: "http://localhost:1313/media/portfolio/cnc/shapeOko.png"
+postimage2x: "http://localhost:1313/media/portfolio/cnc/shapeOko@2x.png"
+postimage3x: "http://localhost:1313/media/portfolio/cnc/shapeOko@3x.png"
+postimagealt: "An Image of CNC Workings"
 figcaption: ""
-svgClipObjectClass: "leftDots"
-tags: []
+svgClipObjectClass: "oneDiagonal"
 tags: ["cnc", "maker"]
+weight: 10
 ---
 ## a thing to work on
 

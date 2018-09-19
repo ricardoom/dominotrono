@@ -1,26 +1,21 @@
-<article class="portfolio-flex__summary">
-  <!-- +++ hp-portfolio summary template +++ -->
+<li class="portfolio-flex__summary">
+    {{ if and (.Params.postimage1x) (ne .Params.postimage1x "") }}
+  <a href="{{ .Permalink }}">
   <div class="portfolio-flex__content"> 
-    {{ if and (.Params.postimage) (ne .Params.postimage "") }}
-    <a href="{{ .Permalink }}">
-    <figure>
-      <!--  
-      {{ partial "svg/portfolio_overlay.html" . }}
-      -->
-      
-      <img class="portfolioCard svgShapeCLip {{ .Params.svgClipObjectClass }}" src="{{ .Params.postimage }}" alt="{{ if .Params.postimagealt }}
-      {{ .Params.postimagealt }}  
-    {{ else }}
-      {{ .Title }}
-    {{ end }}" />
-    
-      
+    <figure class="{{ .Params.svgClipObjectClass }}">
+      <img srcset="{{ .Params.postimage1x }}, {{ .Params.postimage2x }} 2x, {{ .Params.postimage3x }} 3x"
+       sizes="(max-width: 20em) 100vw, (max-width: 50em) 75vw, (max-width: 60em) 65vw"
+      alt="{{ if .Params.postimagealt }} {{ .Params.postimagealt }}
+            {{ else }}
+              {{ .Title }}
+            {{ end }}"
+      class="portfolioCard svgShapeClip"
+      src="{{ .Params.postimage1x }}" />
       {{ if and (.Params.figcaption) (ne .Params.figcaption "") }}
       <figcaption>{{ .Params.figcaption }}</figcaption>
       {{ end }}
     </figure>
-  </a>
-    {{ end }}
-    
   </div>
-</article>
+  </a>
+  {{ end }}
+</li>

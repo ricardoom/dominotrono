@@ -13,21 +13,14 @@
     <div class="jumbo-grid-container twitter-hash">
     {{ partial "jumbo.html" . }}
     </div>
-    <div class="portfolio-flex">
+    <ul class="portfolio-flex">
       {{ .Content }}
-      
         {{ $paginator := .Paginate .Site.RegularPages }}
-          {{ range where $paginator.Pages "Section" "portfolio"}}
+          {{ range where $paginator.Pages.ByWeight "Section" "portfolio"}}
         {{ partial "hp-portfolio.html" . }}
       {{ end }}
       {{ partial "svg/portfolio_overlay.html" }}
-    </div>
-    <div class="grid-site-data">
-      <!-- {{ range first 20 .Data.Pages }}
-        {{ .Render "summary"}}
-      {{ end }} -->
-    </div>
-
+    </ul>
 </div>
 <!-- {{ partial "pagination.html" . }} -->
 </main>

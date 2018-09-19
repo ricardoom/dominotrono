@@ -4,10 +4,14 @@ date: 2018-08-16T09:19:06-04:00
 draft: false
 categories: "portfolio"
 author: Ricardo G.
-postimage: "media/placeHolder_sm.png"
-postimagealt: ""
+postimage1x: "http://localhost:1313/media/portfolio/nasa/nasa-mvw.png"
+postimage2x: "http://localhost:1313/media/portfolio/nasa/nasa-mvw@2x.png"
+postimage3x: "http://localhost:1313/media/portfolio/nasa/nasa-mvw@3x.png"
+postimagealt: "an image displaying a portion of an info-graphicg"
 figcaption: ""
-tags: []
+svgClipObjectClass: "boxDiagonals"
+tags: ["info-graphic"]
+weight: 1
 ---
 
 

@@ -92,3 +92,17 @@
       box-shadow: inset 0 0 0 (1em / 16) $color;
     }
   }
+
+//
+// SVG Overlay mixin for the home page
+//
+  @mixin svgOverlay(
+  $backGroundColor: null,
+  $clipPath: null) {
+  background: $backGroundColor;
+  
+  .portfolioCard {
+    clip-path: url(#{$clipPath});
+    opacity: 0.5;
+  }
+}

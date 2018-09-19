@@ -2,15 +2,18 @@ baseURL = "http://proto.bulletprooftoupee.com/"
 languageCode = "en-us"
 title = "bulletprooftoupee.com"
 theme="blank"
+relativeURLs="true"
 #defaultLayout="posts"
 
 #sectionPagesMenu = "main"
 
 [params]
   author="Ricardo Eric Galvez"
-  subtitle="Projects, Creative Works and Writings of Ricardo E. Galvez"
+  subtitle="Creative Works of Ricardo E. Galvez"
   # Make an image post
-  postimage = ""
+  postimage1x = ""
+  postimage2x = ""
+  postimage3x = ""
     postimagealt = ""
   figcaption = ""
   svgClipObjectClass = ""

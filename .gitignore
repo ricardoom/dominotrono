@@ -6,4 +6,4 @@ npm-debug.log
 botConfig.js
 artwork/
 # ignore image files
-content/media/**/*.*
+content/media/portfolio/**/*.*

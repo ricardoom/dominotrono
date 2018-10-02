@@ -104,5 +104,10 @@
   .portfolioCard {
     clip-path: url(#{$clipPath});
     opacity: 0.5;
+
+    &:hover {
+      clip-path: none;
+      opacity: 1;
+    }
   }
 }

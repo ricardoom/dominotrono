@@ -17,7 +17,7 @@
 @function multiple-text-shadow ($n, $r, $g, $b, $x, $y, $u) {
     //$unit: '#{$u}';
     $value: '#{$x}#{$u} #{$y}#{$u} 0 rgba(#{$r}, #{$g}, #{$b}, 1),';
-    @for $i from 1 through $n {
+    @for $i from 0.5 through $n {
       $x: ($i * $x);
       $y: ($i * $y);
       $a: 1 / ($n * $i);
@@ -39,7 +39,7 @@
 //
 
 @function big-3d($x, $y, $blur, $spread, $color, $num) {
-  $output: #{$x}px #{$y}px #{$blur} #{$spread} #{$color};
+  $output: '#{$x}px #{$y}px #{$blur} #{$spread} #{$color}';
   @for $i from 1 to $num {
     $x: ($i + 1);
     $y: ($i + 1);
@@ -47,21 +47,39 @@
   @return unquote($output);
 }
 
-/// Mixins 
+// Mixins 
 
-  // mixin for basic padding
-  // todo: add {params}
-  // param {$media} : >=phone
-  @mixin basic-article-wrapper($breakpoint, $mw, $pl) {
+// mixin for basic padding
+// todo: add {params}
+// param {$media} : >=phone
+// param {$padding} $pr/$pr = padding-right left etc...
+
+  @mixin basic-article-wrapper($breakpoint, $mw, $pl: "", $pr: "") {
     @include media(#{$breakpoint}) {
       max-width: $mw;
       padding-left: $pl;
+      padding-right: $pr;
     }  
   }
+  
+//
+// Make grids easier to utilize
+// ex: @include addToGrid() {}
+// 
+   @mixin addToGrid(
+    $breakpoint: "", 
+    $col-start: "", 
+    $col-end: "", 
+    $row-start: "", 
+    $row-end: "") {
+    grid-template-columns: $col-start / $col-end;
+    grid-template-rows: $row-start / $row-end;
+    @content;
+  }
 
-/// In some cases we might want to vary the kind of focus ring we apply,
-/// @Param 
-///
+// In some cases we might want to vary the kind of focus ring we apply,
+// @Param 
+//
 
   @mixin focus-ring(
     $type,
@@ -74,3 +92,22 @@
       box-shadow: inset 0 0 0 (1em / 16) $color;
     }
   }
+
+//
+// SVG Overlay mixin for the home page
+//
+  @mixin svgOverlay(
+  $backGroundColor: null,
+  $clipPath: null) {
+  background: $backGroundColor;
+  
+  .portfolioCard {
+    clip-path: url(#{$clipPath});
+    opacity: 0.5;
+
+    &:hover {
+      clip-path: none;
+      opacity: 1;
+    }
+  }
+}

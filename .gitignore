@@ -5,6 +5,7 @@ node_modules/
 npm-debug.log
 botConfig.js
 artwork/
-
-# the deploy file
-# deploy
+# ignore image files
+content/media/portfolio/**/*.*
+# ignore the public files that get deployed
+public/

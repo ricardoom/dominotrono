@@ -1,24 +1,22 @@
 {{ partial "header.html" . }}
 	<main>
-		<div class="full-width-wrapper">
-			<div class="single-column">
+		<div class="grid-wrapper">
+			<div class="grid-wrapper__listParent">
 				<article class="site-article">
-				<h1>{{ .Title }}</h1>
-				<p class="site-author">by: {{ .Site.Params.author }}</p>
-				<time>{{ .Date.Format "01.02.2006 15:04" }}</time>
-				<div class="site-single__content">
-					{{ .Content }}
-				</div>
-			</article>
-		</div>
-		<div class="single-column">
-			<ul id="tags" class="site-tags">
-				{{ range .Params.tags }}
-				<li class="site-tags__tag">
-					<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
-				{{ end }}
-			</ul>
-		</div>
+					<h1>{{ .Title }}</h1>
+					<p class="site-author">by: {{ .Site.Params.author }}</p>
+					<time>{{ .Date.Format "01.02.2006 15:04" }}</time>
+					<div class="site-single__content">
+						{{ .Content }}
+					</div>
+				</article>
+				<ul id="tags" class="site-tags">
+					{{ range .Params.tags }}
+					<li class="site-tags__tag">
+						<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+					{{ end }}
+				</ul>
+			</div>	
 		</div>
 	</main>
 {{ partial "sidebar.html" . }}

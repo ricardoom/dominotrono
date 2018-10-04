@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<main>
+  <div>
+   <h1>{{ .Title }}</h1>
+   <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+    {{ range .Pages }}
+        {{ .Render "summary"}}
+        -- taxonomy template --
+    {{ end }}
+  </div>
+</main>
+
+{{ partial "sidebar.html" . }}
+{{ partial "footer.html" . }}

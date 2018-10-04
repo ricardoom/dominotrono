@@ -2,7 +2,7 @@
 title: "Another Bad List"
 date: 2018-06-29T23:56:26-04:00
 draft: false
-postimage: ""
+postimage: "media/placeHolder_sm.png"
 postimagealt: ""
 figcaption: ""
 ---

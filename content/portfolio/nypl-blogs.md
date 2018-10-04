@@ -5,9 +5,9 @@ date: 2018-06-30T00:05:50-04:00
 draft: false
 postimage: "media/placeHolder_sm.png"
 postimagealt: "an alt tag here"
-figcaption: "here is the figure caption"
+figcaption: ""
 tags: ["portfolio"]
-title: "Nypl Blogs"
+title: "NYPL Blogs"
 ---
 ## the cat is meowing
 

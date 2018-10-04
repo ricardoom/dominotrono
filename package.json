@@ -4,12 +4,17 @@
   "description": "personal website thing",
   "main": "index.html",
   "dependencies": {
+    "express": "^4.16.3",
+    "gulp-imagemin": "^4.1.0",
+    "nodemon": "^1.18.3",
     "npm": "^5.8.0",
-    "paper": "^0.11.5"
+    "paper": "^0.11.5",
+    "twit": "^2.2.9"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^1.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-postcss": "^7.0.1",
@@ -22,7 +27,8 @@
     "url": "https://github.com/ricardoom/dominotrono.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
   },
   "author": "ricardo galvez",
   "license": "MIT"

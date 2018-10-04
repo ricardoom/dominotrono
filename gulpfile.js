@@ -11,13 +11,15 @@ const concat = require('gulp-concat');
 
 const uglify = require('gulp-uglify');
 
+const imagemin = require('gulp-imagemin');
 
 // variables:
 const input = 'themes/blank/src/sass/**/*.scss';
 const output = 'themes/blank/static/css';
 const jsInput = 'themes/blank/src/js/**/*.js';
 const jsOutput = 'themes/blank/static/js';
-
+const imgInput = 'themes/blank/images/**/*.*';
+const imgOutput = 'themes/blank/static/images';
 
 const sassOptions = {
   errLogToConsole: true,
@@ -31,14 +33,14 @@ const autoprefixerOptions = {
 
 
 // gulp tasks:
-gulp.task('js', function () {
+gulp.task('js', function (){
   return gulp.src(jsInput)
   .pipe(concat('main.js'))
   //.pipe(uglify())
   .pipe(gulp.dest(jsOutput));
 });
 
-gulp.task('sass', function () {
+gulp.task('sass', function (){
   return gulp.src(input)
   .pipe(sass())
   .pipe(autoprefixer(autoprefixerOptions))
@@ -48,9 +50,21 @@ gulp.task('sass', function () {
   .pipe(gulp.dest(output));
 });
 
+gulp.task('copy', function(){
+  gulp.src(imgInput)
+    .pipe(gulp.dest(imgOutput));
+});
+
+// gulp.task('images', function(){
+//   return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
+//   .pipe(imagemin())
+//   .pipe(gulp.dest('dist/images'))
+// });
+
 gulp.task('watch', function () {
   gulp.watch('themes/blank/src/sass/**/*.scss', ['sass']);
   gulp.watch('themes/blank/src/js/**/*.js', ['js']);
+  gulp.watch('themes/blank/images/**/*.*', ['copy']);
 });
 
-gulp.task('default', ['sass', 'js', 'watch']);
+gulp.task('default', ['copy', 'sass', 'js', 'watch']);

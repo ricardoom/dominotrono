@@ -229,6 +229,22 @@ $left-column: 25vw;
                   $site-green-blue,
                   #box_diagonals);
               }
+
+              &.variableDots {
+                @include svgOverlay (
+                  $site-punk-pink,
+                  #variable_dots);
+              }
+
+              &.diagonalDot {
+                @include svgOverlay ($site-punk-pink, #diagonal_dot);
+              }
+
+              &.oneCircle {
+                @include svgOverlay (
+                  $site-hot-orange,
+                  #quarter_circle);
+              }
             } // /figure
           }
 

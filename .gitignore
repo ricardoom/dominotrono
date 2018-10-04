@@ -9,3 +9,5 @@ artwork/
 content/media/portfolio/**/*.*
 # ignore the public files that get deployed
 public/
+
+deploy

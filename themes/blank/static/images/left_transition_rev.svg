@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .a { fill: #6533ff; }
+    </style>
+  </defs>
+  <title>
+    left_transition_rev
+  </title>
+  <path class="a" d="M375 500h125V375a125 125 0 0 1-125 125z"/>
+  <path class="a" d="M0 500h375a125 125 0 1 1 125-125V0S0 0 0 500z"/>
+</svg>

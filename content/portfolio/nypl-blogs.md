@@ -9,7 +9,7 @@ postimage3x: "../media/portfolio/nypl_blogs/blogCard@3x.png"
 postimagealt: "A partial image of the NYPL Staff Picks and Best Books landing page"
 figcaption: ""
 title: "NYPL Blogs"
-svgClipObjectClass: "oneCircle"
+svgClipObjectClass: "squaresCircles"
 svgColorClass: "site-color--acid-green"
 tags: ["portfolio"]
 weight: 10

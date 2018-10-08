@@ -198,52 +198,43 @@ $left-column: 25vw;
                 border: 0
               }
 
-              .svgShapeClip {
-              
-              }
+              // Need to find a better way to add this color class to the overlay.
+             // adding the class (read: which color to use) is fine and all but the css below is seemingly clunky, JS might better be used to randomize which colors are used as overlays and _not_ add the color at the post level, which would require prior knowledge of which color : class exits...
+
+             // that said, a better step would be to write some JS so apply those color classes on its own and the we dont have to worry about applying them manually anywhere...
+
+             // Same w/ the overlays... 🤔
 
               &.fourDots {
-                @include svgOverlay(
-                  $site-acid-green,
-                  #four_dots);
+                @include svgOverlay(#four_dots);
               }
 
               &.twoSquares {
-                @include svgOverlay(
-                  $site-lava-orange,
-                  #two_squares);
+                @include svgOverlay(#two_squares);
               }
 
               &.overDots {
-                clip-path: url(#over_dots);
+                @include svgOverlay(#over_dots);
               }
 
               &.oneDiagonal {
-               @include svgOverlay(
-                 $site-dark-blue,
-                 #one_diagonal);
+               @include svgOverlay(#one_diagonal);
               }
 
               &.boxDiagonals {
-                @include svgOverlay (
-                  $site-green-blue,
-                  #box_diagonals);
+                @include svgOverlay (#box_diagonals);
               }
 
               &.variableDots {
-                @include svgOverlay (
-                  $site-punk-pink,
-                  #variable_dots);
+                @include svgOverlay (#variable_dots);
               }
 
               &.diagonalDot {
-                @include svgOverlay ($site-punk-pink, #diagonal_dot);
+                @include svgOverlay (#diagonal_dot);
               }
 
               &.oneCircle {
-                @include svgOverlay (
-                  $site-hot-orange,
-                  #quarter_circle);
+                @include svgOverlay (#quarter_circle);
               }
             } // /figure
           }

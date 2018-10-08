@@ -10,6 +10,7 @@ postimage3x: "http://localhost:1313/media/portfolio/soulshack/soulShack960@3x.pn
 postimagealt: "Image of the company logo printed on mirrored glass"
 figcaption: ""
 svgClipObjectClass: "twoSquares"
+svgColorClass: "site-color--hot-orange"
 tags: []
 weight: 2
 ---

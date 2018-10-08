@@ -7,9 +7,10 @@ author: Ricardo G.
 postimage1x: "../media/portfolio/nypl_staff_picks/spFall2018.png"
 postimage2x: "../media/portfolio/nypl_staff_picks/spFall2018@2x.png"
 postimage3x: "../media/portfolio/nypl_staff_picks/spFall2018@3x.png"
-postimagealt: ""
+postimagealt: "A partial image of the NYPL Staff Picks and Best Books landing page"
 figcaption: ""
 svgClipObjectClass: "diagonalDot"
+svgColorClass: "site-color--green-blue"
 tags: []
 weight: 10
 ---

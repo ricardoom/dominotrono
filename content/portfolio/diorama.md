@@ -4,12 +4,13 @@ date: 2018-08-18T08:12:38-04:00
 draft: false
 categories: "portfolio"
 author: Ricardo G.
-postimage1x: "http://localhost:1313/media/portfolio/diorama/dioramaCard320.png"
-postimage2x: "http://localhost:1313/media/portfolio/diorama/dioramaCard640@2x.png"
-postimage3x: "http://localhost:1313/media/portfolio/diorama/dioramaCard960@3x.png"
+postimage1x: "../media/portfolio/diorama/dioramaCard320.png"
+postimage2x: "../media/portfolio/diorama/dioramaCard640@2x.png"
+postimage3x: "../media/portfolio/diorama/dioramaCard960@3x.png"
 postimagealt: "A Card for the Diorama project"
 figcaption: ""
 svgClipObjectClass: "fourDots"
+svgColorClass: "site-color--acid-green"
 tags: []
 weight: 1
 ---

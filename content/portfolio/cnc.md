@@ -10,6 +10,7 @@ postimage3x: "../media/portfolio/cnc/shapeOko@3x.png"
 postimagealt: "An Image of CNC Workings"
 figcaption: ""
 svgClipObjectClass: "oneDiagonal"
+svgColorClass: "site-color--lava-orange"
 tags: ["cnc", "maker"]
 weight: 10
 ---

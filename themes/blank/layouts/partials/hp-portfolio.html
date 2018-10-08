@@ -2,7 +2,7 @@
     {{ if and (.Params.postimage1x) (ne .Params.postimage1x "") }}
   <a href="{{ .Permalink }}">
   <div class="portfolio-flex__content"> 
-    <figure class="{{ .Params.svgClipObjectClass }}">
+    <figure class="{{ .Params.svgClipObjectClass }} {{ .Params.svgColorClass }} ">
       <img srcset="{{ .Params.postimage1x }}, {{ .Params.postimage2x }} 2x, {{ .Params.postimage3x }} 3x"
        sizes="(max-width: 20em) 100vw, (max-width: 50em) 75vw, (max-width: 60em) 65vw"
       alt="{{ if .Params.postimagealt }} {{ .Params.postimagealt }}

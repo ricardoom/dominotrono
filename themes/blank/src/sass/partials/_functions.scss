@@ -96,10 +96,7 @@
 //
 // SVG Overlay mixin for the home page
 //
-  @mixin svgOverlay(
-  $backGroundColor: null,
-  $clipPath: null) {
-  background: $backGroundColor;
+  @mixin svgOverlay($clipPath: null) {
   
   .portfolioCard {
     clip-path: url(#{$clipPath});
@@ -111,3 +108,4 @@
     }
   }
 }
+

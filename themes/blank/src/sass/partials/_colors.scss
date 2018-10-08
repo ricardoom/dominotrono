@@ -32,3 +32,27 @@ $large-bg-color: lighten($site-background-color, 8.5%);
 
 /// Colors that have transparency by virtue of hsla vs. sass doing that work for us
 $site-transparent-black: hsla(0, 5%, 5%, 0.15);
+
+
+// take each color from above and create a global class by that name:
+
+$site-colors: (
+dark-blue: $site-dark-blue,
+green-blue: $site-green-blue,
+white: $site-white,
+punk-pink: $site-punk-pink,
+hot-orange: $site-hot-orange,
+lava-orange: $site-lava-orange,
+acid-green: $site-acid-green,
+black: $site-black,
+);
+
+
+
+@each $site-color-name, $site-color in $site-colors {
+  .site-color--#{$site-color-name} {
+    background: $site-color;
+  }
+}
+
+// social-link--dribbble

@@ -4,12 +4,13 @@ date: 2018-08-16T09:21:38-04:00
 draft: false
 categories: "portfolio"
 author: Ricardo G.
-postimage1x: "../media/portfolio/nypl_staff_picks/spFall2018.png"
-postimage2x: "../media/portfolio/nypl_staff_picks/spFall2018@2x.png"
-postimage3x: "../media/portfolio/nypl_staff_picks/spFall2018@3x.png"
+postimage1x: "../media/portfolio/design_toolkit/dtkCard.png"
+postimage2x: "../media/portfolio/design_toolkit/dtkCard@2x.png"
+postimage3x: "../media/portfolio/design_toolkit/dtkCard@3x.png"
 postimagealt: ""
 figcaption: ""
 svgClipObjectClass: "oneCircle"
+svgColorClass: "site-color--punk-pink"
 tags: []
 weight: 10
 ---

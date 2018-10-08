@@ -10,6 +10,7 @@ postimage3x: "{{ .Site.BaseURL }}media/placeHolder_sm@3x.png"
 postimagealt: ""
 figcaption: ""
 svgClipObjectClass: ""
+svgColorClass: ""
 tags: []
 weight: 10
 ---

@@ -15,10 +15,10 @@ relativeURLs="true"
   postimage1x = ""
   postimage2x = ""
   postimage3x = ""
-    postimagealt = ""
+  postimagealt = ""
   figcaption = ""
   svgClipObjectClass = ""
-
+  svgColorClass = ""
 [permalinks]
     post = "/:year/:month/:title/"
 

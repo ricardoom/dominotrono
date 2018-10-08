@@ -8,6 +8,7 @@ relativeURLs="true"
 #sectionPagesMenu = "main"
 
 [params]
+  cdnURL = "http://cdn.bulletprooftoupee.com/"
   author="Ricardo Eric Galvez"
   subtitle="Creative Works of Ricardo E. Galvez"
   # Make an image post

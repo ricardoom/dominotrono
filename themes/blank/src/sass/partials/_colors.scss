@@ -47,8 +47,6 @@ acid-green: $site-acid-green,
 black: $site-black,
 );
 
-
-
 @each $site-color-name, $site-color in $site-colors {
   .site-color--#{$site-color-name} {
     background: $site-color;

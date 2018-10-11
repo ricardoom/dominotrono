@@ -140,7 +140,7 @@ $left-column: 25vw;
       .jumbo-grid-container {
        @include media (">=phone") {
           grid-column: 1 / 1;
-          grid-row: 3 / 9;
+          grid-row: 10 / 12;
 
         &__content {
         // position: fixed;
@@ -166,7 +166,7 @@ $left-column: 25vw;
         padding: 0;
 
           &__mastHead {
-            flex: 1 100%;
+            flex: 1 1 100%;
           }
 
           &__summary {
@@ -177,12 +177,13 @@ $left-column: 25vw;
 
             @include media(">=phone") {
               //background-color: $site-acid-green;
-              flex: 1 100%;
+              flex: 1 1 100%;
             }
 
             @include media(">=tablet"){
               //background-color: $site-green-blue;
-              flex: 1 25%;
+              //flex: 1 1 25%;
+              max-width: 25%;
             }
           }
 
@@ -224,6 +225,11 @@ $left-column: 25vw;
                @include svgOverlay(#one_diagonal);
               }
 
+              &.oneDiagonal-45 {
+                @include svgOverlay(#one_diagonal);
+                //transform: rotate(45deg);
+               }
+
               &.boxDiagonals {
                 @include svgOverlay (#box_diagonals);
               }
@@ -254,7 +260,7 @@ $left-column: 25vw;
         @include media(">=phone") {
           grid: auto / 1fr; 
           grid-column: 1 / 1;
-          grid-row: 10 / 12;
+          grid-row: 3 / 9;
         }
 
         @include media(">=tablet"){
@@ -291,7 +297,7 @@ $left-column: 25vw;
          @include media(">=phone") {
           grid: auto / 1fr; 
           grid-column: 1 / 1;
-          grid-row: 10 / 12;
+          grid-row: 3 / 9;
         }
 
         @include media(">=tablet") {

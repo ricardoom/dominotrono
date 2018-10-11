@@ -10,7 +10,7 @@ postimage3x: "../media/portfolio/simplye_audiobooks/seCard@3x.png"
 postimagealt: ""
 figcaption: ""
 svgClipObjectClass: "variableDots"
-svgColorClass: "site-color--black"
+svgColorClass: "site-color--dark-blue"
 tags: []
 weight: 10
 ---

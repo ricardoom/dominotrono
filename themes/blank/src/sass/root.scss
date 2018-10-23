@@ -34,7 +34,7 @@ html {
   // Retina-specific stuff here
   // TODO: Create a Mixin to handle any device pixel ratio
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-    background-image: url(../images/moonScapeBG5.svg) 
+    background-image: url(../images/moonScape@2x.svg) 
    }
   background-attachment: fixed;
   background-origin: 0 0;

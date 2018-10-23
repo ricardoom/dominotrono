@@ -9,12 +9,12 @@ postimage2x: "../media/portfolio/notch/notchCard@2x.png"
 postimage3x: "../media/portfolio/notch/notchCard@3x.png"
 postimagealt: ""
 figcaption: ""
-tags: []
-svgClipObjectClass: "bigCircle"
-svgColorClass: "site-color--green-blue"
+svgClipObjectClass: "cloudThing"
+svgColorClass: "site-color--black"
 tags: ["portfolio"]
-weight: 10
+weight: 1
 ---
 
 
-###
+### The Small company called Notch.
+Working the things on the CNC

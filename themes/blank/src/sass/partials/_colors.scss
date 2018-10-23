@@ -35,6 +35,7 @@ $site-transparent-black: hsla(0, 5%, 5%, 0.15);
 
 
 // take each color from above and create a global class by that name:
+// ex: .site-color--green-blue;
 
 $site-colors: (
 dark-blue: $site-dark-blue,

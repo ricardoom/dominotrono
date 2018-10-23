@@ -9,8 +9,8 @@ postimage2x: "../media/portfolio/nypl/nyplHP@2x.png"
 postimage3x: "../media/portfolio/nypl/nyplHP@3x.png"
 postimagealt: ""
 figcaption: ""
-svgClipObjectClass: ""
-svgColorClass: ""
+svgClipObjectClass: "squaresCircles"
+svgColorClass: "site-color--green-blue"
 tags: []
 weight: 10
 ---

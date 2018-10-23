@@ -12,7 +12,9 @@
 // }
 
 .site-content {
-
+  // background-image: url(../images/real_pill.svg);
+  // background-repeat: repeat;
+  
   button {
     background: transparent;
     border: 0.15em solid $site-white;
@@ -79,7 +81,7 @@
 
   .portfolio-flex,
   .portfolio-grid {
-
+    //6.5ex 17.65vw 6e.5x 6vw
     &__mastHead {
       @include media(">=phone") {
         background: $site-background-color;

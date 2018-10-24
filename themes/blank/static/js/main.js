@@ -87,7 +87,7 @@ const tiles = Array.from(portfolioTile);
 const allTheChildren = tiles.map(el => el.childNodes);
 
 const tilesArray = Array.from(tileParent);
-const classesFromTileParent = tilesArray.map(classes =>classes.classList);
+const classesFromTileParent = tilesArray.map(classes => classes.classList);
 
 
 for (let i = 0; i < portfolioTile.length; i++) {

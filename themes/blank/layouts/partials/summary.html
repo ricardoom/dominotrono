@@ -7,7 +7,7 @@
 		<div class="site-summary__content">
 			<p class="site-summary__copy">{{ .Summary }}
 			{{ if .Truncated }}
-				<a href="{{ .Permalink }}">Read more...</a>
+				<a href="{{ .Permalink }}">Continue Reading about {{ .Title }}.</a>
 			{{ end }}
 			</p>
 			{{ if and (.Params.postimage) (ne .Params.postimage "") }}

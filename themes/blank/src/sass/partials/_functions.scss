@@ -106,15 +106,48 @@
   }
 }
 
+@keyframes slideOver {
+  // 0% {
+  //   transform: translateX(0px);
+  // }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes slideBack {
+  // 0% {
+  //   transform: translateX(-100px);
+  // }
+    100% {
+    transform: translateX(0px);
+  }
+   
+}
+
+
+
+
   @mixin svgOverlay($clipPath: null) {
   
   .portfolioCard {
     // animation-duration: 0.7s;
     // animation-name: simpleFade;
     // animation-iteration-count: 1;
+    // animation-direction: reverse;
+    // animation-name: slideBack;
+    // animation-duration: 1.8s;
+    // animation-timing-function: ease-in;
+    // animation-delay: 0;
+    // animation-iteration-count: 1;
+    // animation-direction: normal;
+    // animation-fill-mode: forwards;
     clip-path: url(#{$clipPath});
     opacity: 0.65;
-    pointer-events: all
+    // pointer-events: all;
+    
+    //transition: transform 0.2s;
+    
 
     // &:hover {
     //   clip-path: none;
@@ -126,6 +159,14 @@
     // }
   }
   .portfolioCardOff {
+    animation-name: slideOver;
+    animation-duration: .2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    z-index: 9000;;
     //clip-path: none;
     // opacity: 0;
     // animation-name: simpleFadeOut;

@@ -48,6 +48,11 @@
   //     }
   //   ];
 // 
+
+const homePage = document.querySelector('.home-page');
+
+if (homePage != null) {
+
   const morseSVG =
     {
       dotSVG : `<svg class="dot" viewBox="0 0 107.66667 107.66667">
@@ -246,3 +251,5 @@ function convertToMorse(charactersToConvert, separator) {
     // concurent playback is default
 
 //
+
+    }

@@ -11,7 +11,8 @@
     {{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
     {{ .Hugo.Generator }}
 </head>
-<body>
+
+<body  class="{{ if (ne .IsHome .IsHome) }}page{{ else }}home-page{{ end }}" >
     <header role="banner" class="site-header">
         <div class="site-header__siteNameContainer">
             <a href="{{ .Site.BaseURL }}" class="site-header__siteName">{{ .Site.Title }}</a>
@@ -24,3 +25,5 @@
             </ul>
         </nav>
     </header>
+
+

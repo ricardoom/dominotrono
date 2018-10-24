@@ -81,23 +81,28 @@ const tileParent = document.querySelectorAll('.portfolio-flex__content figure im
 
 const tilePatternTwo = document.getElementsByClassName('svgShapeClip');
 
+// const tiles = Array.from(portfolioTile);
+// const tiles = Array.from(tileParent);
+const tiles = Array.from(portfolioTile);
+const allTheChildren = tiles.map(el => el.childNodes);
+
+const tilesArray = Array.from(tileParent);
+const classesFromTileParent = tilesArray.map(classes =>classes.classList);
+
 
 for (let i = 0; i < portfolioTile.length; i++) {
+  const tileClasses = tileParent[i].classList;  
   portfolioTile[i].addEventListener('mouseenter', () => {
-    const tileClasses = tileParent[i].classList;
     tileClasses.add('portfolioCardOff');
     tileClasses.remove('portfolioCard');
-    //console.log(tileClasses);
+    console.log(tileClasses);
   });
   portfolioTile[i].addEventListener('mouseleave', () => {
-    const tileClasses = tileParent[i].classList;
     tileClasses.remove('portfolioCardOff');
     tileClasses.add('portfolioCard');
     //console.log(tileClasses);
   });
-}
-
-
+};
 
 // portfolioTile.forEach((tile) => {
  
@@ -354,6 +359,11 @@ setTheGradientHSLA();
   //     }
   //   ];
 // 
+
+const homePage = document.querySelector('.home-page');
+
+if (homePage != null) {
+
   const morseSVG =
     {
       dotSVG : `<svg class="dot" viewBox="0 0 107.66667 107.66667">
@@ -552,3 +562,5 @@ function convertToMorse(charactersToConvert, separator) {
     // concurent playback is default
 
 //
+
+    }

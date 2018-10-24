@@ -22,7 +22,7 @@ for (let i = 0; i < portfolioTile.length; i++) {
   portfolioTile[i].addEventListener('mouseenter', () => {
     tileClasses.add('portfolioCardOff');
     tileClasses.remove('portfolioCard');
-    console.log(tileClasses);
+    //console.log(tileClasses);
   });
   portfolioTile[i].addEventListener('mouseleave', () => {
     tileClasses.remove('portfolioCardOff');

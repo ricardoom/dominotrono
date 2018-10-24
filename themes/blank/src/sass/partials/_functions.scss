@@ -159,15 +159,15 @@
     // }
   }
   .portfolioCardOff {
-    animation-name: slideOver;
-    animation-duration: .2s;
-    animation-timing-function: ease-out;
-    animation-delay: 0;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    z-index: 9000;;
-    //clip-path: none;
+    // animation-name: slideOver;
+    // animation-duration: .2s;
+    // animation-timing-function: ease-out;
+    // animation-delay: 0;
+    // animation-iteration-count: 1;
+    // animation-direction: normal;
+    // animation-fill-mode: forwards;
+    // z-index: 9000;
+    clip-path: none;
     // opacity: 0;
     // animation-name: simpleFadeOut;
     // animation-duration: 1s;

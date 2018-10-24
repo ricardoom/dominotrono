@@ -8,22 +8,27 @@ relativeURLs="true"
 #sectionPagesMenu = "main"
 
 [params]
-  cdnURL = "http://cdn.bulletprooftoupee.com/"
-  author="Ricardo Eric Galvez"
-  subtitle="Creative Works of Ricardo E. Galvez"
-  # Image params:
-  postimage1x = ""
-  postimage2x = ""
-  postimage3x = ""
-  postimagealt = ""
-  # the figure catption param:
-  figcaption = ""
-  # svg clip path classes (for declaring the path and setting a color):
-  svgClipObjectClass = ""
-  svgColorClass = ""
-  # portfolio landing page image param:
-  portfolioHero = ""
-  portfolioHeroAlt = ""
+    cdnURL = "http://cdn.bulletprooftoupee.com/"
+    author="Ricardo Eric Galvez"
+    subtitle="Creative Works of Ricardo E. Galvez"
+    # Image params:
+    postimage1x = ""
+    postimage2x = ""
+    postimage3x = ""
+    postimagealt = ""
+    # the figure catption param:
+    figcaption = ""
+    # svg clip path classes (for declaring the path and setting a color):
+    svgClipObjectClass = ""
+    svgColorClass = ""
+    # portfolio landing page image param:
+    portfolioHero = ""
+    portfolioHeroAlt = ""
+    # some classes we want to expose to hugo:
+    [params.classes]
+      homePage = "home-page"
+      innerPage = "inner-page"
+
 [permalinks]
     post = "/:year/:month/:title/"
 

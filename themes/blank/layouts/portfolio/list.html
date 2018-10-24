@@ -3,10 +3,10 @@
 
 {{ partial "header.html" . }}
 	<main>
-		<div class="grid-wrapper">
-			<div class="grid-wrapper__listParent">{{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") }}
+		<div class="grid-wrapper portfolio-wrapper">
+			<div class="grid-wrapper__listParent portfolio-wrapper__listParent">{{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") }}
 		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
+			{{ partial "portfolio_hero.html" . }}
 		{{ end }}
 		</div>
 	</div>

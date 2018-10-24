@@ -4,6 +4,8 @@ date: 2018-08-18T08:12:38-04:00
 draft: false
 categories: "portfolio"
 author: Ricardo G.
+portfolioHero: "../media/portfolio/diorama/dioramaHero.png"
+portfolioHeroAlt: ""
 postimage1x: "../media/portfolio/diorama/dioramaCard320.png"
 postimage2x: "../media/portfolio/diorama/dioramaCard640@2x.png"
 postimage3x: "../media/portfolio/diorama/dioramaCard960@3x.png"

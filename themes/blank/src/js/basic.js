@@ -36,22 +36,25 @@ for (let i = 0; i < portfolioTile.length; i++) {
   });
 };
 
-// portfolioTile.forEach((tile) => {
- 
-//   tile.addEventListener('mouseenter', () => {
-//     const getChildClass = tile.childNodes[1];
-//     const portFolioClass = getChildClass.childNodes[1];
-//     const theLastClass = portFolioClass.childNodes[1];
-//     const imgClass = theLastClass.classList;
-//     imgClass.remove('portfolioCard');
-//     imgClass.add('portfolioCardOff');
-//   });
-//   tile.addEventListener('mouseleave', () => {
-//     const getChildClass = tile.childNodes[1];
-//     const portFolioClass = getChildClass.childNodes[1];
-//     const theLastClass = portFolioClass.childNodes[1];
-//     const imgClass = theLastClass.classList;
-//     imgClass.add('portfolioCard');
-//     imgClass.remove('portfolioCardOff');
-//   })
-// });
+portfolioTile.forEach((tile) => {
+  const getChildClass = tile.childNodes[1];
+  const portFolioClass = getChildClass.childNodes[1];
+  const theLastClass = portFolioClass.childNodes[1];
+  const imgClass = Array.from(theLastClass.classList);
+  tile.addEventListener('mouseenter', () => {
+    
+    console.log(imgClass);
+    
+    // imgClass.remove('portfolioCard');
+    // imgClass.add('portfolioCardOff');
+  });
+  tile.addEventListener('mouseleave', () => {
+    // const getChildClass = tile.childNodes[1];
+    // const portFolioClass = getChildClass.childNodes[1];
+    // const theLastClass = portFolioClass.childNodes[1];
+    // const imgClass = Array.from(theLastClass.classList);
+    console.log(imgClass);
+    // imgClass.add('portfolioCard');
+    // imgClass.remove('portfolioCardOff');
+  })
+});

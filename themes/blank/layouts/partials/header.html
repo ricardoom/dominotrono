@@ -12,10 +12,6 @@
     {{ .Hugo.Generator }}
 </head>
 
-<!-- $.Site.Params.classes = {{ $.Site.Params.classes }} -->
-    
-
-
 {{ $class :=  .Site.Params.classes }}
 
 <body  class="{{ if .IsHome  }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">

@@ -1,4 +1,6 @@
 
+const indexPage = document.querySelector('.home-page');
+
 
 // some simple event listeners... almost time to refactor this js mess
 
@@ -10,11 +12,14 @@ const tilePatternTwo = document.getElementsByClassName('svgShapeClip');
 
 // const tiles = Array.from(portfolioTile);
 // const tiles = Array.from(tileParent);
+
 const tiles = Array.from(portfolioTile);
 const allTheChildren = tiles.map(el => el.childNodes);
+console.log(allTheChildren);
 
 const tilesArray = Array.from(tileParent);
 const classesFromTileParent = tilesArray.map(classes => classes.classList);
+console.log(classesFromTileParent);
 
 
 for (let i = 0; i < portfolioTile.length; i++) {

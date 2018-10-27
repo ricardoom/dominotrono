@@ -26,8 +26,13 @@ relativeURLs="true"
     portfolioHeroAlt = ""
     # some classes we want to expose to hugo:
     [params.classes]
-      homePage = "home-page"
-      innerPage = "inner-page"
+        homePage = "home-page"
+        innerPage = "inner-page"
+    [params.libraries]
+        matterJS = "js/vendor/matter/matter.min.js"
+        paperJS = "js/vendor/paper/paper-full.min.js"
+        p5JS = "js/vendor/p5/p5.js"
+        threeJS = "js/vendor/three.min.js"
 
 [permalinks]
     post = "/:year/:month/:title/"

@@ -1,2 +1,4 @@
-<script src="{{ .Site.BaseURL }}js/vendor/p5/p5.js"></script>
-<script src="{{ .Site.BaseURL }}js/vendor/paper/paper-full.min.js"></script>
+{{ $p5 := "js/vendor/p5/p5.js" }}
+{{ $paper := "js/vendor/paper/paper-full.min.js"}}
+<script src="{{ .Site.BaseURL }}{{ $p5 }}"></script>
+<script src="{{ .Site.BaseURL }}{{ $paper }}"></script>

@@ -117,7 +117,6 @@ portfolioTile.forEach((tile) => {
   tile.addEventListener('mouseenter', () => {
     
     console.log(imgClass);
-    
     // imgClass.remove('portfolioCard');
     // imgClass.add('portfolioCardOff');
   });

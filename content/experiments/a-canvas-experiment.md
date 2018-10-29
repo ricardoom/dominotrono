@@ -1,8 +1,10 @@
 ---
 title: "A Canvas Experiment"
 date: 2017-12-26T14:02:52-05:00
-draft: true
+draft: false
 tags: [ "canvas" ]
+categories: "experiments"
+vendorJS: "threeJS"
 ---
 
 ### We've been experimenting w/ Canvas

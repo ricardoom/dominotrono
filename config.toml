@@ -7,6 +7,8 @@ relativeURLs="true"
 
 #sectionPagesMenu = "main"
 
+
+
 [params]
     cdnURL = "http://cdn.bulletprooftoupee.com/"
     author="Ricardo Eric Galvez"
@@ -25,9 +27,16 @@ relativeURLs="true"
     portfolioHero = ""
     portfolioHeroAlt = ""
     # some classes we want to expose to hugo:
+    vendorPath = "js/vendor/"
     [params.classes]
-      homePage = "home-page"
-      innerPage = "inner-page"
+        homePage = "home-page"
+        innerPage = "inner-page"
+    [params.vendors]
+        matterJS = "matter/matter.min.js"
+        paperJS = "paper/paper-full.min.js"
+        p5JS = "p5/p5.js"
+        svgJS = "svg/svg.min.js"
+        threeJS = "three/three.min.js"
 
 [permalinks]
     post = "/:year/:month/:title/"

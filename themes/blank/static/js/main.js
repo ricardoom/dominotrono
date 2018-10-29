@@ -1,79 +1,5 @@
 
-const shortCanvas = document.querySelector('.shortcode-canvas');
-
-if (shortCanvas != null) {
-
-  shortCanvas.width = window.innerWidth - 200;
-  shortCanvas.height = window.innerHeight - 200;
-
-  const ctx = shortCanvas.getContext('2d');
-
-
-function Circle(x, y, dx, dy, r, sw) {
-  this.x = x;
-  this.y = y;
-  this.dx = dx;
-  this.dy = dy;
-  this.r = r; // radius
-  this.sw = sw;
-  this.draw =  function() {
-    ctx.beginPath();
-    ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI);
-    ctx.strokeStyle = 'rgba(2, 160, 105, 0.7)';
-    ctx.lineWidth = this.sw;
-    ctx.stroke(); // dont forget the stroke method!
-  } // /draw
-
-  this.update = function() {
-    if (this.x + this.r > innerWidth || this.x - this.r < 0) {
-      this.dx = -this.dx;
-    }
-    if (this.y + this.r > innerHeight || this.y - this.r < 0) {
-      this.dy = -this.dy;
-    }
-    this.x += this.dx;
-    this.y += this.dy;
-
-    this.draw();
-  } // /update
-}
-
-circleArray = [];
-
-for (var i = 0; i < 50; i++) {
-  var r = (Math.random() * 145);
-  // var r = Math.floor(Math.random() * 100);
-  var x = Math.random() * innerWidth;
-  var y = Math.random() * innerHeight;
-  // velocity
-  var dx = (Math.random() - 0.5) * 2;
-  var dy = (Math.random() - 0.5) * 2  ;
-  var sw = (Math.random() * 40);
-  circleArray.push(new Circle(x, y, dx, dy, r, sw));
-}
-
-// console.log(circleArray);
-
-//////
-// https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect
-// https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
-// void ctx.clearRect(x, y, width, height);
-function animate() {
-  requestAnimationFrame(animate);
-  ctx.clearRect(0, 0, innerWidth, innerHeight); // clears the canvas
-
-  for (let i = 0; i < circleArray.length; i++) {
-    circleArray[i].update();
-  }
-}
-
-animate();
-
-};
-
-
-
-// some simple event listeners... almost time to refactor this js mess
+const indexPage = document.querySelector('.home-page');
 
 const portfolioTile = document.querySelectorAll('.portfolio-flex__summary a');
 
@@ -83,11 +9,13 @@ const tilePatternTwo = document.getElementsByClassName('svgShapeClip');
 
 // const tiles = Array.from(portfolioTile);
 // const tiles = Array.from(tileParent);
+
 const tiles = Array.from(portfolioTile);
 const allTheChildren = tiles.map(el => el.childNodes);
-
+// console.log(allTheChildren);
 const tilesArray = Array.from(tileParent);
-const classesFromTileParent = tilesArray.map(classes =>classes.classList);
+const classesFromTileParent = tilesArray.map(classes => classes.classList);
+// console.log(classesFromTileParent);
 
 
 for (let i = 0; i < portfolioTile.length; i++) {
@@ -105,138 +33,55 @@ for (let i = 0; i < portfolioTile.length; i++) {
 };
 
 // portfolioTile.forEach((tile) => {
- 
+//   const getChildClass = tile.childNodes[1];
+//   const portFolioClass = getChildClass.childNodes[1];
+//   const theLastClass = portFolioClass.childNodes[1];
+//   const imgClass = Array.from(theLastClass.classList);
 //   tile.addEventListener('mouseenter', () => {
-//     const getChildClass = tile.childNodes[1];
-//     const portFolioClass = getChildClass.childNodes[1];
-//     const theLastClass = portFolioClass.childNodes[1];
-//     const imgClass = theLastClass.classList;
-//     imgClass.remove('portfolioCard');
-//     imgClass.add('portfolioCardOff');
+    
+//     console.log(imgClass);
+    
+//     // imgClass.remove('portfolioCard');
+//     // imgClass.add('portfolioCardOff');
 //   });
 //   tile.addEventListener('mouseleave', () => {
-//     const getChildClass = tile.childNodes[1];
-//     const portFolioClass = getChildClass.childNodes[1];
-//     const theLastClass = portFolioClass.childNodes[1];
-//     const imgClass = theLastClass.classList;
-//     imgClass.add('portfolioCard');
-//     imgClass.remove('portfolioCardOff');
+//     // const getChildClass = tile.childNodes[1];
+//     // const portFolioClass = getChildClass.childNodes[1];
+//     // const theLastClass = portFolioClass.childNodes[1];
+//     // const imgClass = Array.from(theLastClass.classList);
+//     console.log(imgClass);
+//     // imgClass.add('portfolioCard');
+//     // imgClass.remove('portfolioCardOff');
 //   })
 // });
+//////
+///// svg.js 
+/////
+const svgContainer = document.querySelector('.svgjs');
 
-const jumboCanvas = document.querySelector('.jumbotron .canvas');
+if (svgContainer != null) {
+console.log(svgContainer);
 
-if (jumboCanvas != null) {
+const canvas = SVG(svgContainer).size('100%', '100%').viewbox(0,0,800,1000)
+  , rect = canvas.rect(100, 100)
+  , path = canvas.path("m 357.64532,453.84097 c 17.62007,8.02216 -2.12058,27.70935 -13.33334,29.28571 -30.3859,4.27185 -48.34602,-29.97426 -45.23807,-55.9524 5.5594,-46.46879 56.1311,-70.59787 98.57145,-61.19043 62.28294,13.8058 93.32728,82.57702 77.1428,141.19051 C 453.21679,585.29693 365.67122,623.42358 290.97859,600.26951 196.98554,571.13248 151.71003,464.56996 181.93108,373.84089 218.53281,263.95583 344.23687,211.49702 450.97875,248.84102 576.77037,292.84963 636.43303,437.76771 591.93099,560.50775 540.55162,702.21597 376.3736,769.09583 237.6452,717.41234 80.01319,658.68628 5.9069261,475.21736 64.788247,320.50751 130.84419,146.94643 333.62587,65.607117 504.31214,131.69819 693.80625,205.0718 782.38357,427.18225 709.07382,613.84113")
+  , length = path.length()
+  
+path.fill('none').stroke({width:1, color: '#ccc'})
 
-  jumboCanvas.width = window.innerWidth;
-  jumboCanvas.height = window.innerHeight;
-
-  const ctx = jumboCanvas.getContext('2d');
-
-  // arc
-  // https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc
-
-  ctx.arc(x, y, radius, startAngle, endAngle, anticlockwise);
-  ctx.beginPath();
-  ctx.arc(575, 175, 100, 0, 2 * Math.PI);
-  ctx.strokeStyle = 'rgba(230, 17, 11, 0.7)';
-  ctx.stroke(); // dont forget the stroke method!
-
-  ctx.beginPath();
-  ctx.arc(50, 40, 123, 0, 2 * Math.PI, false);
-  ctx.strokeStyle = 'rgba(250, 7, 161, 0.2)';
-  ctx.stroke(); // dont forget the stroke method!
-
-  for (i = 0; i < 255; i++) {
-
-      var x = Math.random() * window.innerWidth;
-      var y = Math.random() * window.innerHeight;
-      var r = Math.random() * Math.floor(400 / 3.5 * i);
-
-        ctx.beginPath();
-      ctx.arc(x, y, r, 0, 2 * Math.PI, false);
-
-      for (var j = 0; j < 7.5; j++) {
-        ctx.strokeStyle = 'rgb(' + Math.floor(255 - j * i ) + ',' + Math.floor(255 - j * 11) + ', ' + Math.floor(255 - j) + ')';
-        ctx.lineWidth = (j * (Math.random() / i * 16))
-      }
-
-      ctx.stroke(); // dont forget the stroke method!
-  };
-
-  this.update = function() {
-    if (this.x + this.r > innerWidth || this.x - this.r < 0) {
-      this.dx = -this.dx;
-    }
-    if (this.y + this.r > innerHeight || this.y - this.r < 0) {
-      this.dy = -this.dy;
-    }
-    this.x += this.dx;
-    this.y += this.dy;
-
-    this.draw();
-  } // /update
-
-  // function animate() {
-  //   requestAnimationFrame(animate);
-  //   ctx.clearRect(0, 0, innerWidth, innerHeight); // clears the canvas
-  //
-  //   for (var i = 0; i < circleArray.length; i++) {
-  //     circleArray[i].update();
-  //   }
-  // }
-  //
-  // animate();
-
+rect.animate(8000, '<>').during(function(pos, morph, eased){
+    var p = path.pointAt(eased * length)
+    rect.center(p.x, p.y)
+}).loop(true, true);
 }
-
-
-//var newJumbo = document.querySelector('.new-jumbo');
-
-/// here are the papers!
-
-// var myPath = new Path();
-// myPath.strokeColor = 'black';
-// myPath.add(new Point(0, 0));
-// myPath.add(new Point(100, 50));
-
-
-
-
-function setup() {
-  var cnv = createCanvas(windowWidth, windowHeight);
-  cnv.parent('jumbo-container');
-  loadJSON("http://api.openweathermap.org/data/2.5/weather?zip=11221,us&units=imperial&appid=d335a16d5b5a98484b5566b3f3e2991e", goData);
-}
-
-function goData(data) {
-  //console.log(data);
-  //background(255, 0, 200);
-  for (var i= 0; i < data.number; i++) {
-    rect(random(width), random(height), random(64), random(64));
-    fill(255);
-  }
-}
-
-
-
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
-
-
-// function draw() {
-//   if (mouseIsPressed) {
-//     fill(0);
-//   } else {
-//     fill(255);
-//   }
-//   ellipse(mouseX, mouseY, 80, 80);
-// }
+///
+/// end svg.js
+///
 
 ///
+/// time.js
+///
+
 /// This is to get the time of day and then do stuff
 /// Mostly the idea is to change the background color
 /// based on the time.
@@ -309,6 +154,10 @@ function setTheGradientHSLA() {
 };
 
 setTheGradientHSLA();
+
+///
+/// end time.js
+///
 
 // do stuff w/ the response,
 // concatenate all the posts to a single string

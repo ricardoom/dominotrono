@@ -4,6 +4,11 @@ date: 2018-08-18T08:12:38-04:00
 draft: false
 categories: "portfolio"
 author: Ricardo G.
+portfolioHero1x: "../media/portfolio/diorama/dioramaHero.png"
+portfolioHero2x: "../media/portfolio/diorama/dioramaHero@2x.png"
+portfolioHero3x: "../media/portfolio/diorama/dioramaHero@3x.png"
+portfolioHeroAlt: "This alt might not be necessary"
+heroFigcaption: "When moose compete, one moose wins"
 postimage1x: "../media/portfolio/diorama/dioramaCard320.png"
 postimage2x: "../media/portfolio/diorama/dioramaCard640@2x.png"
 postimage3x: "../media/portfolio/diorama/dioramaCard960@3x.png"

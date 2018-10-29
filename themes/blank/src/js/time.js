@@ -1,4 +1,8 @@
+
 ///
+/// time.js
+///
+
 /// This is to get the time of day and then do stuff
 /// Mostly the idea is to change the background color
 /// based on the time.
@@ -71,3 +75,7 @@ function setTheGradientHSLA() {
 };
 
 setTheGradientHSLA();
+
+///
+/// end time.js
+///

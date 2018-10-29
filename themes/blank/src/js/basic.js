@@ -1,6 +1,5 @@
 
-
-// some simple event listeners... almost time to refactor this js mess
+const indexPage = document.querySelector('.home-page');
 
 const portfolioTile = document.querySelectorAll('.portfolio-flex__summary a');
 
@@ -10,11 +9,13 @@ const tilePatternTwo = document.getElementsByClassName('svgShapeClip');
 
 // const tiles = Array.from(portfolioTile);
 // const tiles = Array.from(tileParent);
+
 const tiles = Array.from(portfolioTile);
 const allTheChildren = tiles.map(el => el.childNodes);
-
+// console.log(allTheChildren);
 const tilesArray = Array.from(tileParent);
-const classesFromTileParent = tilesArray.map(classes =>classes.classList);
+const classesFromTileParent = tilesArray.map(classes => classes.classList);
+// console.log(classesFromTileParent);
 
 
 for (let i = 0; i < portfolioTile.length; i++) {
@@ -32,21 +33,24 @@ for (let i = 0; i < portfolioTile.length; i++) {
 };
 
 // portfolioTile.forEach((tile) => {
- 
+//   const getChildClass = tile.childNodes[1];
+//   const portFolioClass = getChildClass.childNodes[1];
+//   const theLastClass = portFolioClass.childNodes[1];
+//   const imgClass = Array.from(theLastClass.classList);
 //   tile.addEventListener('mouseenter', () => {
-//     const getChildClass = tile.childNodes[1];
-//     const portFolioClass = getChildClass.childNodes[1];
-//     const theLastClass = portFolioClass.childNodes[1];
-//     const imgClass = theLastClass.classList;
-//     imgClass.remove('portfolioCard');
-//     imgClass.add('portfolioCardOff');
+    
+//     console.log(imgClass);
+    
+//     // imgClass.remove('portfolioCard');
+//     // imgClass.add('portfolioCardOff');
 //   });
 //   tile.addEventListener('mouseleave', () => {
-//     const getChildClass = tile.childNodes[1];
-//     const portFolioClass = getChildClass.childNodes[1];
-//     const theLastClass = portFolioClass.childNodes[1];
-//     const imgClass = theLastClass.classList;
-//     imgClass.add('portfolioCard');
-//     imgClass.remove('portfolioCardOff');
+//     // const getChildClass = tile.childNodes[1];
+//     // const portFolioClass = getChildClass.childNodes[1];
+//     // const theLastClass = portFolioClass.childNodes[1];
+//     // const imgClass = Array.from(theLastClass.classList);
+//     console.log(imgClass);
+//     // imgClass.add('portfolioCard');
+//     // imgClass.remove('portfolioCardOff');
 //   })
 // });

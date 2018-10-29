@@ -1,9 +1,9 @@
 ---
 author: Ricardo G.
-categories: "experiments"
+categories: ["experiments"]
 date: {{ .Date }}
 draft: false
-jsLibrary: ""
 tags: []
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
+vendorJS: ""
 ---

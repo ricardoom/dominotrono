@@ -4,7 +4,7 @@
 const svgContainer = document.querySelector('.svgjs');
 
 if (svgContainer != null) {
-console.log(svgContainer);
+//console.log(svgContainer);
 
 const canvas = SVG(svgContainer).size('100%', '100%').viewbox(0,0,800,1000)
   , rect = canvas.rect(100, 100)

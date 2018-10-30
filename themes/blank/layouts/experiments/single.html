@@ -1,8 +1,7 @@
 
+{{ printf "<!-- +++ experiments single item  -->" | safeHTML }}
 {{ partial "header.html" . }}
 	<main>
-		<p style="color: black">
-		+++ experiments single item </p>
 		<div class="grid-wrapper">
 			<div class="grid-wrapper__listParent">
 				<article class="site-article">
@@ -12,8 +11,24 @@
 					<div class="site-single__content">
 						{{ .Content }}
 					</div>
+							<!-- the experiment -->
+		{{ $pageJS := .Param "vendorJS" }}
+		{{ $vendorPath := .Site.Params.vendorPath }}
+		{{ $jsVendor := .Site.Params.vendors }}
+		{{ if $pageJS }}
+			{{  range $vendorName, $vendorURL := $jsVendor }}
+					{{ if eq $vendorName (lower $pageJS) }} 
+						<div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
+							<p>the vendor's name: <b>{{ $vendorName }}</b><br>
+								the inital path to the javascript: <b>{{ $vendorPath }}</b><br>
+								the actual file name: <b>{{ $vendorURL }}</b><br>
+							and the full path we set is here: <b>{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}</b></p>
+						</div>
+						<script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
+					{{ end }}
+				{{ end }}
+		{{ end }}
 				</article>
-				
 				<ul id="tags" class="site-tags">
 					{{ range .Params.tags }}
 					<li class="site-tags__tag">
@@ -21,27 +36,8 @@
 					</li>
 					{{ end }}
 				</ul>
-				
-				{{ $pageJS := .Param "vendorJS" }}
-				{{ $vendorPath := .Site.Params.vendorPath }}
-				{{ $jsVendor := .Site.Params.vendors }}
-				{{ if $pageJS }}
-				
-				{{  range $vendorName, $vendorURL := $jsVendor }}
-						{{ if eq $vendorName (lower $pageJS) }} 
-							<div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
-								<p>the vendor's name: <b>{{ $vendorName }}</b><br>
-									the inital path to the javascript: <b>{{ $vendorPath }}</b><br>
-									the actual file name: <b>{{ $vendorURL }}</b><br>
-								and the full path we set is here: <b>{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}</b></p>
-							</div>
-							<script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
-						{{ end }}
-					{{ end }}
-				{{ end }}
-			</div>	
+			</div>
 		</div>
-		
 
 	</main>
 {{ partial "sidebar.html" . }}

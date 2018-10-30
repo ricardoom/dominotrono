@@ -21,6 +21,9 @@ time {
   @include basic-article-wrapper(">=desktop", 100vw, 0, 0);
 }
 
+//
+// Covers the generic article type, but there are content type specific styles below
+//
 .site-single {
 
   &__content {
@@ -84,4 +87,10 @@ time {
      }
    } // /.image-block 
   } //
+}
+
+[data-vendor] {
+  font-size: .5em;
+  left: 0;
+  top: 0;
 }

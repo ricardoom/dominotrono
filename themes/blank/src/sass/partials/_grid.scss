@@ -13,10 +13,10 @@
 
 $left-column: 25vw;
 
-.site-header {
+.siteHeader {
   
-  &__siteNameContainer,
-  &__siteNavigation {
+  &__site-name-container,
+  &__site-navigation {
     /// set up the grids for the breakpoints... really need to make this a mixin or function
 
     //function take named media q. as args
@@ -40,7 +40,7 @@ $left-column: 25vw;
   display: grid;
   }
 
-  &__siteName {
+  &__site-name {
     @include media(">=phone") {
       grid-column: 1 / 1;
       padding-left: 6vw;
@@ -54,7 +54,7 @@ $left-column: 25vw;
   }
 
   /// Do some adjusting of the site nav
-  &__siteNavigation {
+  &__site-navigation {
     grid-template-rows: initial;
 
     ul {
@@ -74,7 +74,7 @@ $left-column: 25vw;
 }
 
 //
-// TODO: needs better name...
+// TODO: something...
 //
 .grid-wrapper {
 
@@ -127,15 +127,10 @@ $left-column: 25vw;
        }
 
        @include media(">=tablet") {
-        grid-column: 2 / 4;
+        grid-column: 2 / 5;
         grid-row: 1 / 1;
        }
       } // subtitle grid container
-
-    &__listParent {
-      // the river of posts... probably needs a better name
-    }
-
 
       .jumbo-grid-container {
        @include media (">=phone") {
@@ -373,5 +368,12 @@ $left-column: 25vw;
 
   @include media(">=desktop") {
     // background: #098765;
+  }
+}
+
+.portfolioWrapper {
+  &__list-parent {
+    padding: 0;
+    margin: 0;
   }
 }

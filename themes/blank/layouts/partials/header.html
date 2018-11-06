@@ -16,11 +16,11 @@
 
 <body  class="{{ if .IsHome  }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">
 
-    <header role="banner" class="site-header">
-        <div class="site-header__siteNameContainer">
-            <a href="{{ .Site.BaseURL }}" class="site-header__siteName">{{ .Site.Title }}</a>
+    <header role="banner" class="siteHeader">
+        <div class="siteHeader__site-name-container">
+            <a href="{{ .Site.BaseURL }}" class="siteHeader__site-name">{{ .Site.Title }}</a>
         </div>
-        <nav class="site-header__siteNavigation">
+        <nav class="siteHeader__site-navigation">
             <ul>
                 {{ range .Site.Menus.main }}
                 <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>

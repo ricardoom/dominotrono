@@ -116,11 +116,11 @@ li {
   }
 }
 
-.site-header {
+.siteHeader {
   // animation: dropIn 0.92s running;
   background: transparent;
 
-  // &__siteNameContainer {
+  // &__site-name-container {
   //   //backface-visibility: visible;
   //   //height: 13vh;
   //   //perspective: 30vh;
@@ -130,7 +130,7 @@ li {
   //   //transform-style: preserve-3d;
   // }
 
-  &__siteName {
+  &__site-name {
 
     @include responsive-font(2.5vw, 1.8em, 4em, 36px);
     align-self: end;

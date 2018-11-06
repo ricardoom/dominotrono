@@ -55,12 +55,12 @@ body {
 header,
 main,
 footer,
-.asidebar-prime {
+.aSidebarPrime {
   margin: 0 auto;
   //overflow: auto;
 }
 
-.full-width-wrapper {
+.fullWidthWrapper {
 
   > :nth-child(n) {
 
@@ -177,11 +177,11 @@ li {
   padding: 0 1em;
 }
 
-.site-summary {
+.siteSummary {
   background: #74e3ec; /* Old Browsers */
   background: linear-gradient(117deg, rgba(116, 226, 236, 0.05), rgba(199, 255, 226, 0.05));
 
-  @include basic-article-wrapper(">=phone", 95vw, 5vw);
+  @include basic-article-wrapper(">=phone", 95vw);
 
   @include media(">=tablet") {
     // max-width: 70vw;
@@ -191,9 +191,14 @@ li {
     border-left: 0;
     border-right: 0;
     max-width: 100vw;
-    padding-bottom: 3vw;
+    //padding-bottom: 3vw;
   }
+
   border: 1px solid $site-transparent-black;
+
+  a {
+    display: block;
+  }
 
   &__copy {
     line-height: 1.6;
@@ -234,10 +239,11 @@ li {
       }
     }
   }
+
   &__tags {
     display: inline-block;
   }
-} // /.site-summary
+} // /.siteSummary
 
 
 ///

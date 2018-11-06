@@ -66,5 +66,5 @@ rules:
           - vh
   quotes:
     - 1
-    - style: double
+    - style: single
   variable-name-format: 1

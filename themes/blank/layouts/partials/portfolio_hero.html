@@ -1,12 +1,10 @@
-	<article class="site-summary" data-post-date="{{ .Date.Format "02.01.2006 15:04" }}">
+	<article class="siteSummary" data-post-date="{{ .Date.Format "02.01.2006 15:04" }}">
 		<!-- ==== defualt portfolio list item template ==== -->
 		<a href="{{ .Permalink }}">
-		<h1>{{ .Title }}
-				
-			</h1>
+		<h1>{{ .Title }}</h1>
 		<!-- <time>{{ .Date.Format "02.01.2006 15:04" }}</time> -->
-		<div class="site-summary__content">
-			<!-- <p class="site-summary__copy">{{ .Summary }}
+		<div class="siteSummary__content">
+			<!-- <p class="siteSummary__copy">{{ .Summary }}
 			{{ if .Truncated }}
 				<a href="{{ .Permalink }}">Read more...</a>
 			{{ end }}
@@ -30,7 +28,7 @@
 			<!-- {{if and (.Params.tags) (ne .Params.tags "") }}
 			<ul>
 				{{ range .Params.tags }}
-				<li class="site-summary__tags {{ . }}">
+				<li class="siteSummary__tags {{ . }}">
 					<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 				</li>
 				{{ end }}

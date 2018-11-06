@@ -31,7 +31,7 @@
 						{{ if eq $vendorName (lower $pageJS) }} 
 							<div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
 								<p>the vendor's name: <b>{{ $vendorName }}</b><br>
-									the inital path to the javascript: <b>{{ $vendorPath }}</b><br>
+									the initial path to the javascript: <b>{{ $vendorPath }}</b><br>
 									the actual file name: <b>{{ $vendorURL }}</b><br>
 								and the full path we set is here: <b>{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}</b></p>
 							</div>

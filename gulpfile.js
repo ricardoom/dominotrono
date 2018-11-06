@@ -9,15 +9,17 @@ const autoprefixer = require('gulp-autoprefixer');
 
 const concat = require('gulp-concat');
 
-const uglify = require('gulp-uglify');
+// const uglify = require('gulp-uglify');
 
 const imagemin = require('gulp-imagemin');
 
 // variables:
 const input = 'themes/blank/src/sass/**/*.scss';
 const output = 'themes/blank/static/css';
+
 const jsInput = 'themes/blank/src/js/**/*.js';
 const jsOutput = 'themes/blank/static/js';
+
 const imgInput = 'themes/blank/images/**/*.*';
 const imgOutput = 'themes/blank/static/images';
 

@@ -48,6 +48,7 @@ rules:
   property-units:
     - 1
     - global:
+        - px
         - rem
         - '%'
         - s

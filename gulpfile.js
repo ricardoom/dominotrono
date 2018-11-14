@@ -9,9 +9,9 @@ const autoprefixer = require('gulp-autoprefixer');
 
 const concat = require('gulp-concat');
 
-const uglify = require('gulp-uglify');
+//const uglify = require('gulp-uglify');
 
-const imagemin = require('gulp-imagemin');
+//const imagemin = require('gulp-imagemin');
 
 // variables:
 const input = 'themes/blank/src/sass/**/*.scss';
@@ -35,19 +35,19 @@ const autoprefixerOptions = {
 // gulp tasks:
 gulp.task('js', function (){
   return gulp.src(jsInput)
-  .pipe(concat('main.js'))
+    .pipe(concat('main.js'))
   //.pipe(uglify())
-  .pipe(gulp.dest(jsOutput));
+    .pipe(gulp.dest(jsOutput));
 });
 
 gulp.task('sass', function (){
   return gulp.src(input)
-  .pipe(sass())
-  .pipe(autoprefixer(autoprefixerOptions))
-  .pipe(sourcemaps.init())
-  .pipe(sass(sassOptions).on('error', sass.logError))
-  .pipe(sourcemaps.write('./'))
-  .pipe(gulp.dest(output));
+    .pipe(sass())
+    .pipe(autoprefixer(autoprefixerOptions))
+    .pipe(sourcemaps.init())
+    .pipe(sass(sassOptions).on('error', sass.logError))
+    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest(output));
 });
 
 gulp.task('copy', function(){

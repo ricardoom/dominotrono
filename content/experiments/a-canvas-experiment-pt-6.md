@@ -23,76 +23,94 @@ content/media/desktopPlaceHolderTemplate.png
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image 
-    srcsetOne="/media/desktopPlaceHolderTemplate960@2x.png 1280w" srcsetTwo="/media/desktopPlaceHolderTemplate640.png 960w" srcsetThree="/media/desktopPlaceHolderTemplate360.png 640w" srcsetFour="/media/desktopPlaceHolderTemplate360.png 320w" src="/media/desktopPlaceHolderTemplate360.png" 
-    class="image-block__50" 
-    alt="this image is only a placeholder there is nothing to see" 
-    figcaption="This Image is the user supplied caption yeah..." 
+      srcsetOne="/media/desktopPlaceHolderTemplate960@2x.png 960w" srcsetTwo="/media/desktopPlaceHolderTemplate640.png 640w" srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w" src="/media/desktopPlaceHolderTemplate360.png" 
+      class="image-block__50" 
+      alt="this image is only a placeholder there is nothing to see" 
+      figcaption="This Image first image in this row and is user the supplied caption yeah..."
     >}}
     
     {{< image 
-      srcsetOne="/media/desktopPlaceHolderTemplate960@2x.png 1280w" srcsetTwo="/media/desktopPlaceHolderTemplate640.png 960w" srcsetThree="/media/desktopPlaceHolderTemplate360.png 640w" srcsetFour="/media/desktopPlaceHolderTemplate360.png 320w" src="/media/desktopPlaceHolderTemplate360.png" 
+      srcsetOne="/media/desktopPlaceHolderTemplate960@2x.png 960w" srcsetTwo="/media/desktopPlaceHolderTemplate640.png 640w" srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w" src="/media/desktopPlaceHolderTemplate360.png" 
       class="image-block__50" 
       alt="this image is only a placeholder there is nothing to see" 
-      figcaption="This Image is the supplied caption yeah..." 
+      figcaption="This Image second image in this row and is user the supplied caption yeah..."
     >}}
 
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image 
-      srcsetOne="/media/desktopPlaceHolderTemplate640.png 1280w" srcsetTwo="/media/desktopPlaceHolderTemplate360.png 960w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 640w"
+      srcsetOne="/media/desktopPlaceHolderTemplate640.png 640w"
+      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
       src="/media/desktopPlaceHolderTemplate360.png"
       class="image-block__33"
+      alt="this image is only a placeholder there is nothing to see" 
+      figcaption="This is first image in this row and is user the supplied caption yeah..."
     >}}
 
     {{< image 
-      srcsetOne="/media/desktopPlaceHolderTemplate640.png 1280w" srcsetTwo="/media/desktopPlaceHolderTemplate360.png 960w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 640w"
+      srcsetOne="/media/desktopPlaceHolderTemplate640.png 640w"
+      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
       src="/media/desktopPlaceHolderTemplate360.png"
       class="image-block__33"
+      alt="this image is only a placeholder there is nothing to see" 
+      figcaption="This is the second image in this row and is user the supplied caption yeah..."
     >}}
 
     {{< image 
-      srcsetOne="/media/desktopPlaceHolderTemplate640.png 1280w" srcsetTwo="/media/desktopPlaceHolderTemplate360.png 960w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 640w"
+      srcsetOne="/media/desktopPlaceHolderTemplate640.png 640w"
+      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
       src="/media/desktopPlaceHolderTemplate360.png"
       class="image-block__33"
+      alt="this image is only a placeholder there is nothing to see" 
+      figcaption="This might well be the third image in this row and is user the supplied caption yeah..."
     >}}
 
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image 
-      srcsetOne="/media/desktopPlaceHolderTemplate360.png 1280w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 960w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 320w"
-      srcsetFour="/media/desktopPlaceHolderTemplate360.png 1280w"
+      srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetFour="/media/desktopPlaceHolderTemplate360.png 360w"
       src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__25" alt="My alt here..."
+      class="image-block__25"
+      alt="Some other alt text as well"
+      figure="The place is held for the image"
      >}}
     {{< image 
-      srcsetOne="/media/desktopPlaceHolderTemplate360.png 1280w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 960w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 320w"
-      srcsetFour="/media/desktopPlaceHolderTemplate360.png 1280w"
+      srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetFour="/media/desktopPlaceHolderTemplate360.png 360w"
       src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__25" alt="is getting the with.." 
+      class="image-block__25"
+      alt="Some other alt text as well"
+      figure="The place is held for the image"
     >}}
     {{< image 
-      srcsetOne="/media/desktopPlaceHolderTemplate360.png 1280w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 960w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 320w"
-      srcsetFour="/media/desktopPlaceHolderTemplate360.png 1280w"
+       srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetFour="/media/desktopPlaceHolderTemplate360.png 360w"
       src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__25" alt="" 
+      class="image-block__25"
+      alt="Some other alt text as well"
+      figure="The place is held for the image" 
     >}}
     {{< image 
-      srcsetOne="/media/desktopPlaceHolderTemplate360.png 1280w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 320w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 320w"
-      srcsetFour="/media/desktopPlaceHolderTemplate360.png 1280w"
+      srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
+      srcsetFour="/media/desktopPlaceHolderTemplate360.png 360w"
       src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__25" alt="Some other alt text as well" >}}
+      class="image-block__25"
+      alt="Some other alt text as well"
+      figure="The place is held for the image"
+      >}}
 
 {{< /image_wrapper >}}

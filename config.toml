@@ -24,7 +24,9 @@ relativeURLs="true"
     svgClipObjectClass = ""
     svgColorClass = ""
     # portfolio landing page image param:
-    portfolioHero = ""
+    portfolioHero1x = ""
+    portfolioHero2x = ""
+    portfolioHero3x = ""
     portfolioHeroAlt = ""
     # some classes we want to expose to hugo:
     vendorPath = "js/vendor/"

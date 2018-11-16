@@ -1,16 +1,14 @@
-
 <!-- ++ default portfolio list template ++ -->
-
 {{ partial "header.html" . }}
-	<main>
-		<div class="grid-wrapper portfolio-wrapper">
-			<div class="grid-wrapper__listParent portfolio-wrapper__listParent">{{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") }}
-		{{ range $paginator.Pages }}
-			{{ partial "portfolio_hero.html" . }}
-		{{ end }}
-		</div>
-	</div>
-		<!-- {{ partial "pagination.html" . }} -->
-	</main>
+<main>
+  <div class="grid-wrapper portfolioWrapper">
+    <ul class="grid-wrapper__listParent portfolioWrapper__list-parent">{{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") }}
+    {{ range $paginator.Pages }}
+    {{ partial "portfolio_hero.html" . }}
+    {{ end }}
+    </ul>
+  </div>
+<!-- {{ partial "pagination.html" . }} -->
+</main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}

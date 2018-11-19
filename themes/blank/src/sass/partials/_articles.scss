@@ -78,11 +78,12 @@ time {
 
      &__25 {
       @include media("<tablet") {
+        // border: 1px dotted tranparentize($site-punk-pink, 0.2);
         display: block;
         width: 100%;
       }
 
-      border: 1px dotted $site-hot-orange;
+      // border: 1px dotted $site-hot-orange;
       width: 25%;
      }
    } // /.image-block 

@@ -2,6 +2,7 @@
 <!-- this kind of sucks but in order to provide low res AND lower pixel density images, this has to accept FOUR versions of the same image... bummer... -->
 {{- $cdn := .Site.Params.cdnURL -}}
 {{- $class := .Get "class" -}}
+{{- $title := .Get "title" -}}
 {{- $src := .Get "src" -}}
 {{- $srcset := .Get "srcset" -}}
 {{- $srcsetOne := .Get "srcsetOne" -}}
@@ -10,7 +11,7 @@
 {{- $srcsetFour := .Get "srcsetFour" -}}
 <!-- set a pixel density here-->
 {{- $px := "640w" -}}
-{{- $pixelDensity := .Get "pxDens" -}}
+
 
 <!--
     It might make more sense to hard code the pixel density here rather than having to supply a more verbose one on the blog post level. that being said the latter is i think more flexible b/c it allow the writer (me) to decide which resolution I'm targeting for a given asset...
@@ -19,12 +20,17 @@
 
     or better yet provide an default value that can be overwritten, so a function might be appropriate
 -->
-<figure class="{{ $class }}">
+<figure class="{{ $class }}" title="{{ $title }}">
     <img
-    srcset="{{ $cdn }}{{ $srcset }} {{ $pixelDensity }}, {{ $cdn }}{{ $srcset }} {{ $pixelDensity }}, {{ $cdn }}{{ $srcset }} {{ $pixelDensity }}, {{ $cdn }}{{ $srcset }} {{ $pixelDensity }} "
-    src="{{ $cdn }}{{ $src }}" alt="{{ .Get "alt" }}"
-    sizes="(max-width: 20em) 100vw, (max-width: 50em) 75vw, (max-width: 60em) 65vw" />
+    srcset="{{ $srcsetOne }}, {{ $srcsetTwo }}, {{ $srcsetThree }}, {{ $srcsetFour }}"
+    src="{{ $src }}" {{ with .Get "alt" }} alt="{{ . }}" {{ else }} alt="an image in the post {{ .Params.Title }}" {{ end }}
+    sizes="(max-width: 20em) 100vw, (max-width: 60em) 85vw, (max-width: 80em) 70vw" />
         {{ with .Get "figcaption" }}
         <figcaption>{{ . }}</figcaption>
         {{ end }}
 </figure>
+
+
+
+
+

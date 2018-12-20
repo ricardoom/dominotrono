@@ -35,7 +35,7 @@ relativeURLs="true"
         innerPage = "inner-page"
     [params.vendors]
         matterJS = "matter/matter.min.js"
-        paperJS = "paper/paper-full.min.js"
+        paperJS = "paper/paper-full.js"
         p5JS = "p5/p5.js"
         svgJS = "svg/svg.min.js"
         threeJS = "three/three.min.js"

@@ -12,22 +12,27 @@
 						{{ .Content }}
 					</div>
 							<!-- the experiment -->
-		{{ $pageJS := .Param "vendorJS" }}
-		{{ $vendorPath := .Site.Params.vendorPath }}
-		{{ $jsVendor := .Site.Params.vendors }}
-		{{ if $pageJS }}
-			{{  range $vendorName, $vendorURL := $jsVendor }}
-					{{ if eq $vendorName (lower $pageJS) }} 
-						<div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
-							<p>the vendor's name: <b>{{ $vendorName }}</b><br>
-								the inital path to the javascript: <b>{{ $vendorPath }}</b><br>
-								the actual file name: <b>{{ $vendorURL }}</b><br>
-							and the full path we set is here: <b>{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}</b></p>
-						</div>
-						<script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
+					{{ $pageJS := .Param "vendorJS" }}
+					{{ $vendorPath := .Site.Params.vendorPath }}
+					{{ $jsVendor := .Site.Params.vendors }}
+					{{ if $pageJS }}
+						{{  range $vendorName, $vendorURL := $jsVendor }}
+								{{ if eq $vendorName (lower $pageJS) }} 
+									<div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
+										<p>the vendor's name: <b>{{ $vendorName }}</b><br>
+											the inital path to the javascript: <b>{{ $vendorPath }}</b><br>
+											the actual file name: <b>{{ $vendorURL }}</b><br>
+										and the full path we set is here: <b>{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}</b></p>
+										We need to test here if its paper js again, and then reference the special paper js file like so:
+									</div>
+									<script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
+									{{ if eq (lower $pageJS) "paperjs" }}
+									<script type="text/paperscript" src="{{ $.Site.BaseURL }}js/PaperAnyone.js" canvas="paperCanvas"></script>
+									<canvas class="canvas__myCanvas" id="paperCanvas" resize></canvas>
+									{{ end }}
+								{{ end }}
+							{{ end }}
 					{{ end }}
-				{{ end }}
-		{{ end }}
 				</article>
 				<ul id="tags" class="site-tags">
 					{{ range .Params.tags }}
@@ -38,7 +43,6 @@
 				</ul>
 			</div>
 		</div>
-
 	</main>
 {{ partial "sidebar.html" . }}
 

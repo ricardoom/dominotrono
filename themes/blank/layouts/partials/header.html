@@ -12,10 +12,9 @@
     {{ .Hugo.Generator }}
 </head>
 
-{{ $class :=  .Site.Params.classes }}
+{{ $class := .Site.Params.classes }}
 
 <body  class="{{ if .IsHome  }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">
-
     <header role="banner" class="siteHeader">
         <div class="siteHeader__site-name-container">
             <a href="{{ .Site.BaseURL }}" class="siteHeader__site-name">{{ .Site.Title }}</a>

@@ -28,7 +28,7 @@ console.log(myPoint);
 if (paperJsContainer != null) {
   console.log('paperJsContainer is called');
 
-  var amount = getRandomInt(50);
+  var amount = getRandomInt(150);
   for (var i = 0; i < amount; i++) {
     var xPosition = getRandomInt(200);
     var yPosition = getRandomInt(200);

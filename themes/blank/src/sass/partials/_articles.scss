@@ -90,7 +90,8 @@ time {
   } //
 }
 
-[data-vendor] {
+[data-vendor],
+[data-date] {
   font-size: .5em;
   left: 0;
   top: 0;

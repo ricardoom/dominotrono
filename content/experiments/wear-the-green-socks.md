@@ -1,0 +1,10 @@
+---
+author: Ricardo G.
+categories: ["experiments"]
+date: 2019-01-02T23:02:49-05:00
+draft: false
+tags: []
+title: "Wear the Green Socks"
+vendorJS: "gsapJS"
+---
+Trying another library. just to see... one should actually make something instead of endlessly tinkering w/ the tooling... just saying.

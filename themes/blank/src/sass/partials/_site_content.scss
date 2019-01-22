@@ -91,17 +91,21 @@
 
       @include media(">=tablet") {
         background: transparentize($site-background-color, 0.5);
-        background-repeat: no-repeat;
-        line-height: 4rem;
-        padding: 4ex 8vw;
         background-position: 0 4em;
+        background-repeat: no-repeat;
         background-size: cover;
+        line-height: 4rem;
+        padding: 4ex 8vw 4ex 26vw;
       }
 
       @include responsive-font(2.75vw, 3.25rem, 5.5rem, 32px);
       font-family: $serif;
       font-weight: 100;
       padding: 5vw;
+
+      &::first-letter {
+        @include responsive-font(8vw, 18px, 85px, 32px)
+      }
     }
 
       /// Portfolio Grid Summary 

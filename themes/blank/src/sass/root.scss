@@ -14,8 +14,8 @@
 @import "partials/articles";
 @import "partials/sidebar";
 @import "partials/site_content";
-@import "partials/_twitter_hash";
-
+@import "partials/twitter_hash";
+@import "partials/canvas";
 
 //
 // rules
@@ -34,7 +34,7 @@ html {
   // Retina-specific stuff here
   // TODO: Create a Mixin to handle any device pixel ratio
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(../images/moonScape@2x.svg)
+    background-image: url(../images/moonScapeBG5.svg)
    }
   background-attachment: fixed;
   background-origin: 0 0;

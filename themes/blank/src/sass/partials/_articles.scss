@@ -5,13 +5,13 @@
 
 time {
   @include media(">=phone") {
-  // transform: rotate(-90deg);
-  // transform-origin: top right;
-  font-size: 1.3rem;
-  min-width: 5em;
-  position: relative;
-  top: 1em;
-  left: 0;
+    // transform: rotate(-90deg);
+    // transform-origin: top right;
+    font-size: 1.3rem;
+    min-width: 5em;
+    position: relative;
+    top: 1em;
+    left: 0;
   }
 }
 
@@ -90,7 +90,8 @@ time {
   } //
 }
 
-[data-vendor] {
+[data-vendor],
+[data-date] {
   font-size: .5em;
   left: 0;
   top: 0;

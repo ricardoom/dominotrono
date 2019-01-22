@@ -12,22 +12,40 @@
 						{{ .Content }}
 					</div>
 							<!-- the experiment -->
-		{{ $pageJS := .Param "vendorJS" }}
-		{{ $vendorPath := .Site.Params.vendorPath }}
-		{{ $jsVendor := .Site.Params.vendors }}
-		{{ if $pageJS }}
-			{{  range $vendorName, $vendorURL := $jsVendor }}
-					{{ if eq $vendorName (lower $pageJS) }} 
-						<div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
-							<p>the vendor's name: <b>{{ $vendorName }}</b><br>
-								the inital path to the javascript: <b>{{ $vendorPath }}</b><br>
-								the actual file name: <b>{{ $vendorURL }}</b><br>
-							and the full path we set is here: <b>{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}</b></p>
-						</div>
-						<script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
+					{{ $pageJS := .Param "vendorJS" }}
+					{{ $vendorPath := .Site.Params.vendorPath }}
+					{{ $jsVendor := .Site.Params.vendors }}
+					{{ $jsLowerCased := lower $pageJS }}
+
+					{{ if $pageJS }}
+						{{  range $vendorName, $vendorURL := $jsVendor }}
+								{{ if eq $vendorName $jsLowerCased }} 
+									<div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
+										<p>the vendor's name: <b>{{ $vendorName }}</b><br>
+											the initial path to the javascript: <b>{{ $vendorPath }}</b><br>
+											the actual file name: <b>{{ $vendorURL }}</b><br>
+											here is the lower cased vendor name: {{ $jsLowerCased }}	
+										</p>
+									</div>
+									
+									{{ if eq $jsLowerCased "paperjs" }}
+										{{ printf "<!-- If paper js is present then we do special stuff  -->" | safeHTML }}
+										<script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
+										<script type="text/paperscript" src="{{ $.Site.BaseURL }}js/PaperAnyone.js" canvas="paperCanvas"></script>
+										<canvas class="canvas__myCanvas" id="paperCanvas" resize></canvas>
+									
+										{{ else if eq $jsLowerCased "gsapjs" }}
+										{{ printf "<!-- If paper GSAP is present then we do special stuff  -->" | safeHTML }}
+										<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" async ></script>
+
+									{{ else }}
+										<p>and the full path we set is here: <b>{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}</b><br></p>
+										<script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
+									{{ end }}
+								
+								{{ end }}
+							{{ end }}
 					{{ end }}
-				{{ end }}
-		{{ end }}
 				</article>
 				<ul id="tags" class="site-tags">
 					{{ range .Params.tags }}
@@ -38,7 +56,6 @@
 				</ul>
 			</div>
 		</div>
-
 	</main>
 {{ partial "sidebar.html" . }}
 

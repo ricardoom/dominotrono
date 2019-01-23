@@ -1,49 +1,87 @@
 'use strict';
-const gulp = require('gulp');
+var gulp = require('gulp');
 
-const sass = require('gulp-sass');
+var sass = require('gulp-sass');
 
-const sourcemaps = require('gulp-sourcemaps');
+var sourcemaps = require('gulp-sourcemaps');
 
-const autoprefixer = require('gulp-autoprefixer');
+var autoprefixer = require('gulp-autoprefixer');
 
-const concat = require('gulp-concat');
+var concat = require('gulp-concat');
 
-// const uglify = require('gulp-uglify');
+var babel = require('gulp-babel');
 
-//const imagemin = require('gulp-imagemin');
+var uglify = require('gulp-uglify');
+
+var pump = require('pump');
+
+//var imagemin = require('gulp-imagemin');
 
 // variables:
-const input = 'themes/blank/src/sass/**/*.scss';
-const output = 'themes/blank/static/css';
+var input = 'themes/blank/src/sass/**/*.scss';
+var output = 'themes/blank/static/css';
 
-const jsInput = 'themes/blank/src/js/**/*.js';
-const jsOutput = 'themes/blank/static/js';
+var jsInput = 'themes/blank/src/js/**/*.js';
+var jsOutput = 'themes/blank/static/js';
 
-const imgInput = 'themes/blank/images/**/*.*';
-const imgOutput = 'themes/blank/static/images';
+var imgInput = 'themes/blank/images/**/*.*';
+var imgOutput = 'themes/blank/static/images';
 
-const sassOptions = {
+var sassOptions = {
   errLogToConsole: true,
-  outputStyle: 'compressed'
+  outputStyle: 'compressed',
 };
 
-const autoprefixerOptions = {
-  browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
+var autoprefixerOptions = {
+  browsers: ['last 2 versions', '> 5%', 'Firefox ESR'],
 };
 
+const babelOptions = {
+  presets: ['@babel/env'],
+};
 
-
-// gulp tasks:
-gulp.task('js', function (){
-  return gulp.src(jsInput)
-    .pipe(concat('main.js'))
-  //.pipe(uglify())
+//
+// gulp javascript tasks:
+//
+// gulp Babel:
+gulp.task('babel', () => {
+  gulp
+    .src(jsInput)
+    .pipe(
+      babel({
+        presets: ['@babel/env'],
+      })
+    )
     .pipe(gulp.dest(jsOutput));
 });
 
-gulp.task('sass', function (){
-  return gulp.src(input)
+// gulp.task('default', () =>
+// gulp.src('src/app.js')
+// .pipe(babel({
+// presets: ['@babel/env']
+// }))
+// .pipe(gulp.dest('dist'))
+// );
+
+// Compress using uglify
+gulp.task('compress', function(cb) {
+  pump([gulp.src(jsInput), uglify(), gulp.dest(jsOutput)], cb);
+});
+
+// Concact all the files:
+gulp.task('js', function() {
+  return (
+    gulp
+      .src(jsInput)
+      .pipe(concat('main.js'))
+      //.pipe(uglify())
+      .pipe(gulp.dest(jsOutput))
+  );
+});
+
+gulp.task('sass', function() {
+  return gulp
+    .src(input)
     .pipe(sass())
     .pipe(autoprefixer(autoprefixerOptions))
     .pipe(sourcemaps.init())
@@ -52,9 +90,8 @@ gulp.task('sass', function (){
     .pipe(gulp.dest(output));
 });
 
-gulp.task('copy', function(){
-  gulp.src(imgInput)
-    .pipe(gulp.dest(imgOutput));
+gulp.task('copy', function() {
+  gulp.src(imgInput).pipe(gulp.dest(imgOutput));
 });
 
 // gulp.task('images', function(){
@@ -63,7 +100,7 @@ gulp.task('copy', function(){
 //   .pipe(gulp.dest('dist/images'))
 // });
 
-gulp.task('watch', function () {
+gulp.task('watch', function() {
   gulp.watch('themes/blank/src/sass/**/*.scss', ['sass']);
   gulp.watch('themes/blank/src/js/**/*.js', ['js']);
   gulp.watch('themes/blank/images/**/*.*', ['copy']);

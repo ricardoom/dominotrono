@@ -8,7 +8,7 @@ portfolioHero1x: '../media/portfolio/thirteen_explore/teHero.png'
 portfolioHero2x: '../media/portfolio/thirteen_explore/teHero@2x.png'
 portfolioHero3x: '../media/portfolio/thirteen_explore/teHero@3x.png'
 portfolioHeroAlt: 'An image of the front door'
-heroFigcaption: "Mamasan's Front door."
+heroFigcaption: ''
 postimage1x: '../media/portfolio/thirteen_explore/13E.png'
 postimage2x: '../media/portfolio/thirteen_explore/13E@2x.png'
 postimage3x: '../media/portfolio/thirteen_explore/13E@3x.png'

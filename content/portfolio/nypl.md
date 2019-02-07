@@ -4,10 +4,10 @@ date: 2018-10-09T11:47:46-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-portfolioHero1x: '../media/portfolio/nypl/nyplhpHero.png'
-portfolioHero2x: '../media/portfolio/nypl/nyplhpHero@2x.png'
-portfolioHero3x: '../media/portfolio/nypl/nyplhpHero@3x.png'
-portfolioHeroAlt: 'An image of the front door'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png'
+portfolioHero3x: ''
+portfolioHeroAlt: ''
 heroFigcaption: ''
 postimage1x: '../media/portfolio/nypl/nyplHP.png'
 postimage2x: '../media/portfolio/nypl/nyplHP@2x.png'
@@ -23,17 +23,14 @@ weight: -2
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-    srcsetOne="/media/portfolio/nypl/nyplhpHero.png 360w"
-    srcsetTwo="/media/portfolio/nypl/nyplhpHero.png 640w"
-    srcsetThree="/media/portfolio/nypl/nyplhpHero@2x.png 960w"
-    srcsetFour="/media/portfolio/nypl/nyplhpHero@3x.png 1280w"
-    src="/media/portfolio/nypl/nyplHero.png"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png 2x"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png"
     class="image-block__100"
     alt="An image of the New York Public Library home page"
     >}}
 
 {{< /image_wrapper >}}
-
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
@@ -44,7 +41,6 @@ weight: -2
     figcaption="The Main image..." title="My title: Dynamic or User set?" >}}
 
 {{< /image_wrapper >}}
-
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
@@ -137,5 +133,4 @@ weight: -2
       alt="Some other alt text as well"
       figure="The place is held for the image"
       >}}
-
 {{< /image_wrapper >}}

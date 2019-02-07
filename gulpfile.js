@@ -1,38 +1,38 @@
 'use strict';
-var gulp = require('gulp');
+const gulp = require('gulp');
 
-var sass = require('gulp-sass');
+const sass = require('gulp-sass');
 
-var sourcemaps = require('gulp-sourcemaps');
+const sourcemaps = require('gulp-sourcemaps');
 
-var autoprefixer = require('gulp-autoprefixer');
+const autoprefixer = require('gulp-autoprefixer');
 
-var concat = require('gulp-concat');
+const concat = require('gulp-concat');
 
-var babel = require('gulp-babel');
+const babel = require('gulp-babel');
 
-var uglify = require('gulp-uglify');
+const uglify = require('gulp-uglify');
 
-var pump = require('pump');
+const pump = require('pump');
 
-//var imagemin = require('gulp-imagemin');
+//const imagemin = require('gulp-imagemin');
 
-// variables:
-var input = 'themes/blank/src/sass/**/*.scss';
-var output = 'themes/blank/static/css';
+//
+const input = 'themes/blank/src/sass/**/*.scss';
+const output = 'themes/blank/static/css';
 
-var jsInput = 'themes/blank/src/js/**/*.js';
-var jsOutput = 'themes/blank/static/js';
+const jsInput = 'themes/blank/src/js/**/*.js';
+const jsOutput = 'themes/blank/static/js';
 
-var imgInput = 'themes/blank/images/**/*.*';
-var imgOutput = 'themes/blank/static/images';
+const imgInput = 'themes/blank/images/**/*.*';
+const imgOutput = 'themes/blank/static/images';
 
-var sassOptions = {
+const sassOptions = {
   errLogToConsole: true,
   outputStyle: 'compressed',
 };
 
-var autoprefixerOptions = {
+const autoprefixerOptions = {
   browsers: ['last 2 versions', '> 5%', 'Firefox ESR'],
 };
 
@@ -43,29 +43,13 @@ const babelOptions = {
 //
 // gulp javascript tasks:
 //
+
 // gulp Babel:
 gulp.task('babel', () => {
   gulp
     .src(jsInput)
-    .pipe(
-      babel({
-        presets: ['@babel/env'],
-      })
-    )
+    .pipe(babel(babelOptions))
     .pipe(gulp.dest(jsOutput));
-});
-
-// gulp.task('default', () =>
-// gulp.src('src/app.js')
-// .pipe(babel({
-// presets: ['@babel/env']
-// }))
-// .pipe(gulp.dest('dist'))
-// );
-
-// Compress using uglify
-gulp.task('compress', function(cb) {
-  pump([gulp.src(jsInput), uglify(), gulp.dest(jsOutput)], cb);
 });
 
 // Concact all the files:
@@ -77,6 +61,11 @@ gulp.task('js', function() {
       //.pipe(uglify())
       .pipe(gulp.dest(jsOutput))
   );
+});
+
+// Compress using uglify
+gulp.task('compress', function(cb) {
+  pump([gulp.src(jsInput), uglify(), gulp.dest(jsOutput)], cb);
 });
 
 gulp.task('sass', function() {

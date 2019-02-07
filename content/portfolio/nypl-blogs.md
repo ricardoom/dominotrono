@@ -8,6 +8,10 @@ postimage2x: '../media/portfolio/nypl_blogs/blogCard@2x.png'
 postimage3x: '../media/portfolio/nypl_blogs/blogCard@3x.png'
 postimagealt: 'A partial image of the NYPL Staff Picks and Best Books landing page'
 figcaption: ''
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg'
+portfolioHeroAlt: 'Image card linking to the Design Toolkit'
+heroFigcaption: ''
 title: 'NYPL Blogs'
 svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--acid-green'
@@ -20,6 +24,41 @@ weight: 2
 Sadly, these never really saw the light of day.
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
-{{< image srcsetOne="/media/portfolio/placeholders/desktopPlaceHolderTemplate640@2x.png 640w" srcsetTwo="/media/portfolio/placeholders/desktopPlaceHolderTemplate320@2x.png 320w" srcsetThree="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png 320w" srcsetFour="/media/portfolio/placeholders/desktopPlaceHolderTemplate640.png 640w" src="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png" class="image-block__50" alt="this image is only a placeholder there is nothing to see" figcaption="This Image is the supplied caption yeah..." >}}
-{{< image srcsetOne="/media/portfolio/placeholders/desktopPlaceHolderTemplate640@2x.png 640w" srcsetTwo="/media/portfolio/placeholders/desktopPlaceHolderTemplate320@2x.png 320w" srcsetThree="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png 320w" srcsetFour="/media/portfolio/placeholders/desktopPlaceHolderTemplate640.png 640w" src="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png"  class="image-block__50" alt="this image is only a placeholder there is nothing to see" figcaption="This Image is the supplied caption yeah..." >}}
+{{< image
+  srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
+  Two="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg 2x" src="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png"
+  class="image-block__100"
+  alt="this image is only a placeholder there is nothing to see"
+    >}}
+{{< /image_wrapper >}}
+{{< image_wrapper class="portfolio-image-wrapper" >}}
+
+{{< image
+  srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722029/nypl-blogs/fullblog.png"
+  src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722029/nypl-blogs/fullblog.png"
+  class="image-block__33" >}}
+
+{{< image
+  srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722028/nypl-blogs/blogshome.jpg"
+  src="hhttps://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722028/nypl-blogs/blogshome.jpg"
+  class="image-block__100" >}}
+
+{{< /image_wrapper >}}
+
+{{< image_wrapper class="portfolio-image-wrapper" >}}
+
+{{< image
+  srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.png"
+  srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.png 2x"
+  src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.png"
+  class="image-block__100" >}}
+{{< /image_wrapper >}}
+{{< image_wrapper class="portfolio-image-wrapper" >}}
+
+{{< image
+  srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/nypl-blogs-wire-medium.png"
+  srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_full_size_2x/v1548722029/nypl-blogs/nypl-blogs-wire-medium.png 2x"
+  src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/nypl-blogs-wire-medium.png"
+  class="image-block__50" >}}
+
 {{< /image_wrapper >}}

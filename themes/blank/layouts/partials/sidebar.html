@@ -1,19 +1,16 @@
-	<aside class="aSidebarPrime">
-		<div>
-
-				<h3 class="aSidebarPrime__sidebarTitle">LATEST POSTS</h3>
-				<ul class="aSidebarPrime__sidebarList">
-					{{ range .Site.Pages }}
-						{{ .Render "post-grid" }}
-					{{ end }}
-				</ul>
-
-				<h3 class="aSidebarPrime__sidebarTitle">Categories</h3>
-				<ul class="aSidebarPrime__sidebarTags">
-  				{{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-   					<li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
-  				{{ end }}
-				</ul>
-
-		</div>
-	</aside>
+<aside class="aSidebarPrime">
+	<div>
+		<h3 class="aSidebarPrime__sidebarTitle">LATEST POSTS</h3>
+		<ul class="aSidebarPrime__sidebarList">
+		{{ range .Site.Pages }}
+		{{ .Render "post-grid" }}
+		{{ end }}
+		</ul>
+		<h3 class="aSidebarPrime__sidebarTitle">Categories</h3>
+		<ul class="aSidebarPrime__sidebarTags">
+		{{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ end }}
+		</ul>
+	</div>
+</aside>

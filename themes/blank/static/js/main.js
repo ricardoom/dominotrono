@@ -85,7 +85,6 @@ if (svgJsContainer != null) {
 /// end svg.js
 ///
 
-
 ///
 /// time.js
 ///
@@ -100,20 +99,66 @@ function getHours() {
   const offset = d.getTimezoneOffset() / 60;
   console.log(offset);
   let h = d.getUTCHours() - offset;
-  let absoluteFix = (Math.abs(h));
+  let absoluteFix = Math.abs(h);
   h = h - absoluteFix;
-return absoluteFix;
+  return absoluteFix;
 }
 
 const bgPairs = [
   {
     start: [
-        "#333", "#a49444", "#567", "#789", "#ABC", "#AF0", "#333", "#1AC", "#567", "#7D9", "#AFC", "#a979ca", "#3D3", "#4A4", "#537", "#cff", "#A1C", "#9F0", "#333", "#444", "#5A7", "#7E9", "#1B2", "#4D0"
-      ],
+      '#333',
+      '#a49444',
+      '#567',
+      '#789',
+      '#ABC',
+      '#AF0',
+      '#333',
+      '#1AC',
+      '#567',
+      '#7D9',
+      '#AFC',
+      '#a979ca',
+      '#3D3',
+      '#4A4',
+      '#537',
+      '#cff',
+      '#A1C',
+      '#9F0',
+      '#333',
+      '#444',
+      '#5A7',
+      '#7E9',
+      '#1B2',
+      '#4D0',
+    ],
     end: [
-      "#abc", "#bcd", "#ef1", "#123", "#456", "#789", "#012", "#c1e", "#abc", "#a3f2f3", "#1fe", "#123", "#456", "#28b", "#012", "#c1e", "#bcd", "#edc00b", "#123", "#456", "#789", "#012", "#c1e", "#123"
-      ]
-  }
+      '#abc',
+      '#bcd',
+      '#ef1',
+      '#123',
+      '#456',
+      '#789',
+      '#012',
+      '#c1e',
+      '#abc',
+      '#a3f2f3',
+      '#1fe',
+      '#123',
+      '#456',
+      '#28b',
+      '#012',
+      '#c1e',
+      '#bcd',
+      '#edc00b',
+      '#123',
+      '#456',
+      '#789',
+      '#012',
+      '#c1e',
+      '#123',
+    ],
+  },
 ];
 
 // Use HSLA values instead of HEX...
@@ -122,9 +167,6 @@ const bgPairs = [
 
 //   }
 // ];
-
-
-
 
 // Now set them to the hour:
 const theHour = getHours();
@@ -141,7 +183,7 @@ function makeRandomNumber(min, max) {
 // function walk(angle) {
 //     angle = Math.Random(180 - theHour);
 //     return angle;
-//     console.log(angle); 
+//     console.log(angle);
 // }
 
 const theAngle = makeRandomNumber(0, 360);
@@ -151,21 +193,38 @@ const saturation = thePercentage - theHour; // Saturation
 const lightness = thePercentage - theHour; // Lightness
 const alpha = 0.75; // Alpha
 const position = 100 - theHour;
-
 const container = document.querySelector('body');
+
 function setTheGradient() {
-  container.style.backgroundImage = 'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg,' + start + ',' + end + ')';
-};
+  container.style.backgroundImage =
+    'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg,' +
+    start +
+    ',' +
+    end +
+    ')';
+}
 
 function setTheGradientHSLA() {
-  container.style.backgroundImage = 'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75)' + position + '%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg, hsla('+ angle +', '+ saturation +'%,'+ lightness +'%,' + alpha +'), hsla(180, 5%, 12%, 0.2))';
-};
+  container.style.backgroundImage =
+    'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75)' +
+    position +
+    '%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg, hsla(' +
+    angle +
+    ', ' +
+    saturation +
+    '%,' +
+    lightness +
+    '%,' +
+    alpha +
+    '), hsla(180, 5%, 12%, 0.2))';
+}
 
 setTheGradientHSLA();
 
 ///
 /// end time.js
 ///
+
 const homePage = document.querySelector('.home-page');
 
 if (homePage != null) {

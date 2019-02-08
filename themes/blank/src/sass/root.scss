@@ -30,16 +30,17 @@
 
 html {
   //background-color: $site-background-color;
-  background-image: url(../images/moonScapeBG5.svg);
+  background-image: url(../images/uteMountainTopo.svg);
+  background-repeat: no-repeat;
   // Retina-specific stuff here
   // TODO: Create a Mixin to handle any device pixel ratio
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(../images/moonScapeBG5.svg)
+    background-image: url(../images/uteMountainTopo.svg)
    }
   background-attachment: fixed;
   background-origin: 0 0;
   background-position: 0 0;
-  background-size: contain;
+  background-size: cover;
   color: $site-white;
   font-family: $sans-serif;
   font-size: $base-font;

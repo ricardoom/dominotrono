@@ -32,7 +32,7 @@ weight: 3
     srcsetOne="/media/portfolio/soulshack/mamaSanOptions.jpg 640w"
     srcsetTwo="/media/portfolio/soulshack/mamaSanOptions.jpg@2px 320w"
     srcsetThree="/media/portfolio/soulshack/mamaSanOptions.jpg@3px 320w"
-    src="/media/portfolio/soulshack/mamaSanOptions.jpgg"
+    src="/media/portfolio/soulshack/mamaSanOptions.jpg"
     class="image-block__100" alt=""
     >}}
 

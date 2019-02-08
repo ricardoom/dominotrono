@@ -4,12 +4,14 @@ keep the link
 but only print the first letter of each title
 
 -->
+{{- $firstLetter :=  slicestr ($.Title) 0 1 -}}
+{{- $secondLetter :=  slicestr ($.Title) 1 2 -}}
 <li>
-  <ul class="post-grid">
-    <li>
-      <a href="{{ .Permalink }}">{{ slicestr ($.Title) 0 1 }}</a>
+  <ul class="post-grid {{ $firstLetter }}">
+    <li class="drop-cap">
+      <a href="{{ .Permalink }}">{{ $firstLetter }}<span class="small-letter">{{ $secondLetter }}</span></a>
     </li>
-    <li>{{ .Title }}</li>
+    <li class="full-title">{{ .Title }}</li>
     <li data-date="{{ .Date }}">{{ .Date.Format "Monday, January 2, 2006" }}</li>
   </ul>
 </li>

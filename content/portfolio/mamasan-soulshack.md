@@ -22,7 +22,9 @@ weight: 3
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
-{{< image srcsetOne="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w" srcsetTwo="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 320w" srcsetThree="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 320w" srcsetFour="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w" src="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg" class="image-block__100" alt="" >}}
+{{< image
+    srcsetOne="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w" srcsetTwo="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 320w" srcsetThree="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 320w" srcsetFour="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w" src="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg" class="image-block__100" alt=""
+    >}}
 
 {{< /image_wrapper >}}
 

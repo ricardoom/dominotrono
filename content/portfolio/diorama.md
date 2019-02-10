@@ -17,7 +17,7 @@ figcaption: ''
 svgClipObjectClass: 'fourDots'
 svgColorClass: 'site-color--acid-green'
 tags: []
-weight: 10
+weight: 2
 ---
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}

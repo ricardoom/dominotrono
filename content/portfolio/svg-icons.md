@@ -1,7 +1,7 @@
 ---
 title: 'Svg Icons'
 date: 2018-07-29T17:03:37-04:00
-draft: false
+draft: true
 categories: 'portfolio'
 author: Ricardo G.
 postimage: 'media/placeHolder_sm.png'

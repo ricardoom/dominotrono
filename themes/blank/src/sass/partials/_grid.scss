@@ -13,7 +13,7 @@
 
 $left-column: 25vw;
 
-.siteHeader {
+.site-header {
   
   &__site-name-container,
   &__site-navigation {
@@ -132,6 +132,16 @@ $left-column: 25vw;
         grid-row: 1 / 1;
        }
       } // subtitle grid container
+
+      &__listParent {
+        // TODO: Add proper breakpoints
+        &--portfolio {
+          grid-column: 2 / 5;
+          padding: 0;
+          margin: 0;
+        }
+      }
+
 
       .jumbo-grid-container {
        @include media (">=phone") {
@@ -372,9 +382,9 @@ $left-column: 25vw;
   }
 }
 
-.portfolioWrapper {
-  &__list-parent {
-    padding: 0;
-    margin: 0;
-  }
-}
+// .portfolio-wrapper {
+//   &__list-parent {
+//     padding: 0;
+//     margin: 0;
+//   }
+// }

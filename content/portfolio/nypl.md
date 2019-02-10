@@ -15,7 +15,7 @@ postimage3x: '../media/portfolio/nypl/nyplHP@3x.png'
 postimagealt: ''
 figcaption: ''
 svgClipObjectClass: 'squaresCircles'
-svgColorClass: 'site-color--green-blue'
+svgColorClass: 'site-color--purple'
 tags: []
 weight: -2
 ---

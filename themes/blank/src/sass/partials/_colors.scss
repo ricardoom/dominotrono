@@ -11,6 +11,7 @@ $site-lava-orange: #f75b27;
 $site-acid-green: #c0ff08;
 $site-black: #111;
 $site-focus-ring: #fbae6c;
+$site-purple: hsl(286, 96%, 55%);
 
 ///
 /// further abstract away the site's colors so we can do work on them:
@@ -46,6 +47,7 @@ hot-orange: $site-hot-orange,
 lava-orange: $site-lava-orange,
 acid-green: $site-acid-green,
 black: $site-black,
+purple: $site-purple,
 );
 
 @each $site-color-name, $site-color in $site-colors {

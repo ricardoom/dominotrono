@@ -23,9 +23,9 @@ weight: -2
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png 2x"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png"
     class="image-block__100"
     alt="An image of the New York Public Library home page"
     >}}
@@ -34,40 +34,43 @@ weight: -2
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-    srcsetOne="/media/desktopPlaceHolderTemplate1280@3x.png 1280w" srcsetTwo="/media/desktopPlaceHolderTemplate960@2x.png 960w"
-    srcsetThree="/media/desktopPlaceHolderTemplate640.png 640w" srcsetFour="/media/desktopPlaceHolderTemplate360.png 320w" src="/media/desktopPlaceHolderTemplate360.png"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722296/nypl-dot-org/nypl.tablet.v4e_landscape_1024.jpg"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722296/nypl-dot-org/nypl.tablet.v4e_landscape_1024.jpg 2x"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722296/nypl-dot-org/nypl.tablet.v4e_landscape_1024.jpg"
     class="image-block__100"
-    alt="This is the first image, its a placeholder... which we havent got yet..."
-    figcaption="The Main image..." title="My title: Dynamic or User set?" >}}
+    alt="An alternate image of the NYPL home page"
+    figcaption="" title="" >}}
 
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-      srcsetOne="/media/desktopPlaceHolderTemplate960@2x.png 960w" srcsetTwo="/media/desktopPlaceHolderTemplate640.png 640w" srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w" src="/media/desktopPlaceHolderTemplate360.png"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722325/nypl-dot-org/desktop.landing.attend.png" 
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722325/nypl-dot-org/desktop.landing.attend.png 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722325/nypl-dot-org/desktop.landing.attend.png"
       class="image-block__50"
       alt="this image is only a placeholder there is nothing to see"
-      figcaption="This Image first image in this row and is user the supplied caption yeah..."
+      figcaption=""
     >}}
 
     {{< image
-      srcsetOne="/media/desktopPlaceHolderTemplate960@2x.png 960w" srcsetTwo="/media/desktopPlaceHolderTemplate640.png 640w" srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w" src="/media/desktopPlaceHolderTemplate360.png"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png" 
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png 2x" 
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png"
       class="image-block__50"
-      alt="this image is only a placeholder there is nothing to see"
-      figcaption="This Image second image in this row and is user the supplied caption yeah..."
+      alt="grid column overlay on the NYPL home page"
+      figcaption="grid column overlay on the NYPL home page"
     >}}
 
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-      srcsetOne="/media/desktopPlaceHolderTemplate640.png 640w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
-      src="/media/desktopPlaceHolderTemplate360.png"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722312/nypl-dot-org/NYPL_mobile_v6.aspect.png"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722312/nypl-dot-org/NYPL_mobile_v6.aspect.png 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722312/nypl-dot-org/NYPL_mobile_v6.aspect.png"
       class="image-block__33"
-      alt="this image is only a placeholder there is nothing to see"
-      figcaption="This is first image in this row and is user the supplied caption yeah..."
+      alt="An image of image aspect ratio audit for small screens"
     >}}
 
     {{< image

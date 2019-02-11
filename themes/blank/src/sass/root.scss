@@ -118,44 +118,24 @@ li {
 }
 
 .site-header {
-  // animation: dropIn 0.92s running;
-  background: transparent;
+  
+  &__siteNameContainer {
 
-  // &__site-name-container {
-  //   //backface-visibility: visible;
-  //   //height: 13vh;
-  //   //perspective: 30vh;
-  //   //perspective-origin: 85% 60%;
-  //   //padding: 6em 0 0;
-  //   //position: relative;
-  //   //transform-style: preserve-3d;
-  // }
+    &--name {
 
-  &__site-name {
-
-    @include responsive-font(2.5vw, 1.8em, 4em, 36px);
-    align-self: end;
-    color: $site-white;
-    font-family: $sans-serif;
-    font-weight: 400;
-    // height: 7vh;
-    // left: 9vw;
-    //padding: 14rem 0 0 12rem;
-    text-decoration: none;
-    //text-shadow: multiple-text-shadow(4, 122, 233, 144, -0.015, 0, px);
-    // top: 7vh;
-
-    // &:hover {
-    //   // transform: rotateY(118deg);
-    //   //animation: twistShadow 0.25s forwards;
-    // }
-
-    &:visited {
-      // background-color: $site-dark-blue;
+      @include responsive-font(2.5vw, 1.8em, 4em, 36px);
+      align-self: end;
       color: $site-white;
-      //clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 20%) border-box;
+      font-family: $sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+  
+      &:visited {
+        color: $site-white;
+      }
     }
   }
+  background: transparent;
 }
 
 

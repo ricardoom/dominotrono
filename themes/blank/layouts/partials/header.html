@@ -16,8 +16,8 @@
 
 <body  class="{{ if .IsHome  }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">
     <header role="banner" class="site-header">
-        <div class="site-header__site-name-container">
-            <a href="{{ .Site.BaseURL }}" class="site-header__site-name">{{ .Site.Title }}</a>
+        <div class="site-header__siteNameContainer">
+            <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>
         </div>
         <nav class="site-header__site-navigation">
             <ul>

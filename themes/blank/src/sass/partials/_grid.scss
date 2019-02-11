@@ -15,12 +15,11 @@ $left-column: 25vw;
 
 .site-header {
   
-  &__site-name-container,
+  &__siteNameContainer,
   &__site-navigation {
-    /// set up the grids for the breakpoints... really need to make this a mixin or function
-
-    //function take named media q. as args
-    //          take number after each as arg of number of frs to output
+    // set up the grids for the breakpoints... really need to make this a mixin or function
+    // function take named media q. as args
+    // take number after each as arg of number of frs to output
 
     @include media(">=phone") {
       grid-template-columns: 1fr;
@@ -38,18 +37,18 @@ $left-column: 25vw;
     }
 
   display: grid;
-  }
 
-  &__site-name {
-    @include media(">=phone") {
-      grid-column: 1 / 1;
-      padding-left: 6vw;
-    }
+    &--name {
+      @include media(">=phone") {
+        grid-column: 1 / 1;
+        padding-left: 6vw;
+      }
 
-    @include media(">=tablet") {
-      grid-column: 2 / 4;
-      padding-left: 0;
-      //padding: 0.5em 0 3vw 0.65em;
+      @include media(">=tablet") {
+        grid-column: 2 / 4;
+        padding-left: 0;
+        //padding: 0.5em 0 3vw 0.65em;
+      }
     }
   }
 

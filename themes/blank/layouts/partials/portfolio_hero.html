@@ -1,23 +1,20 @@
-<li class="siteSummary" data-post-date="{{ .Date.Format "02.01.2006 15:04" }}">
-		<a href="{{ .Permalink }}">
-		<h1>{{ .Title }}</h1>
-		<div class="siteSummary__content">
-			{{ if and (.Params.portfolioHero1x) (ne .Params.portfolioHero1x "") }}
-			<figure>
-				<img 
-				srcset="{{ .Params.portfolioHero1x }}, 
-								{{ .Params.portfolioHero2x }} 2x, 
-								{{ .Params.portfolioHero3x }} 3x"
-								sizes="(max-width: 20em) 100vw, 
-											 (max-width: 50em) 75vw,
-											 (max-width: 60em) 65vw"
-				class="portfolioHero__image"
-				src="{{ .Params.portfolioHero1x }}" alt="{{ .Params.portfolioHeroAlt }}" />
-				{{ if and (.Params.heroFigcaption) (ne .Params.heroFigcaption "") }}
-				<figcaption>{{ .Params.heroFigcaption }}</figcaption>
-				{{ end }}
-			</figure>
-			{{ end }}
-		</div>
-		</a>
-	</li>
+<li class="site-summary portfolio-list-item" data-post-date="{{ .Date.Format "02.01.2006 15:04" }}">
+  <a href="{{ .Permalink }}">
+    <h1>{{ .Title }}</h1>
+    <div class="site-summary__content">
+      {{ if and (.Params.portfolioHero1x) (ne .Params.portfolioHero1x "") }}
+      <figure>
+        <img srcset="{{ .Params.portfolioHero1x }}, 
+{{ .Params.portfolioHero2x }} 2x, 
+{{ .Params.portfolioHero3x }} 3x" sizes="(max-width: 20em) 100vw, 
+(max-width: 50em) 75vw,
+(max-width: 60em) 65vw" class="portfolioHero__image" src="{{ .Params.portfolioHero1x }}"
+          alt="{{ .Params.portfolioHeroAlt }}" />
+        {{ if and (.Params.heroFigcaption) (ne .Params.heroFigcaption "") }}
+        <figcaption>{{ .Params.heroFigcaption }}</figcaption>
+        {{ end }}
+      </figure>
+      {{ end }}
+    </div>
+  </a>
+</li>

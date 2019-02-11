@@ -10,13 +10,14 @@
 /// Some Common Variables that should be moved to a separate file, possibly the _functions mixin...
 /// Desktop view ports
 
-
-$left-column: 25vw;
+$tablet-column: 15vw;
+$desktop-column: 25vw;
+$left-column: 15vw;
 
 .site-header {
   
   &__siteNameContainer,
-  &__site-navigation {
+  &__siteNavigation {
     // set up the grids for the breakpoints... really need to make this a mixin or function
     // function take named media q. as args
     // take number after each as arg of number of frs to output
@@ -27,7 +28,7 @@ $left-column: 25vw;
     }
 
     @include media(">=tablet") {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 8em;
     }
 
@@ -53,7 +54,7 @@ $left-column: 25vw;
   }
 
   /// Do some adjusting of the site nav
-  &__site-navigation {
+  &__siteNavigation {
     grid-template-rows: initial;
 
     ul {
@@ -73,17 +74,19 @@ $left-column: 25vw;
 }
 
 //
-// TODO: something...
+// 
 //
 .grid-wrapper {
 
   @include media(">=phone") {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    padding: 0 6vw;
   }
 
   @include media(">=tablet") {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 6vw 0 0;
   }
 
   @include media(">=desktop"){
@@ -112,8 +115,9 @@ $left-column: 25vw;
       }
 
       @include media(">=tablet") {
-        grid-column: 1 / 1;
+        grid-column: 1 / 3;
         grid-row: 1 / 1;
+        padding: 3vw 4vw 3vw 6vw;
       }
     } // prime box
 
@@ -127,20 +131,31 @@ $left-column: 25vw;
        }
 
        @include media(">=tablet") {
-        grid-column: 2 / 5;
+        grid-column: 3 / 5;
         grid-row: 1 / 1;
        }
-      } // subtitle grid container
+      } // ./subtitle grid container
 
       &__listParent {
-        // TODO: Add proper breakpoints
+       //
+       //
         &--portfolio {
-          grid-column: 2 / 5;
+          @include media(">=phone") {
+            grid-column: 1;
+          }
+
+          @include media(">=tablet") {
+            grid-column: 2 / 5;
+          }
+
           padding: 0;
           margin: 0;
         }
-      }
 
+        .portfolio-list-item {
+
+        }
+      }
 
       .jumbo-grid-container {
        @include media (">=phone") {
@@ -273,18 +288,21 @@ $left-column: 25vw;
         }
 
         @include media(">=tablet"){
-          grid: auto / 1fr 1fr 1fr 1fr;
-          grid-column: 1 / 4;
+          grid: auto / repeat(4, 1fr);
+          grid-column: 1 / 5;
         }
 
         @include media(">=desktop") {
-          grid: auto / 1fr 1fr 1fr 1fr 1fr;
-          grid-column: 1 / 5;
+          grid: auto / repeat(5, 1fr);
+          // grid-column: 1 / 5;
         }
       }
 
       // /flex box version of the portfolio grid...
-
+      
+      //
+      // The portfolio card grid on the Home Page:
+      //
       .portfolio-grid {
 
         &__mastHead {
@@ -380,10 +398,3 @@ $left-column: 25vw;
     // background: #098765;
   }
 }
-
-// .portfolio-wrapper {
-//   &__list-parent {
-//     padding: 0;
-//     margin: 0;
-//   }
-// }

@@ -2,11 +2,10 @@
   <defs>
     <style>
       .a {
-        fill: #22b573;
+        fill: #f0f;
       }
     </style>
   </defs>
-  <title>two_squares</title>
-  <rect class="a" width="250" height="250"/>
-  <rect class="a" x="250" y="250" width="250" height="250"/>
+  <title>one_diagonal</title>
+  <polygon class="a" points="500 0 0 500 500 500 500 0"/>
 </svg>

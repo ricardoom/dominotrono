@@ -6,7 +6,7 @@
     <ul class="grid-wrapper__listParent--portfolio">
       {{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") 20 }}
       {{ range $paginator.Pages }}
-      {{ partial "portfolio_hero.html" . }}
+      {{ partial "portfolio_hero" . }}
       {{ end }}
     </ul>
   </div>

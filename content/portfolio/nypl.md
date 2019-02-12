@@ -18,6 +18,9 @@ svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--purple'
 tags: []
 weight: -2
+resources:
+  - name: deckSVG
+    src: ../media/svg/squaresCircles.svg
 ---
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
@@ -45,7 +48,7 @@ weight: -2
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722325/nypl-dot-org/desktop.landing.attend.png" 
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722325/nypl-dot-org/desktop.landing.attend.png"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722325/nypl-dot-org/desktop.landing.attend.png 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722325/nypl-dot-org/desktop.landing.attend.png"
       class="image-block__50"
@@ -54,8 +57,8 @@ weight: -2
     >}}
 
     {{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png" 
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png 2x" 
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png"
       class="image-block__50"
       alt="grid column overlay on the NYPL home page"
@@ -136,4 +139,5 @@ weight: -2
       alt="Some other alt text as well"
       figure="The place is held for the image"
       >}}
+
 {{< /image_wrapper >}}

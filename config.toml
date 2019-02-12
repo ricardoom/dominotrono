@@ -63,3 +63,5 @@ relativeURLs="true"
         title = "portfolio"
         url = "/portfolio/"
         weight = 1
+
+[resources]

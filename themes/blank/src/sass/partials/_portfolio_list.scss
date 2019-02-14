@@ -3,25 +3,27 @@
 //
 .portfolio-list-item {
 
-  &__deck {
+  &__content {
 
-   img, svg {
-    background-color: transparent;
-    display: inline-block;
-    // height: 150px;
-    position: relative;
-    // width: 150px;
+    &--deck {
+
+      svg {
+        opacity: 0.75;;
+      }
+
+    h1 {
+      font-weight: 400;
+      margin: 0;
+      }
+
+      top: 5em;
+      // width: 10vw;
     }
 
-  h1 {
-    display: inline-block;
-    font-weight: 400;
-    // left: 2em;;
-    margin: 0;
-    position: relative;
-    top: -3em;
-    }
+    &--hero {
 
-    height: 150px;
+    }
+    display: grid;
+    grid-template-columns: 15vw 2fr;
   }
 }

@@ -1,13 +1,20 @@
 {{ $svg := .Params.svgClipObjectClass }}
-<li class="site-summary portfolio-list-item" data-post-date="{{ .Date.Format "02.01.2006 15:04" }}">
+{{ $color :=  .Params.svgColorClass }}
+{{ $portfolioHero := .Params.portfolioHero1x }}
+{{ $date := .Date.Format "02012006" }}
+<li class="portfolio-list-item" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
-    <div class="portfolio-list-item__deck">
-      {{ ( partial ( printf "svg/%s.svg" ( $svg | default "soloDotAngle" )) . ) }}
-      <h1>{{ .Title }}</h1>
-    </div>
-    <div class="site-summary__content">
-      {{ if and ( .Params.portfolioHero1x ) ( ne .Params.portfolioHero1x "" ) }}
-      <figure>
+
+    <div class="portfolio-list-item__content">
+
+      {{ if $svg }}
+      <div class="portfolio-list-item__content--deck">
+        {{ ( partial ( printf "svg/%s.svg" ( $svg | default "soloDotAngle" )) . ) }}
+        <h1>{{ .Title }}</h1>
+      </div>
+      {{ end }}
+      {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
+      <figure class="portfolio-list-item__content--hero">
         <img srcset="{{ .Params.portfolioHero1x }},
                      {{ .Params.portfolioHero2x }} 2x,
                      {{ .Params.portfolioHero3x }} 3x" sizes="(max-width: 20em) 100vw,

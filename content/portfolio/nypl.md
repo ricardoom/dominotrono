@@ -18,9 +18,7 @@ svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--purple'
 tags: []
 weight: -2
-resources:
-  - name: deckSVG
-    src: ../media/svg/squaresCircles.svg
+
 ---
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}

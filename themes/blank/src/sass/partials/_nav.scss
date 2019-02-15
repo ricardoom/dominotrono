@@ -2,9 +2,9 @@
 /// Navigation
 ///
 
-.siteHeader {
+.site-header {
 
-  &__site-navigation {
+  &__siteNavigation {
     background: transparent;
 
     ul {
@@ -21,9 +21,10 @@
       }
 
       @include media(">=tablet") {
+        grid-column: 2 / 6;
         justify-content: flex-start;
         padding: initial;
-      }
+        }
       }
 
       li {
@@ -56,4 +57,4 @@
       }
     }
   }
-} // .siteHeader
+} // .site-header

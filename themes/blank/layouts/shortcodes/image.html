@@ -22,9 +22,14 @@
 -->
 <figure class="{{ $class }}" title="{{ $title }}">
     <img
-    srcset="{{ $srcsetOne }}, {{ $srcsetTwo }}, {{ $srcsetThree }}, {{ $srcsetFour }}"
+    srcset="{{ $srcsetOne }}, 
+            {{ $srcsetTwo }},
+            {{ $srcsetThree }},
+            {{ $srcsetFour }}"
     src="{{ $src }}" {{ with .Get "alt" }} alt="{{ . }}" {{ else }} alt="an image in the post {{ .Params.Title }}" {{ end }}
-    sizes="(max-width: 20em) 100vw, (max-width: 60em) 85vw, (max-width: 80em) 70vw" />
+      sizes="(max-width: 20em) 100vw,
+            (max-width: 60em) 85vw,
+            (max-width: 80em) 70vw" />
         {{ with .Get "figcaption" }}
         <figcaption>{{ . }}</figcaption>
         {{ end }}

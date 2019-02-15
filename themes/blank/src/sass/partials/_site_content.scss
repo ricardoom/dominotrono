@@ -57,16 +57,7 @@
 }
 
 .grid-wrapper {
-
-  > div {
-
-    }
-
 // 1st square
-  //:nth-child(1)
-  .prime-box {
-
-  }
 
   //:nth-child(2)
   .subtitle-grid-container {
@@ -81,7 +72,7 @@
 
   .portfolio-flex,
   .portfolio-grid {
-    //6.5ex 17.65vw 6e.5x 6vw
+
     &__mastHead {
       @include media(">=phone") {
         background: $site-background-color;
@@ -95,7 +86,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         line-height: 4rem;
-        padding: 4ex 8vw 4ex 26vw;
+        padding: 4ex 8vw 4ex 15vw;
       }
 
       @include responsive-font(2.75vw, 3.25rem, 5.5rem, 32px);

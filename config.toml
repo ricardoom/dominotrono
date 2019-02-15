@@ -20,7 +20,8 @@ relativeURLs="true"
     postimagealt = ""
     # the figure catption param:
     figcaption = ""
-    # svg clip path classes (for declaring the path and setting a color):
+    # svg source and clip path classes (for declaring the path and setting a color):
+    svgSource = ""
     svgClipObjectClass = ""
     svgColorClass = ""
     # portfolio landing page image param:
@@ -63,3 +64,5 @@ relativeURLs="true"
         title = "portfolio"
         url = "/portfolio/"
         weight = 1
+
+[resources]

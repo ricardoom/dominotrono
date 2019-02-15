@@ -4,13 +4,12 @@
 {{ $date := .Date.Format "02012006" }}
 <li class="portfolio-list-item" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
-
     <div class="portfolio-list-item__content">
 
+      <h1>{{ .Title }}</h1>
       {{ if $svg }}
       <div class="portfolio-list-item__content--deck">
         {{ ( partial ( printf "svg/%s.svg" ( $svg | default "soloDotAngle" )) . ) }}
-        <h1>{{ .Title }}</h1>
       </div>
       {{ end }}
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}

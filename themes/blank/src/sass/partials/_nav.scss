@@ -21,9 +21,10 @@
       }
 
       @include media(">=tablet") {
+        grid-column: 2 / 6;
         justify-content: flex-start;
         padding: initial;
-      }
+        }
       }
 
       li {

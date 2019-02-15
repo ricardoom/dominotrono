@@ -28,14 +28,14 @@ $left-column: 15vw;
     }
 
     @include media(">=tablet") {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: $left-column repeat(4, 1fr);
       grid-template-rows: 8em;
     }
 
-    @include media(">=desktop") {
-      grid-template-columns: $left-column 1fr 1fr 1fr;
-      grid-template-rows: 10em;
-    }
+    // @include media(">=desktop") {
+    //   grid-template-columns: $left-column 1fr 1fr 1fr;
+    //   grid-template-rows: 10em;
+    // }
 
   display: grid;
 
@@ -53,10 +53,11 @@ $left-column: 15vw;
     }
   }
 
-  /// Do some adjusting of the site nav
+  //
+  // Do some adjusting of the site nav
+  //
   &__siteNavigation {
-    grid-template-rows: initial;
-
+    
     ul {
       @include media(">=phone"){
         grid-column: 1
@@ -70,6 +71,9 @@ $left-column: 15vw;
         grid-column: 2 / 4;
       }
     }
+
+    grid-template-rows: initial;
+    padding-right: 4em;
   }
 }
 

@@ -22,27 +22,25 @@
   &__sidebarList {
     border-top: 1px dotted lighten($site-dark-blue, 20%);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
 
     > li {
-      // width: calc(97vw / 4);
-      // padding: 0.5em 0.75vw;
-
-      &:nth-of-type(1),
-      &:nth-of-type(4n+1) {
-        // padding-left: 1em;
-      }
+      border-bottom: 1px dotted lighten($site-dark-blue, 20%);
+      border-right: 1px dotted lighten($site-dark-blue, 20%);
+      padding: 1em 0 1em 1em;
 
       &:nth-of-type(4n){
-        // padding-right: 1em;
+        padding-right: 0;
+
+       ul {
+        padding-right: 1em;
+       }
       }
 
       .post-grid {
-        border-bottom: 1px dotted lighten($site-dark-blue, 20%);
-        border-right: 1px dotted lighten($site-dark-blue, 20%);
         overflow: hidden;
         min-height: 13ex;
-        padding: 1ex 1em;
+        padding: 0;
 
         .drop-cap {
           & > a {

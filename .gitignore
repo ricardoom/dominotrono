@@ -6,6 +6,9 @@ npm-debug.log
 botConfig.js
 artwork/
 
+dominotrono.subime-project
+dominotrono.subime-workspace
+
 # ignore image files
 content/media/**/*.*
 

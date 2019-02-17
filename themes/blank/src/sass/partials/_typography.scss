@@ -103,8 +103,12 @@ a {
 /// Basic typographic rules
 ///
 code {
+  background: transparentize($site-hot-orange, .85);
+  border-radius: .125em;
+  color: $site-white;
   font-family: $monospace;
-  font-size: 1.4rem;
+  font-size: 1.65rem;
+  padding: 0.15em;
 }
 
 article {

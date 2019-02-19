@@ -14,6 +14,7 @@ relativeURLs="true"
     author="Ricardo Eric Galvez"
     subtitle="Ricardo E. Galvez"
     # Image params:
+    sqipImage = ""
     postimage1x = ""
     postimage2x = ""
     postimage3x = ""

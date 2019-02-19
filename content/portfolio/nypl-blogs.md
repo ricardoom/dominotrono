@@ -3,6 +3,7 @@ author: Ricardo G.
 categories: ['portfolio']
 date: 2018-06-30T00:05:50-04:00
 draft: false
+sqipImage: '../media/portfolio/nypl_blogs/blogCard.svg'
 postimage1x: '../media/portfolio/nypl_blogs/blogCard.png'
 postimage2x: '../media/portfolio/nypl_blogs/blogCard@2x.png'
 postimage3x: '../media/portfolio/nypl_blogs/blogCard@3x.png'

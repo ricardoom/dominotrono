@@ -4,16 +4,17 @@ date: 2018-09-15T13:06:26-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-portfolioHero1x: '../media/portfolio/soulshack/soulshackHero.png'
-portfolioHero2x: '../media/portfolio/soulshack/soulshackHero@2x.png'
-portfolioHero3x: '../media/portfolio/soulshack/soulshackHero@3x.png'
-portfolioHeroAlt: 'An image of the front door'
-heroFigcaption: ''
+sqipImage: '../media/portfolio/soulshack/soulShack320@1x.svg'
 postimage1x: '../media/portfolio/soulshack/soulShack320@1x.png'
 postimage2x: '../media/portfolio/soulshack/soulShack640@2x.png'
 postimage3x: '../media/portfolio/soulshack/soulShack960@3x.png'
 postimagealt: 'Image of the company logo printed on mirrored glass'
 figcaption: ''
+portfolioHero1x: '../media/portfolio/soulshack/soulshackHero.png'
+portfolioHero2x: '../media/portfolio/soulshack/soulshackHero@2x.png'
+portfolioHero3x: '../media/portfolio/soulshack/soulshackHero@3x.png'
+portfolioHeroAlt: 'An image of the front door'
+heroFigcaption: ''
 svgClipObjectClass: 'twoSquares'
 svgColorClass: 'site-color--hot-orange'
 tags: []

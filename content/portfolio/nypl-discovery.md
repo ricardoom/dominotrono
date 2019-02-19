@@ -1,26 +1,27 @@
 ---
-title: "NYPL Discovery ReCAP"
+title: 'NYPL Discovery ReCAP'
 date: 2019-01-27T17:36:03-05:00
 draft: false
-categories: "portfolio"
+categories: 'portfolio'
 author: Ricardo G.
-portfolioHero1x: "https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548514912/nypl-discovery/large_full_bib_initial.jpg"
-portfolioHero2x: "https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548514912/nypl-discovery/large_full_bib_initial.jpg"
-portfolioHero3x: ""
-portfolioHeroAlt: ""
-heroFigcaption: ""
-postimage1x: "https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548514912/nypl-discovery/large_full_bib_initial.jpg"
-postimage2x: "https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548514912/nypl-discovery/large_full_bib_initial.jpg"
-postimage3x: ""
-postimagealt: ""
-figcaption: ""
-svgClipObjectClass: ""
-svgColorClass: ""
+sqipImage: ''
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
+portfolioHero3x: ''
+portfolioHeroAlt: ''
+heroFigcaption: ''
+postimage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
+postimage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
+postimage3x: ''
+postimagealt: ''
+figcaption: ''
+svgClipObjectClass: 'quarterCircle'
+svgColorClass: 'site-color--purple'
 tags: []
 weight: 3
 ---
 
-ReCAP is a shared collection interface, in partnership with Columbia and Princeton Libraries. The system is designed to decrease friction between sharing item across institutions. My primary roll was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards. 
+ReCAP is a shared collection interface, in partnership with Columbia and Princeton Libraries. The system is designed to decrease friction between sharing item across institutions. My primary roll was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards.
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
@@ -34,6 +35,3 @@ ReCAP is a shared collection interface, in partnership with Columbia and Princet
     >}}
 
 {{< /image_wrapper >}}
-
-
-

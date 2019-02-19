@@ -4,6 +4,7 @@ date: 2018-08-16T09:21:38-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
+sqipImage: '../media/portfolio/design_toolkit/dtkCard.svg'
 postimage1x: '../media/portfolio/design_toolkit/dtkCard.png'
 postimage2x: '../media/portfolio/design_toolkit/dtkCard@2x.png'
 postimage3x: '../media/portfolio/design_toolkit/dtkCard@3x.png'

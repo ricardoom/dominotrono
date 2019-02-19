@@ -12,7 +12,7 @@ relativeURLs="true"
 [params]
     cdnURL = "http://cdn.bulletprooftoupee.com/"
     author="Ricardo Eric Galvez"
-    subtitle="Creative Works of Ricardo E. Galvez"
+    subtitle="Ricardo E. Galvez"
     # Image params:
     postimage1x = ""
     postimage2x = ""
@@ -41,6 +41,7 @@ relativeURLs="true"
         svgJS = "svg/svg.min.js"
         threeJS = "three/three.min.js"
         gsapJS = "gsap/TweenMax.min.js"
+        animeJS = "anime/anime.min.js"
 
 [permalinks]
     post = "/:year/:month/:title/"

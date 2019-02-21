@@ -4,7 +4,7 @@ date: 2019-01-27T17:36:03-05:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-postImageSqip: ''
+postImageSqip: '../media/portfolio/nypl_discovery/discoveryHPCard.svg'
 postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
 postImage3x: ''

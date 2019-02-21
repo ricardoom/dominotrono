@@ -13,7 +13,7 @@ const tilesArray = Array.from(tileParent);
 const classesFromTileParent = tilesArray.map(classes => classes.classList);
 
 for (let i = 0; i < portfolioTile.length; i++) {
-  const tileClasses = tileParent[i].classList;  
+  const tileClasses = tileParent[i].classList;
   portfolioTile[i].addEventListener('mouseenter', () => {
     tileClasses.add('portfolioCardOff');
     tileClasses.remove('portfolioCard');
@@ -21,6 +21,5 @@ for (let i = 0; i < portfolioTile.length; i++) {
   portfolioTile[i].addEventListener('mouseleave', () => {
     tileClasses.remove('portfolioCardOff');
     tileClasses.add('portfolioCard');
-    //console.log(tileClasses);
   });
 };

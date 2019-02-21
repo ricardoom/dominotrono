@@ -8,7 +8,7 @@ if (homePage != null) {
   var twitterResponse = function twitterResponse() {
     // a placeholder. theResponse will be replaced by the return from bot.js
     // only call api when new query is sent from ui
-    var theResponse = 'cactus girls #summeratcamp #imaginestudios #cactus #create'; // make sure we convert the response to lower case since morse doesn't care about case and our charCodes object uses lower case.
+    var theResponse = 'cactus'; // make sure we convert the response to lower case since morse doesn't care about case and our charCodes object uses lower case.
 
     theResponse = theResponse.toLowerCase();
     return theResponse;

@@ -53,7 +53,7 @@ gulp.task('babel', () => {
 });
 
 // Concact all the files:
-gulp.task('js', function() {
+gulp.task('js', ['babel'], () => {
   return (
     gulp
       .src(jsInput)
@@ -64,11 +64,11 @@ gulp.task('js', function() {
 });
 
 // Compress using uglify
-gulp.task('compress', function(cb) {
+gulp.task('compress', function (cb) {
   pump([gulp.src(jsInput), uglify(), gulp.dest(jsOutput)], cb);
 });
 
-gulp.task('sass', function() {
+gulp.task('sass', function () {
   return gulp
     .src(input)
     .pipe(sass())
@@ -79,17 +79,11 @@ gulp.task('sass', function() {
     .pipe(gulp.dest(output));
 });
 
-gulp.task('copy', function() {
+gulp.task('copy', function () {
   gulp.src(imgInput).pipe(gulp.dest(imgOutput));
 });
 
-// gulp.task('images', function(){
-//   return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
-//   .pipe(imagemin())
-//   .pipe(gulp.dest('dist/images'))
-// });
-
-gulp.task('watch', function() {
+gulp.task('watch', function () {
   gulp.watch('themes/blank/src/sass/**/*.scss', ['sass']);
   gulp.watch('themes/blank/src/js/**/*.js', ['js']);
   gulp.watch('themes/blank/images/**/*.*', ['copy']);

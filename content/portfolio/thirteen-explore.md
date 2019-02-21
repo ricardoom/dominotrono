@@ -10,7 +10,7 @@ postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_po
 postImage3x: ''
 postImageAlt: ''
 figcaption: ''
-portfolioHeroSquip: '../media/portfolio/thirteen_explore/teHeroSqip.svg'
+portfolioHeroSqip: '../media/portfolio/thirteen_explore/teHeroSquip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1549730983/thirteen-explore/13_explore_init.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1549730983/thirteen-explore/13_explore_init.jpg'
 portfolioHero3x: ''

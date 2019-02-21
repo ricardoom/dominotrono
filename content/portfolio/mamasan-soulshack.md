@@ -4,11 +4,11 @@ date: 2018-09-15T13:06:26-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-sqipImage: '../media/portfolio/soulshack/soulShack320@1x.svg'
-postimage1x: '../media/portfolio/soulshack/soulShack320@1x.png'
-postimage2x: '../media/portfolio/soulshack/soulShack640@2x.png'
-postimage3x: '../media/portfolio/soulshack/soulShack960@3x.png'
-postimagealt: 'Image of the company logo printed on mirrored glass'
+postImageSqip: '../media/portfolio/soulshack/soulShack320@1x.svg'
+postImage1x: '../media/portfolio/soulshack/soulShack320@1x.png'
+postImage2x: '../media/portfolio/soulshack/soulShack640@2x.png'
+postImage3x: '../media/portfolio/soulshack/soulShack960@3x.png'
+postImageAlt: 'Image of the company logo printed on mirrored glass'
 figcaption: ''
 portfolioHero1x: '../media/portfolio/soulshack/soulshackHero.png'
 portfolioHero2x: '../media/portfolio/soulshack/soulshackHero@2x.png'

@@ -4,10 +4,10 @@ date: 2018-08-17T15:42:52-04:00
 draft: true
 categories: 'portfolio'
 author: Ricardo G.
-postimage1x: '../media/portfolio/cnc/shapeOko.png'
-postimage2x: '../media/portfolio/cnc/shapeOko@2x.png'
-postimage3x: '../media/portfolio/cnc/shapeOko@3x.png'
-postimagealt: 'An Image of CNC Workings'
+postImage1x: '../media/portfolio/cnc/shapeOko.png'
+postImage2x: '../media/portfolio/cnc/shapeOko@2x.png'
+postImage3x: '../media/portfolio/cnc/shapeOko@3x.png'
+postImageAlt: 'An Image of CNC Workings'
 figcaption: ''
 svgClipObjectClass: 'oneDiagonal'
 svgColorClass: 'site-color--lava-orange'

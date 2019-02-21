@@ -1,18 +1,22 @@
 <li class="portfolio-flex__summary">
-  {{ if and (.Params.postimage1x) (ne .Params.postimage1x "") }}
+  {{ if and ( .Params.postImage1x ) ( ne .Params.postImage1x "" ) }}
   <a href="{{ .Permalink }}">
     <div class="portfolio-flex__content">
       <figure class="{{ .Params.svgClipObjectClass }} {{ .Params.svgColorClass }} ">
-        <img data-srcset="{{ .Params.postimage1x }},
-                   {{ .Params.postimage2x }} 2x, 
-                   {{ .Params.postimage3x }} 3x" sizes="(max-width: 20em) 100vw,
+        <img data-srcset="{{ .Params.postImage1x }},
+                   {{ .Params.postImage2x }} 2x, 
+                   {{ .Params.postImage3x }} 3x" 
+             sizes="(max-width: 20em) 100vw,
               (max-width: 50em) 75vw, 
-              (max-width: 60em) 65vw" alt="{{ if .Params.postimagealt }} {{ .Params.postimagealt }}
-            {{ else }}
-              {{ .Title }}
-            {{ end }}" class="portfolioCard svgShapeClip lazy" src="{{ .Params.sqipImage }}"
-          data-src="{{ .Params.postimage1x }}" />
-        {{ if and (.Params.figcaption) (ne .Params.figcaption "") }}
+              (max-width: 60em) 65vw" 
+             class="portfolioCard svgShapeClip lazy" 
+             src="{{ .Params.postImageSqip }}"
+             data-src="{{ .Params.postImage1x }}"
+             alt="{{ if .Params.postImageAlt }} {{ .Params.postImageAlt }}
+              {{ else }}
+                {{ .Title }}
+              {{ end }}" />
+        {{ if and ( .Params.figcaption ) ( ne .Params.figcaption "" ) }}
         <figcaption>{{ .Params.figcaption }}</figcaption>
         {{ end }}
       </figure>
@@ -20,6 +24,3 @@
   </a>
   {{ end }}
 </li>
-{{/*  
-<img class="lazy" src="placeholder-image.jpg" data-src="image-to-lazy-load-1x.jpg"
-  data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="I'm an image!">  */}}

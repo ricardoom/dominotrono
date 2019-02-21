@@ -4,7 +4,7 @@ categories: []
 date: 2018-02-17T09:07:37-05:00
 draft: false
 postimage: ""
-postimagealt: ""
+postImageAlt: ""
 figcaption: ""
 tags: ["javascript" , "gardening" ]
 title: "Dryp: A remote garden manager"

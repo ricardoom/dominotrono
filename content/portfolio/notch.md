@@ -9,7 +9,7 @@ postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_po
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548721948/notch/notch-cover-45.jpg'
 postImageAlt: 'NOTCH, a company'
 figcaption: ''
-portfolioHeroSqip: '../media/notch/notchHeoSqip.svg'
+portfolioHeroSqip: '../media/portfolio/notch/notchHeroSqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548721948/notch/notch-cover-45.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548721948/notch/notch-cover-45.jpg'
 portfolioHeroAlt: 'Image of the NOTCH Intersect disassembled'

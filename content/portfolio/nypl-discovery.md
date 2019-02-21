@@ -9,7 +9,7 @@ postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_po
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
 postImage3x: ''
 postImageAlt: ''
-portfolioHeroSqip: '../media/discovery/discoverySqip.svg'
+portfolioHeroSqip: '../media/portfolio/nypl_discovery/discoverySqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548514912/nypl-discovery/large_full_bib_initial.jpg'
 portfolioHero3x: ''

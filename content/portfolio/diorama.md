@@ -4,7 +4,7 @@ date: 2018-08-18T08:12:38-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-sqipImage: '../media/portfolio/diorama/dioramaHero.svg'
+sqipImage: '../media/portfolio/diorama/dioramaCard320.svg'
 portfolioHero1x: '../media/portfolio/diorama/dioramaHero.png'
 portfolioHero2x: '../media/portfolio/diorama/dioramaHero@2x.png'
 portfolioHero3x: '../media/portfolio/diorama/dioramaHero@3x.png'

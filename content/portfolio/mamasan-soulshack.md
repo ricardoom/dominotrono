@@ -4,7 +4,7 @@ date: 2018-09-15T13:06:26-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-sqipImage: '../media/portfolio/soulshack/soulShack320@1x.svg'
+sqipImage: '../media/portfolio/soulshack/soulShack320.svg'
 postimage1x: '../media/portfolio/soulshack/soulShack320@1x.png'
 postimage2x: '../media/portfolio/soulshack/soulShack640@2x.png'
 postimage3x: '../media/portfolio/soulshack/soulShack960@3x.png'

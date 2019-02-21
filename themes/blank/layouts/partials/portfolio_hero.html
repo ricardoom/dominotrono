@@ -4,7 +4,7 @@
 {{ $portfolioHero := .Params.portfolioHero1x }}
 {{ $portfolioHeroSqip := .Params.portfolioHeroSqip }}
 {{ $date := .Date.Format "02012006" }}
-{{ $3x := .Params.portfolioHero3x}}
+{{ $3x := .Params.portfolioHero3x }}
 <li class="portfolio-list-item" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
     <div class="portfolio-list-item__content">
@@ -19,7 +19,7 @@
       <figure class="portfolio-list-item__content--hero">
         <img data-srcset="{{ .Params.portfolioHero1x }},
                      {{ .Params.portfolioHero2x }} 2x
-                     {{ if $3x }}
+                     {{ if and ( $3x ) (ne $3x "" ) }}
                       ,{{ $3x }} 3x 
                      {{ end }}" sizes="(max-width: 20em) 100vw,
                     (max-width: 50em) 75vw,

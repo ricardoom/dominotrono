@@ -3,17 +3,7 @@
 /// grid settings can be found over in _grid.scss
 ///
 
-//
-// body {
-//   background-color: hsla(0, 0, 100%, 1);
-//   height: 100vh;
-//   //padding: 1vh;
-//   width: 100vw;
-// }
-
 .site-content {
-  // background-image: url(../images/real_pill.svg);
-  // background-repeat: repeat;
   
   button {
     background: transparent;
@@ -104,7 +94,6 @@
       /// TODO: Move these rules to own Partial
 
       &__summary {
-        //max-width: initial;
 
       &__content {
           // Placeholder / Development Classes... 

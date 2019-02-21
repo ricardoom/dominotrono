@@ -4,11 +4,13 @@ date: 2018-08-16T09:21:38-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-postimage1x: '../media/portfolio/design_toolkit/dtkCard.png'
-postimage2x: '../media/portfolio/design_toolkit/dtkCard@2x.png'
-postimage3x: '../media/portfolio/design_toolkit/dtkCard@3x.png'
-postimagealt: 'Image card linking to the Design Toolkit'
+postImageSqip: '../media/portfolio/design_toolkit/dtkCard.svg'
+postImage1x: '../media/portfolio/design_toolkit/dtkCard.png'
+postImage2x: '../media/portfolio/design_toolkit/dtkCard@2x.png'
+postImage3x: '../media/portfolio/design_toolkit/dtkCard@3x.png'
+postImageAlt: 'Image card linking to the Design Toolkit'
 figcaption: ''
+portfolioHeroSqip: '../media/portfolio/design_toolkit/dtkHeroSqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722203/nypl-design-toolkit/Design-Toolkit.png'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722203/nypl-design-toolkit/Design-Toolkit.png'
 portfolioHeroAlt: 'Image card linking to the Design Toolkit'

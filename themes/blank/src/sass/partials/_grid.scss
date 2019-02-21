@@ -78,8 +78,17 @@ $left-column: 15vw;
 }
 
 //
-// 
+// Grid Wrapper(s)
 //
+
+// Only for the home page,
+// TODO, this could be done a bit more elegantly:
+.home-page {
+  .grid-wrapper {
+    grid-template-rows: [nameBox] minmax(14.5em, 25vh) auto;
+  }
+}
+
 .grid-wrapper {
 
   @include media(">=phone") {
@@ -123,11 +132,14 @@ $left-column: 15vw;
         grid-row: 1 / 1;
         padding: 3vw 4vw 3vw 6vw;
       }
+
+      @include media(">=desktop"){
+        grid-row: nameBox;
+      }
     } // prime box
 
 
 
-    &__listParent,
     .subtitle-grid-container {
       @include media(">=phone") {
         grid-column: 1 / 1;
@@ -143,6 +155,15 @@ $left-column: 15vw;
       &__listParent {
        //
        //
+       @include media(">=phone") {
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+       }
+
+       @include media(">=tablet") {
+        grid-column: 2 / 4;
+        grid-row: 1 / 1;
+       }
         &--portfolio {
           @include media(">=phone") {
             grid-column: 1;

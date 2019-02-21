@@ -4,16 +4,18 @@ date: 2018-08-16T09:19:06-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
+postImageSqip: '../media/portfolio/nasa/nasa-mvw.svg'
+postImage1x: '../media/portfolio/nasa/nasa-mvw.png'
+postImage2x: '../media/portfolio/nasa/nasa-mvw@2x.png'
+postImage3x: '../media/portfolio/nasa/nasa-mvw@3x.png'
+postImageAlt: 'an image displaying a portion of an info-graphicg'
+figcaption: ''
+portfolioHeroSqip: '../media/portfolio/nasa/nasaPosterHeroSqip.svg'
 portfolioHero1x: '../media/portfolio/nasa/nasaPosterHero.png'
 portfolioHero2x: '../media/portfolio/nasa/nasaPosterHero@2x.png'
 portfolioHero3x: '../media/portfolio/nasa/nasaPosterHero@3x.png'
 portfolioHeroAlt: 'A cropped image of the NASA Poster / Info-graphic'
 heroFigcaption: ''
-postimage1x: '../media/portfolio/nasa/nasa-mvw.png'
-postimage2x: '../media/portfolio/nasa/nasa-mvw@2x.png'
-postimage3x: '../media/portfolio/nasa/nasa-mvw@3x.png'
-postimagealt: 'an image displaying a portion of an info-graphicg'
-figcaption: ''
 svgClipObjectClass: 'boxDiagonals'
 svgColorClass: 'site-color--white'
 tags: ['info-graphic']

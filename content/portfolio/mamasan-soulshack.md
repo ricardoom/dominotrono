@@ -4,16 +4,18 @@ date: 2018-09-15T13:06:26-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
+postImageSqip: '../media/portfolio/soulshack/soulShack320.svg'
+postImage1x: '../media/portfolio/soulshack/soulShack320@1x.png'
+postImage2x: '../media/portfolio/soulshack/soulShack640@2x.png'
+postImage3x: '../media/portfolio/soulshack/soulShack960@3x.png'
+postImageAlt: 'Image of the company logo printed on mirrored glass'
+figcaption: ''
+portfolioHeroSqip: '../media/portfolio/soulshack/soulshackHeroSqip.svg'
 portfolioHero1x: '../media/portfolio/soulshack/soulshackHero.png'
 portfolioHero2x: '../media/portfolio/soulshack/soulshackHero@2x.png'
 portfolioHero3x: '../media/portfolio/soulshack/soulshackHero@3x.png'
 portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
-postimage1x: '../media/portfolio/soulshack/soulShack320@1x.png'
-postimage2x: '../media/portfolio/soulshack/soulShack640@2x.png'
-postimage3x: '../media/portfolio/soulshack/soulShack960@3x.png'
-postimagealt: 'Image of the company logo printed on mirrored glass'
-figcaption: ''
 svgClipObjectClass: 'twoSquares'
 svgColorClass: 'site-color--hot-orange'
 tags: []
@@ -26,7 +28,8 @@ weight: 3
     srcsetOne="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w"
     srcsetTwo="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 320w"
     srcsetThree="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 320w"
-    srcsetFour="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w" src="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg"
+    srcsetFour="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w" 
+    src="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg"
     class="image-block__100"
     alt=""
     >}}

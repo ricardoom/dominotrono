@@ -5,7 +5,7 @@ draft: true
 categories: 'portfolio'
 author: Ricardo G.
 postimage: 'media/placeHolder_sm.png'
-postimagealt: ''
+postImageAlt: ''
 figcaption: ''
 tags: []
 ---

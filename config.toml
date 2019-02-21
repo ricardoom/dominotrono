@@ -7,17 +7,16 @@ relativeURLs="true"
 
 #sectionPagesMenu = "main"
 
-
-
 [params]
     cdnURL = "http://cdn.bulletprooftoupee.com/"
     author="Ricardo Eric Galvez"
-    subtitle="Creative Works of Ricardo E. Galvez"
+    subtitle="Ricardo E. Galvez"
     # Image params:
-    postimage1x = ""
-    postimage2x = ""
-    postimage3x = ""
-    postimagealt = ""
+    postImageSqip = ""
+    postImage1x = ""
+    postImage2x = ""
+    postImage3x = ""
+    postImageAlt = ""
     # the figure catption param:
     figcaption = ""
     # svg source and clip path classes (for declaring the path and setting a color):
@@ -25,6 +24,7 @@ relativeURLs="true"
     svgClipObjectClass = ""
     svgColorClass = ""
     # portfolio landing page image param:
+    portfolioHeroSqip = ""
     portfolioHero1x = ""
     portfolioHero2x = ""
     portfolioHero3x = ""
@@ -41,6 +41,7 @@ relativeURLs="true"
         svgJS = "svg/svg.min.js"
         threeJS = "three/three.min.js"
         gsapJS = "gsap/TweenMax.min.js"
+        animeJS = "anime/anime.min.js"
 
 [permalinks]
     post = "/:year/:month/:title/"

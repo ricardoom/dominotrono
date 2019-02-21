@@ -7,23 +7,16 @@ const tileParent = document.querySelectorAll('.portfolio-flex__content figure im
 
 const tilePatternTwo = document.getElementsByClassName('svgShapeClip');
 
-// const tiles = Array.from(portfolioTile);
-// const tiles = Array.from(tileParent);
-
 const tiles = Array.from(portfolioTile);
 const allTheChildren = tiles.map(el => el.childNodes);
-// console.log(allTheChildren);
 const tilesArray = Array.from(tileParent);
 const classesFromTileParent = tilesArray.map(classes => classes.classList);
-// console.log(classesFromTileParent);
-
 
 for (let i = 0; i < portfolioTile.length; i++) {
   const tileClasses = tileParent[i].classList;  
   portfolioTile[i].addEventListener('mouseenter', () => {
     tileClasses.add('portfolioCardOff');
     tileClasses.remove('portfolioCard');
-    //console.log(tileClasses);
   });
   portfolioTile[i].addEventListener('mouseleave', () => {
     tileClasses.remove('portfolioCardOff');
@@ -32,28 +25,70 @@ for (let i = 0; i < portfolioTile.length; i++) {
   });
 };
 
-// portfolioTile.forEach((tile) => {
-//   const getChildClass = tile.childNodes[1];
-//   const portFolioClass = getChildClass.childNodes[1];
-//   const theLastClass = portFolioClass.childNodes[1];
-//   const imgClass = Array.from(theLastClass.classList);
-//   tile.addEventListener('mouseenter', () => {
-    
-//     console.log(imgClass);
-    
-//     // imgClass.remove('portfolioCard');
-//     // imgClass.add('portfolioCardOff');
-//   });
-//   tile.addEventListener('mouseleave', () => {
-//     // const getChildClass = tile.childNodes[1];
-//     // const portFolioClass = getChildClass.childNodes[1];
-//     // const theLastClass = portFolioClass.childNodes[1];
-//     // const imgClass = Array.from(theLastClass.classList);
-//     console.log(imgClass);
-//     // imgClass.add('portfolioCard');
-//     // imgClass.remove('portfolioCardOff');
-//   })
-// });
+document.addEventListener('DOMContentLoaded', function() {
+  var lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
+
+  if ('IntersectionObserver' in window) {
+    let lazyImageObserver = new IntersectionObserver(function(
+      entries,
+      observer,
+    ) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target;
+          lazyImage.src = lazyImage.dataset.src;
+          lazyImage.srcset = lazyImage.dataset.srcset;
+          lazyImage.classList.remove('lazy');
+          lazyImageObserver.unobserve(lazyImage);
+        }
+      });
+    });
+
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage);
+    });
+  } else {
+    let lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
+    let active = false;
+
+    const lazyLoad = function() {
+      if (active === false) {
+        active = true;
+
+        setTimeout(function() {
+          lazyImages.forEach(function(lazyImage) {
+            if (
+              lazyImage.getBoundingClientRect().top <= window.innerHeight &&
+              lazyImage.getBoundingClientRect().bottom >= 0 &&
+              getComputedStyle(lazyImage).display !== 'none'
+            ) {
+              lazyImage.src = lazyImage.dataset.src;
+              lazyImage.srcset = lazyImage.dataset.srcset;
+              lazyImage.classList.remove('lazy');
+
+              lazyImages = lazyImages.filter(function(image) {
+                return image !== lazyImage;
+              });
+
+              if (lazyImages.length === 0) {
+                document.removeEventListener('scroll', lazyLoad);
+                window.removeEventListener('resize', lazyLoad);
+                window.removeEventListener('orientationchange', lazyLoad);
+              }
+            }
+          });
+
+          active = false;
+        }, 200);
+      }
+    };
+
+    document.addEventListener('scroll', lazyLoad);
+    window.addEventListener('resize', lazyLoad);
+    window.addEventListener('orientationchange', lazyLoad);
+  }
+});
+
 //////
 ///// svg.js
 /////

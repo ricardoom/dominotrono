@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 864 1063.81">
     <defs>
         <style>
-            .a, .b, .c { fill: none; stroke: #ec008c; } .a { stroke-linejoin: round; } .b { stroke-linecap: square; } .b, .c { stroke-miterlimit: 10; }
+            .a, .b, .c { fill: none; stroke: hsla(199, 65%, 35%, 0.55); } .a { stroke-linejoin: round; } .b { stroke-linecap: round; } .b, .c { stroke-miterlimit: 10; }
         </style>
     </defs>
     <title>

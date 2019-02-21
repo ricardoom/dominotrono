@@ -5,14 +5,10 @@
       <figure class="{{ .Params.svgClipObjectClass }} {{ .Params.svgColorClass }} ">
         <img data-srcset="{{ .Params.postImage1x }},
                    {{ .Params.postImage2x }} 2x, 
-                   {{ .Params.postImage3x }} 3x" 
-             sizes="(max-width: 20em) 100vw,
+                   {{ .Params.postImage3x }} 3x" sizes="(max-width: 20em) 100vw,
               (max-width: 50em) 75vw, 
-              (max-width: 60em) 65vw" 
-             class="portfolioCard svgShapeClip lazy" 
-             src="{{ .Params.postImageSqip }}"
-             data-src="{{ .Params.postImage1x }}"
-             alt="{{ if .Params.postImageAlt }} {{ .Params.postImageAlt }}
+              (max-width: 60em) 65vw" class="portfolioCard svgShapeClip lazy" src="{{ .Params.postImageSqip }}"
+          data-src="{{ .Params.postImage1x }}" alt="{{ if .Params.postImageAlt }} {{ .Params.postImageAlt }}
               {{ else }}
                 {{ .Title }}
               {{ end }}" />

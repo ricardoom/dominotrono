@@ -4,12 +4,13 @@ date: 2018-10-09T11:47:46-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-sqipImage: '../media/portfolio/nypl/nyplHP.svg'
-postimage1x: '../media/portfolio/nypl/nyplHP.png'
-postimage2x: '../media/portfolio/nypl/nyplHP@2x.png'
-postimage3x: '../media/portfolio/nypl/nyplHP@3x.png'
-postimagealt: ''
+postImageSqip: '../media/portfolio/nypl/nyplHP.svg'
+postImage1x: '../media/portfolio/nypl/nyplHP.png'
+postImage2x: '../media/portfolio/nypl/nyplHP@2x.png'
+postImage3x: '../media/portfolio/nypl/nyplHP@3x.png'
+postImageAlt: ''
 figcaption: ''
+portfolioHeroSqip: '../media/portfolio/nypl/nyplhpHeroSqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png'
 portfolioHero3x: ''

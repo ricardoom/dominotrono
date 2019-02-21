@@ -4,11 +4,12 @@ date: 2018-08-16T09:05:33-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-sqipImage: '../media/portfolio/notch/notch-cover-45.svg'
-postimage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548721948/notch/notch-cover-45.jpg'
-postimage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548721948/notch/notch-cover-45.jpg'
-postimagealt: 'NOTCH, a company'
+postImageSqip: '../media/portfolio/notch/notch-cover-45.svg'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548721948/notch/notch-cover-45.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548721948/notch/notch-cover-45.jpg'
+postImageAlt: 'NOTCH, a company'
 figcaption: ''
+portfolioHeroSqip: '../media/notch/notchHeoSqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548721948/notch/notch-cover-45.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548721948/notch/notch-cover-45.jpg'
 portfolioHeroAlt: 'Image of the NOTCH Intersect disassembled'

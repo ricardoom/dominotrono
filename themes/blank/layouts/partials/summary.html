@@ -12,7 +12,7 @@
     </p>
     {{ if and (.Params.postimage) (ne .Params.postimage "") }}
     <figure>
-      <img src="{{ .Params.postimage }}" alt="{{ .Site.Params.postimagealt }}" />
+      <img src="{{ .Params.postimage }}" alt="{{ .Site.Params.postImageAlt }}" />
       {{ if and (.Params.figcaption) (ne .Params.figcaption "") }}
       <figcaption>{{ .Params.figcaption }}</figcaption>
       {{ end }}

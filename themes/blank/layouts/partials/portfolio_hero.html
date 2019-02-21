@@ -1,6 +1,7 @@
 {{ $svg := .Params.svgClipObjectClass }}
 {{ $color :=  .Params.svgColorClass }}
 {{ $portfolioHero := .Params.portfolioHero1x }}
+{{ $portfolioHeroSqip := .Params.portfolioHeroSqip }}
 {{ $date := .Date.Format "02012006" }}
 <li class="portfolio-list-item" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
@@ -14,12 +15,16 @@
       {{ end }}
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
       <figure class="portfolio-list-item__content--hero">
-        <img srcset="{{ .Params.portfolioHero1x }},
+        <img data-srcset="{{ .Params.portfolioHero1x }},
                      {{ .Params.portfolioHero2x }} 2x,
-                     {{ .Params.portfolioHero3x }} 3x" sizes="(max-width: 20em) 100vw,
+                     {{ .Params.portfolioHero3x }} 3x" 
+             sizes="(max-width: 20em) 100vw,
                     (max-width: 50em) 75vw,
-                    (max-width: 60em) 65vw" class="portfolioHero__image" src="{{ .Params.portfolioHero1x }}"
-          alt="{{ .Params.portfolioHeroAlt }}" />
+                    (max-width: 60em) 65vw" 
+             class="portfolioHero__image lazy"
+             src="{{ $portfolioHeroSqip }}"
+             data-src="{{ .Params.portfolioHero1x }}"
+             alt="{{ .Params.portfolioHeroAlt }}" />
         {{ if and ( .Params.heroFigcaption ) ( ne .Params.heroFigcaption "" ) }}
         <figcaption>{{ .Params.heroFigcaption }}</figcaption>
         {{ end }}

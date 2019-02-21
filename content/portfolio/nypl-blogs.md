@@ -3,12 +3,13 @@ author: Ricardo G.
 categories: ['portfolio']
 date: 2018-06-30T00:05:50-04:00
 draft: false
-sqipImage: '../media/portfolio/nypl_blogs/blogCard.svg'
-postimage1x: '../media/portfolio/nypl_blogs/blogCard.png'
-postimage2x: '../media/portfolio/nypl_blogs/blogCard@2x.png'
-postimage3x: '../media/portfolio/nypl_blogs/blogCard@3x.png'
-postimagealt: 'A partial image of the NYPL Staff Picks and Best Books landing page'
+postImageSqip: '../media/portfolio/nypl_blogs/blogCard.svg'
+postImage1x: '../media/portfolio/nypl_blogs/blogCard.png'
+postImage2x: '../media/portfolio/nypl_blogs/blogCard@2x.png'
+postImage3x: '../media/portfolio/nypl_blogs/blogCard@3x.png'
+postImageAlt: 'A partial image of the NYPL Staff Picks and Best Books landing page'
 figcaption: ''
+portfolioHeroSqip: '../media/portfolio/nypl_blogs/nyplBlogsSqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg'
 portfolioHeroAlt: 'Image card linking to the Design Toolkit'

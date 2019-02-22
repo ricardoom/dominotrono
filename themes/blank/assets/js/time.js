@@ -117,6 +117,9 @@ function setTheGradient() {
     ')';
 }
 
+/// Use template literals here cabron
+/// maybe...
+/// Add to the TODO list...
 function setTheGradientHSLA() {
   container.style.backgroundImage =
     'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75)' +

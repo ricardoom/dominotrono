@@ -1,8 +1,9 @@
 baseURL = "http://proto.bulletprooftoupee.com/"
 languageCode = "en-us"
 title = "bulletprooftoupee.com"
-theme="blank"
-relativeURLs="true"
+theme = "blank"
+relativeURLs = "true"
+#assetDir = "src"
 #defaultLayout="posts"
 
 #sectionPagesMenu = "main"

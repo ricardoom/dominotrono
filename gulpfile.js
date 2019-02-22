@@ -15,7 +15,8 @@ const uglify = require('gulp-uglify');
 
 const pump = require('pump');
 
-//const imagemin = require('gulp-imagemin');
+const cssnano = require('gulp-cssnano');
+
 
 //
 const input = 'themes/blank/src/sass/**/*.scss';
@@ -53,13 +54,11 @@ gulp.task('babel', () => {
 });
 
 // Concact all the files:
-gulp.task('js', ['babel'], () => {
-  return (
-    gulp
-      .src(jsInput)
-      .pipe(concat('main.js'))
-      //.pipe(uglify())
-      .pipe(gulp.dest(jsOutput))
+gulp.task('js', () => {
+  return (gulp.src(jsInput)
+    .pipe(concat('main.min.js'))
+    // .pipe(uglify())
+    .pipe(gulp.dest(jsOutput))
   );
 });
 

@@ -1,3 +1,6 @@
+{{ $options := ( dict "targetPath" "css/root.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
+{{ $style := resources.Get "sass/root.scss" | resources.ToCSS $options }}
+
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 
@@ -10,7 +13,7 @@
     <meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}
     <meta name="author" content="{{ . }}">{{ end }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/root.css">
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
     {{ if .RSSLink -}}
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
     {{ .Hugo.Generator }}

@@ -360,10 +360,6 @@ $left-column: 15vw;
 
         display: grid;
 
-        & > article {
-          //
-        }
-
         &__summary {
           @include media(">=phone") {
             background-color: $site-punk-pink;

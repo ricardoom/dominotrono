@@ -1,5 +1,7 @@
-{{ $options := ( dict "targetPath" "css/root.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
-{{ $style := resources.Get "sass/root.scss" | resources.ToCSS $options }}
+{{ $targetPath := "css/root.css" }}
+{{ $sassRoot := "sass/root.scss" }}
+{{ $options := ( dict "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" true ) }}
+{{ $style := resources.Get $sassRoot | resources.ToCSS $options }}
 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">

@@ -1,8 +1,22 @@
+<!-- The following variables are for site functionality only. One off scripts for individual experiments should be loaded on and by the experiment page not here...
+That is, if its a Paperscript experiment, that page's necessary framework script is already loaded by a front matter parameter.
+-->
+{{ $basic := resources.Get "js/basic.js" }}
+{{ $observer := resources.Get "js/observer.js" }}
+{{ $time := resources.Get "js/time.js" }}
+
 <footer class="site-footer">
   <p class="site-footer__siteCredit">&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   </p>
 </footer>
-<script src="{{ .Site.BaseURL }}js/main.min.js" async></script>
+{{ if .Site.IsServer }}
+    {{ $script := slice $basic $observer $time | resources.Concat "/js/main.js" }}
+    <script src="{{ $script.Permalink }}"></script>
+{{ else }}
+    {{ $script := slice $basic $observer $time | resources.Concat "/js/main.min.js" | minify | fingerprint }}
+    <script src="{{ $script.Permalink }}"></script>
+{{ end }}
+
 </body>
 
 </html>

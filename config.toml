@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "bulletprooftoupee.com"
 theme = "blank"
 relativeURLs = "true"
-#assetDir = "src"
+
 #defaultLayout="posts"
 
 #sectionPagesMenu = "main"
@@ -53,13 +53,13 @@ relativeURLs = "true"
         name = "blog"
         title = "the blog section"
         url = "/posts/"
-        weight = 5
+        weight = 3
     [[menu.main]]
         identifier = "experiments"
         name = "experiments"
         title = "experiments"
         url = "/experiments/"
-        weight = -10
+        weight = 2
     [[menu.main]]
         identifier = "portfolio"
         name = "portfolio"

@@ -1,6 +1,6 @@
 <li class="portfolio-flex__summary">
   {{ if and ( .Params.postImage1x ) ( ne .Params.postImage1x "" ) }}
-  <a href="{{ .Permalink }}">
+  <a href="{{ .Permalink }}" aria-label="{{ .Title }}">
     <div class="portfolio-flex__content">
       <figure class="{{ .Params.svgClipObjectClass }} {{ .Params.svgColorClass }}">
         <img data-srcset="{{ .Params.postImage1x }},

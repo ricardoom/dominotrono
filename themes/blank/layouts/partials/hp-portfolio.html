@@ -1,6 +1,7 @@
 <li class="portfolio-flex__summary">
   {{ if and ( .Params.postImage1x ) ( ne .Params.postImage1x "" ) }}
-  <a href="{{ .Permalink }}" aria-label="{{ .Title }}">
+  {{ $ariaId := replaceRE "(\\s)" "" .Title}}
+  <a href="{{ .Permalink }}" aria-label="{{ $ariaId }}">
     <div class="portfolio-flex__content">
       <figure class="{{ .Params.svgClipObjectClass }} {{ .Params.svgColorClass }}">
         <img data-srcset="{{ .Params.postImage1x }},

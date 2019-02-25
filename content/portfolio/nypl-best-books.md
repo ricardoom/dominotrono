@@ -5,15 +5,15 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/nypl_staff_picks/spFall2018.svg'
-postImage1x: '../media/portfolio/nypl_staff_picks/spFall2018.png'
-postImage2x: '../media/portfolio/nypl_staff_picks/spFall2018@2x.png'
-postImage3x: '../media/portfolio/nypl_staff_picks/spFall2018@3x.png'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548801971/nypl-staff-picks/Screenshot_2018-05-17_Staff_Picks.png'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548801971/nypl-staff-picks/Screenshot_2018-05-17_Staff_Picks.png'
+postImage3x: ''
 postImageAlt: 'A partial image of the NYPL Staff Picks and Best Books landing page'
 figcaption: ''
 portfolioHeroSqip: '../media/portfolio/nypl_staff_picks/spFall2018HeroSqip.svg'
-portfolioHero1x: '../media/portfolio/nypl_staff_picks/spFall2018Hero.png'
-portfolioHero2x: '../media/portfolio/nypl_staff_picks/spFall2018Hero@2x.png'
-portfolioHero3x: '../media/portfolio/nypl_staff_picks/spFall2018Hero@3x.png'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548801971/nypl-staff-picks/Screenshot_2018-05-17_Staff_Picks.png'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548801971/nypl-staff-picks/Screenshot_2018-05-17_Staff_Picks.png'
+portfolioHero3x: ''
 portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
 svgClipObjectClass: 'diagonalDot'
@@ -21,6 +21,7 @@ svgColorClass: 'site-color--green-blue'
 tags: []
 weight: -2
 ---
+## Project Details:
 
 The New York Public Library offers many librarian curated lists. At the start of each season and the end of each year &quot;Staff Picks and &quot;Best of...&quot; lists are created by the librarians from all branches. Part of our task was to make a fully Accessible site. One of the challenges faced was creating a site that functions without javascript. As a team, we had to make decisions along the way to create truly progressive page where the basic functionality of the page did not rely on javascript being enabled as well as it being operable by keyboard or assertive technology. Please see live example links as well as some of the initial creative and experience design work in the images below.</p>
 

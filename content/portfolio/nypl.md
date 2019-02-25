@@ -5,9 +5,9 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/nypl/nyplHP.svg'
-postImage1x: '../media/portfolio/nypl/nyplHP.png'
-postImage2x: '../media/portfolio/nypl/nyplHP@2x.png'
-postImage3x: '../media/portfolio/nypl/nyplHP@3x.png'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548722310/nypl-dot-org/desktop.png'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548722310/nypl-dot-org/desktop.png'
+postImage3x: ''
 postImageAlt: ''
 figcaption: ''
 portfolioHeroSqip: '../media/portfolio/nypl/nyplhpHeroSqip.svg'

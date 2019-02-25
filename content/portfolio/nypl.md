@@ -4,7 +4,7 @@ date: 2018-10-09T11:47:46-04:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-postImageSqip: ../media/portfolio/nypl/nyplHP.svg'
+postImageSqip: '../media/portfolio/nypl/nyplHP.svg'
 postImage1x: '../media/portfolio/nypl/nyplHP.png'
 postImage2x: '../media/portfolio/nypl/nyplHP@2x.png'
 postImage3x: '../media/portfolio/nypl/nyplHP@3x.png'

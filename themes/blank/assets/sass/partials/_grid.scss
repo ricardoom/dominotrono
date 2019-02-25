@@ -395,9 +395,7 @@ $left-column: 15vw;
       grid-column: 1 / 1;
       grid-row: 11 / 12;
     }
-  } // / phone breakpoint 
-
-    
+  } // / phone breakpoint
 
   @include media(">=tablet") {
     

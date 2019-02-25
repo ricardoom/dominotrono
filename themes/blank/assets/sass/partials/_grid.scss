@@ -217,13 +217,10 @@ $left-column: 15vw;
             }
 
             @include media(">=phone") {
-              //background-color: $site-acid-green;
               flex: 1 1 100%;
             }
 
             @include media(">=tablet"){
-              //background-color: $site-green-blue;
-              //flex: 1 1 25%;
               max-width: 25%;
             }
           }
@@ -320,7 +317,7 @@ $left-column: 15vw;
       }
 
       // /flex box version of the portfolio grid...
-      
+
       //
       // The portfolio card grid on the Home Page:
       //

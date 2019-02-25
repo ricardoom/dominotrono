@@ -35,13 +35,17 @@ time {
     //  The images are provided via a custom {{ image }} shortcode, see the shortcode image.html
 
     .portfolio-image-wrapper {
-      display: flex;
-      margin: 0.5em 0;
+
       @include media('<=tablet') {
         display: block;
       }
-    }
 
+      margin: 0.5em 0;
+    }
+    h3 {
+      margin: 1.5ex 0;
+    }
+    
     figure {
       margin: 0;
 

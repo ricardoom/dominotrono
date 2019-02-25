@@ -1,5 +1,5 @@
 ---
-title: 'NYPL'
+title: 'NYPL Home Page'
 date: 2018-10-09T11:47:46-04:00
 draft: false
 categories: 'portfolio'
@@ -17,125 +17,71 @@ portfolioHeroAlt: ''
 heroFigcaption: ''
 svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--purple'
-tags: []
+tags: ['visual design', 'design technology']
 weight: -2
 ---
-
+## Project Details:
+Displayed below are comps for the NYPL home page at various points in the process of redesign. 
+I helped steer the project towards a more accessible structure.
+I did fine tuning of the layout in React and SASS.
+Worked closely with the front end team to implement iconography and type. 
+Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722310/nypl-dot-org/NYPL_desktop_v2m.3.png"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722310/nypl-dot-org/desktop.png"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722310/nypl-dot-org/desktop.png"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722310/nypl-dot-org/desktop.png 2x"
     class="image-block__100"
     alt="An image of the New York Public Library home page"
+    imgHeading="The homepage is rich as it is complex"
+    figcaption="The full screen of the home page reflecting the main priorities the library sought to establish."
     >}}
 
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722296/nypl-dot-org/nypl.tablet.v4e_landscape_1024.jpg"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722296/nypl-dot-org/nypl.tablet.v4e_landscape_1024.jpg 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722296/nypl-dot-org/nypl.tablet.v4e_landscape_1024.jpg"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722296/nypl-dot-org/nypl_tablet_full.jpg"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722296/nypl-dot-org/nypl_tablet_full.jpg 2x"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722296/nypl-dot-org/nypl_tablet_full.jpg"
     class="image-block__100"
     alt="An alternate image of the NYPL home page"
-    figcaption="" title="" >}}
+    figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the Recommendations section as well as the top page hero carousel for smaller screens, in this case tablets" title="NYPL home page Tablet view " >}}
 
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722325/nypl-dot-org/desktop.landing.attend.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722325/nypl-dot-org/desktop.landing.attend.png 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722325/nypl-dot-org/desktop.landing.attend.png"
-      class="image-block__50"
-      alt="this image is only a placeholder there is nothing to see"
-      figcaption=""
-    >}}
-
-    {{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl.tablet.v4b_portrait_768.png"
-      class="image-block__50"
-      alt="grid column overlay on the NYPL home page"
-      figcaption="grid column overlay on the NYPL home page"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722313/nypl-dot-org/desktop_landing_browse.png"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722313/nypl-dot-org/desktop_landing_browse.png 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722313/nypl-dot-org/desktop_landing_browse.png"
+      class="image-block__100"
+      alt="An image of an interior page"
+      figcaption="An example of an interior landing page dedicated towards giving voice to the wide variety of expertise the library has to offer."
     >}}
 
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722312/nypl-dot-org/NYPL_mobile_v6.aspect.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722312/nypl-dot-org/NYPL_mobile_v6.aspect.png 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722312/nypl-dot-org/NYPL_mobile_v6.aspect.png"
-      class="image-block__33"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549840263/nypl-dot-org/desktop_landing_attend.png"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549840263/nypl-dot-org/desktop_landing_attend.png 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549840263/nypl-dot-org/desktop_landing_attend.png"
+      class="image-block__100"
       alt="An image of image aspect ratio audit for small screens"
     >}}
 
-    {{< image
-      srcsetOne="/media/desktopPlaceHolderTemplate640.png 640w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
-      src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__33"
-      alt="this image is only a placeholder there is nothing to see"
-      figcaption="This is the second image in this row and is user the supplied caption yeah..."
-    >}}
-
-    {{< image
-      srcsetOne="/media/desktopPlaceHolderTemplate640.png 640w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
-      src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__33"
-      alt="this image is only a placeholder there is nothing to see"
-      figcaption="This might well be the third image in this row and is user the supplied caption yeah..."
-    >}}
-
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
-
+    
     {{< image
-      srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetFour="/media/desktopPlaceHolderTemplate360.png 360w"
-      src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__25"
-      alt="Some other alt text as well"
-      figure="The place is held for the image"
-     >}}
-    {{< image
-      srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetFour="/media/desktopPlaceHolderTemplate360.png 360w"
-      src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__25"
-      alt="Some other alt text as well"
-      figure="The place is held for the image"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl_tablet_grid.png"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722309/nypl-dot-org/nypl_tablet_grid.png 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl_tablet_grid.png"
+      class="image-block__100"
+      alt="An image of an alternate version of the home page with a grid overlay for reference"
+      figcaption="An image of an alternate version of the home page with a grid overlay for reference"
     >}}
-    {{< image
-       srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetFour="/media/desktopPlaceHolderTemplate360.png 360w"
-      src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__25"
-      alt="Some other alt text as well"
-      figure="The place is held for the image"
-    >}}
-    {{< image
-      srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetTwo="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w"
-      srcsetFour="/media/desktopPlaceHolderTemplate360.png 360w"
-      src="/media/desktopPlaceHolderTemplate360.png"
-      class="image-block__25"
-      alt="Some other alt text as well"
-      figure="The place is held for the image"
-      >}}
 
 {{< /image_wrapper >}}

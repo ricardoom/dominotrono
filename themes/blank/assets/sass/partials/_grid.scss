@@ -216,8 +216,12 @@ $left-column: 15vw;
               display: block;
             }
 
+            @include media("<phone") {
+              flex: 1 1 50%;
+            }
+
             @include media(">=phone") {
-              flex: 1 1 100%;
+              flex: 1 1 50%;
             }
 
             @include media(">=tablet"){

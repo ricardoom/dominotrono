@@ -16,7 +16,7 @@ portfolioHero3x: ''
 portfolioHeroAlt: ''
 heroFigcaption: ''
 figcaption: ''
-svgClipObjectClass: 'quarterCircle'
+svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--purple'
 tags: []
 weight: 3

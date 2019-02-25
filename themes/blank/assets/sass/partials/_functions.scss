@@ -126,6 +126,21 @@
   }
 }
 
+@mixin slideUpDown(
+  $duration: 750ms,
+  $direction: normal,
+  $delay: 200ms,
+  $iteration-count: 1,
+  $timing-function: ease-out,
+  $fill-mode: both) {
+  animation: slideOver;
+  animation-duration: $duration;
+  animation-direction: $direction;
+  animation-delay: $delay;
+  animation-iteration-count: $iteration-count;
+  animation-timing-function: ease-out;
+  animation-fill-mode: $fill-mode;
+}
 
 
 

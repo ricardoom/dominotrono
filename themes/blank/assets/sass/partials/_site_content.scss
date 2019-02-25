@@ -28,13 +28,7 @@
     }
 
     @include media(">=tablet") {
-      animation: slideOver;
-      animation-duration: 750ms;
-      animation-delay: 200ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-out;
-      animation-fill-mode: both;
-      // opacity: 0;
+     @include slideUpDown;
       padding: 1ex 0;
     }
 

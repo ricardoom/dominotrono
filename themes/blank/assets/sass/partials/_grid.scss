@@ -85,7 +85,7 @@ $left-column: 15vw;
 // TODO, this could be done a bit more elegantly:
 .home-page {
   .grid-wrapper {
-    grid-template-rows: [nameBox] minmax(14.5em, 25vh) auto;
+    grid-template-rows: [nameBox] minmax(14.5em, 20vh) auto;
   }
 }
 
@@ -340,7 +340,8 @@ $left-column: 15vw;
             grid-column: 1 / 5;
           }
 
-          grid-row: 1 / 1;
+           grid-row: 1 / 1;
+
         } // /__masthead
 
          @include media(">=phone") {

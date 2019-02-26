@@ -37,7 +37,7 @@
     }
     @include responsive-font(8vw, 3rem, 10rem, 30px);
     display: block;
-    font-family: $serif;
+    font-family: $justus-pro;
     line-height: 1em;
     
   }
@@ -66,27 +66,29 @@
 
     &__mastHead {
       @include media(">=phone") {
-        background: $site-background-color;
+        //background: $site-background-color;
         line-height: 1.2;
         padding: 6vw;
       }
 
       @include media(">=tablet") {
-        background: transparentize($site-background-color, 0.5);
-        background-position: 0 4em;
-        background-repeat: no-repeat;
-        background-size: cover;
+        // background: transparentize($site-background-color, 0.5);
+        // background-position: 0 4em;
+        // background-repeat: no-repeat;
+        // background-size: cover;
         line-height: 1.2;
         padding: 4ex 8vw 4ex 15vw;
       }
 
       @include responsive-font(2.75vw, 1.25em, 5.5rem, 32px);
-      font-family: $serif;
-      font-weight: 100;
+      @include purple-gradient;
+      font-family: $justus-pro;
+      font-weight: 200;
+      font-style: normal;
       padding: 5vw;
 
       &::first-letter {
-        @include responsive-font(8vw, 18px, 85px, 32px)
+        @include responsive-font(8vw, 18px, 85px, 32px);
         line-height: 0.8;
       }
     }

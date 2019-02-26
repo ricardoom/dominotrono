@@ -2,27 +2,45 @@
 {{ $sassRoot := "sass/root.scss" }}
 {{ $options := ( dict "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" true ) }}
 {{ $style := resources.Get $sassRoot | resources.ToCSS $options }}
-
+{{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
+{{ $class := .Site.Params.classes }}
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ .Title }}</title>
-    {{ with .Site.Params.description }}
-    <meta name="description" content="{{ . }}">{{ end }}
-    {{ with .Site.Params.author }}
-    <meta name="author" content="{{ . }}">{{ end }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
-    {{ if .RSSLink -}}
-    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
-    {{ .Hugo.Generator }}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ .Title }}</title>
+  {{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  {{ if .RSSLink -}}
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
+  {{ .Hugo.Generator }}
+  <link rel="stylesheet" href="{{ $typeKitLink }}">
+  <script>
+    var script = document.createElement('script');
+    script.src = '/js/vendor/fontfaceObserver/fontfaceobserver.standalone.js';
+    script.async = true;
+    script.onload = function() {
+      function timeout(time) {
+      return new Promise(function(resolve, reject) {
+          setTimeout(reject, time);
+      });
+    }
+    var justus = new FontFaceObserver('justus-pro');
+    var frank = new FontFaceObserver('frank-new');
+    var html = document.documentElement;
+    Promise.race([justus.load(), frank.load(), timeout(2000)]).then(function() {
+      html.classList.add('fonts-loaded');
+      console.log('the fonts were loaded...')
+      });
+    };
+    document.head.appendChild(script);
+  </script>
 </head>
-
-{{ $class := .Site.Params.classes }}
-
 <body class="{{ if .IsHome  }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">
     <header role="banner" class="site-header">
         <div class="site-header__siteNameContainer">

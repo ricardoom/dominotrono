@@ -9,7 +9,8 @@ $serif: 'Liberation Serif', Times, Cambria, Utopia, 'Hoefler Text', 'Nimbus Roma
 
 $monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
 
-
+$frank-new: 'frank-new', $sans-serif; 
+$justus-pro: 'justus-pro', $serif; 
 
 ///
 /// type size
@@ -59,7 +60,9 @@ $base-letter-spacing: 0.01;
 @each $heading in h1, h2, h3, h4, h5, h6 {
 
   #{$heading} {
-    // text-shadow: 1px 1px 1px $site-dark-blue, 0.02em 0.35em 0.29em transparentize($site-dark-blue, 0.11);
+    font-family: $justus-pro;
+    font-weight: 200;
+    font-style: normal;
     ///
     /// Headings that wrap links
     ///
@@ -174,3 +177,7 @@ h1 {
 .aSidebarPrime {
   font-size: 1.6rem;
 }
+
+///
+/// basic imports from Adobe Typekit
+///

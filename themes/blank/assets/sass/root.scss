@@ -17,6 +17,7 @@
 @import "partials/twitter_hash";
 @import "partials/canvas";
 @import "partials/summary";
+@import "partials/header";
 @import "partials/portfolio_list";
 
 //
@@ -49,7 +50,6 @@ html {
 }
 
 body {
-  //background-blend-mode: multiply;
   font-size: 1.6rem;
   margin: 0;
 
@@ -60,7 +60,6 @@ main,
 footer,
 .aSidebarPrime {
   margin: 0 auto;
-  //overflow: auto;
 }
 
 .fullWidthWrapper {
@@ -95,57 +94,13 @@ li {
   list-style: none;
 }
 
-
-///
-/// the main site header
-/// eventually to its own partial
-///
-@keyframes twistShadow {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: rotateY(118deg);
-  }
-}
-
-@keyframes dropIn {
-  from {
-    transform: translateY(-100px);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-}
-
-.site-header {
-  
-  &__siteNameContainer {
-
-    &--name {
-
-      @include responsive-font(2.5vw, 1.8em, 4em, 36px);
-      align-self: end;
-      color: $site-white;
-      font-family: $sans-serif;
-      font-weight: 400;
-      text-decoration: none;
-  
-      &:visited {
-        color: $site-white;
-      }
-    }
-  }
-  background: transparent;
-}
-
-
-
 ///
 /// Home Page
 ///
-
+.svg-overlay-container {
+  height: 0;
+  width: 0;
+}
 ///
 /// List page / template summary rules
 ///

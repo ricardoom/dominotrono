@@ -16,9 +16,13 @@ portfolioHeroAlt: 'Image of the NOTCH Intersect disassembled'
 heroFigcaption: ''
 svgClipObjectClass: 'boxDiagonals'
 svgColorClass: 'site-color--black'
-tags: ['portfolio']
+tags: ['portfolio', 'logo design','product development']
 weight: -1
 ---
+## Project Details:
+
+I am a principal member of the team, (its just two of us!) Below is the work I've done.
+
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
@@ -54,6 +58,3 @@ weight: -1
 
 {{< /image_wrapper >}}
 
-### The Small company called Notch.
-
-I am a principal member of the team, (its just two of us!) Below is the work I've done.

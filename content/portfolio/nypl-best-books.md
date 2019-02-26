@@ -77,12 +77,13 @@ The New York Public Library offers many librarian curated lists. At the start of
       srcsetOne="/media/portfolio/nypl_staff_picks/nyplBbMobileWire.jpg 640w"
       srcsetTwo="/media/portfolio/nypl_staff_picks/nyplBbMobileWire@2x.jpg 320w"
       src="/media/portfolio/nypl_staff_picks/nyplBbMobileWire.jpg"
-      class="image-block__50" alt=""  >}}
+      class="image-100" alt=""  >}}
+
     {{< image
       srcsetOne="/media/portfolio/nypl_staff_picks/nyplBbMobileWireEx.jpg 640w"
       srcsetTwo="/media/portfolio/nypl_staff_picks/nyplBbMobileWireEx@2x.jpg 320w"
       src="/media/portfolio/nypl_staff_picks/nyplBbMobileWireEx.jpg"
-      class="image-block__50" alt=""  >}}
+      class="image-block__100" alt=""  >}}
 
 {{< /image_wrapper >}}
 

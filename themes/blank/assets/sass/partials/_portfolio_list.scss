@@ -4,6 +4,7 @@
 .portfolio-list-item {
 
   &__content {
+
     h1 {
       @include responsive-font(4vw, 1.25em, 150px, 50px);
 
@@ -20,9 +21,10 @@
         padding: 0;
       }
 
-        font-weight: 400;
-        margin: 0;
-      }
+      color: $site-white;
+      font-weight: 400;
+      margin: 0;
+    }
 
     &--deck {
       @include media(">=phone") {

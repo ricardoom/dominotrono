@@ -73,6 +73,10 @@ $base-letter-spacing: 0.01;
     a {
       text-decoration: none;
       color: currentColor;
+
+      &:visited {
+        color: $site-white;
+      }
     }
   }
 
@@ -81,12 +85,12 @@ $base-letter-spacing: 0.01;
   }
 }
 
-f
 ///
 /// Set a base link style here:
 ///
 
-a {
+a,
+.fonts-loaded a {
   &:link {
     color: $site-link;
   }
@@ -135,11 +139,7 @@ article {
   @include media(">desktop") {
     max-width: 65vw;
   }
-  overflow: auto;
-}
-
-h1 {
-  // font-weight: 200;
+  //overflow: auto;
 }
 
 .siteAuthor {
@@ -152,14 +152,11 @@ h1 {
 
     h2,
     h3 {
-      // font-weight: 100;
       margin-bottom: 0.5ex;
     }
 
     p, ul  {
-      //font-family: $serif;
       font-size: 1.8rem;
-      // font-weight: 100;
       line-height: 1.65;
     }
 

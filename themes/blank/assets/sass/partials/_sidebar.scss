@@ -60,6 +60,11 @@
             .small-letter{
               @include responsive-font(2.5vw, 1.24rem, 3rem, 18px);
             }
+
+            &:visited {
+              background: $large-bg-color;
+              color: currentColor;
+            }
           }
         }
 

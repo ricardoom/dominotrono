@@ -9,6 +9,8 @@ $serif: 'Liberation Serif', Times, Cambria, Utopia, 'Hoefler Text', 'Nimbus Roma
 
 $monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
 
+$slab-serif: 'Rockwell', 'Rockwell Extra Bold', 'Courier New', Monoco, Courier, monospace;
+
 $frank-new: 'frank-new', $sans-serif; 
 $justus-pro: 'justus-pro', $serif; 
 
@@ -60,9 +62,10 @@ $base-letter-spacing: 0.01;
 @each $heading in h1, h2, h3, h4, h5, h6 {
 
   #{$heading} {
-    font-family: $justus-pro;
+    font-family: $serif;
     font-weight: 200;
     font-style: normal;
+    
     ///
     /// Headings that wrap links
     ///
@@ -72,9 +75,13 @@ $base-letter-spacing: 0.01;
       color: currentColor;
     }
   }
+
+  .fonts-loaded #{$heading} {
+    font-family: $justus-pro;
+  }
 }
 
-
+f
 ///
 /// Set a base link style here:
 ///
@@ -86,6 +93,7 @@ a {
 
   &:visited {
     color: $site-link-visited;
+    background: $site-hot-orange;
   }
 
   &:hover {

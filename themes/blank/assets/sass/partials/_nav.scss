@@ -6,7 +6,7 @@
 
   &__siteNavigation {
     background: transparent;
-    font-family: $frank-new;
+    font-family: $sans-serif;
 
     ul {
       display: inline-block;
@@ -35,27 +35,29 @@
         margin: 0 0.15ex;
 
           a {
+            color: $site-white;
             font-size: $base-font-normal;
             text-decoration: none;
+
+            :hover {
+              background: $site-punk-pink;
+            }
           }
           &:nth-child(n) {
             flex-basis: 25%;
           }
-        // &:nth-child(1) {
-        //   flex-basis: 15%;
-        // }
-
-        // &:nth-child(2) {
-        //   flex-basis: 22%;
-        // }
-
-        // &:nth-child(3) {
-        //   flex-basis: 22%;
-        // }
-        // &:nth-child(4) {
-        //   flex-basis: 22%;
-        // }
       }
     }
   }
 } // .site-header
+
+///
+/// Fonts loaded yo!
+///
+.fonts-loaded {
+  .site-header {
+    &__siteNavigation {
+      font-family: $frank-new;
+    }
+  }
+}

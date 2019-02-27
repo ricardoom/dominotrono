@@ -15,6 +15,10 @@ time {
   }
 }
 
+.fonts-loaded time {
+  font-family: $frank-new;
+}
+
 .site-article {
   @include basic-article-wrapper('>=phone', 95vw, 5vw);
   @include basic-article-wrapper('>=tablet', 100vw, 0, 6.5vw);

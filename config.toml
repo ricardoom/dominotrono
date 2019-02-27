@@ -10,8 +10,8 @@ relativeURLs = "true"
 
 [params]
     cdnURL = "http://cdn.bulletprooftoupee.com/"
-    author="Ricardo Eric Galvez"
-    subtitle="Ricardo E. Galvez"
+    author="Ricardo Eric Gálvez"
+    subtitle="Ricardo E. Gálvez"
     # Image params:
     postImageSqip = ""
     postImage1x = ""

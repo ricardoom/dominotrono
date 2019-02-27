@@ -24,7 +24,7 @@ $left-column: 15vw;
 
     @include media(">=phone") {
       grid-template-columns: 1fr;
-      grid-template-rows: 3em;
+      grid-template-rows: 4em;
     }
 
     @include media(">=tablet") {
@@ -36,13 +36,15 @@ $left-column: 15vw;
     //   grid-template-columns: $left-column 1fr 1fr 1fr;
     //   grid-template-rows: 10em;
     // }
+  }
 
-  display: grid;
-
+  &__siteNameContainer {
+   
     &--name {
+
       @include media(">=phone") {
         grid-column: 1 / 1;
-        padding-left: 6vw;
+        padding-left: 3vmin;
       }
 
       @include media(">=tablet") {
@@ -51,14 +53,22 @@ $left-column: 15vw;
         //padding: 0.5em 0 3vw 0.65em;
       }
     }
+
+    display: grid;
   }
 
   //
   // Do some adjusting of the site nav
   //
   &__siteNavigation {
-    
+
+    @include media(">=tablet") {
+      display: grid;
+      padding-right: 4em;
+    }
+
     ul {
+
       @include media(">=phone"){
         grid-column: 1
       }
@@ -73,7 +83,7 @@ $left-column: 15vw;
     }
 
     grid-template-rows: initial;
-    padding-right: 4em;
+    padding: 0;
   }
 }
 

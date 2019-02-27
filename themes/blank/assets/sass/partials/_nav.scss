@@ -3,7 +3,47 @@
 ///
 
 .site-header {
+  /// Controls functionality only
+  nav {
+    button {
+      @include media(">=phone") {
+        background: transparentize($site-dark-blue, 0.5);
+        border: 2px solid $site-white;
+        border-radius: 1rem;
+        color: currentColor;
+        cursor: pointer;
+        font-size: 120%;
+        display: block;
+        margin: 1ex 2ex;
+        padding: 1ex 0;
+        width: 80%;
+        }
 
+        @include media(">=tablet") {
+          display: none;
+        }
+      }
+
+      .fonts-loaded button {
+        font-family: $frank-new;
+      }
+      ul {
+        @include media(">=phone") {
+          display: none;
+
+          &.is-active {
+            display: block;
+            transition: display 750ms ease-in;
+          }
+        }
+        @include media(">=tablet") {
+          display: flex;
+        }
+      }
+  }
+
+
+  /// Uses classes to control all else:
   &__siteNavigation {
     background: transparent;
     font-family: $sans-serif;
@@ -15,6 +55,10 @@
         flex-flow: row nowrap;
       
         @include media(">=phone") {
+          padding-left: 0;
+        }
+
+        @include media(">=tablet") {
           padding-left: 6vw;
         }
 
@@ -26,9 +70,6 @@
       }
 
       li {
-        height: 7ex;
-        padding: 2ex 0;
-        margin: 0 0.15ex;
 
           a {
             color: $site-white;
@@ -47,9 +88,13 @@
             }
 
             @include media(">=desktop") {
-              flex-basis: 15%;
+              flex-basis: 20%;
             }
         }
+
+        height: 7ex;
+        padding: 2ex;
+        margin: 0 0.15ex;
       }
 
       border-bottom: (3em / 16) solid $site-white;

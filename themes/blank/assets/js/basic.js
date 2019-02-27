@@ -15,3 +15,19 @@ for (let i = 0; i < portfolioTile.length; i++) {
     tileClasses.add('portfolioCard');
   });
 }
+
+///
+/// Mobile Nav
+///
+
+const mobileNavButton = document.getElementById('mobileNavButton');
+const mobileNavItems = document.getElementById('navItems');
+mobileNavButton.addEventListener('click', function () {
+  if (mobileNavItems.classList.contains('is-active')) {
+    this.setAttribute('aria-expanded', 'false');
+    mobileNavItems.classList.remove('is-active');
+  } else {
+    mobileNavItems.classList.add('is-active');
+    this.setAttribute('aria-expanded', 'true');
+  }
+});

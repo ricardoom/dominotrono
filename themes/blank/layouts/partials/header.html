@@ -47,8 +47,10 @@
     <div class="site-header__siteNameContainer">
       <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>
     </div>
+
     <nav class="site-header__siteNavigation">
-      <ul>
+      <button id="mobileNavButton" aria-controls="navItems">Menu</button>
+      <ul id="navItems" class="" aria-expanded="false">
         {{ range .Site.Menus.main }}
         <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}

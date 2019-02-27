@@ -9,17 +9,14 @@
     font-family: $sans-serif;
 
     ul {
-      display: inline-block;
-      margin: 0;
-      padding: 0;
 
       @supports (display: flex) {
         display: flex;
         flex-flow: row nowrap;
       
         @include media(">=phone") {
-        padding-left: 6vw;
-      }
+          padding-left: 6vw;
+        }
 
       @include media(">=tablet") {
         grid-column: 2 / 6;
@@ -29,8 +26,7 @@
       }
 
       li {
-        border-bottom: (3em / 16) solid $site-white;
-        height: 8ex;
+        height: 7ex;
         padding: 2ex 0;
         margin: 0 0.15ex;
 
@@ -43,10 +39,23 @@
               background: $site-punk-pink;
             }
           }
+
           &:nth-child(n) {
-            flex-basis: 25%;
-          }
+            @include media(">=phone") {}
+            @include media(">=tablet") {
+              flex-basis: 25%;
+            }
+
+            @include media(">=desktop") {
+              flex-basis: 15%;
+            }
+        }
       }
+
+      border-bottom: (3em / 16) solid $site-white;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
     }
   }
 } // .site-header

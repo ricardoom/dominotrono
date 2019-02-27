@@ -6,6 +6,7 @@
 {{ $class := .Site.Params.classes }}
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,33 +25,33 @@
     var script = document.createElement('script');
     script.src = '/js/vendor/fontfaceObserver/fontfaceobserver.standalone.js';
     script.async = true;
-    script.onload = function() {
+    script.onload = function () {
       function timeout(time) {
-      return new Promise(function(resolve, reject) {
+        return new Promise(function (resolve, reject) {
           setTimeout(reject, time);
-      });
-    }
-    var justus = new FontFaceObserver('justus-pro');
-    var frank = new FontFaceObserver('frank-new');
-    var html = document.documentElement;
-    Promise.race([justus.load(), frank.load(), timeout(2000)]).then(function() {
-      html.classList.add('fonts-loaded');
-      console.log('the fonts were loaded...')
+        });
+      }
+      var justus = new FontFaceObserver('justus-pro');
+      var frank = new FontFaceObserver('frank-new');
+      var html = document.documentElement;
+      Promise.race([justus.load(), frank.load(), timeout(2000)]).then(function () {
+        html.classList.add('fonts-loaded');
       });
     };
     document.head.appendChild(script);
   </script>
 </head>
+
 <body class="{{ if .IsHome  }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">
-    <header role="banner" class="site-header">
-        <div class="site-header__siteNameContainer">
-            <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>
-        </div>
-        <nav class="site-header__siteNavigation">
-            <ul>
-                {{ range .Site.Menus.main }}
-                <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
-        </nav>
-    </header>
+  <header role="banner" class="site-header">
+    <div class="site-header__siteNameContainer">
+      <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>
+    </div>
+    <nav class="site-header__siteNavigation">
+      <ul>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </header>

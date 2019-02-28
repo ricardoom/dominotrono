@@ -38,9 +38,11 @@
           }
         }
       }
+
       &.button-active {
         background: transparentize($site-background-color, 0.2);
       }
+
         @include media(">=tablet") {
           display: none;
         }

@@ -4,8 +4,6 @@
 {{ $style := resources.Get $sassRoot | resources.ToCSS $options }}
 {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
 {{ $class := .Site.Params.classes }}
-{{ $navBurgerIcon := ( partial "svg/burgerIcon.svg" ) }}
-{{ $xCloseIcon := ( partial "svg/xCloseIcon.svg" ) }}
 {{ $navControlIcon := ( partial "svg/navControlIcon.svg" ) }}
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">

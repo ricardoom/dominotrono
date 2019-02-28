@@ -11,11 +11,11 @@ That is, if its a Paperscript experiment, that page's necessary framework script
   </p>
 </footer>
 {{ if .Site.IsServer }}
-    {{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.js" }}
-    <script src="{{ $script.Permalink }}"></script>
+{{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.js" }}
+<script src="{{ $script.Permalink }}"></script>
 {{ else }}
-    {{ $script := slice $basic $observer $time | resources.Concat "/js/main.min.js" | minify | fingerprint }}
-    <script src="{{ $script.Permalink }}"></script>
+{{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.min.js" | minify | fingerprint }}
+<script src="{{ $script.Permalink }}"></script>
 {{ end }}
 
 </body>

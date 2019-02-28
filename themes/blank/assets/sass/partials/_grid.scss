@@ -115,6 +115,7 @@ $left-column: 15vw;
 .home-page {
   .grid-wrapper {
     grid-template-rows: [nameBox] minmax(14.5em, 20vh) auto;
+    padding-right: 0;
   }
 }
 
@@ -128,7 +129,7 @@ $left-column: 15vw;
 
   @include media(">=tablet") {
     grid-template-columns: repeat(4, 1fr);
-    padding: 0 6vw 0 0;
+    padding: 0;
   }
 
   @include media(">=desktop"){
@@ -180,8 +181,7 @@ $left-column: 15vw;
       } // ./subtitle grid container
 
       &__listParent {
-       //
-       //
+
        @include media(">=phone") {
         grid-column: 1 / 1;
         grid-row: 2 / 2;
@@ -211,22 +211,33 @@ $left-column: 15vw;
         }
       }
 
-      .jumbo-grid-container {
-       @include media (">=phone") {
-          grid-column: 1 / 1;
-          grid-row: 10 / 12;
+    //   .jumbo-grid-container {
+    //    @include media (">=phone") {
+    //       grid-column: 1 / 1;
+    //       grid-row: 10 / 12;
 
-        &__content {
-        top: 0;
-        }
-       } // / phone breakpoint
+    //     &__content {
+    //       top: 0;
+    //     }
+    //    } // / phone breakpoint
 
-        @include media(">=tablet") {
-          grid-column: 2 / 5;
-       }
-    } // /.jumbo-grid-container
+    //     @include media(">=tablet") {
+    //       grid-column: 2 / 5;
+    //    }
+    // } // /.jumbo-grid-container
 
+    .mast-head {
+      @include media(">=phone") {
+        grid-column: 1 / 1;
+      }
+      
+      @include media(">=tablet") {
+        grid-column: 1 / 5;
+      }
 
+       grid-row: 3 / 4;
+
+    } // /__masthead
 
 ///
 /// Home page portfolio grid & flex
@@ -238,9 +249,9 @@ $left-column: 15vw;
         margin: 0;
         padding: 0;
 
-          &__mastHead {
-            flex: 1 1 100%;
-          }
+          // &__mastHead {
+          //   flex: 1 1 100%;
+          // }
 
           &__summary {
 
@@ -346,7 +357,7 @@ $left-column: 15vw;
         @include media(">=phone") {
           grid: auto / 1fr; 
           grid-column: 1 / 1;
-          grid-row: 3 / 9;
+          grid-row: 4 / 5;
         }
 
         @include media(">=tablet"){
@@ -365,55 +376,40 @@ $left-column: 15vw;
       //
       // The portfolio card grid on the Home Page:
       //
-      .portfolio-grid {
 
-        &__mastHead {
-          @include media(">=phone") {
-            grid-column: 1 / 1;
-          }
-          
-          @include media(">=tablet") {
-            grid-column: 1 / 4;
-          }
+      
+    //   .portfolio-grid {
 
-          @include media(">=desktop") {
-            grid-column: 1 / 5;
-          }
+    //      @include media(">=phone") {
+    //       grid: auto / 1fr; 
+    //       grid-column: 1 / 1;
+    //       grid-row: 3 / 9;
+    //     }
 
-           grid-row: 1 / 1;
+    //     @include media(">=tablet") {
+    //       grid: auto / 1fr 1fr 1fr 1fr;
+    //       grid-column: 1 / 4;
+    //     }
 
-        } // /__masthead
+    //     @include media(">=desktop") {
+    //       grid: auto / 1fr 1fr 1fr 1fr 1fr;
+    //       grid-column: 1 / 5;
+    //     }
 
-         @include media(">=phone") {
-          grid: auto / 1fr; 
-          grid-column: 1 / 1;
-          grid-row: 3 / 9;
-        }
+    //     display: grid;
 
-        @include media(">=tablet") {
-          grid: auto / 1fr 1fr 1fr 1fr;
-          grid-column: 1 / 4;
-        }
-
-        @include media(">=desktop") {
-          grid: auto / 1fr 1fr 1fr 1fr 1fr;
-          grid-column: 1 / 5;
-        }
-
-        display: grid;
-
-        &__summary {
-          @include media(">=phone") {
-            background-color: $site-punk-pink;
-          }
-          @include media(">=tablet") {
-            background-color: hsl(22, 100%, 50%);
-          }
-          @include media(">=desktop") {
-            background-color: hsl(80, 61%, 50%);
-          }
-        }
-    }
+    //     &__summary {
+    //       @include media(">=phone") {
+    //         background-color: $site-punk-pink;
+    //       }
+    //       @include media(">=tablet") {
+    //         background-color: hsl(22, 100%, 50%);
+    //       }
+    //       @include media(">=desktop") {
+    //         background-color: hsl(80, 61%, 50%);
+    //       }
+    //     }
+    // }
 
   @include media(">=phone") {
 // .jumbo-grid-container {

@@ -61,37 +61,33 @@
     }
   }
 
+ .mast-head {
+
+  @include media(">=phone") {
+      line-height: 1.2;
+      padding: 6vw;
+    }
+
+    @include media(">=tablet") {
+      line-height: 1.2;
+      padding: 4ex 8vw 4ex 15vw;
+    }
+
+    @include responsive-font(2.75vw, 1.25em, 5.5rem, 32px);
+    @include purple-gradient;
+    font-family: $frank-new;
+    font-weight: 200;
+    font-style: normal;
+    padding: 5vw;
+
+    & p::first-letter {
+      @include responsive-font(8vw, 18px, 85px, 32px);
+      line-height: 0.8;
+    }
+  }
+
   .portfolio-flex,
   .portfolio-grid {
-
-    &__mastHead {
-      @include media(">=phone") {
-        //background: $site-background-color;
-        line-height: 1.2;
-        padding: 6vw;
-      }
-
-      @include media(">=tablet") {
-        // background: transparentize($site-background-color, 0.5);
-        // background-position: 0 4em;
-        // background-repeat: no-repeat;
-        // background-size: cover;
-        line-height: 1.2;
-        padding: 4ex 8vw 4ex 15vw;
-      }
-
-      @include responsive-font(2.75vw, 1.25em, 5.5rem, 32px);
-      @include purple-gradient;
-      font-family: $frank-new;
-      font-weight: 200;
-      font-style: normal;
-      padding: 5vw;
-
-      &::first-letter {
-        @include responsive-font(8vw, 18px, 85px, 32px);
-        line-height: 0.8;
-      }
-    }
 
       /// Portfolio Grid Summary 
       /// as found in hp-portfolio.html
@@ -157,6 +153,20 @@
 
         .g {fill: hsl(300, 100%, 50%)}
       }
+  }
+
+  .biography-skills {
+    @include purple-gradient;
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+    padding: 4ex 8vw 4ex 15vw;
+
+    h3 {
+      @include responsive-font(3.75vw, 1.25em, 5.5rem, 32px);
+    }
+    & ul > * {
+      font-family: $frank-new;
+    }
   }
 
   .grid-site-data {

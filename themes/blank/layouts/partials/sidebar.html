@@ -2,15 +2,15 @@
   <div>
     <h3 class="aSidebarPrime__sidebarTitle">All the things...</h3>
     <ul class="aSidebarPrime__sidebarList">
-    {{ $posts := ($.Site.GetPage "Type" "posts") }}
-    {{ $portfolio := ($.Site.GetPage "Type" "portfolio") }}
-    {{ $experiments := ($.Site.GetPage "Type" "experiments") }}
-    {{ $groups := slice $posts $portfolio $experiments }}
-    {{ range $groups }}
+      {{ $posts := ($.Site.GetPage "Type" "posts") }}
+      {{ $portfolio := ($.Site.GetPage "Type" "portfolio") }}
+      {{ $experiments := ($.Site.GetPage "Type" "experiments") }}
+      {{ $groups := slice $posts $portfolio $experiments }}
+      {{ range $groups }}
       {{ range .Pages }}
-        {{ .Render "post-grid" }}
+      {{ .Render "post-grid" }}
       {{ end }}
-    {{ end }}
+      {{ end }}
     </ul>
   </div>
 </aside>

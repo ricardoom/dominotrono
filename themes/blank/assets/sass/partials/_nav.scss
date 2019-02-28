@@ -3,39 +3,67 @@
 ///
 
 .site-header {
-  /// Controls functionality only
+  /// Controls initial display only
   nav {
     button {
       @include media(">=phone") {
-        background: transparentize($site-dark-blue, 0.5);
-        border: 2px solid $site-white;
-        border-radius: 1rem;
+
+        @supports not (display: flex) {
+          display: block;
+        }
+        background: transparentize($site-dark-blue, 0.85);
+        border: none;
         color: currentColor;
         cursor: pointer;
-        font-size: 120%;
-        display: block;
-        margin: 1ex 2ex;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        margin: 1ex 2ex 0;
         padding: 1ex 0;
-        width: 80%;
-        }
+        width: 5em;
 
+        svg {
+          fill: currentColor;
+          height: 3rem;
+          width: 3rem;
+
+          .burger {
+            display: block;
+            position: relative;
+            top: 0.25rem;
+          }
+          
+          .closer {
+            display: none;
+          }
+        }
+      }
+      &.button-active {
+        background: transparentize($site-background-color, 0.2);
+      }
         @include media(">=tablet") {
           display: none;
         }
       }
 
-      .fonts-loaded button {
+      .fonts-loaded button span  {
         font-family: $frank-new;
       }
+
       ul {
         @include media(">=phone") {
           display: none;
 
           &.is-active {
+            background: transparentize($site-background-color, 0.2);
             display: block;
-            transition: display 750ms ease-in;
+            left: 0;
+            position: absolute;
+            text-align: right;
+            width: 100%;
           }
         }
+
         @include media(">=tablet") {
           display: flex;
         }

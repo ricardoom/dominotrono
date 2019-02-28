@@ -2,6 +2,7 @@
 That is, if its a Paperscript experiment, that page's necessary framework script is already loaded by a front matter parameter.
 -->
 {{ $basic := resources.Get "js/basic.js" }}
+{{ $mobileNav := resources.Get "js/mobileNav.js" }}
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $time := resources.Get "js/time.js" }}
 
@@ -10,7 +11,7 @@ That is, if its a Paperscript experiment, that page's necessary framework script
   </p>
 </footer>
 {{ if .Site.IsServer }}
-    {{ $script := slice $basic $observer $time | resources.Concat "/js/main.js" }}
+    {{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.js" }}
     <script src="{{ $script.Permalink }}"></script>
 {{ else }}
     {{ $script := slice $basic $observer $time | resources.Concat "/js/main.min.js" | minify | fingerprint }}

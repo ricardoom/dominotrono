@@ -35,7 +35,7 @@
     @include media(">=desktop") {
       padding: 1.3ex 0;
     }
-    @include responsive-font(8vw, 3rem, 10rem, 30px);
+    @include responsive-font(8vw, 1.5rem, 10rem, 30px);
     display: block;
     font-family: $justus-pro;
     line-height: 1em;

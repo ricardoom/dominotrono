@@ -15,7 +15,15 @@ $desktop-column: 25vw;
 $left-column: 15vw;
 
 .site-header {
-  
+  @include media(">=phone") {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  @include media(">=tablet") {
+    display: block;
+  }
+
   &__siteNameContainer,
   &__siteNavigation {
     // set up the grids for the breakpoints... really need to make this a mixin or function
@@ -24,7 +32,7 @@ $left-column: 15vw;
 
     @include media(">=phone") {
       grid-template-columns: 1fr;
-      grid-template-rows: 4em;
+      grid-template-rows: minmax(3.2em, 4em);
     }
 
     @include media(">=tablet") {
@@ -39,7 +47,17 @@ $left-column: 15vw;
   }
 
   &__siteNameContainer {
-   
+    @include media(">=phone") {
+      display: block;
+      flex: 3 1 auto;
+      padding-top: 1.8em;
+    }
+
+    @include media(">=tablet") {
+      display: grid;
+      padding-top: 0;
+    }
+
     &--name {
 
       @include media(">=phone") {
@@ -53,14 +71,15 @@ $left-column: 15vw;
         //padding: 0.5em 0 3vw 0.65em;
       }
     }
-
-    display: grid;
   }
 
   //
   // Do some adjusting of the site nav
   //
   &__siteNavigation {
+    @include media(">=phone") {
+      flex: 1 1 0;
+    }
 
     @include media(">=tablet") {
       display: grid;

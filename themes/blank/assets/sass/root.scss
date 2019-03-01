@@ -59,7 +59,7 @@ body {
 header,
 main,
 footer,
-.sidebar-prime {
+aside {
   margin: 0 auto;
 }
 
@@ -103,8 +103,13 @@ li {
   width: 0;
 }
 ///
-/// List page / template summary rules
+/// Inner pages
 ///
+.inner-page {
+  main {
+    margin-bottom: 1em;
+  }
+}
 
 ///
 /// for landing pages w/ rivers of posts:

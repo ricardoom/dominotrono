@@ -11,6 +11,11 @@ $monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida
 
 $slab-serif: 'Rockwell', 'Rockwell Extra Bold', 'Courier New', Monoco, Courier, monospace;
 
+///
+/// from Adobe Typekit
+/// see FontFace Observer
+///
+
 $frank-new: 'frank-new', $sans-serif; 
 $justus-pro: 'justus-pro', $serif; 
 
@@ -182,7 +187,3 @@ article {
 .sidebar-prime {
   font-size: 1.6rem;
 }
-
-///
-/// basic imports from Adobe Typekit
-///

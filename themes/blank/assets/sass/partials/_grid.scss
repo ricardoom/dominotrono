@@ -132,8 +132,8 @@ $left-column: 15vw;
   }
 
   @include media(">=tablet") {
-    grid-template-columns: repeat(4, 1fr);
-    padding: 0;
+    grid-template-columns: minmax(1em, $tablet-column) repeat(3, 1fr);
+    padding: 0 1em 0 0;
   }
 
   @include media(">=desktop"){

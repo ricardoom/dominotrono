@@ -5,25 +5,27 @@
 .biography-skills {
 
   @include media(">=phone") {
-    padding: 8ex 6vw 8ex 6vw;
+    padding: 4ex 6vw;
   }
 
   @include media(">=tablet") {
     padding: 8ex 8vw 8ex 15vw;
   }
 
-  @include responsive-font(2vw, 1.2rem, 2.75rem, 20px);
-  background: transparentize($site-dark-blue, 0.2);
+  @include responsive-font(2vw, 12px, 32px, 48px);
+  background: transparentize($site-dark-blue, 0.6);
   font-family: $sans-serif;
   grid-column: 1 / 5;
   grid-row: 5 / 6;
   
 
   h3 {
-    @include responsive-font(3.75vw, 1.25rem, 5.5rem, 32px);
+    @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
     margin: 0;
   }
 
+  /// TODO: there has to be a better way to do this ↓
+  /// Refactor!
   & > ul * {
     margin: 0;
     padding: 0;
@@ -35,12 +37,28 @@
     justify-content: space-between;
     margin-left: 0;
     padding-left: 0;
+    flex-wrap: wrap;
 
     > li {
+      @include media(">=phone") {
+        margin-bottom: 1em;
+        margin-right: 1em;
+      }
+
+      @include media(">=tablet") {
+        margin: 0;
+      }
+
+      border-top: 3px solid $site-white;
       display: block;
 
       > ul > li {
-        margin: 0.25em 0;
+        margin: 0.45em 0;
+
+        > a {
+          text-decoration: none;
+          border-bottom: 2px solid $site-white;
+        }
       }
     }
   }

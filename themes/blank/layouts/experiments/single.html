@@ -1,4 +1,7 @@
-
+{{ $pageJS := .Param "vendorJS" }}
+{{ $vendorPath := .Site.Params.vendorPath }}
+{{ $jsVendor := .Site.Params.vendors }}
+{{ $jsLowerCased := lower $pageJS }}
 {{ printf "<!-- +++ experiments single item  -->" | safeHTML }}
 {{ partial "header.html" . }}
 	<main>
@@ -12,10 +15,6 @@
 						{{ .Content }}
 					</div>
 							<!-- the experiment -->
-					{{ $pageJS := .Param "vendorJS" }}
-					{{ $vendorPath := .Site.Params.vendorPath }}
-					{{ $jsVendor := .Site.Params.vendors }}
-					{{ $jsLowerCased := lower $pageJS }}
 
 					{{ if $pageJS }}
 						{{  range $vendorName, $vendorURL := $jsVendor }}

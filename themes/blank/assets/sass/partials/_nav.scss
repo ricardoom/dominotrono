@@ -11,6 +11,7 @@
         @supports not (display: flex) {
           display: block;
         }
+
         background: transparentize($site-dark-blue, 0.85);
         border: none;
         color: currentColor;
@@ -20,7 +21,7 @@
         flex-direction: column;
         margin: 1ex 2ex 0;
         padding: 1ex 0;
-        width: 5em;
+       // width: 5em;
 
         svg {
           fill: currentColor;

@@ -1,4 +1,7 @@
-# dominotrono
-towards a new bullet proof toupee... again
+# Towards a new Bullet Proof Toupee dot com
+Code named Dominotrono (no good reason why)
 
-Nothing to see here...
+Built with static site generator Hugo, SASS,and vanilla Javascript
+
+## Changelog:
+> v.0.0.1 Up until now, lots of things, but we'll have to be satisfied w/ this going forward.

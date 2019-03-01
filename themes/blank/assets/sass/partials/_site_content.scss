@@ -155,20 +155,6 @@
       }
   }
 
-  .biography-skills {
-    @include purple-gradient;
-    grid-column: 1 / 5;
-    grid-row: 5 / 6;
-    padding: 4ex 8vw 4ex 15vw;
-
-    h3 {
-      @include responsive-font(3.75vw, 1.25em, 5.5rem, 32px);
-    }
-    & ul > * {
-      font-family: $frank-new;
-    }
-  }
-
   .grid-site-data {
 
     @include media(">=phone") {

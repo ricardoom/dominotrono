@@ -3,7 +3,7 @@
 ///
 
 
-.aSidebarPrime {
+.sidebar-prime {
   background: darken($site-background-color, 0.9);
   font-family: $frank-new;
   font-style: normal;
@@ -11,8 +11,10 @@
   overflow: auto;
 
   &__sidebarTitle {
+    margin-left: 3vw;
+
     @include media(">tablet") {
-      // border-left: 3em solid $site-acid-green;
+      margin-left: 8vw;
      }
   }
 

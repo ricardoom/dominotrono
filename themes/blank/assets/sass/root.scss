@@ -19,6 +19,7 @@
 @import "partials/summary";
 @import "partials/header";
 @import "partials/portfolio_list";
+@import "partials/skill_block";
 
 //
 // rules
@@ -58,7 +59,7 @@ body {
 header,
 main,
 footer,
-.aSidebarPrime {
+.sidebar-prime {
   margin: 0 auto;
 }
 

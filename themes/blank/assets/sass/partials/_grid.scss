@@ -113,9 +113,13 @@ $left-column: 15vw;
 // Only for the home page,
 // TODO, this could be done a bit more elegantly:
 .home-page {
+  
   .grid-wrapper {
+    @include media(">=phone") {
+      padding: 0;
+    }
+
     grid-template-rows: [nameBox] minmax(14.5em, 20vh) auto;
-    padding-right: 0;
   }
 }
 

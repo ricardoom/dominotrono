@@ -151,13 +151,21 @@ article {
   font-size: 1.3rem;
 }
 
-.siteSingle {
+.site-single {
 
   &__content {
 
     h2,
     h3 {
       margin-bottom: 0.5ex;
+    }
+
+    h2 {
+      font-size: 2.25rem;
+    }
+
+    h3 {
+      font-size: 1.75rem;
     }
 
     p, ul  {

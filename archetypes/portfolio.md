@@ -17,6 +17,9 @@ postImageAlt: ""
 figcaption: ""
 svgClipObjectClass: ""
 svgColorClass: ""
+projectRoles: ['role one', 'role two']
+projectClients: ""
+projectDate: ""
 tags: []
 weight: 10
 ---

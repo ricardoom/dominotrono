@@ -29,11 +29,20 @@ relativeURLs = "true"
     portfolioHero2x = ""
     portfolioHero3x = ""
     portfolioHeroAlt = ""
+    [params.portfolio]
+        projectRoles = ""
+        projectClients = ""
+        projectDate = ""
+        projectCredits = ""
     # some classes we want to expose to hugo:
     vendorPath = "js/vendor/"
     [params.classes]
         homePage = "home-page"
         innerPage = "inner-page"
+        portfolioPage = "portfolio-page"
+        aboutPage = "about-page"
+        blogPage = "blog-page"
+        experimentsPage = "experiments-page"
     [params.vendors]
         matterJS = "matter/matter.min.js"
         paperJS = "paper/paper-full.js"

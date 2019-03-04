@@ -52,9 +52,9 @@
 // mixin for basic padding
 // todo: add {params}
 // param {$media} : >=phone
-// param {$padding} $pr/$pr = padding-right left etc...
+// param {$padding} $pl/$pr = padding-right left etc...
 
-@mixin basic-article-wrapper($breakpoint, $mw, $pl: '', $pr: '') {
+@mixin basic-article-wrapper($breakpoint, $mw, $pl: #{initial}, $pr: #{initial}) {
   @include media(#{$breakpoint}) {
     max-width: $mw;
     padding-left: $pl;

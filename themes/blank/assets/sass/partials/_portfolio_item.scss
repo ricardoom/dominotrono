@@ -1,0 +1,61 @@
+///
+/// An Individual Portfolio item: ../portfolio/the-portfolio-item
+///
+
+.grid-wrapper {
+
+  &__portfolioParent {
+
+    @include media(">=phone") {
+      display: block;
+    }
+
+    @include media(">=tablet") {
+      display: flex;
+    }
+
+    &--portfolio-item {
+      @include basic-article-wrapper('>=phone', 95vw, 5vw);
+      @include basic-article-wrapper('>=tablet', 100vw, 0, 6.5vw);
+      @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
+     
+      @include media(">=tablet") {
+        flex: 1 0 75%;
+      }
+      .portfolio {
+
+        &__content {
+
+        .portfolio-image-wrapper {
+
+          @include media('<=tablet') {
+            display: block;
+          }
+
+          figcaption {
+            font-family: $frank-new;
+            margin: 3ex 1ex;
+          }
+
+          margin: 0.5em 0;
+        }
+      } // /__content
+    }
+  }
+    &--involvement {
+      @include media(">=tablet") {
+      flex: 1 0 25%;
+      padding: 10vmax 1vw 0;
+      }
+
+      h3 {
+        background: $site-transparent-bg;
+        font-family: $frank-new;
+        padding: 1ex 1.5ex;
+      }
+
+    font-family: $frank-new;
+    }
+  }
+}
+

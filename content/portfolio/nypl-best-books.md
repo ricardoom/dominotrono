@@ -18,8 +18,9 @@ portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
 svgClipObjectClass: 'diagonalDot'
 svgColorClass: 'site-color--green-blue'
-tags: []
+tags: ['visual design', 'UX', 'interface design']
 weight: -2
+projectRoles: []
 ---
 ## Project Details:
 

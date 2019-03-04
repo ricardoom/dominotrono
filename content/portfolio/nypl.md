@@ -1,5 +1,5 @@
 ---
-title: 'NYPL Home Page'
+title: 'New York Public Libary Redesign'
 date: 2018-10-09T11:47:46-04:00
 draft: false
 categories: 'portfolio'
@@ -19,13 +19,13 @@ svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--purple'
 tags: ['visual design', 'design technology']
 weight: -2
+projectRoles: ['Design Lead', 'Product Owner']
+projectClients: 'Internal Stake Holders at NYPL'
+projectCredits: 'Visual Designer (Second Storey): Jinu Yang'
+projectDate: '2015-2018'
 ---
 ## Project Details:
-Displayed below are comps for the NYPL home page at various points in the process of redesign. 
-I helped steer the project towards a more accessible structure.
-I did fine tuning of the layout in React and SASS.
-Worked closely with the front end team to implement iconography and type. 
-Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
+In close collaboration with the Portland based design studio Second Storey. Displayed below are comps for the NYPL home page at various points in the process of redesign. I helped steer the project towards a more accessible structure. Much of my work centered around fine tuning of the layout in React and SASS. Worked closely with the front end team to implement iconography and type. Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
@@ -42,11 +42,12 @@ Worked through a wide variety of potential use cases and scenarios with respect 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722296/nypl-dot-org/nypl_tablet_full.jpg"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722296/nypl-dot-org/nypl_tablet_full.jpg 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722296/nypl-dot-org/nypl_tablet_full.jpg"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722296/nypl-dot-org/nypl_tablet_full.jpg"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722296/nypl-dot-org/nypl_tablet_full.jpg 2x"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722296/nypl-dot-org/nypl_tablet_full.jpg"
     class="image-block__100"
     alt="An alternate image of the NYPL home page"
+    imgHeading="Login drop down is fully keyboard and assistive device compatible"
     figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the Recommendations section as well as the top page hero carousel for smaller screens, in this case tablets" title="NYPL home page Tablet view " >}}
 
 {{< /image_wrapper >}}
@@ -58,6 +59,7 @@ Worked through a wide variety of potential use cases and scenarios with respect 
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722313/nypl-dot-org/desktop_landing_browse.png"
       class="image-block__100"
       alt="An image of an interior page"
+       imgHeading=""
       figcaption="An example of an interior landing page dedicated towards giving voice to the wide variety of expertise the library has to offer."
     >}}
 

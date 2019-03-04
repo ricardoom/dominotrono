@@ -185,7 +185,8 @@ $mobile-second-row: 15vh;
        }
       } // ./subtitle grid container
 
-      &__listParent {
+      &__listParent,
+      &__portfolioParent {
 
        @include media(">=phone") {
         grid-column: 1 / 1;
@@ -197,12 +198,12 @@ $mobile-second-row: 15vh;
         grid-row: 1 / 1;
        }
 
-       @include media(">=desktop") {
-        grid-column: 2 / 4;
-        grid-row: 1 / 1;
-       }
+      //  @include media(">=desktop") {
+      //   grid-column: 2 / 4;
+      //   grid-row: 1 / 1;
+      //  }
 
-        &--portfolio {
+        &--portfolio-list {
           @include media(">=phone") {
             grid-column: 1;
           }
@@ -214,22 +215,12 @@ $mobile-second-row: 15vh;
           padding: 0;
           margin: 0;
         }
+
+        &--portfolio-item {
+
+        }
       }
-
-    //   .jumbo-grid-container {
-    //    @include media (">=phone") {
-    //       grid-column: 1 / 1;
-    //       grid-row: 10 / 12;
-
-    //     &__content {
-    //       top: 0;
-    //     }
-    //    } // / phone breakpoint
-
-    //     @include media(">=tablet") {
-    //       grid-column: 2 / 5;
-    //    }
-    // } // /.jumbo-grid-container
+      // /__listParent
 
     .mast-head {
       @include media(">=phone") {

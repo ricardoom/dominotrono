@@ -11,6 +11,7 @@
 @import "partials/typography";
 @import "partials/grid";
 @import "partials/nav";
+@import "partials/tags_taxo";
 @import "partials/articles";
 @import "partials/sidebar";
 @import "partials/site_content";
@@ -19,6 +20,7 @@
 @import "partials/summary";
 @import "partials/header";
 @import "partials/portfolio_list";
+@import "partials/portfolio_item";
 @import "partials/skill_block";
 
 //
@@ -91,6 +93,11 @@ aside {
   width: 100vw;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style: none;
 }
@@ -135,32 +142,6 @@ li {
 .site-pagination {
   background-color: lighten($site-background-color, 25%);
   padding: 2ex 2em;
-}
-
-///
-/// Basic rules for tags
-///
-.site-tags {
-  @include media(">=phone") {
-    margin: 0;
-    padding-left: 5vw;
-  }
-
-  @include media(">=tablet") {
-    margin: 1ex 0;
-    padding-left: 0;
-  }
-
-  padding: 0;
-
-  &__tag {
-    @include responsive-font(2vw, 1em, 4em, 36px);
-    text-decoration: none;
-    display: inline-block;
-    font-style: italic;
-    margin: 1ex 0;
-    padding: 0;
-  }
 }
 
 //

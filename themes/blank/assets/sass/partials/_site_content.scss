@@ -22,35 +22,13 @@
     padding: 0.5em 1em;
   }
 
-  .subtitle {
-    @include media(">=phone") {
-      padding: 2.5ex;
-    }
-
-    @include media(">=tablet") {
-     @include slideUpDown;
-      padding: 1ex 0;
-    }
-
-    @include media(">=desktop") {
-      padding: 1.3ex 0;
-    }
-    @include responsive-font(8vw, 1.5rem, 10rem, 30px);
-    display: block;
-    font-family: $justus-pro;
-    line-height: 1em;
-    
-  }
-
     &__homePage {
       width: 90vw;
     }
 }
 
 .grid-wrapper {
-// 1st square
 
-  //:nth-child(2)
   .subtitle-grid-container {
     @include media(">=phone") {
       background: transparentize($site-background-color, 0.25)
@@ -58,6 +36,26 @@
 
     @include media(">=tablet") {
       background: transparent;
+    }
+
+    &__subTitle {
+      @include media(">=phone") {
+        margin: 1ex 0;
+        padding: 1.25ex 2.5ex;
+      }
+  
+      @include media(">=tablet") {
+       @include slideUpDown;
+        padding: 1ex 0;
+      }
+  
+      @include media(">=desktop") {
+        padding: 1.3ex 0;
+      }
+      @include responsive-font(8vw, 1.5rem, 10rem, 30px);
+      display: block;
+      font-family: $justus-pro;
+      line-height: 1em;
     }
   }
 

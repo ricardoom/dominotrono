@@ -10,10 +10,11 @@
   overflow: auto;
 
   &__sidebarTitle {
+    @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
     margin-left: 3vw;
 
     @include media(">tablet") {
-      margin-left: 8vw;
+      margin-left: 15vw;
      }
   }
 

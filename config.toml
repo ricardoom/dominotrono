@@ -1,4 +1,4 @@
-baseURL = "http://proto.bulletprooftoupee.com/"
+baseURL = "http://galvez.design/"
 languageCode = "en-us"
 title = "bulletprooftoupee.com"
 theme = "blank"
@@ -9,7 +9,6 @@ relativeURLs = "true"
 #sectionPagesMenu = "main"
 
 [params]
-    cdnURL = "http://cdn.bulletprooftoupee.com/"
     author="Ricardo Eric Gálvez"
     subtitle="Ricardo E. Gálvez"
     # Image params:

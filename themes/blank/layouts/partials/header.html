@@ -49,9 +49,9 @@
       <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>
     </div>
     <nav class="site-header__siteNavigation">
-      <button class="site-header__siteNavigation--button" id="mobileNavButton" aria-controls="navItems">
+      <button class="site-header__siteNavigation--button" id="mobileNavButton" aria-labelledby="menuLabel" aria-controls="navItems">
         <span class="svg-icon" id="navControl">{{ $navControlIcon }}</span>
-        <span class="menu-label">Menu</span>
+        <span class="menu-label" id="menuLabel">Menu</span>
       </button>
       <ul id="navItems" class="" aria-expanded="false">
         {{ range .Site.Menus.main }}

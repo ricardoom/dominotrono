@@ -16,12 +16,10 @@
         border: none;
         color: currentColor;
         cursor: pointer;
-        font-size: 1em;
+        font-size: 0.8em;
         display: flex;
         flex-direction: column;
-        margin: 1ex 2ex 0;
-        padding: 1ex 0;
-       // width: 5em;
+        padding: 1ex;
 
         svg {
           fill: currentColor;
@@ -47,10 +45,6 @@
         @include media(">=tablet") {
           display: none;
         }
-      }
-
-      .fonts-loaded button span  {
-        font-family: $frank-new;
       }
 
       ul {
@@ -144,6 +138,10 @@
   .site-header {
    
     &__siteNavigation {
+      font-family: $frank-new;
+    }
+
+    .menu-label  {
       font-family: $frank-new;
     }
   }

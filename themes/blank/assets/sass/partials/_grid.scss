@@ -2,7 +2,6 @@
 /// Grid Settings Y Styles
 ///
 
-
 ///
 /// Header
 ///
@@ -13,6 +12,8 @@
 $tablet-column: 15vw;
 $desktop-column: 25vw;
 $left-column: 15vw;
+$mobile-first-row: 15vh;
+$mobile-second-row: 15vh;
 
 .site-header {
   @include media(">=phone") {
@@ -49,7 +50,7 @@ $left-column: 15vw;
   &__siteNameContainer {
     @include media(">=phone") {
       display: block;
-      flex: 3 1 auto;
+      flex: 2 1 95%;
       padding-top: 1.8em;
     }
 
@@ -78,7 +79,7 @@ $left-column: 15vw;
   //
   &__siteNavigation {
     @include media(">=phone") {
-      flex: 1 1 0;
+      flex: 1 1 5%;
     }
 
     @include media(">=tablet") {

@@ -8,7 +8,7 @@
 
     &--name {
 
-      @include responsive-font(3.25vw, 1.3em, 4em, 36px);
+      @include responsive-font(3.25vw, 2rem, 3.6rem, 36px);
       align-self: end;
       color: $site-white;
       font-family: $sans-serif;

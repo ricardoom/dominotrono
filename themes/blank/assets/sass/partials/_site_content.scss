@@ -30,12 +30,17 @@
 .grid-wrapper {
 
   .subtitle-grid-container {
+    
     @include media(">=phone") {
       background: transparentize($site-background-color, 0.25)
     }
 
     @include media(">=tablet") {
       background: transparent;
+    }
+
+    @include media(">=desktop") {
+     padding: 0 1vw 0;
     }
 
     &__subTitle {
@@ -50,9 +55,11 @@
       }
   
       @include media(">=desktop") {
+        @include slideUpDown(slideDownLarge);
         padding: 1.3ex 0;
       }
-      @include responsive-font(8vw, 1.5rem, 10rem, 30px);
+
+      @include responsive-font(7.25vw, 1.5rem, 17rem, 200px);
       display: block;
       font-family: $justus-pro;
       line-height: 1em;

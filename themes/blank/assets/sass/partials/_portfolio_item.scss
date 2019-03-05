@@ -16,7 +16,7 @@
 
     &--portfolio-item {
       @include basic-article-wrapper('>=phone', 95vw, 5vw);
-      @include basic-article-wrapper('>=tablet', 100vw, 0, 6.5vw);
+      @include basic-article-wrapper('>=tablet', 100vw, 0, 1.5vw);
       @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
      
       @include media(">=tablet") {
@@ -45,13 +45,19 @@
     &--involvement {
       @include media(">=tablet") {
       flex: 1 0 25%;
-      padding: 10vmax 1vw 0;
+      padding: 10vmax 0 0 2vw;
       }
 
       h3 {
-        background: $site-transparent-bg;
+        border-top: 3px solid tranparentize($site-white, 0.65);
         font-family: $frank-new;
-        padding: 1ex 1.5ex;
+        padding: 1ex 1.5ex 0 0;
+        margin-bottom: 1ex;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
       }
 
     font-family: $frank-new;

@@ -10,7 +10,7 @@
 function getHours() {
   const d = new Date();
   const offset = d.getTimezoneOffset() / 60;
-  console.log(offset);
+  //console.log(offset);
   let h = d.getUTCHours() - offset;
   let absoluteFix = Math.abs(h);
   h = h - absoluteFix;
@@ -83,7 +83,7 @@ const bgPairs = [
 
 // Now set them to the hour:
 const theHour = getHours();
-console.log(theHour);
+//console.log(theHour);
 const start = bgPairs[0].start[theHour];
 const end = bgPairs[0].end[theHour];
 

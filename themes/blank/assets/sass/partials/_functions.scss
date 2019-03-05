@@ -106,7 +106,18 @@
   }
 }
 
-@keyframes slideOver {
+
+
+// @keyframes slideBack {
+//     0% {
+//       transform: translateX(-100px);
+//     }
+//     100% {
+//     transform: translateX(0px);
+//   }
+// }
+
+@keyframes slideDownMedium {
   0% {
     opacity: 0;
     transform: translateY(-50px);
@@ -117,23 +128,35 @@
   }
 }
 
-@keyframes slideBack {
-    0% {
-      transform: translateX(-100px);
-    }
-    100% {
-    transform: translateX(0px);
+@keyframes slideDownLarge {
+  0% {
+    opacity: 0;
+    transform: translateY(-175px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-20%);
   }
 }
 
+// @keyframes slideBack {
+//     0% {
+//       transform: translateX(-100px);
+//     }
+//     100% {
+//     transform: translateX(0px);
+//   }
+// }
+
 @mixin slideUpDown(
+  $animation-name: slideDownMedium,
   $duration: 750ms,
   $direction: normal,
   $delay: 200ms,
   $iteration-count: 1,
   $timing-function: ease-out,
   $fill-mode: both) {
-  animation: slideOver;
+  animation:  $animation-name;
   animation-duration: $duration;
   animation-direction: $direction;
   animation-delay: $delay;

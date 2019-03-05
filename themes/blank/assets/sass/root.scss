@@ -53,6 +53,14 @@ html {
 }
 
 body {
+  @include media("<=desktop") {
+    padding: 0;
+  }
+
+  @include media(">mega") {
+    padding: 0 10vw;
+  }
+
   font-size: 1.6rem;
   margin: 0;
 

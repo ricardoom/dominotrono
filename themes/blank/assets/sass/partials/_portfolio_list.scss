@@ -7,21 +7,22 @@
   &__content {
 
     h1 {
-      @include responsive-font(4vw, 1.25em, 150px, 50px);
+      @include responsive-font(4vw, 1.25em, 64px, 50px);
 
       @include media(">=phone") {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         line-height: 1;
-        padding: 0.5em 0 0;
+        // padding: 0.5em 0 0;
       }
 
       @include media(">=tablet") {
         grid-column: 2 / 2;
         grid-row: 1 / 1;
-        padding: 0;
+        // padding: 0;
       }
 
+      align-self: center;
       color: $site-white;
       font-weight: 400;
       margin: 0;
@@ -41,7 +42,8 @@
       svg {
         @include media(">=phone") {
           fill: $site-white;
-          max-width: 10vw;
+          max-width: 100%;
+          margin: 10% 10% 0;
           opacity: 0.15;
         }
         @include media(">=tablet") {
@@ -49,6 +51,7 @@
           padding: 0 10% 0 0;
         }
       }
+      align-self: center;
       top: 5em;
     }
 
@@ -65,15 +68,18 @@
     }
 
     @include media(">=phone") {
-      grid-template-columns: minmax(6vw, 12vw) 3fr;
-      grid-template-rows: 9.5vmax 3fr; 
+      grid-template-columns: minmax(3vw, 8vw) 3fr;
+      grid-template-rows: minmax(2.25vh, 4.5vh) 3fr; 
     }
 
     @include media(">=tablet") {
-      grid-template-columns: 15vw 2fr;
-      grid-template-rows: minmax(3.125em, 8vh) 3fr; 
+      grid-template-columns: 5vw 2fr;
+      grid-template-rows: minmax(3vh, 6vh) 3fr; 
     }
 
+    @include media(">=desktop") {
+      grid-template-rows: minmax(6vh, 10vh) 3fr; 
+    }
     display: grid;
   }
 

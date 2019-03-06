@@ -7,7 +7,7 @@
   &__content {
 
     h1 {
-      @include responsive-font(4vw, 1.25em, 64px, 50px);
+      @include responsive-font(3.5vw, 1.25em, 64px, 50px);
 
       @include media(">=phone") {
         grid-column: 2 / 3;

@@ -98,6 +98,8 @@ a,
 .fonts-loaded a {
   &:link {
     color: $site-link;
+    box-shadow: 0 0 0 0 $site-green-blue;
+    transition: box-shadow 200ms linear;
   }
 
   &:visited {
@@ -106,7 +108,8 @@ a,
   }
 
   &:hover {
-    @include focus-ring(outline, $site-acid-green)
+    //@include focus-ring(outline, $site-acid-green)
+    box-shadow: 0 0 0 2px $site-green-blue;
   }
 
   &:active {

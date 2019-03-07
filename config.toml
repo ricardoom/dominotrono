@@ -11,13 +11,7 @@ enableRobotsTXT = "true"
 [params]
     author="Ricardo Eric Gálvez"
     subtitle="Ricardo E. Gálvez"
-    [params.twitter]
-    site = "@rixblargh"
-    title = "Ricardo E. Galvez - Design Technologist"
-    description = "The portfolio of Ricardo E. Galvez. Artist and design technologist in Brooklyn, New York. Former senior designer at the New York Public Library and WNET / THIRTEEN / PBS New York."
-    card = "summary_large_image"
-    [params.openGraph]
-    image = "assets/images/eyeballVector@2x.png"
+    vendorPath = "js/vendor/"
     # Image params:
     postImageSqip = ""
     postImage1x = ""
@@ -36,13 +30,19 @@ enableRobotsTXT = "true"
     portfolioHero2x = ""
     portfolioHero3x = ""
     portfolioHeroAlt = ""
+    [params.twitter]
+        site = "@rixblargh"
+        title = "Ricardo E. Galvez - Design Technologist"
+        description = "The portfolio of Ricardo E. Galvez. Artist and design technologist in Brooklyn, New York. Former senior designer at the New York Public Library and WNET / THIRTEEN / PBS New York."
+        card = "summary_large_image"
+    [params.openGraph]
+        image = "images/eyeballVector@2x.png"
     [params.portfolio]
         projectRoles = ""
         projectClients = ""
         projectDate = ""
         projectCredits = ""
     # some classes we want to expose to hugo:
-    vendorPath = "js/vendor/"
     [params.classes]
         homePage = "home-page"
         innerPage = "inner-page"

@@ -29,7 +29,7 @@
 
         {{ if eq $jsLowerCased "paperjs" }}
         {{ printf "<!-- If paper js is present then we do special stuff  -->" | safeHTML }}
-        <script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
+        <script type="text/javascript" src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
         <script type="text/paperscript" src="{{ $.Site.BaseURL }}js/PaperAnyone.js" canvas="paperCanvas"></script>
         <canvas class="canvas__myCanvas" id="paperCanvas" resize></canvas>
 

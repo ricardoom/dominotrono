@@ -5,6 +5,8 @@
 {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
 {{ $class := .Site.Params.classes }}
 {{ $navControlIcon := ( partial "svg/navControlIcon.svg" ) }}
+{{ $ogImage := "assets/images/eyeballVector@2x.png" }}
+
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 
@@ -17,7 +19,11 @@
   <meta name="twitter:title" content="{{ .Site.Params.twitter.title }}">
   <meta name="twitter:description" content="{{ .Site.Params.twitter.description }}">
   <meta name="twitter:card" content="{{ .Site.Params.twitter.card }}">
-
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ .Site.BaseURL }}" />
+  <meta property="og:title" content="{{ .Site.Params.twitter.description }}">
+  <meta property="og:description" content="{{ .Site.Params.twitter.description }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ $ogImage }}">
   <title>{{ .Title }}</title>
   {{ with .Site.Params.description }}
   <meta name="description" content="{{ . }}">{{ end }}

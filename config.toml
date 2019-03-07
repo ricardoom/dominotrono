@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "ricardo.galvez.design"
 theme = "blank"
 relativeURLs = "true"
-
+enableRobotsTXT = "true"
 #defaultLayout="posts"
 
 #sectionPagesMenu = "main"
@@ -16,6 +16,8 @@ relativeURLs = "true"
     title = "Ricardo E. Galvez - Design Technologist"
     description = "Portfolio of Ricardo E. Galvez. An artist and design technologist in Brooklyn, New York. Former senior designer at the New York Public Library and WNET / THIRTEEN / PBS New York."
     card = "summary_large_image"
+    [params.openGraph]
+    image = "assets/images/eyeballVector@2x.png"
     # Image params:
     postImageSqip = ""
     postImage1x = ""

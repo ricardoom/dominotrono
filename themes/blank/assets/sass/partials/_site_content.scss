@@ -4,7 +4,7 @@
 ///
 
 .site-content {
-  
+
   button {
     background: transparent;
     border: 0.15em solid $site-white;
@@ -30,7 +30,7 @@
 .grid-wrapper {
 
   .subtitle-grid-container {
-    
+
     @include media(">=phone") {
       background: transparentize($site-background-color, 0.25)
     }
@@ -48,12 +48,12 @@
         margin: 1ex 0;
         padding: 1.25ex 2.5ex;
       }
-  
+
       @include media(">=tablet") {
        @include slideUpDown;
         padding: 1ex 0;
       }
-  
+
       @include media(">=desktop") {
         @include slideUpDown(slideDownLarge);
         padding: 1.3ex 0;

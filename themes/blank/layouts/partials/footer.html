@@ -10,12 +10,21 @@ That is, if its a Paperscript experiment, that page's necessary framework script
   <p class="site-footer__siteCredit">&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   </p>
 </footer>
+<script>
+  var domainName = document.domain;
+  var headerName = document.querySelector(".site-header__siteNameContainer--name");
+  headerName.innerHTML = domainName;
+      //if (domainName == "http://localhost:1313") {
+        //headerName.text
+     // }
+</script>
 {{ if .Site.IsServer }}
 {{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.js" }}
 <script src="{{ $script.Permalink }}"></script>
 {{ else }}
 {{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.js" | minify | fingerprint }}
 <script src="{{ $script.Permalink }}"></script>
+
 {{ end }}
 
 </body>

@@ -12,6 +12,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="designer" content="Ricardo E. Galvez, galvez.design">
+  <meta name="twitter:site" content="{{ .Site.Params.twitter.site }}">
+  <meta name="twitter:title" content="{{ .Site.Params.twitter.title }}">
+  <meta name="twitter:description" content="{{ .Site.Params.twitter.description }}">
+  <meta name="twitter:card" content="{{ .Site.Params.twitter.card }}">
+
   <title>{{ .Title }}</title>
   {{ with .Site.Params.description }}
   <meta name="description" content="{{ . }}">{{ end }}
@@ -49,7 +55,8 @@
       <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>
     </div>
     <nav class="site-header__siteNavigation">
-      <button class="site-header__siteNavigation--button" id="mobileNavButton" aria-labelledby="menuLabel" aria-controls="navItems">
+      <button class="site-header__siteNavigation--button" id="mobileNavButton" aria-labelledby="menuLabel"
+        aria-controls="navItems">
         <span class="svg-icon" id="navControl">{{ $navControlIcon }}</span>
         <span class="menu-label" id="menuLabel">Menu</span>
       </button>

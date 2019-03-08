@@ -20,7 +20,7 @@ $dot-width: $dot-height;
       .dot {
         height: ($dot-height * 2);
         width: ($dot-width * 2);
-        // width="107.66667" height="107.66667" 
+        // width='107.66667' height='107.66667' 
       }
 
 
@@ -29,7 +29,7 @@ $dash-width: 6.25rem;
       .dash {
         height: ($dash-height * 2); // the old & orginal height 3.39014625rem;
         width: ($dash-width * 2);
-        // width="200" height="108.48468"
+        // width='200' height='108.48468'
       }
     }
 }

@@ -16,12 +16,12 @@ $mobile-first-row: 15vh;
 $mobile-second-row: 15vh;
 
 .site-header {
-  @include media(">=phone") {
+  @include media('>=phone') {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
-  @include media(">=tablet") {
+  @include media('>=tablet') {
     display: block;
   }
 
@@ -31,42 +31,41 @@ $mobile-second-row: 15vh;
     // function take named media q. as args
     // take number after each as arg of number of frs to output
 
-    @include media(">=phone") {
+    @include media('>=phone') {
       grid-template-columns: 1fr;
       grid-template-rows: minmax(3.2em, 4em);
     }
 
-    @include media(">=tablet") {
+    @include media('>=tablet') {
       grid-template-columns: $left-column repeat(4, 1fr);
       grid-template-rows: 8em;
     }
 
-    // @include media(">=desktop") {
+    // @include media('>=desktop') {
     //   grid-template-columns: $left-column 1fr 1fr 1fr;
     //   grid-template-rows: 10em;
     // }
   }
 
   &__siteNameContainer {
-    @include media(">=phone") {
+    @include media('>=phone') {
       display: block;
       flex: 2 1 95%;
       padding-top: 1.8em;
     }
 
-    @include media(">=tablet") {
+    @include media('>=tablet') {
       display: grid;
       padding-top: 0;
     }
 
     &--name {
-
-      @include media(">=phone") {
+      @include media('>=phone') {
         grid-column: 1 / 1;
         padding-left: 3vmin;
       }
 
-      @include media(">=tablet") {
+      @include media('>=tablet') {
         grid-column: 2 / 4;
         padding-left: 0;
         //padding: 0.5em 0 3vw 0.65em;
@@ -78,26 +77,25 @@ $mobile-second-row: 15vh;
   // Do some adjusting of the site nav
   //
   &__siteNavigation {
-    @include media(">=phone") {
+    @include media('>=phone') {
       flex: 1 1 5%;
     }
 
-    @include media(">=tablet") {
+    @include media('>=tablet') {
       display: grid;
       padding-right: 4em;
     }
 
     ul {
-
-      @include media(">=phone"){
-        grid-column: 1
+      @include media('>=phone') {
+        grid-column: 1;
       }
 
-      @include media(">=tablet"){
-        grid-column: 2 / 4
+      @include media('>=tablet') {
+        grid-column: 2 / 4;
       }
 
-      @include media(">=desktop"){
+      @include media('>=desktop') {
         grid-column: 2 / 4;
       }
     }
@@ -114,9 +112,8 @@ $mobile-second-row: 15vh;
 // Only for the home page,
 // TODO, this could be done a bit more elegantly:
 .home-page {
-  
   .grid-wrapper {
-    @include media(">=phone") {
+    @include media('>=phone') {
       padding: 0;
     }
 
@@ -125,19 +122,18 @@ $mobile-second-row: 15vh;
 }
 
 .grid-wrapper {
-
-  @include media(">=phone") {
+  @include media('>=phone') {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     padding: 0 6vw;
   }
 
-  @include media(">=tablet") {
+  @include media('>=tablet') {
     grid-template-columns: minmax(1em, $tablet-column) repeat(3, 1fr);
     padding: 0 1em 0 0;
   }
 
-  @include media(">=desktop"){
+  @include media('>=desktop') {
     grid-template-columns: $left-column repeat(3, 1fr);
     padding-right: 4em;
   }
@@ -146,276 +142,267 @@ $mobile-second-row: 15vh;
 
   > div {
     border: 1px solid hsla(327, 94%, 48%, 0.1);
-    }
+  }
 
-    .prime-box {
-      @include media(">=phone") {
-       grid-column: 1 / 1;
-       grid-row: 1 /1;
+  .prime-box {
+    @include media('>=phone') {
+      grid-column: 1 / 1;
+      grid-row: 1 /1;
 
-       svg {
+      svg {
         height: auto;
         padding: 1em;
         width: 100%;
-        }
+      }
+    }
+
+    @include media('>=tablet') {
+      grid-column: 1 / 3;
+      grid-row: 1 / 1;
+      padding: 3vw 4vw 3vw 6vw;
+    }
+
+    @include media('>=desktop') {
+      grid-row: nameBox;
+    }
+  } // prime box
+
+  .subtitle-grid-container {
+    @include media('>=phone') {
+      grid-column: 1 / 1;
+      grid-row: 2 / 2;
+    }
+
+    @include media('>=tablet') {
+      grid-column: 3 / 5;
+      grid-row: 1 / 1;
+    }
+  } // ./subtitle grid container
+
+  &__listParent,
+  &__portfolioParent {
+    @include media('>=phone') {
+      grid-column: 1 / 1;
+      grid-row: 2 / 2;
+    }
+
+    @include media('>=tablet') {
+      grid-column: 2 / 5;
+      grid-row: 1 / 1;
+    }
+
+    //  @include media('>=desktop') {
+    //   grid-column: 2 / 4;
+    //   grid-row: 1 / 1;
+    //  }
+
+    &--portfolio-list {
+      @include media('>=phone') {
+        grid-column: 1;
       }
 
-      @include media(">=tablet") {
-        grid-column: 1 / 3;
-        grid-row: 1 / 1;
-        padding: 3vw 4vw 3vw 6vw;
-      }
-
-      @include media(">=desktop"){
-        grid-row: nameBox;
-      }
-    } // prime box
-
-
-
-    .subtitle-grid-container {
-      @include media(">=phone") {
-        grid-column: 1 / 1;
-        grid-row: 2 / 2;
-       }
-
-       @include media(">=tablet") {
-        grid-column: 3 / 5;
-        grid-row: 1 / 1;
-       }
-      } // ./subtitle grid container
-
-      &__listParent,
-      &__portfolioParent {
-
-       @include media(">=phone") {
-        grid-column: 1 / 1;
-        grid-row: 2 / 2;
-       }
-
-       @include media(">=tablet") {
+      @include media('>=tablet') {
         grid-column: 2 / 5;
-        grid-row: 1 / 1;
-       }
+      }
 
-      //  @include media(">=desktop") {
-      //   grid-column: 2 / 4;
-      //   grid-row: 1 / 1;
-      //  }
+      padding: 0;
+      margin: 0;
+    }
 
-        &--portfolio-list {
-          @include media(">=phone") {
-            grid-column: 1;
-          }
+    // &--portfolio-item {
+    // }
+  }
+  // /__listParent
 
-          @include media(">=tablet") {
-            grid-column: 2 / 5;
-          }
+  .mast-head {
+    @include media('>=phone') {
+      grid-column: 1 / 1;
+    }
 
-          padding: 0;
-          margin: 0;
+    @include media('>=tablet') {
+      grid-column: 1 / 5;
+    }
+
+    grid-row: 3 / 4;
+  } // /__masthead
+
+  ///
+  /// Home page portfolio grid & flex
+  ///
+  .portfolio-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+    // &__mastHead {
+    //   flex: 1 1 100%;
+    // }
+
+    &__summary {
+      a {
+        display: block;
+      }
+
+      @include media('<phone') {
+        flex: 1 1 50%;
+      }
+
+      @include media('>=phone') {
+        flex: 1 1 50%;
+
+        &:last-child {
+          max-width: 50%;
         }
+      }
 
-        &--portfolio-item {
+      @include media('>=tablet') {
+        max-width: 25%;
 
+        &:last-child {
+          max-width: 25%;
         }
       }
-      // /__listParent
+    }
 
-    .mast-head {
-      @include media(">=phone") {
-        grid-column: 1 / 1;
-      }
-      
-      @include media(">=tablet") {
-        grid-column: 1 / 5;
-      }
-
-       grid-row: 3 / 4;
-
-    } // /__masthead
-
-///
-/// Home page portfolio grid & flex
-///
-      .portfolio-flex {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    &__content {
+      figure {
         margin: 0;
         padding: 0;
 
-          // &__mastHead {
-          //   flex: 1 1 100%;
-          // }
-
-          &__summary {
-
-            a {
-              display: block;
-            }
-
-            @include media("<phone") {
-              flex: 1 1 50%;
-              }
-
-            @include media(">=phone") {
-              flex: 1 1 50%;
-
-                &:last-child {
-                  max-width: 50%;
-                }
-            }
-
-            @include media(">=tablet"){
-              max-width: 25%;
-
-              &:last-child {
-                max-width: 25%;
-              }
-            }
-          }
-
-          &__content {
-
-            figure {
-              margin: 0;
-              padding: 0;
-
-              img {
-                height: 100%;;
-                width: 100%;
-                border: 0
-              }
-
-              // Need to find a better way to add this color class to the overlay.
-             // adding the class (read: which color to use) is fine and all but the css below is seemingly clunky, JS might better be used to randomize which colors are used as overlays and _not_ add the color at the post level, which would require prior knowledge of which color : classes exist...
-
-             // that said, a better step would be to write some JS so apply those color classes on its own and the we dont have to worry about applying them manually anywhere...
-
-             // Same w/ the overlays... 🤔
-             // also these SVG rules should be moved to a partial...
-
-             // and probably made into a for/each function instead of verbosely outputting here...
-
-              &.fourDots {
-                @include svgOverlay(#four_dots);
-              }
-
-              &.twoSquares {
-                @include svgOverlay(#two_squares);
-              }
-
-              &.overDots {
-                @include svgOverlay(#over_dots);
-              }
-
-              &.oneDiagonal {
-               @include svgOverlay(#one_diagonal);
-              }
-
-              &.oneDiagonal-45 {
-                @include svgOverlay(#one_diagonal);
-                //transform: rotate(45deg);
-               }
-
-              &.boxDiagonals {
-                @include svgOverlay (#box_diagonals);
-              }
-
-              &.variableDots {
-                @include svgOverlay (#variable_dots);
-              }
-
-              &.diagonalDot {
-                @include svgOverlay (#diagonal_dot);
-              }
-
-              &.oneCircle {
-                @include svgOverlay (#quarter_circle);
-              }
-
-              &.squaresCircles {
-                @include svgOverlay (#squares_circles);
-              }
-
-              &.bigCircle {
-                @include svgOverlay (#big_circle);
-              }
-
-              &.bigPill {
-                @include svgOverlay (#big_pill);
-              }
-            } // /figure
-          }
-
-        // handles placement on the parent grid:
-        @include media(">=phone") {
-          grid: auto / 1fr; 
-          grid-column: 1 / 1;
-          grid-row: 4 / 5;
+        img {
+          height: 100%;
+          width: 100%;
+          border: 0;
         }
 
-        @include media(">=tablet"){
-          grid: auto / repeat(4, 1fr);
-          grid-column: 1 / 5;
+        // Need to find a better way to add this color class to the overlay.
+        // adding the class (read: which color to use) is fine and all but the css below is seemingly clunky, JS might better be used to randomize which colors are used as overlays and _not_ add the color at the post level, which would require prior knowledge of which color : classes exist...
+
+        // that said, a better step would be to write some JS so apply those color classes on its own and the we dont have to worry about applying them manually anywhere...
+
+        // Same w/ the overlays... 🤔
+        // also these SVG rules should be moved to a partial...
+
+        // and probably made into a for/each function instead of verbosely outputting here...
+
+        &.fourDots {
+          @include svg-overlay(#four_dots);
         }
 
-        @include media(">=desktop") {
-          grid: auto / repeat(5, 1fr);
-          // grid-column: 1 / 5;
+        &.twoSquares {
+          @include svg-overlay(#two_squares);
         }
-      }
 
-      // /flex box version of the portfolio grid...
+        &.overDots {
+          @include svg-overlay(#over_dots);
+        }
 
-      //
-      // The portfolio card grid on the Home Page:
-      //
+        &.oneDiagonal {
+          @include svg-overlay(#one_diagonal);
+        }
 
-      
-    //   .portfolio-grid {
+        &.oneDiagonal-45 {
+          @include svg-overlay(#one_diagonal);
+        }
 
-    //      @include media(">=phone") {
-    //       grid: auto / 1fr; 
-    //       grid-column: 1 / 1;
-    //       grid-row: 3 / 9;
-    //     }
+        &.boxDiagonals {
+          @include svg-overlay(#box_diagonals);
+        }
 
-    //     @include media(">=tablet") {
-    //       grid: auto / 1fr 1fr 1fr 1fr;
-    //       grid-column: 1 / 4;
-    //     }
+        &.variableDots {
+          @include svg-overlay(#variable_dots);
+        }
 
-    //     @include media(">=desktop") {
-    //       grid: auto / 1fr 1fr 1fr 1fr 1fr;
-    //       grid-column: 1 / 5;
-    //     }
+        &.diagonalDot {
+          @include svg-overlay(#diagonal_dot);
+        }
 
-    //     display: grid;
+        &.oneCircle {
+          @include svg-overlay(#quarter_circle);
+        }
 
-    //     &__summary {
-    //       @include media(">=phone") {
-    //         background-color: $site-punk-pink;
-    //       }
-    //       @include media(">=tablet") {
-    //         background-color: hsl(22, 100%, 50%);
-    //       }
-    //       @include media(">=desktop") {
-    //         background-color: hsl(80, 61%, 50%);
-    //       }
-    //     }
-    // }
+        &.squaresCircles {
+          @include svg-overlay(#squares_circles);
+        }
 
-  @include media(">=phone") {
-// .jumbo-grid-container {
+        &.bigCircle {
+          @include svg-overlay(#big_circle);
+        }
+
+        &.bigPill {
+          @include svg-overlay(#big_pill);
+        }
+      } // /figure
+    }
+
+    // handles placement on the parent grid:
+    @include media('>=phone') {
+      grid: auto / 1fr;
+      grid-column: 1 / 1;
+      grid-row: 4 / 5;
+    }
+
+    @include media('>=tablet') {
+      grid: auto / repeat(4, 1fr);
+      grid-column: 1 / 5;
+    }
+
+    @include media('>=desktop') {
+      grid: auto / repeat(5, 1fr);
+      // grid-column: 1 / 5;
+    }
+  }
+
+  // /flex box version of the portfolio grid...
+
+  //
+  // The portfolio card grid on the Home Page:
+  //
+
+  //   .portfolio-grid {
+
+  //      @include media('>=phone') {
+  //       grid: auto / 1fr;
+  //       grid-column: 1 / 1;
+  //       grid-row: 3 / 9;
+  //     }
+
+  //     @include media('>=tablet') {
+  //       grid: auto / 1fr 1fr 1fr 1fr;
+  //       grid-column: 1 / 4;
+  //     }
+
+  //     @include media('>=desktop') {
+  //       grid: auto / 1fr 1fr 1fr 1fr 1fr;
+  //       grid-column: 1 / 5;
+  //     }
+
+  //     display: grid;
+
+  //     &__summary {
+  //       @include media('>=phone') {
+  //         background-color: $site-punk-pink;
+  //       }
+  //       @include media('>=tablet') {
+  //         background-color: hsl(22, 100%, 50%);
+  //       }
+  //       @include media('>=desktop') {
+  //         background-color: hsl(80, 61%, 50%);
+  //       }
+  //     }
+  // }
+
+  @include media('>=phone') {
+    // .jumbo-grid-container {
     //   grid-column: 1 / 1;
     //   grid-row: 3 / 9;
 
-      // &__content {
-      // // position: fixed;
-      //  top: 0;
-      // }
+    // &__content {
+    // // position: fixed;
+    //  top: 0;
+    // }
     //}
 
     // .portfolio-grid-container {
@@ -430,8 +417,7 @@ $mobile-second-row: 15vh;
     }
   } // / phone breakpoint
 
-  @include media(">=tablet") {
-    
+  @include media('>=tablet') {
     // .prime-box {
     //   grid-column: 1 / 1;
     //   grid-row: 1 / 1;
@@ -443,7 +429,7 @@ $mobile-second-row: 15vh;
     //  }
   }
 
-  @include media(">=desktop") {
+  @include media('>=desktop') {
     // background: #098765;
   }
 }

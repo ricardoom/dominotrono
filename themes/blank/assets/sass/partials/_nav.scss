@@ -6,8 +6,7 @@
   /// Controls initial display only
   nav {
     button {
-      @include media(">=phone") {
-
+      @include media('>=phone') {
         @supports not (display: flex) {
           display: block;
         }
@@ -31,7 +30,7 @@
             position: relative;
             top: 0.25rem;
           }
-          
+
           .closer {
             display: none;
           }
@@ -42,32 +41,31 @@
         background: transparentize($site-background-color, 0.2);
       }
 
-        @include media(">=tablet") {
-          display: none;
+      @include media('>=tablet') {
+        display: none;
+      }
+    }
+
+    ul {
+      @include media('>=phone') {
+        display: none;
+
+        &.is-active {
+          background: transparentize($site-background-color, 0.2);
+          display: block;
+          left: 0;
+          position: absolute;
+          text-align: right;
+          width: 100%;
+          z-index: 1000;
         }
       }
 
-      ul {
-        @include media(">=phone") {
-          display: none;
-
-          &.is-active {
-            background: transparentize($site-background-color, 0.2);
-            display: block;
-            left: 0;
-            position: absolute;
-            text-align: right;
-            width: 100%;
-            z-index: 1000;
-          }
-        }
-
-        @include media(">=tablet") {
-          display: flex;
-        }
+      @include media('>=tablet') {
+        display: flex;
       }
+    }
   }
-
 
   /// Uses classes to control all else:
   &__siteNavigation {
@@ -75,47 +73,46 @@
     font-family: $sans-serif;
 
     ul {
-
       @supports (display: flex) {
         display: flex;
         flex-flow: row nowrap;
-      
-        @include media(">=phone") {
+
+        @include media('>=phone') {
           padding-left: 0;
         }
 
-        @include media(">=tablet") {
+        @include media('>=tablet') {
           padding-left: 6vw;
         }
 
-      @include media(">=tablet") {
-        grid-column: 2 / 6;
-        justify-content: flex-start;
-        padding: initial;
+        @include media('>=tablet') {
+          grid-column: 2 / 6;
+          justify-content: flex-start;
+          padding: initial;
         }
       }
 
       li {
+        a {
+          color: $site-white;
+          font-size: $base-font-normal;
+          text-decoration: none;
 
-          a {
-            color: $site-white;
-            font-size: $base-font-normal;
-            text-decoration: none;
+          :hover {
+            background: $site-punk-pink;
+          }
+        }
 
-            :hover {
-              background: $site-punk-pink;
-            }
+        &:nth-child(n) {
+          @include media('>=phone') {
+          }
+          @include media('>=tablet') {
+            flex-basis: 25%;
           }
 
-          &:nth-child(n) {
-            @include media(">=phone") {}
-            @include media(">=tablet") {
-              flex-basis: 25%;
-            }
-
-            @include media(">=desktop") {
-              flex-basis: 20%;
-            }
+          @include media('>=desktop') {
+            flex-basis: 20%;
+          }
         }
 
         height: 7ex;
@@ -135,14 +132,12 @@
 /// Fonts loaded yo!
 ///
 .fonts-loaded {
-
   .site-header {
-   
     &__siteNavigation {
       font-family: $frank-new;
     }
 
-    .menu-label  {
+    .menu-label {
       font-family: $frank-new;
     }
   }

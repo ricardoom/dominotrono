@@ -6,5 +6,6 @@ draft: false
 tags: []
 title: "Wear the Green Socks"
 vendorJS: "gsapJS"
+experimentJS: ""
 ---
 Trying another library. just to see... one should actually make something instead of endlessly tinkering w/ the tooling... just saying.

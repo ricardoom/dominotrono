@@ -38,32 +38,31 @@ $site-transparent-bg: transparentize($site-background-color, 0.6);
 // take each color from above and create a global class by that name:
 // ex: .site-color--green-blue;
 
-$site-colors: (
-dark-blue: $site-dark-blue,
-green-blue: $site-green-blue,
-white: $site-white,
-punk-pink: $site-punk-pink,
-hot-orange: $site-hot-orange,
-lava-orange: $site-lava-orange,
-acid-green: $site-acid-green,
-black: $site-black,
-purple: $site-purple,
+$site-colors: (dark-blue: $site-dark-blue,
+  green-blue: $site-green-blue,
+  white: $site-white,
+  punk-pink: $site-punk-pink,
+  hot-orange: $site-hot-orange,
+  lava-orange: $site-lava-orange,
+  acid-green: $site-acid-green,
+  black: $site-black,
+  purple: $site-purple,
 );
 
 @each $site-color-name, $site-color in $site-colors {
   .site-color--#{$site-color-name} {
     background: $site-color;
   }
-
 }
- ///
- /// Some Gradients we use:
- ///
+
+///
+/// Some Gradients we use:
+///
 @mixin purple-gradient {
   //background-color: hsla(202, 95%, 25%, 0.5);
   background-image: -webkit-linear-gradient(0, hsla(202, 95%, 25%, 0.25) 0%, hsla(216, 100%, 15%, 0.5) 69%, hsla(0, 0%, 100%, 0) 100%);
   background-image: -moz-linear-gradient(0, hsla(202, 95%, 25%, 0.25) 0%, hsla(216, 100%, 15%, 0.5) 69%, hsla(0, 0%, 100%, 0) 100%);
   background-image: -o-linear-gradient(0, hsla(202, 95%, 25%, 0.25) 0%, hsla(216, 100%, 15%, 0.5) 69%, hsla(0, 0%, 100%, 0) 100%);
   background-image: linear-gradient(0, hsla(202, 95%, 25%, 0.25) 0%, hsla(216, 100%, 15%, 0.5) 69%, hsla(0, 0%, 100%, 0) 100%);
-  
+
 }

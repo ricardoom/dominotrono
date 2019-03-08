@@ -3,14 +3,12 @@
 ///
 
 .grid-wrapper {
-
   &__portfolioParent {
-
-    @include media(">=phone") {
+    @include media('>=phone') {
       display: block;
     }
 
-    @include media(">=tablet") {
+    @include media('>=tablet') {
       display: flex;
     }
 
@@ -18,34 +16,31 @@
       @include basic-article-wrapper('>=phone', 95vw, 5vw);
       @include basic-article-wrapper('>=tablet', 100vw, 0, 1.5vw);
       @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
-     
-      @include media(">=tablet") {
+      @include media('>=tablet') {
         flex: 1 0 75%;
       }
+
       .portfolio {
-
         &__content {
+          .portfolio-image-wrapper {
+            @include media('<=tablet') {
+              display: block;
+            }
 
-        .portfolio-image-wrapper {
+            figcaption {
+              font-family: $frank-new;
+              margin: 3ex 1ex;
+            }
 
-          @include media('<=tablet') {
-            display: block;
+            margin: 0.5em 0;
           }
-
-          figcaption {
-            font-family: $frank-new;
-            margin: 3ex 1ex;
-          }
-
-          margin: 0.5em 0;
-        }
-      } // /__content
+        } // /__content
+      }
     }
-  }
     &--involvement {
-      @include media(">=tablet") {
-      flex: 1 0 25%;
-      padding: 10vmax 0 0 2vw;
+      @include media('>=tablet') {
+        flex: 1 0 25%;
+        padding: 10vmax 0 0 2vw;
       }
 
       h3 {
@@ -60,8 +55,7 @@
         padding: 0;
       }
 
-    font-family: $frank-new;
+      font-family: $frank-new;
     }
   }
 }
-

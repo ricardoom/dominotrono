@@ -5,13 +5,13 @@
 .site-summary,
 .portfolio-list-item {
 
-  @include basic-article-wrapper(">=phone", 95vw);
+  @include basic-article-wrapper('>=phone', 95vw);
 
-  @include media(">=tablet") {
+  @include media('>=tablet') {
     // max-width: 70vw;
   }
 
-  @include media(">=desktop") {
+  @include media('>=desktop') {
     border-left: 0;
     border-right: 0;
     max-width: 100vw;
@@ -27,11 +27,11 @@
   }
 
   &__content {
-    @include media(">=phone") {
+    @include media('>=phone') {
       // display: block;
     }
 
-    @include media(">=desktop") {
+    @include media('>=desktop') {
       //display: flex;
       // flex-flow: row wrap;
       // justify-content: flex-start;
@@ -48,10 +48,10 @@
       overflow: hidden;
 
       img {
-        @include media(">=phone") {
+        @include media('>=phone') {
        }
 
-        @include media(">=desktop") {
+        @include media('>=desktop') {
 
         }
         width: 100%;

@@ -11,6 +11,7 @@ enableRobotsTXT = "true"
 [params]
     author="Ricardo Eric Gálvez"
     subtitle="Ricardo E. Gálvez"
+    # javascript vendor path
     vendorPath = "js/vendor/"
     # Image params:
     postImageSqip = ""

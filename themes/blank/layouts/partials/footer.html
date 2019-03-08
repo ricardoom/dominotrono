@@ -7,6 +7,7 @@ That is, if its a Paperscript experiment, that page's necessary framework script
 {{ $time := resources.Get "js/time.js" }}
 
 <footer class="site-footer">
+  {{ partial "social_slug.html" . }}
   <p class="site-footer__siteCredit">&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   </p>
 </footer>

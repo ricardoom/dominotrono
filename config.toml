@@ -32,10 +32,23 @@ enableRobotsTXT = "true"
     portfolioHero3x = ""
     portfolioHeroAlt = ""
     [params.twitter]
+        name = "twitter"
         site = "@rixblargh"
         title = "Ricardo E. Galvez - Design Technologist"
         description = "The portfolio of Ricardo E. Galvez. Artist and design technologist in Brooklyn, New York. Former senior designer at the New York Public Library and WNET / THIRTEEN / PBS New York."
         card = "summary_large_image"
+        url = "https://twitter.com/rixblargh"
+        iconClass = "twitter"
+    [params.github]
+        name = "github"
+        userName = "@ricardoom"
+        url = "https://github.com/ricardoom"
+        iconClass = "github"
+    [params.linkedin]
+        name = "linkedIn"
+        userName = "@ricardoom"
+        url = "https://github.com/ricardoom"
+        iconClass = "linkedin"
     [params.openGraph]
         image = "images/eyeballVector@2x.png"
     [params.portfolio]

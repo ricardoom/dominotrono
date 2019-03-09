@@ -7,19 +7,20 @@ That is, if its a Paperscript experiment, that page's necessary framework script
 {{ $time := resources.Get "js/time.js" }}
 
 <footer class="site-footer">
-  {{ partial "social_slug.html" . }}
+  
   <p class="site-footer__siteCredit">&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   </p>
 </footer>
 <script>
-  var domainName = document.domain;
-  var headerName = document.querySelector(".site-header__siteNameContainer--name");
+  {{/*  var domainName = document.domain;
+  var headerName = document.querySelector
+  (".site-header__siteNameContainer--name");
   if (domainName == null) {
     headerName.innerHTML = "bulletprooftoupee.com"
   }
   else {
-    headerName.innerHTML = document.domain;
-  }
+    headerName.innerHTML = `${document.domain}`;
+  }  */}}
 </script>
 {{ if .Site.IsServer }}
 {{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.js" }}

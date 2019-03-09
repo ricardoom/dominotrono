@@ -1,6 +1,6 @@
-baseURL = "http://galvez.design/"
+baseURL = "http://ricardogalvez.design/"
 languageCode = "en-us"
-title = "ricardo.galvez.design"
+title = "ricardogalvez.design"
 theme = "blank"
 relativeURLs = "true"
 enableRobotsTXT = "true"

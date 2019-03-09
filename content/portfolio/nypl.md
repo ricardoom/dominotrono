@@ -19,9 +19,9 @@ svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--purple'
 tags: ['visual design', 'design technology']
 weight: -2
-projectRoles: ['Design Lead', 'Product Owner']
+projectRoles: ['Design Lead']
 projectClients: 'Internal Stake Holders at NYPL'
-projectCredits: 'Visual Designer (Second Storey): Jinu Yang'
+projectCredits: ['Jinu Yang (Second Storey)']
 projectDate: '2015-2018'
 ---
 ## Project Details:

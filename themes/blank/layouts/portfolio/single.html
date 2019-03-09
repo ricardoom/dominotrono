@@ -34,8 +34,15 @@
         <p>{{ $date }}</p>
         {{ end }}
         {{ if and ( $credits ) (ne $credits "" ) }}
+        
         <h3>Credit:</h3>
-        <p>{{ $credits }}</p>
+        <ul>
+          {{ range $credits }}
+          <li>
+            {{ . }}
+          </li>
+          {{ end }}
+        </ul>
         {{ end }}
         {{ if ne $tags "" }}
         <h3>Filed under:</h3>

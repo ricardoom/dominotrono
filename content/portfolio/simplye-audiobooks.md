@@ -20,7 +20,7 @@ tags: []
 weight: 3
 ---
 
-Lots of work on the SimplyE Project. From the audio book player to Subway Reads. We worked on many facets of the application.
+
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

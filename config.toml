@@ -51,10 +51,10 @@ enableRobotsTXT = "true"
     [params.openGraph]
         image = "images/eyeballVector@2x.png"
     [params.portfolio]
-        projectRoles = ""
-        projectClients = ""
+        projectRoles = []
+        projectClients = []
         projectDate = ""
-        projectCredits = ""
+        projectCredits = []
     # some classes we want to expose to hugo:
     [params.classes]
         homePage = "home-page"

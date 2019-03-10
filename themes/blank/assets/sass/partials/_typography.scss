@@ -150,6 +150,7 @@ article {
 }
 
 .site-single {
+
   &__content {
     h2,
     h3 {
@@ -162,6 +163,10 @@ article {
 
     h3 {
       font-size: 1.75rem;
+    }
+   
+    p {
+      max-width: 60ch;
     }
 
     p,

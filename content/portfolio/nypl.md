@@ -21,11 +21,11 @@ tags: ['visual design', 'design technology']
 weight: -2
 projectRoles: ['Design Lead']
 projectClients: 'Internal Stake Holders at NYPL'
-projectCredits: ['Jinu Yang (Second Storey)']
+projectCredits: ['NYPL Digital Team', 'Jinu Yang (Second Story)']
 projectDate: '2015-2018'
 ---
 ## Project Details:
-In close collaboration with the Portland based design studio Second Storey. Displayed below are comps for the NYPL home page at various points in the process of redesign. I helped steer the project towards a more accessible structure. Much of my work centered around fine tuning of the layout in React and SASS. Worked closely with the front end team to implement iconography and type. Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
+In close collaboration with the Portland based design studio Second Story. Displayed below are comps for the NYPL home page at various points in the process of redesign. I helped steer the project towards a more accessible structure. Much of my work centered around fine tuning of the layout in React and SASS. Worked closely with the front end team to implement iconography and type. Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image

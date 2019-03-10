@@ -13,20 +13,20 @@ menu:
 
 **Product Design and Development**
 
-- I brought several projects from initial concept through prototyping to production. Including a new interface for Shared Collections, Staff Picks, New Arrivals and an improved experience for obtaining a library card. Additionally, I designed new UX and visual design patterns for
+- Brought several projects from initial concept through prototyping to production. Including a new interface for Shared Collections, Staff Picks, New Arrivals and an improved experience for obtaining a library card. Additionally, I designed new UX and visual design patterns for
 the new Simply E, An open source E-Reader.
 
 **Design System Development**
 
-- I was instrumental in the design and development of a functional Design Toolkit; providing an abstract and installable set of styled components for developers to rapidly build their applications.
+- Instrumental in the design and development of a functional Design Toolkit; providing an abstract and installable set of styled components for developers to rapidly build their applications.
 
 **Interface Designer**
 
-- I had a lead roll in the design and implementation of a new conceptual and visual language for the Library’s main website. I collaborated closely with stakeholders, librarians, and front end developers on the deployment of new design patterns, modules, and templates.
+- Had a lead roll in the design and implementation of a new conceptual and visual language for the Library’s main website. I collaborated closely with stakeholders, librarians, and front end developers on the deployment of new design patterns, modules, and templates.
 
 **Established Accessibility Standards**
 
-- I worked with the entire digital team to enhance the overall accessibility and operability standards for structure, type, color and content across all the NYPL public and private interfaces.
+- Worked with the entire digital team to enhance the overall accessibility and operability standards for structure, type, color and content across all the NYPL public and private interfaces.
 
 **Improved Patron Experience**
 

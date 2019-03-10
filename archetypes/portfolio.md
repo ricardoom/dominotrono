@@ -17,9 +17,10 @@ postImageAlt: ""
 figcaption: ""
 svgClipObjectClass: ""
 svgColorClass: ""
-projectRoles: ['role one', 'role two']
-projectClients: ""
+projectRoles: ["role one", "role two"]
+projectClients: ["client A", "client B"]
 projectDate: ""
 tags: []
 weight: 10
 ---
+## Project Details:

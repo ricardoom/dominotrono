@@ -34,8 +34,7 @@
         <p>{{ $date }}</p>
         {{ end }}
         {{ if and ( $credits ) (ne $credits "" ) }}
-        
-        <h3>Credit:</h3>
+        <h3>Collaborators:</h3>
         <ul>
           {{ range $credits }}
           <li>
@@ -44,7 +43,7 @@
           {{ end }}
         </ul>
         {{ end }}
-        {{ if ne $tags "" }}
+        {{ if and ( $tags ) ( ne $tags "" ) }}
         <h3>Filed under:</h3>
         <ul id="tags" class="site-tags">
           {{ range $tags }}
@@ -55,7 +54,6 @@
         </ul>
         {{ end }}
       </aside>
-
     </div>
   </div>
 </main>

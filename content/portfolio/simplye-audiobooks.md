@@ -18,9 +18,12 @@ svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--dark-blue'
 tags: []
 weight: 3
+projectRoles: ['Design Collaborator']
+projectClients: 'Internal Stake Holders at NYPL'
+projectCredits: ['SimplyE Team']
+projectDate: '2018'
 ---
-
-
+## Project Details:
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

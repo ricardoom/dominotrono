@@ -21,6 +21,7 @@ svgColorClass: 'site-color--hot-orange'
 tags: []
 weight: 3
 ---
+## Project Details:
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

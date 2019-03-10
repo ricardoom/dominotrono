@@ -15,5 +15,6 @@ svgColorClass: 'site-color--acid-green'
 tags: []
 weight: -1
 ---
+## Project Details:
 
 NYPL Book Lists were a thing we wanted and worked really hard to produce but for stupid reason it never saw the light of day...

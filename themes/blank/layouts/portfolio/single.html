@@ -27,7 +27,11 @@
         {{ end }}
         {{ if and ( $clients ) (ne $clients "" ) }}
         <h3>Client:</h3>
-        <p>{{ $clients }}</p>
+        <ul>
+          {{ range $clients }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
         {{ end }}
         {{ if and ( $date ) (ne $date "" ) }}
         <h3>Date:</h3>

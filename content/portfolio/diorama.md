@@ -18,8 +18,12 @@ heroFigcaption: 'When moose compete, one moose wins'
 figcaption: ''
 svgClipObjectClass: 'fourDots'
 svgColorClass: 'site-color--acid-green'
-tags: ['visual design', '']
+tags: ['visual design', 'illustration']
 weight: 2
+projectRoles: ["Design Lead"]
+projectCredits: ["Tom McNamara"]
+projectClients: ["PBS Digital Studios", "Thirteen Digital"]
+projectDate: "2015"
 ---
 
 ## Project Details:

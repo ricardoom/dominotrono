@@ -18,9 +18,12 @@ portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
 svgClipObjectClass: 'diagonalDot'
 svgColorClass: 'site-color--green-blue'
-tags: ['visual design', 'UX', 'interface design']
+tags: ['visual design', 'UX', 'progressive enhancement', 'responsive design', 'accessibility']
 weight: -2
-projectRoles: []
+projectRoles: ["Design Lead"]
+projectClients: ["NYPL"]
+projectCredits: ["Edwin Guzman","Kang Ting Peng", "Will Armstrong", "Courtney McGee"]
+projectDate: "2016-2018"
 ---
 ## Project Details:
 

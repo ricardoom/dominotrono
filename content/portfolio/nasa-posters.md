@@ -18,8 +18,12 @@ portfolioHeroAlt: 'A cropped image of the NASA Poster / Info-graphic'
 heroFigcaption: ''
 svgClipObjectClass: 'boxDiagonals'
 svgColorClass: 'site-color--white'
-tags: ['infographic', 'graphic design']
+tags: ['infographic', 'graphic design', 'illustration']
 weight: 4
+projectRoles: ["Design Lead"]
+projectClients: ["PBS Vital"]
+projectCredits: ["Nicholas Miller"]
+projectDate: "2015"
 ---
 ## Project Details:
 For this project, the education team at WNET wanted to create two different infographic posters. The first to demonstrate the concept of electromagnetism. The second to explain the difference between mass and weight. My role was to create engaging visuals to appeal to students from middle to high school age. I worked closely with my creative director and stakeholders to visualize the concepts in a relatable manner.

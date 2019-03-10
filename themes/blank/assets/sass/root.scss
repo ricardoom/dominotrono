@@ -113,10 +113,13 @@ li {
 ///
 /// Home Page
 ///
+
 .svg-overlay-container {
-  height: 0;
-  width: 0;
+    height: 0;
+    overflow: auto;
+    width: 0;
 }
+
 ///
 /// Inner pages
 ///

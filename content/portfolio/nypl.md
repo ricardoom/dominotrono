@@ -20,7 +20,7 @@ svgColorClass: 'site-color--purple'
 tags: ['visual design', 'design technology']
 weight: -2
 projectRoles: ['Design Lead']
-projectClients: 'Internal Stake Holders at NYPL'
+projectClients: ['Internal Stake Holders at NYPL']
 projectCredits: ['NYPL Digital Team', 'Jinu Yang (Second Story)']
 projectDate: '2015-2018'
 ---

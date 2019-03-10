@@ -19,6 +19,7 @@ svgClipObjectClass: ""
 svgColorClass: ""
 projectRoles: ["role one", "role two"]
 projectClients: ["client A", "client B"]
+projectCredits: ["collaborator 1", "collaborator 2"]
 projectDate: ""
 tags: []
 weight: 10

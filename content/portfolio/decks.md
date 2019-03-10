@@ -8,4 +8,10 @@ postimage: 'media/placeHolder_sm.png'
 postImageAlt: ''
 figcaption: ''
 tags: []
+projectRoles: ["Graphic Design", "Illustration"]
+projectCredits: []
+projectClients: ["client A", "client B"]
+projectDate: "2005"
 ---
+
+## Project Details:

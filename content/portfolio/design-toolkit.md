@@ -20,7 +20,7 @@ svgColorClass: 'site-color--punk-pink'
 tags: ['Design System']
 weight: 2
 projectRoles: ['Product Owner', 'Design']
-projectClients: 'NYPL Digital Team'
+projectClients: ['NYPL Digital Team']
 projectCredits: ['Mauricio Giraldo Arteaga', 'Edwin Guzman', 'Willa Armstrong']
 projectDate: '2016-2018'
 ---

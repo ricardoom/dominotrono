@@ -13,6 +13,9 @@ svgClipObjectClass: 'oneDiagonal'
 svgColorClass: 'site-color--lava-orange'
 tags: ['cnc', 'maker']
 weight: 10
+projectRoles: ["role one", "role two"]
+projectClients: ["client A", "client B"]
+projectDate: ""
 ---
 
 ## a thing to work on

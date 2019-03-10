@@ -18,8 +18,12 @@ portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
 svgClipObjectClass: 'twoSquares'
 svgColorClass: 'site-color--hot-orange'
-tags: []
+tags: ["Graphic Design", "Logo Design"]
 weight: 3
+projectRoles: ["Design Lead"]
+projectClients: ["Mamasans Soulshack, Portland OR"]
+projectCredits: []
+projectDate: ""
 ---
 ## Project Details:
 

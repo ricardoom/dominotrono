@@ -16,8 +16,12 @@ heroFigcaption: ''
 title: 'NYPL Blogs'
 svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--acid-green'
-tags: ['portfolio', 'visual design', 'UX', 'progressive enhancement', 'responsive design', 'accessibility']
+tags: ['visual design', 'UX', 'progressive enhancement', 'responsive design', 'accessibility']
 weight: 2
+projectRoles: ["Design Lead"]
+projectClients: ["NYPL"]
+projectCredits: ["Edwin Guzman","Kang Ting Peng", "Willa Armstrong", "Courtney McGee"]
+projectDate: "2016-2018"
 ---
 
 ## Project Details:

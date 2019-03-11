@@ -1,5 +1,5 @@
 ---
-title: 'NYPL Discovery ReCAP'
+title: 'NYPL Shared Resource Collection (ReCAP)'
 date: 2019-01-27T17:36:03-05:00
 draft: false
 categories: 'portfolio'
@@ -20,9 +20,15 @@ svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--purple'
 tags: []
 weight: 3
+projectRoles: ["Design Collaborator"]
+projectClients: ["NYPL Digital"]
+projectCredits: ["Mauricio Giraldo Arteaga", "Edwin Guzman", "Ashely Blewer", "Kang Ting Peng"]
+projectDate: "2015"
 ---
-
-ReCAP is a shared collection interface, in partnership with Columbia and Princeton Libraries. The system is designed to decrease friction between sharing item across institutions. My primary roll was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards.
+## Project Details:
+ The NYPL Shared Collection is an interface to search the catalogs of NYPL, Columbia and Princeton Universities The system is designed to decrease friction between sharing item across institutions. My primary roll was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards.
+  
+ [Access the shared collection catalog](https://www.nypl.org/research/collections/shared-collection-catalog/)
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
@@ -31,7 +37,7 @@ ReCAP is a shared collection interface, in partnership with Columbia and Princet
     srcsetTwo="http://res.cloudinary.com/toupeeproofbullets/image/upload/c_limit,dpr_2.0,h_500,q_auto:best,w_500/v1548514912/nypl-discovery/large_full_bib_initial.jpg"
     srcsetThree="http://res.cloudinary.com/toupeeproofbullets/image/upload/c_limit,dpr_3.0,h_500,q_auto:best,w_500/v1548514912/nypl-discovery/large_full_bib_initial.jpg"
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548514911/nypl-discovery/medium_initial.png"
-    class="image-block__50"
+    class="image-block__100"
     alt="An image of the NYPL Discovery full record result"
     >}}
 

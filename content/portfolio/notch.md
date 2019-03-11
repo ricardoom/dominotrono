@@ -19,7 +19,7 @@ svgColorClass: 'site-color--black'
 tags: ['portfolio', 'logo design','product development']
 weight: -1
 projectRoles: ["Design Lead"]
-projectClients: []
+projectClients: ["Notch"]
 projectCredits: ["Shawn Warner"]
 projectDate: "2018-2019"
 ---

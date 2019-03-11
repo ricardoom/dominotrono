@@ -107,7 +107,7 @@
           justify-content: flex-start;
           padding: initial;
         }
-      }
+      } // /@supports
 
       li {
         a {
@@ -115,17 +115,19 @@
           color: $site-white;
           font-size: $base-font-normal;
           text-decoration: none;
-
-          :hover {
-            background: $site-punk-pink;
-          }
         }
 
         &:nth-child(n) {
           @include media('>=phone') {
           }
+
           @include media('>=tablet') {
             flex-basis: 25%;
+
+            &.social-icon {
+              flex-basis: 10%;
+              padding-top: 1.75ex;
+            }
           }
 
           @include media('>=desktop') {
@@ -136,6 +138,18 @@
         height: 7ex;
         padding: 2ex;
         margin: 0 0.15ex;
+      }
+
+      .social-icon {
+        a {
+          display: block;
+          width: 3.5rem;
+        }
+
+        svg {
+          fill: $site-white;
+          height: 3.5rem;
+        }
       }
 
       border-bottom: (3em / 16) solid $site-white;

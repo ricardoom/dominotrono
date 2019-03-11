@@ -74,14 +74,15 @@
         {{ range .Site.Menus.main }}
         <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}
-        <li class="social"><a href="{{ .Site.Params.github.url }}" target="_blank">
-            {{/*  <svg class="icon-1">
-              <use xlink:href="#github"></use>
-            </svg>  */}}
-          </a></li>
-        <li class="social"><a href="{{ .Site.Params.twitter.url }}" target="_blank"></a></li>
-        <li class="social"><a href="{{ .Site.Params.instagram.url }}" target="_blank"></a></li>
-        <li class="social"><a href="{{ .Site.Params.linkedin.url }}" target="_blank"></a></li>
+        <li class="social-icon"><a href="{{ .Site.Params.github.url }}" target="_blank">
+            <svg viewBox="197 0 50 51">
+              <use xlink:href="#{{ .Site.Params.github.name }}"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-icon"><a href="{{ .Site.Params.twitter.url }}" target="_blank"></a></li>
+        <li class="social-icon"><a href="{{ .Site.Params.instagram.url }}" target="_blank"></a></li>
+        <li class="social-icon"><a href="{{ .Site.Params.linkedin.url }}" target="_blank"></a></li>
       </ul>
     </nav>
   </header>

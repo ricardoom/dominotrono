@@ -43,7 +43,6 @@ enableRobotsTXT = "true"
         name = "github"
         userName = "@ricardoom"
         url = "https://github.com/ricardoom"
-        iconClass = "github"
     [params.linkedin]
         name = "linkedIn"
         url = "https://www.linkedin.com/in/ricardogalvez/"

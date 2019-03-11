@@ -4,14 +4,15 @@
 
 .site-header {
   /// Controls initial display only
-  nav {
+  &__siteNavigation {
+    // Mobile Nav
     button {
       @include media('>=phone') {
         @supports not (display: flex) {
           display: block;
         }
 
-        background: transparentize($site-dark-blue, 0.85);
+        background: transparentize($site-dark-blue, 0.5);
         border: none;
         color: currentColor;
         cursor: pointer;
@@ -24,18 +25,24 @@
           fill: currentColor;
           height: 3rem;
           width: 3rem;
+        }
 
-          .burger {
+        .menu-label {
+          @include basic-drop-shadow('text');
+        }
+
+        .button-icon {
+          &__open {
             display: block;
             position: relative;
             top: 0.25rem;
           }
 
-          .closer {
+          &__closed {
             display: none;
           }
         }
-      }
+      } // /phone mq
 
       &.button-active {
         background: transparentize($site-background-color, 0.2);
@@ -43,6 +50,14 @@
 
       @include media('>=tablet') {
         display: none;
+      }
+
+      &:hover {
+        box-shadow: 0 0 0 2px $site-green-blue;
+      }
+
+      &:focus {
+        @include focus-ring(outline);
       }
     }
 
@@ -53,6 +68,7 @@
         &.is-active {
           background: transparentize($site-background-color, 0.2);
           display: block;
+          height: 100vh;
           left: 0;
           position: absolute;
           text-align: right;
@@ -67,12 +83,13 @@
     }
   }
 
-  /// Uses classes to control all else:
+  /// Uses classes to control/style all else:
   &__siteNavigation {
-    background: transparent;
-    font-family: $sans-serif;
+    &--social-svg {
+      @include visually-hidden;
+    }
 
-    ul {
+    &--items {
       @supports (display: flex) {
         display: flex;
         flex-flow: row nowrap;
@@ -94,6 +111,7 @@
 
       li {
         a {
+          @include basic-drop-shadow(text);
           color: $site-white;
           font-size: $base-font-normal;
           text-decoration: none;
@@ -124,7 +142,10 @@
       display: inline-block;
       margin: 0;
       padding: 0;
-    }
+    } // /ul
+
+    background: transparent;
+    font-family: $sans-serif;
   }
 } // .site-header
 

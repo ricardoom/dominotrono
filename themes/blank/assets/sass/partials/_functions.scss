@@ -6,14 +6,24 @@
 //
 // Functions aqui
 //
+
+// Very Basic Text Shadow Mixin:
+@mixin basic-drop-shadow($type: text) {
+  @if $type == text {
+    text-shadow: 2px 2px 2px $site-black;
+  } @else if $type == box {
+    box-shadow: 2px 2px 2px $site-black;
+  }
+}
+
 // Do some craziness to text shadows...
-// @pararm {number} $n - number of shadows to add
-// @pararm {number} $r - red value as in rgb
-// @pararm {number} $g - green value
-// @pararm {number} $b - blue value
-// @pararm {number} $x - the x value in text-shadow rule set
-// @pararm {number} $y - the y value in text-shadow rule set
-// @pararm {number} $u - unit, px, ex, etc..
+// @param {number} $n - number of shadows to add
+// @param {number} $r - red value as in rgb
+// @param {number} $g - green value
+// @param {number} $b - blue value
+// @param {number} $x - the x value in text-shadow rule set
+// @param {number} $y - the y value in text-shadow rule set
+// @param {number} $u - unit, px, ex, etc..
 @function multiple-text-shadow($n, $r, $g, $b, $x, $y, $u) {
   //$unit: '#{$u}';
   $value: '#{$x}#{$u} #{$y}#{$u} 0 rgba(#{$r}, #{$g}, #{$b}, 1),';
@@ -52,6 +62,14 @@
 // todo: add {params}
 // param {$media} : >=phone
 // param {$padding} $pl/$pr = padding-right left etc...
+
+@mixin visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
 
 @mixin basic-article-wrapper($breakpoint, $mw, $pl: #{initial}, $pr: #{initial}) {
   @include media(#{$breakpoint}) {
@@ -97,15 +115,6 @@
     opacity: 0;
   }
 }
-
-// @keyframes slideBack {
-//     0% {
-//       transform: translateX(-100px);
-//     }
-//     100% {
-//     transform: translateX(0px);
-//   }
-// }
 
 @keyframes slideDownMedium {
   0% {

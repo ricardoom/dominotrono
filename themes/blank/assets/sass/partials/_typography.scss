@@ -95,7 +95,6 @@ a,
   &:link {
     color: $site-link;
     box-shadow: 0 0 0 0 $site-green-blue;
-    transition: box-shadow 200ms linear;
   }
 
   &:visited {
@@ -104,7 +103,6 @@ a,
   }
 
   &:hover {
-    //@include focus-ring(outline, $site-acid-green)
     box-shadow: 0 0 0 2px $site-green-blue;
   }
 
@@ -150,7 +148,6 @@ article {
 }
 
 .site-single {
-
   &__content {
     h2,
     h3 {
@@ -164,7 +161,7 @@ article {
     h3 {
       font-size: 1.75rem;
     }
-   
+
     p {
       max-width: 60ch;
     }

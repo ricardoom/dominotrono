@@ -5,8 +5,8 @@
 const mobileNavButton = document.getElementById('mobileNavButton');
 const mobileNavItems = document.getElementById('navItems');
 const mobileNavLabel = document.querySelector('.menu-label');
-const burger = document.getElementById('burgerIcon');
-const closer = document.getElementById('circleXCloseIcon');
+const burger = document.getElementById('navControlOpen');
+const closer = document.getElementById('navControlClose');
 
 mobileNavButton.addEventListener('click', function() {
   if (mobileNavItems.classList.contains('is-active')) {

@@ -48,6 +48,16 @@ enableRobotsTXT = "true"
         name = "linkedIn"
         url = "https://www.linkedin.com/in/ricardogalvez/"
         iconClass = "linkedin"
+    [params.instagram]
+        name = "instagram"
+        userName = "@rixblargh"
+        url = "https://www.instagram.com/ricardoericgalvez/"
+        iconClass = "instagram"
+    [params.dribbble]
+        name = "dribbble"
+        userName = "@rixblargh"
+        url = "https://dribbble.com/ricardoom"
+        iconClass = "instagram"
     [params.openGraph]
         image = "images/eyeballVector@2x.png"
     [params.portfolio]

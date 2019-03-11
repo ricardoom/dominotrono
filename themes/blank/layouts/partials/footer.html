@@ -5,29 +5,19 @@ That is, if its a Paperscript experiment, that page's necessary framework script
 {{ $mobileNav := resources.Get "js/mobileNav.js" }}
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $time := resources.Get "js/time.js" }}
+{{ $socialSprites := resources.Get "js/sprites.js" }}
 
 <footer class="site-footer">
-  
+
   <p class="site-footer__siteCredit">&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   </p>
 </footer>
-<script>
-  {{/*  var domainName = document.domain;
-  var headerName = document.querySelector
-  (".site-header__siteNameContainer--name");
-  if (domainName == null) {
-    headerName.innerHTML = "bulletprooftoupee.com"
-  }
-  else {
-    headerName.innerHTML = `${document.domain}`;
-  }  */}}
-</script>
 {{ if .Site.IsServer }}
-{{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.js" }}
-<script src="{{ $script.Permalink }}"></script>
+{{ $script := slice $basic $mobileNav $observer $time $socialSprites | resources.Concat "/js/main.js" }}
+<script src="{{ $script.Permalink }}" async></script>
 {{ else }}
-{{ $script := slice $basic $mobileNav $observer $time | resources.Concat "/js/main.js" | minify | fingerprint }}
-<script src="{{ $script.Permalink }}"></script>
+{{ $script := slice $basic $mobileNav $observer $time $socialSprites | resources.Concat "/js/main.js" | minify | fingerprint }}
+<script src="{{ $script.Permalink }}" async></script>
 
 {{ end }}
 

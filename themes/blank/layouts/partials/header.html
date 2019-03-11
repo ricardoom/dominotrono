@@ -4,7 +4,8 @@
 {{ $style := resources.Get $sassRoot | resources.ToCSS $options }}
 {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
 {{ $class := .Site.Params.classes }}
-{{ $navControlIcon := ( partial "svg/navControlIcon.svg" ) }}
+{{ $navControlIconClose := ( partial "svg/navControlIcon.svg" ) }}
+{{ $navControlIconOpen := ( partial "svg/burgerIcon3d.svg" ) }}
 {{ $ogImage := .Site.Params.openGraph.image }}
 
 <!DOCTYPE html>
@@ -56,7 +57,8 @@
   </script>
 </head>
 
-<body class="{{ if .IsHome  }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">
+
+<body class="{{ if .IsHome }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">
   <header role="banner" class="site-header">
     <div class="site-header__siteNameContainer">
       <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>
@@ -64,13 +66,22 @@
     <nav class="site-header__siteNavigation">
       <button class="site-header__siteNavigation--button" id="mobileNavButton" aria-labelledby="menuLabel"
         aria-controls="navItems">
-        <span class="svg-icon" id="navControl">{{ $navControlIcon }}</span>
+        <span class="button-icon__open" id="navControlOpen">{{ $navControlIconOpen }}</span>
+        <span class="button-icon__closed" id="navControlClose">{{ $navControlIconClose }}</span>
         <span class="menu-label" id="menuLabel">Menu</span>
       </button>
-      <ul id="navItems" class="" aria-expanded="false">
+      <ul id="navItems" class="site-header__siteNavigation--items" aria-expanded="false">
         {{ range .Site.Menus.main }}
         <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}
+        <li class="social"><a href="{{ .Site.Params.github.url }}" target="_blank">
+            {{/*  <svg class="icon-1">
+              <use xlink:href="#github"></use>
+            </svg>  */}}
+          </a></li>
+        <li class="social"><a href="{{ .Site.Params.twitter.url }}" target="_blank"></a></li>
+        <li class="social"><a href="{{ .Site.Params.instagram.url }}" target="_blank"></a></li>
+        <li class="social"><a href="{{ .Site.Params.linkedin.url }}" target="_blank"></a></li>
       </ul>
     </nav>
   </header>

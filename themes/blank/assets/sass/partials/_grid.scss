@@ -62,7 +62,6 @@ $mobile-second-row: 15vh;
     &--name {
       @include media('>=phone') {
         grid-column: 1 / 1;
-        padding-left: 3vmin;
       }
 
       @include media('>=tablet') {
@@ -86,7 +85,7 @@ $mobile-second-row: 15vh;
       padding-right: 4em;
     }
 
-    ul {
+    &--items {
       @include media('>=phone') {
         grid-column: 1;
       }

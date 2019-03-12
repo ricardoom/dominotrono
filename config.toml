@@ -44,7 +44,7 @@ enableRobotsTXT = "true"
         userName = "@ricardoom"
         url = "https://github.com/ricardoom"
     [params.linkedin]
-        name = "linkedIn"
+        name = "linkedin"
         url = "https://www.linkedin.com/in/ricardogalvez/"
         iconClass = "linkedin"
     [params.instagram]

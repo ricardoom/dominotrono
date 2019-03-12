@@ -67,13 +67,20 @@
 
         &.is-active {
           background: transparentize($site-background-color, 0.2);
-          display: block;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
           height: 100vh;
+          justify-content: flex-start;
           left: 0;
           position: absolute;
-          text-align: right;
           width: 100%;
           z-index: 1000;
+
+          li {
+            display: flex;
+            justify-content: flex-end;
+          }
         }
       }
 
@@ -86,7 +93,7 @@
   /// Uses classes to control/style all else:
   &__siteNavigation {
     &--social-svg {
-      @include visually-hidden;
+      display: none;
     }
 
     &--items {
@@ -135,7 +142,7 @@
           }
         }
 
-        height: 7ex;
+        min-height: 7ex;
         padding: 2ex;
         margin: 0 0.15ex;
       }
@@ -144,6 +151,14 @@
         a {
           display: block;
           width: 3.5rem;
+
+          &:hover {
+            box-shadow: none;
+          }
+
+          &:hover svg {
+            fill: $site-green-blue;
+          }
         }
 
         svg {

@@ -22,7 +22,7 @@ tags: ['visual design', 'UX', 'progressive enhancement', 'responsive design', 'a
 weight: -2
 projectRoles: ["Design Lead"]
 projectClients: ["NYPL"]
-projectCredits: ["Edwin Guzman","Kang Ting Peng", "Will Armstrong", "Courtney McGee"]
+projectCredits: ["Edwin Guzman","Kang Ting Peng", "Willa Armstrong", "Courtney McGee"]
 projectDate: "2016-2018"
 ---
 ## Project Details:

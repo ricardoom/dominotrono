@@ -15,8 +15,8 @@
     @include media('>tablet') {
       margin-left: 15vw;
       margin-bottom: 2vh;
-     }
-    margin-left: 3vw; 
+    }
+    margin-left: 3vw;
   }
 
   &__sidebarSubTitle {
@@ -35,19 +35,19 @@
     border-top: 1px dotted lighten($site-dark-blue, 20%);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 10vh;
+    margin-top: 5vmax;
 
     > li {
       border-bottom: 1px dotted lighten($site-dark-blue, 20%);
       border-right: 1px dotted lighten($site-dark-blue, 20%);
       padding: 1em 0 1em 1em;
 
-      &:nth-of-type(4n){
+      &:nth-of-type(4n) {
         padding-right: 0;
 
-       ul {
-        padding-right: 1em;
-       }
+        ul {
+          padding-right: 1em;
+        }
       }
 
       .post-grid {
@@ -55,7 +55,6 @@
         padding: 0;
 
         .drop-cap {
-
           & > a {
             @include responsive-font(5vw, 2.3rem, 5rem, 22px);
             border-bottom: solid 0.5rem $site-white;
@@ -67,7 +66,7 @@
             text-decoration: none;
             width: 25%;
 
-            .small-letter{
+            .small-letter {
               @include responsive-font(2.5vw, 1.24rem, 3rem, 18px);
             }
 

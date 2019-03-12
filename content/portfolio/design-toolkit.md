@@ -18,14 +18,17 @@ heroFigcaption: ''
 svgClipObjectClass: 'oneCircle'
 svgColorClass: 'site-color--punk-pink'
 tags: ['Design System']
-weight: 2
+weight: 3
 projectRoles: ['Product Owner', 'Design']
 projectClients: ['NYPL Digital Team']
 projectCredits: ['Mauricio Giraldo Arteaga', 'Edwin Guzman', 'Willa Armstrong']
 projectDate: '2016-2018'
 ---
+
 ## Project Details:
+
 The Design Toolkit at NYPL is our online style-guide and basis for a larger design system. We wanted to free the front end developers up from having to make design decisions and create an opportunity to develop reusable components and styles. We also needed to have robust documentation and code examples. It is very much a work in progress, lots of hurdles were placed and overcome, and many more still in place. It's inception, and much of the important work was put in place by <a href="https://twitter.com/mgiraldo" target="_blank">Mauricio Giraldo Arteaga</a></p>
+
 <p>He passed the baton to me, and I have been keeping it up to date. You can check it out here: <a href="https://nypl.github.io/design-toolkit/" target="_blank">https://nypl.github.io/design-toolkit/</a> and the code repo on GitHub here: <a href="https://github.com/NYPL/design-toolkit/" target="_blank">https://github.com/NYPL/design-toolkit/</a>
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

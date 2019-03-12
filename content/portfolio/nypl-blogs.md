@@ -16,12 +16,20 @@ heroFigcaption: ''
 title: 'NYPL Blogs'
 svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--acid-green'
-tags: ['visual design', 'UX', 'progressive enhancement', 'responsive design', 'accessibility']
+tags:
+  [
+    'visual design',
+    'UX',
+    'progressive enhancement',
+    'responsive design',
+    'accessibility',
+  ]
 weight: 2
-projectRoles: ["Design Lead"]
-projectClients: ["NYPL"]
-projectCredits: ["Edwin Guzman","Kang Ting Peng", "Willa Armstrong", "Courtney McGee"]
-projectDate: "2016-2018"
+projectRoles: ['Design Lead']
+projectClients: ['NYPL']
+projectCredits:
+  ['Edwin Guzman', 'Kang Ting Peng', 'Willa Armstrong', 'Courtney McGee']
+projectDate: '2016-2018'
 ---
 
 ## Project Details:
@@ -30,14 +38,14 @@ A new look for the blogs at NYPL.
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
-  {{< image
+{{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722028/nypl-blogs/blogshome.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722028/nypl-blogs/blogshome.jpg"
     srcsetTwo=""
     class="image-block__100"
     >}}
 
-  {{< image
+{{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
     Two="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg 2x" src="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png"
     class="image-block__100"
@@ -47,7 +55,7 @@ A new look for the blogs at NYPL.
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
-  {{< image
+{{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722029/nypl-blogs/fullblog.png"
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722029/nypl-blogs/fullblog.png"
     class="image-block__100"

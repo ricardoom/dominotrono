@@ -18,13 +18,14 @@ portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
 svgClipObjectClass: 'twoSquares'
 svgColorClass: 'site-color--hot-orange'
-tags: ["Graphic Design", "Logo Design"]
-weight: 3
-projectRoles: ["Design Lead"]
-projectClients: ["Mamasans Soulshack, Portland OR"]
+tags: ['Graphic Design', 'Logo Design']
+weight: 8
+projectRoles: ['Design Lead']
+projectClients: ['Mamasans Soulshack, Portland OR']
 projectCredits: []
-projectDate: ""
+projectDate: ''
 ---
+
 ## Project Details:
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
@@ -33,7 +34,7 @@ projectDate: ""
     srcsetOne="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w"
     srcsetTwo="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 320w"
     srcsetThree="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 320w"
-    srcsetFour="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w" 
+    srcsetFour="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg 640w"
     src="http://bulletprooftoupee.com/sites/default/files/WindowSunSign.jpg"
     class="image-block__100"
     alt=""

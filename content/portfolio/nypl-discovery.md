@@ -19,16 +19,24 @@ figcaption: ''
 svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--purple'
 tags: []
-weight: 3
-projectRoles: ["Design Collaborator"]
-projectClients: ["NYPL Digital"]
-projectCredits: ["Mauricio Giraldo Arteaga", "Edwin Guzman", "Ashely Blewer", "Kang Ting Peng"]
-projectDate: "2015"
+weight: 4
+projectRoles: ['Design Collaborator']
+projectClients: ['NYPL Digital']
+projectCredits:
+  [
+    'Mauricio Giraldo Arteaga',
+    'Edwin Guzman',
+    'Ashely Blewer',
+    'Kang Ting Peng',
+  ]
+projectDate: '2015'
 ---
+
 ## Project Details:
- The NYPL Shared Collection is an interface to search the catalogs of NYPL, Columbia and Princeton Universities The system is designed to decrease friction between sharing item across institutions. My primary roll was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards.
-  
- [Access the shared collection catalog](https://www.nypl.org/research/collections/shared-collection-catalog/)
+
+The NYPL Shared Collection is an interface to search the catalogs of NYPL, Columbia and Princeton Universities The system is designed to decrease friction between sharing item across institutions. My primary roll was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards.
+
+[Access the shared collection catalog](https://www.nypl.org/research/collections/shared-collection-catalog/)
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

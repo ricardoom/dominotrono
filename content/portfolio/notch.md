@@ -16,17 +16,17 @@ portfolioHeroAlt: 'Image of the NOTCH Intersect disassembled'
 heroFigcaption: ''
 svgClipObjectClass: 'boxDiagonals'
 svgColorClass: 'site-color--black'
-tags: ['portfolio', 'logo design','product development']
-weight: -1
-projectRoles: ["Design Lead"]
-projectClients: ["Notch"]
-projectCredits: ["Shawn Warner"]
-projectDate: "2018-2019"
+tags: ['portfolio', 'logo design', 'product development']
+weight: 10
+projectRoles: ['Design Lead']
+projectClients: ['Notch']
+projectCredits: ['Shawn Warner']
+projectDate: '2018-2019'
 ---
+
 ## Project Details:
 
 I am a principal member of the team, (its just two of us!) Below is the work I've done.
-
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
@@ -61,4 +61,3 @@ I am a principal member of the team, (its just two of us!) Below is the work I'v
     >}}
 
 {{< /image_wrapper >}}
-

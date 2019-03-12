@@ -17,4 +17,4 @@ I started my design career in the 5th grade by entering and winning a “crazy t
 
 I have been living and working in New York City since 2005. I am originally from Albuquerque New Mexico. I have a wife, two kids, two cats, and an old house. In my spare time, I mess around with a CNC machine in my cellar. I am fascinated by how technology shapes our lives, culture and relationships with each other and the world as a whole. From time to time I dust off my skateboard and cruise around and make some turns.
 
-I’m available for projects. Let's talk!
+I’m available for projects. [Let's talk!](mailto:ricardo.e.galvez@gmail.com)

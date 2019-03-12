@@ -1,7 +1,7 @@
 ///
 /// Ajaxy Load the sprite
 ///
-const spritePath = 'images/socialMediaSprite.svg';
+const spritePath = '/images/socialMediaSprite.svg';
 // const body = document.body;
 const nav = document.querySelector('.site-header__siteNavigation');
 const ajax = new XMLHttpRequest();

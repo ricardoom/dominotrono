@@ -30,7 +30,7 @@ projectDate: '2018'
 
 ## Project Details:
 
-I was fortunate to be able to work on this fantastic project with some very smart people. My particular role was to create a user interface for audio book playback.
+I was fortunate to be able to work on this fantastic project with some brilliant people. My particular role was to create a user interface for audiobook playback and to create new pathways for discovery.
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

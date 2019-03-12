@@ -34,7 +34,7 @@ projectDate: '2015'
 
 ## Project Details:
 
-The NYPL Shared Collection is an interface to search the catalogs of NYPL, Columbia and Princeton Universities The system is designed to decrease friction between sharing item across institutions. My primary roll was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards.
+The NYPL Shared Collection is an interface to search the catalogs of NYPL, Columbia and Princeton Universities. The system is designed to decrease friction between sharing item across institutions. My primary role was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards.
 
 [Access the shared collection catalog](https://www.nypl.org/research/collections/shared-collection-catalog/)
 

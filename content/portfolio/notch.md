@@ -26,7 +26,7 @@ projectDate: '2018-2019'
 
 ## Project Details:
 
-I am a principal member of the team, (its just two of us!) Below is the work I've done.
+As a co-founder of Notch, My primary responsibilities are handling all of the branding, web and visual design of the company.
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

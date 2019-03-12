@@ -14,6 +14,9 @@ svgClipObjectClass: 'oneDiagonal'
 svgColorClass: 'site-color--acid-green'
 tags: []
 weight: -1
+projectRoles: ["Design Lead"]
+projectClients: ["Internal NYPL Stakeholders"]
+projectCredits: ["Edwin Guzman", "Rafael Hernandez", "Kang Ting Peng"]
 ---
 ## Project Details:
 

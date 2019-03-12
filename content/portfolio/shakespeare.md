@@ -16,6 +16,9 @@ postImageAlt: ''
 figcaption: ''
 svgClipObjectClass: ''
 svgColorClass: ''
-tags: []
+tags: ['Illustration', 'Visual Design']
 weight: 10
+projectRoles: ['Design Collaborator']
+projectClients: ['WNET Thirteen', 'PBS']
+projectCredits: ['Tom McNamara', 'Nicholas Miller']
 ---

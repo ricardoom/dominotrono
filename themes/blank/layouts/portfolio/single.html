@@ -47,6 +47,7 @@
           {{ end }}
         </ul>
         {{ end }}
+        {{ if .Site.IsServer }}
         {{ if and ( $tags ) ( ne $tags "" ) }}
         <h3>Filed under:</h3>
         <ul id="tags" class="site-tags">
@@ -56,6 +57,7 @@
           </li>
           {{ end }}
         </ul>
+        {{ end }}
         {{ end }}
       </aside>
     </div>

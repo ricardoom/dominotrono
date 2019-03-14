@@ -18,14 +18,16 @@ portfolioHeroAlt: 'Image of the Thirteen Explore inital screen'
 heroFigcaption: ''
 svgClipObjectClass: 'bigCircle'
 svgColorClass: 'site-color--lava-orange'
-tags: ['visual desgin','UX', 'interface design']
-weight: 2
+tags: ['visual desgin', 'UX', 'interface design']
+weight: 7
 projectRoles: ['Design Lead']
 projectClients: ['WNET Thirteen']
 projectCredits: ['Nicholas Miller', 'David Hirmes']
 projectDate: '2015'
 ---
+
 ## Project Details:
+
 Thirteen Explore is an iPad app designed to provide on-demand PBS content to users via a familiar interface. One of my favorite and most challenging projects was Thirteen Explore. The project was conceived by our team to bring video content from all of THIRTEEN's properties to our users in an intuitive way. I was the lead designer on this project, responsible for wireframing, prototyping workflows, and typographic treatments in collaboration with project management, creative director and engineering.
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
@@ -39,7 +41,7 @@ Thirteen Explore is an iPad app designed to provide on-demand PBS content to use
     imgHeading="An intuitive and familiar interface"
     figcaption="We used a familiar horizontal lane structure to encourage swiping and tapping on large cards with carefully curated imagery to allow users to easily and quickly find their favorite shows or to explore and find something new and compelling."
     >}}
-    {{< image
+{{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730985/thirteen-explore/program_screen.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730985/thirteen-explore/program_screen.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730985/thirteen-explore/program_screen.jpg 2x"
@@ -48,7 +50,7 @@ Thirteen Explore is an iPad app designed to provide on-demand PBS content to use
     imgHeading="The program screen"
     figcaption=""
     >}}
-    {{< image
+{{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730984/thirteen-explore/program_modal.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730984/thirteen-explore/program_modal.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730984/thirteen-explore/program_modal.jpg 2x"
@@ -57,7 +59,7 @@ Thirteen Explore is an iPad app designed to provide on-demand PBS content to use
     imgHeading="The program screen's modal"
     figcaption="An example of a program modal where a use can share, schedule for later or watch."
     >}}
-     {{< image
+{{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549754554/thirteen-explore/13.explore.launch.screen.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549754554/thirteen-explore/13.explore.launch.screen.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549754554/thirteen-explore/13.explore.launch.screen.jpg 2x"
@@ -66,6 +68,5 @@ Thirteen Explore is an iPad app designed to provide on-demand PBS content to use
     imgHeading="The program launch screen"
     figcaption=""
     >}}
-   
 
 {{< /image_wrapper >}}

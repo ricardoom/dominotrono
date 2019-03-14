@@ -13,10 +13,10 @@ That is, if its a Paperscript experiment, that page's necessary framework script
 </footer>
 {{ if .Site.IsServer }}
 {{ $script := slice $basic $mobileNav $observer $time $socialSprites | resources.Concat "/js/main.js" }}
-<script src="{{ $script.Permalink }}" async></script>
+<script src="{{ $script.Permalink }}"></script>
 {{ else }}
-{{ $script := slice $basic $mobileNav $observer $time $socialSprites | resources.Concat "/js/main.js" | minify | fingerprint }}
-<script src="{{ $script.Permalink }}" async></script>
+{{ $script := slice $basic $mobileNav $observer $time $socialSprites | resources.Concat "/js/main.js" | fingerprint }}
+<script src="{{ $script.Permalink }}"></script>
 
 {{ end }}
 

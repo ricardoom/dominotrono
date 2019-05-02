@@ -58,7 +58,7 @@ enableRobotsTXT = "true"
         url = "https://dribbble.com/ricardoom"
         iconClass = "instagram"
     [params.openGraph]
-        image = "images/eyeballVector@2x.png"
+        image = "images/twitterCard@2x.jpg"
     [params.portfolio]
         projectRoles = []
         projectClients = []

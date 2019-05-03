@@ -35,14 +35,14 @@
 }
 
 html {
-  //background-color: $site-background-color;
-  background-image: url(../images/uteMountainTopo.svg);
+  background-color: $site-background-color;
+  // background-image: url(../images/uteMountainTopo.svg);
   background-repeat: no-repeat;
   // Retina-specific stuff here
   // TODO: Create a Mixin to handle any device pixel ratio
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(../images/uteMountainTopo.svg)
-   }
+  // @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  //   background-image: url(../images/uteMountainTopo.svg);
+  // }
   background-attachment: fixed;
   background-origin: 0 0;
   background-position: 0 0;
@@ -63,7 +63,6 @@ body {
 
   font-size: 1.6rem;
   margin: 0;
-
 }
 
 header,
@@ -74,9 +73,7 @@ aside {
 }
 
 .fullWidthWrapper {
-
   > :nth-child(n) {
-
     @include media('>=phone') {
       margin: 0;
       width: 100vw;
@@ -115,9 +112,9 @@ li {
 ///
 
 .svg-overlay-container {
-    height: 0;
-    overflow: auto;
-    width: 0;
+  height: 0;
+  overflow: auto;
+  width: 0;
 }
 
 ///
@@ -170,4 +167,3 @@ li {
     margin: 0;
   }
 }
-

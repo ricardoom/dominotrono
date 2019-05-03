@@ -1,20 +1,22 @@
 ---
-title: "cv"
+title: 'cv'
 date: 2017-12-27T13:48:52-05:00
 draft: false
-menu: 
+menu:
   main:
     weight: 0
 ---
 
 # Professional Accomplishments:
+
 ## New York Public Library, New York, NY
+
 2015 – 2018
 
 **Product Design and Development**
 
 - Brought several projects from initial concept through prototyping to production. Including a new interface for Shared Collections, Staff Picks, New Arrivals and an improved experience for obtaining a library card. Additionally, I designed new UX and visual design patterns for
-the new Simply E, An open source E-Reader.
+  the new Simply E, An open source E-Reader.
 
 **Design System Development**
 
@@ -33,6 +35,7 @@ the new Simply E, An open source E-Reader.
 - Integrated with librarians, patron services, marketing, and development teams to increase access to the library’s numerous collections, improved overall engagement. Met and surpassed fundraising goals for FY 2017 utilizing modern and accessible design patterns.
 
 ### WNET/THIRTEEN, New York Public Television (PBS), New York, NY
+
 2009 - 2015
 
 **Design Strategy**
@@ -46,26 +49,26 @@ the new Simply E, An open source E-Reader.
 **Prototyping**
 
 - User Interface, Experience and graphic designer for new NJTV News daily news program. Excelled in Agile team structure designing & delivering a complex news site; from ideation through wireframing, prototyping and final design. Developed scenarios for mobile, tablet & desktop usage as well look and feel for the site.
- 
+
 ## Freelance Projects 2009 - 2019
 
-**Il Coro Pasta and Osteria Il Nido, Seattle WA, 2018**
+**Il Corvo Pasta Il Nido at the Alki Homestead, Seattle WA, 2018**
 
 - Consultation, Development, User Experience Design, Branding Strategy
 
-**Mama San Soul Shack, Portland OR, 2015** 
+**Mama San Soul Shack, Portland OR, 2015**
 
 - Branding, Logo design, consultation
 
 **Hannah Senesh Community Day School, Brooklyn NY, 2015**
 
-- Design, consultation,  development, WordPress
+- Design, consultation, development, WordPress
 
 **Pinch Food Design, New York NY, 2009**
 
 - Design, Development, Consultation
 
-**Huckleberry Bar Brooklyn, 2007** 
+**Huckleberry Bar Brooklyn, 2007**
 
 - Design and Development, Drupal
 
@@ -75,10 +78,10 @@ the new Simply E, An open source E-Reader.
 
 **Outcast Films, NY**
 
- - Print Design, "Sex in an Epidemic" Creative Direction, Design,  Print Design, "Riot Acts" Creative Direction and Design, Website Maintenance and Trouble Shooting
- 
+- Print Design, "Sex in an Epidemic" Creative Direction, Design, Print Design, "Riot Acts" Creative Direction and Design, Website Maintenance and Trouble Shooting
+
 ## Education
 
-Earned Bachelor Fine Arts, Painting & Drawing University of the Arts, Philadelphia, PA**
+Earned Bachelor Fine Arts, Painting & Drawing University of the Arts, Philadelphia, PA\*\*
 
 Earned Offset Printing Press Operator's Certificate Central New Mexico Community College, Albuquerque, NM

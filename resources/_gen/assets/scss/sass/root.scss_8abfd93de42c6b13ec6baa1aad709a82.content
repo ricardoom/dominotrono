@@ -392,7 +392,7 @@ template {
     transform: translateY(-20%); } }
 
 .site-color--dark-blue {
-  background: #06172b; }
+  background: #06182d; }
 
 .site-color--green-blue {
   background: #4a86aa; }
@@ -1010,13 +1010,13 @@ code {
         grid: auto/repeat(5, 1fr); } }
   @media (min-width: 20em) {
     .grid-wrapper .grid-site-data {
-      background-color: #06172b;
+      background-color: #06182d;
       grid-column: 1 / 1;
       grid-row: 11 / 12; } }
 
 @media (min-width: 20em) {
   .site-header__siteNavigation button {
-    background: rgba(6, 23, 43, 0.5);
+    background: rgba(6, 24, 45, 0.5);
     border: none;
     color: currentColor;
     cursor: pointer;
@@ -1041,7 +1041,7 @@ code {
       display: none; } }
 
 .site-header__siteNavigation button.button-active {
-  background: rgba(6, 23, 43, 0.8); }
+  background: rgba(6, 24, 45, 0.8); }
 
 @media (min-width: 48em) {
   .site-header__siteNavigation button {
@@ -1057,7 +1057,7 @@ code {
   .site-header__siteNavigation ul {
     display: none; }
     .site-header__siteNavigation ul.is-active {
-      background: rgba(6, 23, 43, 0.8);
+      background: rgba(6, 24, 45, 0.8);
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -1238,7 +1238,7 @@ code {
   top: 0; }
 
 .sidebar-prime {
-  background: #051527;
+  background: #061629;
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
@@ -1265,13 +1265,13 @@ code {
     list-style: none;
     padding: 0; }
   .sidebar-prime__sidebarList {
-    border-top: 1px dotted #124785;
+    border-top: 1px dotted #124987;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 5vmax; }
     .sidebar-prime__sidebarList > li {
-      border-bottom: 1px dotted #124785;
-      border-right: 1px dotted #124785;
+      border-bottom: 1px dotted #124987;
+      border-right: 1px dotted #124987;
       padding: 1em 0 1em 1em; }
       .sidebar-prime__sidebarList > li:nth-of-type(4n) {
         padding-right: 0; }
@@ -1307,7 +1307,7 @@ code {
               .sidebar-prime__sidebarList > li .post-grid .drop-cap > a .small-letter {
                 font-size: 3rem; } }
           .sidebar-prime__sidebarList > li .post-grid .drop-cap > a:visited {
-            background: #0b2b51;
+            background: #0b2d53;
             color: currentColor; }
         .sidebar-prime__sidebarList > li .post-grid .full-title {
           font-size: 12px;
@@ -1339,7 +1339,7 @@ code {
 
 @media (min-width: 20em) {
   .grid-wrapper .subtitle-grid-container {
-    background: rgba(6, 23, 43, 0.75); } }
+    background: rgba(6, 24, 45, 0.75); } }
 
 @media (min-width: 48em) {
   .grid-wrapper .subtitle-grid-container {
@@ -1390,10 +1390,6 @@ code {
 .grid-wrapper .mast-head {
   font-size: 32px;
   font-size: 2.75vw;
-  background-image: -webkit-linear-gradient(0, rgba(3, 80, 124, 0.25) 0%, rgba(0, 31, 77, 0.5) 69%, rgba(255, 255, 255, 0) 100%);
-  background-image: -moz-linear-gradient(0, rgba(3, 80, 124, 0.25) 0%, rgba(0, 31, 77, 0.5) 69%, rgba(255, 255, 255, 0) 100%);
-  background-image: -o-linear-gradient(0, rgba(3, 80, 124, 0.25) 0%, rgba(0, 31, 77, 0.5) 69%, rgba(255, 255, 255, 0) 100%);
-  background-image: linear-gradient(0, rgba(3, 80, 124, 0.25) 0%, rgba(0, 31, 77, 0.5) 69%, rgba(255, 255, 255, 0) 100%);
   text-shadow: 2px 2px 2px #111;
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 200;
@@ -1702,7 +1698,7 @@ code {
 .biography-skills {
   font-size: 48px;
   font-size: 2vw;
-  background: rgba(6, 23, 43, 0.4);
+  background: rgba(6, 24, 45, 0.4);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   grid-column: 1 / 5;
   grid-row: 5 / 6; }
@@ -1772,7 +1768,7 @@ code {
   box-sizing: border-box; }
 
 html {
-  background-image: url(../images/uteMountainTopo.svg);
+  background-color: #06182d;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-origin: 0 0;
@@ -1781,9 +1777,6 @@ html {
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 62.5%; }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    html {
-      background-image: url(../images/uteMountainTopo.svg); } }
 
 body {
   font-size: 1.6rem;
@@ -1841,10 +1834,10 @@ li {
       padding: 0; } }
 
 .site-experiments {
-  background-color: #06172a; }
+  background-color: #06182c; }
 
 .site-pagination {
-  background-color: #16539b;
+  background-color: #15559d;
   padding: 2ex 2em; }
 
 .site-footer {

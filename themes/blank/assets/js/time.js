@@ -108,31 +108,26 @@ const alpha = 0.75; // Alpha
 const position = 100 - theHour;
 const container = document.querySelector('body');
 
-function setTheGradient() {
-  container.style.backgroundImage =
-    'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg,' +
-    start +
-    ',' +
-    end +
-    ')';
-}
+// function setTheGradient() {
+//   container.style.backgroundImage =
+//     'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75) 0%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg,' +
+//     start +
+//     ',' +
+//     end +
+//     ')';
+// }
 
 /// Use template literals here cabron
 /// maybe...
 /// Add to the TODO list...
 function setTheGradientHSLA() {
-  container.style.backgroundImage =
-    'linear-gradient(82deg, hsla(0, 5%, 5%, 0.75)' +
-    position +
-    '%, hsla(0, 0%, 100%, 0.25)), linear-gradient(90deg, hsla(' +
-    angle +
-    ', ' +
-    saturation +
-    '%,' +
-    lightness +
-    '%,' +
-    alpha +
-    '), hsla(180, 5%, 12%, 0.2))';
+  container.style.background = `
+  linear-gradient(82deg, hsla(${theAngle}, 5%, ${lightness}%, 0.25), hsla(0, 0%, 100%, 0.25)  ${position}%),
+  linear-gradient(90deg, hsla(${theAngle}, 85%, 50%, 0.15), hsla(180, 5%, 12%, 0.2) ${position -
+    30}%),
+  linear-gradient(0, hsla(212, 76%, 10%), hsla(200, 50%, 5%) 20%)
+  `;
+  console.log(`${position}, ${theAngle}`);
 }
 
 setTheGradientHSLA();

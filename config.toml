@@ -35,7 +35,7 @@ enableRobotsTXT = "true"
         name = "twitter"
         site = "@rixblargh"
         title = "Ricardo E. Galvez - Design Technologist"
-        description = "The portfolio of Ricardo E. Galvez. Artist and design technologist in Brooklyn, New York. Former senior designer at the New York Public Library and WNET / THIRTEEN / PBS New York."
+        description = "Artist and design technologist, based in Brooklyn, New York. Former senior designer at the New York Public Library and WNET / THIRTEEN / PBS New York."
         card = "summary_large_image"
         url = "https://twitter.com/rixblargh"
         iconClass = "twitter"
@@ -58,7 +58,7 @@ enableRobotsTXT = "true"
         url = "https://dribbble.com/ricardoom"
         iconClass = "instagram"
     [params.openGraph]
-        image = "images/eyeballVector@2x.png"
+        image = "images/twitterCard@2x.jpg"
     [params.portfolio]
         projectRoles = []
         projectClients = []

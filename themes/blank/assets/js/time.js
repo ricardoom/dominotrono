@@ -104,7 +104,7 @@ const thePercentage = makeRandomNumber(0, 100);
 const angle = theAngle - theHour; // Hue
 const saturation = thePercentage - theHour; // Saturation
 const lightness = thePercentage - theHour; // Lightness
-const alpha = 0.75; // Alpha
+const alpha = makeRandomNumber(0, 1); // Alpha
 const position = 100 - theHour;
 const container = document.querySelector('body');
 
@@ -117,13 +117,10 @@ const container = document.querySelector('body');
 //     ')';
 // }
 
-/// Use template literals here cabron
-/// maybe...
-/// Add to the TODO list...
 function setTheGradientHSLA() {
   container.style.background = `
-  linear-gradient(82deg, hsla(${theAngle}, 5%, ${lightness}%, 0.25), hsla(0, 0%, 100%, 0.25)  ${position}%),
-  linear-gradient(90deg, hsla(${theAngle}, 85%, 50%, 0.15), hsla(180, 5%, 12%, 0.2) ${position -
+  linear-gradient(82deg, hsla(${angle}, ${saturation}%, ${lightness}%, ${alpha}), hsla(0, 0%, 100%, 0.25)  ${position}%),
+  linear-gradient(90deg, hsla(${angle}, 85%, 50%, 0.15), hsla(180, 5%, 12%, 0.2) ${position -
     30}%),
   linear-gradient(0, hsla(212, 76%, 10%), hsla(200, 50%, 5%) 20%)
   `;

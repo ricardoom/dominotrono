@@ -498,8 +498,7 @@ h6 {
 
 a:link,
 .fonts-loaded a:link {
-  color: #fff;
-  box-shadow: 0 0 0 0 #4a86aa; }
+  color: #fff; }
 
 a:visited,
 .fonts-loaded a:visited {
@@ -508,7 +507,7 @@ a:visited,
 
 a:hover,
 .fonts-loaded a:hover {
-  box-shadow: 0 0 0 2px #4a86aa; }
+  color: #f544ae; }
 
 a:active,
 .fonts-loaded a:active {
@@ -633,7 +632,7 @@ code {
       grid-column: 2 / 4; } }
 
 .home-page .grid-wrapper {
-  grid-template-rows: [nameBox] minmax(14.5em, 20vh) auto; }
+  grid-template-rows: [nameBox] minmax(10.5em, 15vh) auto; }
   @media (min-width: 20em) {
     .home-page .grid-wrapper {
       padding: 0; } }
@@ -742,7 +741,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#four_dots);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.fourDots .portfolioCardOff {
         animation-duration: 250ms;
@@ -764,7 +763,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#two_squares);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.twoSquares .portfolioCardOff {
         animation-duration: 250ms;
@@ -786,7 +785,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#over_dots);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.overDots .portfolioCardOff {
         animation-duration: 250ms;
@@ -808,7 +807,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#one_diagonal);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneDiagonal .portfolioCardOff {
         animation-duration: 250ms;
@@ -830,7 +829,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#one_diagonal);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneDiagonal-45 .portfolioCardOff {
         animation-duration: 250ms;
@@ -852,7 +851,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#box_diagonals);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.boxDiagonals .portfolioCardOff {
         animation-duration: 250ms;
@@ -874,7 +873,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#variable_dots);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.variableDots .portfolioCardOff {
         animation-duration: 250ms;
@@ -896,7 +895,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#diagonal_dot);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.diagonalDot .portfolioCardOff {
         animation-duration: 250ms;
@@ -918,7 +917,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#quarter_circle);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneCircle .portfolioCardOff {
         animation-duration: 250ms;
@@ -940,7 +939,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#squares_circles);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.squaresCircles .portfolioCardOff {
         animation-duration: 250ms;
@@ -962,7 +961,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#big_circle);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.bigCircle .portfolioCardOff {
         animation-duration: 250ms;
@@ -984,7 +983,7 @@ code {
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#big_pill);
-        opacity: 0.65;
+        opacity: 0.25;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.bigPill .portfolioCardOff {
         animation-duration: 250ms;
@@ -1113,6 +1112,7 @@ code {
         .site-header__siteNavigation--items li:nth-child(n) {
           flex-basis: 25%; }
           .site-header__siteNavigation--items li:nth-child(n).social-icon {
+            filter: drop-shadow(1px 1px 1px #111);
             flex-basis: 10%;
             padding-top: 1.75ex; } }
       @media (min-width: 64em) {
@@ -1124,7 +1124,7 @@ code {
       .site-header__siteNavigation--items .social-icon a:hover {
         box-shadow: none; }
       .site-header__siteNavigation--items .social-icon a:hover svg {
-        fill: #4a86aa; }
+        fill: #f544ae; }
     .site-header__siteNavigation--items .social-icon svg {
       fill: #fff;
       height: 3.5rem; }

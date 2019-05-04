@@ -109,14 +109,14 @@ $mobile-second-row: 15vh;
 //
 
 // Only for the home page,
-// TODO, this could be done a bit more elegantly:
+// TODO, this could be done a bit more elegant:
 .home-page {
   .grid-wrapper {
     @include media('>=phone') {
       padding: 0;
     }
 
-    grid-template-rows: [nameBox] minmax(14.5em, 20vh) auto;
+    grid-template-rows: [nameBox] minmax(10.5em,15vh) auto;
   }
 }
 

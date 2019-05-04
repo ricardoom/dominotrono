@@ -13,6 +13,8 @@
     text-shadow: 2px 2px 2px $site-black;
   } @else if $type == box {
     box-shadow: 2px 2px 2px $site-black;
+  } @else if $type == svg  {
+    filter: drop-shadow(1px 1px 1px $site-black);
   }
 }
 
@@ -167,7 +169,7 @@
     animation-direction: normal;
     animation-fill-mode: forwards;
     clip-path: url(#{$clipPath});
-    opacity: 0.65;
+    opacity: 0.25;
     pointer-events: all;
   }
   .portfolioCardOff {

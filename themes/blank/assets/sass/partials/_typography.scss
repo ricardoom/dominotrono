@@ -94,7 +94,7 @@ a,
 .fonts-loaded a {
   &:link {
     color: $site-link;
-    box-shadow: 0 0 0 0 $site-green-blue;
+    // box-shadow: 0 0 0 0 $site-punk-pink;
   }
 
   &:visited {
@@ -103,7 +103,8 @@ a,
   }
 
   &:hover {
-    box-shadow: 0 0 0 2px $site-green-blue;
+    // box-shadow: 0 0 0 2px $site-green-blue;
+    color: $site-punk-pink;
   }
 
   &:active {

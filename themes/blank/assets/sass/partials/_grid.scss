@@ -139,9 +139,9 @@ $mobile-second-row: 15vh;
 
   display: grid;
 
-  > div {
-    border: 1px solid hsla(327, 94%, 48%, 0.1);
-  }
+  // > div {
+  //   border: 1px solid hsla(327, 94%, 48%, 0.1);
+  // }
 
   .prime-box {
     @include media('>=phone') {

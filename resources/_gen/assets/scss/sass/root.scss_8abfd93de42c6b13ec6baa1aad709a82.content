@@ -652,8 +652,6 @@ code {
     .grid-wrapper {
       grid-template-columns: 15vw repeat(3, 1fr);
       padding-right: 4em; } }
-  .grid-wrapper > div {
-    border: 1px solid rgba(237, 7, 134, 0.1); }
   @media (min-width: 20em) {
     .grid-wrapper .prime-box {
       grid-column: 1 / 1;
@@ -732,16 +730,15 @@ code {
         width: 100%;
         border: 0; }
       .grid-wrapper .portfolio-flex__content figure.fourDots .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#four_dots);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.fourDots .portfolioCardOff {
         animation-duration: 250ms;
@@ -754,16 +751,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.twoSquares .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#two_squares);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.twoSquares .portfolioCardOff {
         animation-duration: 250ms;
@@ -776,16 +772,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.overDots .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#over_dots);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.overDots .portfolioCardOff {
         animation-duration: 250ms;
@@ -798,16 +793,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneDiagonal .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#one_diagonal);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneDiagonal .portfolioCardOff {
         animation-duration: 250ms;
@@ -820,16 +814,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneDiagonal-45 .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#one_diagonal);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneDiagonal-45 .portfolioCardOff {
         animation-duration: 250ms;
@@ -842,16 +835,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.boxDiagonals .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#box_diagonals);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.boxDiagonals .portfolioCardOff {
         animation-duration: 250ms;
@@ -864,16 +856,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.variableDots .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#variable_dots);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.variableDots .portfolioCardOff {
         animation-duration: 250ms;
@@ -886,16 +877,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.diagonalDot .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#diagonal_dot);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.diagonalDot .portfolioCardOff {
         animation-duration: 250ms;
@@ -908,16 +898,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneCircle .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#quarter_circle);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.oneCircle .portfolioCardOff {
         animation-duration: 250ms;
@@ -930,16 +919,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.squaresCircles .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#squares_circles);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.squaresCircles .portfolioCardOff {
         animation-duration: 250ms;
@@ -952,16 +940,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.bigCircle .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#big_circle);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.bigCircle .portfolioCardOff {
         animation-duration: 250ms;
@@ -974,16 +961,15 @@ code {
         animation-iteration-count: 1;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.bigPill .portfolioCard {
-        animation-direction: reverse;
         animation-duration: 250ms;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-        animation-delay: 0;
+        animation-delay: 0s;
         animation-iteration-count: 1;
         animation-direction: normal;
         animation-fill-mode: forwards;
         clip-path: url(#big_pill);
-        opacity: 0.25;
+        opacity: 0.5;
         pointer-events: all; }
       .grid-wrapper .portfolio-flex__content figure.bigPill .portfolioCardOff {
         animation-duration: 250ms;

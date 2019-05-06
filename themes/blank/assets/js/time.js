@@ -119,7 +119,7 @@ const container = document.querySelector('body');
 
 function setTheGradientHSLA() {
   container.style.background = `
-  linear-gradient(82deg, hsla(${angle}, ${saturation}%, ${lightness}%, ${alpha}), hsla(0, 0%, 100%, 0.25)  ${position}%),
+  linear-gradient(${angle}deg, hsla(${angle}, ${saturation}%, ${lightness}%, ${alpha}), hsla(0, 0%, 100%, 0.25)  ${position}%),
   linear-gradient(90deg, hsla(${angle}, 85%, 50%, 0.15), hsla(180, 5%, 12%, 0.2) ${position -
     30}%),
   linear-gradient(0, hsla(212, 76%, 10%), hsla(200, 50%, 5%) 20%)

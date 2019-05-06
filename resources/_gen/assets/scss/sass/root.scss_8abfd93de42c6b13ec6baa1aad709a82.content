@@ -1746,6 +1746,8 @@ code {
         .biography-skills > ul > li > ul > li > a {
           text-decoration: none;
           border-bottom: 2px solid #fff; }
+  .biography-skills p {
+    margin: 1ex 0; }
 
 .fonts-loaded .site-content .biography-skills {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }

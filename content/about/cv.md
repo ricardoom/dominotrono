@@ -11,28 +11,37 @@ menu:
 
 ## New York Public Library, New York, NY
 
+**Expertise**
+
+- Code: HTML / CSS / Javascript / git
+- Design: Adobe CS / Sketch / InVision
+- UX: Wireframing / Prototyping / Responsive Design / Accessibility
+- Methods: Agile / Data Driven / User Tested
+
+2018 -2019
+**Freenlance**
+
 2015 – 2018
 
 **Product Design and Development**
 
-- Brought several projects from initial concept through prototyping to production. Including a new interface for Shared Collections, Staff Picks, New Arrivals and an improved experience for obtaining a library card. Additionally, I designed new UX and visual design patterns for
-  the new Simply E, An open source E-Reader.
+- I brought several projects from initial concept through prototyping to production. Including new interfaces for Shared Collections, Staff Picks, New Arrivals and an improved experience for obtaining a library card. Additionally, I designed new UX and interface design patterns for Simply E, an open source E-Reader.
 
 **Design System Development**
 
-- Instrumental in the design and development of a functional Design Toolkit; providing an abstract and installable set of styled components for developers to rapidly build their applications.
+- I was a principal designer in the development of a living style guide and functional design system. Our “Design Toolkit” provides an installable set of components for developers to build their applications rapidly.
 
 **Interface Designer**
 
-- Had a lead roll in the design and implementation of a new conceptual and visual language for the Library’s main website. I collaborated closely with stakeholders, librarians, and front end developers on the deployment of new design patterns, modules, and templates.
+- I had a lead role in the design and implementation of a new conceptual and visual language for the Library’s main website. I collaborated closely with stakeholders, librarians, and front end developers on the deployment of improved UX and visual design patterns, modules, and templates.
 
-**Established Accessibility Standards**
+**Improved Accessibility Design and Development Patterns and Methods**
 
-- Worked with the entire digital team to enhance the overall accessibility and operability standards for structure, type, color and content across all the NYPL public and private interfaces.
+- I worked with the entire digital team to enhance the overall accessibility and operability standards for structure, type, color and content across all the NYPL public and private interfaces.
 
 **Improved Patron Experience**
 
-- Integrated with librarians, patron services, marketing, and development teams to increase access to the library’s numerous collections, improved overall engagement. Met and surpassed fundraising goals for FY 2017 utilizing modern and accessible design patterns.
+- Integrated with librarians, patron services, marketing, and development teams to increase access to the Library’s numerous collections, improved overall engagement. Met and surpassed fundraising goals utilizing modern and accessible design patterns.
 
 ### WNET/THIRTEEN, New York Public Television (PBS), New York, NY
 

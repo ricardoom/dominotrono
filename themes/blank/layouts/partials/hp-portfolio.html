@@ -4,6 +4,9 @@
   <a href="{{ .Permalink }}" aria-label="{{ $ariaId }}">
     <div class="portfolio-flex__content">
       <figure class="{{ .Params.svgClipObjectClass }} {{ .Params.svgColorClass }}">
+        {{ if and ( .Params.figcaption ) ( ne .Params.figcaption "" ) }}
+        <figcaption>{{ .Params.figcaption }}</figcaption>
+        {{ end }}
         <img data-srcset="{{ .Params.postImage1x }},
                    {{ .Params.postImage2x }} 2x, 
                    {{ .Params.postImage3x }} 3x" sizes="(max-width: 20em) 100vw,
@@ -13,9 +16,6 @@
               {{ else }}
                 {{ .Title }}
               {{ end }}" />
-        {{ if and ( .Params.figcaption ) ( ne .Params.figcaption "" ) }}
-        <figcaption>{{ .Params.figcaption }}</figcaption>
-        {{ end }}
       </figure>
     </div>
   </a>

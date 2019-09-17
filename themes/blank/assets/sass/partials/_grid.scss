@@ -116,7 +116,7 @@ $mobile-second-row: 15vh;
       padding: 0;
     }
 
-    grid-template-rows: [nameBox] minmax(10.5em,15vh) auto;
+    grid-template-rows: [nameBox] minmax(10.5em, 15vh) auto;
   }
 }
 
@@ -229,9 +229,20 @@ $mobile-second-row: 15vh;
   /// Home page portfolio grid & flex
   ///
   .portfolio-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include media('<phone') {
+      display: block;
+    }
+
+    @include media('<=phone') {
+      display: block;
+    }
+
+    @include media('>=tablet') {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
     margin: 0;
     padding: 0;
 

@@ -7,18 +7,18 @@ menu:
     weight: 0
 ---
 
-# Professional Accomplishments:
-
-## New York Public Library, New York, NY
-
-**Expertise**
+# Skills and Expertise
 
 - Code: HTML / CSS / Javascript / git
 - Design: Adobe CS / Sketch / InVision
 - UX: Wireframing / Prototyping / Responsive Design / Accessibility
-- Methods: Agile / Data Driven / User Tested
+- Methods: Agile / Data Driven / User Testing
 
-2018 -2019
+# Professional Accomplishments:
+
+## New York Public Library, New York, NY
+
+2018 - 2019
 **Freenlance**
 
 2015 – 2018

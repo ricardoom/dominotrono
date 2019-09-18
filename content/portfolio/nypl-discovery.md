@@ -17,7 +17,7 @@ portfolioHeroAlt: ''
 heroFigcaption: ''
 figcaption: ''
 svgClipObjectClass: 'variableDots'
-svgColorClass: 'site-color--purple'
+svgColorClass: 'site-color--red'
 tags: []
 weight: 4
 projectRoles: ['Design Collaborator']

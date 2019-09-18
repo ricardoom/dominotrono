@@ -393,30 +393,58 @@ template {
 
 .site-color--dark-blue {
   background: #06182d; }
+  .site-color--dark-blue figcaption {
+    box-shadow: 10px 10px 0 #06182d; }
 
 .site-color--green-blue {
-  background: #4a86aa; }
+  background: #4b86aa; }
+  .site-color--green-blue figcaption {
+    box-shadow: 10px 10px 0 #4b86aa; }
 
 .site-color--white {
-  background: #fff; }
+  background: white; }
+  .site-color--white figcaption {
+    box-shadow: 10px 10px 0 white; }
 
 .site-color--punk-pink {
-  background: #f544ae; }
+  background: #f542ad; }
+  .site-color--punk-pink figcaption {
+    box-shadow: 10px 10px 0 #f542ad; }
 
 .site-color--hot-orange {
-  background: #f16855; }
+  background: #f16755; }
+  .site-color--hot-orange figcaption {
+    box-shadow: 10px 10px 0 #f16755; }
 
 .site-color--lava-orange {
-  background: #f75b27; }
+  background: #f75b26; }
+  .site-color--lava-orange figcaption {
+    box-shadow: 10px 10px 0 #f75b26; }
 
 .site-color--acid-green {
-  background: #c0ff08; }
+  background: #c2ff0a; }
+  .site-color--acid-green figcaption {
+    box-shadow: 10px 10px 0 #c2ff0a; }
 
 .site-color--black {
-  background: #111; }
+  background: #111111; }
+  .site-color--black figcaption {
+    box-shadow: 10px 10px 0 #111111; }
 
 .site-color--purple {
   background: #c71efa; }
+  .site-color--purple figcaption {
+    box-shadow: 10px 10px 0 #c71efa; }
+
+.site-color--red {
+  background: #cc0033; }
+  .site-color--red figcaption {
+    box-shadow: 10px 10px 0 #cc0033; }
+
+.site-color--brown {
+  background: #2e1605; }
+  .site-color--brown figcaption {
+    box-shadow: 10px 10px 0 #2e1605; }
 
 h1 {
   font-family: "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
@@ -426,7 +454,7 @@ h1 {
     text-decoration: none;
     color: currentColor; }
     h1 a:visited {
-      color: #fff; }
+      color: white; }
 
 .fonts-loaded h1 {
   font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
@@ -439,7 +467,7 @@ h2 {
     text-decoration: none;
     color: currentColor; }
     h2 a:visited {
-      color: #fff; }
+      color: white; }
 
 .fonts-loaded h2 {
   font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
@@ -452,7 +480,7 @@ h3 {
     text-decoration: none;
     color: currentColor; }
     h3 a:visited {
-      color: #fff; }
+      color: white; }
 
 .fonts-loaded h3 {
   font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
@@ -465,7 +493,7 @@ h4 {
     text-decoration: none;
     color: currentColor; }
     h4 a:visited {
-      color: #fff; }
+      color: white; }
 
 .fonts-loaded h4 {
   font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
@@ -478,7 +506,7 @@ h5 {
     text-decoration: none;
     color: currentColor; }
     h5 a:visited {
-      color: #fff; }
+      color: white; }
 
 .fonts-loaded h5 {
   font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
@@ -491,36 +519,36 @@ h6 {
     text-decoration: none;
     color: currentColor; }
     h6 a:visited {
-      color: #fff; }
+      color: white; }
 
 .fonts-loaded h6 {
   font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
 
 a:link,
 .fonts-loaded a:link {
-  color: #fff; }
+  color: white; }
 
 a:visited,
 .fonts-loaded a:visited {
   color: #f7f7f7;
-  background: #f16855; }
+  background: #f16755; }
 
 a:hover,
 .fonts-loaded a:hover {
-  color: #f544ae; }
+  color: #f542ad; }
 
 a:active,
 .fonts-loaded a:active {
-  background-color: #4a86aa; }
+  background-color: #4b86aa; }
 
 a:focus,
 .fonts-loaded a:focus {
-  outline: dotted #fbae6c 0.0625em; }
+  outline: dotted #f75b26 0.0625em; }
 
 code {
-  background: rgba(241, 104, 85, 0.15);
+  background: rgba(241, 103, 85, 0.15);
   border-radius: 0.125em;
-  color: #fff;
+  color: white;
   font-family: "SFMono-Regular", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   font-size: 1.65rem;
   padding: 0.15em; }
@@ -725,7 +753,7 @@ code {
       height: 3rem;
       width: 3rem; }
     .site-header__siteNavigation button .menu-label {
-      text-shadow: 2px 2px 2px #111; }
+      text-shadow: 2px 2px 2px #111111; }
     .site-header__siteNavigation button .button-icon__open {
       display: block;
       position: relative;
@@ -741,10 +769,10 @@ code {
     display: none; } }
 
 .site-header__siteNavigation button:hover {
-  box-shadow: 0 0 0 2px #4a86aa; }
+  box-shadow: 0 0 0 2px #4b86aa; }
 
 .site-header__siteNavigation button:focus {
-  outline: dotted #fbae6c 0.0625em; }
+  outline: dotted #f75b26 0.0625em; }
 
 @media (min-width: 19.25em) {
   .site-header__siteNavigation ul {
@@ -774,7 +802,7 @@ code {
   .site-header__siteNavigation--social-svg {
     display: none; }
   .site-header__siteNavigation--items {
-    border-bottom: 0.1875em solid #fff;
+    border-bottom: 0.1875em solid white;
     display: inline-block;
     margin: 0;
     padding: 0; }
@@ -798,15 +826,15 @@ code {
       padding: 2ex;
       margin: 0 0.15ex; }
       .site-header__siteNavigation--items li a {
-        text-shadow: 2px 2px 2px #111;
-        color: #fff;
+        text-shadow: 2px 2px 2px #111111;
+        color: white;
         font-size: 112.5%;
         text-decoration: none; }
       @media (min-width: 48em) {
         .site-header__siteNavigation--items li:nth-child(n) {
           flex-basis: 25%; }
           .site-header__siteNavigation--items li:nth-child(n).social-icon {
-            filter: drop-shadow(1px 1px 1px #111);
+            filter: drop-shadow(1px 1px 1px #111111);
             flex-basis: 10%;
             padding-top: 1.75ex; } }
       @media (min-width: 64em) {
@@ -818,9 +846,9 @@ code {
       .site-header__siteNavigation--items .social-icon a:hover {
         box-shadow: none; }
       .site-header__siteNavigation--items .social-icon a:hover svg {
-        fill: #f544ae; }
+        fill: #f542ad; }
     .site-header__siteNavigation--items .social-icon svg {
-      fill: #fff;
+      fill: white;
       height: 3.5rem; }
 
 .fonts-loaded .site-header__siteNavigation {
@@ -890,7 +918,7 @@ code {
     padding-right: 0; } }
 
 .site-single__content--shortcode-canvas {
-  border-left: 0.8rem solid #f544ae; }
+  border-left: 0.8rem solid #f542ad; }
 
 .site-single__content h3 {
   font-size: 2rem;
@@ -977,7 +1005,7 @@ code {
         .sidebar-prime__sidebarList > li .post-grid .drop-cap > a {
           font-size: 22px;
           font-size: 5vw;
-          border-bottom: solid 0.5rem #fff;
+          border-bottom: solid 0.5rem white;
           display: block;
           font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
           font-weight: 400;
@@ -1015,15 +1043,15 @@ code {
 
 .site-content button {
   background: transparent;
-  border: 0.15em solid #fff;
+  border: 0.15em solid white;
   border-radius: 0.35em;
-  color: #fff;
+  color: white;
   font-size: 1.25rem;
   padding: 0.5em 1em; }
 
 .site-content input {
-  background: #fff;
-  border: 0.15em solid #fff;
+  background: white;
+  border: 0.15em solid white;
   border-radius: 0.35em;
   font-size: 1.25rem;
   padding: 0.5em 1em; }
@@ -1062,7 +1090,7 @@ code {
       animation-iteration-count: 1;
       animation-timing-function: ease-out;
       animation-fill-mode: both;
-      text-shadow: 2px 2px 2px #111;
+      text-shadow: 2px 2px 2px #111111;
       padding: 1ex 0; } }
   @media (min-width: 64em) {
     .grid-wrapper .subtitle-grid-container__subTitle {
@@ -1084,7 +1112,7 @@ code {
 .grid-wrapper .mast-head {
   font-size: 32px;
   font-size: 2.75vw;
-  text-shadow: 2px 2px 2px #111;
+  text-shadow: 2px 2px 2px #111111;
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 200;
   font-style: normal;
@@ -1116,7 +1144,7 @@ code {
 
 .grid-wrapper .portfolio-flex__summary__content,
 .grid-wrapper .portfolio-grid__summary__content {
-  border: dotted 2px #f544ae; }
+  border: dotted 2px #f542ad; }
   .grid-wrapper .portfolio-flex__summary__content a:hover,
   .grid-wrapper .portfolio-grid__summary__content a:hover {
     border: 0; }
@@ -1240,9 +1268,9 @@ code {
   .site-header__siteNameContainer--name {
     font-size: 64px;
     font-size: 2.25vw;
-    text-shadow: 2px 2px 2px #111;
+    text-shadow: 2px 2px 2px #111111;
     align-self: end;
-    color: #fff;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-style: normal;
     font-weight: 200;
@@ -1260,7 +1288,7 @@ code {
       .site-header__siteNameContainer--name {
         font-size: 48px; } }
     .site-header__siteNameContainer--name:visited {
-      color: #fff; }
+      color: white; }
 
 .fonts-loaded .site-header__siteNameContainer--name {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
@@ -1273,7 +1301,7 @@ code {
       font-size: 50px;
       font-size: 3.5vw;
       align-self: center;
-      color: #fff;
+      color: white;
       font-weight: 400;
       margin: 0; }
       @media (max-width: 35.71428571em) {
@@ -1304,7 +1332,7 @@ code {
           grid-row: 1 / 2; } }
       @media (min-width: 19.25em) {
         .portfolio-list-item__content--deck svg {
-          fill: #fff;
+          fill: white;
           max-width: 100%;
           margin: 10% 10% 0;
           opacity: 0.15; } }
@@ -1381,7 +1409,7 @@ code {
       flex: 1 0 25%;
       padding: 10vmax 0 0 2vw; } }
   .grid-wrapper__portfolioParent--involvement h3 {
-    border-top: 3px solid tranparentize(#fff, 0.65);
+    border-top: 3px solid tranparentize(white, 0.65);
     font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 1ex 1.5ex 0 0;
     margin-bottom: 1ex; }
@@ -1420,7 +1448,8 @@ code {
         max-width: 25%; } }
   .portfolio-flex__content figure {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    position: relative; }
     .portfolio-flex__content figure img {
       height: 100%;
       width: 100%;
@@ -1428,9 +1457,14 @@ code {
     .portfolio-flex__content figure figcaption {
       font-size: 12px;
       font-size: 2.25vw;
+      bottom: 3vmax;
       font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
       background-color: #06182d;
-      padding: 1vw 1ex; }
+      padding: 1vw 1ex;
+      position: absolute;
+      right: 2vw;
+      text-align: right;
+      width: 85%; }
       @media (max-width: 977.77777778px) {
         .portfolio-flex__content figure figcaption {
           font-size: 22px; } }
@@ -1753,7 +1787,7 @@ code {
         align-content: space-around;
         flex-direction: row; } }
     .biography-skills > ul > li {
-      border-top: 3px solid #fff;
+      border-top: 3px solid white;
       display: block; }
       @media (min-width: 19.25em) {
         .biography-skills > ul > li {
@@ -1766,7 +1800,7 @@ code {
         margin: 0.45em 0; }
         .biography-skills > ul > li > ul > li > a {
           text-decoration: none;
-          border-bottom: 2px solid #fff; }
+          border-bottom: 2px solid white; }
   .biography-skills p {
     font-size: 0.8em;
     margin: 3ex 0 0; }
@@ -1784,7 +1818,7 @@ html {
   background-origin: 0 0;
   background-position: 0 0;
   background-size: cover;
-  color: #fff;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 62.5%; }
 
@@ -1851,7 +1885,7 @@ li {
   padding: 2ex 2em; }
 
 .site-footer {
-  background: #111;
+  background: #111111;
   height: 15vh;
   padding-top: 1ex; }
   .site-footer__siteCredit {

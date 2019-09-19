@@ -15,8 +15,7 @@ menu:
 
 **Product Design and Development**
 
-- Brought several projects from initial concept through prototyping to production. Including a new interface for Shared Collections, Staff Picks, New Arrivals and an improved experience for obtaining a library card. Additionally, I designed new UX and visual design patterns for
-  the new Simply E, An open source E-Reader.
+- Brought several projects from initial concept through prototyping to production. Including a new interface for Shared Collections, Staff Picks, New Arrivals and an improved experience for obtaining a library card. Additionally, I designed new UX and visual design patterns for Simply E, An open source E-Reader.
 
 **Design System Development**
 
@@ -34,7 +33,7 @@ menu:
 
 - Integrated with librarians, patron services, marketing, and development teams to increase access to the library’s numerous collections, improved overall engagement. Met and surpassed fundraising goals for FY 2017 utilizing modern and accessible design patterns.
 
-### WNET/THIRTEEN, New York Public Television (PBS), New York, NY
+### WNET / THIRTEEN, New York Public Television (PBS), New York, NY
 
 2009 - 2015
 

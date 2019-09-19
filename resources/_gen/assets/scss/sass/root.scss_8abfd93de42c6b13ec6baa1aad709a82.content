@@ -1432,8 +1432,13 @@ code {
 
 .portfolio-container__containerSubTitle {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1.8rem;
-  margin-left: 15vw; }
+  font-size: 1.8rem; }
+  @media (min-width: 19.25em) {
+    .portfolio-container__containerSubTitle {
+      margin-left: 6vw; } }
+  @media (min-width: 48em) {
+    .portfolio-container__containerSubTitle {
+      margin-left: 15vw; } }
 
 .portfolio-container .portfolio-flex {
   margin: 5vw 0 0;

@@ -41,9 +41,16 @@
 
   &__containerSubTitle {
     font-family: $frank-new;
-    // display: block;
+
+    @include media('>=phone') {
+      margin-left: 6vw;
+    }
+
+    @include media('>=tablet') {
+      margin-left: 15vw;
+    }
+
     font-size: 1.8rem;
-    margin-left: 15vw;
   }
 
   .portfolio-flex {

@@ -735,6 +735,32 @@ code {
       grid-column: 1 / 1;
       grid-row: 11 / 12; } }
 
+.portfolio-flex svg,
+.portfolio-grid svg {
+  height: 0;
+  width: 0; }
+  .portfolio-flex svg .a,
+  .portfolio-grid svg .a {
+    fill: #27a9e1; }
+  .portfolio-flex svg .b,
+  .portfolio-grid svg .b {
+    fill: magenta; }
+  .portfolio-flex svg .c,
+  .portfolio-grid svg .c {
+    fill: #22b472; }
+  .portfolio-flex svg .d,
+  .portfolio-grid svg .d {
+    fill: #652c90; }
+  .portfolio-flex svg .e,
+  .portfolio-grid svg .e {
+    fill: #91278d; }
+  .portfolio-flex svg .f,
+  .portfolio-grid svg .f {
+    fill: #0071bd; }
+  .portfolio-flex svg .g,
+  .portfolio-grid svg .g {
+    fill: magenta; }
+
 @media (min-width: 19.25em) {
   .site-header__siteNavigation button {
     background: rgba(6, 24, 45, 0.5);
@@ -1142,51 +1168,6 @@ code {
       .grid-wrapper .mast-head p::first-letter {
         font-size: 85px; } }
 
-.grid-wrapper .portfolio-flex__summary__content,
-.grid-wrapper .portfolio-grid__summary__content {
-  border: dotted 2px #f542ad; }
-  .grid-wrapper .portfolio-flex__summary__content a:hover,
-  .grid-wrapper .portfolio-grid__summary__content a:hover {
-    border: 0; }
-  .grid-wrapper .portfolio-flex__summary__content figure .fourDots,
-  .grid-wrapper .portfolio-grid__summary__content figure .fourDots {
-    clip-path: url(#four_dots); }
-  .grid-wrapper .portfolio-flex__summary__content figure .leftDots,
-  .grid-wrapper .portfolio-grid__summary__content figure .leftDots {
-    clip-path: url(#left_dots); }
-  .grid-wrapper .portfolio-flex__summary__content figure .oneCircle,
-  .grid-wrapper .portfolio-grid__summary__content figure .oneCircle {
-    clip-path: url(#one_circle); }
-  .grid-wrapper .portfolio-flex__summary__content figure .rightStepr,
-  .grid-wrapper .portfolio-grid__summary__content figure .rightStepr {
-    clip-path: url(#right_stepr); }
-
-.grid-wrapper .portfolio-flex svg,
-.grid-wrapper .portfolio-grid svg {
-  height: 0;
-  width: 0; }
-  .grid-wrapper .portfolio-flex svg .a,
-  .grid-wrapper .portfolio-grid svg .a {
-    fill: #27a9e1; }
-  .grid-wrapper .portfolio-flex svg .b,
-  .grid-wrapper .portfolio-grid svg .b {
-    fill: magenta; }
-  .grid-wrapper .portfolio-flex svg .c,
-  .grid-wrapper .portfolio-grid svg .c {
-    fill: #22b472; }
-  .grid-wrapper .portfolio-flex svg .d,
-  .grid-wrapper .portfolio-grid svg .d {
-    fill: #652c90; }
-  .grid-wrapper .portfolio-flex svg .e,
-  .grid-wrapper .portfolio-grid svg .e {
-    fill: #91278d; }
-  .grid-wrapper .portfolio-flex svg .f,
-  .grid-wrapper .portfolio-grid svg .f {
-    fill: #0071bd; }
-  .grid-wrapper .portfolio-flex svg .g,
-  .grid-wrapper .portfolio-grid svg .g {
-    fill: magenta; }
-
 @media (min-width: 19.25em) {
   .grid-wrapper .grid-site-data {
     font-size: 18px;
@@ -1417,44 +1398,87 @@ code {
     margin: 0;
     padding: 0; }
 
-.portfolio-flex {
-  margin: 0;
-  padding: 0; }
-  @media (max-width: 19.24em) {
-    .portfolio-flex {
-      display: block; } }
-  @media (max-width: 19.25em) {
-    .portfolio-flex {
-      display: block; } }
+@media (min-width: 19.25em) {
+  .portfolio-container {
+    grid: auto / 1fr;
+    grid-column: 1 / 1;
+    grid-row: 4 / 5; } }
+
+@media (min-width: 48em) {
+  .portfolio-container {
+    grid: auto/repeat(4, 1fr);
+    grid-column: 1 / 5; } }
+
+@media (min-width: 64em) {
+  .portfolio-container {
+    grid: auto/repeat(5, 1fr); } }
+
+.portfolio-container h3 {
+  font-size: 32px;
+  font-size: 3.75vw;
+  margin: 0; }
+  @media (max-width: 60rem) {
+    .portfolio-container h3 {
+      font-size: 2.25rem; } }
+  @media (min-width: 146.66666667rem) {
+    .portfolio-container h3 {
+      font-size: 5.5rem; } }
+  @media (min-width: 19.25em) {
+    .portfolio-container h3 {
+      padding-left: 6vw; } }
   @media (min-width: 48em) {
-    .portfolio-flex {
+    .portfolio-container h3 {
+      padding-left: 15vw; } }
+
+.portfolio-container__containerSubTitle {
+  font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.8rem;
+  margin-left: 15vw; }
+
+.portfolio-container .portfolio-flex {
+  margin: 5vw 0 0;
+  padding: 0; }
+  @media (max-width: 19.25em) {
+    .portfolio-container .portfolio-flex {
+      display: block; } }
+
+@media (min-width: 19.25em) and (max-width: 48em) {
+  .portfolio-container .portfolio-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+  @media (min-width: 48em) {
+    .portfolio-container .portfolio-flex {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; } }
-  .portfolio-flex__summary a {
-    display: block; }
-  @media (max-width: 19.24em) {
-    .portfolio-flex__summary {
-      flex: 1 1 50%; } }
-  @media (min-width: 19.25em) {
-    .portfolio-flex__summary {
-      flex: 1 1 50%; }
-      .portfolio-flex__summary:last-child {
-        max-width: 50%; } }
+
+@media (min-width: 19.25em) and (max-width: 25.875em) {
+  .portfolio-container .portfolio-flex__summary {
+    flex: 0 1 100%; } }
+
+@media (min-width: 25.875em) and (max-width: 48em) {
+  .portfolio-container .portfolio-flex__summary {
+    flex: 0 1 50%; }
+    .portfolio-container .portfolio-flex__summary:last-child {
+      max-width: 50%; } }
   @media (min-width: 48em) {
-    .portfolio-flex__summary {
+    .portfolio-container .portfolio-flex__summary {
+      flex: 0 1 25%;
       max-width: 25%; }
-      .portfolio-flex__summary:last-child {
+      .portfolio-container .portfolio-flex__summary:last-child {
         max-width: 25%; } }
-  .portfolio-flex__content figure {
+  .portfolio-container .portfolio-flex__summary a {
+    display: block; }
+  .portfolio-container .portfolio-flex__content figure {
     margin: 0;
     padding: 0;
     position: relative; }
-    .portfolio-flex__content figure img {
+    .portfolio-container .portfolio-flex__content figure img {
       height: 100%;
       width: 100%;
       border: 0; }
-    .portfolio-flex__content figure figcaption {
+    .portfolio-container .portfolio-flex__content figure figcaption {
       font-size: 12px;
       font-size: 2.25vw;
       bottom: 3vmax;
@@ -1466,12 +1490,12 @@ code {
       text-align: right;
       width: 85%; }
       @media (max-width: 977.77777778px) {
-        .portfolio-flex__content figure figcaption {
+        .portfolio-container .portfolio-flex__content figure figcaption {
           font-size: 22px; } }
       @media (min-width: 800px) {
-        .portfolio-flex__content figure figcaption {
+        .portfolio-container .portfolio-flex__content figure figcaption {
           font-size: 18px; } }
-    .portfolio-flex__content figure.fourDots .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.fourDots .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1482,7 +1506,7 @@ code {
       clip-path: url(#four_dots);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.fourDots .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.fourDots .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1492,7 +1516,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.twoSquares .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.twoSquares .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1503,7 +1527,7 @@ code {
       clip-path: url(#two_squares);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.twoSquares .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.twoSquares .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1513,7 +1537,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.overDots .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.overDots .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1524,7 +1548,7 @@ code {
       clip-path: url(#over_dots);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.overDots .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.overDots .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1534,7 +1558,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.oneDiagonal .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.oneDiagonal .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1545,7 +1569,7 @@ code {
       clip-path: url(#one_diagonal);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.oneDiagonal .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.oneDiagonal .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1555,7 +1579,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.oneDiagonal-45 .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.oneDiagonal-45 .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1566,7 +1590,7 @@ code {
       clip-path: url(#one_diagonal);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.oneDiagonal-45 .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.oneDiagonal-45 .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1576,7 +1600,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.boxDiagonals .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.boxDiagonals .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1587,7 +1611,7 @@ code {
       clip-path: url(#box_diagonals);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.boxDiagonals .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.boxDiagonals .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1597,7 +1621,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.variableDots .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.variableDots .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1608,7 +1632,7 @@ code {
       clip-path: url(#variable_dots);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.variableDots .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.variableDots .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1618,7 +1642,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.diagonalDot .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.diagonalDot .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1629,7 +1653,7 @@ code {
       clip-path: url(#diagonal_dot);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.diagonalDot .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.diagonalDot .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1639,7 +1663,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.oneCircle .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.oneCircle .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1650,7 +1674,7 @@ code {
       clip-path: url(#quarter_circle);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.oneCircle .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.oneCircle .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1660,7 +1684,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.squaresCircles .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.squaresCircles .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1671,7 +1695,7 @@ code {
       clip-path: url(#squares_circles);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.squaresCircles .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.squaresCircles .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1681,7 +1705,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.bigCircle .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.bigCircle .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1692,7 +1716,7 @@ code {
       clip-path: url(#big_circle);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.bigCircle .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.bigCircle .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1702,7 +1726,7 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-    .portfolio-flex__content figure.bigPill .portfolioCard {
+    .portfolio-container .portfolio-flex__content figure.bigPill .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-in;
@@ -1713,7 +1737,7 @@ code {
       clip-path: url(#big_pill);
       opacity: 0.5;
       pointer-events: all; }
-    .portfolio-flex__content figure.bigPill .portfolioCardOff {
+    .portfolio-container .portfolio-flex__content figure.bigPill .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
       animation-delay: 0;
@@ -1723,18 +1747,6 @@ code {
       clip-path: none;
       animation-iteration-count: 1;
       pointer-events: all; }
-  @media (min-width: 19.25em) {
-    .portfolio-flex {
-      grid: auto / 1fr;
-      grid-column: 1 / 1;
-      grid-row: 4 / 5; } }
-  @media (min-width: 48em) {
-    .portfolio-flex {
-      grid: auto/repeat(4, 1fr);
-      grid-column: 1 / 5; } }
-  @media (min-width: 64em) {
-    .portfolio-flex {
-      grid: auto/repeat(5, 1fr); } }
 
 .biography-skills {
   font-size: 48px;
@@ -1802,7 +1814,7 @@ code {
           text-decoration: none;
           border-bottom: 2px solid white; }
   .biography-skills p {
-    font-size: 0.8em;
+    font-size: 1.8rem;
     margin: 3ex 0 0; }
 
 .fonts-loaded .site-content .biography-skills {

@@ -13,12 +13,7 @@
     <div class="mast-head">
       {{ .Content }}
     </div>
-    <ul class="portfolio-flex">
-      {{ $paginator := .Paginate .Site.RegularPages 20 }}
-      {{ range where $paginator.Pages.ByWeight "Section" "portfolio"}}
-      {{ partial "hp-portfolio.html" . }}
-      {{ end }}
-    </ul>
+    {{ partial "hp-portfolio.html" . }}
     {{ partial "skills.html" . }}
   </div>
 </main>

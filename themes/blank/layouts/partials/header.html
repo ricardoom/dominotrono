@@ -2,7 +2,7 @@
 {{ $sassRoot := "sass/root.scss" }}
 {{ $options := ( dict "targetPath" $targetPath "enableSourceMap" true ) }}
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $options }}
-{{ $prodStyle := resources.Get $sassRoot | toCSS $options | postCSS | minify | fingerprint }} 
+{{ $prodStyle := resources.Get $sassRoot | toCSS $options | postCSS | minify | fingerprint }}
 {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
 {{ $class := .Site.Params.classes }}
 {{ $navControlIconClose := ( partial "svg/navControlIcon.svg" ) }}
@@ -38,7 +38,7 @@
   {{ else }}
   <link rel="stylesheet" href="{{ $prodStyle.Permalink }}">
   {{ end }}
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ $typeKitLink }}">
   <script>
     var script = document.createElement('script');

@@ -9,6 +9,10 @@ title: 'Daily Log'
 
 The idea here is to briefly jot down activities, changes, inquiries, research topics etc, so as to better document and gauge progress on this site specifically and growth as a artist, designer and developer in general.
 
+### 9-4-2019
+
+Yeah, went on hiatus in a big way. Swore off web design several times. But the reality is, I dont have many other prosepects. So I've come to terms w/ a few things; Imposter syndrome, fear and loathing of office life. I need to have creative control and outlets. Employment that is purely transactional, is not the way I want to live. I will also start modifying this site design to showcase more of my fine art and other design endeavors and interests. Today I am kicking off the new Notch 2.0 project. Basically getting reacquainted w/ Shopify, Liquid and Sketch. I will also be doing a revamp of my web project page(s) into a more coherent case study format, starting with the Notch project.
+
 ### 3-12-2019
 
 So, the idea was to do this little journal entry every day... So today, I fixed up a bunch of portfolio pages, finalized the social media icons using `<use>` and `<svg>`. Want to circle back w/ hugo params or data so this can be a loop instead of hard coded, works nicely though. Fixed some other radom things as well. And lastly, I need to catch up w/ my #100DaysOfCode project.
@@ -45,8 +49,3 @@ Did some work on that old coffee maker project. Set up Go on my computers.
 
 Working w/ SQIB: https://github.com/technopagan/sqip on my way to implementing something w/ `intersectionObserver`.
 Rewrote the masthead... too.
-
-### 2-16-2019
-
-In the post grid, removed the `overflow: hidden` so focus and hover rings are fully visible
-In same, added `aria` attributes so a screen reader might make more sense of it all. I should consider wrapping the entire block in a link instead.

@@ -578,7 +578,7 @@ code {
   margin-bottom: 0.5ex; }
 
 .site-single__content h2 {
-  font-size: 2.25rem; }
+  font-size: 2.75rem; }
 
 .site-single__content h3 {
   font-size: 1.75rem; }
@@ -592,14 +592,18 @@ code {
   line-height: 1.65; }
 
 .site-single__content ul {
-  padding-left: 0; }
+  padding-left: 3ex; }
   .site-single__content ul li {
-    padding-left: 2ex; }
+    list-style-type: disc; }
   .site-single__content ul li ul {
     border: 0; }
 
 .site-single__content h3 + ul {
   margin-top: 0.5ex; }
+
+.site-single__content b,
+.site-single__content strong {
+  font-weight: 500; }
 
 .sidebar-prime {
   font-size: 1.6rem; }

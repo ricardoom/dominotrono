@@ -156,7 +156,7 @@ article {
     }
 
     h2 {
-      font-size: 2.25rem;
+      font-size: 2.75rem;
     }
 
     h3 {
@@ -175,10 +175,11 @@ article {
 
     ul {
       // border-left: 0.25ex solid transparentize($site-white, 0.45);
-      padding-left: 0;
+      padding-left: 3ex;
 
       li {
-        padding-left: 2ex;
+        //padding-left: 2ex;
+        list-style-type: disc;
       }
 
       li ul {
@@ -187,6 +188,11 @@ article {
     }
     h3 + ul {
       margin-top: 0.5ex;
+    }
+
+    b,
+    strong {
+      font-weight: 500;
     }
   }
 }

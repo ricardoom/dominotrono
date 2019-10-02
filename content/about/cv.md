@@ -16,7 +16,7 @@ menu:
 
 # Professional Accomplishments:
 
-## Freelance
+## Freelance Designer and Developer
 2018 - 2019
 
 ## New York Public Library, New York, NY

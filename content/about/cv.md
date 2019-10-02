@@ -16,10 +16,10 @@ menu:
 
 # Professional Accomplishments:
 
-## New York Public Library, New York, NY
-
+## Freelance
 2018 - 2019
-**Freenlance**
+
+## New York Public Library, New York, NY
 
 2015 – 2018
 

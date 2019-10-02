@@ -118,11 +118,15 @@
 
         figcaption {
           @include responsive-font(2.25vw, 22px, 18px, 12px);
-          bottom: 3vmax;
+          @include media('>=phone') {
+            padding: 3vw 2ex;
+          }
+
+          bottom: 3vh;
           // box-shadow: 10px 10px 0 #333;
           font-family: $justus-pro;
           background-color: $site-dark-blue;
-          padding: 1vw 1ex;
+          padding: 1vw 2ex;
           position: absolute;
           right: 2vw;
           text-align: right;

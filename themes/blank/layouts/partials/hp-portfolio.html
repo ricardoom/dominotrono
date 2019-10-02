@@ -1,4 +1,3 @@
-{{ $ariaId := replaceRE "(\\s)" "-" .Title}}
 <div class="portfolio-container">
   <h3>Portfolio</h3>
   <span class="portfolio-container__containerSubTitle">Projects past and present</span>
@@ -7,6 +6,7 @@
     {{ range where $paginator.Pages.ByWeight "Section" "portfolio"}}
     <li class="portfolio-flex__summary">
       {{ if and ( .Params.postImage1x ) ( ne .Params.postImage1x "" ) }}
+      {{ $ariaId := replaceRE "(\\s)" "-" .Title }}
       <a href="{{ .Permalink }}" aria-label="{{ $ariaId }}">
         <div class="portfolio-flex__content">
           <figure class="{{ .Params.svgColorClass }}">

@@ -446,6 +446,11 @@ template {
   .site-color--brown figcaption {
     box-shadow: 10px 10px 0 #2e1605; }
 
+.site-color--yellow {
+  background: #ffe666; }
+  .site-color--yellow figcaption {
+    box-shadow: 10px 10px 0 #ffe666; }
+
 h1 {
   font-family: "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
   font-weight: 200;
@@ -1486,10 +1491,10 @@ code {
     .portfolio-container .portfolio-flex__content figure figcaption {
       font-size: 12px;
       font-size: 2.25vw;
-      bottom: 3vmax;
+      bottom: 3vh;
       font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
       background-color: #06182d;
-      padding: 1vw 1ex;
+      padding: 1vw 2ex;
       position: absolute;
       right: 2vw;
       text-align: right;
@@ -1500,6 +1505,9 @@ code {
       @media (min-width: 800px) {
         .portfolio-container .portfolio-flex__content figure figcaption {
           font-size: 18px; } }
+      @media (min-width: 19.25em) {
+        .portfolio-container .portfolio-flex__content figure figcaption {
+          padding: 3vw 2ex; } }
     .portfolio-container .portfolio-flex__content figure.fourDots .portfolioCard {
       animation-duration: 250ms;
       animation-iteration-count: 1;

@@ -48,7 +48,7 @@ Contact: ricardo.e.galvez@gmail.com
 
 - Owner and maintainer of codebase built with Jekyll, SCSS, Javascript, and HTML.
 
-- Improved design and deployment efforts by utilizing technologies include Gulp, git, Github, and npm.
+- Improved design and deployment efforts by utilizing technologies that include Gulp, git, Github, and npm.
 
 - Designed, developed, and maintained a system of custom SVG icons used across many of NYPL’s web properties.
 

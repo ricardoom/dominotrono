@@ -51,46 +51,9 @@ time {
       margin: 1.5ex 0;
     }
     
-    figure {
-      margin: 0;
+    
 
-      img {
-        width: 100%;
-      }
-    }
-
-    .image-block {
-      &__100 {
-        width: 100%;
-      }
-
-      &__50 {
-        @include media('<=tablet') {
-          display: block;
-          width: 100%;
-        }
-        width: 50%;
-      }
-
-      &__33 {
-        @include media('<tablet') {
-          display: block;
-          width: 100%;
-        }
-
-        width: 33.33%;
-      }
-
-      &__25 {
-        @include media('<tablet') {
-          display: block;
-          width: 100%;
-        }
-
-        // border: 1px dotted $site-hot-orange;
-        width: 25%;
-      }
-    } // /.image-block
+    
   } //
 }
 

@@ -32,7 +32,7 @@ Contact: ricardo.e.galvez@gmail.com
 
 - Successfully oversaw a diverse range of web and interface design projects from concept, prototype to production.
 
-- Lead the experience and Interface design for NYPL’s Shared Collections, Staff Picks, and New Arrivals applications.
+- Lead the experience and interface design for NYPL’s Shared Collections, Staff Picks, and New Arrivals applications.
 
 - Directed and executed new visual and experience design for obtaining a library card.
 

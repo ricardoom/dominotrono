@@ -1,5 +1,5 @@
 //
-// hp portfolio
+// home page portfolio grid
 // This file handles the styling of the grid of cards on home page
 // this grid represents all the current portfolio items that are
 // currently published
@@ -120,6 +120,10 @@
           @include responsive-font(2.25vw, 22px, 18px, 12px);
           @include media('>=phone') {
             padding: 3vw 2ex;
+          }
+
+          @include media('>=tablet') {
+            padding: 1vw 1ex;
           }
 
           bottom: 3vh;

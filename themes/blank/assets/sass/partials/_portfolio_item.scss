@@ -3,6 +3,7 @@
 ///
 
 .grid-wrapper {
+  
   &__portfolioParent {
     @include media('>=phone') {
       display: block;
@@ -21,11 +22,17 @@
       }
 
       .portfolio {
+        
         &__content {
+         
           .portfolio-image-wrapper {
             @include media('<=tablet') {
               display: block;
             }
+            
+              @include media('>=tablet') {
+                display: flex;
+              }
 
             figcaption {
               font-family: $frank-new;
@@ -37,6 +44,7 @@
         } // /__content
       }
     }
+
     &--involvement {
       @include media('>=tablet') {
         flex: 1 0 25%;

@@ -1,5 +1,5 @@
 ---
-title: 'Design Toolkit'
+title: 'NYPL Design Toolkit'
 date: 2018-08-16T09:21:38-04:00
 draft: false
 categories: 'portfolio'
@@ -41,6 +41,10 @@ You can check it out here: <a href="https://nypl.github.io/design-toolkit/" targ
     alt="An image of the NYPL Discovery full record result"
     imgHeading="Copy and pasteable components"
     >}}
+
+    {{< /image_wrapper >}}
+  
+  {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"

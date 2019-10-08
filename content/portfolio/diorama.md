@@ -13,17 +13,18 @@ portfolioHeroSqip: '../media/portfolio/diorama/dioramaHeroSqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1549730263/diorama/diorama.launch.screen.png'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1549730263/diorama/diorama.launch.screen.png'
 portfolioHero3x: ''
-portfolioHeroAlt: 'This alt might not be necessary'
-heroFigcaption: 'When moose compete, one moose wins'
+portfolioHeroAlt: 'An image of the main title card for Diorama'
+heroFigcaption: ''
 figcaption: ''
 svgClipObjectClass: 'fourDots'
 svgColorClass: 'site-color--acid-green'
-tags: ['visual design', 'illustration']
+tags: ['graphic design','visual design', 'illustration']
 weight: 6
 projectRoles: ['Design Lead']
 projectCredits: ['Tom McNamara']
 projectClients: ['PBS Digital Studios', 'Thirteen Digital']
 projectDate: '2015'
+externalURL: 'https://www.thirteen.org/programs/diorama/'
 ---
 
 ## Project Details:
@@ -45,6 +46,10 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       imgHeading="Video cards from the series"
       figcaption="A diagram from the \"Why Moose Fight\" video "
       >}}
+  
+  {{< /image_wrapper >}}
+  
+  {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730541/diorama/diorama_termite_vid_card.png"
@@ -55,6 +60,10 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       imgHeading=""
       figcaption=""
     >}}
+ 
+  {{< /image_wrapper >}}
+  
+  {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png"
@@ -65,8 +74,11 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
     imgHeading=""
     figcaption=""
     >}}
-
-{{< image
+  
+  {{< /image_wrapper >}}
+  
+{{< image_wrapper class="portfolio-image-wrapper" >}}
+  {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730468/diorama/diorama_termite_vid_card_4.png 2x"
@@ -75,6 +87,10 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       imgHeading=""
       figcaption="A set of video cards from the termite episode"
     >}}
+
+{{< /image_wrapper >}}
+  
+  {{< image_wrapper class="portfolio-image-wrapper" >}}
 
      {{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
@@ -86,6 +102,10 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
     figcaption=""
     >}}
 
+{{< /image_wrapper >}}
+  
+  {{< image_wrapper class="portfolio-image-wrapper" >}}
+
      {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729894/diorama/diorama_mooseinfo.png"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729894/diorama/diorama_mooseinfo.png"
@@ -96,6 +116,10 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       figcaption=""
     >}}
 
+{{< /image_wrapper >}}
+  
+  {{< image_wrapper class="portfolio-image-wrapper" >}}
+
     {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730263/diorama/diorama.launch.screen.png"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730263/diorama/diorama.launch.screen.png"
@@ -105,6 +129,10 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       imgHeading="Cards from the opening sequence"
       figcaption=""
     >}}
+
+{{< /image_wrapper >}}
+  
+  {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730177/diorama/diorama.intro.rhino.png"

@@ -1,19 +1,17 @@
 <!-- prettier-ignore-start -->
+{{ printf "<!-- portfolio hero template  -->" | safeHTML }}
 {{ $svg := .Params.svgClipObjectClass }}
 {{ $color :=  .Params.svgColorClass }}
 {{ $portfolioHero := .Params.portfolioHero1x }}
 {{ $portfolioHeroSqip := .Params.portfolioHeroSqip }}
 {{ $date := .Date.Format "02012006" }}
 {{ $3x := .Params.portfolioHero3x }}
+{{ $tags := .Params.tags }}
+{{ $projectDescription := .Params.projectDesc }}
 <li class="portfolio-list-item" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
     <div class="portfolio-list-item__content">
-      <h1>{{ .Title }}</h1>
-      {{ if $svg }}
-      <div class="portfolio-list-item__content--deck">
-        {{ ( partial ( printf "svg/%s.svg" ( $svg | default "soloDotAngle" )) . ) }}
-      </div>
-      {{ end }}
+
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
       <figure class="portfolio-list-item__content--hero">
         <img class="portfolioHero__image lazy" data-srcset="{{ .Params.portfolioHero1x }},
@@ -28,6 +26,25 @@
         <figcaption>{{ .Params.heroFigcaption }}</figcaption>
         {{ end }}
       </figure>
+      {{ end }}
+
+
+      <h1>{{ .Title }}</h1>
+      {{ if $svg }}
+      <div class="portfolio-list-item__content--deck">
+        {{ ( partial ( printf "svg/%s.svg" ( $svg | default "soloDotAngle" )) . ) }}
+      </div>
+      {{ end }}
+      {{ if and ( $projectDescription ) ( ne $projectDescription "" ) }}
+      <p class="portfolio-list-item__content--description">{{ $projectDescription }}</p>
+      {{ end }}
+
+      {{ if and ( .Params.tags ) ( ne .Params.tags "" ) }}
+      <ul class="portfolio-list-item__content--static-tags">
+        {{ range $tags }}
+        <li class="site-tags__tag">{{ . }}</li>
+        {{ end }}
+      </ul>
       {{ end }}
     </div>
   </a>

@@ -10,6 +10,7 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero3x: '../media/portfolio/il_nido_seattle/heroPlaceholder@3x.png'
 portfolioHeroAlt: ''
 portfolioHeroSqip: '../media/portfolio/il_nido_seattle/ilNidoHeroSqip.svg'
+# heroFigcaption goes on the portfolio/ landing page
 heroFigcaption: ''
 postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.png'
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.png'
@@ -24,6 +25,7 @@ projectDate: ''
 tags: ['logo design','web design','html','css', 'javascript']
 weight: -1
 externalURL: 'http://ilnidoseattle.com'
+projectDesc: 'This is a freelance project contracted by the Chef / Owner of Il Corvo Pasta in Seattle Wa. He was opening up a new restaurant and needed a simple, maintenance free website and SEO work.'
 ---
 
 ## Project Details:

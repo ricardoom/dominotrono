@@ -4,7 +4,6 @@
 
 .site-summary,
 .portfolio-list-item {
-
   @include basic-article-wrapper('>=phone', 95vw);
 
   @include media('>=tablet') {
@@ -27,18 +26,18 @@
   }
 
   &__content {
-    @include media('>=phone') {
-      // display: block;
-    }
+    // @include media('>=phone') {
+    //   // display: block;
+    // }
 
-    @include media('>=desktop') {
-      //display: flex;
-      // flex-flow: row wrap;
-      // justify-content: flex-start;
-    }
+    // @include media('>=desktop') {
+    //   //display: flex;
+    //   // flex-flow: row wrap;
+    //   // justify-content: flex-start;
+    // }
 
-
-    p { /// TODO: needs mqs for this
+    p {
+      /// TODO: needs mqs for this
       flex-basis: 65%;
       padding-right: 3ex;
     }
@@ -49,10 +48,9 @@
 
       img {
         @include media('>=phone') {
-       }
+        }
 
         @include media('>=desktop') {
-
         }
         width: 100%;
       }

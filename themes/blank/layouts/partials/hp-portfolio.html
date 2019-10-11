@@ -1,3 +1,4 @@
+{{ printf "<!-- home page portfolio block -->" | safeHTML }}
 <div class="portfolio-container">
   <h3>Portfolio</h3>
   <span class="portfolio-container__containerSubTitle">Projects past and present</span>
@@ -11,6 +12,7 @@
         <div class="portfolio-flex__content">
           <figure class="{{ .Params.svgColorClass }}">
             {{ if and ( .Params.figcaption ) ( ne .Params.figcaption "" ) }}
+
             {{ else }}
             <figcaption>{{ .Title }}</figcaption>
             {{ end }}
@@ -31,3 +33,4 @@
     </li>
   </ul>
 </div>
+{{ printf "<!-- end home page portfolio block -->" | safeHTML }}

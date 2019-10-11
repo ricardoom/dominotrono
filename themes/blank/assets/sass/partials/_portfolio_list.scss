@@ -4,6 +4,25 @@
 //
 .portfolio-list-item {
   &__content {
+    &--hero {
+      @include media('>=phone') {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        padding: 0.5em 0 0;
+      }
+      @include media('>=tablet') {
+        grid-column: 2 / 4;
+        grid-row: 1 / 5;
+      }
+
+      margin: 0;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+
     h1 {
       @include responsive-font(3.5vw, 1.25em, 64px, 50px);
 
@@ -15,15 +34,17 @@
       }
 
       @include media('>=tablet') {
-        grid-column: 2 / 2;
-        grid-row: 1 / 1;
-        // padding: 0;
+        grid-column: 1 / 3;
+        grid-row: 2 / 2;
       }
 
       align-self: center;
+      background-color: (transparentize($site-black, 0.2));
       color: $site-white;
       font-weight: 400;
       margin: 0;
+      padding: 2ex;
+      text-shadow: 1px 1px 10px transparentize($site-black, 0.5);
     }
 
     &--deck {
@@ -34,7 +55,7 @@
 
       @include media('>=tablet') {
         grid-column: 1 / 2;
-        grid-row: 1 / 2;
+        grid-row: 2 / 2;
       }
 
       svg {
@@ -53,15 +74,23 @@
       top: 5em;
     }
 
-    &--hero {
-      @include media('>=phone') {
-        grid-column: 1 / 3;
-        grid-row: 2 / 3;
-        padding: 0.5em 0 0;
-      }
-      @include media('>=tablet') {
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
+    &--description {
+      @include responsive-font(1.5vw, 1.25em, 16px, 22px);
+      background-color: transparentize($site-black, 0.2);
+      font-family: $frank-new;
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+      padding: 3ex;
+    }
+
+    &--static-tags {
+      @include responsive-font(1.5vw, 0.8em, 10px, 18px);
+      background-color: transparentize($site-black, 0.2);
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
+
+      li {
+        display: inline;
       }
     }
 
@@ -76,13 +105,16 @@
     }
 
     @include media('>=desktop') {
-      grid-template-rows: minmax(6vh, 10vh) 3fr;
+      grid-template-columns: 9vw 1.5fr 2fr;
+      grid-template-rows: minmax(3vh, 7vh) 1fr 1fr 1fr;
     }
     display: grid;
   }
 
   a {
+    display: block;
     text-decoration: none;
   }
+  margin-bottom: 2vh;
   padding: 0.5em 0 0;
 }

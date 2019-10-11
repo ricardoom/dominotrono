@@ -36,7 +36,7 @@
     //   // justify-content: flex-start;
     // }
 
-    p {
+    &__copy {
       /// TODO: needs mqs for this
       flex-basis: 65%;
       padding-right: 3ex;
@@ -47,11 +47,10 @@
       overflow: hidden;
 
       img {
-        @include media('>=phone') {
-        }
+        @include media('>=phone') {}
 
-        @include media('>=desktop') {
-        }
+        @include media('>=desktop') {}
+
         width: 100%;
       }
     }
@@ -60,4 +59,6 @@
   &__tags {
     display: inline-block;
   }
-} // /.site-summary
+}
+
+// /.site-summary

@@ -1207,8 +1207,8 @@ code {
 .portfolio-list-item__copy {
   line-height: 1.6; }
 
-.site-summary__content p,
-.portfolio-list-item__content p {
+.site-summary__content__copy,
+.portfolio-list-item__content__copy {
   flex-basis: 65%;
   padding-right: 3ex; }
 
@@ -1365,7 +1365,9 @@ figure {
       font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       grid-column: 2 / 3;
       grid-row: 3 / 4;
-      padding: 3ex; }
+      margin-top: 25%;
+      max-height: 50%;
+      padding: 9% 5%; }
       @media (max-width: 83.33333333em) {
         .portfolio-list-item__content--description {
           font-size: 1.25em; } }
@@ -1377,7 +1379,8 @@ figure {
       font-size: 1.5vw;
       background-color: rgba(17, 17, 17, 0.8);
       grid-column: 2 / 3;
-      grid-row: 4 / 5; }
+      grid-row: 4 / 5;
+      padding: 2ex; }
       @media (max-width: 53.33333333em) {
         .portfolio-list-item__content--static-tags {
           font-size: 0.8em; } }
@@ -1397,7 +1400,7 @@ figure {
     @media (min-width: 64em) {
       .portfolio-list-item__content {
         grid-template-columns: 9vw 1.5fr 2fr;
-        grid-template-rows: minmax(3vh, 7vh) 1fr 1fr 1fr; } }
+        grid-template-rows: repeat(2, minmax(3vh, 7vh)) minmax(auto, max-content) minmax(1vh, 2vh); } }
   .portfolio-list-item a {
     display: block;
     text-decoration: none; }

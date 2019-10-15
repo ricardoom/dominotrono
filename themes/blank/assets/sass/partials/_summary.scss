@@ -2,8 +2,7 @@
 /// Site Summary
 ///
 
-.site-summary,
-.portfolio-list-item {
+.site-summary {
   @include basic-article-wrapper('>=phone', 95vw);
 
   @include media('>=tablet') {
@@ -47,9 +46,11 @@
       overflow: hidden;
 
       img {
-        @include media('>=phone') {}
+        @include media('>=phone') {
+        }
 
-        @include media('>=desktop') {}
+        @include media('>=desktop') {
+        }
 
         width: 100%;
       }

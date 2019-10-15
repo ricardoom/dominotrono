@@ -23,6 +23,7 @@ projectRoles: ['Design Lead']
 projectClients: ['Internal Stake Holders at NYPL']
 projectCredits: ['NYPL Digital Team', 'Jinu Yang (Second Story)']
 projectDate: '2015-2018'
+projectDesc: 'I was hired on as the lead in-house designer to oversee the visual and interface design efforts for the New York Public Library I held this position for over 2 years.'
 ---
 
 ## Project Details:

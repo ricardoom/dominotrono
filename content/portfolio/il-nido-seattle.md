@@ -5,9 +5,9 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/il_nido_seattle/ilNidoCard.svg'
-portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.png'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.png'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.png'
-portfolioHero3x: '../media/portfolio/il_nido_seattle/heroPlaceholder@3x.png'
+portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_3x/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.jpg'
 portfolioHeroAlt: ''
 portfolioHeroSqip: '../media/portfolio/il_nido_seattle/ilNidoHeroSqip.svg'
 # heroFigcaption goes on the portfolio/ landing page

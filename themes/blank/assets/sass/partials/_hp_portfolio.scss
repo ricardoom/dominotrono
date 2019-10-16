@@ -25,6 +25,10 @@
     grid: auto / repeat(5, 1fr);
     // grid-column: 1 / 5;
   }
+  a {
+    border-bottom: 2px solid $site-white;
+    text-decoration: none;
+  }
 
   h3 {
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
@@ -33,7 +37,7 @@
     }
 
     @include media('>=tablet') {
-      padding-left: 15vw;
+      padding-left: 1.5vw;
     }
 
     margin: 0;
@@ -47,7 +51,7 @@
     }
 
     @include media('>=tablet') {
-      margin-left: 15vw;
+      margin-left: 1.5vw;
     }
 
     font-size: 1.8rem;

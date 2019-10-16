@@ -30,6 +30,7 @@ projectClients: ['NYPL']
 projectCredits:
   ['Edwin Guzman', 'Kang Ting Peng', 'Willa Armstrong', 'Courtney McGee']
 projectDate: '2016-2018'
+projectDesc: ''
 ---
 
 ## Project Details:

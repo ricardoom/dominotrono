@@ -1,5 +1,5 @@
 ---
-title: 'New York Public Library Redesign'
+title: 'New York Public Library'
 date: 2018-10-09T11:47:46-04:00
 draft: false
 categories: 'portfolio'
@@ -23,7 +23,7 @@ projectRoles: ['Design Lead']
 projectClients: ['Internal Stake Holders at NYPL']
 projectCredits: ['NYPL Digital Team', 'Jinu Yang (Second Story)']
 projectDate: '2015-2018'
-projectDesc: 'I was hired on as the lead in-house designer to oversee the visual and interface design efforts for the New York Public Library I held this position for over 2 years.'
+projectDesc: 'In 2015 I was hired to be the in-house designer for the New York Public Library. My primary responsibility was to oversee the visual and interface design efforts for the New York Public Library.'
 ---
 
 ## Project Details:

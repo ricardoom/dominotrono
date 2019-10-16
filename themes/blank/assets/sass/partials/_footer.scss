@@ -1,0 +1,15 @@
+//
+// Footer
+// to its own partial
+//
+
+.site-footer {
+  max-height: 15vh;
+  min-height: 7.5vh;
+  padding-top: 1ex;
+
+  &__siteCredit {
+    font-size: $base-font-small;
+    margin: 0;
+  }
+}

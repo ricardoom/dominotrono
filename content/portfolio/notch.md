@@ -21,7 +21,8 @@ weight: 10
 projectRoles: ['Design Lead']
 projectClients: ['Notch']
 projectCredits: ['Shawn Warner']
-projectDate: '2018-2019'
+projectDate: '2018 - 2019'
+projectDesc: ''
 ---
 
 ## Project Details:

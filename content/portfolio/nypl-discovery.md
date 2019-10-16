@@ -30,6 +30,7 @@ projectCredits:
     'Kang Ting Peng',
   ]
 projectDate: '2015'
+projectDesc: ''
 ---
 
 ## Project Details:

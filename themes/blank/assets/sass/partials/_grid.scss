@@ -65,8 +65,8 @@ $mobile-second-row: 15vh;
       }
 
       @include media('>=tablet') {
-        grid-column: 2 / 4;
-        padding-left: 0;
+        grid-column: 1 / 4;
+        padding-left: 1.5vw;
         //padding: 0.5em 0 3vw 0.65em;
       }
     }
@@ -82,7 +82,7 @@ $mobile-second-row: 15vh;
 
     @include media('>=tablet') {
       display: grid;
-      padding-right: 4em;
+      padding: 0.75vw 0;
     }
 
     &--items {
@@ -116,7 +116,7 @@ $mobile-second-row: 15vh;
       padding: 0;
     }
 
-    grid-template-rows: [nameBox] minmax(10.5em, 15vh) auto;
+    grid-template-rows: [nameBox] minmax(15.5em, 15vh) auto;
   }
 }
 
@@ -148,11 +148,9 @@ $mobile-second-row: 15vh;
       grid-column: 1 / 1;
       grid-row: 1 /1;
 
-      svg {
-        height: auto;
-        padding: 1em;
-        width: 100%;
-      }
+      // svg {
+      //   opacity: 0.45;
+      // }
     }
 
     @include media('>=tablet') {
@@ -163,6 +161,12 @@ $mobile-second-row: 15vh;
 
     @include media('>=desktop') {
       grid-row: nameBox;
+    }
+
+    svg {
+      height: auto;
+      padding: 1em;
+      width: 100%;
     }
   } // prime box
 

@@ -26,6 +26,7 @@ projectClients:
   ]
 projectCredits: ['SimplyE Team']
 projectDate: '2018'
+projectDesc: ''
 ---
 
 ## Project Details:

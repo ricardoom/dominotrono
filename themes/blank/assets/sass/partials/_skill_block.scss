@@ -8,11 +8,13 @@
   }
 
   @include media('>=tablet') {
-    padding: 8ex 8vw 8ex 15vw;
+    padding: 8ex 8vw 8ex 1.5vw;
   }
 
   @include responsive-font(2vw, 18px, 1em, 48px);
-  background: transparentize($site-dark-blue, 0.6);
+  // background: transparentize($site-dark-blue, 0.6);
+  // border: 1px dotted lighten($site-white, 20%);
+  border-bottom: 0;
   font-family: $sans-serif;
   grid-column: 1 / 5;
   grid-row: 5 / 6;

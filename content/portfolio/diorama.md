@@ -25,6 +25,7 @@ projectCredits: ['Tom McNamara']
 projectClients: ['PBS Digital Studios', 'Thirteen Digital']
 projectDate: '2015'
 externalURL: 'https://www.thirteen.org/programs/diorama/'
+projectDesc: ''
 ---
 
 ## Project Details:

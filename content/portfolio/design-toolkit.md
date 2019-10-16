@@ -22,7 +22,8 @@ weight: 3
 projectRoles: ['Product Owner', 'Design']
 projectClients: ['NYPL Digital Team']
 projectCredits: ['Mauricio Giraldo Arteaga', 'Edwin Guzman', 'Willa Armstrong']
-projectDate: '2016-2018'
+projectDate: '2016 - 2018'
+projectDesc: ''
 ---
 
 ## Project Details:

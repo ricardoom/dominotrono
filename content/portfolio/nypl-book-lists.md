@@ -17,6 +17,8 @@ weight: -1
 projectRoles: ["Design Lead"]
 projectClients: ["Internal NYPL Stakeholders"]
 projectCredits: ["Edwin Guzman", "Rafael Hernandez", "Kang Ting Peng"]
+projectDate: '2015'
+projectDesc: ''
 ---
 ## Project Details:
 

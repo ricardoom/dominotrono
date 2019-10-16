@@ -23,7 +23,8 @@ weight: 9
 projectRoles: ['Design Lead']
 projectClients: ['PBS Vital']
 projectCredits: ['Nicholas Miller']
-projectDate: '2015'
+projectDate: '2014'
+projectDesc: ''
 ---
 
 ## Project Details:

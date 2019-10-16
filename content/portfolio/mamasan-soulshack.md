@@ -24,6 +24,7 @@ projectRoles: ['Design Lead']
 projectClients: ['Mamasans Soulshack, Portland OR']
 projectCredits: []
 projectDate: ''
+projectDesc: ''
 ---
 
 ## Project Details:

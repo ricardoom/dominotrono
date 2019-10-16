@@ -9,13 +9,14 @@ postImage2x: '../media/portfolio/cnc/shapeOko@2x.png'
 postImage3x: '../media/portfolio/cnc/shapeOko@3x.png'
 postImageAlt: 'An Image of CNC Workings'
 figcaption: ''
-svgClipObjectClass: 'oneDiagonal'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--lava-orange'
 tags: ['cnc', 'maker']
 weight: 10
 projectRoles: ["role one", "role two"]
 projectClients: ["client A", "client B"]
-projectDate: ""
+projectDate: ''
+projectDesc: ''
 ---
 
 ## a thing to work on

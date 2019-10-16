@@ -23,7 +23,8 @@ weight: 7
 projectRoles: ['Design Lead']
 projectClients: ['WNET Thirteen']
 projectCredits: ['Nicholas Miller', 'David Hirmes']
-projectDate: '2015'
+projectDate: '2013 - 2015'
+projectDesc: ''
 ---
 
 ## Project Details:

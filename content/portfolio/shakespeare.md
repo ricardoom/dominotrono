@@ -21,4 +21,6 @@ weight: 10
 projectRoles: ['Design Collaborator']
 projectClients: ['WNET Thirteen', 'PBS']
 projectCredits: ['Tom McNamara', 'Nicholas Miller']
+projectDate: '2013'
+projectDesc: ''
 ---

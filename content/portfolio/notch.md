@@ -25,7 +25,7 @@ projectDate: '2018 - 2019'
 projectDesc: ''
 ---
 
-## Project Details:
+## Project Details
 
 As a co-founder of Notch, My primary responsibilities are handling all of the branding, web and visual design of the company.
 

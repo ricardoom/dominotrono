@@ -18,24 +18,24 @@ svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--acid-green'
 tags:
   [
-    'visual design',
-    'UX',
-    'progressive enhancement',
-    'responsive design',
-    'accessibility',
+    'Visual Design',
+    'User Experience',
+    'Progressive Enhancement',
+    'Responsive Design',
+    'Accessibility',
   ]
 weight: 2
 projectRoles: ['Design Lead']
 projectClients: ['NYPL']
 projectCredits:
-  ['Edwin Guzman', 'Kang Ting Peng', 'Willa Armstrong', 'Courtney McGee']
+  ['Edwin Guzman', 'Kang Ting Peng', 'Willa Armstrong', 'Courtney McGee', 'Jinu Yang (Second Story)']
 projectDate: '2016-2018'
-projectDesc: ''
+projectDesc: 'Our goal was a ground-up overhaul of the blogging platform. Complete with new layouts, publishing admin, and interface as well as "deep" content linking across the catalog and various other applications.'
 ---
 
-## Project Details:
+## Project Details
 
-A component of the NYPL redesign efforts centered around a significant overhaul of the Blogs section. We were tasked to evaluate critical areas of the blog to improve. From improving basic readability to restructuring the layout, we approached the task with two key constituencies in mind, our readers and our bloggers.
+A component of the NYPL redesign efforts centered around a significant overhaul of the Blogs section. We were tasked to evaluate critical areas of the blog to improve. From improving basic readability to restructuring the layout, we approached the task with two key constituencies in mind; our readers and our bloggers.
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

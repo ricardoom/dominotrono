@@ -27,7 +27,7 @@ projectDate: ''
 projectDesc: ''
 ---
 
-## Project Details:
+## Project Details
 
 I was contacted by the owners of Mamasan Soul Shack to create a branding identity. We wanted to express their brand as an extension of their particular style of cooking and easy going attitude. They wanted something bold and playful to be used across a variety of media.
 

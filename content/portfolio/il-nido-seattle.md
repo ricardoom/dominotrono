@@ -28,7 +28,7 @@ externalURL: 'http://ilnidoseattle.com'
 projectDesc: 'This is a freelance project contracted by the Chef / Owner of Il Corvo Pasta in Seattle Wa. He was opening up a new restaurant and needed a simple, maintenance free website and SEO work.'
 ---
 
-## Project Details:
+## Project Details
 
 ### Client consultation and User Experience goals
 

@@ -1,5 +1,5 @@
 ---
-title: 'NYPL Shared Resource Collection (ReCAP)'
+title: 'NYPL Shared Resource Collection'
 date: 2019-01-27T17:36:03-05:00
 draft: false
 categories: 'portfolio'
@@ -18,7 +18,14 @@ heroFigcaption: ''
 figcaption: ''
 svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--red'
-tags: []
+tags:
+  [
+    'Visual Design',
+    'User Experience',
+    'Progressive Enhancement',
+    'Responsive Design',
+    'Accessibility',
+  ]
 weight: 4
 projectRoles: ['Design Collaborator']
 projectClients: ['NYPL Digital']
@@ -29,15 +36,15 @@ projectCredits:
     'Ashely Blewer',
     'Kang Ting Peng',
   ]
-projectDate: '2015'
-projectDesc: ''
+projectDate: '2017 - 2018'
+externalURL: 'https://www.nypl.org/research/collections/shared-collection-catalog/'
+projectDesc: 'An interface designed to allow researchers to gain access to materials contained in collections held by NYPL, Princeton, and Columbia Universities.'
 ---
 
-## Project Details:
+## Project Details
 
 The NYPL Shared Collection is an interface to search the catalogs of NYPL, Columbia and Princeton Universities. The system is designed to decrease friction between sharing item across institutions. My primary role was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards.
 
-[Access the shared collection catalog](https://www.nypl.org/research/collections/shared-collection-catalog/)
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

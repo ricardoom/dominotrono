@@ -16,11 +16,11 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHeroAlt: 'Image card linking to the Design Toolkit'
 svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--dark-blue'
-tags: ['visual design', 'UX', 'accessibility']
+tags: ['Visual Design', 'User Experience', 'Accessibility']
 weight: 5
 projectRoles: ['Design Collaborator']
 projectClients:
-  [
+  ['General Public',
     'Internal stakeholders at NYPL',
     'External stakeholders at participating libraries',
   ]
@@ -29,7 +29,7 @@ projectDate: '2018'
 projectDesc: ''
 ---
 
-## Project Details:
+## Project Details
 
 I was fortunate to be able to work on this fantastic project with some brilliant people. My particular role was to create a user interface for audiobook playback and to create new pathways for discovery.
 

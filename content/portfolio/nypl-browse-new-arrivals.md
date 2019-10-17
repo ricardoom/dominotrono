@@ -24,7 +24,7 @@ projectCredits: ['collaborator 1', 'collaborator 2']
 projectDate: ''
 tags: []
 weight: 10
-externalURL: ''
-projectDesc: ''
+externalURL: 'https://www.nypl.org/books-music-movies/new-arrivals'
+projectDesc: 'Browse New Arrivals is an app that reveals to patrons what books and other materials  NYPL has on order.  The main feature of the app allows them to do sophisticated filtering and place items on hold.'
 ---
-## Project Details:
+## Project Details

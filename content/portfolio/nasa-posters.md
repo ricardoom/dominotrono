@@ -27,7 +27,7 @@ projectDate: '2014'
 projectDesc: ''
 ---
 
-## Project Details:
+## Project Details
 
 For this project, the education team at WNET wanted to create two different infographic posters. The first to demonstrate the concept of electromagnetism. The second to explain the difference between mass and weight. My role was to create engaging visuals to appeal to students from middle to high school age. I worked closely with my creative director and stakeholders to visualize the concepts in a relatable manner.
 

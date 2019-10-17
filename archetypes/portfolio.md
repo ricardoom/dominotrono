@@ -27,4 +27,4 @@ weight: 10
 externalURL: ''
 projectDesc: ''
 ---
-## Project Details:
+## Project Details

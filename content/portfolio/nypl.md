@@ -1,5 +1,5 @@
 ---
-title: 'New York Public Library'
+title: 'New York Public Library Website Re-design'
 date: 2018-10-09T11:47:46-04:00
 draft: false
 categories: 'portfolio'
@@ -17,7 +17,7 @@ portfolioHeroAlt: ''
 heroFigcaption: ''
 svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--purple'
-tags: ['visual design', 'design technology']
+tags: ['Visual Design', 'design technology']
 weight: 1
 projectRoles: ['Design Lead']
 projectClients: ['Internal Stake Holders at NYPL']
@@ -26,7 +26,7 @@ projectDate: '2015-2018'
 projectDesc: 'In 2015 I was hired to be the in-house designer for the New York Public Library. My primary responsibility was to oversee the visual and interface design efforts for the New York Public Library.'
 ---
 
-## Project Details:
+## Project Details
 
 In close collaboration with the Portland based design studio Second Story. Displayed below are comps for the NYPL home page at various points in the process of redesign. I helped steer the project towards a more accessible structure. Much of my work centered around fine tuning of the layout in React and SASS. Worked closely with the front end team to implement iconography and type. Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
 {{< image_wrapper class="portfolio-image-wrapper" >}}

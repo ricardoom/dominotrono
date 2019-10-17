@@ -1506,12 +1506,12 @@ figure {
   font-size: 32px;
   font-size: 3.75vw;
   margin: 0; }
-  @media (max-width: 60rem) {
+  @media (max-width: 60em) {
     .portfolio-container h3 {
-      font-size: 2.25rem; } }
-  @media (min-width: 146.66666667rem) {
+      font-size: 2.25em; } }
+  @media (min-width: 146.66666667em) {
     .portfolio-container h3 {
-      font-size: 5.5rem; } }
+      font-size: 5.5em; } }
   @media (min-width: 19.25em) {
     .portfolio-container h3 {
       padding-left: 6vw; } }
@@ -1531,7 +1531,7 @@ figure {
 
 .portfolio-container .portfolio-flex {
   margin: 5vw 0 0;
-  padding: 0; }
+  padding: 0 1.5vw; }
   @media (max-width: 19.25em) {
     .portfolio-container .portfolio-flex {
       display: block; } }

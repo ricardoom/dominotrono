@@ -18,7 +18,7 @@ portfolioHeroAlt: 'Image of the Thirteen Explore inital screen'
 heroFigcaption: ''
 svgClipObjectClass: 'bigCircle'
 svgColorClass: 'site-color--lava-orange'
-tags: ['visual desgin', 'UX', 'interface design']
+tags: ['visual desgin', 'User Experience', 'interface design']
 weight: 7
 projectRoles: ['Design Lead']
 projectClients: ['WNET Thirteen']
@@ -27,7 +27,7 @@ projectDate: '2013 - 2015'
 projectDesc: ''
 ---
 
-## Project Details:
+## Project Details
 
 Thirteen Explore is an iPad app designed to provide on-demand PBS content to users via a familiar interface. One of my favorite and most challenging projects was Thirteen Explore. The project was conceived by our team to bring video content from all of THIRTEEN's properties to our users in an intuitive way. I was the lead designer on this project, responsible for wireframing, prototyping workflows, and typographic treatments in collaboration with project management, creative director and engineering.
 

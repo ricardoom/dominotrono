@@ -20,22 +20,22 @@ svgClipObjectClass: 'diagonalDot'
 svgColorClass: 'site-color--green-blue'
 tags:
   [
-    'visual design',
-    'UX',
-    'progressive enhancement',
-    'responsive design',
-    'accessibility',
+    'Visual Design',
+    'User Experience',
+    'Progressive Enhancement',
+    'Responsive Design',
+    'Accessibility',
   ]
 weight: 2
 projectRoles: ['Design Lead']
-projectClients: ['NYPL']
+projectClients: ['NYPL', 'General Public']
 projectCredits:
   ['Edwin Guzman', 'Kang Ting Peng', 'Willa Armstrong', 'Courtney McGee']
 projectDate: '2016 - 2018'
-projectDesc: ''
+projectDesc: 'We created the Best Books app to highlight the expertise and extensive breadth of knowledge held by the librarians working at NYPL. We built an interactive tool so users could discover what the librarians were reading and could not put down.'
 ---
 
-## Project Details:
+## Project Details
 
 The New York Public Library offers many librarian curated lists. At the start of each season and the end of each year &quot;Staff Picks and &quot;Best of...&quot; lists are created by the librarians from all branches. Part of our task was to make a fully Accessible site. One of the challenges faced was creating a site that functions without javascript. As a team, we had to make decisions along the way to create truly progressive page where the basic functionality of the page did not rely on javascript being enabled as well as it being operable by keyboard or assertive technology. Please see live example links as well as some of the initial creative and experience design work in the images below.
 

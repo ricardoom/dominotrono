@@ -18,7 +18,7 @@ heroFigcaption: ''
 figcaption: ''
 svgClipObjectClass: 'fourDots'
 svgColorClass: 'site-color--acid-green'
-tags: ['graphic design','visual design', 'illustration']
+tags: ['graphic design','Visual Design', 'illustration']
 weight: 6
 projectRoles: ['Design Lead']
 projectCredits: ['Tom McNamara']
@@ -28,7 +28,7 @@ externalURL: 'https://www.thirteen.org/programs/diorama/'
 projectDesc: ''
 ---
 
-## Project Details:
+## Project Details
 
 This work was for a short video series by PBS Digital Studios, produced in New York at WNET / Thirteen about the dioramas at the American Muesum of Natural History in New York. My role as a designer was to work with the producer [Tom McNamara](https://twitter.com/fieldguidetom) in creating a comprehensive look and feel for the entire project and brand. Working on a tight deadline, I created typographic treatments, motion graphics and custom illustrations. Additionally, I worked with the producer to develop educational materials in the form of infographics to be used on the project's website and disseminated to various PBS Educational portals.
 

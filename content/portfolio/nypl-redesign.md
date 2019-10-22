@@ -43,7 +43,11 @@ externalURL: 'http://nypl.org'
 
 {{< /image_wrapper >}}
 
-In close collaboration with the Portland based design studio Second Story. Displayed below are comps for the NYPL home page at various points in the process of redesign. I helped steer the project towards a more accessible structure. Much of my work centered around fine tuning of the layout in React and SASS. Worked closely with the front end team to implement iconography and type. Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
+The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I lead our in-house efforts towards the design and implementation of their recommendations. In that role, I expanded and refined the visual and experience design to meet the library's standards for accessibility and progressive enhancement.
+
+In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography specifications.
+
+The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

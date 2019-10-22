@@ -22,8 +22,8 @@ projectRoles: ['Art Direction','Designer','Developer']
 projectClients: ['Chef Mike Easton of Il Nido Seattle']
 projectCredits: []
 projectDate: ''
-tags: ['logo design','web design','html','css', 'javascript']
-weight: -1
+tags: ['Logo Design','Web Design','Web Development']
+weight: 2
 externalURL: 'http://ilnidoseattle.com'
 projectDesc: 'This is a freelance project contracted by the Chef / Owner of Il Corvo Pasta in Seattle Wa. He was opening up a new restaurant and needed a simple, maintenance free website and SEO work.'
 ---

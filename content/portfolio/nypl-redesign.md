@@ -17,31 +17,34 @@ portfolioHeroAlt: ''
 heroFigcaption: ''
 svgClipObjectClass: 'squaresCircles'
 svgColorClass: 'site-color--purple'
-tags: ['Visual Design', 'design technology']
+tags: ['Visual Design', 'Web Design']
 weight: 1
 projectRoles: ['Design Lead']
 projectClients: ['Internal Stake Holders at NYPL']
 projectCredits: ['NYPL Digital Team', 'Jinu Yang (Second Story)']
 projectDate: '2015-2018'
 projectDesc: 'In 2015 I was hired to be the in-house designer for the New York Public Library. My primary responsibility was to oversee the visual and interface design efforts for the New York Public Library.'
+externalURL: 'http://nypl.org'
 ---
 
 ## Project Details
 
-In close collaboration with the Portland based design studio Second Story. Displayed below are comps for the NYPL home page at various points in the process of redesign. I helped steer the project towards a more accessible structure. Much of my work centered around fine tuning of the layout in React and SASS. Worked closely with the front end team to implement iconography and type. Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722310/nypl-dot-org/desktop.png"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722310/nypl-dot-org/desktop.png"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722310/nypl-dot-org/desktop.png 2x"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.png"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.png"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg 2x"
     class="image-block__100"
     alt="An image of the New York Public Library home page"
-    imgHeading="The homepage is rich as it is complex"
-    figcaption="The full screen of the home page reflecting the main priorities the library sought to establish."
+    
+    figcaption=""
     >}}
 
 {{< /image_wrapper >}}
+
+In close collaboration with the Portland based design studio Second Story. Displayed below are comps for the NYPL home page at various points in the process of redesign. I helped steer the project towards a more accessible structure. Much of my work centered around fine tuning of the layout in React and SASS. Worked closely with the front end team to implement iconography and type. Worked through a wide variety of potential use cases and scenarios with respect to patron devices, cultural background and interests.
+
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
@@ -51,7 +54,7 @@ In close collaboration with the Portland based design studio Second Story. Displ
     class="image-block__100"
     alt="An alternate image of the NYPL home page"
     imgHeading="Login drop down is fully keyboard and assistive device compatible"
-    figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the Recommendations section as well as the top page hero carousel for smaller screens, in this case tablets" title="NYPL home page Tablet view " >}}
+    figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the fully accessible drop Login drop down menu" title="NYPL home page Tablet view " >}}
 
 {{< /image_wrapper >}}
 {{< image_wrapper class="portfolio-image-wrapper" >}}

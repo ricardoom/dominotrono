@@ -18,13 +18,13 @@ portfolioHeroAlt: 'A cropped image of the NASA Poster / Info-graphic'
 heroFigcaption: ''
 svgClipObjectClass: 'boxDiagonals'
 svgColorClass: 'site-color--white'
-tags: ['infographic', 'graphic design', 'illustration']
+tags: ['infographic', 'Graphic Design', 'Illustration']
 weight: 9
 projectRoles: ['Design Lead']
 projectClients: ['PBS Vital']
 projectCredits: ['Nicholas Miller']
 projectDate: '2014'
-projectDesc: ''
+projectDesc: 'A fun and short graphic design collaboration with the education department at WNET.'
 ---
 
 ## Project Details

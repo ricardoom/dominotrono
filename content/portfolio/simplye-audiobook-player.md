@@ -1,5 +1,5 @@
 ---
-title: 'SimplyE Audio Book Player'
+title: 'SimplyE Audiobook Player'
 date: 2018-10-08T16:07:05-04:00
 draft: false
 categories: 'portfolio'
@@ -16,7 +16,7 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHeroAlt: 'Image card linking to the Design Toolkit'
 svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--dark-blue'
-tags: ['Visual Design', 'User Experience', 'Accessibility']
+tags: ['User Experience', 'Accessibility', 'Interface Design']
 weight: 5
 projectRoles: ['Design Collaborator']
 projectClients:
@@ -26,7 +26,8 @@ projectClients:
   ]
 projectCredits: ['SimplyE Team']
 projectDate: '2018'
-projectDesc: ''
+projectDesc: "A minimal and accessible audio player interface allowing user access to SimplyE's and NYPL's audiobook collections."
+externalURL: 'https://apps.apple.com/app/apple-store/id1046583900'
 ---
 
 ## Project Details

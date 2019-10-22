@@ -18,13 +18,13 @@ portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
 svgClipObjectClass: 'twoSquares'
 svgColorClass: 'site-color--hot-orange'
-tags: ['graphic design', 'logo design', 'brand identity']
+tags: ['Graphic Design', 'Logo Design', 'Brand Identity']
 weight: 8
 projectRoles: ['Design Lead']
 projectClients: ['Mamasans Soulshack, Portland OR']
 projectCredits: []
-projectDate: ''
-projectDesc: ''
+projectDate: '2014 - 2015'
+projectDesc: 'Graphic and brand design for a Portland Oregon based restaurant.'
 ---
 
 ## Project Details

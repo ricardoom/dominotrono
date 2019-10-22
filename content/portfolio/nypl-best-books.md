@@ -37,15 +37,6 @@ projectDesc: 'We created the Best Books app to highlight the expertise and exten
 
 ## Project Details
 
-The New York Public Library offers many librarian curated lists. At the start of each season and the end of each year &quot;Staff Picks and &quot;Best of...&quot; lists are created by the librarians from all branches. Part of our task was to make a fully Accessible site. One of the challenges faced was creating a site that functions without javascript. As a team, we had to make decisions along the way to create truly progressive page where the basic functionality of the page did not rely on javascript being enabled as well as it being operable by keyboard or assertive technology. Please see live example links as well as some of the initial creative and experience design work in the images below.
-
-Some relvant links for Staff Picks 2018 can be found below:
-<a href="https://www.nypl.org/books-music-movies/recommendations/best-books/staff-picks" target="_blank">https://www.nypl.org/books-music-movies/recommendations/best-books/staff-picks</a>
-
-Best Books for Kids: <a href="https://www.nypl.org/books-music-dvds/recommendations/best-books/childrens" target="_blank">https://www.nypl.org/books-music-dvds/recommendations/best-books/childrens</a>
-
-Best Books for Teens: <a href="https://www.nypl.org/books-music-dvds/recommendations/best-books/ya" target="_blank">https://www.nypl.org/books-music-dvds/recommendations/best-books/ya</a>
-
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
@@ -59,6 +50,15 @@ Best Books for Teens: <a href="https://www.nypl.org/books-music-dvds/recommendat
     >}}
 
 {{< /image_wrapper >}}
+
+The New York Public Library offers many librarian curated lists. At the start of each season and the end of each year &quot;Staff Picks and &quot;Best of...&quot; lists are created by the librarians from all branches. Part of our task was to make a fully Accessible site. One of the challenges faced was creating a site that functions without javascript. As a team, we had to make decisions along the way to create truly progressive page where the basic functionality of the page did not rely on javascript being enabled as well as it being operable by keyboard or assertive technology. Please see live example links as well as some of the initial creative and experience design work in the images below.
+
+Some relvant links for Staff Picks 2018 can be found below:
+<a href="https://www.nypl.org/books-music-movies/recommendations/best-books/staff-picks" target="_blank">https://www.nypl.org/books-music-movies/recommendations/best-books/staff-picks</a>
+
+Best Books for Kids: <a href="https://www.nypl.org/books-music-dvds/recommendations/best-books/childrens" target="_blank">https://www.nypl.org/books-music-dvds/recommendations/best-books/childrens</a>
+
+Best Books for Teens: <a href="https://www.nypl.org/books-music-dvds/recommendations/best-books/ya" target="_blank">https://www.nypl.org/books-music-dvds/recommendations/best-books/ya</a>
 
 {{< image_wrapper class="portfolio-image-wrapper" >}}
 

@@ -18,14 +18,14 @@ heroFigcaption: ''
 figcaption: ''
 svgClipObjectClass: 'fourDots'
 svgColorClass: 'site-color--acid-green'
-tags: ['graphic design','Visual Design', 'illustration']
+tags: ['Graphic Design','Visual Design', 'Illustration']
 weight: 6
 projectRoles: ['Design Lead']
 projectCredits: ['Tom McNamara']
 projectClients: ['PBS Digital Studios', 'Thirteen Digital']
 projectDate: '2015'
 externalURL: 'https://www.thirteen.org/programs/diorama/'
-projectDesc: ''
+projectDesc: 'Graphic and infographic design for a web series exploring the dioramas at the American Museum of Natural History in New York.'
 ---
 
 ## Project Details

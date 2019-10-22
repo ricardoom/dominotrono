@@ -20,7 +20,7 @@ svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--red'
 tags:
   [
-    'Visual Design',
+    'Interface Design',
     'User Experience',
     'Progressive Enhancement',
     'Responsive Design',

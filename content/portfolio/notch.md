@@ -1,7 +1,7 @@
 ---
 title: 'Notch'
 date: 2018-08-16T09:05:33-04:00
-draft: false
+draft: true
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/notch/notch-cover-45.svg'
@@ -16,7 +16,7 @@ portfolioHeroAlt: 'Image of the NOTCH Intersect disassembled'
 heroFigcaption: ''
 svgClipObjectClass: 'boxDiagonals'
 svgColorClass: 'site-color--black'
-tags: ['portfolio', 'logo design', 'product development']
+tags: ['portfolio', 'Logo Design', 'product development']
 weight: 10
 projectRoles: ['Design Lead']
 projectClients: ['Notch']

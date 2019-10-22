@@ -18,7 +18,7 @@ portfolioHeroAlt: 'Image of the Thirteen Explore inital screen'
 heroFigcaption: ''
 svgClipObjectClass: 'bigCircle'
 svgColorClass: 'site-color--lava-orange'
-tags: ['visual desgin', 'User Experience', 'interface design']
+tags: ['Visual Design', 'User Experience', 'Interface Design']
 weight: 7
 projectRoles: ['Design Lead']
 projectClients: ['WNET Thirteen']

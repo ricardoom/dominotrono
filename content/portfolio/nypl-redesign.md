@@ -33,8 +33,8 @@ newLayout: true
 {{< section_wrapper class="hero-grid" >}}
 
     {{< image
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.png"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.png"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg 2x"
     class="image-block__100-words"
     alt="An image of the New York Public Library home page"
@@ -55,16 +55,17 @@ newLayout: true
 
     {{< image
     class="image-block__20-words left"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/v1572885362/nypl-dot-org/nypl_ed_landingPage.png"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960X960_2x/v1572885362/nypl-dot-org/nypl_ed_landingPage.png 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/v1572885362/nypl-dot-org/nypl_ed_landingPage.png"
+     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960X960_2x/nypl-dot-org/nypl_ed_landingPage.jpg 2x"
+   
     alt="An alternate image of the NYPL home page"
     figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the fully accessible drop Login drop down menu" title="NYPL home page Tablet view " >}}
 
-{{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3_2x/v1548722309/nypl-dot-org/nypl_tablet_grid.png 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.png"
+    {{< image
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/nypl-dot-org/nypl_tablet_grid.jpg 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
       class="image-block__20-words right"
       alt="An image of an interior page"
        imgHeading=""
@@ -79,10 +80,10 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-{{< image
+    {{< image
       class="image-block__50-words primary-image"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_4x3_2x/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
       alt="An example of the Education landing page"
     >}}

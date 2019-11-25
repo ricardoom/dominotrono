@@ -989,6 +989,7 @@ code {
   top: 0; }
 
 .sidebar-prime {
+  background: #061629;
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
@@ -1516,7 +1517,7 @@ figure {
     display: grid; }
   .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid {
     grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-    grid-template-rows: minmax(800px, 25vh) repeat(2, minmax(8vh, 16vh)); }
+    grid-template-rows: minmax(800px, 25vh) repeat(2, minmax(150px, auto)); }
     .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .image-block__100-words {
       grid-column: 1 / 6;
       grid-row: 1 / 3;
@@ -2010,6 +2011,7 @@ figure {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 .site-footer {
+  background: #061629;
   max-height: 15vh;
   min-height: 7.5vh;
   padding-top: 1ex; }

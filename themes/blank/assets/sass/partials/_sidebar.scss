@@ -3,7 +3,7 @@
 ///
 
 .sidebar-prime {
-  // background: darken($site-background-color, 0.9);
+  background: darken($site-background-color, 0.9);
   // border: 1px dotted lighten($site-white, 20%);
   // border-bottom: 0;
   font-family: $frank-new;
@@ -14,7 +14,7 @@
   &__sidebarTitle {
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
 
-    @include media('>tablet') {
+    @include media(">tablet") {
       margin-left: 1.5vw;
       margin-bottom: 2vh;
     }

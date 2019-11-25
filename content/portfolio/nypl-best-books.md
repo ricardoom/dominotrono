@@ -37,7 +37,7 @@ projectDesc: 'We created the Best Books app to highlight the expertise and exten
 
 ## Project Details
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="/media/portfolio/nypl_staff_picks/spFall2018Hero.png 360w"
@@ -49,7 +49,7 @@ projectDesc: 'We created the Best Books app to highlight the expertise and exten
     alt="Staff Picks Landing Page"
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
 
 The New York Public Library offers many librarian curated lists. At the start of each season and the end of each year &quot;Staff Picks and &quot;Best of...&quot; lists are created by the librarians from all branches. Part of our task was to make a fully Accessible site. One of the challenges faced was creating a site that functions without javascript. As a team, we had to make decisions along the way to create truly progressive page where the basic functionality of the page did not rely on javascript being enabled as well as it being operable by keyboard or assertive technology. Please see live example links as well as some of the initial creative and experience design work in the images below.
 
@@ -60,7 +60,7 @@ Best Books for Kids: <a href="https://www.nypl.org/books-music-dvds/recommendati
 
 Best Books for Teens: <a href="https://www.nypl.org/books-music-dvds/recommendations/best-books/ya" target="_blank">https://www.nypl.org/books-music-dvds/recommendations/best-books/ya</a>
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="/media/portfolio/nypl_staff_picks/sp_large_screen_initial.png 360w"
@@ -70,9 +70,9 @@ Best Books for Teens: <a href="https://www.nypl.org/books-music-dvds/recommendat
     alt="Staff Picks Landing Page"
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       srcsetOne="/media/portfolio/nypl_staff_picks/nyplBbComponents.jpg 640w"
@@ -80,9 +80,9 @@ Best Books for Teens: <a href="https://www.nypl.org/books-music-dvds/recommendat
       src="/media/portfolio/nypl_staff_picks/nyplBbComponents.jpg"
       class="image-block__100" alt=""  >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       srcsetOne="/media/portfolio/nypl_staff_picks/nyplBbLargeLayouts.jpg 640w"
@@ -90,9 +90,9 @@ Best Books for Teens: <a href="https://www.nypl.org/books-music-dvds/recommendat
       src="/media/portfolio/nypl_staff_picks/nyplBbLargeLayouts.jpg"
       class="image-block__100" alt="" >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       srcsetOne="/media/portfolio/nypl_staff_picks/nyplBbMobileWire.jpg 640w"
@@ -106,4 +106,4 @@ Best Books for Teens: <a href="https://www.nypl.org/books-music-dvds/recommendat
       src="/media/portfolio/nypl_staff_picks/nyplBbMobileWireEx.jpg"
       class="image-block__100" alt=""  >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

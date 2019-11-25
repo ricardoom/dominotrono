@@ -36,7 +36,7 @@ Please enjoy srcsetThree first video about the moose diorama on youtube:
 {{< youtube DZ6zs6e6zxo  >}}
 See the entire series here: https://www.youtube.com/user/PBSDiorama
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
   
  {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730029/diorama/diorama_vid_graphic.png"
@@ -48,9 +48,9 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       figcaption="A diagram from the \"Why Moose Fight\" video "
       >}}
   
-  {{< /image_wrapper >}}
+  {{< /section_wrapper >}}
   
-  {{< image_wrapper class="portfolio-image-wrapper" >}}
+  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730541/diorama/diorama_termite_vid_card.png"
@@ -62,9 +62,9 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       figcaption=""
     >}}
  
-  {{< /image_wrapper >}}
+  {{< /section_wrapper >}}
   
-  {{< image_wrapper class="portfolio-image-wrapper" >}}
+  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png"
@@ -76,9 +76,9 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
     figcaption=""
     >}}
   
-  {{< /image_wrapper >}}
+  {{< /section_wrapper >}}
   
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
   {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
@@ -89,9 +89,9 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       figcaption="A set of video cards from the termite episode"
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
   
-  {{< image_wrapper class="portfolio-image-wrapper" >}}
+  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
      {{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
@@ -103,9 +103,9 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
     figcaption=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
   
-  {{< image_wrapper class="portfolio-image-wrapper" >}}
+  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
      {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729894/diorama/diorama_mooseinfo.png"
@@ -117,9 +117,9 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       figcaption=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
   
-  {{< image_wrapper class="portfolio-image-wrapper" >}}
+  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730263/diorama/diorama.launch.screen.png"
@@ -131,9 +131,9 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       figcaption=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
   
-  {{< image_wrapper class="portfolio-image-wrapper" >}}
+  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730177/diorama/diorama.intro.rhino.png"
@@ -145,4 +145,4 @@ See the entire series here: https://www.youtube.com/user/PBSDiorama
       figcaption=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

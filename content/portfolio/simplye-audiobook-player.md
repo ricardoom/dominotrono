@@ -34,7 +34,7 @@ externalURL: 'https://apps.apple.com/app/apple-store/id1046583900'
 
 I was fortunate to be able to work on this fantastic project with some brilliant people. My particular role was to create a user interface for audiobook playback and to create new pathways for discovery.
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802600/simply-e/se-Audio-flow-iOS.png"
@@ -43,4 +43,4 @@ I was fortunate to be able to work on this fantastic project with some brilliant
     class="image-block__100" alt=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

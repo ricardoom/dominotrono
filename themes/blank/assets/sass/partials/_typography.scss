@@ -2,19 +2,13 @@
 /// type family
 ///
 
-$sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-  Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
-$serif: 'Liberation Serif', Times, Cambria, Utopia, 'Hoefler Text',
-  'Nimbus Roman No9 L Regular', 'Times New Roman', serif;
+$serif: 'Liberation Serif', Times, Cambria, Utopia, 'Hoefler Text', 'Nimbus Roman No9 L Regular', 'Times New Roman', serif;
 
-$monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono',
-  'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
-  'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco,
-  'Courier New', Courier, monospace;
+$monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
 
-$slab-serif: 'Rockwell', 'Rockwell Extra Bold', 'Courier New', Monoco, Courier,
-  monospace;
+$slab-serif: 'Rockwell', 'Rockwell Extra Bold', 'Courier New', Monoco, Courier, monospace;
 
 ///
 /// from Adobe Typekit
@@ -42,10 +36,7 @@ $base-letter-spacing: 0.01;
 /// descender fixing
 ///
 
-@mixin descender(
-  //$color: $site-white,
-    $descender-bg: ''
-) {
+@mixin descender($descender-bg: '') {
   background-image: linear-gradient(currentColor, currentColor);
   background-repeat: no-repeat;
   background-size: 100% 0.0625em;
@@ -54,8 +45,7 @@ $base-letter-spacing: 0.01;
   //color: $color;
   padding: 10px 0;
   text-decoration: none;
-  text-shadow: 3px 0 $descender-bg, 2px 0 $descender-bg, 1px 0 $descender-bg,
-    -1px 0 $descender-bg, -2px 0 $descender-bg, -3px 0 $descender-bg;
+  text-shadow: 3px 0 $descender-bg, 2px 0 $descender-bg, 1px 0 $descender-bg, -1px 0 $descender-bg, -2px 0 $descender-bg, -3px 0 $descender-bg;
   transition: color 0.1s ease-out;
 }
 
@@ -150,7 +140,8 @@ article {
   font-size: 1.3rem;
 }
 
-.site-single {
+.site-single,
+.portfolio {
   &__content {
     h2,
     h3 {
@@ -203,10 +194,16 @@ article {
   font-size: 1.6rem;
 }
 
-.fonts-loaded .site-single {
-  &__content {
-    p {
-      font-family: $frank-new;
+//
+// TODO: Refactor this later!
+//
+.fonts-loaded {
+  .site-single,
+  .portfolio {
+    &__content {
+      p {
+        font-family: $frank-new;
+      }
     }
   }
 }

@@ -32,7 +32,7 @@ projectDesc: "The Design Toolkit was the Library's robust guide for semantics, d
 The Design Toolkit at NYPL is our online style-guide and foundation for a more extensive design system. We wanted to free the front end developers up from having to make design decisions and create an opportunity to develop reusable components and styles. We also needed to have robust documentation and code examples. It is very much a work in progress, lots of hurdles were placed and overcome, and many more still in place. It's inception, and much of the critical work was put in place by <a href="https://twitter.com/mgiraldo" target="_blank">Mauricio Giraldo Arteaga</a>
 
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722203/nypl-design-toolkit/Design-Toolkit.png"
@@ -43,9 +43,9 @@ The Design Toolkit at NYPL is our online style-guide and foundation for a more e
     imgHeading="Copy and pasteable components"
     >}}
 
-    {{< /image_wrapper >}}
+    {{< /section_wrapper >}}
   
-  {{< image_wrapper class="portfolio-image-wrapper" >}}
+  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"
@@ -56,4 +56,4 @@ The Design Toolkit at NYPL is our online style-guide and foundation for a more e
     imgHeading="SVG Icons"
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

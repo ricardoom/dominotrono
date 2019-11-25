@@ -29,7 +29,7 @@ projectDesc: ''
 
 As a co-founder of Notch, My primary responsibilities are handling all of the branding, web and visual design of the company.
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
 {{< image
   srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548721948/notch/intersect.bag.dis.png"
@@ -39,8 +39,8 @@ As a co-founder of Notch, My primary responsibilities are handling all of the br
   alt="Notch Intersect with bag disassembled "
     >}}
 
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< /section_wrapper >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
 {{< image
   srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548721947/notch/intersect.bag.png"
@@ -50,8 +50,8 @@ As a co-founder of Notch, My primary responsibilities are handling all of the br
   alt="Notch Intersect phone stand with bag "
     >}}
 
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< /section_wrapper >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
 {{< image
   srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548721948/notch/logoNotch.v2.2.jpg"
@@ -61,4 +61,4 @@ As a co-founder of Notch, My primary responsibilities are handling all of the br
   alt="Notch Intersect phone stand with bag "
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

@@ -23,77 +23,81 @@ projectRoles: ['Design Lead']
 projectClients: ['Internal Stake Holders at NYPL']
 projectCredits: ['NYPL Digital Team', 'Jinu Yang (Second Story)']
 projectDate: '2015-2018'
-projectDesc: 'In 2015 I was hired to be the in-house designer for the New York Public Library. My primary responsibility was to oversee the visual and interface design efforts for the New York Public Library.'
+projectDesc: 'In 2015 I was hired to be the in-house designer for the New York Public Library. My initial responsibility was to oversee the visual and interface design efforts for the New York Public Library redesign.'
 externalURL: 'http://nypl.org'
+newLayout: true
 ---
 
-## Project Details
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+
+{{< section_wrapper class="hero-grid" >}}
 
     {{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.png"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.png"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg 2x"
-    class="image-block__100"
+    class="image-block__100-words"
     alt="An image of the New York Public Library home page"
-    
     figcaption=""
     >}}
 
-{{< /image_wrapper >}}
+    {{< copy_wrapper class="copy-block__100-words" >}}
+    The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I lead our in-house efforts towards the design and implementation of their recommendations. In that role, I expanded and refined the visual and experience design to meet the library's standards for accessibility and progressive enhancement.
+    {{< /copy_wrapper >}}
 
-The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I lead our in-house efforts towards the design and implementation of their recommendations. In that role, I expanded and refined the visual and experience design to meet the library's standards for accessibility and progressive enhancement.
+{{< /section_wrapper >}}
 
-In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography specifications.
+{{< section_wrapper class="details-grid" >}}
 
-The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
-
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+    {{< copy_wrapper class="copy-block__20-words left" >}}
+    In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography specifications.
+    {{< /copy_wrapper >}}
 
     {{< image
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722296/nypl-dot-org/nypl_tablet_full.jpg"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722296/nypl-dot-org/nypl_tablet_full.jpg 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722296/nypl-dot-org/nypl_tablet_full.jpg"
-    class="image-block__100"
+    class="image-block__20-words left"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/v1572885362/nypl-dot-org/nypl_ed_landingPage.png"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960X960_2x/v1572885362/nypl-dot-org/nypl_ed_landingPage.png 2x"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/v1572885362/nypl-dot-org/nypl_ed_landingPage.png"
     alt="An alternate image of the NYPL home page"
-    imgHeading="Login drop down is fully keyboard and assistive device compatible"
     figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the fully accessible drop Login drop down menu" title="NYPL home page Tablet view " >}}
 
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
-
-    {{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722313/nypl-dot-org/desktop_landing_browse.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722313/nypl-dot-org/desktop_landing_browse.png 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722313/nypl-dot-org/desktop_landing_browse.png"
-      class="image-block__100"
+{{< image
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.png"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3_2x/v1548722309/nypl-dot-org/nypl_tablet_grid.png 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.png"
+      class="image-block__20-words right"
       alt="An image of an interior page"
        imgHeading=""
       figcaption="An example of an interior landing page dedicated towards giving voice to the wide variety of expertise the library has to offer."
     >}}
 
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+    {{< copy_wrapper class="copy-block__20-words right" >}}
+    The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
+    {{< /copy_wrapper >}}
+
+{{< /section_wrapper >}}
+
+{{< section_wrapper class="details-grid" >}}
+
+{{< image
+      class="image-block__50-words primary-image"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
+      alt="An example of the Education landing page"
+    >}}
 
     {{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549840263/nypl-dot-org/desktop_landing_attend.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549840263/nypl-dot-org/desktop_landing_attend.png 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549840263/nypl-dot-org/desktop_landing_attend.png"
-      class="image-block__100"
-      alt="An image of image aspect ratio audit for small screens"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
+      class="image-block__50-words secondary-image"
+      alt="An example of the Education landing page"
     >}}
 
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
-  
- {{< image
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl_tablet_grid.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722309/nypl-dot-org/nypl_tablet_grid.png 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722309/nypl-dot-org/nypl_tablet_grid.png"
-      class="image-block__100"
-      alt="An image of an alternate version of the home page with a grid overlay for reference"
-      figcaption="An image of an alternate version of the home page with a grid overlay for reference"
-    >}}
 
-{{< /image_wrapper >}}
+     {{< copy_wrapper class="copy-block__50-words" >}}
+    The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
+    {{< /copy_wrapper >}}
+
+{{< /section_wrapper >}}

@@ -32,7 +32,7 @@ projectDesc: 'This is a freelance project contracted by the Chef / Owner of Il C
 
 ### Client consultation and User Experience goals
 
- {{< image_wrapper class="portfolio-image-wrapper" >}}
+ {{< section_wrapper class="portfolio-image-wrapper" >}}
       {{< image
         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
@@ -42,13 +42,13 @@ projectDesc: 'This is a freelance project contracted by the Chef / Owner of Il C
         imgHeading=""
         figcaption=""
        >}}
-    {{< /image_wrapper >}}
+    {{< /section_wrapper >}}
 
 Chef Mike did not want to have to worry about the site, so we decided that a simple website was the best choice from a business perspective.  We settled on a  brochure style site giving the most basic information. With this in mind, we also wanted the site load as fast as possible, reasoning that his clientele would most likely be accessing the site from their mobile devices. Due to the restaurant's menu changing with the seasons and daily, we reasoned that only location, hours, and contact were required. Chef Mike opted to use the Resy system for handling reservations. We decided a button-like link would be best to direct customers to obtain a booking.
 
 ### Art Direction and Logo Design
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
   {{< image 
    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
@@ -80,12 +80,12 @@ Chef Mike did not want to have to worry about the site, so we decided that a sim
         figcaption=""
     >}}
 
-{{< /image_wrapper>}}
+{{< /section_wrapper>}}
 
 When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually,  the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
 
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
   {{< image 
    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570214653/il-nido-il-corvo/tattoo_books.jpg"
@@ -127,13 +127,13 @@ When we began talking about logos initially, my idea was simply to create a grap
         figcaption=""
     >}}
 
-{{< /image_wrapper>}}
+{{< /section_wrapper>}}
 
 We spoke at length about color schemes, and what colors best represented the new restaurant's look and feel.  In a mood board presented, I had two covers for the Russian Criminal Tattoo books, the yellow and blue. Ultimately we settled on having the yellow be the predominate color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle. 
 
 ### Prototyping and Visual Design
 
- {{< image_wrapper class="portfolio-image-wrapper" >}}
+ {{< section_wrapper class="portfolio-image-wrapper" >}}
       {{< image
         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1570024423/il-nido-il-corvo/il-nido-screens.jpg"
         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1570024423/il-nido-il-corvo/il-nido-screens.jpg"
@@ -143,7 +143,7 @@ We spoke at length about color schemes, and what colors best represented the new
         imgHeading=""
         figcaption=""
        >}}
-    {{< /image_wrapper >}}
+    {{< /section_wrapper >}}
 
   Utilizing Sketch I created several drafts of possible outcomes. The main idea was to incoroporate Chef Mike's photography into a screen design that captured the spirit of the location while not being overly dominated by imagery alone. 
 

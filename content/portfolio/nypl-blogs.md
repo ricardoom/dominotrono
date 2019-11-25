@@ -37,7 +37,7 @@ projectDesc: 'Our goal was a ground-up overhaul of the blogging platform. Comple
 
 A component of the NYPL redesign efforts centered around a significant overhaul of the Blogs section. We were tasked to evaluate critical areas of the blog to improve. From improving basic readability to restructuring the layout, we approached the task with two key constituencies in mind; our readers and our bloggers.
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
 {{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722028/nypl-blogs/blogshome.jpg"
@@ -53,17 +53,17 @@ A component of the NYPL redesign efforts centered around a significant overhaul 
     alt="this image is only a placeholder there is nothing to see"
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
 {{< image
   srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.png"
   srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.png 2x"
   src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.png"
   class="image-block__100" >}}
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< /section_wrapper >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
 {{< image
   srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/nypl-blogs-wire-medium.png"
@@ -71,4 +71,4 @@ A component of the NYPL redesign efforts centered around a significant overhaul 
   src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/nypl-blogs-wire-medium.png"
   class="image-block__100" >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

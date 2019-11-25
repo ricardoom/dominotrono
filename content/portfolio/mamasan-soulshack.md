@@ -31,7 +31,7 @@ projectDesc: 'Graphic and brand design for a Portland Oregon based restaurant.'
 
 I was contacted by the owners of Mamasan Soul Shack to create a branding identity. We wanted to express their brand as an extension of their particular style of cooking and easy going attitude. They wanted something bold and playful to be used across a variety of media.
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
 {{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
@@ -41,9 +41,9 @@ I was contacted by the owners of Mamasan Soul Shack to create a branding identit
     alt=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.png"
@@ -52,10 +52,10 @@ I was contacted by the owners of Mamasan Soul Shack to create a branding identit
     class="image-block__100" alt=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
 
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
   {{< image 
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9/v1549726136/mamasan-soul-shack/soulShack960.png" 
@@ -65,4 +65,4 @@ I was contacted by the owners of Mamasan Soul Shack to create a branding identit
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.png" 
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50_2x/v1549726163/mamasan-soul-shack/soulshackTshirt.png 2x" src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.png" class="image-block__50" alt="" >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

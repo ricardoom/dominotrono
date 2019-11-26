@@ -4,35 +4,34 @@
 
 .grid-wrapper {
   &__portfolioParent {
-    @include media('>=phone') {
+    @include media(">=phone") {
       display: block;
     }
 
-    @include media('>=tablet') {
+    @include media(">=tablet") {
       display: flex;
     }
 
     &--portfolio-item {
-      @include basic-article-wrapper('>=phone', 95vw, 5vw);
-      @include basic-article-wrapper('>=tablet', 100vw, 0, 1.5vw);
-      @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
-      @include media('>=tablet') {
+      @include basic-article-wrapper(">=phone", 95vw, 5vw);
+      @include basic-article-wrapper(">=tablet", 100vw, 0, 1.5vw);
+      @include basic-article-wrapper(">=desktop", 100vw, 0, 0);
+      @include media(">=tablet") {
         flex: 1 0 75%;
       }
 
       .portfolio {
         &__content {
           .portfolio-image-wrapper {
-            @include media('<=tablet') {
+            @include media("<=tablet") {
               display: block;
             }
 
-            @include media('>=tablet') {
+            @include media(">=tablet") {
               display: flex;
             }
 
             figcaption {
-              font-family: $frank-new;
               margin: 3ex 1ex;
             }
 
@@ -80,11 +79,11 @@
   }
 
   &__portfolioParent {
-    @include media('>=phone') {
+    @include media(">=phone") {
       // display: block;
     }
 
-    @include media('>=tablet') {
+    @include media(">=tablet") {
       // display: flex;
     }
 
@@ -103,13 +102,12 @@
       .hero-grid {
         // should only be used at the top of each portfolio case study.
 
-        @include media('>=phone') {
-          background-color: green;
+        @include media(">=phone") {
           grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-          grid-template-rows: minmax(800px, 25vh) repeat(2, minmax(150px, auto));
+          grid-template-rows: minmax(320px, auto) minmax(150px, auto);
         }
 
-        @include media('>=tablet') {
+        @include media(">=tablet") {
           background-color: $site-punk-pink;
           grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
           grid-template-rows: minmax(800px, 25vh) repeat(2, minmax(150px, auto));
@@ -117,20 +115,32 @@
 
         .image-block {
           &__100-words {
-            grid-column: 1 / 6;
-            grid-row: 1 / 3;
+            @include media(">=phone") {
+              img {
+                left: -5rem;
+                position: relative;
+                top: 0;
+                width: 180%;
+              }
+            }
+
+            @include media(">=tablet") {
+              
+            }
             overflow: hidden;
+            grid-column: 1 / 6;
+            grid-row: 1 / 2;
           }
         }
 
         .copy-block {
           &__100-words {
-            @include responsive-font(1.5vw, 1.6em, 22px, 32px);
+            @include responsive-font(1.5vw, 1em, 22px, 32px);
             background-color: transparentize($site-dark-blue, 0.1);
-            grid-column: 2 / 4;
-            grid-row: 2 / 4;
+            grid-column: 1 / 6;
+            grid-row: 2 / 3;
             margin: 0;
-            padding: 2em;
+            padding: 3ex;
           }
         }
       }
@@ -145,6 +155,8 @@
         grid-template-rows: minmax(130px, auto) auto;
 
         .image-block {
+          // TODO: big refactoring this whole business
+          // 50 Words section
           &__50-words {
             &.primary-image {
               grid-column: 2 / 5;
@@ -156,21 +168,42 @@
             }
           }
 
+          // 20 Words Section
           &__20-words {
             & > figcaption {
+              @include media(">=phone") {
+                background-color: transparentize($site-dark-blue, 0.2);
+                top: -1.5em;
+                right: -3em;
+                position: relative;
+                width: 90%;
+              }
+
               font-style: italic;
               padding: 2ex;
             }
             &.left {
-              grid-column: 2 / 3;
-              grid-row: 2 / 4;
+              @include media(">=phone") {
+                grid-column: 2 / 5;
+                grid-row: 3 / 4;
+              }
+              @include media(">=tablet") {
+                grid-column: 2 / 3;
+                grid-row: 2 / 4;
+              }
             }
             &.right {
-              grid-column: 4 / 5;
-              grid-row: 1 / 3;
+              @include media(">=phone") {
+                grid-column: 2 / 5;
+                grid-row: 5 / 6;
+              }
+              @include media(">=tablet") {
+                grid-column: 4 / 5;
+                grid-row: 1 / 3;
+              }
             }
           }
-        }
+        } // /.image-block
 
         .copy-block {
           &__50-words {
@@ -180,13 +213,25 @@
 
           &__20-words {
             &.left {
-              grid-column: 2 / 3;
-              grid-row: 1 / 2;
+              @include media(">=phone") {
+                grid-column: 2 / 5;
+                grid-row: 1 / 2;
+              }
+              @include media(">=tablet") {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+              }
             }
 
             &.right {
+              @include media(">=phone") {
+                grid-column: 2 / 5;
+                grid-row: 4 / 5;
+              }
+              @include media(">=tablet") {
               grid-column: 4 / 5;
               grid-row: 3 / 4;
+              }
             }
           }
         }
@@ -195,12 +240,14 @@
   }
 
   &__portfolioInvolvement {
-    @include media('>=phone') {
-      grid-column: 1 / 4;
-      grid-row: 2 / 3;
+    @include media(">=phone") {
+      grid-column: 2 / 5;
+      grid-row: 4 / 5;
+      padding: 1ex;
+      width: 100%;
     }
 
-    @include media('>=tablet') {
+    @include media(">=tablet") {
       grid-column: 3 / 5;
       grid-row: 2 / 3;
       margin: 15ex 0 0 0;

@@ -169,7 +169,13 @@ article {
 
     // set the max width for <p> elements to a reasonable / standard amount of characters
     p {
-      max-width: 60ch;
+      @include media(">=tablet") {
+        max-width: initial;
+      }
+      @include media(">=tablet") {
+        max-width: 60ch;
+      }
+      
     }
 
     p,

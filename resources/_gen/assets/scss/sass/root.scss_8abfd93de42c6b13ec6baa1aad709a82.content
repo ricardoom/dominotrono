@@ -587,9 +587,15 @@ code {
 .portfolio__content h3 {
   font-size: 1.75rem; }
 
-.site-single__content p,
-.portfolio__content p {
-  max-width: 60ch; }
+@media (min-width: 48em) {
+  .site-single__content p,
+  .portfolio__content p {
+    max-width: initial; } }
+
+@media (min-width: 48em) {
+  .site-single__content p,
+  .portfolio__content p {
+    max-width: 60ch; } }
 
 .site-single__content p,
 .site-single__content ul,
@@ -1491,7 +1497,8 @@ figure {
 .article-grid-wrapper {
   display: grid;
   grid-template-columns: 2.5vw 70vw 15vw 10vw 2.5vw;
-  grid-template-rows: auto; }
+  grid-template-rows: auto;
+  row-gap: 2ex; }
   .article-grid-wrapper h1,
   .article-grid-wrapper time {
     grid-column: 2 / 4;
@@ -1509,7 +1516,7 @@ figure {
     @media (min-width: 48em) {
       .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid {
         grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-        grid-template-rows: minmax(610px, auto) minmax(150px, auto); } }
+        grid-template-rows: minmax(475px, auto) minmax(150px, auto); } }
     .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .image-block__100-words {
       overflow: hidden; }
       @media (min-width: 19.25em) {

@@ -51,6 +51,7 @@
   display: grid;
   grid-template-columns: 2.5vw 70vw 15vw 10vw 2.5vw;
   grid-template-rows: auto;
+  row-gap: 2ex;
   h1,
   time {
     grid-column: 2 / 4;
@@ -88,7 +89,7 @@
 
         @include media(">=tablet") {
           grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-          grid-template-rows: minmax(610px, auto) minmax(150px, auto);
+          grid-template-rows: minmax(475px, auto) minmax(150px, auto);
         }
 
         .image-block {
@@ -135,7 +136,7 @@
             padding: 3ex;
           }
         }
-      }
+      } // /.hero-grid
 
       //
       // Each section wrapper call gets this class
@@ -174,6 +175,7 @@
               font-style: italic;
               padding: 2ex;
             }
+
             &.left {
               @include media(">=phone") {
                 grid-column: 2 / 5;
@@ -244,6 +246,7 @@
       grid-row: 2 / 3;
       margin: 15ex 0 0 0;
       padding: 2.5ex 5.5ex 10ex;
+      // padding: calc(100% - 15vh) calc(100% - 22vw) calc(100% - 13vh);
       width: initial;
       z-index: 1;
     }

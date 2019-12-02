@@ -57,11 +57,7 @@ Contact: ricardo.e.galvez@gmail.com
 
 - Successfully lead the design efforts to meet WCAG 2.0 Accessibility standards for structural, visual,  and, content presentation.
 
-<<<<<<< HEAD
-### WNET / THIRTEEN, New York Public Television (PBS), New York, NY
-=======
 - Integrated assistive device requirements to successfully achieve an AA rating for accessibility standards across all web sites and applications.
->>>>>>> 223ef26ee520a935742ecc5f7ef6d0ac1c27bb82
 
 ## WNET/THIRTEEN, New York Public Television (PBS), New York, NY, 2009 - 2015
 

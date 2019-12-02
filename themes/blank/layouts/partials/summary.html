@@ -1,21 +1,33 @@
-	<article class="site-summary">
-		<!-- +++ Defualt summary template +++ -->
-		<h1>
-			<a href="{{ .Permalink }}">{{ .Title }}</a>
-		</h1>
-		<time>{{ .Date.Format "02.01.2006 15:04" }}</time>
-		<div>
-			<p class="site-summary__copy">{{ .Summary }}
-			{{ if .Truncated }}
-				<a href="{{ .Permalink }}">Read more...</a>
-			{{ end }}
-			</p>
-			<ul>
-			{{ range .Params.tags }}
-			<li class="site-summary__tags">
-				<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-			</li>
-			{{ end }}
-			</ul>
-		</div>
-	</article>
+<article class="site-summary">
+  <!-- +++ Default summary template +++ -->
+  <h1>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
+  <time>{{ .Date.Format "02.01.2006 15:04" }}</time>
+  <div class="site-summary__content">
+    <p class="site-summary__copy">{{ .Summary }}
+      {{ if .Truncated }}
+      <a href="{{ .Permalink }}">Continue Reading about {{ .Title }}.</a>
+      {{ end }}
+    </p>
+    {{ if and (.Params.postimage) (ne .Params.postimage "") }}
+    <figure>
+      <img src="{{ .Params.postimage }}" alt="{{ .Site.Params.postImageAlt }}" />
+      {{ if and (.Params.figcaption) (ne .Params.figcaption "") }}
+      <figcaption>{{ .Params.figcaption }}</figcaption>
+      {{ end }}
+    </figure>
+    {{ end }}
+    {{ if .Site.IsServer }}
+    {{if and (.Params.tags) (ne .Params.tags "") }}
+    <ul>
+      {{ range .Params.tags }}
+      <li class="site-summary__tags">
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{ end }}
+  </div>
+</article>

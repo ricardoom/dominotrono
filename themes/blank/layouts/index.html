@@ -1,32 +1,24 @@
 {{ partial "header.html" . }}
-	<!-- === root index === -->
-	<main class="site-content" id="siteContent">
-		<div class="grid-wrapper">
-			<div class="prime-box">
-
-			</div>
-			<div class="subtitle-grid-container">{{ with $.Site.Params.subtitle }}
-				 <span class="subtitle">{{ . }}</span>
-			{{ end }}
-			</div>
-			<div class="jumbo-grid-container">
-				{{ partial "jumbo.html" . }}
-			</div>
-			<div class="home-page-grid-member">
-				{{ .Content }}
-				{{ $paginator := .Paginate (where .Site.Pages "Type" "posts") }}
-				{{ range $paginator.Pages }}
-					{{ partial "summary.html" . }}
-				{{ end }}
-			</div>
-			<div class="grid-site-data">
-				{{ range first 20 .Data.Pages }}
-	        {{ .Render "summary"}}
-	      {{ end }}
-			</div>
-
-		</div>
-		<!-- {{ partial "pagination.html" . }} -->
-	</main>
+<!-- === root index === -->
+<main class="site-content" id="siteContent">
+  <div class="grid-wrapper">
+    <div class="prime-box">
+      {{ partial "svg/radiantStep.html" . }}
+    </div>
+    <div class="subtitle-grid-container">
+      {{ with $.Site.Params.subtitle }}
+      <h2 class="subtitle-grid-container__subTitle">{{ . }}</h2>
+      {{ end }}
+    </div>
+    <div class="mast-head">
+      {{ .Content }}
+    </div>
+    {{ partial "hp-portfolio.html" . }}
+    {{ partial "skills.html" . }}
+  </div>
+</main>
 {{ partial "sidebar.html" . }}
+<div class="svg-overlay-container">
+  {{ partial "svg/portfolio_overlay.html" . }}
+</div>
 {{ partial "footer.html" . }}

@@ -1,8 +1,9 @@
 ---
-title: "A Canvas Experiment Pt 4"
+title: 'A Canvas Experiment Pt 4'
 date: 2017-12-26T14:19:46-05:00
 draft: true
-categories: "experiments"
+categories: 'experiments'
+vendorJS: 'svgJS'
 ---
 
 ## My Fourth foray into the archetype maze

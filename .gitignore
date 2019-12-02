@@ -3,3 +3,19 @@ node_modules/
 *.css.map
 .DS_Store
 npm-debug.log
+botConfig.js
+artwork/
+
+dominotrono.sublime-project
+dominotrono.sublime-workspace
+
+# ignore image files
+content/media/**/*.*
+
+# use deliver instead
+# ignore the public files that get deployed
+public/
+
+deploy
+deliver
+sandbox/

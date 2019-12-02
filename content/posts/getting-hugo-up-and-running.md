@@ -1,7 +1,7 @@
 ---
 title: "Getting Hugo Up and Running"
 date: 2017-12-14T22:12:24-05:00
-draft: false
+draft: true
 ---
 ## bungling the config file
 * just use a theme

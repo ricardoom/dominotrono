@@ -1753,7 +1753,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.fourDots .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1774,7 +1774,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.twoSquares .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1795,7 +1795,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.overDots .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1816,7 +1816,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.oneDiagonal .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1837,7 +1837,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.oneDiagonal-45 .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1858,7 +1858,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.boxDiagonals .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1879,7 +1879,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.variableDots .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1900,7 +1900,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.diagonalDot .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1921,7 +1921,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.oneCircle .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1942,7 +1942,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.squaresCircles .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1963,7 +1963,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.bigCircle .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -1984,7 +1984,7 @@ figure {
     .portfolio-container .portfolio-flex__content figure.bigPill .portfolioCardOff {
       animation-duration: 250ms;
       animation-timing-function: ease-out;
-      animation-delay: 0;
+      animation-delay: 0s;
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: forwards;
@@ -2079,6 +2079,10 @@ figure {
 html {
   background-color: #06182d;
   background-repeat: no-repeat;
+  background: #095468;
+  background: -webkit-linear-gradient(bottom right, #095468, #15143b);
+  background: -moz-linear-gradient(bottom right, #095468, #15143b);
+  background: linear-gradient(to top left, #095468, #15143b);
   background-attachment: fixed;
   background-origin: 0 0;
   background-position: 0 0;

@@ -244,7 +244,7 @@
     @include media(">=tablet") {
       grid-column: 3 / 5;
       grid-row: 2 / 3;
-      margin: 15ex 0 0 0;
+      margin: -4ex 0 0 0;
       padding: 2.5ex 5.5ex 10ex;
       // padding: calc(100% - 15vh) calc(100% - 22vw) calc(100% - 13vh);
       width: initial;

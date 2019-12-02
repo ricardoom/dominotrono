@@ -18,19 +18,20 @@ portfolioHeroAlt: 'A cropped image of the NASA Poster / Info-graphic'
 heroFigcaption: ''
 svgClipObjectClass: 'boxDiagonals'
 svgColorClass: 'site-color--white'
-tags: ['infographic', 'graphic design', 'illustration']
+tags: ['infographic', 'Graphic Design', 'Illustration']
 weight: 9
 projectRoles: ['Design Lead']
 projectClients: ['PBS Vital']
 projectCredits: ['Nicholas Miller']
-projectDate: '2015'
+projectDate: '2014'
+projectDesc: 'A fun and short graphic design collaboration with the education department at WNET.'
 ---
 
-## Project Details:
+## Project Details
 
 For this project, the education team at WNET wanted to create two different infographic posters. The first to demonstrate the concept of electromagnetism. The second to explain the difference between mass and weight. My role was to create engaging visuals to appeal to students from middle to high school age. I worked closely with my creative director and stakeholders to visualize the concepts in a relatable manner.
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
 {{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548760618/nasa-posters/electric_charge.png"
@@ -42,8 +43,8 @@ For this project, the education team at WNET wanted to create two different info
     figcaption=""
     >}}
 
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< /section_wrapper >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
   
  {{< image
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548721896/nasa-posters/mass_vs_weight.png"
@@ -55,4 +56,4 @@ For this project, the education team at WNET wanted to create two different info
     figcaption=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

@@ -14,4 +14,4 @@ projectClients: ["client A", "client B"]
 projectDate: "2005"
 ---
 
-## Project Details:
+## Project Details

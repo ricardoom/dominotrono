@@ -2,9 +2,7 @@
 /// Basic.js
 ///
 const portfolioTile = document.querySelectorAll('.portfolio-flex__summary a');
-const tileParent = document.querySelectorAll(
-  '.portfolio-flex__content figure img'
-);
+const tileParent = document.querySelectorAll('.portfolio-flex__content figure img');
 
 for (let i = 0; i < portfolioTile.length; i++) {
   const tileClasses = tileParent[i].classList;

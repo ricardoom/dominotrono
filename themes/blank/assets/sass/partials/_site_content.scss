@@ -34,27 +34,29 @@
 
     @include media('>=tablet') {
       background: transparent;
+      padding: 7ex 0 0 0;
+      width: 75%;
     }
 
-    @include media('>=desktop') {
-      padding: 0 1vw 0;
-    }
+    // @include media('>=desktop') {
+
+    // }
 
     &__subTitle {
       @include media('>=phone') {
-        margin: 1ex 0;
+        margin: 0;
         padding: 1.25ex 2.5ex;
       }
 
       @include media('>=tablet') {
         @include slide-up-down;
         @include basic-drop-shadow(text);
-        padding: 1ex 0;
+        padding: 0;
       }
 
       @include media('>=desktop') {
         @include slide-up-down(slideDownLarge);
-        padding: 1.3ex 0;
+        padding: 0;
       }
 
       @include responsive-font(7.25vw, 2.5rem, 17rem, 200px);
@@ -72,7 +74,7 @@
 
     @include media('>=tablet') {
       line-height: 1.2;
-      padding: 4ex 8vw 4ex 15vw;
+      padding: 1ex 8vw 1ex 15vw;
     }
 
     @include responsive-font(2.75vw, 1.25em, 5.5rem, 32px);
@@ -86,87 +88,6 @@
     & p::first-letter {
       @include responsive-font(8vw, 18px, 85px, 32px);
       line-height: 0.8;
-    }
-  }
-
-  .portfolio-flex,
-  .portfolio-grid {
-    /// Portfolio Grid Summary
-    /// as found in hp-portfolio.html
-    /// TODO: Move these rules to own Partial
-
-    &__summary {
-      &__content {
-        // Placeholder / Development Classes...
-        // TODO: Remove these classes
-        border: dotted 2px $site-punk-pink;
-        /// In some cases we have an overlay here
-        a:hover {
-          border: 0;
-        }
-
-        figure {
-          // margin: 0;
-
-          // img {
-          //   border-radius: 0;
-          //   height: 100%;
-          //   width: 100%;
-          // }
-          /// In some cases we overlay SVG Clipping here.
-
-          // TODO: Add a function or mixin to make this shorter
-
-          .fourDots {
-            clip-path: url(#four_dots);
-          }
-
-          .leftDots {
-            clip-path: url(#left_dots);
-          }
-
-          .oneCircle {
-            clip-path: url(#one_circle);
-          }
-
-          .rightStepr {
-            clip-path: url(#right_stepr);
-          }
-        } // /figure
-      } // /content
-    }
-
-    svg {
-      height: 0;
-      width: 0;
-
-      .a {
-        fill: rgb(39, 169, 225);
-      }
-
-      .b {
-        fill: hsl(300, 100%, 50%);
-      }
-
-      .c {
-        fill: hsl(153, 68%, 42%);
-      }
-
-      .d {
-        fill: hsl(274, 53%, 37%);
-      }
-
-      .e {
-        fill: hsl(302, 58%, 36%);
-      }
-
-      .f {
-        fill: hsl(204, 100%, 37%);
-      }
-
-      .g {
-        fill: hsl(300, 100%, 50%);
-      }
     }
   }
 

@@ -65,15 +65,15 @@ $mobile-second-row: 15vh;
       }
 
       @include media('>=tablet') {
-        grid-column: 2 / 4;
-        padding-left: 0;
+        grid-column: 1 / 4;
+        padding-left: 1.5vw;
         //padding: 0.5em 0 3vw 0.65em;
       }
     }
   }
 
   //
-  // Do some adjusting of the site nav
+  // Sets up the grid and layout ONLY for the nav...
   //
   &__siteNavigation {
     @include media('>=phone') {
@@ -82,7 +82,7 @@ $mobile-second-row: 15vh;
 
     @include media('>=tablet') {
       display: grid;
-      padding-right: 4em;
+      padding: 0.75vw 0;
     }
 
     &--items {
@@ -109,6 +109,7 @@ $mobile-second-row: 15vh;
 //
 
 // Only for the home page,
+// TODO make a grid directory and move all grids into their own sub partials...
 // TODO, this could be done a bit more elegant:
 .home-page {
   .grid-wrapper {
@@ -116,7 +117,7 @@ $mobile-second-row: 15vh;
       padding: 0;
     }
 
-    grid-template-rows: [nameBox] minmax(10.5em, 15vh) auto;
+    grid-template-rows: [nameBox] minmax(15.5em, 15vh) auto;
   }
 }
 
@@ -148,11 +149,9 @@ $mobile-second-row: 15vh;
       grid-column: 1 / 1;
       grid-row: 1 /1;
 
-      svg {
-        height: auto;
-        padding: 1em;
-        width: 100%;
-      }
+      // svg {
+      //   opacity: 0.45;
+      // }
     }
 
     @include media('>=tablet') {
@@ -163,6 +162,12 @@ $mobile-second-row: 15vh;
 
     @include media('>=desktop') {
       grid-row: nameBox;
+    }
+
+    svg {
+      height: auto;
+      padding: 1em;
+      width: 100%;
     }
   } // prime box
 
@@ -233,3 +238,61 @@ $mobile-second-row: 15vh;
     }
   } // / phone breakpoint
 }
+
+.portfolio-flex,
+.portfolio-grid {
+  // TODO: rename the above class to something more meaningful and specific to the home page portfolio...
+
+  // The Big R at the top of the home page
+  svg {
+    height: 0;
+    width: 0;
+
+    .a {
+      fill: rgb(39, 169, 225);
+    }
+
+    .b {
+      fill: hsl(300, 100%, 50%);
+    }
+
+    .c {
+      fill: hsl(153, 68%, 42%);
+    }
+
+    .d {
+      fill: hsl(274, 53%, 37%);
+    }
+
+    .e {
+      fill: hsl(302, 58%, 36%);
+    }
+
+    .f {
+      fill: hsl(204, 100%, 37%);
+    }
+
+    .g {
+      fill: hsl(300, 100%, 50%);
+    }
+  }
+}
+
+//
+// New Grid Setup for portfolio sections
+// TODO: separate the layout concerns even more:
+// Each separate grid to its own partial:
+//
+// .article-grid-wrapper {
+//   display: grid;
+//   grid-template-columns: 2.5vw 70vw 15vw 10vw 2.5vw;
+//   // grid-column-gap: 5vw;
+
+//   .portfolio-image-wrapper {
+//     // background-color: lightcoral;
+
+//     &--portfolio-item {
+//       // background-color: lightseagreen;
+//     }
+//   }
+// }

@@ -6,64 +6,84 @@ menu:
   main:
     weight: 0
 ---
+# Ricardo E. Galvez
 
-# Skills and Expertise
+Contact: ricardo.e.galvez@gmail.com
+
+## Skills and Expertise
 
 - Code: HTML / CSS / Javascript / git
 - Design: Adobe CS / Sketch / InVision
 - UX: Wireframing / Prototyping / Responsive Design / Accessibility
 - Methods: Agile / Data Driven / User Testing
+- Static Site Generators (Hugo, Jekyll)
 
-# Professional Accomplishments:
+## Professional Accomplishments:
 
-## New York Public Library, New York, NY
+## Freelance Designer and Developer, Brooklyn NY,  2018 - 2019
 
-2018 - 2019
-**Freenlance**
+**Il Corvo Pasta ~ Il Nido at the Alki Homestead, Seattle WA, 2018** 
 
-2015 – 2018
+- Consultation, Development, User Experience Design, Branding Strategy
+
+## New York Public Library, New York, NY 2015 – 2018
 
 **Product Design and Development**
 
-- I brought several projects from initial concept through prototyping to production. Including new interfaces for Shared Collections, Staff Picks, New Arrivals and an improved experience for obtaining a library card. Additionally, I designed new UX and interface design patterns for Simply E, an open source E-Reader.
+- Successfully oversaw a diverse range of web and interface design projects from concept, prototype to production.
+
+- Lead the experience and interface design for NYPL’s Shared Collections, Staff Picks, and New Arrivals applications.
+
+- Directed and executed new visual and experience design for obtaining a library card.
+
+- Created and deployed new user experience and interface design patterns in Sketch, HTML, and SCSS for the open-source eReader Simply E.
+
+- Lead and completed v.1 of the UX & Visual design efforts for the Simply E administrative interface for managing and maintaining content.
 
 **Design System Development**
 
-- I was a principal designer in the development of a living style guide and functional design system. Our “Design Toolkit” provides an installable set of components for developers to build their applications rapidly.
+- Principal web designer in the development of a living style guide and functional design system.
 
-**Interface Designer**
+- Completed research, development, and lead the successful implementation of visual, functional, and accessibility standards.
 
-- I had a lead role in the design and implementation of a new conceptual and visual language for the Library’s main website. I collaborated closely with stakeholders, librarians, and front end developers on the deployment of improved UX and visual design patterns, modules, and templates.
+- Owner and maintainer of codebase built with Jekyll, SCSS, Javascript, and HTML.
 
-**Improved Accessibility Design and Development Patterns and Methods**
+- Improved design and deployment efforts by utilizing technologies that include Gulp, git, Github, and npm.
 
-- I worked with the entire digital team to enhance the overall accessibility and operability standards for structure, type, color and content across all the NYPL public and private interfaces.
+- Designed, developed, and maintained a system of custom SVG icons used across many of NYPL’s web properties.
 
-**Improved Patron Experience**
 
-- Integrated with librarians, patron services, marketing, and development teams to increase access to the Library’s numerous collections, improved overall engagement. Met and surpassed fundraising goals utilizing modern and accessible design patterns.
+**Accessibility Design and Development**
 
+- Successfully lead the design efforts to meet WCAG 2.0 Accessibility standards for structural, visual,  and, content presentation.
+
+<<<<<<< HEAD
 ### WNET / THIRTEEN, New York Public Television (PBS), New York, NY
+=======
+- Integrated assistive device requirements to successfully achieve an AA rating for accessibility standards across all web sites and applications.
+>>>>>>> 223ef26ee520a935742ecc5f7ef6d0ac1c27bb82
 
-2009 - 2015
+## WNET/THIRTEEN, New York Public Television (PBS), New York, NY, 2009 - 2015
 
 **Design Strategy**
 
-- Increased audience engagement and reach by applying responsive design principles and content strategies. Worked with team members to establish design methodologies and aesthetics for tablet and mobile spaces for THIRTEEN, WLIW21 & NJTV television stations.
+- Instituted progressive web design methodologies and aesthetics for desktop, tablet, and mobile contexts for THIRTEEN, WLIW21 & NJTV television stations.
+
+- Increased audience engagement and reach by applying responsive design principles.
 
 **User Interface Design**
 
-- Lead interface designer for THIRTEEN Explore, an on-demand content delivery application. Close collaboration with the design and development teams on all mobile properties.
+- Advanced the user experience and user interface design through two version iterations for THIRTEEN Explore an iOS on­demand content delivery application.
 
-**Prototyping**
+**Interface, Experience and Graphic Design**
 
-- User Interface, Experience and graphic designer for new NJTV News daily news program. Excelled in Agile team structure designing & delivering a complex news site; from ideation through wireframing, prototyping and final design. Developed scenarios for mobile, tablet & desktop usage as well look and feel for the site.
+- Principal web designer for the NJTV News daily news program.
 
-## Freelance Projects 2009 - 2019
+- Conceived new typographic, color, and layouts for complex information hierarchies using Adobe Illustrator, CSS and HTML
 
-**Il Corvo Pasta Il Nido at the Alki Homestead, Seattle WA, 2018**
+- While working in an Agile environment, exceeded expectations by delivering production-ready templates and visual designs ahead of schedule.
 
-- Consultation, Development, User Experience Design, Branding Strategy
+## Freelance Projects 2009 - 2015
 
 **Mama San Soul Shack, Portland OR, 2015**
 
@@ -91,6 +111,6 @@ menu:
 
 ## Education
 
-Earned Bachelor Fine Arts, Painting & Drawing University of the Arts, Philadelphia, PA\*\*
+Earned Bachelor Fine Arts, Painting & Drawing University of the Arts, Philadelphia, PA, 2004
 
-Earned Offset Printing Press Operator's Certificate Central New Mexico Community College, Albuquerque, NM
+Earned Offset Printing Press Operator's Certificate Central New Mexico Community College, Albuquerque, NM, 1996

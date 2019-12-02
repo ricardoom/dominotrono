@@ -1,5 +1,5 @@
 ---
-title: 'SimplyE Audio Book Player'
+title: 'SimplyE Audiobook Player'
 date: 2018-10-08T16:07:05-04:00
 draft: false
 categories: 'portfolio'
@@ -16,23 +16,25 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHeroAlt: 'Image card linking to the Design Toolkit'
 svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--dark-blue'
-tags: ['visual design', 'UX', 'accessibility']
+tags: ['User Experience', 'Accessibility', 'Interface Design']
 weight: 5
 projectRoles: ['Design Collaborator']
 projectClients:
-  [
+  ['General Public',
     'Internal stakeholders at NYPL',
     'External stakeholders at participating libraries',
   ]
 projectCredits: ['SimplyE Team']
 projectDate: '2018'
+projectDesc: "A minimal and accessible audio player interface allowing user access to SimplyE's and NYPL's audiobook collections."
+externalURL: 'https://apps.apple.com/app/apple-store/id1046583900'
 ---
 
-## Project Details:
+## Project Details
 
 I was fortunate to be able to work on this fantastic project with some brilliant people. My particular role was to create a user interface for audiobook playback and to create new pathways for discovery.
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802600/simply-e/se-Audio-flow-iOS.png"
@@ -41,4 +43,4 @@ I was fortunate to be able to work on this fantastic project with some brilliant
     class="image-block__100" alt=""
     >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

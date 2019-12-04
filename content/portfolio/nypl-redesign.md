@@ -33,15 +33,15 @@ newLayout: true
 {{< section_wrapper class="hero-grid" >}}
 
     {{< image
+    class="hero-grid__imageBlock"
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg 2x"
-    class="image-block__100-words"
     alt="An image of the New York Public Library home page"
     figcaption=""
     >}}
 
-    {{< copy_wrapper class="copy-block__100-words" >}}
+    {{< copy_wrapper class="hero-grid__copyBlock" >}}
     The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I lead our in-house efforts towards the design and implementation of their recommendations. In that role, I expanded and refined the visual and experience design to meet the library's standards for accessibility and progressive enhancement.
     {{< /copy_wrapper >}}
 
@@ -54,8 +54,8 @@ newLayout: true
     {{< /copy_wrapper >}}
 
     {{< image
-    class="image-block__20-words left"
-     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
+    class="details-grid__imageBlock twenty-words__left"
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960X960_2x/nypl-dot-org/nypl_ed_landingPage.jpg 2x"
    
@@ -63,12 +63,12 @@ newLayout: true
     figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the fully accessible drop Login drop down menu" title="NYPL home page Tablet view " >}}
 
     {{< image
+      class="details-grid__imageBlock twenty-words__right"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/nypl-dot-org/nypl_tablet_grid.jpg 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
-      class="image-block__20-words right"
       alt="An image of an interior page"
-       imgHeading=""
+      imgHeading=""
       figcaption="An example of an interior landing page dedicated towards giving voice to the wide variety of expertise the library has to offer."
     >}}
 

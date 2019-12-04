@@ -4,30 +4,30 @@
 
 .grid-wrapper {
   &__portfolioParent {
-    @include media(">=phone") {
+    @include media('>=phone') {
       display: block;
     }
 
-    @include media(">=tablet") {
+    @include media('>=tablet') {
       display: flex;
     }
 
     &--portfolio-item {
-      @include basic-article-wrapper(">=phone", 95vw, 5vw);
-      @include basic-article-wrapper(">=tablet", 100vw, 0, 1.5vw);
-      @include basic-article-wrapper(">=desktop", 100vw, 0, 0);
-      @include media(">=tablet") {
+      @include basic-article-wrapper('>=phone', 95vw, 5vw);
+      @include basic-article-wrapper('>=tablet', 100vw, 0, 1.5vw);
+      @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
+      @include media('>=tablet') {
         flex: 1 0 75%;
       }
 
       .portfolio {
         &__content {
           .portfolio-image-wrapper {
-            @include media("<=tablet") {
+            @include media('<=tablet') {
               display: block;
             }
 
-            @include media(">=tablet") {
+            @include media('>=tablet') {
               display: flex;
             }
 
@@ -45,7 +45,7 @@
       }
     }
   }
-}
+} // /grid-wrapper
 
 .article-grid-wrapper {
   display: grid;
@@ -59,11 +59,11 @@
   }
 
   &__portfolioParent {
-    @include media(">=phone") {
+    @include media('>=phone') {
       // display: block;
     }
 
-    @include media(">=tablet") {
+    @include media('>=tablet') {
       // display: flex;
     }
 
@@ -74,81 +74,93 @@
       //
       // uses the same grid styles, but namespaced to differentiate
       //
+
       .hero-grid,
       .details-grid {
         display: grid;
       }
+      //  Note:
+      //  should only be used at the top of each portfolio case study.
+      // TODO: explore possible further abstraction / using these values more globally.
+      //
 
+      $hero-rows-phone: #{minmax(320px, auto) minmax(150px, auto)};
+      $hero-rows-tablet: #{minmax(475px, auto) minmax(150px, auto)};
+      $hero-columns: #{2.5vw 1fr 2.5vw 1fr 2.5vw};
       .hero-grid {
-        // should only be used at the top of each portfolio case study.
+        @include portfolio-grid('>=phone', $hero-columns, $hero-rows-phone);
 
-        @include media(">=phone") {
-          grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-          grid-template-rows: minmax(320px, auto) minmax(150px, auto);
-        }
+        @include portfolio-grid('>=tablet', $hero-columns, $hero-rows-tablet);
 
-        @include media(">=tablet") {
-          grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-          grid-template-rows: minmax(475px, auto) minmax(150px, auto);
-        }
-
-        .image-block {
-          &__100-words {
-            @include media(">=phone") {
-              grid-column: 1 / 6;
-              grid-row: 1 / 2;
-
-              img {
-                left: -5rem;
-                position: relative;
-                top: 0;
-                width: 180%;
-              }
+        &__imageBlock {
+          @include add-to-grid('>=phone', 1, 6, 1, 2) {
+            img {
+              left: -5rem;
+              position: relative;
+              top: 0;
+              width: 180%;
             }
-
-            @include media(">=tablet") {
-              grid-row: 1 / 3;
-
-              img {
-                left: 0;
-                width: 100%;
-              }
-            }
-            overflow: hidden;
           }
+
+          @include add-to-grid('>=tablet', 1, 6, 1, 3) {
+            img {
+              left: 0;
+              width: 100%;
+            }
+          }
+          overflow: hidden;
         }
 
-        .copy-block {
-          &__100-words {
-            @include media(">=phone") {
-              grid-column: 1 / 6;
-              grid-row: 2 / 3;
-            }
+        &__copyBlock {
+          @include add-to-grid('>=phone', 1, 6, 2, 3);
+          @include add-to-grid('>=tablet', 2, 6, 2, 3);
+          @include responsive-font(1.8vw, 18px, 32px, 20px);
 
-            @include media(">=tablet") {
-              grid-column: 2 / 6;
-              z-index: 1;
-            }
-            @include responsive-font(1.5vw, 1em, 22px, 32px);
-            background-color: transparentize($site-dark-blue, 0.1);
-
-            margin: 0;
-            padding: 3ex;
-          }
+          background-color: transparentize($site-dark-blue, 0.1);
+          margin: 0;
+          padding: 3ex;
+          z-index: 1;
         }
       } // /.hero-grid
 
       //
-      // Each section wrapper call gets this class
+      // Each lower section wrapper call gets this class
+      // details-grid for secondary and tertiary content layouts
       //
+      $details-grid-columns: #{2.5vw 1fr 6.5vw 1fr 2.5vw};
+      $details-grid-rows: #{minmax(130px, auto) auto};
       .details-grid {
-        margin-top: 2ex;
-        gap: 1ex;
-        grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-        grid-template-rows: minmax(130px, auto) auto;
+        margin-top: 8ex;
+        @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
+        &__imageBlock {
+          &.twenty-words {
+            &__left {
+              @include add-to-grid('>=phone', 2, 5, 3, 4);
+
+              @include add-to-grid('>=tablet', 2, 3, 2, 4);
+            }
+
+            &__right {
+              @include add-to-grid('>=phone', 2, 5, 5, 6);
+
+              @include add-to-grid('>=tablet', 4, 5, 1, 3);
+            }
+          }
+
+          > .fifty-words {
+            &__bigImage {
+            }
+
+            &__smallImage {
+            }
+          }
+        }
+        &__copyBlock {
+        }
 
         .image-block {
           // TODO: big refactoring this whole business
+          // TODO: should be name spaced by the the number, not by image-block or copy block...
           // 50 Words section
           &__50-words {
             &.primary-image {
@@ -164,7 +176,7 @@
           // 20 Words Section
           &__20-words {
             & > figcaption {
-              @include media(">=phone") {
+              @include media('>=phone') {
                 background-color: transparentize($site-dark-blue, 0.2);
                 top: -1.5em;
                 right: -3em;
@@ -177,24 +189,27 @@
             }
 
             &.left {
-              @include media(">=phone") {
-                grid-column: 2 / 5;
-                grid-row: 3 / 4;
-              }
-              @include media(">=tablet") {
-                grid-column: 2 / 3;
-                grid-row: 2 / 4;
-              }
+              // @include media('>=phone') {
+              //   grid-column: 2 / 5;
+              //   grid-row: 3 / 4;
+              // }
+              // @include media('>=tablet') {
+              //   grid-column: 2 / 3;
+              //   grid-row: 2 / 4;
+              // }
             }
+            // less than ideal, but this is the most expedient...
+            // TODO: not this...
+
             &.right {
-              @include media(">=phone") {
-                grid-column: 2 / 5;
-                grid-row: 5 / 6;
-              }
-              @include media(">=tablet") {
-                grid-column: 4 / 5;
-                grid-row: 1 / 3;
-              }
+              // @include media('>=phone') {
+              //   grid-column: 2 / 5;
+              //   grid-row: 5 / 6;
+              // }
+              // @include media('>=tablet') {
+              //   grid-column: 4 / 5;
+              //   grid-row: 1 / 3;
+              // }
             }
           }
         } // /.image-block
@@ -207,41 +222,42 @@
 
           &__20-words {
             &.left {
-              @include media(">=phone") {
+              @include media('>=phone') {
                 grid-column: 2 / 5;
                 grid-row: 1 / 2;
               }
-              @include media(">=tablet") {
+              @include media('>=tablet') {
                 grid-column: 2 / 3;
                 grid-row: 1 / 2;
+                padding: 0 0 3ex 3ex;
               }
             }
 
             &.right {
-              @include media(">=phone") {
+              @include media('>=phone') {
                 grid-column: 2 / 5;
                 grid-row: 4 / 5;
               }
-              @include media(">=tablet") {
+              @include media('>=tablet') {
                 grid-column: 4 / 5;
                 grid-row: 3 / 4;
               }
             }
           }
         }
-      }
+      } // /details-grid
     }
   }
 
   &__portfolioInvolvement {
-    @include media(">=phone") {
+    @include media('>=phone') {
       grid-column: 2 / 5;
       grid-row: 4 / 5;
       padding: 1ex;
       width: 100%;
     }
 
-    @include media(">=tablet") {
+    @include media('>=tablet') {
       grid-column: 3 / 5;
       grid-row: 2 / 3;
       margin: -4ex 0 0 0;
@@ -252,5 +268,22 @@
     }
 
     background-color: transparentize($site-dark-blue, 0.1);
+  }
+} // /article-grid-wrapper
+
+/// refactor playground
+
+// make them so:
+
+.details-grid {
+  // put a mixin here...?
+  // new label for 20-words:
+  &__two-by-two {
+    // things
+  }
+  // new label for 50-words
+
+  &__one-over-two {
+    // other things
   }
 }

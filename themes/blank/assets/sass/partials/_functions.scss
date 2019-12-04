@@ -7,6 +7,12 @@
 // Functions aqui
 //
 
+//
+// Make a grid generator:
+// @param {string} $parent-name - the parent layout name. ex. details-grid
+// @param {string} $layout-name - the layout name. ex. __20-words
+//
+
 // Very Basic Text Shadow Mixin:
 @mixin basic-drop-shadow($type: text) {
   @if $type == text {
@@ -76,12 +82,7 @@
 // $mw = max width
 // $pl = padding left
 // $pr = padding right
-@mixin basic-article-wrapper(
-  $breakpoint,
-  $mw,
-  $pl: #{initial},
-  $pr: #{initial}
-) {
+@mixin basic-article-wrapper($breakpoint, $mw, $pl: #{initial}, $pr: #{initial}) {
   @include media(#{$breakpoint}) {
     max-width: $mw;
     padding-left: $pl;
@@ -89,19 +90,37 @@
   }
 }
 
+// mixin that makes the grids and the breakpoints
+// TODO: move to the functions partial...
+// @param {string} : the breakpoint we use
+// @param {string} : $columns ~ the columns we use
+// @param {number} : $rows ~ the rows used
+// @param {number} : $row-gap ~ row
+// @param {number} : $column-gap ~ the column gap
+
+@mixin portfolio-grid($breakpoint: '>=phone', $columns: null, $rows: null, $row-gap: null, $column-gap: null) {
+  @if $breakpoint == '>=phone' {
+    @include media(#{$breakpoint}) {
+      grid-template-columns: $columns;
+      grid-template-rows: $rows;
+    }
+  } @else if $breakpoint == '>=tablet' {
+    @include media(#{$breakpoint}) {
+      grid-template-columns: $columns;
+      grid-template-rows: $rows;
+    }
+  }
+}
+
 //
 // Make grids easier to utilize
 // ex: @include add-to-grid() {}
 //
-@mixin add-to-grid(
-  $breakpoint: '',
-  $col-start: '',
-  $col-end: '',
-  $row-start: '',
-  $row-end: ''
-) {
-  grid-template-columns: $col-start / $col-end;
-  grid-template-rows: $row-start / $row-end;
+@mixin add-to-grid($breakpoint: '', $col-start: '', $col-end: '', $row-start: '', $row-end: '') {
+  @include media(#{$breakpoint}) {
+    grid-column: #{$col-start} / #{$col-end};
+    grid-row: #{$row-start} / #{$row-end};
+  }
   @content;
 }
 
@@ -139,7 +158,7 @@
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
@@ -178,7 +197,6 @@
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-delay: 0s;
-    animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
     clip-path: url(#{$clipPath});
@@ -193,7 +211,6 @@
     animation-direction: normal;
     animation-fill-mode: forwards;
     clip-path: none;
-    animation-iteration-count: 1;
     pointer-events: all;
   }
 }

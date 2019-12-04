@@ -26,63 +26,80 @@ tags: ['Logo Design','Web Design','Web Development']
 weight: 2
 externalURL: 'http://ilnidoseattle.com'
 projectDesc: 'This is a freelance project contracted by the Chef / Owner of Il Corvo Pasta in Seattle Wa. He was opening up a new restaurant and needed a simple, maintenance free website and SEO work.'
+newLayout: true
 ---
 
-## Project Details
-
 ### Client consultation and User Experience goals
+  {{< section_wrapper class="hero-grid" >}}
 
- {{< section_wrapper class="portfolio-image-wrapper" >}}
       {{< image
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg 2x"
-        class="image-block__100"
+        class="hero-grid__imageBlock"
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg 2x"
         alt="An image of the Il Nido website at various viewport dimensions"
-        imgHeading=""
-        figcaption=""
        >}}
-    {{< /section_wrapper >}}
 
-Chef Mike did not want to have to worry about the site, so we decided that a simple website was the best choice from a business perspective.  We settled on a  brochure style site giving the most basic information. With this in mind, we also wanted the site load as fast as possible, reasoning that his clientele would most likely be accessing the site from their mobile devices. Due to the restaurant's menu changing with the seasons and daily, we reasoned that only location, hours, and contact were required. Chef Mike opted to use the Resy system for handling reservations. We decided a button-like link would be best to direct customers to obtain a booking.
+        {{< copy_wrapper class=" hero-grid__copyBlock" >}}
+          Chef Mike of Il Corvo Pasta in Seattle Wa. approached me to design and develop the website for his new restaurant concept Il Nido. Coming from the grind of having to maintain a Wordpress site, he did not want to have to worry about constant updating, so we decided that a simple website was the best choice.  We settled on a  brochure style site giving the most basic information. With this in mind, we also wanted the site load as fast as possible, reasoning that his clientele would most likely be accessing the site from their mobile devices.
+        {{< /copy_wrapper >}}
 
+  {{< /section_wrapper >}}
+
+  {{< section_wrapper class="details-grid" >}}
+
+      {{< copy_wrapper class="copy-block__20-words left" >}}
+      A primary objective was to create a logo and type treatment that reflected visually and conceptually the spirit of Chef Mike's vision to convey a warm, modern aesthetic combined with a traditional approach to cuisine.
+      {{< /copy_wrapper >}}
+
+      {{< image
+        class="details-grid__imageBlock twenty-words__left"
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210902/il-nido-il-corvo/logos/il_nido_logo_metal_2x.jpg 2x"
+        alt="An image of the Il Nido cut into steel"
+    >}}
+
+     {{< image 
+      class="details-grid__imageBlock twenty-words__right"
+       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png"
+       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png"
+       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png 2x"
+       alt="An image of various iterations of the Il Nido logo"
+    >}}
+
+    {{< copy_wrapper class="copy-block__20-words right" >}}
+      When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually,  the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
+    {{< /copy_wrapper >}}
+
+  {{< /section_wrapper >}}
+
+{{< section_wrapper class="details-grid" >}}
+
+     {{< image 
+        class="image-block__20-words left"
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg 2x"
+        alt="An image of various iterations of the Il Nido logo"
+    >}}
+
+{{< /section_wrapper >}}
 ### Art Direction and Logo Design
 
 {{< section_wrapper class="portfolio-image-wrapper" >}}
 
-  {{< image 
-   src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210902/il-nido-il-corvo/logos/il_nido_logo_metal_2x.jpg 2x"
-        class="image-block__33"
-        alt="An image of the Il Nido cut into steel"
-        imgHeading=""
-        figcaption=""
-    >}}
+  
  
-  {{< image 
-   src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png 2x"
-        class="image-block__33"
-        alt="An image of various iterations of the Il Nido logo"
-        imgHeading=""
-        figcaption=""
-    >}}
+ 
 
-    {{< image 
-   src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg 2x"
-        class="image-block__33"
-        alt="An image of various iterations of the Il Nido logo"
-        imgHeading=""
-        figcaption=""
-    >}}
+   
 
 {{< /section_wrapper>}}
 
-When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually,  the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
+
+
+Due to the restaurant's menu changing daily with respect to season, we settled on displaying only location, hours, and contact were required. Chef Mike opted to use the Resy system for handling reservations. We decided a button-like link would be best to direct customers to obtain a booking.
 
 
 {{< section_wrapper class="portfolio-image-wrapper" >}}

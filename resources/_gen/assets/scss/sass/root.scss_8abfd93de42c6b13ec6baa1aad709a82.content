@@ -1563,57 +1563,58 @@ figure {
           grid-template-columns: 2.5vw 1fr 6.5vw 1fr 2.5vw;
           grid-template-rows: minmax(130px, auto) auto; } }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__imageBlock.twenty-words__left {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__left {
           grid-column: 2 / 5;
           grid-row: 3 / 4; } }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__imageBlock.twenty-words__left {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__left {
           grid-column: 2 / 3;
           grid-row: 2 / 4; } }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__imageBlock.twenty-words__right {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__right {
           grid-column: 2 / 5;
           grid-row: 5 / 6; } }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__imageBlock.twenty-words__right {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__right {
           grid-column: 4 / 5;
           grid-row: 1 / 3; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__left {
+        padding: 0 0 3ex 3ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__left {
+            grid-column: 2 / 5;
+            grid-row: 1 / 2; } }
+        @media (min-width: 48em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__left {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2; } }
+      @media (min-width: 19.25em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__right {
+          grid-column: 2 / 5;
+          grid-row: 4 / 5; } }
+      @media (min-width: 48em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__right {
+          grid-column: 4 / 5;
+          grid-row: 3 / 4; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords > figcaption {
+        font-style: italic;
+        padding: 2ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords > figcaption {
+            background-color: rgba(6, 24, 45, 0.8);
+            top: -1.5em;
+            right: -3em;
+            position: relative;
+            width: 90%; } }
       .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__50-words.primary-image {
         grid-column: 2 / 5;
         grid-row: 1 / 3; }
       .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__50-words.secondary-image {
         grid-column: 2 / 3;
         grid-row: 3 / 5; }
-      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__20-words > figcaption {
-        font-style: italic;
-        padding: 2ex; }
-        @media (min-width: 19.25em) {
-          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__20-words > figcaption {
-            background-color: rgba(6, 24, 45, 0.8);
-            top: -1.5em;
-            right: -3em;
-            position: relative;
-            width: 90%; } }
       .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__50-words {
         grid-column: 4 / 5;
         grid-row: 3 / 5; }
-      @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__20-words.left {
-          grid-column: 2 / 5;
-          grid-row: 1 / 2; } }
-      @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__20-words.left {
-          grid-column: 2 / 3;
-          grid-row: 1 / 2;
-          padding: 0 0 3ex 3ex; } }
-      @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__20-words.right {
-          grid-column: 2 / 5;
-          grid-row: 4 / 5; } }
-      @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__20-words.right {
-          grid-column: 4 / 5;
-          grid-row: 3 / 4; } }
   .article-grid-wrapper__portfolioInvolvement {
     background-color: rgba(6, 24, 45, 0.9); }
     @media (min-width: 19.25em) {

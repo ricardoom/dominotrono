@@ -28,8 +28,6 @@ externalURL: 'http://nypl.org'
 newLayout: true
 ---
 
-
-
 {{< section_wrapper class="hero-grid" >}}
 
     {{< image
@@ -49,21 +47,21 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< copy_wrapper class="copy-block__20-words left" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography specifications.
     {{< /copy_wrapper >}}
 
     {{< image
-    class="details-grid__imageBlock twenty-words__left"
+    class="details-grid__twentyWords image-block__left"
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960X960_2x/nypl-dot-org/nypl_ed_landingPage.jpg 2x"
-   
+
     alt="An alternate image of the NYPL home page"
     figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the fully accessible drop Login drop down menu" title="NYPL home page Tablet view " >}}
 
     {{< image
-      class="details-grid__imageBlock twenty-words__right"
+      class="details-grid__twentyWords image-block__right"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/nypl-dot-org/nypl_tablet_grid.jpg 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
@@ -72,7 +70,7 @@ newLayout: true
       figcaption="An example of an interior landing page dedicated towards giving voice to the wide variety of expertise the library has to offer."
     >}}
 
-    {{< copy_wrapper class="copy-block__20-words right" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
     The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
     {{< /copy_wrapper >}}
 

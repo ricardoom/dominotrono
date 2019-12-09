@@ -5,15 +5,15 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/soulshack/soulShack320.svg'
-postImage1x: '../media/portfolio/soulshack/soulShack320@1x.png'
-postImage2x: '../media/portfolio/soulshack/soulShack640@2x.png'
-postImage3x: '../media/portfolio/soulshack/soulShack960@3x.png'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1549726136/mamasan-soul-shack/soulShack960.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0,t_hp_portfolio/v1549726136/mamasan-soul-shack/soulShack960.jpg'
+postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0,t_hp_portfolio/v1549726136/mamasan-soul-shack/soulShack960.jpg'
 postImageAlt: 'Image of the company logo printed on mirrored glass'
 figcaption: ''
 portfolioHeroSqip: '../media/portfolio/soulshack/soulshackHeroSqip.svg'
-portfolioHero1x: '../media/portfolio/soulshack/soulshackHero.png'
-portfolioHero2x: '../media/portfolio/soulshack/soulshackHero@2x.png'
-portfolioHero3x: '../media/portfolio/soulshack/soulshackHero@3x.png'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto:good,t_portfolio_hero_16_9/v1549726136/mamasan-soul-shack/soulshackHero.jpg'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto:eco,t_portfolio_hero_2x/v1549726136/mamasan-soul-shack/soulshackHero.jpg'
+portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto:eco,t_portfolio_hero_3x/v1549726136/mamasan-soul-shack/soulshackHero.jpg'
 portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
 svgClipObjectClass: 'twoSquares'
@@ -25,44 +25,48 @@ projectClients: ['Mamasans Soulshack, Portland OR']
 projectCredits: []
 projectDate: '2014 - 2015'
 projectDesc: 'Graphic and brand design for a Portland Oregon based restaurant.'
+newLayout: true
 ---
 
 ## Project Details
 
-I was contacted by the owners of Mamasan Soul Shack to create a branding identity. We wanted to express their brand as an extension of their particular style of cooking and easy going attitude. They wanted something bold and playful to be used across a variety of media.
 
-{{< section_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="hero-grid" >}}
 
-{{< image
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
-    class="image-block__100"
-    alt=""
-    >}}
+    {{< image
+         class="hero-grid__imageBlock"
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg 2x"
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
+        alt=""
+        >}}
+
+        {{< copy_wrapper class=" hero-grid__copyBlock" >}}
+          I was contacted by the owners of Mamasan Soul Shack to create a branding identity. We wanted to express their brand as an extension of their particular style of cooking and easy going attitude. They wanted something bold and playful to be used across a variety of media.
+        {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.png"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548802706/mamasan-soul-shack/mamasan.soulshack.png 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.png"
-    class="image-block__100" alt=""
-    >}}
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg 2x"
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg"
+        class="image-block__100" alt=""
+        >}}
 
 {{< /section_wrapper >}}
 
 
 {{< section_wrapper class="portfolio-image-wrapper" >}}
 
-  {{< image 
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9/v1549726136/mamasan-soul-shack/soulShack960.png" 
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9_2x/v1549726136/mamasan-soul-shack/soulShack960.png 2x" src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9/v1549726136/mamasan-soul-shack/soulShack960.png" class="image-block__50" alt="" >}}
+    {{< image 
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9/v1549726136/mamasan-soul-shack/soulShack960.jpg" 
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9_2x/v1549726136/mamasan-soul-shack/soulShack960.jpg 2x" src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9/v1549726136/mamasan-soul-shack/soulShack960.jpg" class="image-block__50" alt="" >}}
 
     {{< image 
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.png" 
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50_2x/v1549726163/mamasan-soul-shack/soulshackTshirt.png 2x" src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.png" class="image-block__50" alt="" >}}
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.jpg" 
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50_2x/v1549726163/mamasan-soul-shack/soulshackTshirt.jpg 2x" src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.jpg" class="image-block__50" alt="" >}}
 
 {{< /section_wrapper >}}

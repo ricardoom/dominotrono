@@ -24,7 +24,15 @@
 <h3>{{ $imgHeading }}</h3>
 {{ end }}
 <figure class="{{ $class }}" {{ if $title }} title="{{ $title }}" {{ end }}>
-  <img srcset="{{ $srcsetOne }}, {{ $srcsetTwo }} {{ if and ( $srcsetThree ) ( ne $srcsetThree "" ) }}, {{ $srcsetThree }}, {{ end }} {{ if and ( $srcsetFour  ) ( ne $srcsetFour "" ) }} {{ $srcsetFour }} {{ end }} " src="{{ $src }}" {{  with .Get "alt" }} alt="{{ . }}" {{ else }} alt="an image in the post {{ .Params.Title }}" {{ end }} sizes="(max-width: 20em) 100vw, (max-width: 60em) 85vw, (max-width: 80em) 70vw" /> {{ with .Get "figcaption" }}
-  <figcaption>{{ . }}</figcaption>
+  <img srcset="{{ $srcsetOne }},
+  {{ $srcsetTwo }},
+  {{ if and ( $srcsetThree ) ( ne $srcsetThree "" ) }}
+     {{ $srcsetThree }}, 
+  {{ end }}
+  {{ if and ( $srcsetFour  ) ( ne $srcsetFour "" ) }} 
+      {{ $srcsetFour }} {{ end }}"
+   src="{{ $src }}" {{  with .Get "alt" }} alt="{{ . }}" {{ else }} alt="an image in the post {{ .Params.Title }}" {{ end }} sizes="(max-width: 20em) 100vw, (max-width: 60em) 85vw, (max-width: 80em) 70vw" />
+  {{ with .Get "figcaption" }}
+    <figcaption>{{ . }}</figcaption>
   {{ end }}
 </figure>

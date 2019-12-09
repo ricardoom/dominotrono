@@ -5,15 +5,15 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/il_nido_seattle/ilNidoCard.svg'
-portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.png'
-portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.png'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.jpg'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.jpg'
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_3x/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.jpg'
 portfolioHeroAlt: ''
 portfolioHeroSqip: '../media/portfolio/il_nido_seattle/ilNidoHeroSqip.svg'
 # heroFigcaption goes on the portfolio/ landing page
 heroFigcaption: ''
-postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.png'
-postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.png'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.jpg'
 postImageAlt: 'A thumbnail image of the Il Nido Seattle Homepage'
 figcaption: ''
 svgClipObjectClass: 'bigCircle'
@@ -83,13 +83,13 @@ newLayout: true
         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210902/il-nido-il-corvo/logos/il_nido_logo_metal_2x.jpg 2x"
         alt="An image of the Il Nido cut into steel"
-    >}}
+      >}}
 
      {{< image
       class="details-grid__twentyWords image-block__right"
-       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png"
-       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png"
-       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.png 2x"
+       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.jpg"
+       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.jpg"
+       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.jpg 2x"
        alt="An image of various iterations of the Il Nido logo"
     >}}
 
@@ -139,14 +139,14 @@ newLayout: true
         >}}
 
     {{< image
-        class="details-grid__twoByTwo image-block__left"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/homestead_interior.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/homestead_interior.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25_2x/v1570215746/il-nido-il-corvo/homestead_interior.jpg 2x"
-        alt="An image of the interior of the Alki House under construction"
-        imgHeading=""
-        figcaption=""
-        >}}
+      class="details-grid__twoByTwo image-block__left"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/homestead_interior.jpg"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/homestead_interior.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25_2x/v1570215746/il-nido-il-corvo/homestead_interior.jpg 2x"
+      alt="An image of the interior of the Alki House under construction"
+      imgHeading=""
+      figcaption=""
+      >}}
 
     {{< image
         class="details-grid__twoByTwo image-block__right"

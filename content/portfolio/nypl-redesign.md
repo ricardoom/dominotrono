@@ -84,7 +84,7 @@ newLayout: true
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_4x3_2x/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
       alt="An example of the Education landing page"
-      figcaption="Our efforts were fruitful in many ways"
+      figcaption="Modular templates can be used to create different kinds of layouts with minimal effort."
     >}}
 
     {{< image
@@ -97,7 +97,7 @@ newLayout: true
 
 
      {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
-    The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
+        The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
     {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}

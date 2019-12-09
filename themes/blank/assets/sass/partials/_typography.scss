@@ -225,4 +225,10 @@ article {
       }
     }
   }
+
+  .article-grid-wrapper {
+    &__portfolioInvolvement {
+      font-family: $frank-new;
+    }
+  }
 }

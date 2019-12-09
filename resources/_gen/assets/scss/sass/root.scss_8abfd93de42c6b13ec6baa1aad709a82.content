@@ -635,6 +635,9 @@ code {
 .fonts-loaded .portfolio__content p {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
+.fonts-loaded .article-grid-wrapper__portfolioInvolvement {
+  font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
 @media (min-width: 19.25em) {
   .site-header {
     display: flex;
@@ -1570,6 +1573,8 @@ figure {
         .article-grid-wrapper__portfolioParent .portfolio__content .details-grid {
           grid-template-columns: 2.5vw 1fr 6.5vw 1fr 2.5vw;
           grid-template-rows: minmax(130px, auto) auto; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid > p {
+        margin: 0; }
       @media (min-width: 19.25em) {
         .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__left, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.copy-block__left {
           grid-column: 2 / 5;

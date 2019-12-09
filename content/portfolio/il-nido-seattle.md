@@ -109,6 +109,15 @@ newLayout: true
         alt="An image of various iterations of the Il Nido logo"
          >}}
 
+       {{< copy_wrapper 
+        class="details-grid__twoByTwo copy-block__right" >}}
+        We spoke at length about color schemes, and what colors best represented the new restaurant's look and feel. In a mood board presented, I had two covers for the Russian Criminal Tattoo books, the yellow and blue. Ultimately we settled on having the yellow be the predominate color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
+      {{< /copy_wrapper >}}
+
+{{< /section_wrapper >}}
+
+{{< section_wrapper class="details-grid" >}}
+
     {{< image
         class="details-grid__twoByTwo image-block__left"
         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570214653/il-nido-il-corvo/tattoo_books.jpg"
@@ -120,7 +129,7 @@ newLayout: true
         >}}
 
     {{< image
-      class="details-grid__twoByTwo image-block__left"
+      class="details-grid__twoByTwo image-block__right"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215745/il-nido-il-corvo/exterior.jpg"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215745/il-nido-il-corvo/exterior.jpg"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215745/il-nido-il-corvo/exterior.jpg 2x"
@@ -140,28 +149,34 @@ newLayout: true
         >}}
 
     {{< image
-        class="details-grid__twoByTwo image-block__left"
+        class="details-grid__twoByTwo image-block__right"
         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/log.jpg"
         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/log.jpg"
         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25_2x/v1570215746/il-nido-il-corvo/log.jpg 2x"
-        alt="A close up image of wooden beams found in the Alki House"
+        alt="A close up image of wooden beams found in the Alki Homestead"
         imgHeading=""
         figcaption=""
         >}}
-      {{< copy_wrapper class="details-grid__twoByTwo copy-block__right" >}}
-        We spoke at length about color schemes, and what colors best represented the new restaurant's look and feel. In a mood board presented, I had two covers for the Russian Criminal Tattoo books, the yellow and blue. Ultimately we settled on having the yellow be the predominate color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
+
+{{< /section_wrapper >}}
+
+### Coding Standards and Philosophy
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< copy_wrapper 
+        class="details-grid__twoByTwo copy-block__left" >}}
+        From a development standpoint, there are several moving parts; careful font loading strategy with FontFaceObserver coupled with minified markup, and only a single image. Instead of using an image type for the logo, I used an SVG coupled with SVGO to compress and remove extraneous code from the file. I began the development process with HTML5 Boilerplate and Modernizr. I wanted the site to be maximally backward compatible. I employed Gulp.js to help out with essential development and deployment. To that end, Gulp handles SCSS compilation, and minification of all files served to the user.
       {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
 
-{{< section_wrapper class="portfolio-image-wrapper" >}}
-
-{{< /section_wrapper>}}
-
-### Coding Standards and Philosophy
-
-From a development standpoint, there are several moving parts; careful font loading strategy with FontFaceObserver coupled with minified markup, and only a single image. Instead of using an image type for the logo, I used an SVG coupled with SVGO to compress and remove extraneous code from the file. I began the development process with HTML5 Boilerplate and Modernizr. I wanted the site to maximally backward compatible. I employed Gulp.js to help out with essential development and deployment. To that end, gulp handles SCSS compilation, and minification of all files to served to the user.
-
 ### SEO
 
-The final piece of the puzzle was to integrate the site with Google's webmaster and business tools. Following the recommendations, I created a JSON/LD file following the specifications laid out by Schema.org. I created the necessary entries appropriate for the type of business, hours, and location, used the webmaster tools to validate and inserted the code into the markup.
+{{< section_wrapper class="details-grid" >}}
+
+    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+      The final piece of the puzzle was to integrate the site with Google's webmaster and business tools. Following the recommendations, I created a JSON/LD file following the specifications laid out by Schema.org. I created the necessary entries appropriate for the type of business, hours, and location, used the webmaster tools to validate and inserted the code into the markup.
+      {{< /copy_wrapper>}}
+
+{{< /section_wrapper >}}

@@ -144,12 +144,11 @@
       //
 
       .details-grid {
+        @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
         margin-top: 2ex;
-        @include portfolio-grid(
-          '>=phone',
-          $details-grid-columns,
-          $details-grid-rows
-        );
+        > p {
+          margin: 0;
+        }
 
         //
         // twoByTwo: this layout can be used to stack 3 images to the right or left
@@ -161,6 +160,7 @@
               @include add-to-grid('>=phone', 2, 5, auto, auto);
               @include add-to-grid('>=tablet', 2, 3, auto, auto);
             }
+
             &__right {
               @include add-to-grid('>=phone', 2, 5, auto, auto);
               @include add-to-grid('>=tablet', 4, 5, auto, auto);
@@ -244,20 +244,3 @@
     background-color: transparentize($site-dark-blue, 0.1);
   }
 } // /article-grid-wrapper
-
-/// refactor playground
-
-// make them so:
-
-.details-grid {
-  // put a mixin here...?
-  // new label for 20-words:
-  &__two-by-two {
-    // things
-  }
-  // new label for 50-words
-
-  &__one-over-two {
-    // other things
-  }
-}

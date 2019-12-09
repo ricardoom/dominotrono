@@ -39,7 +39,7 @@ newLayout: true
     figcaption=""
     >}}
 
-    {{< copy_wrapper class="hero-grid__copyBlock" >}}
+    {{< copy_wrapper class=" hero-grid__copyBlock" >}}
     The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I lead our in-house efforts towards the design and implementation of their recommendations. In that role, I expanded and refined the visual and experience design to meet the library's standards for accessibility and progressive enhancement.
     {{< /copy_wrapper >}}
 
@@ -79,23 +79,24 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
     {{< image
-      class="image-block__50-words primary-image"
+      class="details-grid__fiftyWords big-image"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_4x3_2x/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
       alt="An example of the Education landing page"
+      figcaption="Our efforts were fruitful in many ways"
     >}}
 
     {{< image
+      class="details-grid__fiftyWords small-image"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
-      class="image-block__50-words secondary-image"
       alt="An example of the Education landing page"
     >}}
 
 
-     {{< copy_wrapper class="copy-block__50-words" >}}
+     {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
     The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
     {{< /copy_wrapper >}}
 

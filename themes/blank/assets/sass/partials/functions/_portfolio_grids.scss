@@ -35,11 +35,40 @@
     @include media(#{$breakpoint}) {
       grid-template-columns: $columns;
       grid-template-rows: $rows;
+      column-gap: $column-gap;
+      row-gap: $row-gap;
     }
   } @else if $breakpoint == '>=tablet' {
     @include media(#{$breakpoint}) {
       grid-template-columns: $columns;
       grid-template-rows: $rows;
+      column-gap: $column-gap;
+      row-gap: $row-gap;
     }
+  }
+}
+
+@mixin grid-figcaption {
+  > figcaption {
+    @include media('>=phone') {
+      background-color: transparentize($site-dark-blue, 0.2);
+      top: -1.5em;
+      right: -3em;
+      position: relative;
+      width: 90%;
+    }
+
+    font-style: italic;
+    padding: 2ex;
+  }
+}
+
+@mixin two-by-two($left: false, $right: false) {
+  @if $left == true {
+    background-color: $site-acid-green;
+    @content;
+  } @else if $right == true {
+    background-color: $site-punk-pink;
+    @content;
   }
 }

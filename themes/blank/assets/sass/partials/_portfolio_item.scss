@@ -52,7 +52,7 @@
 
 .article-grid-wrapper {
   display: grid;
-  grid-template-columns: 2.5vw 70vw 15vw 10vw 2.5vw;
+  grid-template-columns: 2.5vw 69vw 14.95vw 10vw 2.5vw;
   grid-template-rows: auto;
   row-gap: 2ex;
   h1,
@@ -145,9 +145,11 @@
 
       .details-grid {
         @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
+        align-items: center;
         margin-top: 2ex;
+
         > p {
-          margin: 0;
+          margin: 5ex 0 8ex;
         }
 
         //
@@ -235,7 +237,7 @@
       grid-column: 3 / 5;
       grid-row: 2 / 3;
       margin: -4ex 0 0 0;
-      padding: 2.5ex 5.5ex 10ex;
+      padding: 2.5ex 3.5ex 5ex;
       // padding: calc(100% - 15vh) calc(100% - 22vw) calc(100% - 13vh);
       width: initial;
       z-index: 1;

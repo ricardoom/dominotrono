@@ -28,16 +28,15 @@ projectDesc: 'Graphic and brand design for a Portland Oregon based restaurant.'
 newLayout: true
 ---
 
-## Project Details
-
+### Project Details
 
 {{< section_wrapper class="hero-grid" >}}
 
     {{< image
          class="hero-grid__imageBlock"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg 2x"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571677244/mamasan-soul-shack/soulshackhp.jpg"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9,dpr_2.0/v1571677244/mamasan-soul-shack/soulshackhp.jpg 2x"
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9,dpr_3.0/v1571677244/mamasan-soul-shack/soulshackhp.jpg"
         alt=""
         >}}
 
@@ -47,26 +46,54 @@ newLayout: true
 
 {{< /section_wrapper >}}
 
-{{< section_wrapper class="portfolio-image-wrapper" >}}
+### Art Direction and Logo Design
+
+{{< section_wrapper class="details-grid" >}}
 
     {{< image
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg 2x"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg"
-        class="image-block__100" alt=""
-        >}}
+      class="details-grid__fiftyWords big-image"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802706/mamasan-soul-shack/mamasan.soulshack.jpg"
+      figcaption="Iterations on the logo design"
+       >}}
+
+    {{< image
+      class="details-grid__fiftyWords small-image"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_480/v1549726136/mamasan-soul-shack/soulShack960.jpg 1x" 
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_480,dpr_2.0/v1549726136/mamasan-soul-shack/soulShack960.jpg 2x"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_480,dpr_3.0/v1549726136/mamasan-soul-shack/soulShack960.jpg 3x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_480/v1549726136/mamasan-soul-shack/soulShack960.jpg" 
+      alt=""
+      figcaption="A close up of the front door to the shop, the warmth of the skyline in the reflection emphasizes the rich colors printed on the glass."
+      >}}
+
+      {{< image
+      class="details-grid__fiftyWords small-image"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1549726162/mamasan-soul-shack/soulshack_GiftCertificates.jpg 1x" 
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1549726162/mamasan-soul-shack/soulshack_GiftCertificates.jpg 2x"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_3.0/v1549726162/mamasan-soul-shack/soulshack_GiftCertificates.jpg 3x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,q_50/v1549726162/mamasan-soul-shack/soulshack_GiftCertificates.jpg" 
+      alt=""
+      figcaption="Expanded typographic examples"
+      >}}
 
 {{< /section_wrapper >}}
 
+{{< section_wrapper class="details-grid" >}}
 
-{{< section_wrapper class="portfolio-image-wrapper" >}}
-
-    {{< image 
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9/v1549726136/mamasan-soul-shack/soulShack960.jpg" 
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9_2x/v1549726136/mamasan-soul-shack/soulShack960.jpg 2x" src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__pad16_9/v1549726136/mamasan-soul-shack/soulShack960.jpg" class="image-block__50" alt="" >}}
-
-    {{< image 
+    {{< image
+      class="details-grid__twentyWords image-block__left"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.jpg" 
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50_2x/v1549726163/mamasan-soul-shack/soulshackTshirt.jpg 2x" src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.jpg" class="image-block__50" alt="" >}}
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50_2x/v1549726163/mamasan-soul-shack/soulshackTshirt.jpg 2x" 
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t___50/v1549726163/mamasan-soul-shack/soulshackTshirt.jpg" 
+      alt="" >}}
+
+    {{< image
+      class="details-grid__twentyWords image-block__right"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549726162/mamasan-soul-shack/soulshack_MAMASAN_10.jpg"
+      >}}
 
 {{< /section_wrapper >}}

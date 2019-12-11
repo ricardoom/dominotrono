@@ -148,11 +148,7 @@
       //
 
       .details-grid {
-        @include portfolio-grid(
-          '>=phone',
-          $details-grid-columns,
-          $details-grid-rows
-        );
+        @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
         align-items: center;
         margin-top: 2ex;
 
@@ -215,8 +211,9 @@
           }
 
           &.small-image {
-            @include add-to-grid('>=phone', 2, 5, 3, 4);
-            @include add-to-grid('>=tablet', 2, 3, 3, 5);
+            @include add-to-grid('>=phone', 2, 5, auto, auto);
+            @include add-to-grid('>=tablet', 2, 3, auto, auto);
+            @include grid-figcaption;
           }
 
           &.copy-block {

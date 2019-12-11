@@ -28,23 +28,32 @@ weight: 2
 projectRoles: ['Design Lead']
 projectClients: ['NYPL']
 projectCredits:
-  ['Edwin Guzman', 'Kang Ting Peng', 'Willa Armstrong', 'Courtney McGee', 'Jinu Yang (Second Story)']
+  [
+    'Edwin Guzman',
+    'Kang Ting Peng',
+    'Willa Armstrong',
+    'Courtney McGee',
+    'Jinu Yang (Second Story)',
+  ]
 projectDate: '2016-2018'
 projectDesc: 'Our goal was a ground-up overhaul of the blogging platform. Complete with new layouts, publishing admin, and interface as well as "deep" content linking across the catalog and various other applications.'
+newLayout: true
 ---
 
 ## Project Details
 
-A component of the NYPL redesign efforts centered around a significant overhaul of the Blogs section. We were tasked to evaluate critical areas of the blog to improve. From improving basic readability to restructuring the layout, we approached the task with two key constituencies in mind; our readers and our bloggers.
+{{< section_wrapper class="hero-grid" >}}
 
-{{< section_wrapper class="portfolio-image-wrapper" >}}
-
-{{< image
+    {{< image
+    class="hero-grid__imageBlock"
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722028/nypl-blogs/blogshome.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio900x1600/v1548722028/nypl-blogs/blogshome.jpg"
     srcsetTwo=""
-    class="image-block__100"
     >}}
+
+    {{< copy_wrapper class=" hero-grid__copyBlock" >}}
+    A component of the NYPL redesign efforts centered around a significant overhaul of the Blogs section. We were tasked to evaluate critical areas of the blog to improve. From improving basic readability to restructuring the layout, we approached the task with two key constituencies in mind; our readers and our bloggers.
+    {{< /copy_wrapper>}}
 
 {{< image
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"

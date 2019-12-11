@@ -714,12 +714,12 @@ code {
   @media (min-width: 48em) {
     .grid-wrapper .prime-box {
       grid-column: 1 / 3;
-      grid-row: 1 / 1;
-      padding: 3vw 4vw 3vw 6vw; } }
+      grid-row: 1 / 1; } }
   @media (min-width: 64em) {
     .grid-wrapper .prime-box {
       grid-row: nameBox; } }
   .grid-wrapper .prime-box svg {
+    fill: white;
     height: auto;
     padding: 1em;
     width: 100%; }
@@ -1499,6 +1499,8 @@ figure {
       font-size: 32px;
       font-size: 1.5vw;
       margin: 4ex 0 0 2.5vw; }
+      .article-grid-wrapper__portfolioParent h3:first-child {
+        margin-bottom: 2ex; }
       @media (max-width: 106.66666667em) {
         .article-grid-wrapper__portfolioParent h3 {
           font-size: 1.6em; } }

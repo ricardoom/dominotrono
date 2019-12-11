@@ -77,6 +77,10 @@
     // section headings
     //
     h3 {
+      &:first-child {
+        margin-bottom: 2ex;
+      }
+
       @include responsive-font(1.5vw, 1.6em, 22px, 32px);
       margin: 4ex 0 0 2.5vw;
     }
@@ -144,7 +148,11 @@
       //
 
       .details-grid {
-        @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
+        @include portfolio-grid(
+          '>=phone',
+          $details-grid-columns,
+          $details-grid-rows
+        );
         align-items: center;
         margin-top: 2ex;
 

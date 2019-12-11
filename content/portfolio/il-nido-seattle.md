@@ -94,7 +94,7 @@ newLayout: true
     >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-      When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually,  the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
+      When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually, the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
     {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -109,7 +109,7 @@ newLayout: true
         alt="An image of various iterations of the Il Nido logo"
          >}}
 
-       {{< copy_wrapper 
+       {{< copy_wrapper
         class="details-grid__twoByTwo copy-block__right" >}}
         We spoke at length about color schemes, and what colors best represented the new restaurant's look and feel. In a mood board presented, I had two covers for the Russian Criminal Tattoo books, the yellow and blue. Ultimately we settled on having the yellow be the predominate color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
       {{< /copy_wrapper >}}
@@ -164,7 +164,7 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< copy_wrapper 
+    {{< copy_wrapper
         class="details-grid__twoByTwo copy-block__left" >}}
         From a development standpoint, there are several moving parts; careful font loading strategy with FontFaceObserver coupled with minified markup, and only a single image. Instead of using an image type for the logo, I used an SVG coupled with SVGO to compress and remove extraneous code from the file. I began the development process with HTML5 Boilerplate and Modernizr. I wanted the site to be maximally backward compatible. I employed Gulp.js to help out with essential development and deployment. To that end, Gulp handles SCSS compilation, and minification of all files served to the user.
       {{< /copy_wrapper >}}

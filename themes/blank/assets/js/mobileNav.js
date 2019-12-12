@@ -1,7 +1,7 @@
 ///
 /// Mobile Nav
 ///
-const myvar    =             'theVar'
+
 const mobileNavButton = document.getElementById('mobileNavButton');
 const mobileNavItems = document.getElementById('navItems');
 const mobileNavLabel = document.querySelector('.menu-label');

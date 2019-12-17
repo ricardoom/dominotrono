@@ -29,8 +29,6 @@ projectDesc: 'This is a freelance project contracted by the Chef / Owner of Il C
 newLayout: true
 ---
 
-### Client consultation and User Experience goals
-
 {{< section_wrapper class="hero-grid" >}}
 
       {{< image
@@ -41,7 +39,7 @@ newLayout: true
         alt="An image of the Il Nido website at various viewport dimensions"
        >}}
 
-        {{< copy_wrapper class=" hero-grid__copyBlock" >}}
+        {{< copy_wrapper class="hero-grid__copyBlock" >}}
           Chef Mike of Il Corvo Pasta in Seattle Wa. approached me to design and develop the website for his new restaurant concept Il Nido. Coming from the grind of having to maintain a Wordpress site, he did not want to have to worry about constant updating, so we decided that a simple website was the best choice.  We settled on a  brochure style site giving the most basic information. With this in mind, we also wanted the site load as fast as possible, reasoning that his clientele would most likely be accessing the site from their mobile devices.
         {{< /copy_wrapper >}}
 

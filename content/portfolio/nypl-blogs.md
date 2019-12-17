@@ -41,8 +41,6 @@ projectDesc: 'Our goal was a ground-up overhaul of the blogging platform. Comple
 newLayout: true
 ---
 
-## Project Details
-
 {{< section_wrapper class="hero-grid" >}}
 
     {{< image

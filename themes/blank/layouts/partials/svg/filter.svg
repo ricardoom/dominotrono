@@ -1,5 +1,4 @@
 <svg height="0" width="0">
-
  <filter id="gaus">
     <feGaussianBlur in="SourceAlpha" stdDeviation="12" result="BLUR"></feGaussianBlur>
     <feFlood result="FLOOD" flood-color="#fa2bfa"></feFlood>
@@ -8,7 +7,5 @@
       <feMergeNode in="OVERLAY"></feMergeNode>
       <feMergeNode in="SourceGraphic"></feMergeNode>
     </feMerge>
-  
   </filter>
-
   </svg>

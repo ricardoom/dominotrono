@@ -13,3 +13,4 @@ ajax.onload = function(e) {
   div.innerHTML = ajax.responseText;
   nav.insertBefore(div, nav.childNodes[0]);
 };
+

@@ -10,7 +10,6 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_3x/v1569947324/il-nido-il-corvo/il-nido-Desktop-production.jpg'
 portfolioHeroAlt: ''
 portfolioHeroSqip: '../media/portfolio/il_nido_seattle/ilNidoHeroSqip.svg'
-# heroFigcaption goes on the portfolio/ landing page
 heroFigcaption: ''
 postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.jpg'
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.jpg'

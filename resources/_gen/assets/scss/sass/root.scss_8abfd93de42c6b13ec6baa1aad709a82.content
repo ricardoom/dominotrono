@@ -1590,6 +1590,16 @@ figure {
         .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__right, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.copy-block__right {
           grid-column: 4 / 5;
           grid-row: auto / auto; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__left > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__right > figcaption {
+        font-style: italic;
+        padding: 2ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__left > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__right > figcaption {
+            background-color: rgba(6, 24, 45, 0.8);
+            top: -1.5em;
+            right: -3em;
+            position: relative;
+            width: 90%; } }
       @media (min-width: 19.25em) {
         .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__left {
           grid-column: 2 / 5;

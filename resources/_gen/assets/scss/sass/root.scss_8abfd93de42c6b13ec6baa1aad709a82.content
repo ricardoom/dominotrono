@@ -1566,7 +1566,6 @@ figure {
         .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__copyBlock {
           font-size: 32px; } }
     .article-grid-wrapper__portfolioParent .portfolio__content .details-grid {
-      align-items: center;
       margin-top: 2ex; }
       @media (min-width: 19.25em) {
         .article-grid-wrapper__portfolioParent .portfolio__content .details-grid {

@@ -148,8 +148,12 @@
       //
 
       .details-grid {
-        @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
-        align-items: center;
+        @include portfolio-grid(
+          '>=phone',
+          $details-grid-columns,
+          $details-grid-rows
+        );
+        // align-items: center;
         margin-top: 2ex;
 
         > p {
@@ -175,7 +179,7 @@
           &.image-block {
             &__left,
             &__right {
-            @include grid-figcaption;
+              @include grid-figcaption;
             }
           }
         } // /twoByTwo

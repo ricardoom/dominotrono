@@ -1664,18 +1664,36 @@ figure {
             position: relative;
             width: 90%; } }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left {
           grid-column: 2 / 5;
           grid-row: auto / auto; } }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left {
           grid-column: 2 / 3;
           grid-row: auto / auto; } }
-      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image > figcaption {
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left > figcaption {
         font-style: italic;
         padding: 2ex; }
         @media (min-width: 19.25em) {
-          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image > figcaption {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left > figcaption {
+            background-color: rgba(6, 24, 45, 0.8);
+            top: -1.5em;
+            right: -3em;
+            position: relative;
+            width: 90%; } }
+      @media (min-width: 19.25em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right {
+          grid-column: 2 / 5;
+          grid-row: auto / auto; } }
+      @media (min-width: 48em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right {
+          grid-column: 4 / 5;
+          grid-row: auto / auto; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right > figcaption {
+        font-style: italic;
+        padding: 2ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right > figcaption {
             background-color: rgba(6, 24, 45, 0.8);
             top: -1.5em;
             right: -3em;
@@ -1728,7 +1746,6 @@ figure {
     grid: auto/repeat(5, 1fr); } }
 
 .portfolio-container a {
-  border-bottom: 2px solid white;
   text-decoration: none; }
 
 .portfolio-container h3 {

@@ -148,11 +148,7 @@
       //
 
       .details-grid {
-        @include portfolio-grid(
-          '>=phone',
-          $details-grid-columns,
-          $details-grid-rows
-        );
+        @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
         // align-items: center;
         margin-top: 2ex;
 
@@ -220,9 +216,16 @@
             @include grid-figcaption;
           }
 
-          &.small-image {
+          &.small-image,
+          &.small-image-left {
             @include add-to-grid('>=phone', 2, 5, auto, auto);
             @include add-to-grid('>=tablet', 2, 3, auto, auto);
+            @include grid-figcaption;
+          }
+
+          &.small-image-right {
+            @include add-to-grid('>=phone', 2, 5, auto, auto);
+            @include add-to-grid('>=tablet', 4, 5, auto, auto);
             @include grid-figcaption;
           }
 

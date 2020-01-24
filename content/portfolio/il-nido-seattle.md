@@ -56,7 +56,7 @@ newLayout: true
       alt="An image of the Il Nido website at various viewport dimensions"
       imgHeading=""
       figcaption="Utilizing Sketch I created several drafts of possible outcomes. The main idea was to incorporate Chef Mikes photography into a screen design that captured the spirit of the location while not being overly dominated by imagery alone."
-          >}}
+      >}}
 
       {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
       Due to the restaurant's menu changing daily with respect to season, we settled on displaying only location, hours, and contact were required. Chef Mike opted to use the Resy system for handling reservations. We decided a button-like link would be best to direct customers to obtain a booking.
@@ -88,7 +88,7 @@ newLayout: true
        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.jpg"
        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.jpg 2x"
        alt="An image of various iterations of the Il Nido logo"
-    >}}
+      >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
       When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually, the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.

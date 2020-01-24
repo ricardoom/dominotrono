@@ -26,123 +26,127 @@ projectClients: ['PBS Digital Studios', 'Thirteen Digital']
 projectDate: '2015'
 externalURL: 'https://www.thirteen.org/programs/diorama/'
 projectDesc: 'Graphic and infographic design for a web series exploring the dioramas at the American Museum of Natural History in New York.'
+newLayout: true
 ---
 
-## Project Details
+{{< section_wrapper class="hero-grid" >}}
 
-This work was for a short video series by PBS Digital Studios, produced in New York at WNET / Thirteen about the dioramas at the American Muesum of Natural History in New York. My role as a designer was to work with the producer [Tom McNamara](https://twitter.com/fieldguidetom) in creating a comprehensive look and feel for the entire project and brand. Working on a tight deadline, I created typographic treatments, motion graphics and custom illustrations. Additionally, I worked with the producer to develop educational materials in the form of infographics to be used on the project's website and disseminated to various PBS Educational portals.
+    {{< image
+      class="hero-grid__imageBlock"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1549730263/diorama/diorama.launch.screen.jpg"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1549730263/diorama/diorama.launch.screen.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,q_80,w_1280/v1549730263/diorama/diorama.launch.screen.jpg 2x"
+      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,q_80,w_1280/v1549730263/diorama/diorama.launch.screen.jpg 3x"
+      alt="An Image of a the main title card from the video series"
+      >}}
 
-Please enjoy srcsetThree first video about the moose diorama on youtube:
-{{< youtube DZ6zs6e6zxo  >}}
-See the entire series here: https://www.youtube.com/user/PBSDiorama
+     {{< copy_wrapper
+        class="hero-grid__copyBlock" >}}
+        This work was for a short video series by PBS Digital Studios, produced in New York at WNET / Thirteen about the dioramas at the American Muesum of Natural History in New York. My role as a designer was to work with  producer <a href="https://twitter.com/fieldguidetom" target="_blank">Tom McNamara</a> in creating a comprehensive look and feel for the entire project and brand. Working on a tight deadline, I created typographic treatments, motion graphics and custom illustrations. Additionally, we created and delivered supplemtal infographics to be used on the project's website and disseminated to various PBS Educational portals.
+      {{< /copy_wrapper>}}
 
-{{< section_wrapper class="portfolio-image-wrapper" >}}
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      Please enjoy first video about the moose diorama on youtube:
+      See the entire series here: <a href="https://www.youtube.com/user/PBSDiorama" targe="_blank">youtube.com/user/PBSDiorama</a> The overall aesthetic of the video series drew heavily upon educational science videos from the 1950's and 60's.
+      {{< /copy_wrapper>}}
+      {{< better_youtube url="DZ6zs6e6zxo"  class="details-grid__twentyWords image-block__right"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
   
- {{< image
+    {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730029/diorama/diorama_vid_graphic.png"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730029/diorama/diorama_vid_graphic.png"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730029/diorama/diorama_vid_graphic.png 2x"
-      class="image-block__100"
+      class="details-grid__fiftyWords big-image"
       alt="An Image of a card from the video series"
-      imgHeading="Video cards from the series"
-      figcaption="A diagram from the \"Why Moose Fight\" video "
+      figcaption="A card \"still\" from the Why Moose Fight episode"
       >}}
-  
-  {{< /section_wrapper >}}
-  
-  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730541/diorama/diorama_termite_vid_card.png"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730541/diorama/diorama_termite_vid_card.png"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730541/diorama/diorama_termite_vid_card.png 2x"
-      class="image-block__100"
+      class="details-grid__fiftyWords small-image-right"
+      alt="An Image of a card from the video series"
+      figcaption="Static images were used as slides and segways between scenes"
+      >}}
+
+  {{< /section_wrapper >}}
+  
+  {{< section_wrapper class="details-grid" >}}
+
+    {{< image
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png 2x"
+      class="details-grid__twoByTwo image-block__left"
       alt="An Image of a card from the video series"
       imgHeading=""
       figcaption=""
-    >}}
- 
-  {{< /section_wrapper >}}
+      >}}
   
-  {{< section_wrapper class="portfolio-image-wrapper" >}}
+     {{< image
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730468/diorama/diorama_termite_vid_card_4.png 2x"
+        class="details-grid__twoByTwo image-block__right"
+        alt="An Image of a card from the video series"
+        imgHeading=""
+        figcaption="A set of video cards from the termite episode"
+      >}}
+
+  {{< /section_wrapper >}}
+
+  {{< section_wrapper class="details-grid" >}}
+
+      {{< copy_wrapper
+        class=" details-grid__twentyWords copy-block__left" >}}
+        some copy
+      {{< /copy_wrapper>}}
 
     {{< image
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png 2x"
-    class="image-block__100"
-    alt="An Image of a card from the video series"
-    imgHeading=""
-    figcaption=""
+      class="details-grid__twoByTwo image-block__left"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549729987/diorama/what_is_diorama_social.png 2x"
+      alt="An image of an infographic from the series"
+      figcaption="another image..."
     >}}
-  
-  {{< /section_wrapper >}}
-  
-{{< section_wrapper class="portfolio-image-wrapper" >}}
-  {{< image
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730468/diorama/diorama_termite_vid_card_4.png 2x"
-      class="image-block__100"
-      alt="An Image of a card from the video series"
-      imgHeading=""
-      figcaption="A set of video cards from the termite episode"
-    >}}
+    
+        {{< copy_wrapper
+          class="details-grid__twoByTwo copy-block__right" >}}
+          more copy
+        {{< /copy_wrapper>}}
 
-{{< /section_wrapper >}}
-  
-  {{< section_wrapper class="portfolio-image-wrapper" >}}
-
-     {{< image
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549729987/diorama/what_is_diorama_social.png 2x"
-    class="image-block__100"
-    alt="An image of an infographic from the series"
-    imgHeading="Infographics from the series"
-    figcaption=""
-    >}}
-
-{{< /section_wrapper >}}
-  
-  {{< section_wrapper class="portfolio-image-wrapper" >}}
-
-     {{< image
+    {{< image
+      class="details-grid__twoByTwo image-block__right"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729894/diorama/diorama_mooseinfo.png"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729894/diorama/diorama_mooseinfo.png"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549729894/diorama/diorama_mooseinfo.png 2x"
-      class="image-block__100"
       alt="An image of an infographic from the series"
       imgHeading=""
-      figcaption=""
+      figcaption="Some imagery from the series"
     >}}
 
 {{< /section_wrapper >}}
-  
-  {{< section_wrapper class="portfolio-image-wrapper" >}}
 
-    {{< image
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730263/diorama/diorama.launch.screen.png"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730263/diorama/diorama.launch.screen.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730263/diorama/diorama.launch.screen.png 2x"
-      class="image-block__100"
-      alt="An Image of a card from the video series"
-      imgHeading="Cards from the opening sequence"
-      figcaption=""
-    >}}
-
-{{< /section_wrapper >}}
-  
-  {{< section_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="details-grid" >}}
 
     {{< image
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730177/diorama/diorama.intro.rhino.png"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730177/diorama/diorama.intro.rhino.png"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730177/diorama/diorama.intro.rhino.png 2x"
-      class="image-block__100"
+      class="details-grid__twentyWords image-block__left"
       alt="An Image of a card from the video series"
       imgHeading=""
-      figcaption=""
+      figcaption="the rhino"
     >}}
 
 {{< /section_wrapper >}}

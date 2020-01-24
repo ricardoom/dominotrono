@@ -26,5 +26,7 @@ tags: []
 weight: 10
 externalURL: ''
 projectDesc: ''
+newLayout: #true or false
 ---
+
 ## Project Details

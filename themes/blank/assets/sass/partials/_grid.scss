@@ -145,10 +145,6 @@ $mobile-second-row: 15vh;
 
   display: grid;
 
-  // > div {
-  //   border: 1px solid hsla(327, 94%, 48%, 0.1);
-  // }
-
   //
   // Containing our fancy svg graphic on the home page
   //
@@ -255,7 +251,7 @@ $mobile-second-row: 15vh;
   h1 {
     @include add-to-grid('>=phone', 2, 5, 1, 2);
     @include add-to-grid('>=tablet', 2, 5, 1, 2);
-    padding: 0 0 0 2.25vw;
+    // padding: 0 0 0 2.25vw;
   }
 }
 
@@ -297,22 +293,3 @@ $mobile-second-row: 15vh;
     }
   }
 }
-
-//
-// New Grid Setup for portfolio sections
-// TODO: separate the layout concerns even more:
-// Each separate grid to its own partial:
-//
-// .article-grid-wrapper {
-//   display: grid;
-//   grid-template-columns: 2.5vw 70vw 15vw 10vw 2.5vw;
-//   // grid-column-gap: 5vw;
-
-//   .portfolio-image-wrapper {
-//     // background-color: lightcoral;
-
-//     &--portfolio-item {
-//       // background-color: lightseagreen;
-//     }
-//   }
-// }

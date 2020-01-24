@@ -1,13 +1,19 @@
 ---
 author: Ricardo G.
 categories: []
-date: 2019-02-16T08:53:46-05:00
+date: 2020-01-24T11:50:00-05:00
 draft: false
 tags: []
 title: 'Daily Log'
 ---
 
 The idea here is to briefly jot down activities, changes, inquiries, research topics etc, so as to better document and gauge progress on this site specifically and growth as a artist, designer and developer in general.
+
+### 1-24-2020
+
+Determined to be a better developer, despite some who question the effort. It is hard to show results when your audience is less than sympathetic and easily baffled, confused and put off by concepts or technology outside of their ken.
+
+I've creaed a collage maker and am working on a matching / memory game. The collage maker will soon be added to this site in form of portfolio page and the matching game is still in early development so it will eventually find its way here, but not for a while
 
 ### 9-4-2019
 

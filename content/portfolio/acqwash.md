@@ -1,7 +1,7 @@
 ---
 title: 'Acqwash'
 date: 2020-01-24T10:52:14-05:00
-draft: false
+draft: true
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/acqwash/sqip.svg'
@@ -27,4 +27,5 @@ weight: 10
 externalURL: ''
 projectDesc: ''
 ---
+
 ## Project Details

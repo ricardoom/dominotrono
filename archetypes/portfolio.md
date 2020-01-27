@@ -5,6 +5,7 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/sqip.svg'
+portfolioHeroSqip: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/sqip.svg'
 portfolioHero1x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/placeHolder_sm.png'
 portfolioHero2x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}heroPlaceholder@2x.png'
 portfolioHero3x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/heroPlaceholder@3x.png'

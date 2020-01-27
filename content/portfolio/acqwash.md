@@ -4,7 +4,8 @@ date: 2020-01-24T10:52:14-05:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-postImageSqip: '../media/portfolio/acqwash/sqip.svg'
+postImageSqip: ''
+portfolioHeroSqip: '../media/portfolio/acqwash/sqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1580149839/acqwash/acqwash-hero.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,q_80,w_1280/v1580149839/acqwash/acqwash-hero.jpg'
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,q_80,w_1280/v1580149839/acqwash/acqwash-hero.jpg'

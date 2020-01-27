@@ -27,22 +27,6 @@ time {
   }
 }
 
-//
-// Covers the generic article type, but there are content type specific styles below
-//
-// .site-single {
-//   &__content {
-//     &--shortcode-canvas {
-//       border-left: 0.8rem solid $site-punk-pink;
-//     }
-
-//     h3 {
-//       font-size: 2rem;
-//       margin: 1.5ex 0;
-//     }
-//   } //
-// }
-
 [data-vendor],
 [data-date] {
   font-size: 0.5em;

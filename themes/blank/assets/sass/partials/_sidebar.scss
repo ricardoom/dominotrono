@@ -72,6 +72,10 @@
               background: $large-bg-color;
               color: currentColor;
             }
+
+            &:hover {
+              color: $site-white;
+            }
           }
         }
 
@@ -84,6 +88,9 @@
     > li:hover {
       background: $site-lava-orange;
       background: linear-gradient(to bottom right, $site-lava-orange, $site-punk-pink);
+
+      > a:hover {
+      }
     }
   }
 }

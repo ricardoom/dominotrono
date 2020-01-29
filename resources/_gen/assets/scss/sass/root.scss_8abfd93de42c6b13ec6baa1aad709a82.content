@@ -1051,6 +1051,8 @@ code {
           .sidebar-prime__sidebarList > li .post-grid .drop-cap > a:visited {
             background: #0b2d53;
             color: currentColor; }
+          .sidebar-prime__sidebarList > li .post-grid .drop-cap > a:hover {
+            color: white; }
         .sidebar-prime__sidebarList > li .post-grid .full-title {
           font-size: 12px;
           font-size: 1.25vw; }

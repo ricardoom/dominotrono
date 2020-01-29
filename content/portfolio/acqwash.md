@@ -24,28 +24,26 @@ projectClients: ['Acqwash']
 projectCredits: ['Rafael Hernandez']
 projectDate: ''
 tags: ['UX', 'Web Design']
-weight: 1
+weight: 2
 externalURL: ''
-projectDesc: ''
+projectDesc: 'I was asked to create the user experience and visual design for this burgeoning startup. '
 newLayout: true
 ---
 
 {{< section_wrapper class="hero-grid" >}}
 
-    
+        {{< image
+         class="hero-grid__imageBlock"
+         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1580149839/acqwash/acqwash-hero.jpg"
+         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1580149839/acqwash/acqwash-hero.jpg 1x"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0,q_80/v1580149839/acqwash/acqwash-hero.jpg 2x"
+         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0,q_80/v1580149839/acqwash/acqwash-hero.jpg 3x"
+         alt=""
+         figcaption=""
+        >}}
 
-{{< /section_wrapper>}}
-
-
-{{< section_wrapper class="details-grid" >}}
-
-    
-
-{{< /section_wrapper>}}
-
-
-{{< section_wrapper class="details-grid" >}}
-
-    
-
-{{< /section_wrapper>}}
+          {{< copy_wrapper
+            class="hero-grid__copyBlock" >}}
+            The Acqwash project centered around a very New York kind of problem, focusing on the exterior maintenance needs of our taxi drivers. Specifically the app concept is  modeled on a subscription service as it applies it car washes, and basic maintenance services in NYC.
+          {{< /copy_wrapper>}}
+{{< /section_wrapper >}}

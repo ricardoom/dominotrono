@@ -29,5 +29,3 @@ externalURL: ''
 projectDesc: ''
 newLayout: #true or false
 ---
-
-## Project Details

@@ -46,4 +46,5 @@ newLayout: true
             class="hero-grid__copyBlock" >}}
             The Acqwash project centered around a very New York kind of problem, focusing on the exterior maintenance needs of our taxi drivers. Specifically the app concept is  modeled on a subscription service as it applies it car washes, and basic maintenance services in NYC.
           {{< /copy_wrapper>}}
+
 {{< /section_wrapper >}}

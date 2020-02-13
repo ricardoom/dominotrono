@@ -1,3 +1,4 @@
+
 {{ printf "<!-- home page portfolio block -->" | safeHTML }}
 <div class="portfolio-container">
   <a href="/portfolio/">
@@ -9,20 +10,20 @@
     {{ range where $paginator.Pages.ByWeight "Section" "portfolio"}}
     <li class="portfolio-flex__summary">
       {{ if and ( .Params.postImage1x ) ( ne .Params.postImage1x "" ) }}
-      {{ $ariaId := replaceRE "(\\s)" "-" .Title }}
+      {{ $ariaId := replaceRE "(\\s)" "-" .Page.Params.Title }}    
       <a href="{{ .Permalink }}" aria-label="{{ $ariaId }}">
         <div class="portfolio-flex__content">
           <figure class="{{ .Params.svgColorClass }}">
             {{ if and ( .Params.figcaption ) ( ne .Params.figcaption "" ) }}
 
             {{ else }}
-            <figcaption>{{ .Title }}</figcaption>
+            
             {{ end }}
             <img data-srcset="{{ .Params.postImage1x }},
                    {{ .Params.postImage2x }} 2x, 
                    {{ .Params.postImage3x }} 3x" sizes="(max-width: 20em) 100vw,
               (max-width: 50em) 75vw, 
-              (max-width: 60em) 65vw" class="portfolioCard svgShapeClip lazy" src="{{ .Params.postImageSqip }}"
+              (max-width: 60em) 65vw" class="portfolioCard lazy" src="{{ .Params.postImageSqip }}"
               data-src="{{ .Params.postImage1x }}" alt="{{ if .Params.postImageAlt }} {{ .Params.postImageAlt }}
               {{ else }}
                 {{ .Title }}

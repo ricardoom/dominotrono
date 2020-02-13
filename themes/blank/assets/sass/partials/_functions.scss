@@ -82,12 +82,7 @@
 // $mw = max width
 // $pl = padding left
 // $pr = padding right
-@mixin basic-article-wrapper(
-  $breakpoint,
-  $mw,
-  $pl: #{initial},
-  $pr: #{initial}
-) {
+@mixin basic-article-wrapper($breakpoint, $mw, $pl: #{initial}, $pr: #{initial}) {
   @include media(#{$breakpoint}) {
     max-width: $mw;
     padding-left: $pl;
@@ -162,26 +157,26 @@
   animation-fill-mode: $fill-mode;
 }
 
-@mixin svg-overlay($clipPath: null) {
-  .portfolioCard {
-    animation-duration: 250ms;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    clip-path: url(#{$clipPath});
-    opacity: 0.5;
-    pointer-events: all;
-  }
-  .portfolioCardOff {
-    animation-duration: 250ms;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    clip-path: none;
-    pointer-events: all;
-  }
-}
+// @mixin svg-overlay($clipPath: null) {
+//   .portfolioCard {
+//     animation-duration: 250ms;
+//     animation-iteration-count: 1;
+//     animation-timing-function: ease-in;
+//     animation-delay: 0s;
+//     animation-direction: normal;
+//     animation-fill-mode: forwards;
+//     clip-path: url(#{$clipPath});
+//     opacity: 0.5;
+//     pointer-events: all;
+//   }
+//   .portfolioCardOff {
+//     animation-duration: 250ms;
+//     animation-timing-function: ease-out;
+//     animation-delay: 0s;
+//     animation-iteration-count: 1;
+//     animation-direction: normal;
+//     animation-fill-mode: forwards;
+//     clip-path: none;
+//     pointer-events: all;
+//   }
+// }

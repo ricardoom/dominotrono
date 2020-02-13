@@ -5,9 +5,9 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/nasa/nasa-mvw.svg'
-postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548760618/nasa-posters/electric_charge.png'
-postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548760618/nasa-posters/electric_charge.png'
-postImage3x: ''
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/c_crop,g_north_west,h_960,t_hp_portfolio,w_960/v1548760618/nasa-posters/electric_charge.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/c_crop,g_north_west,h_960,t_hp_portfolio_2x,w_960/v1548760618/nasa-posters/electric_charge.jpg'
+postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/c_crop,g_north_west,h_960,t_hp_portfolio_3x,w_960/v1548760618/nasa-posters/electric_charge.jpg'
 postImageAlt: 'an image displaying a portion of an info-graphicg'
 figcaption: ''
 portfolioHeroSqip: '../media/portfolio/nasa/nasaPosterHeroSqip.svg'

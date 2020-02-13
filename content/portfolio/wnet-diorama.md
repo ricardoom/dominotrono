@@ -5,9 +5,9 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/diorama/dioramaCard320.svg'
-postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1551117465/diorama/dioramaCard.png'
-postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1551117465/diorama/dioramaCard.png'
-postImage3x: '../media/portfolio/diorama/dioramaCard960@3x.png'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1581613958/diorama/diorama.intro.rhinoHP.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1581613958/diorama/diorama.intro.rhinoHP.jpg'
+postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x/v1581613958/diorama/diorama.intro.rhinoHP.jpg'
 postImageAlt: 'A Card for the Diorama project'
 portfolioHeroSqip: '../media/portfolio/diorama/dioramaHeroSqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1549730263/diorama/diorama.launch.screen.png'

@@ -4,8 +4,9 @@ categories: ['portfolio']
 date: 2018-06-30T00:05:50-04:00
 draft: false
 postImageSqip: '../media/portfolio/nypl_blogs/blogCard.svg'
-postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1551127927/nypl-blogs/blogCard.png'
-postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1551127927/nypl-blogs/blogCard.png'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1551127927/nypl-blogs/blogCard.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1551127927/nypl-blogs/blogCard.jpg'
+postImage: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x/v1551127927/nypl-blogs/blogCard.jpg'
 postImageAlt: 'A partial image of the NYPL Staff Picks and Best Books landing page'
 figcaption: ''
 portfolioHeroSqip: '../media/portfolio/nypl_blogs/nyplBlogsSqip.svg'

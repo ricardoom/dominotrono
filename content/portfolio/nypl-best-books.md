@@ -5,9 +5,9 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/nypl_staff_picks/spFall2018.svg'
-postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548801971/nypl-staff-picks/Screenshot_2018-05-17_Staff_Picks.png'
-postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548801971/nypl-staff-picks/Screenshot_2018-05-17_Staff_Picks.png'
-postImage3x: ''
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548801967/nypl-staff-picks/spProduction.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548801967/nypl-staff-picks/spProduction.jpg'
+postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x/v1548801967/nypl-staff-picks/spProduction.jpg'
 postImageAlt: 'A partial image of the NYPL Staff Picks and Best Books landing page'
 figcaption: ''
 portfolioHeroSqip: '../media/portfolio/nypl_staff_picks/spFall2018HeroSqip.svg'

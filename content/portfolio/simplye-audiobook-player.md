@@ -5,9 +5,9 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/simplye_audiobooks/seCard.svg'
-postImage1x: '../media/portfolio/simplye_audiobooks/seCard.png'
-postImage2x: '../media/portfolio/simplye_audiobooks/seCard@2x.png'
-postImage3x: '../media/portfolio/simplye_audiobooks/seCard@3x.png'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1581611954/simply-e/simplyE-audioBookPlayerHP.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1581611954/simply-e/simplyE-audioBookPlayerHP.jpg'
+postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x/v1581611954/simply-e/simplyE-audioBookPlayerHP.jpg'
 postImageAlt: 'A partial image of the SimplyE design click flow'
 figcaption: ''
 portfolioHeroSqip: '../media/portfolio/simplye_audiobooks/simplyEAudioHeroSqip.svg'
@@ -15,7 +15,7 @@ portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548802600/simply-e/se-Audio-flow-iOS.png'
 portfolioHeroAlt: 'A partial image of the SimplyE design click flow'
 svgClipObjectClass: 'variableDots'
-svgColorClass: 'site-color--dark-blue'
+svgColorClass: 'site-color--brown'
 tags: ['User Experience', 'Accessibility', 'Interface Design']
 weight: 5
 projectRoles: ['Designer']

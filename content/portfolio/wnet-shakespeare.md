@@ -33,3 +33,19 @@ http://www.pbs.org/wnet/shakespeare-uncovered/timeline/
 
 Anatomy of a scene:
 https://www.pbs.org/wnet/shakespeare-uncovered/blog/anatomy-of-a-scene/
+
+
+some crops:
+https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,w_480/v1581539539/wnet/shakespeareHP.jpg
+https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,dpr_2.0,w_480/v1581539539/wnet/shakespeareHP.jpg
+https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,dpr_3.0,w_480/v1581539539/wnet/shakespeareHP.jpg
+
+
+https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,q_80,w_480/v1581539539/wnet/shakespeareVideoDetail.jpg
+https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,dpr_2.0,q_80,w_480/v1581539539/wnet/shakespeareVideoDetail.jpg
+https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,dpr_3.0,q_80,w_480/v1581539539/wnet/shakespeareVideoDetail.jpg
+
+some full screens:
+
+https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1581539539/wnet/shakespeareVideoDetail.jpg
+https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1581539539/wnet/shakespeareVideoDetail.jpg

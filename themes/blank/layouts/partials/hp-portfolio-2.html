@@ -1,27 +1,28 @@
 
-{{ printf "<!-- home page portfolio block -->" | safeHTML }}
+
+
+{{ printf "<!-- home page portfolio block new layout 2 -->" | safeHTML }}
 <div class="portfolio-container">
-  <a href="/portfolio/">
+  <a href="/portfolio/" class="portfolio-title">
     <h3>Portfolio</h3>
   </a>
-  <span class="portfolio-container__containerSubTitle">Projects past and present</span>
-  <ul class="portfolio-flex">
+  <span class="portfolio-subtitle">Projects past and present</span>
+  <ul class="portfolio-grid__newLayout">
     {{ $paginator := .Paginate .Site.RegularPages 20 }}
     {{ range where $paginator.Pages.ByWeight "Section" "portfolio"}}
-    <li class="portfolio-flex__summary">
+    <li class="item">
       {{ if and ( .Params.postImage1x ) ( ne .Params.postImage1x "" ) }}
       {{ $ariaId := replaceRE "(\\s)" "-" .Page.Params.Title }}    
-      <a href="{{ .Permalink }}" aria-label="{{ $ariaId }}">
-        <div class="portfolio-flex__content">
-          <figure class="{{ .Params.svgColorClass }}">
-            {{ if and ( .Params.figcaption ) ( ne .Params.figcaption "" ) }}
+      
+      <a href="{{ .Permalink }}" aria-label="{{ $ariaId }}" class="item-link">
 
-            {{ else }}
-            <figcaption>{{ .Title }}</figcaption>
-            {{ end }}
+          <h4 class="item-title">{{ .Title }}</h4>
+          <figure class="{{ .Params.svgColorClass }} item-figure">
             <img height="315" width="315" data-srcset="{{ .Params.postImage1x }},
-                   {{ .Params.postImage2x }} 2x, 
-                   {{ .Params.postImage3x }} 3x" sizes="(max-width: 20em) 100vw,
+                  {{ .Params.postImage2x }} 2x
+                  {{ if and ( .Params.postImage3x ) ( ne .Params.postImage3x "" ) }}
+                  ,{{ .Params.postImage3x }} 3x
+                  {{ end }}" sizes="(max-width: 20em) 100vw,
               (max-width: 50em) 75vw, 
               (max-width: 60em) 65vw" class="portfolioCard lazy" src="{{ .Params.postImageSqip }}"
               data-src="{{ .Params.postImage1x }}" alt="{{ if .Params.postImageAlt }} {{ .Params.postImageAlt }}
@@ -29,11 +30,12 @@
                 {{ .Title }}
               {{ end }}" />
           </figure>
-        </div>
+
       </a>
+      
       {{ end }}
       {{ end }}
     </li>
   </ul>
 </div>
-{{ printf "<!-- end home page portfolio block -->" | safeHTML }}
+{{ printf "<!-- end home page portfolio block 2 -->" | safeHTML }}

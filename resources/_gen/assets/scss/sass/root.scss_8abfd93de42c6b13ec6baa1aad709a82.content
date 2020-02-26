@@ -1834,6 +1834,16 @@ figure {
         .portfolio-container .portfolio-flex__content figure figcaption {
           padding: 1vw 1ex; } }
 
+.portfolio-grid__newLayout {
+  background-color: rgba(245, 66, 173, 0.2);
+  display: grid; }
+  .portfolio-grid__newLayout > .item {
+    width: 25%; }
+  .portfolio-grid__newLayout > .item-link > .item-title {
+    color: red; }
+  .portfolio-grid__newLayout > .item-link > .item-figure {
+    border-left: 100px red dotted; }
+
 .biography-skills {
   font-size: 48px;
   font-size: 2vw;

@@ -8,9 +8,10 @@ postimage: 'media/placeHolder_sm.png'
 postImageAlt: ''
 figcaption: ''
 tags: []
-projectRoles: ["Design Collaborator"]
+projectRoles: ["Design Lead"]
 projectClients: ["NYPL Digital"]
 projectCredits: [ "Edwin Guzman" ]
+projectDesc: ''
 ---
 
 Check it out here: https://nypl.github.io/dgx-svg-icons/

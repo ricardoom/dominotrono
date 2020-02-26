@@ -1,76 +1,28 @@
-{{ $role := .Params.projectRoles }}
-{{ $clients := .Params.projectClients }}
-{{ $date := .Params.projectDate }}
-{{ $credits := .Params.projectCredits }}
-{{ $tags := .Params.tags }}
-{{ $url := .Params.externalURL }}
-{{ printf "<!-- +++ portfolio single item  -->" | safeHTML }}
+<!-- new layout flag: -->
+{{ $newLayout := .Params.newLayout }}
+<!-- put all the two main classes into variables: -->
+{{ $atWrapper := "article-grid-wrapper"}}
+{{ $sgWrapper := "section-grid-wrapper"}}
+{{ $imgWrapper := "grid-wrapper" }}
 {{ partial "header.html" . }}
 <main>
-  <div class="grid-wrapper">
-    <div class="grid-wrapper__portfolioParent">
-      <article class="grid-wrapper__portfolioParent--portfolio-item">
-        <h1>{{ .Title }}</h1>
-        {{ if .Site.IsServer }}
-        <time>{{ .Date.Format "01.02.2006 15:04" }}</time>
-        {{ end }}
-        <div class="site-single__content portfolio__content">
+  {{ if $newLayout }}
+  <article class="{{ $atWrapper }}">
+    {{ else }}
+  <article class="{{ $imgWrapper }}">
+  {{ end }}
+    
+     <h1>{{ .Title }}</h1>
+     {{ if .Site.IsServer }}
+     <time>{{ .Date.Format "01.02.2006 15:04" }}</time>
+    {{ end }}
+     <div class="{{ if ( $newLayout ) }}{{ $atWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioParent">
+        <div  class="portfolio__content">
           {{ .Content }}
         </div>
-      </article>
-
-      <aside class="grid-wrapper__portfolioParent--involvement">
-        {{ if and ( $url ) ( ne $url "" )}}
-        <h3>Site</h3>
-        <ul>
-          <li><a href="{{ $url }}">{{ $url }}</a></li>
-        </ul>
-        {{ end }}
-        {{ if and ( $role ) ( ne $role "" ) }}
-        <h3>Involvement</h3>
-        <ul>
-          {{ range $role }}
-          <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-        {{ end }}
-        {{ if and ( $clients ) ( ne $clients "" ) }}
-        <h3>Client:</h3>
-        <ul>
-          {{ range $clients }}
-          <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-        {{ end }}
-        {{ if and ( $date ) ( ne $date "" ) }}
-        <h3>Date:</h3>
-        <p>{{ $date }}</p>
-        {{ end }}
-        {{ if and ( $credits ) ( ne $credits "" ) }}
-        <h3>Collaborators:</h3>
-        <ul>
-          {{ range $credits }}
-          <li>
-            {{ . }}
-          </li>
-          {{ end }}
-        </ul>
-        {{ end }}
-        {{ if .Site.IsServer }}
-        {{ if and ( $tags ) ( ne $tags "" ) }}
-        <h3>Filed under:</h3>
-        <ul id="tags" class="site-tags">
-          {{ range $tags }}
-          <li class="site-tags__tag">
-            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-          </li>
-          {{ end }}
-        </ul>
-        {{ end }}
-        {{ end }}
-      </aside>
-    </div>
-  </div>
+      </div>
+       {{ partial "portfolio_involvement.html" . }}
+  </article>
 </main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}

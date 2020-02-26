@@ -7,13 +7,19 @@
 // Functions aqui
 //
 
+//
+// import using @use the grids
+//
+
+@import 'functions/portfolio_grids';
+
 // Very Basic Text Shadow Mixin:
 @mixin basic-drop-shadow($type: text) {
   @if $type == text {
     text-shadow: 2px 2px 2px $site-black;
   } @else if $type == box {
     box-shadow: 2px 2px 2px $site-black;
-  } @else if $type == svg  {
+  } @else if $type == svg {
     filter: drop-shadow(1px 1px 1px $site-black);
   }
 }
@@ -73,22 +79,15 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+// $mw = max width
+// $pl = padding left
+// $pr = padding right
 @mixin basic-article-wrapper($breakpoint, $mw, $pl: #{initial}, $pr: #{initial}) {
   @include media(#{$breakpoint}) {
     max-width: $mw;
     padding-left: $pl;
     padding-right: $pr;
   }
-}
-
-//
-// Make grids easier to utilize
-// ex: @include add-to-grid() {}
-//
-@mixin add-to-grid($breakpoint: '', $col-start: '', $col-end: '', $row-start: '', $row-end: '') {
-  grid-template-columns: $col-start / $col-end;
-  grid-template-rows: $row-start / $row-end;
-  @content;
 }
 
 // In some cases we might want to vary the kind of focus ring we apply,
@@ -125,7 +124,7 @@
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
@@ -158,28 +157,26 @@
   animation-fill-mode: $fill-mode;
 }
 
-@mixin svg-overlay($clipPath: null) {
-  .portfolioCard {
-    animation-duration: 250ms;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    clip-path: url(#{$clipPath});
-    opacity: 0.5;
-    pointer-events: all;
-  }
-  .portfolioCardOff {
-    animation-duration: 250ms;
-    animation-timing-function: ease-out;
-    animation-delay: 0;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    clip-path: none;
-    animation-iteration-count: 1;
-    pointer-events: all;
-  }
-}
+// @mixin svg-overlay($clipPath: null) {
+//   .portfolioCard {
+//     animation-duration: 250ms;
+//     animation-iteration-count: 1;
+//     animation-timing-function: ease-in;
+//     animation-delay: 0s;
+//     animation-direction: normal;
+//     animation-fill-mode: forwards;
+//     clip-path: url(#{$clipPath});
+//     opacity: 0.5;
+//     pointer-events: all;
+//   }
+//   .portfolioCardOff {
+//     animation-duration: 250ms;
+//     animation-timing-function: ease-out;
+//     animation-delay: 0s;
+//     animation-iteration-count: 1;
+//     animation-direction: normal;
+//     animation-fill-mode: forwards;
+//     clip-path: none;
+//     pointer-events: all;
+//   }
+// }

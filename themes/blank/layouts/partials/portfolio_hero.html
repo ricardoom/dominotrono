@@ -1,35 +1,51 @@
-<!-- prettier-ignore-start -->
+
+{{ printf "<!-- portfolio hero template  -->" | safeHTML }}
+{{ $date := .Date.Format "02012006" }}
 {{ $svg := .Params.svgClipObjectClass }}
 {{ $color :=  .Params.svgColorClass }}
 {{ $portfolioHero := .Params.portfolioHero1x }}
-{{ $portfolioHeroSqip := .Params.portfolioHeroSqip }}
-{{ $date := .Date.Format "02012006" }}
+{{ $2x := .Params.portfolioHero2x }}
 {{ $3x := .Params.portfolioHero3x }}
+{{ $portfolioHeroSqip := .Params.portfolioHeroSqip }}
+{{ $alt := .Params.portfolioHeroAlt }}
+{{ $tags := .Params.tags }}
+{{ $projectDescription := .Params.projectDesc }}
+
+
 <li class="portfolio-list-item" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
     <div class="portfolio-list-item__content">
-      <h1>{{ .Title }}</h1>
-      {{ if $svg }}
-      <div class="portfolio-list-item__content--deck">
-        {{ ( partial ( printf "svg/%s.svg" ( $svg | default "soloDotAngle" )) . ) }}
-      </div>
-      {{ end }}
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
-      <figure class="portfolio-list-item__content--hero">
-        <img class="portfolioHero__image lazy" data-srcset="{{ .Params.portfolioHero1x }},
-                     {{ .Params.portfolioHero2x }} 2x
+      <figure class="portfolio-list-item__content--hero {{ $color }}">
+        <img class="portfolioHero__image lazy" 
+             data-srcset="{{ .Params.portfolioHero1x }},
+                     {{ $2x }} 2x
                      {{ if and ( $3x ) (ne $3x "" ) }}
-                      ,{{ $3x }} 3x 
+                      ,{{ $3x }} 3x
                      {{ end }}" sizes="(max-width: 20em) 100vw,
                     (max-width: 50em) 75vw,
-                    (max-width: 60em) 65vw" src="{{ $portfolioHeroSqip }}" data-src="{{ .Params.portfolioHero1x }}"
-          alt="{{ .Params.portfolioHeroAlt }}" />
+                    (max-width: 60em) 65vw" src="{{ $portfolioHeroSqip }}" data-src="{{ $portfolioHero }}"
+             alt="{{ $alt }}" />
         {{ if and ( .Params.heroFigcaption ) ( ne .Params.heroFigcaption "" ) }}
         <figcaption>{{ .Params.heroFigcaption }}</figcaption>
         {{ end }}
       </figure>
       {{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ if $svg }}
+      <div class="portfolio-list-item__content--deck" aria-hidden="true">
+        {{ ( partial ( printf "svg/%s.svg" ( $svg | default "soloDotAngle" )) . ) }}
+      </div>
+      {{ end }}
+      {{ if and ( $projectDescription ) ( ne $projectDescription "" ) }}
+        <p class="portfolio-list-item__content--description">{{ $projectDescription }}</p>
+      {{ end }}
+
+      {{ if and ( $tags ) ( ne $tags "" ) }}
+      <ul class="portfolio-list-item__content--static-tags">
+        <li class="site-tags__tags">{{ delimit $tags ", "}}</li>
+      </ul>
+      {{ end }}
     </div>
   </a>
 </li>
-<!-- prettier-ignore-end -->

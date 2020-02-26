@@ -40,10 +40,7 @@ $base-letter-spacing: 0.01;
 /// descender fixing
 ///
 
-@mixin descender(
-  //$color: $site-white,
-    $descender-bg: ''
-) {
+@mixin descender($descender-bg: '') {
   background-image: linear-gradient(currentColor, currentColor);
   background-repeat: no-repeat;
   background-size: 100% 0.0625em;
@@ -128,27 +125,32 @@ code {
   padding: 0.15em;
 }
 
-article {
-  // We want to control overall line length, so we set the width of the container here:
-  @include media('>phone') {
-    max-width: 90vw;
-  }
+// article {
+//   // We want to control overall line length, so we set the width of the container here:
+//   @include media('>phone') {
+//     max-width: 90vw;
+//   }
 
-  @include media('>tablet') {
-    max-width: 75vw;
-  }
+//   @include media('>tablet') {
+//     max-width: 75vw;
+//   }
 
-  @include media('>desktop') {
-    max-width: 65vw;
-  }
-  //overflow: auto;
-}
+//   @include media('>desktop') {
+//     max-width: 65vw;
+//   }
+//   //overflow: auto;
+// }
 
 .siteAuthor {
   font-size: 1.3rem;
 }
 
-.site-single {
+//
+// Type rules for single and portfolio pages:
+// TODO: determine if site-single is used / useful anymore and then do something about it
+//
+.site-single,
+.portfolio {
   &__content {
     h2,
     h3 {
@@ -163,8 +165,14 @@ article {
       font-size: 1.75rem;
     }
 
+    // set the max width for <p> elements to a reasonable / standard amount of characters
     p {
-      max-width: 60ch;
+      @include media('>=tablet') {
+        max-width: initial;
+      }
+      @include media('>=tablet') {
+        max-width: 52ch;
+      }
     }
 
     p,
@@ -194,9 +202,33 @@ article {
     strong {
       font-weight: 500;
     }
-  }
-}
+
+    figcaption {
+      font-family: $frank-new;
+    }
+  } // /&__content
+} // /.portfolio
 
 .sidebar-prime {
   font-size: 1.6rem;
+}
+
+//
+// TODO: Refactor this later!
+//
+.fonts-loaded {
+  .site-single,
+  .portfolio {
+    &__content {
+      p {
+        font-family: $frank-new;
+      }
+    }
+  }
+
+  .article-grid-wrapper {
+    &__portfolioInvolvement {
+      font-family: $frank-new;
+    }
+  }
 }

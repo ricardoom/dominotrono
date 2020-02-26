@@ -2,6 +2,11 @@
 /// Grid Settings Y Styles
 ///
 
+//
+// TODO: this entire partial needs cleaning up...
+// * look at utilizing the new grid mixin
+// * look to using [named] grid definitions instead of numbered... just might be easier to use
+
 ///
 /// Header
 ///
@@ -65,15 +70,15 @@ $mobile-second-row: 15vh;
       }
 
       @include media('>=tablet') {
-        grid-column: 2 / 4;
-        padding-left: 0;
+        grid-column: 1 / 4;
+        padding-left: 1.5vw;
         //padding: 0.5em 0 3vw 0.65em;
       }
     }
   }
 
   //
-  // Do some adjusting of the site nav
+  // Sets up the grid and layout ONLY for the nav...
   //
   &__siteNavigation {
     @include media('>=phone') {
@@ -82,7 +87,7 @@ $mobile-second-row: 15vh;
 
     @include media('>=tablet') {
       display: grid;
-      padding-right: 4em;
+      padding: 0.75vw 0;
     }
 
     &--items {
@@ -109,6 +114,7 @@ $mobile-second-row: 15vh;
 //
 
 // Only for the home page,
+// TODO make a grid directory and move all grids into their own sub partials...
 // TODO, this could be done a bit more elegant:
 .home-page {
   .grid-wrapper {
@@ -116,7 +122,7 @@ $mobile-second-row: 15vh;
       padding: 0;
     }
 
-    grid-template-rows: [nameBox] minmax(10.5em, 15vh) auto;
+    grid-template-rows: [nameBox] minmax(15.5em, 15vh) auto;
   }
 }
 
@@ -139,30 +145,39 @@ $mobile-second-row: 15vh;
 
   display: grid;
 
-  // > div {
-  //   border: 1px solid hsla(327, 94%, 48%, 0.1);
-  // }
-
+  //
+  // Containing our fancy svg graphic on the home page
+  //
   .prime-box {
     @include media('>=phone') {
       grid-column: 1 / 1;
       grid-row: 1 /1;
 
-      svg {
-        height: auto;
-        padding: 1em;
-        width: 100%;
-      }
+      // svg {
+      //   opacity: 0.45;
+      // }
     }
 
     @include media('>=tablet') {
-      grid-column: 1 / 3;
+      grid-column: 1 / 5;
       grid-row: 1 / 1;
-      padding: 3vw 4vw 3vw 6vw;
     }
 
     @include media('>=desktop') {
       grid-row: nameBox;
+    }
+
+    svg {
+      filter: opacity(0.4);
+      // position: fixed;
+      z-index: -1;
+      // fill: $site-white;
+      // filter {
+      //   flood-color: $site-white;
+      // }
+      // height: auto;
+      // padding: 1em;
+      // width: 100%;
     }
   } // prime box
 
@@ -232,54 +247,17 @@ $mobile-second-row: 15vh;
       grid-row: 11 / 12;
     }
   } // / phone breakpoint
+
+  h1 {
+    @include add-to-grid('>=phone', 2, 5, 1, 2);
+    @include add-to-grid('>=tablet', 2, 5, 1, 2);
+    // padding: 0 0 0 2.25vw;
+  }
 }
 
 .portfolio-flex,
 .portfolio-grid {
-  /// Portfolio Grid Summary
-  /// as found in hp-portfolio.html
-  /// TODO: Move these rules to own Partial
-
-  // &__summary {
-  //   &__content {
-  //     // Placeholder / Development Classes...
-  //     // TODO: Remove these classes
-  //     border: dotted 2px $site-punk-pink;
-  //     /// In some cases we have an overlay here
-  //     a:hover {
-  //       border: 0;
-  //     }
-
-  //     // figure {
-  //     //   // margin: 0;
-
-  //     //   // img {
-  //     //   //   border-radius: 0;
-  //     //   //   height: 100%;
-  //     //   //   width: 100%;
-  //     //   // }
-  //     //   /// In some cases we overlay SVG Clipping here.
-
-  //     //   // TODO: Add a function or mixin to make this shorter
-
-  //     //   // .fourDots {
-  //     //   //   clip-path: url(#four_dots);
-  //     //   // }
-
-  //     //   // .leftDots {
-  //     //   //   clip-path: url(#left_dots);
-  //     //   // }
-
-  //     //   // .oneCircle {
-  //     //   //   clip-path: url(#one_circle);
-  //     //   // }
-
-  //     //   // .rightStepr {
-  //     //   //   clip-path: url(#right_stepr);
-  //     //   // }
-  //     // } // /figure
-  //   } // /content
-  // }
+  // TODO: rename the above class to something more meaningful and specific to the home page portfolio...
 
   // The Big R at the top of the home page
   svg {

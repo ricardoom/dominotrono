@@ -1,10 +1,6 @@
-<!-- The following variables are for site functionality only. One off scripts for individual experiments should be loaded on and by the experiment page not here...
-That is, if its a Paperscript experiment, that page's necessary framework script is already loaded by a front matter parameter.
--->
-{{ $basic := resources.Get "js/basic.js" }}
+
 {{ $mobileNav := resources.Get "js/mobileNav.js" }}
 {{ $observer := resources.Get "js/observer.js" }}
-{{ $time := resources.Get "js/time.js" }}
 {{ $socialSprites := resources.Get "js/sprites.js" }}
 
 <footer class="site-footer">
@@ -12,10 +8,10 @@ That is, if its a Paperscript experiment, that page's necessary framework script
   </p>
 </footer>
 {{ if .Site.IsServer }}
-{{ $script := slice $basic $mobileNav $observer $time $socialSprites | resources.Concat "/js/main.js" }}
+{{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" }}
 <script src="{{ $script.Permalink }}"></script>
 {{ else }}
-{{ $script := slice $basic $mobileNav $observer $time $socialSprites | resources.Concat "/js/main.js" | fingerprint }}
+{{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" | fingerprint }}
 <script src="{{ $script.Permalink }}"></script>
 
 {{ end }}

@@ -5,8 +5,6 @@
 
 time {
   @include media('>=phone') {
-    // transform: rotate(-90deg);
-    // transform-origin: top right;
     font-size: 1.3rem;
     min-width: 5em;
     position: relative;
@@ -20,37 +18,13 @@ time {
 }
 
 .grid-wrapper {
-
   &__listParent {
-
     &--site-article {
       @include basic-article-wrapper('>=phone', 95vw, 5vw);
       @include basic-article-wrapper('>=tablet', 100vw, 0, 6.5vw);
       @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
     }
   }
-}
-
-//
-// Covers the generic article type, but there are content type specific styles below
-//
-.site-single {
-  
-  &__content {
-   
-    &--shortcode-canvas {
-      border-left: 0.8rem solid $site-punk-pink;
-    }
-
-    //
-    // These are the image rules for an article or portfolio screen:
-    //  The images are provided via a custom {{ image }} shortcode, see the shortcode image.html
-
-    h3 {
-      font-size: 2rem;
-      margin: 1.5ex 0;
-    }
-  } //
 }
 
 [data-vendor],

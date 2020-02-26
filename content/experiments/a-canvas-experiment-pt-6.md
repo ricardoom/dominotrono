@@ -10,7 +10,7 @@ vendorJS: 'paperJS'
 
 This post is serves up our example screen w/ placeholder images set to the right resolution for the right screen
 content/media/desktopPlaceHolderTemplate.png
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
     srcsetOne="/media/desktopPlaceHolderTemplate1280@3x.png 1280w" srcsetTwo="/media/desktopPlaceHolderTemplate960@2x.png 960w"
@@ -19,9 +19,9 @@ content/media/desktopPlaceHolderTemplate.png
     alt="This is the first image, its a placeholder... which we havent got yet..."
     figcaption="The Main image..." title="My title: Dynamic or User set?" >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}
 
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       srcsetOne="/media/desktopPlaceHolderTemplate960@2x.png 960w" srcsetTwo="/media/desktopPlaceHolderTemplate640.png 640w" srcsetThree="/media/desktopPlaceHolderTemplate360.png 360w" src="/media/desktopPlaceHolderTemplate360.png"
@@ -37,8 +37,8 @@ content/media/desktopPlaceHolderTemplate.png
       figcaption="This Image second image in this row and is user the supplied caption yeah..."
     >}}
 
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< /section_wrapper >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       srcsetOne="/media/desktopPlaceHolderTemplate640.png 640w"
@@ -70,8 +70,8 @@ content/media/desktopPlaceHolderTemplate.png
       figcaption="This might well be the third image in this row and is user the supplied caption yeah..."
     >}}
 
-{{< /image_wrapper >}}
-{{< image_wrapper class="portfolio-image-wrapper" >}}
+{{< /section_wrapper >}}
+{{< section_wrapper class="portfolio-image-wrapper" >}}
 
     {{< image
       srcsetOne="/media/desktopPlaceHolderTemplate360.png 360w"
@@ -114,4 +114,4 @@ content/media/desktopPlaceHolderTemplate.png
       figure="The place is held for the image"
       >}}
 
-{{< /image_wrapper >}}
+{{< /section_wrapper >}}

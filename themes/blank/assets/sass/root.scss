@@ -23,28 +23,27 @@
 @import 'partials/portfolio_list';
 @import 'partials/portfolio_item';
 @import 'partials/hp_portfolio';
+@import 'partials/hp_portfolio_2';
 @import 'partials/skill_block';
+@import 'partials/footer';
 
-//
 // rules
 //
-
 /// Box Sizing
 /// TODO: Make sure this box-sizing rule is in fact the one we want
 ///
+
 * {
   box-sizing: border-box;
 }
 
 html {
   background-color: $site-background-color;
-  // background-image: url(../images/uteMountainTopo.svg);
   background-repeat: no-repeat;
-  // Retina-specific stuff here
-  // TODO: Create a Mixin to handle any device pixel ratio
-  // @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  //   background-image: url(../images/uteMountainTopo.svg);
-  // }
+  background: rgba(9, 84, 104, 1);
+  background: -webkit-linear-gradient(bottom right, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
+  background: -moz-linear-gradient(bottom right, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
+  background: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
   background-attachment: fixed;
   background-origin: 0 0;
   background-position: 0 0;
@@ -55,14 +54,6 @@ html {
 }
 
 body {
-  @include media('<=desktop') {
-    padding: 0;
-  }
-
-  @include media('>mega') {
-    padding: 0 10vw;
-  }
-
   font-size: 1.6rem;
   margin: 0;
 }
@@ -152,20 +143,4 @@ li {
 .site-pagination {
   background-color: lighten($site-background-color, 25%);
   padding: 2ex 2em;
-}
-
-//
-// Footer
-// to its own partial
-//
-
-.site-footer {
-  background: $site-black;
-  height: 15vh;
-  padding-top: 1ex;
-
-  &__siteCredit {
-    font-size: $base-font-small;
-    margin: 0;
-  }
 }

@@ -381,7 +381,7 @@ template {
     transform: translateY(-50px); }
   100% {
     opacity: 1;
-    transform: translateY(0px); } }
+    transform: translateY(0); } }
 
 @keyframes slideDownLarge {
   0% {
@@ -442,9 +442,9 @@ template {
     box-shadow: 10px 10px 0 #cc0033; }
 
 .site-color--brown {
-  background: #2e1605; }
+  background: #10eabb; }
   .site-color--brown figcaption {
-    box-shadow: 10px 10px 0 #2e1605; }
+    box-shadow: 10px 10px 0 #10eabb; }
 
 .site-color--yellow {
   background: #ffe666; }
@@ -558,18 +558,6 @@ code {
   font-size: 1.65rem;
   padding: 0.15em; }
 
-@media (min-width: 19.26em) {
-  article {
-    max-width: 90vw; } }
-
-@media (min-width: 48.01em) {
-  article {
-    max-width: 75vw; } }
-
-@media (min-width: 64.01em) {
-  article {
-    max-width: 65vw; } }
-
 .siteAuthor {
   font-size: 1.3rem; }
 
@@ -595,7 +583,7 @@ code {
 @media (min-width: 48em) {
   .site-single__content p,
   .portfolio__content p {
-    max-width: 60ch; } }
+    max-width: 52ch; } }
 
 .site-single__content p,
 .site-single__content ul,
@@ -633,6 +621,9 @@ code {
 
 .fonts-loaded .site-single__content p,
 .fonts-loaded .portfolio__content p {
+  font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+.fonts-loaded .article-grid-wrapper__portfolioInvolvement {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 @media (min-width: 19.25em) {
@@ -722,16 +713,14 @@ code {
       grid-row: 1 /1; } }
   @media (min-width: 48em) {
     .grid-wrapper .prime-box {
-      grid-column: 1 / 3;
-      grid-row: 1 / 1;
-      padding: 3vw 4vw 3vw 6vw; } }
+      grid-column: 1 / 5;
+      grid-row: 1 / 1; } }
   @media (min-width: 64em) {
     .grid-wrapper .prime-box {
       grid-row: nameBox; } }
   .grid-wrapper .prime-box svg {
-    height: auto;
-    padding: 1em;
-    width: 100%; }
+    filter: opacity(0.4);
+    z-index: -1; }
   @media (min-width: 19.25em) {
     .grid-wrapper .subtitle-grid-container {
       grid-column: 1 / 1;
@@ -770,6 +759,14 @@ code {
       background-color: #06182d;
       grid-column: 1 / 1;
       grid-row: 11 / 12; } }
+  @media (min-width: 19.25em) {
+    .grid-wrapper h1 {
+      grid-column: 2 / 5;
+      grid-row: 1 / 2; } }
+  @media (min-width: 48em) {
+    .grid-wrapper h1 {
+      grid-column: 2 / 5;
+      grid-row: 1 / 2; } }
 
 .portfolio-flex svg,
 .portfolio-grid svg {
@@ -979,15 +976,6 @@ code {
     padding-left: 0;
     padding-right: 0; } }
 
-.site-single__content--shortcode-canvas,
-.portfolio__content--shortcode-canvas {
-  border-left: 0.8rem solid #f542ad; }
-
-.site-single__content h3,
-.portfolio__content h3 {
-  font-size: 2rem;
-  margin: 1.5ex 0; }
-
 [data-vendor],
 [data-date] {
   font-size: 0.5em;
@@ -1063,6 +1051,8 @@ code {
           .sidebar-prime__sidebarList > li .post-grid .drop-cap > a:visited {
             background: #0b2d53;
             color: currentColor; }
+          .sidebar-prime__sidebarList > li .post-grid .drop-cap > a:hover {
+            color: white; }
         .sidebar-prime__sidebarList > li .post-grid .full-title {
           font-size: 12px;
           font-size: 1.25vw; }
@@ -1072,6 +1062,9 @@ code {
           @media (min-width: 80em) {
             .sidebar-prime__sidebarList > li .post-grid .full-title {
               font-size: 1em; } }
+    .sidebar-prime__sidebarList > li:hover {
+      background: #f75b26;
+      background: linear-gradient(to bottom right, #f75b26, #f542ad); }
 
 .site-content button {
   background: transparent;
@@ -1202,6 +1195,7 @@ code {
     width: 12.5rem; }
 
 .canvas__myCanvas {
+  filter: opacity(0.5);
   height: 100vh;
   left: 0;
   position: absolute;
@@ -1226,10 +1220,6 @@ code {
 
 .site-summary__copy {
   line-height: 1.6; }
-
-.site-summary__content__copy {
-  flex-basis: 65%;
-  padding-right: 3ex; }
 
 .site-summary__content figure {
   margin: 0;
@@ -1496,7 +1486,7 @@ figure {
 
 .article-grid-wrapper {
   display: grid;
-  grid-template-columns: 2.5vw 70vw 15vw 10vw 2.5vw;
+  grid-template-columns: 2.5vw 69vw 14.95vw 10vw 2.5vw;
   grid-template-rows: auto;
   row-gap: 2ex; }
   .article-grid-wrapper h1,
@@ -1506,6 +1496,18 @@ figure {
   .article-grid-wrapper__portfolioParent {
     grid-column: 1 / 6;
     grid-row: 2 / 4; }
+    .article-grid-wrapper__portfolioParent h3 {
+      font-size: 32px;
+      font-size: 1.5vw;
+      margin: 4ex 0 0 2.5vw; }
+      .article-grid-wrapper__portfolioParent h3:first-child {
+        margin-bottom: 2ex; }
+      @media (max-width: 106.66666667em) {
+        .article-grid-wrapper__portfolioParent h3 {
+          font-size: 1.6em; } }
+      @media (min-width: 1466.66666667px) {
+        .article-grid-wrapper__portfolioParent h3 {
+          font-size: 22px; } }
     .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid,
     .article-grid-wrapper__portfolioParent .portfolio__content .details-grid {
       display: grid; }
@@ -1517,99 +1519,193 @@ figure {
       .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid {
         grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
         grid-template-rows: minmax(475px, auto) minmax(150px, auto); } }
-    .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .image-block__100-words {
+    .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__imageBlock {
       overflow: hidden; }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .image-block__100-words {
+        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__imageBlock {
           grid-column: 1 / 6;
-          grid-row: 1 / 2; }
-          .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .image-block__100-words img {
-            left: -5rem;
-            position: relative;
-            top: 0;
-            width: 180%; } }
+          grid-row: 1 / 2; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__imageBlock img {
+        left: -5rem;
+        position: relative;
+        top: 0;
+        width: 180%; }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .image-block__100-words {
-          grid-row: 1 / 3; }
-          .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .image-block__100-words img {
-            left: 0;
-            width: 100%; } }
-    .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .copy-block__100-words {
-      font-size: 32px;
-      font-size: 1.5vw;
+        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__imageBlock {
+          grid-column: 1 / 6;
+          grid-row: 1 / 3; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__imageBlock img {
+        left: 0;
+        width: 100%; }
+    .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__copyBlock {
+      font-size: 20px;
+      font-size: 1.8vw;
       background-color: rgba(6, 24, 45, 0.9);
       margin: 0;
-      padding: 3ex; }
+      padding: 3ex;
+      z-index: 1; }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .copy-block__100-words {
+        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__copyBlock {
           grid-column: 1 / 6;
           grid-row: 2 / 3; } }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .copy-block__100-words {
+        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__copyBlock {
           grid-column: 2 / 6;
-          z-index: 1; } }
-      @media (max-width: 66.66666667em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .copy-block__100-words {
-          font-size: 1em; } }
-      @media (min-width: 1466.66666667px) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid .copy-block__100-words {
-          font-size: 22px; } }
+          grid-row: 2 / 3; } }
+      @media (max-width: 1000px) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__copyBlock {
+          font-size: 18px; } }
+      @media (min-width: 1777.77777778px) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__copyBlock {
+          font-size: 32px; } }
     .article-grid-wrapper__portfolioParent .portfolio__content .details-grid {
-      margin-top: 2ex;
-      gap: 1ex;
-      grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-      grid-template-rows: minmax(130px, auto) auto; }
-      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__50-words.primary-image {
-        grid-column: 2 / 5;
-        grid-row: 1 / 3; }
-      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__50-words.secondary-image {
-        grid-column: 2 / 3;
-        grid-row: 3 / 5; }
-      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__20-words > figcaption {
+      margin-top: 2ex; }
+      @media (min-width: 19.25em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid {
+          grid-template-columns: 2.5vw 1fr 6.5vw 1fr 2.5vw;
+          grid-template-rows: minmax(130px, auto) auto; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid > p {
+        margin: 5ex 0 8ex; }
+      @media (min-width: 19.25em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__left, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.copy-block__left {
+          grid-column: 2 / 5;
+          grid-row: auto / auto; } }
+      @media (min-width: 48em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__left, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.copy-block__left {
+          grid-column: 2 / 3;
+          grid-row: auto / auto; } }
+      @media (min-width: 19.25em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__right, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.copy-block__right {
+          grid-column: 2 / 5;
+          grid-row: auto / auto; } }
+      @media (min-width: 48em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__right, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.copy-block__right {
+          grid-column: 4 / 5;
+          grid-row: auto / auto; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__left > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__right > figcaption {
         font-style: italic;
         padding: 2ex; }
         @media (min-width: 19.25em) {
-          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__20-words > figcaption {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__left > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__right > figcaption {
             background-color: rgba(6, 24, 45, 0.8);
             top: -1.5em;
             right: -3em;
             position: relative;
             width: 90%; } }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__20-words.left {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__left {
           grid-column: 2 / 5;
           grid-row: 3 / 4; } }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__20-words.left {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__left {
           grid-column: 2 / 3;
           grid-row: 2 / 4; } }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__20-words.right {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__right {
           grid-column: 2 / 5;
           grid-row: 5 / 6; } }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .image-block__20-words.right {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.image-block__right {
           grid-column: 4 / 5;
           grid-row: 1 / 3; } }
-      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__50-words {
-        grid-column: 4 / 5;
-        grid-row: 3 / 5; }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__left {
+        padding: 0 0 3ex 3ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__left {
+            grid-column: 2 / 5;
+            grid-row: 1 / 2; } }
+        @media (min-width: 48em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__left {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__right {
+        margin: 3ex 0 5ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__right {
+            grid-column: 2 / 5;
+            grid-row: 4 / 5; } }
+        @media (min-width: 48em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords.copy-block__right {
+            grid-column: 4 / 5;
+            grid-row: 3 / 4; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords > figcaption {
+        font-style: italic;
+        padding: 2ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords > figcaption {
+            background-color: rgba(6, 24, 45, 0.8);
+            top: -1.5em;
+            right: -3em;
+            position: relative;
+            width: 90%; } }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__20-words.left {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.big-image {
           grid-column: 2 / 5;
-          grid-row: 1 / 2; } }
+          grid-row: 1 / 3; } }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__20-words.left {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.big-image {
+          grid-column: 2 / 5;
+          grid-row: 1 / 3; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.big-image > figcaption {
+        font-style: italic;
+        padding: 2ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.big-image > figcaption {
+            background-color: rgba(6, 24, 45, 0.8);
+            top: -1.5em;
+            right: -3em;
+            position: relative;
+            width: 90%; } }
+      @media (min-width: 19.25em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left {
+          grid-column: 2 / 5;
+          grid-row: auto / auto; } }
+      @media (min-width: 48em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left {
           grid-column: 2 / 3;
-          grid-row: 1 / 2; } }
+          grid-row: auto / auto; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left > figcaption {
+        font-style: italic;
+        padding: 2ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left > figcaption {
+            background-color: rgba(6, 24, 45, 0.8);
+            top: -1.5em;
+            right: -3em;
+            position: relative;
+            width: 90%; } }
       @media (min-width: 19.25em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__20-words.right {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right {
           grid-column: 2 / 5;
-          grid-row: 4 / 5; } }
+          grid-row: auto / auto; } }
       @media (min-width: 48em) {
-        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid .copy-block__20-words.right {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right {
           grid-column: 4 / 5;
-          grid-row: 3 / 4; } }
+          grid-row: auto / auto; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right > figcaption {
+        font-style: italic;
+        padding: 2ex; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right > figcaption {
+            background-color: rgba(6, 24, 45, 0.8);
+            top: -1.5em;
+            right: -3em;
+            position: relative;
+            width: 90%; } }
+      @media (min-width: 19.25em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.copy-block {
+          grid-column: 2 / 5;
+          grid-row: auto / auto; } }
+      @media (min-width: 48em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.copy-block {
+          grid-column: 4 / 5;
+          grid-row: auto / auto; } }
+      .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__sectionHeading {
+        background-color: #f16755; }
+        @media (min-width: 19.25em) {
+          .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__sectionHeading {
+            grid-column: 2 / 6;
+            grid-row: auto / auto; } }
   .article-grid-wrapper__portfolioInvolvement {
     background-color: rgba(6, 24, 45, 0.9); }
     @media (min-width: 19.25em) {
@@ -1623,7 +1719,7 @@ figure {
         grid-column: 3 / 5;
         grid-row: 2 / 3;
         margin: -4ex 0 0 0;
-        padding: 2.5ex 5.5ex 10ex;
+        padding: 2.5ex 3.5ex 5ex;
         width: initial;
         z-index: 1; } }
 
@@ -1643,7 +1739,6 @@ figure {
     grid: auto/repeat(5, 1fr); } }
 
 .portfolio-container a {
-  border-bottom: 2px solid white;
   text-decoration: none; }
 
 .portfolio-container h3 {
@@ -1722,7 +1817,6 @@ figure {
       bottom: 3vh;
       font-family: "justus-pro", "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
       background-color: #06182d;
-      padding: 1vw 2ex;
       position: absolute;
       right: 2vw;
       text-align: right;
@@ -1739,258 +1833,16 @@ figure {
       @media (min-width: 48em) {
         .portfolio-container .portfolio-flex__content figure figcaption {
           padding: 1vw 1ex; } }
-    .portfolio-container .portfolio-flex__content figure.fourDots .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#four_dots);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.fourDots .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.twoSquares .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#two_squares);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.twoSquares .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.overDots .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#over_dots);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.overDots .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.oneDiagonal .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#one_diagonal);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.oneDiagonal .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.oneDiagonal-45 .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#one_diagonal);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.oneDiagonal-45 .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.boxDiagonals .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#box_diagonals);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.boxDiagonals .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.variableDots .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#variable_dots);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.variableDots .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.diagonalDot .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#diagonal_dot);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.diagonalDot .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.oneCircle .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#quarter_circle);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.oneCircle .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.squaresCircles .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#squares_circles);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.squaresCircles .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.bigCircle .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#big_circle);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.bigCircle .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.bigPill .portfolioCard {
-      animation-duration: 250ms;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: url(#big_pill);
-      opacity: 0.5;
-      pointer-events: all; }
-    .portfolio-container .portfolio-flex__content figure.bigPill .portfolioCardOff {
-      animation-duration: 250ms;
-      animation-timing-function: ease-out;
-      animation-delay: 0s;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: forwards;
-      clip-path: none;
-      animation-iteration-count: 1;
-      pointer-events: all; }
+
+.portfolio-grid__newLayout {
+  background-color: rgba(245, 66, 173, 0.2);
+  display: grid; }
+  .portfolio-grid__newLayout > .item {
+    width: 25%; }
+  .portfolio-grid__newLayout > .item-link > .item-title {
+    color: red; }
+  .portfolio-grid__newLayout > .item-link > .item-figure {
+    border-left: 100px red dotted; }
 
 .biography-skills {
   font-size: 48px;
@@ -2094,12 +1946,6 @@ html {
 body {
   font-size: 1.6rem;
   margin: 0; }
-  @media (max-width: 64em) {
-    body {
-      padding: 0; } }
-  @media (min-width: 99.01em) {
-    body {
-      padding: 0 10vw; } }
 
 header,
 main,

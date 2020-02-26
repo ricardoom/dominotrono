@@ -2,27 +2,25 @@
 /// type family
 ///
 
-$sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
 
-$serif: "Liberation Serif", Times, Cambria, Utopia, "Hoefler Text",
-  "Nimbus Roman No9 L Regular", "Times New Roman", serif;
+$serif: 'Liberation Serif', Times, Cambria, Utopia, 'Hoefler Text', 'Nimbus Roman No9 L Regular', 'Times New Roman',
+  serif;
 
-$monospace: "SFMono-Regular", Consolas, "Andale Mono WT", "Andale Mono",
-  "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
-  "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
-  "Courier New", Courier, monospace;
-
-$slab-serif: "Rockwell", "Rockwell Extra Bold", "Courier New", Monoco, Courier,
+$monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter',
+  'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
   monospace;
+
+$slab-serif: 'Rockwell', 'Rockwell Extra Bold', 'Courier New', Monoco, Courier, monospace;
 
 ///
 /// from Adobe Typekit
 /// see FontFace Observer
 ///
 
-$frank-new: "frank-new", $sans-serif;
-$justus-pro: "justus-pro", $serif;
+$frank-new: 'frank-new', $sans-serif;
+$justus-pro: 'justus-pro', $serif;
 
 ///
 /// type size
@@ -42,7 +40,7 @@ $base-letter-spacing: 0.01;
 /// descender fixing
 ///
 
-@mixin descender($descender-bg: "") {
+@mixin descender($descender-bg: '') {
   background-image: linear-gradient(currentColor, currentColor);
   background-repeat: no-repeat;
   background-size: 100% 0.0625em;
@@ -51,8 +49,8 @@ $base-letter-spacing: 0.01;
   //color: $color;
   padding: 10px 0;
   text-decoration: none;
-  text-shadow: 3px 0 $descender-bg, 2px 0 $descender-bg, 1px 0 $descender-bg,
-    -1px 0 $descender-bg, -2px 0 $descender-bg, -3px 0 $descender-bg;
+  text-shadow: 3px 0 $descender-bg, 2px 0 $descender-bg, 1px 0 $descender-bg, -1px 0 $descender-bg, -2px 0 $descender-bg,
+    -3px 0 $descender-bg;
   transition: color 0.1s ease-out;
 }
 
@@ -127,21 +125,21 @@ code {
   padding: 0.15em;
 }
 
-article {
-  // We want to control overall line length, so we set the width of the container here:
-  @include media(">phone") {
-    max-width: 90vw;
-  }
+// article {
+//   // We want to control overall line length, so we set the width of the container here:
+//   @include media('>phone') {
+//     max-width: 90vw;
+//   }
 
-  @include media(">tablet") {
-    max-width: 75vw;
-  }
+//   @include media('>tablet') {
+//     max-width: 75vw;
+//   }
 
-  @include media(">desktop") {
-    max-width: 65vw;
-  }
-  //overflow: auto;
-}
+//   @include media('>desktop') {
+//     max-width: 65vw;
+//   }
+//   //overflow: auto;
+// }
 
 .siteAuthor {
   font-size: 1.3rem;
@@ -169,13 +167,12 @@ article {
 
     // set the max width for <p> elements to a reasonable / standard amount of characters
     p {
-      @include media(">=tablet") {
+      @include media('>=tablet') {
         max-width: initial;
       }
-      @include media(">=tablet") {
-        max-width: 60ch;
+      @include media('>=tablet') {
+        max-width: 52ch;
       }
-      
     }
 
     p,
@@ -226,6 +223,12 @@ article {
       p {
         font-family: $frank-new;
       }
+    }
+  }
+
+  .article-grid-wrapper {
+    &__portfolioInvolvement {
+      font-family: $frank-new;
     }
   }
 }

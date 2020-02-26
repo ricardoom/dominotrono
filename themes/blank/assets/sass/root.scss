@@ -2,29 +2,30 @@
 // root sass
 //
 
-@import "vendor/normalize";
-@import "partials/functions";
-@import "vendor/include_media";
-@import "vendor/fluid_type";
-@import "partials/custom_breakpoints";
-@import "partials/colors";
-@import "partials/typography";
-@import "partials/grid";
-@import "partials/nav";
-@import "partials/tags_taxo";
-@import "partials/articles";
-@import "partials/sidebar";
-@import "partials/site_content";
-@import "partials/twitter_hash";
-@import "partials/canvas";
-@import "partials/summary";
-@import "partials/header";
-@import "partials/portfolio_images";
-@import "partials/portfolio_list";
-@import "partials/portfolio_item";
-@import "partials/hp_portfolio";
-@import "partials/skill_block";
-@import "partials/footer";
+@import 'vendor/normalize';
+@import 'partials/functions';
+@import 'vendor/include_media';
+@import 'vendor/fluid_type';
+@import 'partials/custom_breakpoints';
+@import 'partials/colors';
+@import 'partials/typography';
+@import 'partials/grid';
+@import 'partials/nav';
+@import 'partials/tags_taxo';
+@import 'partials/articles';
+@import 'partials/sidebar';
+@import 'partials/site_content';
+@import 'partials/twitter_hash';
+@import 'partials/canvas';
+@import 'partials/summary';
+@import 'partials/header';
+@import 'partials/portfolio_images';
+@import 'partials/portfolio_list';
+@import 'partials/portfolio_item';
+@import 'partials/hp_portfolio';
+@import 'partials/hp_portfolio_2';
+@import 'partials/skill_block';
+@import 'partials/footer';
 
 // rules
 //
@@ -39,10 +40,10 @@
 html {
   background-color: $site-background-color;
   background-repeat: no-repeat;
-  background: rgba(9, 84, 104, 1.0);
-  background: -webkit-linear-gradient(bottom right, rgba(9, 84, 104, 1.0), rgba(21, 20, 59, 1.0));
-  background: -moz-linear-gradient(bottom right, rgba(9, 84, 104, 1.0), rgba(21, 20, 59, 1.0));
-  background: linear-gradient(to top left, rgba(9, 84, 104, 1.0), rgba(21, 20, 59, 1.0));
+  background: rgba(9, 84, 104, 1);
+  background: -webkit-linear-gradient(bottom right, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
+  background: -moz-linear-gradient(bottom right, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
+  background: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
   background-attachment: fixed;
   background-origin: 0 0;
   background-position: 0 0;
@@ -53,14 +54,6 @@ html {
 }
 
 body {
-  @include media("<=desktop") {
-    padding: 0;
-  }
-
-  @include media(">mega") {
-    padding: 0 10vw;
-  }
-
   font-size: 1.6rem;
   margin: 0;
 }
@@ -74,18 +67,18 @@ aside {
 
 .fullWidthWrapper {
   > :nth-child(n) {
-    @include media(">=phone") {
+    @include media('>=phone') {
       margin: 0;
       width: 100vw;
     }
 
-    @include media(">=tablet") {
+    @include media('>=tablet') {
       margin: 0 0 0 5vw;
       padding: 0 0 0 15ex;
       width: 75vw;
     }
 
-    @include media(">=desktop") {
+    @include media('>=desktop') {
       margin: 0 0 0 10vw;
       width: 60vw;
     }
@@ -130,7 +123,7 @@ li {
 /// for landing pages w/ rivers of posts:
 
 .single-column {
-  @include media(">=phone") {
+  @include media('>=phone') {
     padding: 0;
   }
   padding: 0 1em;

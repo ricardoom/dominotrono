@@ -1,5 +1,5 @@
 {
-  "name": "domimotrono",
+  "name": "dominotrono",
   "version": "1.0.0",
   "description": "personal website thing",
   "main": "index.html",
@@ -9,9 +9,7 @@
     "type": "git",
     "url": "https://github.com/ricardoom/dominotrono.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "ricardo galvez",
   "license": "MIT"
 }

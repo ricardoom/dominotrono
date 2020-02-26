@@ -1,0 +1,27 @@
+//
+// new layout for the home page
+//
+
+.portfolio-grid {
+  
+ &__newLayout {
+   // everything goes in here:
+  background-color: transparentize($color: $site-punk-pink, $amount: 0.8); 
+  display: grid;
+
+  & > .item {
+    width: 25%;
+  }
+
+   > .item-link {
+
+     > .item-title {
+      color: red;
+    }
+     > .item-figure {
+      border-left: 100px red dotted;
+    }
+
+  }
+ }
+}

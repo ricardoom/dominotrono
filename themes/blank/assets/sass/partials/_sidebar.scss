@@ -1,11 +1,10 @@
 ///
 /// A Sidebar Prime
-///
+/// always found at the bottom of the page
+//
 
 .sidebar-prime {
   background: darken($site-background-color, 0.9);
-  // border: 1px dotted lighten($site-white, 20%);
-  // border-bottom: 0;
   font-family: $frank-new;
   font-style: normal;
   font-weight: 400;
@@ -14,7 +13,7 @@
   &__sidebarTitle {
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
 
-    @include media(">tablet") {
+    @include media('>tablet') {
       margin-left: 1.5vw;
       margin-bottom: 2vh;
     }
@@ -34,15 +33,11 @@
   }
 
   &__sidebarList {
-    // border-top: 1px dotted lighten($site-white, 20%);
-    // border-left: 1px dotted lighten($site-white, 20%);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 5vmax;
 
     > li {
-      // border-bottom: 1px dotted lighten($site-white, 20%);
-      // border-right: 1px dotted lighten($site-white, 20%);
       padding: 1em 0 1em 1em;
 
       &:nth-of-type(4n) {
@@ -77,12 +72,24 @@
               background: $large-bg-color;
               color: currentColor;
             }
+
+            &:hover {
+              color: $site-white;
+            }
           }
         }
 
         .full-title {
           @include responsive-font(1.25vw, 0.65em, 1em, 12px);
         }
+      }
+    }
+
+    > li:hover {
+      background: $site-lava-orange;
+      background: linear-gradient(to bottom right, $site-lava-orange, $site-punk-pink);
+
+      > a:hover {
       }
     }
   }

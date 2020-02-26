@@ -47,18 +47,21 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-    In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography specifications.
-    {{< /copy_wrapper >}}
-
     {{< image
     class="details-grid__twentyWords image-block__left"
     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960X960_2x/nypl-dot-org/nypl_ed_landingPage.jpg 2x"
-
     alt="An alternate image of the NYPL home page"
     figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the fully accessible drop Login drop down menu" title="NYPL home page Tablet view " >}}
+
+     {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
+      In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography specifications.
+    {{< /copy_wrapper >}}
+
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+      The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
+    {{< /copy_wrapper >}}
 
     {{< image
       class="details-grid__twentyWords image-block__right"
@@ -70,9 +73,6 @@ newLayout: true
       figcaption="An example of an interior landing page dedicated towards giving voice to the wide variety of expertise the library has to offer."
     >}}
 
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-    The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
-    {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
 
@@ -80,19 +80,21 @@ newLayout: true
 
     {{< image
       class="details-grid__fiftyWords big-image"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_4x3_2x/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582756732/nypl-dot-org/nypl.landing.attend.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582756732/nypl-dot-org/nypl.landing.attend.jpg 2x"
+      sccsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582756732/nypl-dot-org/nypl.landing.attend.jpg 3x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582756732/nypl-dot-org/nypl.landing.attend.jpg"
       alt="An example of the Education landing page"
       figcaption="Modular templates can be used to create different kinds of layouts with minimal effort."
     >}}
 
     {{< image
       class="details-grid__fiftyWords small-image"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_1.0,g_north_west,w_960/v1549840263/nypl-dot-org/desktop_landing_attend.jpg"
-      alt="An example of the Education landing page"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1582753774/nypl-dot-org/nypl-hp-section.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582753774/nypl-dot-org/nypl-hp-section.jpg 2x"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1582753774/nypl-dot-org/nypl-hp-section.jpg"
+      alt="An image detail from the home page"
+      figcaption="Detail from the home page section where staff picks are surfaced. This particular layout describes possibilities for overlay interactions within the book covers."
     >}}
 
 
@@ -101,3 +103,31 @@ newLayout: true
     {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper
+          class="details-grid__twoByTwo copy-block__left" >}}
+          The login drop down in the header is fully keyboard and assistive device compatible
+        {{< /copy_wrapper>}}
+
+        {{< image
+         class="details-grid__twoByTwo image-block__left"
+         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582755269/nypl-dot-org/nypl.login-dt.jpg"
+         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582755269/nypl-dot-org/nypl.login-dt.jpg"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582755269/nypl-dot-org/nypl.login-dt.jpg 2x"
+         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582755269/nypl-dot-org/nypl.login-dt.jpg 3x"
+         alt=""
+         figcaption="Desktop and tablet version of the login dropdown"
+        >}}
+
+        {{< image
+          class="details-grid__twoByTwo image-block__right"
+          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582757335/nypl-dot-org/nypl-login-m2.jpg"
+          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582757335/nypl-dot-org/nypl-login-m2.jpg"
+          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582757335/nypl-dot-org/nypl-login-m2.jpg 2x"
+          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582757335/nypl-dot-org/nypl-login-m2.jpg 3x"
+          alt=""
+          figcaption="The Mobile version of the login dropdown"
+        >}}
+{{< /section_wrapper>}}

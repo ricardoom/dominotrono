@@ -97,7 +97,7 @@ newLayout: true
       class="details-grid__twoByTwo copy-block__left" >}}
         Our design employed many new fields from the post editor that were not present in older iterations. Rather than try to make the old post work in our new system, we opted to make the old post's fields the default for our new layout and let editors add in their new content (images, block, and pull quotes) going forward.
     {{< /copy_wrapper>}}
-    
+
     {{< image
        class="details-grid__twoByTwo image-block__left"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_1x/v1582747788/nypl-blogs/nypl-blog-home-crop.jpg"
@@ -112,7 +112,8 @@ newLayout: true
     {{< image
       class="details-grid__twoByTwo image-block__right"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
-      Two="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg 2x" src="/media/portfolio/placeholders/desktopPlaceHolderTemplate.png"
+      Two="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg 2x" 
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
       alt="this image is only a placeholder there is nothing to see"
     >}}
 
@@ -122,13 +123,23 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
         {{< image
-         class="details-grid__twentyWords image-block__left"
+         class="details-grid__twoByTwo image-block__left"
          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_1x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg"
          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_1x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg 1x"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_2x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg  2x"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_2x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg 2x"
          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_3x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg 3x"
-         alt=""
+         alt="an image of a blog post displaying Chinese language support"
          figcaption="An example of a Chinese language post"
+        >}}
+
+        {{< image
+          class="details-grid__twoByTwo image-block__right"
+          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg"
+          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg"
+          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg 2x"
+          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_3x/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg 3x"
+          alt="an image of the blog author's index page"
+          figcaption="An example of a feed page where a blog author's posts can be scanned"
         >}}
 
 {{< /section_wrapper>}}

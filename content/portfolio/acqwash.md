@@ -26,7 +26,7 @@ projectDate: ''
 tags: ['UX', 'Web Design']
 weight: 2
 externalURL: ''
-projectDesc: 'I was asked to create the user experience and visual design for this burgeoning startup. '
+projectDesc: 'My role in this project was to create the UX and visual design for this exciting NYC startup.'
 newLayout: true
 ---
 
@@ -44,7 +44,7 @@ newLayout: true
 
           {{< copy_wrapper
             class="hero-grid__copyBlock" >}}
-            The Acqwash project centered around a very New York kind of problem, focusing on the exterior maintenance needs of our taxi drivers. Specifically the app concept is  modeled on a subscription service as it applies it car washes, and basic maintenance services in NYC.
+            The Acqwash app concept is modeled on a subscription service as it applies car washes and essential maintenance services in the five boroughs of New York City. Targeting taxi drivers who regularly wash and clean their vehicles.
           {{< /copy_wrapper>}}
 
 {{< /section_wrapper >}}
@@ -55,17 +55,16 @@ newLayout: true
        class="details-grid__fiftyWords big-image"
        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1580149837/acqwash/acqwash-mobileWires.png"
        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1580149837/acqwash/acqwash-mobileWires.png 1x"
-       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1580149837/acqwash/acqwash-mobileWires.png  2x"
+       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1580149837/acqwash/acqwash-mobileWires.png 2x"
        srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_3x/v1580149837/acqwash/acqwash-mobileWires.png 3x"
        alt=""
        figcaption="Our initial new user onboarding prototype"
       >}}
 
-          {{< copy_wrapper
-            class="details-grid__fiftyWords copy-block" >}}
-            Our process was straight forward. We needed a dead simple, and familiar onboarding workflow. We also needed to ensure that our users understood the what we were asking of them with respect to their personal information.
-          {{< /copy_wrapper>}}
-
+      {{< copy_wrapper
+        class="details-grid__fiftyWords copy-block" >}}
+        Our process was straight forward. We needed a dead simple and familiar onboarding workflow. We needed to ensure our users understood what we were asking of them concerning their personal information.
+      {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 
@@ -75,27 +74,27 @@ newLayout: true
          class="details-grid__fiftyWords big-image"
          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1580149837/acqwash/acqwash-mobileScreens.png"
          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1580149837/acqwash/acqwash-mobileScreens.png 1x"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1580149837/acqwash/acqwash-mobileScreens.png  2x"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1580149837/acqwash/acqwash-mobileScreens.png 2x"
          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_3x/v1580149837/acqwash/acqwash-mobileScreens.png 3x"
          alt=""
-         figcaption="Our version zero composites for the engineers to implement"
+         figcaption="All the essential screens in the signup / onboard process."
         >}}
 
           {{< image
             class="details-grid__fiftyWords small-image"
             src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_1x/v1581366095/acqwash/acqwash-type.png"
             srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_1x/v1581366095/acqwash/acqwash-type.png 1x"
-            srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_21x/v1581366095/acqwash/acqwash-type.png  2x"
+            srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_2x/v1581366095/acqwash/acqwash-type.png 2x"
             srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_3x/v1581366095/acqwash/acqwash-type.png 3x"
-            alt=""
-            figcaption=""
+            alt="a visual example of the basic typographic rules"
+            figcaption="For simplicity sake, and the scope of the brief, a reduced set of type rules was required. For the public beta, the information architecture required type rules little more than headings and form elements"
           >}}
 
             {{< copy_wrapper
               class="details-grid__fiftyWords copy-block" >}}
-              As the design brief was very open ended, for V.0 the team decided to keep the visuals as minimal as possible. For the logotype we settled on Avenir. Its a a favorite of mine because of its solid and reliable letter forms lending itself to readability.
+              As the design brief was very open-ended, for V.0, the team decided to maintain a minimal aesthetic. For the logotype, we settled on Avenir. Its a favorite of mine because of its robust and reliable letter forms lending itself to readability.
               <br><br>
-              For the app's body and label type, we went with Nunito Sans. It has the a variety of weights available giving us maximum flexibility where needed and we could be confident in readability at any screen size.
+              For the app's body and label type, we went with Nunito Sans. It has a variety of weights available, giving us maximum flexibility where needed, and we could be confident in readability at any screen size.
             {{< /copy_wrapper>}}
 
 

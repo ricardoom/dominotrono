@@ -8,12 +8,12 @@ postImageSqip: '../media/portfolio/nypl_discovery/discoveryHPCard.svg'
 postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1548514911/nypl-discovery/medium_initial.jpg'
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1548514911/nypl-discovery/medium_initial.jpg'
 postImage3x: ''
-postImageAlt: ''
+postImageAlt: 'An image of the Shared Resource Collection landing page'
 portfolioHeroSqip: '../media/portfolio/nypl_discovery/discoverySqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1578422083/nypl-discovery/nypl-shared-composed.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1578422083/nypl-discovery/nypl-shared-composed.jpg'
 portfolioHero3x: ''
-portfolioHeroAlt: ''
+portfolioHeroAlt: 'An image of the NYPL Shared Resource Collection screens, from mobile to desktop'
 heroFigcaption: ''
 figcaption: ''
 svgClipObjectClass: 'variableDots'
@@ -48,7 +48,7 @@ newLayout: true
 
     {{< copy_wrapper
       class="hero-grid__copyBlock" >}}
-      The NYPL Shared Collection is an interface to search the catalogs of NYPL, Columbia and Princeton Universities. The system is designed to decrease friction between sharing items across institutions. While this project had seen many iterations, I was responsible for the most recent one. My primary objective was to increase the readability and ensure our accessibility standards were met.
+      The NYPL Shared Collection is an interface to search the catalogs of NYPL, Columbia, and Princeton Universities. Designed to decrease friction, ReCap, as it is known, allows for the sharing of items across institutions. My primary role was increasing readability and usability as well as meeting WCAG 2.0 Accessibility standards. It also served as a test case for the Design Toolkit.
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -80,9 +80,9 @@ newLayout: true
       figcaption="The filters are functionally independent of Javascript, as well as keyboard and screen reader accessible"
     >}}
 
-        {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__right" >}}
-         In order to ensure each page rendered correctly we opted to use system fonts instead of the custom NYPL typeface. An additional benefit would be that we would not be overtaxing our user's devices or data plans. In the cases where we do use a custom type face we restricted the amount of characters to the upper and lower case Roman alphabet with the knowledge that we would not need punctuation, numerals or other special characters.
-        {{< /copy_wrapper>}}
+    {{< copy_wrapper
+      class="details-grid__twoByTwo copy-block__right" >}}
+       To ensure each page rendered correctly, we opted to use system fonts instead of the custom NYPL typeface. An additional benefit would be that we would not be overtaxing our user's devices or data plans. In the cases where we do use a custom typeface, we restricted the number of characters to the upper and lower case Roman alphabet with the knowledge that we would not need punctuation, numerals, or other special characters.
+    {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}

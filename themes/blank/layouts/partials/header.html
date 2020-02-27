@@ -3,6 +3,9 @@
 {{ $options := ( dict "targetPath" $targetPath "enableSourceMap" true ) }}
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $options }}
 {{ $prodStyle := resources.Get $sassRoot | toCSS $options | postCSS | minify | fingerprint }}
+
+{{ $prodStyle2 := resources.Get $sassRoot | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+
 {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
 {{ $class := .Site.Params.classes }}
 {{ $navControlIconClose := ( partial "svg/navControlIcon.svg" ) }}
@@ -36,7 +39,7 @@
   {{ if .Site.IsServer }}
   <link rel="stylesheet" href="{{ $devStyle.Permalink }}">
   {{ else }}
-  <link rel="stylesheet" href="{{ $prodStyle.Permalink }}">
+  <link rel="stylesheet" href="{{ $prodStyle2.Permalink }}">
   {{ end }}
   {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ $typeKitLink }}">

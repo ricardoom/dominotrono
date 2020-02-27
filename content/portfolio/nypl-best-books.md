@@ -49,7 +49,7 @@ newLayout: true
     >}}
 
      {{< copy_wrapper class=" hero-grid__copyBlock" >}}
-        The New York Public Library offers many librarian curated lists. At the start of each season and the end of each year &quot;Staff Picks and &quot;Best of...&quot; lists are created by the librarians from all branches. Part of our task was to make a fully Accessible site. One of the challenges faced was creating a site that functions without javascript. As a team, we had to make decisions along the way to create truly progressive page where the basic functionality of the page did not rely on javascript being enabled as well as it being operable by keyboard or assertive technology. Please see live example links as well as some of the initial creative and experience design work in the images below.
+        The New York Public Library offers many librarian curated lists. At the start of each season and the end of each year &quot;Staff Picks and &quot;Best of...&quot; the librarians create lists from all branches. Part of our task was to make a fully Accessible site. One of the challenges faced was building a website application that functions without JavaScript. As a team, we had to make decisions along the way to create a reliably progressive page where the basic functionality of the page did not rely on JavaScript. Aditionally the app must operable by keyboard or assertive technology. Please see live example links as well as the initial concept designs and experience design work in the images below.
      {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -73,7 +73,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-       My initial wire frames setting out the very basic structure of the end user view allowed the team to discuss the core facets of the application. The app had to be WCAG 2.0 Accessible, be functional if javascript was disabled. These wire frame mockups allowed us to discuss in real time, semantics  and possible bottlenecks.
+       My initial wireframes setting out the fundamental structure of the end-user view allowed the team to discuss the core facets of the application. The app had to be WCAG 2.0 Accessible, be functional if JavaScript was disabled. These wireframe mockups allowed us to discuss in real-time, semantics, and possible bottlenecks.
     {{< /copy_wrapper >}}
     
     {{< image
@@ -83,11 +83,11 @@ newLayout: true
       srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_3.0/v1575990335/nypl-staff-picks/sp_mobile_initial.jpg 3x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1575990335/nypl-staff-picks/sp_mobile_initial.jpg"
       alt="An image of the mobile layout in wireframe form"
-      figcaption="Early stages of our application design. This represents our working mockup of the web app's mobile version."
+      figcaption="Early stages of our application design. The above represents our working mockup of the web app's mobile version."
     >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-     Our mockup and prototyping tool, allowed the team to add comments, anticipate possible functional issues, create content guidelines as well solidify semantic structure. Our prototyping tool allowed us to rapidly make decisions and come to consensus about features and functionality.
+     Our mockup and prototyping tool allowed the team to add comments, anticipate possible functional issues, create content guidelines as well solidify the semantic structure. Our prototyping tool allowed us to rapidly make decisions and come to a consensus about features and functionality.
     {{< /copy_wrapper >}}
 
     {{< image
@@ -96,8 +96,8 @@ newLayout: true
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1575995429/nypl-staff-picks/nyplBbMobileWireEx.jpg 2x"
       srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1575995429/nypl-staff-picks/nyplBbMobileWireEx.jpg 3x"
       src="/media/portfolio/nypl_staff_picks/nyplBbMobileWireEx.jpg"
-      alt=""
-      figcaption="A wireframe example of our application’s \"expanded\" state and the team’s notes, comments and questions surrounding functionality"
+      alt="an image of mobile view wireframe"
+      figcaption="A wireframe example of our application's \"expanded\" state and the team's notes, comments and questions surrounding functionality"
      >}}
 
 {{< /section_wrapper >}}
@@ -111,7 +111,7 @@ newLayout: true
       srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_1280,dpr_3.0/v1548801962/nypl-staff-picks/large_screen_initial.jpg 3x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,g_north_west,h_1089,q_72,w_1280/v1575995017/nypl-staff-picks/large_screen_initial.jpg"
       alt="Staff Picks Landing Page"
-      figcaption="The full-size wireframe along with specifications, notes and comments."
+      figcaption="The full-size wireframe, along with specifications, notes, and comments."
       >}}
 
 {{< /section_wrapper >}}
@@ -126,13 +126,11 @@ newLayout: true
         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1548801972/nypl-staff-picks/staff-picks-components.jpg 2x"
         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1548801972/nypl-staff-picks/staff-picks-components.jpg"
         alt="An image of a variety of layouts for key components"
-        figcaption="A variety of small screen layouts, each designed to meet the overall project requirements while being capable of handling differing kinds of data."
+        figcaption="A variety of small screen layouts, each designed to meet the overall project requirements while being capable of handling different kinds of data."
        >}}
 
     {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
-
-      With a Progressive Enhancement mindset, my task was to create core components for various screen sizes and conditions. 
-
+      With a mindset focused on Progressive Enhancement, my task was to create core components for various screen sizes and conditions.
     {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -158,7 +156,6 @@ newLayout: true
       alt=""
       figcaption=""
       >}}
-
 
 {{< /section_wrapper >}}
 

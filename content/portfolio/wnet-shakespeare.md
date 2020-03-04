@@ -28,6 +28,19 @@ projectDesc: 'A fully complete project, from concept, wire frames through websit
 newLayout: true
 ---
 
+{{< section_wrapper class="hero-grid" >}}
+
+        {{< image
+         class="hero-grid__imageBlock"
+         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1548802959/wnet/shakespeareuncovered_hp_top.png"
+         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1548802959/wnet/shakespeareuncovered_hp_top.png"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1548802959/wnet/shakespeareuncovered_hp_top.png 2x"
+         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_3x/v1548802959/wnet/shakespeareuncovered_hp_top.png 3x"
+         alt=""
+         figcaption=""
+        >}}
+
+{{< /section_wrapper>}}
 
 http://www.pbs.org/wnet/shakespeare-uncovered/timeline/
 
@@ -36,9 +49,9 @@ https://www.pbs.org/wnet/shakespeare-uncovered/blog/anatomy-of-a-scene/
 
 
 some crops:
-https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,w_480/v1581539539/wnet/shakespeareHP.jpg
-https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,dpr_2.0,w_480/v1581539539/wnet/shakespeareHP.jpg
-https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,dpr_3.0,w_480/v1581539539/wnet/shakespeareHP.jpg
+
+
+
 
 
 https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/c_scale,q_80,w_480/v1581539539/wnet/shakespeareVideoDetail.jpg

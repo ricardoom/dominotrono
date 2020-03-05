@@ -58,6 +58,15 @@ newLayout: true
       figcaption="Utilizing Sketch I created several drafts of possible outcomes. The main idea was to incorporate Chef Mikes photography into a screen design that captured the spirit of the location while not being overly dominated by imagery alone."
       >}}
 
+        {{< image
+         class="details-grid__fiftyWords small-image"
+         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
+         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582758771/il-nido-il-corvo/il-nido-hp.jpg 2x"
+         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582758771/il-nido-il-corvo/il-nido-hp.jpg 3x"
+         alt="An image of the home page screen"
+         figcaption="The single page achieves a simple goal: displays the location, hours and phone number, with a simple button to make a reservation."
+        >}}
       {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
       Due to the restaurant's menu changing daily with respect to season, we settled on displaying only location, hours, and contact were required. Chef Mike opted to use the Resy system for handling reservations. We decided a button-like link would be best to direct customers to obtain a booking.
 
@@ -69,46 +78,50 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-      {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__left" >}}
-      A primary objective was to create a logo and type treatment that reflected visually and conceptually the spirit of Chef Mike's vision to convey a warm, modern aesthetic combined with a traditional approach to cuisine.
-      {{< /copy_wrapper >}}
+      {{< image
+        class="details-grid__fiftyWords big-image"
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png"
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png 2x"
+        srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png 3x"
+        alt="An image of various iterations of the Il Nido logo"
+        figcaption="Various iterations of the logo."
+      >}}
 
       {{< image
-        class="details-grid__twentyWords image-block__left"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210902/il-nido-il-corvo/logos/il_nido_logo_metal_2x.jpg 2x"
-        alt="An image of the Il Nido cut into steel"
+          class="details-grid__fiftyWords small-image"
+          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
+          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
+          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210902/il-nido-il-corvo/logos/il_nido_logo_metal_2x.jpg 2x"
+          alt="An image of the Il Nido cut into steel"
+          figcaption="The logo cut into a slab of Core-10 steel."
       >}}
 
-     {{< image
-      class="details-grid__twentyWords image-block__right"
-       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.jpg"
-       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.jpg"
-       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209484/il-nido-il-corvo/logos/nido_v.c.1.jpg 2x"
-       alt="An image of various iterations of the Il Nido logo"
-      >}}
-
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-      When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually, the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
-    {{< /copy_wrapper >}}
+      {{< copy_wrapper
+        class="details-grid__fiftyWords copy-block" >}}
+        A primary objective was to create a logo and type treatment that reflected visually and conceptually the spirit of Chef Mike's vision to convey a warm, modern aesthetic combined with a traditional approach to cuisine.
+      {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 
     {{< image
-        class="details-grid__twoByTwo image-block__left"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg 2x"
-        alt="An image of various iterations of the Il Nido logo"
-         >}}
+      class="details-grid__twoByTwo image-block__left"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg 2x"
+      alt="An image of various iterations of the Il Nido logo"
+    >}}
+    
+     {{< copy_wrapper 
+     class="details-grid__twoByTwo copy-block__right" >}}
+      When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually, the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
+    {{< /copy_wrapper >}}
 
-       {{< copy_wrapper
-        class="details-grid__twoByTwo copy-block__right" >}}
-        We spoke at length about color schemes, and what colors best represented the new restaurant's look and feel. In a mood board presented, I had two covers for the Russian Criminal Tattoo books, the yellow and blue. Ultimately we settled on having the yellow be the predominate color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
+    {{< copy_wrapper
+      class="details-grid__twoByTwo copy-block__right" >}}
+      We spoke at length about color schemes, and what colors best represented the new restaurant's look and feel. In a mood board presented, I had two covers for the Russian Criminal Tattoo books, the yellow and blue. Ultimately we settled on having the yellow be the predominate color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
       {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}

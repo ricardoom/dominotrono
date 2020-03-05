@@ -230,5 +230,9 @@ code {
     &__portfolioInvolvement {
       font-family: $frank-new;
     }
+
+    &__portfolioInvolvement ul {
+      word-break: break-word;
+    }
   }
 }

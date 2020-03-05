@@ -11,8 +11,9 @@ postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_po
 postImageAlt: 'A partial image of the SimplyE design click flow'
 figcaption: ''
 portfolioHeroSqip: '../media/portfolio/simplye_audiobooks/simplyEAudioHeroSqip.svg'
-portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548802600/simply-e/se-Audio-flow-iOS.png'
-portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548802600/simply-e/se-Audio-flow-iOS.png'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1582837490/simply-e/se-screens-view-ios.jpg'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1582837490/simply-e/se-screens-view-ios.jpg'
+portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_3x/v1582837490/simply-e/se-screens-view-ios.jpg'
 portfolioHeroAlt: 'A partial image of the SimplyE design click flow'
 svgClipObjectClass: 'variableDots'
 svgColorClass: 'site-color--brown'
@@ -35,10 +36,11 @@ newLayout: true
 
     {{< image
     class="hero-grid__imageBlock"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802600/simply-e/se-Audio-flow-iOS.png"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548802600/simply-e/se-Audio-flow-iOS.png 2x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548802600/simply-e/se-Audio-flow-iOS.png"
-    alt=""
+    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1582837490/simply-e/se-screens-view-ios.jpg"
+    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1582837490/simply-e/se-screens-view-ios.jpg"
+    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1582837490/simply-e/se-screens-view-ios.jpg 2x"
+    srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_3x/v1582837490/simply-e/se-screens-view-ios.jpg 3x"
+    alt="An image of the iOS user flow screens"
     >}}
 
         {{< copy_wrapper
@@ -50,6 +52,41 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
+        {{< image
+         class="details-grid__twoByTwo image-block__left"
+         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1582830616/simply-e/se-detail-view-ios.jpg"
+         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1582830616/simply-e/se-detail-view-ios.jpg"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_2x/v1582830616/simply-e/se-detail-view-ios.jpg 2x"
+         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_3x/v1582830616/simply-e/se-detail-view-ios.jpg 3x"
+         alt=""
+         figcaption="The iOS item selection screen. As a user would scroll they would also be presented with other titles by that author, or of similar genre. Additionally the app would also provide recommendations created by both algorithm and by librarians."
+        >}}
 
+        {{< image
+         class="details-grid__twoByTwo image-block__right"
+         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1582830616/simply-e/se-main-player-ios.jpg"
+         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1582830616/simply-e/se-main-player-ios.jpg"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_2x/v1582830616/simply-e/se-main-player-ios.jpg 2x"
+         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_2x/v1582830616/simply-e/se-main-player-ios.jpg 3x"
+         alt="An image of the main player screen"
+         figcaption="The main player screen"
+        >}}
 
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< image
+         class="details-grid__fiftyWords big-image"
+         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1582831627/simply-e/se-adroid-audio-screens.jpg"
+         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1582831627/simply-e/se-adroid-audio-screens.jpg"
+         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1582831627/simply-e/se-adroid-audio-screens.jpg 2x"
+         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_3x/v1582831627/simply-e/se-adroid-audio-screens.jpg 3x"
+         alt="an image of the Android user flow and screens"
+         figcaption="The Android version of the player and user flow. "
+        >}}
+            {{< copy_wrapper
+              class="details-grid__fiftyWords copy-block" >}}
+              As we progressed on our iOS version of the app, we also began creating the Android corollary designs and flows. While this was relatively trivial, Android OSes have different controls causing some minor divergence in how we considered our users and their expectations. The team decided to utilize as much of the Material design system as possible, mirroring the same attitude we held for our iOS version.
+            {{< /copy_wrapper>}}
 {{< /section_wrapper>}}

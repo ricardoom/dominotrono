@@ -108,7 +108,7 @@ newLayout: true
 
       {{< copy_wrapper
         class=" details-grid__twentyWords copy-block__left" >}}
-        some copy
+        Much of my work on this project took place in Photoshop and Illustrator. Tom and I spend time going over the photography of the dioramas looking for opportunities for engaging layouts and infographics or interstitial cards for the videos.
       {{< /copy_wrapper>}}
 
     {{< image
@@ -117,12 +117,12 @@ newLayout: true
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549729987/diorama/what_is_diorama_social.png 2x"
       alt="An image of an infographic from the series"
-      figcaption="another image..."
+      figcaption="What is a Diorama inforgraphic"
     >}}
     
         {{< copy_wrapper
           class="details-grid__twoByTwo copy-block__right" >}}
-          more copy
+          In this infographic, we sought to create a compelling backdrop for bullet points covering the fundamentals of what a diorama is, especially in an age where dioramas could be considered an anachronistic. Our discussions centered around how we could create a dictionary-like poster that would resonate in this age of screen ubiquity.
         {{< /copy_wrapper>}}
 
     {{< image
@@ -132,7 +132,7 @@ newLayout: true
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549729894/diorama/diorama_mooseinfo.png 2x"
       alt="An image of an infographic from the series"
       imgHeading=""
-      figcaption="Some imagery from the series"
+      figcaption="Another entry in our \"dictionary\""
     >}}
 
 {{< /section_wrapper >}}
@@ -149,4 +149,8 @@ newLayout: true
       figcaption="the rhino"
     >}}
 
+        {{< copy_wrapper
+          class="details-grid__twentyWords copy-block__right" >}}
+          Tom and I had a great time on this project. He and I visited the lower reaches of AMNH, where much of the research science takes place. From the giant Coelacanth preserved in a weird metal crate filled with stinky formaldehyde to the offices of the world's foremost expert on termites, AMNH is a vital and essential institution.
+        {{< /copy_wrapper>}}
 {{< /section_wrapper >}}

@@ -51,16 +51,16 @@ newLayout: true
 
      {{< copy_wrapper
         class=" details-grid__twentyWords copy-block__left" >}}
-        some words about the svgs
+        We wanted to follow industry best practices and reduce our use of raster images as a  means of improving page performance and overall bandwidth usage. Part of that effort was to employ the use of SVGs wherever we had flat, simple graphics, like icons and logos. SVGs are markup and, while not cacheable, are very flexible, portable. We took extra precautions to ensure our SVG icons were accessible.
       {{< /copy_wrapper>}}
 
     {{< image
-      class="details-grid__twentyWords image-block__left"
+      class="details-grid__twentyWords image-block__right"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"
       alt="An image of the NYPL Discovery full record result"
-      figcaption="  "
+      figcaption="Developers and Designers can easily copy SVG code here and paste into their applications or prototypes"
       >}}
 
 {{< /section_wrapper >}}
@@ -71,32 +71,32 @@ newLayout: true
 
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      a bunch more words here about accessibility...
+      We conducted a large survey of not only nypl.org but all of our internal tools and micro-sites and applications for proper WCAG 2.0 Compliance, with the understanding that the DTK will need to inform and influence all projects going forward. All the components included in the Design Tool Kit would have their accessibility rules baked into their design patterns. Structure and style would be fully accessible by default.
     {{< /copy_wrapper>}}
         
     {{< image
-        class="details-grid__twentyWords image-block__left"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg 2x"
-        srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg 3x"
-        alt=""
-        figcaption="The NYPL brand set color table"
+      class="details-grid__twentyWords image-block__left"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg 2x"
+      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg 3x"
+      alt=""
+      figcaption="The NYPL brand set color table"
       >}}
 
     {{< image
-     class="details-grid__twentyWords image-block__right"
-     src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
-     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
-     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg 2x"
-     srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg 3x"
-     alt=""
-     figcaption=""
+      class="details-grid__twentyWords image-block__right"
+      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
+      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
+      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg 2x"
+      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg 3x"
+      alt=""
+      figcaption=""
     >}}
 
       {{< copy_wrapper
         class="details-grid__twentyWords copy-block__right" >}}
-        Accessibility sections / subject touches on visible focus, colors, forms
+       We paid close attention to getting our forms correct. Assigning the exact ARIA attributes and states was key to our implementation.
       {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -110,7 +110,7 @@ newLayout: true
           srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576615031/nypl-design-toolkit/nypl-dtk-forms-detail.jpg  2x"
           srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576615031/nypl-design-toolkit/nypl-dtk-forms-detail.jpg 3x"
           alt=""
-          figcaption=""
+          figcaption="Each section has direction on how to utilize each component; all the correct classes, and attributes as well as the necessary JavaScript for handling the state of a given component"
         >}}
 
         {{< image
@@ -131,9 +131,7 @@ newLayout: true
 
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      Some words here about the component
-      coding standards for removing decisions about design from developers
-      instruction, rendered example and code
+     Broadly speaking, the guiding principle in our design was to remove as much guesswork a developer might have concerning design, structure, or behavior. The final product culminated in an NPM project which could be integrated into other sites or applications, or by downloading and compiling the SASS file and then copy and pasting individual instances of a component into one's app.
     {{< /copy_wrapper>}}
 
         {{< image

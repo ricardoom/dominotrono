@@ -14,10 +14,9 @@
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
 
     @include media('>tablet') {
-      margin-left: 1.5vw;
       margin-bottom: 2vh;
     }
-    margin-left: 3vw;
+    margin-left: 1.5vw;
   }
 
   &__sidebarSubTitle {

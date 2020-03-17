@@ -10,6 +10,7 @@ enableRobotsTXT = "true"
     subtitle="Ricardo E. Gálvez"
     # javascript vendor path
     vendorPath = "js/vendor/"
+    customJsPath = "js/experiments/"
     # Image params:
     postImageSqip = ""
     postImage1x = ""
@@ -32,7 +33,7 @@ enableRobotsTXT = "true"
         name = "twitter"
         site = "@rixblargh"
         title = "Ricardo E. Galvez - Design Technologist"
-        description = "I am a multidisciplinary freelance designer, artist, and, developer. I have many years of experience building websites from the ground up, designing user experiences and application interfaces, based in Brooklyn, New York. Former senior designer at the New York Public Library and WNET / THIRTEEN / PBS New York."
+        description = "I am a multidisciplinary freelance designer, artist, and, developer. I have many years of experience building websites from the ground up, designing user experiences and application interfaces."
         card = "summary_large_image"
         url = "https://twitter.com/rixblargh"
         iconClass = "twitter"
@@ -77,7 +78,6 @@ enableRobotsTXT = "true"
         threeJS = "three/three.min.js"
         gsapJS = "gsap/TweenMax.min.js"
         animeJS = "anime/anime.min.js"
-
 [permalinks]
     post = "/:year/:month/:title/"
 

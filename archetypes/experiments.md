@@ -6,4 +6,5 @@ draft: false
 tags: []
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 vendorJS: ""
+experimentJS: 'yourExperimentalJS.js'
 ---

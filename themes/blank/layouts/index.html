@@ -3,7 +3,8 @@
 <main class="site-content" id="siteContent">
   <div class="grid-wrapper">
     <div class="prime-box">
-      {{ partial "svg/radiantStep.html" . }}
+      {{ partial "svg/oscarLetterings.svg" . }}
+      {{ partial "svg/variableDots.svg" . }}
     </div>
     <div class="subtitle-grid-container">
       {{ with $.Site.Params.subtitle }}
@@ -18,7 +19,6 @@
   </div>
 </main>
 {{ partial "sidebar.html" . }}
-<div class="svg-overlay-container">
-  {{ partial "svg/portfolio_overlay.html" . }}
-</div>
+
 {{ partial "footer.html" . }}
+{{ partial "svg/filter.svg" . }}

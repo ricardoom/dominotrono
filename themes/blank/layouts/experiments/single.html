@@ -1,3 +1,6 @@
+{{ $customJS := .Param "experimentJS" }}
+{{ $customJsURL := .Site.Params.customJsURL }}
+{{ $customJsPath := .Site.Params.customJsPath }}
 {{ $pageJS := .Param "vendorJS" }}
 {{ $vendorPath := .Site.Params.vendorPath }}
 {{ $jsVendor := .Site.Params.vendors }}
@@ -15,7 +18,6 @@
           {{ .Content }}
         </div>
         <!-- the experiment -->
-
         {{ if $pageJS }}
         {{  range $vendorName, $vendorURL := $jsVendor }}
         {{ if eq $vendorName $jsLowerCased }}
@@ -26,7 +28,6 @@
             here is the lower cased vendor name: {{ $jsLowerCased }}
           </p>
         </div>
-
         {{ if eq $jsLowerCased "paperjs" }}
         {{ printf "<!-- If paper js is present then we do special stuff  -->" | safeHTML }}
         <script type="text/javascript" src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
@@ -34,16 +35,22 @@
         <canvas class="canvas__myCanvas" id="paperCanvas" resize></canvas>
 
         {{ else if eq $jsLowerCased "gsapjs" }}
-        {{ printf "<!-- If paper GSAP is present then we do special stuff  -->" | safeHTML }}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" async></script>
+        {{ printf "<!-- If GSAP is present then we directly load from their CDN  -->" | safeHTML }}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
         {{ else }}
         <p>and the full path we set is here: <b>{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}</b><br></p>
         <script src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
         {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ if $customJS }}
 
-        {{ end }}
-        {{ end }}
+        we have an experimentJS in the hizzy
+
+        {{ $.Site.BaseURL }}{{ $customJsPath }}{{ $customJS }}
+        <script src="{{ $.Site.BaseURL }}{{ $customJsPath }}{{ $customJS }}"></script>
         {{ end }}
       </article>
       <ul id="tags" class="site-tags">

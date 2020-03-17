@@ -26,7 +26,7 @@
     // grid-column: 1 / 5;
   }
   a {
-    border-bottom: 2px solid $site-white;
+    //border-bottom: 2px solid $site-white;
     text-decoration: none;
   }
 
@@ -134,7 +134,7 @@
           // box-shadow: 10px 10px 0 #333;
           font-family: $justus-pro;
           background-color: $site-dark-blue;
-          padding: 1vw 2ex;
+          // padding: 1vw 2ex;
           position: absolute;
           right: 2vw;
           text-align: right;
@@ -150,53 +150,53 @@
 
         // and probably made into a for/each function instead of verbosely outputting here...
 
-        &.fourDots {
-          @include svg-overlay(#four_dots);
-        }
+        // &.fourDots {
+        //   @include svg-overlay(#four_dots);
+        // }
 
-        &.twoSquares {
-          @include svg-overlay(#two_squares);
-        }
+        // &.twoSquares {
+        //   @include svg-overlay(#two_squares);
+        // }
 
-        &.overDots {
-          @include svg-overlay(#over_dots);
-        }
+        // &.overDots {
+        //   @include svg-overlay(#over_dots);
+        // }
 
-        &.oneDiagonal {
-          @include svg-overlay(#one_diagonal);
-        }
+        // &.oneDiagonal {
+        //   @include svg-overlay(#one_diagonal);
+        // }
 
-        &.oneDiagonal-45 {
-          @include svg-overlay(#one_diagonal);
-        }
+        // &.oneDiagonal-45 {
+        //   @include svg-overlay(#one_diagonal);
+        // }
 
-        &.boxDiagonals {
-          @include svg-overlay(#box_diagonals);
-        }
+        // &.boxDiagonals {
+        //   @include svg-overlay(#box_diagonals);
+        // }
 
-        &.variableDots {
-          @include svg-overlay(#variable_dots);
-        }
+        // &.variableDots {
+        //   @include svg-overlay(#variable_dots);
+        // }
 
-        &.diagonalDot {
-          @include svg-overlay(#diagonal_dot);
-        }
+        // &.diagonalDot {
+        //   @include svg-overlay(#diagonal_dot);
+        // }
 
-        &.oneCircle {
-          @include svg-overlay(#quarter_circle);
-        }
+        // &.oneCircle {
+        //   @include svg-overlay(#quarter_circle);
+        // }
 
-        &.squaresCircles {
-          @include svg-overlay(#squares_circles);
-        }
+        // &.squaresCircles {
+        //   @include svg-overlay(#squares_circles);
+        // }
 
-        &.bigCircle {
-          @include svg-overlay(#big_circle);
-        }
+        // &.bigCircle {
+        //   @include svg-overlay(#big_circle);
+        // }
 
-        &.bigPill {
-          @include svg-overlay(#big_pill);
-        }
+        // &.bigPill {
+        //   @include svg-overlay(#big_pill);
+        // }
       } // /figure
     }
   }

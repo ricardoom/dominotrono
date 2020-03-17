@@ -12,6 +12,8 @@ vendorJS: 'paperJS'
 
 So this was some doing getting hooked up. Paper has its own formating/ name spacing thing (need to find out exactly what its called) and getting it going wasn't that easy. And right now its kludged in...
 
+<!--more-->
+
 - hugo needs more conditional logic at the template level
 - Paper has its own type attribute that needs to be modified so that our script can be called
   - that looks like this: `<script type="text/paperscript" ...>`

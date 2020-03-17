@@ -9,6 +9,12 @@ title: 'Daily Log'
 
 The idea here is to briefly jot down activities, changes, inquiries, research topics etc, so as to better document and gauge progress on this site specifically and growth as a artist, designer and developer in general.
 
+<!--more-->
+
+### 3-16-2020
+
+Been working on a pure JS matching game. I'll admit its been stalled for a couple weeks... desultory prodding but nothing serious to take the next step. With no end in sight I have been thinking about state, and how my problems with the my little matching app are about state, so I looked into to doing some simple pure JS state study.
+
 ### 1-24-2020
 
 Determined to be a better developer, despite some who question the effort. It is hard to show results when your audience is less than sympathetic and easily baffled, confused and put off by concepts or technology outside of their ken.

@@ -28,14 +28,11 @@
 
 .grid-wrapper {
   .subtitle-grid-container {
-    @include media('>=phone') {
-      background: transparentize($site-background-color, 0.25);
-    }
 
     @include media('>=tablet') {
       background: transparent;
-      padding: 7ex 0 0 0;
-      width: 75%;
+      // padding: 3.25ex 2.5ex;
+      // width: 75%;
     }
 
     // @include media('>=desktop') {
@@ -45,7 +42,7 @@
     &__subTitle {
       @include media('>=phone') {
         margin: 0;
-        padding: 1.25ex 2.5ex;
+        // padding: 1.25ex 2.5ex;
       }
 
       @include media('>=tablet') {
@@ -68,13 +65,11 @@
 
   .mast-head {
     @include media('>=phone') {
-      line-height: 1.2;
-      padding: 6vw;
+      // padding: 1.25ex 2.5ex;
     }
 
     @include media('>=tablet') {
       line-height: 1.2;
-      padding: 1ex 8vw 1ex 15vw;
     }
 
     @include responsive-font(2.75vw, 1.25em, 5.5rem, 32px);
@@ -83,7 +78,7 @@
     font-family: $frank-new;
     font-weight: 200;
     font-style: normal;
-    padding: 5vw;
+    // padding: 1.25ex 2.5ex;
     z-index: 1;
 
     & p::first-letter {

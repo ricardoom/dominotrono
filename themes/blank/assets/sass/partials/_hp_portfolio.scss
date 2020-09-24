@@ -33,7 +33,7 @@
   h3 {
     @include responsive-font(3.75vw, 2.25em, 5.5em, 32px);
     @include media('>=phone') {
-      padding-left: 6vw;
+      // padding-left: 6vw;
     }
 
     @include media('>=tablet') {
@@ -47,7 +47,7 @@
     font-family: $frank-new;
 
     @include media('>=phone') {
-      margin-left: 6vw;
+      // margin-left: 6vw;
     }
 
     @include media('>=tablet') {

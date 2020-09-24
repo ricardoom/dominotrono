@@ -653,21 +653,16 @@ code {
   .site-header__siteNameContainer {
     display: block;
     flex: 2 1 95%;
-    padding-top: 1.8em; } }
+    padding: 3.25ex 2.5ex; } }
 
 @media (min-width: 48em) {
   .site-header__siteNameContainer {
     display: grid;
     padding-top: 0; } }
 
-@media (min-width: 19.25em) {
-  .site-header__siteNameContainer--name {
-    grid-column: 1 / 1; } }
-
 @media (min-width: 48em) {
   .site-header__siteNameContainer--name {
-    grid-column: 1 / 4;
-    padding-left: 1.5vw; } }
+    grid-column: 1 / 4; } }
 
 .site-header__siteNavigation {
   grid-template-rows: initial;
@@ -689,10 +684,11 @@ code {
     .site-header__siteNavigation--items {
       grid-column: 2 / 4; } }
 .home-page .grid-wrapper {
-  grid-template-rows: [nameBox] minmax(15.5em, 15vh) auto; }
+  align-items: center;
+  grid-template-rows: minmax(3.5em, 7.5em) auto; }
   @media (min-width: 19.25em) {
     .home-page .grid-wrapper {
-      padding: 0; } }
+      padding: 0 2.5ex; } }
 .grid-wrapper {
   display: grid; }
   @media (min-width: 19.25em) {
@@ -725,10 +721,10 @@ code {
   @media (min-width: 19.25em) {
     .grid-wrapper .subtitle-grid-container {
       grid-column: 1 / 1;
-      grid-row: 2 / 2; } }
+      grid-row: 1 / 2; } }
   @media (min-width: 48em) {
     .grid-wrapper .subtitle-grid-container {
-      grid-column: 3 / 5;
+      grid-column: 1 / 4;
       grid-row: 1 / 1; } }
   @media (min-width: 19.25em) {
     .grid-wrapper__listParent, .grid-wrapper__portfolioParent {
@@ -754,7 +750,7 @@ code {
         grid-column: 1 / 1; } }
     @media (min-width: 48em) {
       .grid-wrapper .mast-head {
-        grid-column: 1 / 5; } }
+        grid-column: 1 / 4; } }
   @media (min-width: 19.25em) {
     .grid-wrapper .grid-site-data {
       background-color: #06182d;
@@ -1082,15 +1078,9 @@ code {
 .site-content__homePage {
   width: 90vw; }
 
-@media (min-width: 19.25em) {
-  .grid-wrapper .subtitle-grid-container {
-    background: rgba(6, 24, 45, 0.75); } }
-
 @media (min-width: 48em) {
   .grid-wrapper .subtitle-grid-container {
-    background: transparent;
-    padding: 7ex 0 0 0;
-    width: 75%; } }
+    background: transparent; } }
 
 .grid-wrapper .subtitle-grid-container__subTitle {
   font-size: 200px;
@@ -1100,8 +1090,7 @@ code {
   line-height: 1em; }
   @media (min-width: 19.25em) {
     .grid-wrapper .subtitle-grid-container__subTitle {
-      margin: 0;
-      padding: 1.25ex 2.5ex; } }
+      margin: 0; } }
   @media (min-width: 48em) {
     .grid-wrapper .subtitle-grid-container__subTitle {
       animation: slideDownMedium;
@@ -1136,16 +1125,10 @@ code {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 200;
   font-style: normal;
-  padding: 5vw;
   z-index: 1; }
-  @media (min-width: 19.25em) {
-    .grid-wrapper .mast-head {
-      line-height: 1.2;
-      padding: 6vw; } }
   @media (min-width: 48em) {
     .grid-wrapper .mast-head {
-      line-height: 1.2;
-      padding: 1ex 8vw 1ex 15vw; } }
+      line-height: 1.2; } }
   @media (max-width: 45.45454545em) {
     .grid-wrapper .mast-head {
       font-size: 1.25em; } }
@@ -1238,9 +1221,6 @@ code {
     font-style: normal;
     font-weight: 200;
     text-decoration: none; }
-    @media (min-width: 19.25em) {
-      .site-header__siteNameContainer--name {
-        margin-left: 3vmin; } }
     @media (min-width: 48em) {
       .site-header__siteNameContainer--name {
         margin: 0; } }
@@ -1745,18 +1725,12 @@ figure {
   @media (min-width: 146.66666667em) {
     .portfolio-container h3 {
       font-size: 5.5em; } }
-  @media (min-width: 19.25em) {
-    .portfolio-container h3 {
-      padding-left: 6vw; } }
   @media (min-width: 48em) {
     .portfolio-container h3 {
       padding-left: 1.5vw; } }
 .portfolio-container__containerSubTitle {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.8rem; }
-  @media (min-width: 19.25em) {
-    .portfolio-container__containerSubTitle {
-      margin-left: 6vw; } }
   @media (min-width: 48em) {
     .portfolio-container__containerSubTitle {
       margin-left: 1.5vw; } }

@@ -121,6 +121,7 @@
           @include basic-drop-shadow(text);
           color: $site-white;
           font-size: $base-font-normal;
+          padding: 2ex;
           text-decoration: none;
         }
 
@@ -129,29 +130,29 @@
           }
 
           @include media('>=tablet') {
-            flex-basis: 25%;
+            // flex-basis: 25%;
 
             &.social-icon {
               @include basic-drop-shadow(svg);
-              flex-basis: 10%;
-              padding-top: 1.75ex;
+              // flex-basis: 10%;
+              // padding-top: 1.75ex;
             }
           }
 
           @include media('>=desktop') {
-            flex-basis: 20%;
+            // flex-basis: 20%;
           }
         }
 
         min-height: 7ex;
-        padding: 2ex;
-        margin: 0 0.15ex;
+        // padding: 2ex;
+        // margin: 0 0.15ex;
       }
 
       .social-icon {
         a {
           display: block;
-          width: 3.5rem;
+          // width: 3.5rem;
 
           &:hover {
             box-shadow: none;

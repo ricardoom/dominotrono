@@ -117,7 +117,7 @@ $mobile-second-row: 15vh;
 .home-page {
   .grid-wrapper {
     @include media('>=phone') {
-      padding: 0 2.5ex;
+      padding: 2.5ex;
     }
     align-items: center;
     grid-template-rows: minmax(3.5em, 7.5em) auto;

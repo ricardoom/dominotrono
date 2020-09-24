@@ -688,7 +688,7 @@ code {
   grid-template-rows: minmax(3.5em, 7.5em) auto; }
   @media (min-width: 19.25em) {
     .home-page .grid-wrapper {
-      padding: 0 2.5ex; } }
+      padding: 2.5ex; } }
 .grid-wrapper {
   display: grid; }
   @media (min-width: 19.25em) {
@@ -877,27 +877,18 @@ code {
             justify-content: flex-start;
             padding: initial; } } }
     .site-header__siteNavigation--items li {
-      min-height: 7ex;
-      padding: 2ex;
-      margin: 0 0.15ex; }
+      min-height: 7ex; }
       .site-header__siteNavigation--items li a {
         text-shadow: 2px 2px 2px #111111;
         color: white;
         font-size: 112.5%;
+        padding: 2ex;
         text-decoration: none; }
       @media (min-width: 48em) {
-        .site-header__siteNavigation--items li:nth-child(n) {
-          flex-basis: 25%; }
-          .site-header__siteNavigation--items li:nth-child(n).social-icon {
-            filter: drop-shadow(1px 1px 1px #111111);
-            flex-basis: 10%;
-            padding-top: 1.75ex; } }
-      @media (min-width: 64em) {
-        .site-header__siteNavigation--items li:nth-child(n) {
-          flex-basis: 20%; } }
+        .site-header__siteNavigation--items li:nth-child(n).social-icon {
+          filter: drop-shadow(1px 1px 1px #111111); } }
     .site-header__siteNavigation--items .social-icon a {
-      display: block;
-      width: 3.5rem; }
+      display: block; }
       .site-header__siteNavigation--items .social-icon a:hover {
         box-shadow: none; }
       .site-header__siteNavigation--items .social-icon a:hover svg {
@@ -1112,9 +1103,9 @@ code {
       animation-timing-function: ease-out;
       animation-fill-mode: both;
       padding: 0; } }
-  @media (max-width: 34.48275862rem) {
+  @media (max-width: 62.06896552rem) {
     .grid-wrapper .subtitle-grid-container__subTitle {
-      font-size: 2.5rem; } }
+      font-size: 4.5rem; } }
   @media (min-width: 234.48275862rem) {
     .grid-wrapper .subtitle-grid-container__subTitle {
       font-size: 17rem; } }

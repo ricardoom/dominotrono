@@ -80,6 +80,7 @@
           li {
             display: flex;
             justify-content: flex-end;
+            margin: unset;
           }
         }
       }
@@ -144,12 +145,26 @@
           }
         }
 
-        min-height: 7ex;
+        // min-height: 7ex;
         // padding: 2ex;
         // margin: 0 0.15ex;
       }
+      
+      .text-link {
+
+        @include media('<tablet') {
+          align-self: flex-end;
+        }
+        align-self: center;        
+      }
 
       .social-icon {
+        @include media('<tablet') {
+          align-self: flex-end;
+        }
+
+        align-self: center;
+
         a {
           display: block;
           // width: 3.5rem;

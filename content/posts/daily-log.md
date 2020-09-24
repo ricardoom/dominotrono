@@ -1,7 +1,7 @@
 ---
 author: Ricardo G.
 categories: []
-date: 2020-01-24T11:50:00-05:00
+date: 2020-03-17T11:50:00-05:00
 draft: false
 tags: []
 title: 'Daily Log'
@@ -10,6 +10,10 @@ title: 'Daily Log'
 The idea here is to briefly jot down activities, changes, inquiries, research topics etc, so as to better document and gauge progress on this site specifically and growth as a artist, designer and developer in general.
 
 <!--more-->
+
+### 3-17-2020
+
+Crazy times. Corona virus has the world paralyzed. For my family's part, we're scared and resolute. Frustrated and yet despite all the failings, hopeful.
 
 ### 3-16-2020
 

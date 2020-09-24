@@ -20,7 +20,7 @@ Contact: ricardo.e.galvez@gmail.com
 
 ## Professional Accomplishments:
 
-## Freelance Designer and Developer, Brooklyn NY,  2018 - 2019
+## Freelance Designer and Developer, Brooklyn NY,  2018 - 2020
 
 **Il Corvo Pasta ~ Il Nido at the Alki Homestead, Seattle WA, 2018** 
 

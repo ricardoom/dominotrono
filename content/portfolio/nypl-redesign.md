@@ -56,7 +56,7 @@ newLayout: true
     figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the fully accessible drop Login drop down menu" title="NYPL home page Tablet view " >}}
 
      {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-      In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography specifications.
+      In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography.
     {{< /copy_wrapper >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}

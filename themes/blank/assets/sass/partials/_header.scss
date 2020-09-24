@@ -5,9 +5,7 @@
 .site-header {
   &__siteNameContainer {
     &--name {
-      @include media('>=phone') {
-        margin-left: 3vmin;
-      }
+      
       @include media('>=tablet') {
         margin: 0;
       }

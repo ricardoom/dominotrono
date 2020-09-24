@@ -48,7 +48,7 @@ enableRobotsTXT = "true"
     [params.instagram]
         name = "instagram"
         userName = "@rixblargh"
-        url = "https://www.instagram.com/ricardoericgalvez/"
+        url = "https://www.instagram.com/ricardogalvez.design/"
         iconClass = "instagram"
     [params.dribbble]
         name = "dribbble"

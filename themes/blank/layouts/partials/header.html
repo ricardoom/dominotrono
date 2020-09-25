@@ -53,7 +53,7 @@
       var justus = new FontFaceObserver('justus-pro');
       var frank = new FontFaceObserver('frank-new');
       var html = document.documentElement;
-      Promise.race([justus.load(), frank.load(), timeout(2000)]).then(function () {
+      Promise.race([justus.load(), frank.load(), timeout(3000)]).then(function () {
         html.classList.add('fonts-loaded');
       });
     };

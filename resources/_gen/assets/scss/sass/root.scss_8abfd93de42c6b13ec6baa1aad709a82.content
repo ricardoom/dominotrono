@@ -1488,7 +1488,7 @@ figure {
     @media (min-width: 19.25em) {
       .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid {
         grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;
-        grid-template-rows: minmax(320px, auto) minmax(150px, auto); } }
+        grid-template-rows: minmax(225px, auto) minmax(150px, auto); } }
     @media (min-width: 48em) {
       .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid {
         grid-template-columns: 2.5vw 1fr 2.5vw 1fr 2.5vw;

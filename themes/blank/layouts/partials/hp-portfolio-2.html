@@ -1,6 +1,3 @@
-
-
-
 {{ printf "<!-- home page portfolio block new layout 2 -->" | safeHTML }}
 <div class="portfolio-container">
   <a href="/portfolio/" class="portfolio-title">
@@ -12,27 +9,27 @@
     {{ range where $paginator.Pages.ByWeight "Section" "portfolio"}}
     <li class="item">
       {{ if and ( .Params.postImage1x ) ( ne .Params.postImage1x "" ) }}
-      {{ $ariaId := replaceRE "(\\s)" "-" .Page.Params.Title }}    
-      
+      {{ $ariaId := replaceRE "(\\s)" "-" .Page.Params.Title }}
+
       <a href="{{ .Permalink }}" aria-label="{{ $ariaId }}" class="item-link">
 
-          <h4 class="item-title">{{ .Title }}</h4>
-          <figure class="{{ .Params.svgColorClass }} item-figure">
-            <img height="315" width="315" data-srcset="{{ .Params.postImage1x }},
-                  {{ .Params.postImage2x }} 2x
-                  {{ if and ( .Params.postImage3x ) ( ne .Params.postImage3x "" ) }}
+        <h4 class="item-title">{{ .Title }}</h4>
+        <figure class="{{ .Params.svgColorClass }} item-figure">
+          <img height="315" width="315" data-srcset="{{ .Params.postImage1x }},
+            {{ .Params.postImage2x }} 2x
+            {{ if and ( .Params.postImage3x ) ( ne .Params.postImage3x "" ) }}
                   ,{{ .Params.postImage3x }} 3x
                   {{ end }}" sizes="(max-width: 20em) 100vw,
               (max-width: 50em) 75vw, 
               (max-width: 60em) 65vw" class="portfolioCard lazy" src="{{ .Params.postImageSqip }}"
-              data-src="{{ .Params.postImage1x }}" alt="{{ if .Params.postImageAlt }} {{ .Params.postImageAlt }}
+            data-src="{{ .Params.postImage1x }}" alt="{{ if .Params.postImageAlt }} {{ .Params.postImageAlt }}
               {{ else }}
                 {{ .Title }}
               {{ end }}" />
-          </figure>
+        </figure>
 
       </a>
-      
+
       {{ end }}
       {{ end }}
     </li>

@@ -1562,7 +1562,7 @@ figure {
         padding: 2ex; }
         @media (min-width: 19.25em) {
           .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__left > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twoByTwo.image-block__right > figcaption {
-            background-color: rgba(6, 24, 45, 0.8);
+            background-color: rgba(6, 24, 45, 0.95);
             top: -1.5em;
             right: -3em;
             position: relative;
@@ -1608,7 +1608,7 @@ figure {
         padding: 2ex; }
         @media (min-width: 19.25em) {
           .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__twentyWords > figcaption {
-            background-color: rgba(6, 24, 45, 0.8);
+            background-color: rgba(6, 24, 45, 0.95);
             top: -1.5em;
             right: -3em;
             position: relative;
@@ -1626,7 +1626,7 @@ figure {
         padding: 2ex; }
         @media (min-width: 19.25em) {
           .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.big-image > figcaption {
-            background-color: rgba(6, 24, 45, 0.8);
+            background-color: rgba(6, 24, 45, 0.95);
             top: -1.5em;
             right: -3em;
             position: relative;
@@ -1644,7 +1644,7 @@ figure {
         padding: 2ex; }
         @media (min-width: 19.25em) {
           .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image > figcaption, .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-left > figcaption {
-            background-color: rgba(6, 24, 45, 0.8);
+            background-color: rgba(6, 24, 45, 0.95);
             top: -1.5em;
             right: -3em;
             position: relative;
@@ -1662,7 +1662,7 @@ figure {
         padding: 2ex; }
         @media (min-width: 19.25em) {
           .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.small-image-right > figcaption {
-            background-color: rgba(6, 24, 45, 0.8);
+            background-color: rgba(6, 24, 45, 0.95);
             top: -1.5em;
             right: -3em;
             position: relative;

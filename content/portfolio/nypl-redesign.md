@@ -40,7 +40,7 @@ newLayout: true
     >}}
 
     {{< copy_wrapper class=" hero-grid__copyBlock" >}}
-    The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I lead our in-house efforts towards the design and implementation of their recommendations. In that role, I expanded and refined the visual and experience design to meet the library's standards for accessibility and progressive enhancement.
+    The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I led our in-house efforts towards designing and implementing their recommendations. I expanded and refined the visual and experience design to meet the library's accessibility and progressive enhancement standards.
     {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -97,18 +97,13 @@ newLayout: true
       figcaption="Detail from the home page section where staff picks are surfaced. This particular layout describes possibilities for overlay interactions within the book covers."
     >}}
 
-
-     {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
-        The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
-    {{< /copy_wrapper >}}
-
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 
         {{< copy_wrapper
           class="details-grid__twoByTwo copy-block__left" >}}
-          The login drop down in the header is fully keyboard and assistive device compatible
+          The login drop down in the header is fully keyboard and assistive device compatible. This portion was particularly challenging due an over abundance of breakpoints to accommodate a large variety of viewports and devices. 
         {{< /copy_wrapper>}}
 
         {{< image

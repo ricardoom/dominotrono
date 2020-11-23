@@ -51,7 +51,7 @@
 @mixin grid-figcaption {
   > figcaption {
     @include media('>=phone') {
-      background-color: transparentize($site-dark-blue, 0.2);
+      background-color: transparentize($site-dark-blue, 0.05);
       top: -1.5em;
       right: -3em;
       position: relative;

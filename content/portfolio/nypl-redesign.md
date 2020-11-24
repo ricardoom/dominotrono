@@ -30,11 +30,11 @@ newLayout: true
 
 {{< section_wrapper class="hero-grid" >}}
 
-    {{< image
+    {{< image_cld
+    loading="eager"
     class="hero-grid__imageBlock"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg 2x"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg"
+    
     alt="An image of the New York Public Library home page"
     figcaption=""
     >}}
@@ -47,11 +47,11 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
+    {{< image_cld
+    loading="eager"
     class="details-grid__twentyWords image-block__left"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960X960_2x/nypl-dot-org/nypl_ed_landingPage.jpg 2x"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
+    
     alt="An alternate image of the NYPL home page"
     figcaption="The above image demonstrates an alternate view of an internal page where due to a viewport constraint, the layout modulates to account for smaller screen size." title="NYPL home page Tablet view" >}}
 
@@ -63,13 +63,11 @@ newLayout: true
       The team worked diligently and thoroughly through various potential use cases and scenarios concerning patron devices, educational and cultural backgrounds.
     {{< /copy_wrapper >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twentyWords image-block__right"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_960/ar_4:3,c_crop,dpr_2.0,g_north_west,w_960/nypl-dot-org/nypl_tablet_grid.jpg 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
+      
       alt="An image of an interior page"
-      imgHeading=""
       figcaption="This grid overlay demonstrates the rational approach taken to page layout."
     >}}
 
@@ -78,21 +76,19 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__fiftyWords big-image"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582756732/nypl-dot-org/nypl.landing.attend.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582756732/nypl-dot-org/nypl.landing.attend.jpg 2x"
-      sccsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582756732/nypl-dot-org/nypl.landing.attend.jpg 3x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582756732/nypl-dot-org/nypl.landing.attend.jpg"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582756732/nypl-dot-org/nypl.landing.attend.jpg"
+      
       alt="An example of the Education landing page"
       figcaption="Modular templates can be used to create different kinds of layouts with minimal effort."
     >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__fiftyWords small-image"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1582753774/nypl-dot-org/nypl-hp-section.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582753774/nypl-dot-org/nypl-hp-section.jpg 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1582753774/nypl-dot-org/nypl-hp-section.jpg"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582753774/nypl-dot-org/nypl-hp-section.jpg"
       alt="An image detail from the home page"
       figcaption="Detail from the home page section where staff's monthly picks publicly shared. This particular layout describes possibilities for overlay interactions within the book covers."
     >}}
@@ -106,23 +102,19 @@ newLayout: true
           The login drop down in the header is completely keyboard and assistive device compatible. This portion was particularly challenging due to an overabundance of breakpoints to accommodate a large variety of viewports and devices. The majority of the SCSS for this particular feature was written by me.
         {{< /copy_wrapper>}}
 
-        {{< image
+        {{< image_cld
          class="details-grid__twoByTwo image-block__left"
-         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582755269/nypl-dot-org/nypl.login-dt.jpg"
-         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582755269/nypl-dot-org/nypl.login-dt.jpg"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582755269/nypl-dot-org/nypl.login-dt.jpg 2x"
-         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582755269/nypl-dot-org/nypl.login-dt.jpg 3x"
-         alt=""
+         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582755269/nypl-dot-org/nypl.login-dt.jpg"
+         
+         alt="a detail image of the dropdown login dialog"
          figcaption="Desktop and tablet version of the login dropdown"
         >}}
 
-        {{< image
+        {{< image_cld
           class="details-grid__twoByTwo image-block__right"
-          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582757335/nypl-dot-org/nypl-login-m2.jpg"
-          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582757335/nypl-dot-org/nypl-login-m2.jpg"
-          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582757335/nypl-dot-org/nypl-login-m2.jpg 2x"
-          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582757335/nypl-dot-org/nypl-login-m2.jpg 3x"
-          alt=""
+          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582757335/nypl-dot-org/nypl-login-m2.jpg"
+          
+          alt="another mage of the login dropdown for mobile devices"
           figcaption="The Mobile version of the login dropdown"
         >}}
 {{< /section_wrapper>}}

@@ -47,7 +47,7 @@ newLayout: true
     {{< image_cld
     loading="eager"
     class="hero-grid__imageBlock"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576178856/nypl-blogs/nypl-blog-post-comp.jpg"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576178856/nypl-blogs/nypl-blog-post-comp.jpg"
     alt="An image of the NYPL Blogs page"
     >}}
 
@@ -62,7 +62,7 @@ newLayout: true
       {{< image_cld
         loading="eager"
         class="details-grid__twentyWords image-block__left"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.jpg"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.jpg"
         
         alt="An image of an early concept wireframe"        
       >}}
@@ -79,7 +79,7 @@ newLayout: true
 
      {{< image_cld
       class="details-grid__twentyWords image-block__right"
-       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576180211/nypl-blogs/nypl-blogs-wire-medium.jpg"
+       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576180211/nypl-blogs/nypl-blogs-wire-medium.jpg"
        
        alt="An image of an early concept wireframe"
        figcaption="An early concept wireframe depicting how a feed of all the blog authors might be represented sorted alphabetically, with a bio, their latest posts and relevant links"
@@ -97,7 +97,7 @@ newLayout: true
 
     {{< image_cld
       class="details-grid__twoByTwo image-block__left"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582747788/nypl-blogs/nypl-blog-home-crop.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582747788/nypl-blogs/nypl-blog-home-crop.jpg"
        >}}
 
           {{< copy_wrapper class="details-grid__twoByTwo copy-block__right" >}}
@@ -106,7 +106,7 @@ newLayout: true
 
     {{< image_cld
       class="details-grid__twoByTwo image-block__right"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
       alt="this image is only a placeholder there is nothing to see"
     >}}
 
@@ -117,7 +117,7 @@ newLayout: true
 
         {{< image_cld
          class="details-grid__twoByTwo image-block__left"
-         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg"
+         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg"
          
          alt="an image of a blog post displaying Chinese language support"
          figcaption="An example of a Chinese language post"
@@ -125,7 +125,7 @@ newLayout: true
 
         {{< image_cld
           class="details-grid__twoByTwo image-block__right"
-          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg"
+          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg"
           
           alt="an image of the blog author's index page"
           figcaption="An example of a feed page where a blog author's posts can be scanned"

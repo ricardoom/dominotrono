@@ -7,26 +7,21 @@
   <p class="site-footer__siteCredit">&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   </p>
 </footer>
-{{ if .Site.IsServer }}
-
 <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
-
+{{ if .Site.IsServer }}
 
 {{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" }}
 <script src="{{ $script.Permalink }}"></script>
-
-<script type="text/javascript">
-  const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets" });
-  // Responsive Images via Cloudinary:
-  cl.responsive();
-</script>
-
 {{ else }}
 {{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" | fingerprint }}
 <script src="{{ $script.Permalink }}"></script>
 
 {{ end }}
-
+<script type="text/javascript">
+  const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets" });
+  // Responsive Images via Cloudinary:
+  cl.responsive();
+</script>
 </body>
 
 </html>

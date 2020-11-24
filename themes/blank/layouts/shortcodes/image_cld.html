@@ -3,7 +3,7 @@
 <!-- prettier-ignore -->
 {{ $class := .Get "class" }}
 {{ $title := .Get "title" }}
-{{ $src := .Get "src" }}
+{{ $dataSrc := .Get "data-src" }}
 
 {{ $loading := .Get "loading" }}
 {{ $imgHeading := .Get "imgHeading" }}
@@ -24,7 +24,7 @@
   <img 
     class="{{ $cl.class }}"
     src="{{ $placeHolder }}"
-    data-src="{{ $src }}"
+    data-src="{{ $dataSrc }}"
     {{ with $loading }}
     loading="{{ . }}"
     {{ else }}

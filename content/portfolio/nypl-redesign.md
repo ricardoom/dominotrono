@@ -40,7 +40,7 @@ newLayout: true
     >}}
 
     {{< copy_wrapper class=" hero-grid__copyBlock" >}}
-    The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I lead our in-house efforts towards the design and implementation of their recommendations. In that role, I expanded and refined the visual and experience design to meet the library's standards for accessibility and progressive enhancement.
+    The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I led our in-house efforts towards designing and implementing their recommendations. I expanded and refined the visual and experience design to meet the library's accessibility and progressive enhancement standards.
     {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -53,14 +53,14 @@ newLayout: true
     srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
     srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960X960_2x/nypl-dot-org/nypl_ed_landingPage.jpg 2x"
     alt="An alternate image of the NYPL home page"
-    figcaption="An alternate view of the NYPL home page, where we explore different possibilities for the fully accessible drop Login drop down menu" title="NYPL home page Tablet view " >}}
+    figcaption="The above image demonstrates an alternate view of an internal page where due to a viewport constraint, the layout modulates to account for smaller screen size." title="NYPL home page Tablet view" >}}
 
      {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-      In my role as design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and, web typography.
+      As design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and web typography specifications.
     {{< /copy_wrapper >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-      The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
+      The team worked diligently and thoroughly through various potential use cases and scenarios concerning patron devices, educational and cultural backgrounds.
     {{< /copy_wrapper >}}
 
     {{< image
@@ -70,7 +70,7 @@ newLayout: true
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x3/v1548722309/nypl-dot-org/nypl_tablet_grid.jpg"
       alt="An image of an interior page"
       imgHeading=""
-      figcaption="An example of an interior landing page dedicated towards giving voice to the wide variety of expertise the library has to offer."
+      figcaption="This grid overlay demonstrates the rational approach taken to page layout."
     >}}
 
 
@@ -94,13 +94,8 @@ newLayout: true
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582753774/nypl-dot-org/nypl-hp-section.jpg 2x"
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1582753774/nypl-dot-org/nypl-hp-section.jpg"
       alt="An image detail from the home page"
-      figcaption="Detail from the home page section where staff picks are surfaced. This particular layout describes possibilities for overlay interactions within the book covers."
+      figcaption="Detail from the home page section where staff's monthly picks publicly shared. This particular layout describes possibilities for overlay interactions within the book covers."
     >}}
-
-
-     {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
-        The team worked diligently and thoroughly through a wide variety of potential use cases and scenarios concerning patron devices, educational and cultural background, and interests.
-    {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
 
@@ -108,7 +103,7 @@ newLayout: true
 
         {{< copy_wrapper
           class="details-grid__twoByTwo copy-block__left" >}}
-          The login drop down in the header is fully keyboard and assistive device compatible
+          The login drop down in the header is completely keyboard and assistive device compatible. This portion was particularly challenging due to an overabundance of breakpoints to accommodate a large variety of viewports and devices. The majority of the SCSS for this particular feature was written by me.
         {{< /copy_wrapper>}}
 
         {{< image

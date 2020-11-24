@@ -10,7 +10,8 @@ but only print the first letter of each title
 <li>
   <ul class="post-grid {{ $firstLetter }}">
     <li class="drop-cap">
-      <a href="{{ .Permalink }}" aria-labelledby="{{ $ariaId }}">{{ $firstLetter }}<span class="small-letter">{{ $secondLetter }}</span></a>
+      <a href="{{ .Permalink }}" aria-labelledby="{{ $ariaId }}">{{ $firstLetter }}<span
+          class="small-letter">{{ $secondLetter }}</span></a>
     </li>
     <li class="full-title" id="{{ $ariaId }}">{{ .Title }}</li>
     <li data-date="{{ .Date }}">{{ .Date.Format "Monday, January 2, 2006" }}</li>

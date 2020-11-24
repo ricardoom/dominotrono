@@ -1,5 +1,8 @@
 {
   "editor.tabSize": 2,
   "svg.preview.background": "transparent",
-  "editor.autoIndent": false
+  "editor.autoIndent": false,
+  "cSpell.words": [
+    "NYPL's"
+  ]
 }

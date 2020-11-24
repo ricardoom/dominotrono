@@ -122,7 +122,7 @@ newLayout: true
 
     {{< copy_wrapper
       class="details-grid__twoByTwo copy-block__right" >}}
-      We spoke at length about color schemes and what colors best represented the new restaurant's look and feel. I had two covers for the Russian Criminal Tattoo books in a mood board presentation. Ultimately we settled on having yellow be the predominant color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
+      We spoke at length about color schemes and what colors best represented the new restaurant's look and feel. I had two covers for the Russian Criminal Tattoo books in a mood board presentation. Ultimately we settled on having yellow be the predominant color. Fresh pasta takes on a warm, somewhat desaturated color, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
       {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -187,7 +187,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
     {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
-      The final piece of the puzzle was to integrate the site with Google's webmaster and business tools. Following the recommendations, I created a JSON/LD file following the specifications laid out by Schema.org. I created the necessary entries appropriate for the type of business, hours, and location, used the webmaster tools to validate and inserted the code into the markup.
+      The final piece of the puzzle was to integrate the site with Google's webmaster and business tools. Following the recommendations,  I generated a JSON/LD file following the specifications laid out by Schema.org. All of the required entries appropriate for the type of business, hours, and location, used the webmaster tools to validate, and inserted the code into the markup.
       {{< /copy_wrapper>}}
 
 {{< /section_wrapper >}}

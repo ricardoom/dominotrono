@@ -4,5 +4,8 @@
   "editor.autoIndent": false,
   "cSpell.words": [
     "NYPL's"
-  ]
+  ],
+  "html.format.indentHandlebars": true,
+  "html.format.preserveNewLines": false,
+  "html.format.enable": false
 }

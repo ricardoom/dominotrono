@@ -2,7 +2,7 @@
 <!-- this kind of sucks but in order to provide low res AND lower pixel density images, this has to accept FOUR versions of the same image... bummer... -->
 
 <!-- prettier-ignore -->
-
+{{- $notlazy := .Get "lazy" -}}
 {{- $class := .Get "class" -}}
 {{- $title := .Get "title" -}}
 {{- $src := .Get "src" -}}
@@ -23,16 +23,31 @@
 {{ if and ( $imgHeading ) ( ne $imgHeading "" ) }}
 <h3>{{ $imgHeading }}</h3>
 {{ end }}
+
 <figure class="{{ $class }}" {{ if $title }} title="{{ $title }}" {{ end }}>
+  {{ if $notlazy }}
   <img srcset="{{ $srcsetOne }},
   {{ $srcsetTwo }},
   {{ if and ( $srcsetThree ) ( ne $srcsetThree "" ) }}
      {{ $srcsetThree }}, 
   {{ end }}
   {{ if and ( $srcsetFour  ) ( ne $srcsetFour "" ) }} 
-      {{ $srcsetFour }} {{ end }}"
-   src="{{ $src }}" {{  with .Get "alt" }} alt="{{ . }}" {{ else }} alt="an image in the post {{ .Params.Title }}" {{ end }} sizes="(max-width: 20em) 100vw, (max-width: 60em) 85vw, (max-width: 80em) 70vw" />
+      {{ $srcsetFour }} {{ end }}" src="{{ $src }}" {{  with .Get "alt" }} alt="{{ . }}" {{ else }}
+    alt="an image in the post {{ .Params.Title }}" {{ end }}
+    sizes="(max-width: 20em) 100vw, (max-width: 60em) 85vw, (max-width: 80em) 70vw" />
+  {{ else }}
+
+  <img class="lazy" data-srcset="{{ $srcsetOne }},
+  {{ $srcsetTwo }},
+  {{ if and ( $srcsetThree ) ( ne $srcsetThree "" ) }}
+     {{ $srcsetThree }}, 
+  {{ end }}
+  {{ if and ( $srcsetFour  ) ( ne $srcsetFour "" ) }} 
+      {{ $srcsetFour }} {{ end }}" data-src="{{ $src }}" {{  with .Get "alt" }} alt="{{ . }}" {{ else }}
+    alt="an image in the post {{ .Params.Title }}" {{ end }}
+    sizes="(max-width: 20em) 100vw, (max-width: 60em) 85vw, (max-width: 80em) 70vw" />
+  {{ end }}
   {{ with .Get "figcaption" }}
-    <figcaption>{{ . }}</figcaption>
+  <figcaption>{{ . }}</figcaption>
   {{ end }}
 </figure>

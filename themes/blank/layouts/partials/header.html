@@ -39,26 +39,9 @@
   <link rel="stylesheet" href="{{ $prodStyle.Permalink }}">
   {{ end }}
   {{ hugo.Generator }}
+
   <link rel="stylesheet" href="{{ $typeKitLink }}">
-  <script>
-    var script = document.createElement('script');
-    script.src = '/js/vendor/fontfaceObserver/fontfaceobserver.standalone.js';
-    script.async = true;
-    script.onload = function () {
-      function timeout(time) {
-        return new Promise(function (resolve, reject) {
-          setTimeout(reject, time);
-        });
-      }
-      var justus = new FontFaceObserver('justus-pro');
-      var frank = new FontFaceObserver('frank-new');
-      var html = document.documentElement;
-      Promise.race([justus.load(), frank.load(), timeout(3000)]).then(function () {
-        html.classList.add('fonts-loaded');
-      });
-    };
-    document.head.appendChild(script);
-  </script>
+  {{ partial "fontface_script.html" . }}
 </head>
 
 

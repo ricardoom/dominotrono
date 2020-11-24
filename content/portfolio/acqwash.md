@@ -97,5 +97,4 @@ newLayout: true
               For the app's body and label type, we went with Nunito Sans. It has a variety of weights available, giving us maximum flexibility where needed, and we could be confident in readability at any screen size.
             {{< /copy_wrapper>}}
 
-
 {{< /section_wrapper>}}

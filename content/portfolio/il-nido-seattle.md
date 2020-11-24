@@ -24,13 +24,14 @@ projectDate: ''
 tags: ['Logo Design', 'Web Design', 'Web Development', 'Brand Identity']
 weight: 2
 externalURL: 'http://ilnidoseattle.com'
-projectDesc: 'This is a freelance project contracted by the Chef / Owner of Il Corvo Pasta in Seattle Wa. He was opening up a new restaurant and needed a simple, maintenance free website and SEO work.'
+projectDesc: 'A freelance design and development project contracted by the Chef / Owner of Il Nido Seattle. This new business required a simple, maintenance-free website.'
 newLayout: true
 ---
 
 {{< section_wrapper class="hero-grid" >}}
 
       {{< image
+        lazy="false"
         class="hero-grid__imageBlock"
         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
@@ -39,7 +40,7 @@ newLayout: true
        >}}
 
         {{< copy_wrapper class="hero-grid__copyBlock" >}}
-          Chef Mike of Il Corvo Pasta in Seattle Wa. approached me to design and develop the website for his new restaurant concept Il Nido. Coming from the grind of having to maintain a Wordpress site, he did not want to have to worry about constant updating, so we decided that a simple website was the best choice.  We settled on a  brochure style site giving the most basic information. With this in mind, we also wanted the site load as fast as possible, reasoning that his clientele would most likely be accessing the site from their mobile devices.
+          Chef Mike Easton of Il Corvo Pasta in Seattle approached me to design and develop the website for his new restaurant concept Il Nido. No longer interested in maintaining a blog, he decided to close down his WordPress site and go with a simple brochure style single page site.
         {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -55,20 +56,20 @@ newLayout: true
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1570024423/il-nido-il-corvo/il-nido-screens.jpg 2x"
       alt="An image of the Il Nido website at various viewport dimensions"
       imgHeading=""
-      figcaption="Utilizing Sketch I created several drafts of possible outcomes. The main idea was to incorporate Chef Mikes photography into a screen design that captured the spirit of the location while not being overly dominated by imagery alone."
+      figcaption="Utilizing Sketch, I created several drafts of possible outcomes. The main idea was to incorporate Chef Mike's photography into a screen design that captured the location's spirit while not being overly dominated by imagery alone."
       >}}
 
-        {{< image
-         class="details-grid__fiftyWords small-image"
-         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
-         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582758771/il-nido-il-corvo/il-nido-hp.jpg 2x"
-         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582758771/il-nido-il-corvo/il-nido-hp.jpg 3x"
-         alt="An image of the home page screen"
-         figcaption="The single page achieves a simple goal: displays the location, hours and phone number, with a simple button to make a reservation."
-        >}}
+      {{< image
+        class="details-grid__fiftyWords small-image "
+        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
+        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
+        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582758771/il-nido-il-corvo/il-nido-hp.jpg 2x"
+        srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582758771/il-nido-il-corvo/il-nido-hp.jpg 3x"
+        alt="An image of the home page screen"
+        figcaption="The single page achieves a simple goal: displays the location, hours and phone number, with a simple button to make a reservation."
+      >}}
       {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
-      Due to the restaurant's menu changing daily with respect to season, we settled on displaying only location, hours, and contact were required. Chef Mike opted to use the Resy system for handling reservations. We decided a button-like link would be best to direct customers to obtain a booking.
+      Due to the restaurant's daily and seasonal menu, we settled on displaying only the street address, hours, and contact information. This almost business card-like approach dovetails nicely with the chef's use of social media for promotion and marketing. Chef Mike opted to use the Resy system for handling reservations. 
 
       {{< /copy_wrapper >}}
 
@@ -89,7 +90,7 @@ newLayout: true
       >}}
 
       {{< image
-          class="details-grid__fiftyWords small-image"
+          class="details-grid__fiftyWords small-image "
           src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
           srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
           srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210902/il-nido-il-corvo/logos/il_nido_logo_metal_2x.jpg 2x"
@@ -99,7 +100,7 @@ newLayout: true
 
       {{< copy_wrapper
         class="details-grid__fiftyWords copy-block" >}}
-        A primary objective was to create a logo and type treatment that reflected visually and conceptually the spirit of Chef Mike's vision to convey a warm, modern aesthetic combined with a traditional approach to cuisine.
+        A primary objective was to create a logo and type treatment that reflected visually and conceptually Chef Mike's vision.
       {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -107,7 +108,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
     {{< image
-      class="details-grid__twoByTwo image-block__left"
+      class="details-grid__twoByTwo image-block__left "
       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg 2x"
@@ -116,12 +117,12 @@ newLayout: true
     
      {{< copy_wrapper 
      class="details-grid__twoByTwo copy-block__right" >}}
-      When we began talking about logos initially, my idea was simply to create a graphic "nest". Mike wanted to keep the crow imagery consistent across brands, so we worked together to create the crow resting on a branch. Conceptually, the crow imagery anchors and binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
+      Initially, my idea was to create a graphic "nest" as a play on the Italian word nido. However, after a few rounds of discussion, we agreed brand integrity was more important. We decided to maintain the crow imagery consistent across brands, settling on the crow resting on a branch. Conceptually, the crow imagery binds the two restaurants together, reinforcing the relationship between brand, cuisine, and philosophy.
     {{< /copy_wrapper >}}
 
     {{< copy_wrapper
       class="details-grid__twoByTwo copy-block__right" >}}
-      We spoke at length about color schemes, and what colors best represented the new restaurant's look and feel. In a mood board presented, I had two covers for the Russian Criminal Tattoo books, the yellow and blue. Ultimately we settled on having the yellow be the predominate color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
+      We spoke at length about color schemes and what colors best represented the new restaurant's look and feel. I had two covers for the Russian Criminal Tattoo books in a mood board presentation. Ultimately we settled on having yellow be the predominant color. Fresh pasta takes on a yellowish hue, the interior at Il Corvo has a similar tone, and overall it presents a warm and inviting feeling. We included warm wood and earth tones to the final composition as a direct analog of the flooring, seating, and overall exterior colors of the historic location in West Seattle.
       {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}

@@ -884,7 +884,7 @@ code {
       padding: 2ex;
       text-decoration: none; }
     @media (min-width: 48em) {
-      .site-header__siteNavigation--items li:nth-child(n).social-icon {
+      .site-header__siteNavigation--items li.social-icon:nth-child(n) {
         filter: drop-shadow(1px 1px 1px #111111); } }
     .site-header__siteNavigation--items .text-link {
       align-self: center; }

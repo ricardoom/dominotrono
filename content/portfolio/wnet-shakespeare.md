@@ -7,7 +7,7 @@ author: Ricardo G.
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_80,t_portfolio_hero_16_9/v1581539539/wnet/shakespeareHP.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_80,t_portfolio_hero_2x/v1581539539/wnet/shakespeareHP.jpg'
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_80,t_portfolio_hero_3x/v1581539539/wnet/shakespeareHP.jpg'
-portfolioHeroSqip: '../media/portfolio/shakespeare/shakespeareHPCrop.svg'
+portfolioHeroSqip: '../media/portfolio/shakespeare/shakespeareSqip.svg'
 portfolioHeroAlt: ''
 heroFigcaption: ''
 postImageSqip: '../media/portfolio/shakespeare/shakespeare_postimage.svg'

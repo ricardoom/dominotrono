@@ -55,7 +55,7 @@ newLayout: true
     {{< image_cld
       class="details-grid__twentyWords image-block__left"
       
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"
       alt="An image of the NYPL Discovery full record result"
       figcaption="Developers and Designers can easily copy SVG code here and paste it into their applications or prototypes."
       >}}

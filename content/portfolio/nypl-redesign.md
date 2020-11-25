@@ -90,7 +90,7 @@ newLayout: true
       
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582753774/nypl-dot-org/nypl-hp-section.jpg"
       alt="An image detail from the home page"
-      figcaption="Detail from the home page section where staff's monthly picks publicly shared. This particular layout describes possibilities for overlay interactions within the book covers."
+      figcaption="Detail from the home page section where the staff's monthly picks are publicly shared. This particular layout describes possibilities for overlay interactions within the book covers."
     >}}
 
 {{< /section_wrapper >}}

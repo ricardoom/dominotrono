@@ -15,7 +15,7 @@ portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1582837490/simply-e/se-screens-view-ios.jpg'
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_3x/v1582837490/simply-e/se-screens-view-ios.jpg'
 portfolioHeroAlt: 'A partial image of the SimplyE design click flow'
-svgClipObjectClass: 'variableDots'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--brown'
 tags: ['User Experience', 'Accessibility', 'Interface Design']
 weight: 5
@@ -34,12 +34,10 @@ newLayout: true
 
 {{< section_wrapper class="hero-grid" >}}
 
-    {{< image
+    {{< image_cld
     class="hero-grid__imageBlock"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1582837490/simply-e/se-screens-view-ios.jpg"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1582837490/simply-e/se-screens-view-ios.jpg"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1582837490/simply-e/se-screens-view-ios.jpg 2x"
-    srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_3x/v1582837490/simply-e/se-screens-view-ios.jpg 3x"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582837490/simply-e/se-screens-view-ios.jpg"
+    
     alt="An image of the iOS user flow screens"
     >}}
 
@@ -52,22 +50,18 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-        {{< image
-         class="details-grid__twoByTwo image-block__left"
-         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1582830616/simply-e/se-detail-view-ios.jpg"
-         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1582830616/simply-e/se-detail-view-ios.jpg"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_2x/v1582830616/simply-e/se-detail-view-ios.jpg 2x"
-         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_3x/v1582830616/simply-e/se-detail-view-ios.jpg 3x"
-         alt=""
-         figcaption="The iOS item selection screen. As a user would scroll they would also be presented with other titles by that author, or of similar genre. Additionally the app would also provide recommendations created by both algorithm and by librarians."
-        >}}
+    {{< image_cld
+      class="details-grid__twoByTwo image-block__left"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582830616/simply-e/se-detail-view-ios.jpg"
+      
+      alt=""
+      figcaption="The iOS item selection screen. As a user would scroll they would also be presented with other titles by that author, or of similar genre. Additionally the app would also provide recommendations created by both algorithm and by librarians."
+    >}}
 
-        {{< image
+        {{< image_cld
          class="details-grid__twoByTwo image-block__right"
-         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1582830616/simply-e/se-main-player-ios.jpg"
-         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1582830616/simply-e/se-main-player-ios.jpg"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_2x/v1582830616/simply-e/se-main-player-ios.jpg 2x"
-         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_2x/v1582830616/simply-e/se-main-player-ios.jpg 3x"
+         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582830616/simply-e/se-main-player-ios.jpg"
+         
          alt="An image of the main player screen"
          figcaption="The main player screen"
         >}}
@@ -76,12 +70,10 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-        {{< image
+        {{< image_cld
          class="details-grid__fiftyWords big-image"
-         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1582831627/simply-e/se-adroid-audio-screens.jpg"
-         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1582831627/simply-e/se-adroid-audio-screens.jpg"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1582831627/simply-e/se-adroid-audio-screens.jpg 2x"
-         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_3x/v1582831627/simply-e/se-adroid-audio-screens.jpg 3x"
+         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x,q_auto,w_auto,c_scale,f_auto/v1582831627/simply-e/se-adroid-audio-screens.jpg"
+         
          alt="an image of the Android user flow and screens"
          figcaption="The Android version of the player and user flow. "
         >}}

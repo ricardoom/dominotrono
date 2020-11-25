@@ -16,7 +16,7 @@ portfolioHero3x: ''
 portfolioHeroAlt: 'An image of the NYPL Shared Resource Collection screens, from mobile to desktop'
 heroFigcaption: ''
 figcaption: ''
-svgClipObjectClass: 'variableDots'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--red'
 tags: ['Progressive Enhancement', 'Responsive Design', 'Accessibility']
 weight: 4
@@ -31,19 +31,17 @@ projectCredits:
   ]
 projectDate: '2017 - 2018'
 externalURL: 'https://www.nypl.org/research/collections/shared-collection-catalog/'
-projectDesc: 'An interface designed to allow researchers to gain access to materials contained in collections held by NYPL, Princeton, and Columbia Universities.'
+projectDesc: 'The Shared Resource Collection interface allows researchers to access materials in special collections held by NYPL, Princeton, and Columbia Universities.'
 newLayout: true
 ---
 
 {{< section_wrapper class="hero-grid" >}}
 
-    {{< image
+    {{< image_cld
     class="hero-grid__imageBlock"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1578418283/nypl-discovery/nypl-shared-composed.jpg 1x"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1578418283/nypl-discovery/nypl-shared-composed.jpg 2x"
-    srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1578418283/nypl-discovery/nypl-shared-composed.jpg 3x"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1578418283/nypl-discovery/nypl-shared-composed.jpg"
-    alt="An image of the NYPL Discovery full record result"
+    
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1578418283/nypl-discovery/nypl-shared-composed.jpg"
+    alt="An image of the NYPL Discovery full record result."
     >}}
 
     {{< copy_wrapper
@@ -60,24 +58,20 @@ newLayout: true
       Much of our research indicated that our users would access the application from a variety of devices. All of the application's various states and layouts are composed from components described by the <a href="/portfolio/nypl-design-toolkit">NYPL Design Toolkit</a>
     {{< /copy_wrapper>}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twentyWords image-block__left"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_480/v1578421262/nypl-discovery/nypl-shared-full-record.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_480/v1578421262/nypl-discovery/nypl-shared-full-record.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,q_80,w_480/v1578421262/nypl-discovery/nypl-shared-full-record.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,q_80,w_480/v1578421262/nypl-discovery/nypl-shared-full-record.jpg 3x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1578421262/nypl-discovery/nypl-shared-full-record.jpg"
+    
       alt="an image of the a full record screen"
-      figcaption="The full item screen contains all relevant details a researcher might need to know about a given item"
+      figcaption="The full item screen contains all relevant details a researcher might need to know about a given item."
     >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twentyWords image-block__right"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_90,w_480/v1578424312/nypl-discovery/nypl-shared-filters.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,q_90,w_480/v1578424312/nypl-discovery/nypl-shared-filters.jpg 1x"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,q_90,w_480/v1578424312/nypl-discovery/nypl-shared-filters.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,q_90,w_480/v1578424312/nypl-discovery/nypl-shared-filters.jpg 3x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1578424312/nypl-discovery/nypl-shared-filters.jpg"
+      
       alt="an image of the filtering tool active"
-      figcaption="The filters are functionally independent of Javascript, as well as keyboard and screen reader accessible"
+      figcaption="The filters are functionally independent of Javascript, as well as keyboard and screen reader accessible."
     >}}
 
     {{< copy_wrapper

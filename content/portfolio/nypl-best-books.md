@@ -33,23 +33,22 @@ externalURL: 'https://www.nypl.org/books-music-movies/recommendations/best-books
 projectCredits:
   ['Edwin Guzman', 'Kang Ting Peng', 'Willa Armstrong', 'Courtney McGee']
 projectDate: '2016 - 2018'
-projectDesc: 'We created the Best Books app to highlight the expertise and extensive breadth of knowledge held by the librarians working at NYPL. We built an interactive tool so users could discover what the librarians were reading and could not put down.'
+projectDesc: 'We created the Best Books app to highlight the expertise and extensive breadth of knowledge held by the librarians working at NYPL. We built an interactive tool allowing users to discover what the librarians were reading and recommend to their patrons.'
 newLayout: true
 ---
 
 {{< section_wrapper class="hero-grid" >}}
 
-    {{< image
+    {{< image_cld
+      loading="eager"
       class="hero-grid__imageBlock"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/b_rgb:ffffff,t_portfolio_full/v1575923207/nypl-staff-picks/staffPicksLanding2.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/b_rgb:ffffff,t_portfolio_full/v1575923207/nypl-staff-picks/staffPicksLanding2.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/b_rgb:ffffff,dpr_2.0,t_portfolio_full/v1575923207/nypl-staff-picks/staffPicksLanding2.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/b_rgb:ffffff,dpr_3.0,t_portfolio_full/v1575923207/nypl-staff-picks/staffPicksLanding2.jpg 3x"
-      alt="Staff Picks Landing Page"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/b_rgb:ffffff,q_auto,w_auto,c_scale,f_auto/v1575923207/nypl-staff-picks/staffPicksLanding2.jpg"
+      
+      alt="An image of the Staff Picks Landing Page"
     >}}
 
      {{< copy_wrapper class=" hero-grid__copyBlock" >}}
-        The New York Public Library offers many librarian curated lists. At the start of each season and the end of each year &quot;Staff Picks and &quot;Best of...&quot; the librarians create lists from all branches. Part of our task was to make a fully Accessible site. One of the challenges faced was building a website application that functions without JavaScript. As a team, we had to make decisions along the way to create a reliably progressive page where the basic functionality of the page did not rely on JavaScript. Aditionally the app must operable by keyboard or assertive technology. Please see live example links as well as the initial concept designs and experience design work in the images below.
+        The New York Public Library offers many librarian curated lists. Annually and Seasonally, a group of librarians creates the Staff Picks and Best of lists.  Part of our task was to make a fully Accessible web application where these lists could be searched, sorted, and filtered.  
      {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -58,60 +57,56 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
   
-    {{< image
+    {{< image_cld
       class="details-grid__fiftyWords big-image"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1548801966/nypl-staff-picks/spLargeLayouts.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0,c_scale,q_80,w_1280/v1548801966/nypl-staff-picks/spLargeLayouts.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0,c_scale,q_80,w_1280/v1548801966/nypl-staff-picks/spLargeLayouts.jpg 3x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1548801966/nypl-staff-picks/spLargeLayouts.jpg"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548801966/nypl-staff-picks/spLargeLayouts.jpg"
       alt="An image of a variety of layouts"
-      figcaption="Layouts in Sketch representing mobile and larger screen lists and single items"
+      figcaption="Design artifacts laid out in Sketch representing mobile, tablet, and desktop screen lists and single items."
     >}}
+
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__right" >}}
+      One of the challenges faced was building a website application that could reliably function without JavaScript. Additionally, the app must be fully operable by keyboard or assertive technology. Please see live example links and the initial concept designs and experience design work in the images below.
+    {{< /copy_wrapper>}}
 
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-       My initial wireframes setting out the fundamental structure of the end-user view allowed the team to discuss the core facets of the application. The app had to be WCAG 2.0 Accessible, be functional if JavaScript was disabled. These wireframe mockups allowed us to discuss in real-time, semantics, and possible bottlenecks.
+       My initial wireframes outline the structure of the end-user view. These gave substance to the initial concept and allowed the team to discuss the core facets of the application. The app had to be WCAG 2.0 Accessible, be functional if JavaScript was disabled. These mockups allowed us to discuss semantics, design, and behavior.
     {{< /copy_wrapper >}}
     
-    {{< image
+    {{< image_cld
       class="details-grid__twentyWords image-block__left"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1575990335/nypl-staff-picks/sp_mobile_initial.jpg 1x"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1575990335/nypl-staff-picks/sp_mobile_initial.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_3.0/v1575990335/nypl-staff-picks/sp_mobile_initial.jpg 3x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1575990335/nypl-staff-picks/sp_mobile_initial.jpg"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1575990335/nypl-staff-picks/sp_mobile_initial.jpg"
       alt="An image of the mobile layout in wireframe form"
       figcaption="Early stages of our application design. The above represents our working mockup of the web app's mobile version."
     >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-     Our mockup and prototyping tool allowed the team to add comments, anticipate possible functional issues, create content guidelines as well solidify the semantic structure. Our prototyping tool allowed us to rapidly make decisions and come to a consensus about features and functionality.
+     We used the web app Moqups, which allowed the team to add comments, anticipate possible functional issues, create content guidelines, and solidify the semantic structure. Our prototyping tools allowed us to rapidly make decisions and come to a consensus about features and functionality.
     {{< /copy_wrapper >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twentyWords image-block__right"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,/v1575995429/nypl-staff-picks/nyplBbMobileWireEx.jpg 1x"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1575995429/nypl-staff-picks/nyplBbMobileWireEx.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1575995429/nypl-staff-picks/nyplBbMobileWireEx.jpg 3x"
-      src="/media/portfolio/nypl_staff_picks/nyplBbMobileWireEx.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1575995429/nypl-staff-picks/nyplBbMobileWireEx.jpg"
       alt="an image of mobile view wireframe"
-      figcaption="A wireframe example of our application's \"expanded\" state and the team's notes, comments and questions surrounding functionality"
+      figcaption="This wireframe provides an example of the application's \"expanded\" state and the team's notes, comments, and questions surrounding functionality."
      >}}
 
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__fiftyWords big-image"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,g_north_west,h_1089,q_72,w_1280/v1575995017/nypl-staff-picks/large_screen_initial.jpg 1x"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_1280,dpr_2.0/v1548801962/nypl-staff-picks/large_screen_initial.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_1280,dpr_3.0/v1548801962/nypl-staff-picks/large_screen_initial.jpg 3x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,g_north_west,h_1089,q_72,w_1280/v1575995017/nypl-staff-picks/large_screen_initial.jpg"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/g_north_west,q_auto,w_auto,c_scale,f_auto/v1575995017/nypl-staff-picks/large_screen_initial.jpg"
       alt="Staff Picks Landing Page"
-      figcaption="The full-size wireframe, along with specifications, notes, and comments."
+      figcaption="This image demonstrates a full-size wireframe, along with specifications, notes, and comments."
       >}}
 
 {{< /section_wrapper >}}
@@ -120,13 +115,12 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-      {{< image
+      {{< image_cld
         class="details-grid__fiftyWords big-image"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1548801972/nypl-staff-picks/staff-picks-components.jpg 1x"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1548801972/nypl-staff-picks/staff-picks-components.jpg 2x"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1548801972/nypl-staff-picks/staff-picks-components.jpg"
+       
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548801972/nypl-staff-picks/staff-picks-components.jpg"
         alt="An image of a variety of layouts for key components"
-        figcaption="A variety of small screen layouts, each designed to meet the overall project requirements while being capable of handling different kinds of data."
+        figcaption="Each of these small-screen layouts meets the overall project requirements. Capable of handling different kinds of data."
        >}}
 
     {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
@@ -137,12 +131,10 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twoByTwo image-block__left"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_320/v1576000908/nypl-staff-picks/basic_mobile_card_v3.jpg 1x"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1576000908/nypl-staff-picks/basic_mobile_card_v3.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_3.0/v1576000908/nypl-staff-picks/basic_mobile_card_v3.jpg 3x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576000908/nypl-staff-picks/basic_mobile_card_v3.jpg"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576000908/nypl-staff-picks/basic_mobile_card_v3.jpg"
       alt=""
       figcaption=""
       >}}

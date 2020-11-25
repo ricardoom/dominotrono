@@ -1,12 +1,15 @@
 {{ $mobileNav := resources.Get "js/mobileNav.js" }}
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $socialSprites := resources.Get "js/sprites.js" }}
+{{ $cloudinaryCore := "https://unpkg.com/cloudinary-core@2.11.3/cloudinary-core-shrinkwrap.min.js"}}
 
 <footer class="site-footer">
   <p class="site-footer__siteCredit">&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   </p>
 </footer>
+<script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
 {{ if .Site.IsServer }}
+
 {{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" }}
 <script src="{{ $script.Permalink }}"></script>
 {{ else }}
@@ -14,7 +17,11 @@
 <script src="{{ $script.Permalink }}"></script>
 
 {{ end }}
-
+<script type="text/javascript">
+  const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets" });
+  // Responsive Images via Cloudinary:
+  cl.responsive();
+</script>
 </body>
 
 </html>

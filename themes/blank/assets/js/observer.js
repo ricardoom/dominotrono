@@ -3,7 +3,7 @@
 ///
 document.addEventListener('DOMContentLoaded', function() {
   const lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
-
+  
   if ('IntersectionObserver' in window) {
     //console.log('IntersectionObserver done working...');
     let lazyImageObserver = new IntersectionObserver(function(

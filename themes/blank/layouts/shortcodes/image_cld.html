@@ -1,0 +1,42 @@
+<!-- short code for big-blog-image.html -->
+<!-- this kind of sucks but in order to provide low res AND lower pixel density images, this has to accept FOUR versions of the same image... bummer... -->
+<!-- prettier-ignore -->
+{{ $class := .Get "class" }}
+{{ $title := .Get "title" }}
+{{ $dataSrc := .Get "data-src" }}
+
+{{ $loading := .Get "loading" }}
+{{ $imgHeading := .Get "imgHeading" }}
+
+{{ $placeHolder := $.Site.Params.placeHolderSVG }}
+{{ $cl := $.Site.Params.cloudinary }}
+
+<!--
+  add cloudinary snazz here instead of all this confusing srset etc...
+-->
+
+{{ if and ( $imgHeading ) ( ne $imgHeading "" ) }}
+<h3>{{ $imgHeading }}</h3>
+{{ end }}
+
+<figure class="{{ $class }}" {{ if $title }} title="{{ $title }}" {{ end }}>
+  
+  <img 
+    class="{{ $cl.class }}"
+    src="{{ $placeHolder }}"
+    data-src="{{ $dataSrc }}"
+    {{ with $loading }}
+    loading="{{ . }}"
+    {{ else }}
+    loading="lazy"
+    {{ end }}
+    {{  with .Get "alt" }} 
+      alt="{{ . }}" 
+    {{ else }}
+    alt="an image in the post {{ .Params.Title }}"
+    {{ end }}
+     />
+  {{ with .Get "figcaption" }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>

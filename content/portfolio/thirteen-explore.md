@@ -16,7 +16,7 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero3x: ''
 portfolioHeroAlt: 'Image of the Thirteen Explore inital screen'
 heroFigcaption: ''
-svgClipObjectClass: 'bigCircle'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--lava-orange'
 tags: ['Visual Design', 'User Experience', 'Interface Design']
 weight: 7
@@ -30,16 +30,15 @@ newLayout: true
 
 {{< section_wrapper class="hero-grid" >}}
 
-      {{< image
+      {{< image_cld
       class="hero-grid__imageBlock"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1549730983/thirteen-explore/13_explore_init.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1549730983/thirteen-explore/13_explore_init.jpg 1x"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1549730983/thirteen-explore/13_explore_init.jpg 2x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,t_portfolio_hero_16_9,f_auto/v1549730983/thirteen-explore/13_explore_init.jpg"
+      
       alt="An image of the app's intial screen"
       >}}
 
       {{< copy_wrapper class="hero-grid__copyBlock" >}}
-          One of my favorite and most challenging projects was Thirteen Explore. The project was conceived by our team to bring video content from all of WNET/THIRTEEN's properties to our users in an intuitive way. I was the lead designer on this project, responsible for wireframing, prototyping workflows, and typographic treatments. We used a familiar horizontal lane structure to encourage swiping and tapping on episode cards with carefully curated imagery to allow users to easily and quickly find their favorite shows or to explore and find something new and compelling.
+        One of my favorite and most challenging projects was Thirteen Explore. The project was conceived by our team to bring video content from all of WNET/THIRTEEN's properties to our users in an intuitive way. I was the lead designer on this project, responsible for wireframing, prototyping workflows, and typographic treatments. We used a familiar horizontal lane structure to encourage swiping and tapping on episode cards. Combined with carefully curated imagery to easily find favorite shows or explore and find something new and compelling.
         {{< /copy_wrapper>}}
 
    {{< /section_wrapper >}}
@@ -48,32 +47,29 @@ newLayout: true
   
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twentyWords image-block__left"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730985/thirteen-explore/program_screen.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730985/thirteen-explore/program_screen.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730985/thirteen-explore/program_screen.jpg 2x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549730985/thirteen-explore/program_screen.jpg"
+      
       alt="An image of the app's program screen"
       figcaption="A key feature was the app's program screen"
       >}}
 
-    {{< image
+    {{< image_cld
         class="details-grid__twentyWords image-block__right"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730984/thirteen-explore/program_modal.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730984/thirteen-explore/program_modal.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730984/thirteen-explore/program_modal.jpg 2x"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549730984/thirteen-explore/program_modal.jpg"
+        
         alt="An example of a program modal"
-        figcaption="An example of a program modal where a use can share, schedule for later or watch."
+        figcaption="An example of a program modal where a user can share, schedule for later or watch."
         >}}
 
 {{< /section_wrapper >}}
   
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549754554/thirteen-explore/13.explore.launch.screen.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549754554/thirteen-explore/13.explore.launch.screen.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549754554/thirteen-explore/13.explore.launch.screen.jpg 2x"
+    {{< image_cld
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549754554/thirteen-explore/13.explore.launch.screen.jpg"
+        
         class="details-grid__twoByTwo image-block__left"
         alt="An image of the app's launch screen"
         figcaption="The program launch screen"

@@ -16,7 +16,7 @@ portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHeroAlt: 'Image card linking to a the portfolio page'
 heroFigcaption: ''
 title: 'NYPL Blogs'
-svgClipObjectClass: 'squaresCircles'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--acid-green'
 tags:
   [

@@ -15,7 +15,7 @@ portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722310/nypl-dot-org/desktop.jpg'
 portfolioHeroAlt: ''
 heroFigcaption: ''
-svgClipObjectClass: 'squaresCircles'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--purple'
 tags: ['Visual Design', 'Web Design']
 weight: 1

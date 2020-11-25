@@ -15,7 +15,7 @@ postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_po
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1569947424/il-nido-il-corvo/il-nido-Destkop-Production-1x1.jpg'
 postImageAlt: 'A thumbnail image of the Il Nido Seattle Homepage'
 figcaption: ''
-svgClipObjectClass: 'bigCircle'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--yellow'
 projectRoles: ['Art Direction', 'Designer', 'Developer']
 projectClients: ['Chef Mike Easton of Il Nido Seattle']

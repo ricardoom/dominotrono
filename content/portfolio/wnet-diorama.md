@@ -10,13 +10,13 @@ postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_po
 postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x/v1581613958/diorama/diorama.intro.rhinoHP.jpg'
 postImageAlt: 'A Card for the Diorama project'
 portfolioHeroSqip: '../media/portfolio/diorama/dioramaHeroSqip.svg'
-portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1549730263/diorama/diorama.launch.screen.png'
-portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1549730263/diorama/diorama.launch.screen.png'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1549730263/diorama/diorama.launch.screen.jpg'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1549730263/diorama/diorama.launch.screen.jpg'
 portfolioHero3x: ''
 portfolioHeroAlt: 'An image of the main title card for Diorama'
 heroFigcaption: ''
 figcaption: ''
-svgClipObjectClass: 'fourDots'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--acid-green'
 tags: ['Graphic Design','Visual Design', 'Illustration']
 weight: 6
@@ -31,18 +31,16 @@ newLayout: true
 
 {{< section_wrapper class="hero-grid" >}}
 
-    {{< image
+    {{< image_cld
       class="hero-grid__imageBlock"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1549730263/diorama/diorama.launch.screen.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_80,w_1280/v1549730263/diorama/diorama.launch.screen.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,q_80,w_1280/v1549730263/diorama/diorama.launch.screen.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,q_80,w_1280/v1549730263/diorama/diorama.launch.screen.jpg 3x"
+     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549730263/diorama/diorama.launch.screen.jpg"
+      
       alt="An Image of a the main title card from the video series"
       >}}
 
      {{< copy_wrapper
         class="hero-grid__copyBlock" >}}
-        This work was for a short video series by PBS Digital Studios, produced in New York at WNET / Thirteen about the dioramas at the American Muesum of Natural History in New York. My role as a designer was to work with  producer <a href="https://twitter.com/fieldguidetom" target="_blank">Tom McNamara</a> in creating a comprehensive look and feel for the entire project and brand. Working on a tight deadline, I created typographic treatments, motion graphics and custom illustrations. Additionally, we created and delivered supplemtal infographics to be used on the project's website and disseminated to various PBS Educational portals.
+        This work was for a short video series by PBS Digital Studios, produced in New York at WNET / Thirteen about the dioramas at the American Museum of Natural History in New York. My role as a designer was to work with producer <a href="https://twitter.com/fieldguidetom" target="_blank">Tom McNamara</a> in creating a comprehensive look and feel for the entire project and brand. Working on a tight deadline, I created typographic treatments, motion graphics, and custom illustrations.
       {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -60,19 +58,17 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
   
-    {{< image
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730029/diorama/diorama_vid_graphic.png"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730029/diorama/diorama_vid_graphic.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730029/diorama/diorama_vid_graphic.png 2x"
+    {{< image_cld
+     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549730029/diorama/diorama_vid_graphic.jpg"
+      
       class="details-grid__fiftyWords big-image"
       alt="An Image of a card from the video series"
-      figcaption="A card \"still\" from the Why Moose Fight episode"
+      figcaption="A card still-shot from the Why Moose Fight episode"
       >}}
 
-    {{< image
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730541/diorama/diorama_termite_vid_card.png"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730541/diorama/diorama_termite_vid_card.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730541/diorama/diorama_termite_vid_card.png 2x"
+    {{< image_cld
+     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549730541/diorama/diorama_termite_vid_card.jpg"
+      
       class="details-grid__fiftyWords small-image-right"
       alt="An Image of a card from the video series"
       figcaption="Static images were used as slides and segways between scenes"
@@ -82,20 +78,18 @@ newLayout: true
   
   {{< section_wrapper class="details-grid" >}}
 
-    {{< image
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730497/diorama/diorama_termite_vid_card_2.png 2x"
+    {{< image_cld
+     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549730497/diorama/diorama_termite_vid_card_2.jpg"
+      
       class="details-grid__twoByTwo image-block__left"
       alt="An Image of a card from the video series"
       imgHeading=""
       figcaption=""
       >}}
   
-     {{< image
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730468/diorama/diorama_termite_vid_card_4.png"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730468/diorama/diorama_termite_vid_card_4.png 2x"
+     {{< image_cld
+       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549730468/diorama/diorama_termite_vid_card_4.jpg"
+        
         class="details-grid__twoByTwo image-block__right"
         alt="An Image of a card from the video series"
         imgHeading=""
@@ -108,28 +102,26 @@ newLayout: true
 
       {{< copy_wrapper
         class=" details-grid__twentyWords copy-block__left" >}}
-        Much of my work on this project took place in Photoshop and Illustrator. Tom and I spend time going over the photography of the dioramas looking for opportunities for engaging layouts and infographics or interstitial cards for the videos.
+        Much of my work on this project took place in Photoshop and Illustrator. Tom and I surveyed the diorama photography, searching for interesting points of departure for layouts, infographics, and interstitial cards for the videos.
       {{< /copy_wrapper>}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twoByTwo image-block__left"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729987/diorama/what_is_diorama_social.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549729987/diorama/what_is_diorama_social.png 2x"
+     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549729987/diorama/what_is_diorama_social.jpg"
+      
       alt="An image of an infographic from the series"
-      figcaption="What is a Diorama inforgraphic"
+      figcaption="What is a Diorama infographic"
     >}}
     
-        {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__right" >}}
-          In this infographic, we sought to create a compelling backdrop for bullet points covering the fundamentals of what a diorama is, especially in an age where dioramas could be considered an anachronistic. Our discussions centered around how we could create a dictionary-like poster that would resonate in this age of screen ubiquity.
-        {{< /copy_wrapper>}}
+      {{< copy_wrapper
+        class="details-grid__twoByTwo copy-block__right" >}}
+        In this infographic, we sought to create a compelling backdrop for bullet points covering the fundamentals of what a diorama is, especially in an age where dioramas could be considered an anachronistic. Our discussions centered around how we could create a dictionary-like poster that would resonate in this age of screen ubiquity.
+      {{< /copy_wrapper>}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twoByTwo image-block__right"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729894/diorama/diorama_mooseinfo.png"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549729894/diorama/diorama_mooseinfo.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549729894/diorama/diorama_mooseinfo.png 2x"
+     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549729894/diorama/diorama_mooseinfo.jpg"
+      
       alt="An image of an infographic from the series"
       imgHeading=""
       figcaption="Another entry in our \"dictionary\""
@@ -139,18 +131,17 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730177/diorama/diorama.intro.rhino.png"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1549730177/diorama/diorama.intro.rhino.png"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1549730177/diorama/diorama.intro.rhino.png 2x"
+    {{< image_cld
+     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1549730177/diorama/diorama.intro.rhino.jpg"
+      
       class="details-grid__twentyWords image-block__left"
       alt="An Image of a card from the video series"
       imgHeading=""
       figcaption="the rhino"
     >}}
 
-        {{< copy_wrapper
-          class="details-grid__twentyWords copy-block__right" >}}
-          Tom and I had a great time on this project. He and I visited the lower reaches of AMNH, where much of the research science takes place. From the giant Coelacanth preserved in a weird metal crate filled with stinky formaldehyde to the offices of the world's foremost expert on termites, AMNH is a vital and essential institution.
-        {{< /copy_wrapper>}}
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__right" >}}
+      Tom and I had a great time on this project. He and I visited the lower reaches of AMNH, where much of the research science takes place. From the giant Coelacanth preserved in a weird metal crate filled with stinky formaldehyde to the offices of the world's foremost expert on termites.
+    {{< /copy_wrapper>}}
 {{< /section_wrapper >}}

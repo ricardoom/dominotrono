@@ -16,7 +16,7 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_9
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_3x/v1548801966/nypl-staff-picks/spLargeLayouts.jpg'
 portfolioHeroAlt: 'An image of the the Best Books initial screen'
 heroFigcaption: ''
-svgClipObjectClass: 'diagonalDot'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--green-blue'
 tags:
   [

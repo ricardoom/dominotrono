@@ -16,7 +16,7 @@ portfolioHero3x: ''
 portfolioHeroAlt: 'An image of the NYPL Shared Resource Collection screens, from mobile to desktop'
 heroFigcaption: ''
 figcaption: ''
-svgClipObjectClass: 'variableDots'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--red'
 tags: ['Progressive Enhancement', 'Responsive Design', 'Accessibility']
 weight: 4

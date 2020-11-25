@@ -15,7 +15,7 @@ portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722203/nypl-design-toolkit/Design-Toolkit.jpg'
 portfolioHeroAlt: 'An image of the website'
 heroFigcaption: ''
-svgClipObjectClass: 'oneCircle'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--punk-pink'
 tags: ['Design Systems']
 weight: 3
@@ -24,23 +24,21 @@ projectClients: ['NYPL Digital Team']
 projectCredits: ['Mauricio Giraldo Arteaga', 'Willa Armstrong', 'Edwin Guzman']
 projectDate: '2016 - 2018'
 externalURL: 'https://nypl.github.io/design-toolkit/'
-projectDesc: "The Design Toolkit was the Library's robust guide for semantics, design, and accessibility. Complete with functional examples and ready to use code."
+projectDesc: "The Design Toolkit was the Library's robust guide and design system for semantics, style, behavior, and accessibility. Complete with functional examples and ready to use code."
 newLayout: true
 ---
 
 {{< section_wrapper class="hero-grid" >}}
 
-      {{< image
+      {{< image_cld
         class="hero-grid__imageBlock"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722203/nypl-design-toolkit/dtk.small.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1548722203/nypl-design-toolkit/dtk.small.jpg 2x"
-        srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_3x/v1548722203/nypl-design-toolkit/dtk.small.jpg 3x"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1548722203/nypl-design-toolkit/dtk.small.jpg"
+        
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto,t_portfolio_hero_16_9/v1548722203/nypl-design-toolkit/dtk.small.jpg"
         alt="An image of a NYPL Design Toolkit page"
       >}}
 
     {{< copy_wrapper class="hero-grid__copyBlock">}}
-      The Design Toolkit at NYPL is our online style-guide and foundation for a more extensive design system. We wanted to free the front end developers up from having to make design decisions and create an opportunity to develop reusable components and styles. We also needed to have robust documentation and code examples. It is very much a work in progress, lots of hurdles were placed and overcome, and many more still in place. It's inception, and much of the critical work was put in place by <a href="https://twitter.com/mgiraldo" target="_blank">Mauricio Giraldo Arteaga</a>
+      The Design Toolkit at NYPL was our online style-guide and foundation for a more extensive design system. We wanted to free the front end developers up from having to make design decisions and create an opportunity to develop reusable components and styles. We also needed to have robust documentation and code examples.
     {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -50,17 +48,16 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
      {{< copy_wrapper
-        class=" details-grid__twentyWords copy-block__left" >}}
-        We wanted to follow industry best practices and reduce our use of raster images as a  means of improving page performance and overall bandwidth usage. Part of that effort was to employ the use of SVGs wherever we had flat, simple graphics, like icons and logos. SVGs are markup and, while not cacheable, are very flexible, portable. We took extra precautions to ensure our SVG icons were accessible.
+        class=" details-grid__twentyWords copy-block__right" >}}
+        We wanted to follow industry best practices and reduce our use of raster images to improve page performance and overall bandwidth usage. Part of that effort was to employ SVGs wherever we had flat, simple graphics, like icons and logos. SVGs are markup and, while not cacheable, are very flexible and portable. We took extra precautions to ensure our SVG icons were accessible.
       {{< /copy_wrapper>}}
 
-    {{< image
-      class="details-grid__twentyWords image-block__right"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"
+    {{< image_cld
+      class="details-grid__twentyWords image-block__left"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1551120694/nypl-design-toolkit/NYPL_Design_toolkit_svg.jpg"
       alt="An image of the NYPL Discovery full record result"
-      figcaption="Developers and Designers can easily copy SVG code here and paste into their applications or prototypes"
+      figcaption="Developers and Designers can easily copy SVG code here and paste it into their applications or prototypes."
       >}}
 
 {{< /section_wrapper >}}
@@ -71,25 +68,20 @@ newLayout: true
 
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      We conducted a large survey of not only nypl.org but all of our internal tools and micro-sites and applications for proper WCAG 2.0 Compliance, with the understanding that the DTK will need to inform and influence all projects going forward. All the components included in the Design Tool Kit would have their accessibility rules baked into their design patterns. Structure and style would be fully accessible by default.
+      We conducted an extensive survey of nypl.org and all of our internal tools, micro-sites, and applications for proper WCAG 2.0 Compliance. With the understanding that the Design Toolkit will need to inform and influence all projects going forward. For structure and style to be fully accessible by default, all components included in the Design Tool Kit would have their accessibility rules baked into their design patterns.
     {{< /copy_wrapper>}}
         
-    {{< image
+    {{< image_cld
       class="details-grid__twentyWords image-block__left"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg 3x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
+      
       alt=""
       figcaption="The NYPL brand set color table"
       >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twentyWords image-block__right"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg 3x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
       alt=""
       figcaption=""
     >}}
@@ -103,23 +95,19 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-        {{< image
+        {{< image_cld
           class="details-grid__twoByTwo image-block__left"
-          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,w_640/v1576615031/nypl-design-toolkit/nypl-dtk-forms-detail.jpg"
-          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,w_640/v1576615031/nypl-design-toolkit/nypl-dtk-forms-detail.jpg"
-          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576615031/nypl-design-toolkit/nypl-dtk-forms-detail.jpg  2x"
-          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576615031/nypl-design-toolkit/nypl-dtk-forms-detail.jpg 3x"
+          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576615031/nypl-design-toolkit/nypl-dtk-forms-detail.jpg"
+          
           alt=""
-          figcaption="Each section has direction on how to utilize each component; all the correct classes, and attributes as well as the necessary JavaScript for handling the state of a given component"
+          figcaption="Each section has explicit directions on how to utilize each component.  Each component is supplied with correct classes and attributes and the necessary JavaScript for handling state."
         >}}
 
-        {{< image
+        {{< image_cld
           class="details-grid__twoByTwo image-block__right"
-          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,w_480/v1576700879/nypl-design-toolkit/nypt-dtk-results-detail.jpg"
-          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,w_480/v1576700879/nypl-design-toolkit/nypt-dtk-results-detail.jpg"
-          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_480/v1576700879/nypl-design-toolkit/nypt-dtk-results-detail.jpg  2x"
-          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_480/v1576700879/nypl-design-toolkit/nypt-dtk-results-detail.jpg 3x"
-          alt=""
+          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576700879/nypl-design-toolkit/nypt-dtk-results-detail.jpg"
+
+          alt="A detailed image from the Design Toolkit"
           figcaption=""
         >}}
 
@@ -131,25 +119,21 @@ newLayout: true
 
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-     Broadly speaking, the guiding principle in our design was to remove as much guesswork a developer might have concerning design, structure, or behavior. The final product culminated in an NPM project which could be integrated into other sites or applications, or by downloading and compiling the SASS file and then copy and pasting individual instances of a component into one's app.
+     Broadly speaking, the guiding principle in our design was to remove as much guesswork a developer might have concerning design, structure, or behavior. The final product culminated in two avenues for implementation. The first method being via an NPM module install. Which could then be integrated into a given application. Another way to use the Design Toolkit is by compiling the SASS file. And then copy and pasting individual instances of a component into one's app.
     {{< /copy_wrapper>}}
 
-        {{< image
+        {{< image_cld
          class="details-grid__twentyWords image-block__left"
-         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-buttons.jpg"
-         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-buttons.jpg 1x"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-buttons.jpg  2x"
-         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1576612344/nypl-design-toolkit/nypl-dtk-buttons.jpg 3x"
+         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576612344/nypl-design-toolkit/nypl-dtk-buttons.jpg"
+         
          alt=""
          figcaption=""
         >}}
 
-        {{< image
+        {{< image_cld
           class="details-grid__twentyWords image-block__right"
-          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,w_640/v1576615031/nypl-design-toolkit/nypl.dtk-microformat-detail.jpg"
-          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,w_640/v1576615031/nypl-design-toolkit/nypl.dtk-microformat-detail.jpg"
-          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,w_640/v1576615031/nypl-design-toolkit/nypl.dtk-microformat-detail.jpg  2x"
-          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_1.0,w_640/v1576615031/nypl-design-toolkit/nypl.dtk-microformat-detail.jpg 3x"
+          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576615031/nypl-design-toolkit/nypl.dtk-microformat-detail.jpg"
+          
           alt=""
           figcaption="Details from a component. Listed are all the necessary usage instructions."
         >}}

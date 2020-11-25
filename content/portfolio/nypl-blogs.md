@@ -44,12 +44,11 @@ newLayout: true
 
 {{< section_wrapper class="hero-grid" >}}
 
-    {{< image
+    {{< image_cld
+    loading="eager"
     class="hero-grid__imageBlock"
-    src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1576178856/nypl-blogs/nypl-blog-post-comp.jpg"
-    srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1576178856/nypl-blogs/nypl-blog-post-comp.jpg 1x"
-    srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1576178856/nypl-blogs/nypl-blog-post-comp.jpg 2x"
-    srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1576178856/nypl-blogs/nypl-blog-post-comp.jpg 3x"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576178856/nypl-blogs/nypl-blog-post-comp.jpg"
+    alt="An image of the NYPL Blogs page"
     >}}
 
     {{< copy_wrapper class=" hero-grid__copyBlock" >}}
@@ -60,12 +59,11 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-      {{< image
+      {{< image_cld
+        loading="eager"
         class="details-grid__twentyWords image-block__left"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.jpg 1x"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_2.0,w_640/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.jpg 2x"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,dpr_3.0,w_640/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.jpg 3x"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.jpg"
+        
         alt="An image of an early concept wireframe"        
       >}}
 
@@ -74,16 +72,15 @@ newLayout: true
         Our initial concepts centered around presenting a grid or masonry layout of blog artifacts representational of the breadth and depth of the NYPL blog ecosystem.
       {{< /copy_wrapper >}}
   
-          {{< copy_wrapper
-            class=" details-grid__twentyWords copy-block__left" >}}
-            A key feature requested from the librarians was to have an author's index. This simple prototype screen was the result. Ultimately this feature was never implemented, but I think it was a great solution to a persistent problem facing staff: How can staff quickly scan a given author's post and locate an article and share it with a patron?
-          {{< /copy_wrapper>}}
-     {{< image
+      {{< copy_wrapper
+        class=" details-grid__twentyWords copy-block__left" >}}
+        A key feature requested from the librarians was to have an author's index. This simple prototype screen was the result. Ultimately this feature was never implemented, but I think it was a great solution to a persistent problem facing staff: How can staff quickly scan a given author's post and locate an article and share it with a patron?
+      {{< /copy_wrapper>}}
+
+     {{< image_cld
       class="details-grid__twentyWords image-block__right"
-       src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576180211/nypl-blogs/nypl-blogs-wire-medium.jpg"
-       srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576180211/nypl-blogs/nypl-blogs-wire-medium.jpg 1x"
-       srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1548722029/nypl-blogs/nypl-blogs-wire-medium.jpg 2x"
-       srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_3.0/v1548722029/nypl-blogs/nypl-blogs-wire-medium.jpg 3x"
+       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576180211/nypl-blogs/nypl-blogs-wire-medium.jpg"
+       
        alt="An image of an early concept wireframe"
        figcaption="An early concept wireframe depicting how a feed of all the blog authors might be represented sorted alphabetically, with a bio, their latest posts and relevant links"
     >}}
@@ -98,22 +95,18 @@ newLayout: true
         Our design employed many new fields from the post editor that were not present in older iterations. Rather than try to make the old post work in our new system, we opted to make the old post's fields the default for our new layout and let editors add in their new content (images, block, and pull quotes) going forward.
     {{< /copy_wrapper>}}
 
-    {{< image
-       class="details-grid__twoByTwo image-block__left"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_1x/v1582747788/nypl-blogs/nypl-blog-home-crop.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_2x/v1582747788/nypl-blogs/nypl-blog-home-crop.jpg 2x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_1x/v1582747788/nypl-blogs/nypl-blog-home-crop.jpg"
+    {{< image_cld
+      class="details-grid__twoByTwo image-block__left"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582747788/nypl-blogs/nypl-blog-home-crop.jpg"
        >}}
 
           {{< copy_wrapper class="details-grid__twoByTwo copy-block__right" >}}
           We encountered several issues centered around how to present older posts in our new layout. Ultimately we decided to move forward with putting as much of the blog post's content to work in a variety of page contexts. If there were images anywhere in the post, we ingested it, and used that image for the header, even where aspect ratios and resolutions might be less than optimal.
         {{< /copy_wrapper >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twoByTwo image-block__right"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
-      Two="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full_size_2x/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg 2x" 
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_full/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548722029/nypl-blogs/NYPL.blog.fullPost.v1.jpg"
       alt="this image is only a placeholder there is nothing to see"
     >}}
 
@@ -122,22 +115,18 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-        {{< image
+        {{< image_cld
          class="details-grid__twoByTwo image-block__left"
-         src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_1x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg"
-         srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_1x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg 1x"
-         srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_2x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg 2x"
-         srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,g_custom/t_2x3_3x/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg 3x"
+         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582748555/nypl-blogs/nypl-blogs-chinese.jpg"
+         
          alt="an image of a blog post displaying Chinese language support"
          figcaption="An example of a Chinese language post"
         >}}
 
-        {{< image
+        {{< image_cld
           class="details-grid__twoByTwo image-block__right"
-          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg"
-          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg"
-          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_2x/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg 2x"
-          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_3x/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg 3x"
+          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582750098/nypl-blogs/nypl-blogs-blogger.jpg"
+          
           alt="an image of the blog author's index page"
           figcaption="An example of a feed page where a blog author's posts can be scanned"
         >}}

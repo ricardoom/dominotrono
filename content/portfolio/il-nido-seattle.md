@@ -30,12 +30,11 @@ newLayout: true
 
 {{< section_wrapper class="hero-grid" >}}
 
-      {{< image
-        lazy="false"
+      {{< image_cld
+        loading="eager"
         class="hero-grid__imageBlock"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_2x/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg 2x"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
+
         alt="An image of the Il Nido website at various viewport dimensions"
        >}}
 
@@ -49,22 +48,19 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__fiftyWords big-image"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1570024423/il-nido-il-corvo/il-nido-screens.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1570024423/il-nido-il-corvo/il-nido-screens.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1570024423/il-nido-il-corvo/il-nido-screens.jpg 2x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570024423/il-nido-il-corvo/il-nido-screens.jpg"
+
       alt="An image of the Il Nido website at various viewport dimensions"
       imgHeading=""
       figcaption="Utilizing Sketch, I created several drafts of possible outcomes. The main idea was to incorporate Chef Mike's photography into a screen design that captured the location's spirit while not being overly dominated by imagery alone."
       >}}
 
-      {{< image
+      {{< image_cld
         class="details-grid__fiftyWords small-image "
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1582758771/il-nido-il-corvo/il-nido-hp.jpg 2x"
-        srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1582758771/il-nido-il-corvo/il-nido-hp.jpg 3x"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582758771/il-nido-il-corvo/il-nido-hp.jpg"
+
         alt="An image of the home page screen"
         figcaption="The single page achieves a simple goal: displays the location, hours and phone number, with a simple button to make a reservation."
       >}}
@@ -79,21 +75,18 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-      {{< image
+      {{< image_cld
         class="details-grid__fiftyWords big-image"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_2.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png 2x"
-        srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_3.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png 3x"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png"
+
         alt="An image of various iterations of the Il Nido logo"
         figcaption="Various iterations of the logo."
       >}}
 
-      {{< image
+      {{< image_cld
           class="details-grid__fiftyWords small-image "
-          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
-          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
-          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570210902/il-nido-il-corvo/logos/il_nido_logo_metal_2x.jpg 2x"
+          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
+          
           alt="An image of the Il Nido cut into steel"
           figcaption="The logo cut into a slab of Core-10 steel."
       >}}
@@ -107,11 +100,10 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twoByTwo image-block__left "
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__33/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg 2x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570209447/il-nido-il-corvo/logos/il_nido_logos_vC2_2x.jpg"
+
       alt="An image of various iterations of the Il Nido logo"
     >}}
     
@@ -129,41 +121,37 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< image
+    {{< image_cld
         class="details-grid__twoByTwo image-block__left"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570214653/il-nido-il-corvo/tattoo_books.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570214653/il-nido-il-corvo/tattoo_books.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25_2x/v1570214653/il-nido-il-corvo/tattoo_books.jpg 2x"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570214653/il-nido-il-corvo/tattoo_books.jpg"
+        
         alt="Image of the Russian Criminal Tattoo books"
         imgHeading=""
         figcaption=""
         >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twoByTwo image-block__right"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215745/il-nido-il-corvo/exterior.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215745/il-nido-il-corvo/exterior.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215745/il-nido-il-corvo/exterior.jpg 2x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570215745/il-nido-il-corvo/exterior.jpg"
+      
       alt="An image of the Alki House exterior"
       imgHeading=""
       figcaption=""
         >}}
 
-    {{< image
+    {{< image_cld
       class="details-grid__twoByTwo image-block__left"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/homestead_interior.jpg"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/homestead_interior.jpg"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25_2x/v1570215746/il-nido-il-corvo/homestead_interior.jpg 2x"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570215746/il-nido-il-corvo/homestead_interior.jpg"
+      
       alt="An image of the interior of the Alki House under construction"
       imgHeading=""
       figcaption=""
       >}}
 
-    {{< image
+    {{< image_cld
         class="details-grid__twoByTwo image-block__right"
-        src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/log.jpg"
-        srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25/v1570215746/il-nido-il-corvo/log.jpg"
-        srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t__25_2x/v1570215746/il-nido-il-corvo/log.jpg 2x"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570215746/il-nido-il-corvo/log.jpg"
+
         alt="A close up image of wooden beams found in the Alki Homestead"
         imgHeading=""
         figcaption=""

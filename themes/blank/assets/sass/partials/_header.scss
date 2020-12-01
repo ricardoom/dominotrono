@@ -4,12 +4,15 @@
 
 .site-header {
   &__siteNameContainer {
+    padding: 3.25ex 2.5ex;
+
     &--name {
       
       @include media('>=tablet') {
         margin: 0;
       }
-      @include responsive-font(2.25vw, 24px, 48px, 64px);
+      // @include responsive-font(2.25vw, 24px, 48px, 64px);
+      font-size: clamp(24px, 2.25vw, 48px);
       @include basic-drop-shadow;
       align-self: end;
       color: $site-white;

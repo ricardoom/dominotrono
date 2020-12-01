@@ -37,7 +37,7 @@
     }
 
     @include media('>=tablet') {
-      padding-left: 1.5vw;
+      // padding-left: 1.5vw;
     }
 
     margin: 0;
@@ -51,7 +51,7 @@
     }
 
     @include media('>=tablet') {
-      margin-left: 1.5vw;
+      // margin-left: 1.5vw;
     }
 
     font-size: 1.8rem;
@@ -75,7 +75,7 @@
     }
 
     margin: 5vw 0 0;
-    padding: 0 1.5vw;
+    // padding: 0 1.5vw;
 
     // &__mastHead {
     //   flex: 1 1 100%;

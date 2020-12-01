@@ -41,13 +41,11 @@ html {
   background-color: $site-background-color;
   background-repeat: no-repeat;
   background: rgba(9, 84, 104, 1);
-  background: -webkit-linear-gradient(bottom right, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
-  background: -moz-linear-gradient(bottom right, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
   background: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
-  background-attachment: fixed;
-  background-origin: 0 0;
-  background-position: 0 0;
-  background-size: cover;
+  // background-attachment: fixed;
+  // background-origin: 0 0;
+  // background-position: 0 0;
+  // background-size: cover;
   color: $site-white;
   font-family: $sans-serif;
   font-size: $base-font;

@@ -3,7 +3,7 @@
 ///
 
 .site-summary {
-  @include basic-article-wrapper('>=phone', 95vw);
+  @include basic-article-wrapper('>=phone', $max-line-length);
 
   @include media('>=desktop') {
     border-left: 0;

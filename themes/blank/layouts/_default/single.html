@@ -1,4 +1,7 @@
+{{ $local := .Site.IsServer }}
+{{ if $local }}
 {{ printf "<!-- +++ default single item  -->" | safeHTML }}
+{{ end  }}
 {{ partial "header.html" . }}
 <main>
   <div class="grid-wrapper">
@@ -24,3 +27,6 @@
 </main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
+{{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}

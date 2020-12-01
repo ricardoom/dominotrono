@@ -1,4 +1,8 @@
-<!-- ++ default list template ++ -->
+{{ $local := .Site.IsServer }}
+{{ if $local }}
+{{ printf "<!-- ++ default list template ++ -->" | safeHTML }}
+{{ end  }}
+
 
 {{ partial "header.html" . }}
 <main class="posts">

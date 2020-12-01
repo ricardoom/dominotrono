@@ -5,7 +5,7 @@
 $sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
   'Segoe UI Emoji', 'Segoe UI Symbol';
 
-$serif: 'Liberation Serif', Times, Cambria, Utopia, 'Hoefler Text', 'Nimbus Roman No9 L Regular', 'Times New Roman',
+$serif: Cambria, 'Liberation Serif', Times, Utopia, 'Hoefler Text', 'Nimbus Roman No9 L Regular', 'Times New Roman',
   serif;
 
 $monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter',
@@ -25,42 +25,23 @@ $justus-pro: 'justus-pro', $serif;
 ///
 /// type size
 ///
-$base-font-raw: 62.5;
-$base-font: $base-font-raw * 1%;
-$base-font-small: ($base-font * 0.85);
-$base-font-normal: ($base-font * 1.8);
-$base-font-gigantic: ($base-font * 3.5);
+// $base-font-raw: 62.5;
+$base-font: var(--s0);
+$base-font-small: var(--s-1);
+$base-font-normal: var(--s0);
+$base-font-gigantic: var(--s2);
 $base-letter-spacing: 0.01;
 
 ///
 /// Needs Refactoring but, in short term, fix the line length
 ///
 
-$max-line-length: 60ch;
+$max-line-length: var(--measure);
 
 ///
 /// Mixins
 ///
 
-
-/// TODO: remove descender fixing... 
-///
-/// descender fixing
-///
-
-// @mixin descender($descender-bg: '') {
-//   background-image: linear-gradient(currentColor, currentColor);
-//   background-repeat: no-repeat;
-//   background-size: 100% 0.0625em;
-//   background-position: center bottom 21%;
-//   background-origin: padding-box;
-//   //color: $color;
-//   padding: 10px 0;
-//   text-decoration: none;
-//   text-shadow: 3px 0 $descender-bg, 2px 0 $descender-bg, 1px 0 $descender-bg, -1px 0 $descender-bg, -2px 0 $descender-bg,
-//     -3px 0 $descender-bg;
-//   transition: color 0.1s ease-out;
-// }
 
 ///
 /// basic <h#> shadow
@@ -170,8 +151,8 @@ code {
 
     p,
     ul {
-      font-size: 1.8rem;
-      line-height: 1.65;
+      // font-size: 1.8rem;
+      // line-height: 1.65;
     }
 
     ul {

@@ -6,6 +6,7 @@
 @import 'partials/functions';
 @import 'vendor/include_media';
 @import 'vendor/fluid_type';
+@import 'partials/scaleRules';
 @import 'partials/custom_breakpoints';
 @import 'partials/colors';
 @import 'partials/typography';
@@ -27,12 +28,6 @@
 @import 'partials/skill_block';
 @import 'partials/footer';
 
-// rules
-//
-/// Box Sizing
-/// TODO: Make sure this box-sizing rule is in fact the one we want
-///
-
 * {
   box-sizing: border-box;
 }
@@ -42,17 +37,13 @@ html {
   background-repeat: no-repeat;
   background: rgba(9, 84, 104, 1);
   background: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
-  // background-attachment: fixed;
-  // background-origin: 0 0;
-  // background-position: 0 0;
-  // background-size: cover;
   color: $site-white;
   font-family: $sans-serif;
   font-size: $base-font;
+  
 }
 
 body {
-  font-size: 1.6rem;
   margin: 0;
 }
 
@@ -80,10 +71,6 @@ aside {
       margin: 0 0 0 10vw;
       width: 60vw;
     }
-  }
-
-  &.minus-body {
-    font-size: $base-font-small;
   }
 
   width: 100vw;

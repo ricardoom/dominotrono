@@ -121,8 +121,8 @@
         a {
           @include basic-drop-shadow(text);
           color: $site-white;
-          font-size: $base-font-normal;
-          padding: 2ex;
+          font-size: var(--s0);
+          padding: var(--s0);
           text-decoration: none;
         }
 
@@ -139,15 +139,7 @@
               // padding-top: 1.75ex;
             }
           }
-
-          @include media('>=desktop') {
-            // flex-basis: 20%;
-          }
         }
-
-        // min-height: 7ex;
-        // padding: 2ex;
-        // margin: 0 0.15ex;
       }
       
       .text-link {
@@ -180,7 +172,7 @@
 
         svg {
           fill: $site-white;
-          height: 3.5rem;
+          height: var(--s1);
         }
       }
 

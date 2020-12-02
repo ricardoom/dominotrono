@@ -16,7 +16,6 @@
       @include basic-drop-shadow;
       align-self: end;
       color: $site-white;
-      // font-family: $sans-serif;
       font-style: normal;
       font-weight: 200;
       text-decoration: none;
@@ -28,13 +27,3 @@
   }
   background: transparent;
 }
-
-// .fonts-loaded {
-//   .site-header {
-//     &__siteNameContainer {
-//       &--name {
-//         font-family: $frank-new;
-//       }
-//     }
-//   }
-// }

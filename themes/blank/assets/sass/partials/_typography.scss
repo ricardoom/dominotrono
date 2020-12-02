@@ -164,7 +164,7 @@ code {
     }
 
     figcaption {
-      font-family: $frank-new;
+      // font-family: $frank-new;
     }
   } // /&__content
 } // /.portfolio
@@ -177,18 +177,19 @@ code {
 // TODO: Refactor this later!
 //
 .fonts-loaded {
-  .site-single,
-  .portfolio {
-    &__content {
-      p {
-        font-family: $frank-new;
-      }
-    }
-  }
+  font-family: $frank-new;
+  // .site-single,
+  // .portfolio {
+  //   &__content {
+  //     p {
+        
+  //     }
+  //   }
+  // }
 
   .article-grid-wrapper {
     &__portfolioInvolvement {
-      font-family: $frank-new;
+      // font-family: $frank-new;
     }
 
     &__portfolioInvolvement ul {

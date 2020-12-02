@@ -44,7 +44,7 @@
   }
 
   &__containerSubTitle {
-    font-family: $frank-new;
+    // font-family: $frank-new;
     font-size: var(--s0);
     @include media('>=phone') {
       // margin-left: 6vw;

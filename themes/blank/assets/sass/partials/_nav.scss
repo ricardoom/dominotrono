@@ -94,8 +94,8 @@
   /// Uses classes to control/style all else:
   &__siteNavigation {
     background: transparent;
-    font-family: $sans-serif;
-    
+    // font-family: $sans-serif;
+
     &--social-svg {
       display: none;
     }
@@ -200,11 +200,11 @@
 .fonts-loaded {
   .site-header {
     &__siteNavigation {
-      font-family: $frank-new;
+      // font-family: $frank-new;
     }
 
     .menu-label {
-      font-family: $frank-new;
+      // font-family: $frank-new;
     }
   }
 }

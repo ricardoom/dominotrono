@@ -31,7 +31,7 @@
   }
 
   h3 {
-    @include responsive-font(3.75vw, 2.25em, 5.5em, 32px);
+    // @include responsive-font(3.75vw, 2.25em, 5.5em, 32px);
     @include media('>=phone') {
       // padding-left: 6vw;
     }
@@ -45,7 +45,7 @@
 
   &__containerSubTitle {
     font-family: $frank-new;
-
+    font-size: var(--s0);
     @include media('>=phone') {
       // margin-left: 6vw;
     }
@@ -53,8 +53,6 @@
     @include media('>=tablet') {
       // margin-left: 1.5vw;
     }
-
-    font-size: 1.8rem;
   }
 
   .portfolio-flex {

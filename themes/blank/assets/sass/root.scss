@@ -28,9 +28,13 @@
 @import 'partials/skill_block';
 @import 'partials/footer';
 
-* {
-  box-sizing: border-box;
-}
+
+
+*,
+*::before,
+*::after {
+  box-sizing:border-box
+  }
 
 html {
   background-color: $site-background-color;

@@ -21,7 +21,7 @@
 
   &__sidebarSubTitle {
     display: block;
-    font-size: 1.8rem;
+    font-size:var(--s0);
     margin-left: 1.5vw;
   }
 
@@ -32,12 +32,13 @@
   }
 
   &__sidebarList {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 5vmax;
+    display: flex;
+    flex-wrap: wrap;
+    // grid-template-columns: repeat(4, 1fr);
+    margin-top: var(--s0);
 
     > li {
-      padding: 1em 0 1em 1em;
+      padding: var(--s0);
 
       &:nth-of-type(4n) {
         padding-right: 0;

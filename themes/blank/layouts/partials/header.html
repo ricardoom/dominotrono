@@ -59,7 +59,7 @@
       </button>
       <ul id="navItems" class="site-header__siteNavigation--items" aria-expanded="false">
         {{ range .Site.Menus.main }}
-        <li class="text-link"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        <li class=""><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}
         {{- partial "social_list.html" . -}}
       </ul>

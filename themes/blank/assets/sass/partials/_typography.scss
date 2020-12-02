@@ -32,22 +32,14 @@ $base-font-normal: var(--s0);
 $base-font-gigantic: var(--s2);
 $base-letter-spacing: 0.01;
 
-///
-/// Needs Refactoring but, in short term, fix the line length
-///
-
 $max-line-length: var(--measure);
 
 ///
-/// Mixins
+/// basic <h#>
 ///
 
-
-///
-/// basic <h#> shadow
-///
-
-@each $heading in h1, h2, h3, h4, h5, h6 {
+$headings: (h1, h2, h3, h4, h5, h6);
+@each $heading in $headings {
   #{$heading} {
     font-family: $serif;
     font-weight: 200;
@@ -72,6 +64,11 @@ $max-line-length: var(--measure);
   }
 }
 
+h3 {
+  @include responsive-font(3.75vw, 2.25em, 5.5em, 32px);
+  // font-size: clamp(, #{$ideal}, #{$max});
+}
+
 ///
 /// Set a base link style here:
 ///
@@ -80,7 +77,6 @@ a,
 .fonts-loaded a {
   &:link {
     color: $site-link;
-    // box-shadow: 0 0 0 0 $site-punk-pink;
   }
 
   &:visited {
@@ -89,7 +85,6 @@ a,
   }
 
   &:hover {
-    // box-shadow: 0 0 0 2px $site-green-blue;
     color: $site-punk-pink;
   }
 
@@ -105,18 +100,14 @@ a,
 ///
 /// Basic typographic rules
 ///
+
 code {
   background: transparentize($site-hot-orange, 0.85);
   border-radius: 0.125em;
   color: $site-white;
   font-family: $monospace;
-  font-size: 1.65rem;
+  font-size: var(--s05);
   padding: 0.15em;
-}
-
-
-.siteAuthor {
-  font-size: 1.3rem;
 }
 
 //
@@ -141,19 +132,14 @@ code {
 
     // set the max width for <p> elements to a reasonable / standard amount of characters
     p {
-      @include media('>=tablet') {
-        max-width: initial;
-      }
-      @include media('>=tablet') {
-        max-width: $max-line-length;
-      }
+      max-width: $max-line-length;
     }
 
-    p,
-    ul {
-      // font-size: 1.8rem;
-      // line-height: 1.65;
-    }
+    // p,
+    // ul {
+    //   font-size: 1.8rem;
+    //   line-height: 1.65;
+    // }
 
     ul {
       // border-left: 0.25ex solid transparentize($site-white, 0.45);

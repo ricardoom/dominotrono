@@ -23,8 +23,8 @@
 
         svg {
           fill: currentColor;
-          height: 3rem;
-          width: 3rem;
+          height: var(--s1);
+          width: var(--s1);
         }
 
         .menu-label {
@@ -93,14 +93,20 @@
 
   /// Uses classes to control/style all else:
   &__siteNavigation {
+    background: transparent;
+    font-family: $sans-serif;
+    
     &--social-svg {
       display: none;
     }
 
-    &--items {
-      @supports (display: flex) {
-        display: flex;
-        flex-flow: row nowrap;
+    &--items { // the <ul>
+      border-bottom: (3em / 16) solid $site-white;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-flow: row nowrap;
 
         @include media('>=phone') {
           padding-left: 0;
@@ -115,14 +121,15 @@
           justify-content: flex-start;
           padding: initial;
         }
-      } // /@supports
+      
+
 
       li {
         a {
           @include basic-drop-shadow(text);
           color: $site-white;
           font-size: var(--s0);
-          padding: var(--s0);
+          padding: var(--s-2);
           text-decoration: none;
         }
 
@@ -176,14 +183,14 @@
         }
       }
 
-      border-bottom: (3em / 16) solid $site-white;
-      display: inline-block;
-      margin: 0;
-      padding: 0;
+     
+
+      &:first-child {
+        background-color: honeydew;
+      }
     } // /ul
 
-    background: transparent;
-    font-family: $sans-serif;
+    
   }
 } // .site-header
 

@@ -135,18 +135,10 @@ code {
       max-width: $max-line-length;
     }
 
-    // p,
-    // ul {
-    //   font-size: 1.8rem;
-    //   line-height: 1.65;
-    // }
-
     ul {
-      // border-left: 0.25ex solid transparentize($site-white, 0.45);
       padding-left: 3ex;
 
       li {
-        //padding-left: 2ex;
         list-style-type: disc;
       }
 
@@ -162,10 +154,6 @@ code {
     strong {
       font-weight: 500;
     }
-
-    figcaption {
-      // font-family: $frank-new;
-    }
   } // /&__content
 } // /.portfolio
 
@@ -173,27 +161,10 @@ code {
   font-size: 1.6rem;
 }
 
-//
-// TODO: Refactor this later!
-//
 .fonts-loaded {
   font-family: $frank-new;
-  // .site-single,
-  // .portfolio {
-  //   &__content {
-  //     p {
-        
-  //     }
-  //   }
-  // }
-
-  .article-grid-wrapper {
-    &__portfolioInvolvement {
-      // font-family: $frank-new;
-    }
 
     &__portfolioInvolvement ul {
       word-break: break-word;
     }
-  }
 }

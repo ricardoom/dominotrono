@@ -71,9 +71,7 @@
     }
 
     @include responsive-font(2.75vw, 1.25em, 5.5rem, 32px);
-    // @include purple-gradient;
     @include basic-drop-shadow(text);
-    // font-family: $frank-new;
     font-weight: 200;
     font-style: normal;
     z-index: 1;

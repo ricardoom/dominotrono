@@ -5,24 +5,22 @@
 
 .sidebar-prime {
   background: darken($site-background-color, 0.9);
-  // font-family: $frank-new;
   font-style: normal;
   font-weight: 400;
   overflow: auto;
 
   &__sidebarTitle {
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
-
     @include media('>tablet') {
-      margin-bottom: 2vh;
+      margin-bottom:  var(--s0);
     }
-    margin-left: 1.5vw;
+    margin-left: var(--s0);
   }
 
   &__sidebarSubTitle {
     display: block;
     font-size:var(--s0);
-    margin-left: 1.5vw;
+    margin-left: var(--s0);
   }
 
   &__sidebarList,
@@ -34,8 +32,6 @@
   &__sidebarList {
     display: flex;
     flex-wrap: wrap;
-    // grid-template-columns: repeat(4, 1fr);
-    margin-top: var(--s0);
 
     > li {
       padding: var(--s0);

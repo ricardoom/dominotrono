@@ -638,7 +638,7 @@ code {
 
 .fonts-loaded {
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
-  .fonts-loaded .article-grid-wrapper__portfolioInvolvement ul {
+  .fonts-loaded__portfolioInvolvement ul {
     word-break: break-word; }
 
 @media (min-width: 19.25em) {
@@ -955,7 +955,7 @@ code {
   .sidebar-prime__sidebarTitle {
     font-size: 32px;
     font-size: 3.75vw;
-    margin-left: 1.5vw; }
+    margin-left: var(--s0); }
     @media (max-width: 60rem) {
       .sidebar-prime__sidebarTitle {
         font-size: 2.25rem; } }
@@ -964,18 +964,17 @@ code {
         font-size: 5.5rem; } }
     @media (min-width: 48.01em) {
       .sidebar-prime__sidebarTitle {
-        margin-bottom: 2vh; } }
+        margin-bottom: var(--s0); } }
   .sidebar-prime__sidebarSubTitle {
     display: block;
     font-size: var(--s0);
-    margin-left: 1.5vw; }
+    margin-left: var(--s0); }
   .sidebar-prime__sidebarList, .sidebar-prime__sidebarTags {
     list-style: none;
     padding: 0; }
   .sidebar-prime__sidebarList {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: var(--s0); }
+    flex-wrap: wrap; }
     .sidebar-prime__sidebarList > li {
       padding: var(--s0); }
       .sidebar-prime__sidebarList > li:nth-of-type(4n) {
@@ -1234,7 +1233,7 @@ figure {
       margin-right: 0; } }
 
 .portfolio-list-item {
-  margin: 2vh 0; }
+  margin: var(--s1) 0; }
   .portfolio-list-item__content {
     display: grid; }
     .portfolio-list-item__content--hero {
@@ -1671,7 +1670,7 @@ figure {
   font-size: var(--s0); }
 
 .portfolio-container .portfolio-flex {
-  margin: 5vw 0 0; }
+  margin-top: clamp(var(--s1), var(--s0), var(--s5)); }
   @media (max-width: 19.25em) {
     .portfolio-container .portfolio-flex {
       display: block; } }
@@ -1711,15 +1710,15 @@ figure {
       width: 100%;
       border: 0; }
     .portfolio-container .portfolio-flex__content figure figcaption {
-      font-size: 12px;
-      font-size: 2.25vw;
-      bottom: 3vh;
+      bottom: var(--s1);
       font-family: "justus-pro", Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
       background-color: #06182d;
       position: absolute;
-      right: 2vw;
+      right: var(--s2);
       text-align: right;
-      width: 85%; }
+      width: 85%;
+      font-size: 12px;
+      font-size: 2.25vw; }
       @media (max-width: 977.77777778px) {
         .portfolio-container .portfolio-flex__content figure figcaption {
           font-size: 22px; } }
@@ -1746,7 +1745,6 @@ figure {
   font-size: 48px;
   font-size: 2vw;
   border-bottom: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   grid-column: 1 / 5;
   grid-row: 5 / 6; }
   @media (min-width: 19.25em) {

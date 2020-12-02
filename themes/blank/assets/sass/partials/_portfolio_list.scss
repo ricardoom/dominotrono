@@ -3,6 +3,8 @@
 // each item on the page: ../portfolio/
 //
 .portfolio-list-item {
+  margin: var(--s1) 0;
+
   &__content {
     &--hero {
       @include media('>=phone') {
@@ -34,7 +36,6 @@
         grid-column: 1 / 3;
         grid-row: 2 / 2;
         line-height: 1;
-        // padding: 0.5em 0 0;
       }
 
       @include media('>=tablet') {
@@ -60,7 +61,6 @@
       @include media('>=tablet') {
         align-self: center;
         grid-column: 1 / 2;
-        // grid-row: 2 / 2;
       }
 
       @include media('>=desktop') {
@@ -89,10 +89,6 @@
 
       @include media('>=phone') {
         display: none;
-        // grid-column: 2 / 2;
-        // grid-row: 3 / 3;
-        // margin-top: 5%;
-        // padding: 3% 5%;
       }
 
       @include media('>=tablet') {
@@ -100,7 +96,6 @@
         display: initial;
         grid-column: 2 / 3;
         grid-row: 3 / 4;
-        // margin-top: 5%;
         padding: 6.5%;
       }
 
@@ -111,8 +106,6 @@
       }
 
       background-color: transparentize($site-black, 0.2);
-      // font-family: $frank-new;
-      // min-height: 50%;
       z-index: 1;
     }
 
@@ -121,14 +114,12 @@
 
       @include media('>=phone') {
         display: none;
-        // grid-column: 3 / 4;
-        // grid-row: 3 / 4;
       }
 
       @include media('>=tablet') {
         display: initial;
         grid-column: 2 / 3;
-        // grid-row: 4 / 5;
+
       }
 
       padding: 2ex;
@@ -169,15 +160,4 @@
     display: block;
     text-decoration: none;
   }
-
-  @include media('>=phone') {
-    // margin: 0;
-    // padding: 0;
-  }
-
-  @include media('>=tablet') {
-    // padding: 0.5em 0 0;
-  }
-
-  margin: 2vh 0;
 }

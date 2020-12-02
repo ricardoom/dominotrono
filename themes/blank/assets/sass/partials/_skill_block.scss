@@ -13,7 +13,6 @@
 
   @include responsive-font(2vw, 18px, 1em, 48px);
   border-bottom: 0;
-  font-family: $sans-serif;
   grid-column: 1 / 5;
   grid-row: 5 / 6;
 
@@ -81,11 +80,3 @@
     margin: 3ex 0 0;
   }
 }
-
-// .fonts-loaded {
-//   .site-content {
-//     .biography-skills {
-//       font-family: $frank-new;
-//     }
-//   }
-// }

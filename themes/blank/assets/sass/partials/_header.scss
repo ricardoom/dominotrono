@@ -4,7 +4,8 @@
 
 .site-header {
   &__siteNameContainer {
-    padding: 3.25ex 2.5ex;
+    padding: var(--s0) 0;
+    padding-inline-start: var(--s0) 0;
 
     &--name {
       

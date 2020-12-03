@@ -111,9 +111,9 @@ $mobile-second-row: 15vh;
 // TODO, this could be done a bit more elegant:
 .home-page {
   .grid-wrapper {
-    @include media('>=phone') {
-      padding: 2.5ex;
-    }
+    // @include media('>=phone') {
+    //   padding: 2.5ex;
+    // }
     align-items: center;
     grid-template-rows: minmax(3.5em, 7.5em) auto;
   }
@@ -129,13 +129,15 @@ $mobile-second-row: 15vh;
   @include media('>=phone') {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    padding: 0 6vw;
+    // padding: 0 6vw;
   }
 
   @include media('>=tablet') {
     grid-template-columns: minmax(1em, $tablet-column) repeat(3, 1fr);
     // padding: 0 1em 0 0;
-    padding: 3.25ex 2.5ex;
+    // padding: 3.25ex 2.5ex;
+    padding-right: var(--s0);
+    padding-inline-end: var(--s0);
   }
 
   @include media('>=desktop') {

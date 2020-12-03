@@ -6,9 +6,9 @@
 time {
   @include media('>=phone') {
     font-size: var(--s-1);
-    min-width: 5em;
-    top: 1em;
-    left: 0;
+    // min-width: 5em;
+    // top: 1em;
+    // left: 0;
   }
 }
 

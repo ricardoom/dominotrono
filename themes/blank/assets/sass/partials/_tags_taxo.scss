@@ -7,7 +7,6 @@
   }
 
   @include media('>=tablet') {
-    margin: 1ex 0;
     padding-left: 0;
   }
 
@@ -23,9 +22,7 @@
       display: block;
     }
 
-    @include responsive-font(1vw, 1em, 4em, 36px);
     text-decoration: none;
-    margin: 1ex 0;
     padding: 0;
   }
 }

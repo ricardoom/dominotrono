@@ -482,7 +482,9 @@ template {
 h1 {
   font-family: Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
   font-weight: 200;
-  font-style: normal; }
+  font-style: normal;
+  line-height: var(--s1);
+  margin: var(--s-1) 0; }
   h1 a {
     text-decoration: none;
     color: currentColor; }
@@ -495,7 +497,9 @@ h1 {
 h2 {
   font-family: Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
   font-weight: 200;
-  font-style: normal; }
+  font-style: normal;
+  line-height: var(--s1);
+  margin: var(--s-1) 0; }
   h2 a {
     text-decoration: none;
     color: currentColor; }
@@ -508,7 +512,9 @@ h2 {
 h3 {
   font-family: Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
   font-weight: 200;
-  font-style: normal; }
+  font-style: normal;
+  line-height: var(--s1);
+  margin: var(--s-1) 0; }
   h3 a {
     text-decoration: none;
     color: currentColor; }
@@ -521,7 +527,9 @@ h3 {
 h4 {
   font-family: Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
   font-weight: 200;
-  font-style: normal; }
+  font-style: normal;
+  line-height: var(--s1);
+  margin: var(--s-1) 0; }
   h4 a {
     text-decoration: none;
     color: currentColor; }
@@ -534,7 +542,9 @@ h4 {
 h5 {
   font-family: Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
   font-weight: 200;
-  font-style: normal; }
+  font-style: normal;
+  line-height: var(--s1);
+  margin: var(--s-1) 0; }
   h5 a {
     text-decoration: none;
     color: currentColor; }
@@ -547,7 +557,9 @@ h5 {
 h6 {
   font-family: Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
   font-weight: 200;
-  font-style: normal; }
+  font-style: normal;
+  line-height: var(--s1);
+  margin: var(--s-1) 0; }
   h6 a {
     text-decoration: none;
     color: currentColor; }
@@ -894,13 +906,9 @@ code {
       margin: 0; } }
   @media (min-width: 48em) {
     .site-tags {
-      margin: 1ex 0;
       padding-left: 0; } }
   .site-tags__tag {
-    font-size: 36px;
-    font-size: 1vw;
     text-decoration: none;
-    margin: 1ex 0;
     padding: 0; }
     @media (min-width: 19.25em) {
       .site-tags__tag {
@@ -908,18 +916,9 @@ code {
     @media (min-width: 48em) {
       .site-tags__tag {
         display: block; } }
-    @media (max-width: 100em) {
-      .site-tags__tag {
-        font-size: 1em; } }
-    @media (min-width: 400em) {
-      .site-tags__tag {
-        font-size: 4em; } }
 @media (min-width: 19.25em) {
   time {
-    font-size: var(--s-1);
-    min-width: 5em;
-    top: 1em;
-    left: 0; } }
+    font-size: var(--s-1); } }
 
 @media (min-width: 19.25em) {
   .grid-wrapper__listParent--site-article {
@@ -949,11 +948,11 @@ code {
   background: #061629;
   font-style: normal;
   font-weight: 400;
-  overflow: auto; }
+  overflow: auto;
+  padding-top: var(--s0); }
   .sidebar-prime__sidebarTitle {
     font-size: 32px;
-    font-size: 3.75vw;
-    margin-left: var(--s0); }
+    font-size: 3.75vw; }
     @media (max-width: 60rem) {
       .sidebar-prime__sidebarTitle {
         font-size: 2.25rem; } }
@@ -965,8 +964,7 @@ code {
         margin-bottom: var(--s0); } }
   .sidebar-prime__sidebarSubTitle {
     display: block;
-    font-size: var(--s0);
-    margin-left: var(--s0); }
+    font-size: var(--s0); }
   .sidebar-prime__sidebarList, .sidebar-prime__sidebarTags {
     list-style: none;
     padding: 0; }
@@ -985,17 +983,18 @@ code {
         .sidebar-prime__sidebarList > li .post-grid .drop-cap > a {
           font-size: 22px;
           font-size: 5vw;
-          border-bottom: solid 0.5rem white;
+          border-bottom: solid var(--s-3) white;
           display: block;
           font-family: "justus-pro", Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
           font-weight: 400;
           font-style: normal;
-          margin-bottom: 0.5ex;
+          line-height: var(--s2);
+          margin-bottom: var(--s-1);
           text-decoration: none;
           width: 25%; }
-          @media (max-width: 46rem) {
+          @media (max-width: 52rem) {
             .sidebar-prime__sidebarList > li .post-grid .drop-cap > a {
-              font-size: 2.3rem; } }
+              font-size: 2.6rem; } }
           @media (min-width: 100rem) {
             .sidebar-prime__sidebarList > li .post-grid .drop-cap > a {
               font-size: 5rem; } }
@@ -1238,6 +1237,7 @@ figure {
     .portfolio-list-item__content--hero {
       height: 100%;
       margin: 0;
+      max-width: 80em;
       padding: 0;
       overflow: hidden; }
       @media (min-width: 19.25em) {
@@ -1258,8 +1258,7 @@ figure {
       align-self: center;
       background-color: rgba(17, 17, 17, 0.8);
       font-weight: 400;
-      margin: 0;
-      padding: 2ex;
+      padding: var(--s1);
       text-shadow: 1px 1px 10px rgba(17, 17, 17, 0.5);
       z-index: 1; }
       @media (max-width: 35.71428571em) {
@@ -1271,8 +1270,7 @@ figure {
       @media (min-width: 19.25em) {
         .portfolio-list-item__content h1 {
           grid-column: 1 / 3;
-          grid-row: 2 / 2;
-          line-height: 1; } }
+          grid-row: 2 / 2; } }
       @media (min-width: 48em) {
         .portfolio-list-item__content h1 {
           grid-row: 2 / 3; } }
@@ -1287,16 +1285,6 @@ figure {
         .portfolio-list-item__content--deck {
           align-self: center;
           grid-column: 1 / 2; } }
-      @media (min-width: 19.25em) {
-        .portfolio-list-item__content--deck svg {
-          fill: white;
-          max-width: 100%;
-          margin: 10% 10% 0;
-          opacity: 0.15; } }
-      @media (min-width: 48em) {
-        .portfolio-list-item__content--deck svg {
-          max-width: 40%;
-          padding: 3% 5%; } }
     .portfolio-list-item__content--description {
       font-size: 22px;
       font-size: 1.5vw;
@@ -1317,12 +1305,11 @@ figure {
           display: initial;
           grid-column: 2 / 3;
           grid-row: 3 / 4;
-          padding: 6.5%; } }
+          padding: var(--s0); } }
       @media (min-width: 64em) {
         .portfolio-list-item__content--description {
           align-self: self-start;
-          margin-top: 10%;
-          padding: 9% 5%; } }
+          margin-top: var(--s1); } }
     .portfolio-list-item__content--static-tags {
       font-size: 18px;
       font-size: 1.5vw;
@@ -1462,6 +1449,7 @@ figure {
             grid-row: 1 / -1; } }
         .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__imageBlock img {
           left: 0;
+          max-width: 80em;
           width: 100%; }
       .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid__copyBlock {
         font-size: 20px;
@@ -1641,10 +1629,20 @@ figure {
       .article-grid-wrapper__portfolioInvolvement {
         grid-column: 3 / 5;
         grid-row: 2 / 3;
-        margin: -4ex 0 0 0;
-        padding: 2.5ex 3.5ex 5ex;
+        margin-top: var(--s3);
+        margin-block-start: var(--s3);
         width: initial;
         z-index: 1; } }
+    .article-grid-wrapper__portfolioInvolvement h3 {
+      font-size: var(--s0);
+      margin: var(--s0) 0 0 0; }
+      .article-grid-wrapper__portfolioInvolvement h3:first-child {
+        margin-top: 0; }
+    .article-grid-wrapper__portfolioInvolvement p {
+      margin: initial; }
+      .article-grid-wrapper__portfolioInvolvement p:first-child {
+        margin-top: 0; }
+
 @media (min-width: 19.25em) {
   .portfolio-container {
     grid: auto / 1fr;

@@ -128,7 +128,9 @@
           @include add-to-grid('>=tablet', 1, -1, 1, -1) {
             img {
               left: 0;
+              max-width: $wide-screen;
               width: 100%;
+
             }
           }
           overflow: hidden;
@@ -250,6 +252,8 @@
   }
 
   &__portfolioInvolvement {
+    background-color: transparentize($site-dark-blue, 0.1);
+
     @include media('>=phone') {
       grid-column: 2 / 5;
       grid-row: 4 / 5;
@@ -260,13 +264,27 @@
     @include media('>=tablet') {
       grid-column: 3 / 5;
       grid-row: 2 / 3;
-      margin: -4ex 0 0 0;
-      padding: 2.5ex 3.5ex 5ex;
-      // padding: calc(100% - 15vh) calc(100% - 22vw) calc(100% - 13vh);
+      margin-top: var(--s3);
+      margin-block-start: var(--s3);
       width: initial;
       z-index: 1;
     }
 
-    background-color: transparentize($site-dark-blue, 0.1);
+    h3 {
+      font-size: var(--s0);
+      margin: var(--s0) 0 0 0;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    p {
+      margin: initial;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
   }
 } // /article-grid-wrapper

@@ -23,46 +23,17 @@
 
   @include media('>=desktop') {
     grid: auto / repeat(5, 1fr);
-    // grid-column: 1 / 5;
-  }
-  a {
-    //border-bottom: 2px solid $site-white;
-    text-decoration: none;
-  }
-
-  h3 {
-    // @include responsive-font(3.75vw, 2.25em, 5.5em, 32px);
-    // @include media('>=phone') {
-    //   // padding-left: 6vw;
-    // }
-
-    margin: 0;
-  }
-
-  &__containerSubTitle {
-    font-size: var(--s0);
-
-    // @include media('>=phone') {
-    // }
   }
 
   .portfolio-flex {
-    // margin: 5vw 0 0;
     margin-top: clamp(var(--s1), var(--s0), var(--s5));
 
     @include media('<=phone') {
       display: block;
     }
 
-    @include media('>=phone', '<=tablet') {
+    @include media('>=phone') {
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-
-    @include media('>=tablet') {
-      display: flex;
-      flex-direction: row;
       flex-wrap: wrap;
     }
 
@@ -107,7 +78,6 @@
 
         figcaption {
           bottom: var(--s1);
-          font-family: $justus-pro;
           background-color: $site-dark-blue;
           position: absolute;
           right: var(--s2);
@@ -115,70 +85,9 @@
           width: 85%;
           @include responsive-font(2.25vw, 22px, 18px, 12px);
           @include media('>=phone') {
-            padding: 3vw 2ex;
-          }
-
-          @include media('>=tablet') {
-            padding: 1vw 1ex;
+            padding: var(--s-1);
           }
         }
-        // Need to find a better way to add this color class to the overlay.
-        // adding the class (read: which color to use) is fine and all but the css below is seemingly clunky, JS might better be used to randomize which colors are used as overlays and _not_ add the color at the post level, which would require prior knowledge of which color : classes exist...
-
-        // that said, a better step would be to write some JS so apply those color classes on its own and the we don't have to worry about applying them manually anywhere...
-
-        // Same w/ the overlays... 🤔
-        // also these SVG rules should be moved to a partial...
-
-        // and probably made into a for/each function instead of verbosely outputting here...
-
-        // &.fourDots {
-        //   @include svg-overlay(#four_dots);
-        // }
-
-        // &.twoSquares {
-        //   @include svg-overlay(#two_squares);
-        // }
-
-        // &.overDots {
-        //   @include svg-overlay(#over_dots);
-        // }
-
-        // &.oneDiagonal {
-        //   @include svg-overlay(#one_diagonal);
-        // }
-
-        // &.oneDiagonal-45 {
-        //   @include svg-overlay(#one_diagonal);
-        // }
-
-        // &.boxDiagonals {
-        //   @include svg-overlay(#box_diagonals);
-        // }
-
-        // &.variableDots {
-        //   @include svg-overlay(#variable_dots);
-        // }
-
-        // &.diagonalDot {
-        //   @include svg-overlay(#diagonal_dot);
-        // }
-
-        // &.oneCircle {
-        //   @include svg-overlay(#quarter_circle);
-        // }
-
-        // &.squaresCircles {
-        //   @include svg-overlay(#squares_circles);
-        // }
-
-        // &.bigCircle {
-        //   @include svg-overlay(#big_circle);
-        // }
-
-        // &.bigPill {
-        //   @include svg-overlay(#big_pill);
-        // }
       } // /figure
     }
   }

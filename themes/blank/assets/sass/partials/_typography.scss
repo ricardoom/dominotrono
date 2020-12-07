@@ -66,6 +66,14 @@ $headings: (h1, h2, h3, h4, h5, h6);
   }
 }
 
+h1 {
+    @include responsive-font(3.75vw, 1.75em, 32px, 64px);
+}
+
+h2 {
+  @include responsive-font(2.75vw, 1.25rem, 24px, 24px);
+}
+
 h3 {
   @include responsive-font(3.75vw, 2.25em, 5.5em, 32px);
   // font-size: clamp(, #{$ideal}, #{$max});
@@ -124,13 +132,13 @@ code {
       margin-bottom: 0.5ex;
     }
 
-    h2 {
-      font-size: 2.75rem;
-    }
+    // h2 {
+    //   font-size: 2.75rem;
+    // }
 
-    h3 {
-      font-size: 1.75rem;
-    }
+    // h3 {
+    //   font-size: 1.75rem;
+    // }
 
     // set the max width for <p> elements to a reasonable / standard amount of characters
     p {

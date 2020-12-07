@@ -3,4 +3,4 @@ title: 'Ricardo E. Gálvez - Freelance Designer & Developer'
 draft: false
 ---
 
-I am a web designer & developer. I have many years of experience building websites from the ground up, designing user experiences and application interfaces.
+Hi, I am a Designer & Front End Developer. At the core of my practice, you will find simplicity coupled with a "user first" mentality. I will always strive to find the perfect balance between function and form.

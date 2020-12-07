@@ -2,14 +2,11 @@
 
 {{ printf "<!-- home page portfolio block -->" | safeHTML }}
 <div class="portfolio-container">
-  
     <h3>Portfolio</h3>
-  
   <span>Projects past and present</span>
   <ul class="portfolio-flex">
-    
     {{ range where $paginator.Pages.ByWeight "Section" "portfolio"}}
-    <li class="portfolio-flex__summary">
+    <li>
       {{ if and ( .Params.postImage1x ) ( ne .Params.postImage1x "" ) }}
       {{ $ariaId := replaceRE "(\\s)" "-" .Page.Params.Title }}
       <a href="{{ .Permalink }}" aria-label="{{ $ariaId }}">

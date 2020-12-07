@@ -36,24 +36,15 @@
   box-sizing:border-box
   }
 
-html {
+body {
   background-color: $site-background-color;
   background-repeat: no-repeat;
   background: rgba(9, 84, 104, 1);
   background: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
   color: $site-white;
-  font-family: $sans-serif;
+  font-family: $frank-new;
   font-size: $base-font;
-  
-}
-
-body {
   margin: 0;
-
-  & > * {
-    padding-left: var(--s0);
-    padding-inline-start: var(--s0);
-  }
 }
 
 header,
@@ -63,27 +54,35 @@ aside {
   margin: 0 auto;
 }
 
-.fullWidthWrapper {
-  > :nth-child(n) {
-    @include media('>=phone') {
-      margin: 0;
-      width: 100vw;
-    }
-
-    @include media('>=tablet') {
-      margin: 0 0 0 5vw;
-      padding: 0 0 0 15ex;
-      width: 75vw;
-    }
-
-    @include media('>=desktop') {
-      margin: 0 0 0 10vw;
-      width: 60vw;
-    }
+body > * {
+    padding-left: var(--s0);
+    padding-right: var(--s0);
+    padding-inline-end: var(--s0);
+    padding-inline-start: var(--s0);
   }
 
-  width: 100vw;
-}
+
+// .fullWidthWrapper {
+//   > :nth-child(n) {
+//     @include media('>=phone') {
+//       margin: 0;
+//       width: 100vw;
+//     }
+
+//     @include media('>=tablet') {
+//       margin: 0 0 0 5vw;
+//       padding: 0 0 0 15ex;
+//       width: 75vw;
+//     }
+
+//     @include media('>=desktop') {
+//       margin: 0 0 0 10vw;
+//       width: 60vw;
+//     }
+//   }
+
+//   width: 100vw;
+// }
 
 ul {
   margin: 0;
@@ -107,11 +106,6 @@ li {
 ///
 /// Inner pages
 ///
-.inner-page {
-  main {
-    margin-bottom: 1em;
-  }
-}
 
 ///
 /// for landing pages w/ rivers of posts:

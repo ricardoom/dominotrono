@@ -27,7 +27,7 @@
 
   .portfolio-flex {
     margin-top: clamp(var(--s1), var(--s0), var(--s5));
-
+    // display: block;
     @include media('<=phone') {
       display: block;
     }
@@ -37,7 +37,7 @@
       flex-wrap: wrap;
     }
 
-    &__summary {
+    li {
       @include media('>=phone', '<=25.875em') {
         flex: 0 1 100%;
       }

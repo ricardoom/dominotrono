@@ -56,7 +56,7 @@
     }
 
   display: grid;
-  grid-template-columns: var(--s0) 69vw 14.95vw 10vw var(--s0);
+  grid-template-columns: var(--s0) minmax(69vw, 800px) minmax(14.95vw, 340px) minmax(10vw, 350px) var(--s0);
   grid-template-rows: auto;
   row-gap: 2ex;
   h1,
@@ -110,13 +110,15 @@
       //
 
       .hero-grid {
-        margin-left: calc(var(--s0) * -1);
-        margin-inline-start: calc(var(--s0) * -1);
         @include portfolio-grid('>=phone', $hero-columns, $hero-rows-phone);
         @include portfolio-grid('>=tablet', $hero-columns, $hero-rows-tablet);
 
         &__imageBlock {
-          @include add-to-grid('>=phone', 1, 6, 1, 2) {
+          margin-left: calc(var(--s0) * -1);
+        margin-right: calc(var(--s0) * -1);
+        margin-inline-end: calc(var(--s0) * -1);
+        margin-inline-start: calc(var(--s0) * -1);
+          @include add-to-grid('>=phone', 1, -1, 1, 2) {
             img {
               left: -5rem;
               position: relative;

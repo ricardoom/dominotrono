@@ -94,7 +94,8 @@ a,
     background: $site-hot-orange;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $site-punk-pink;
   }
 

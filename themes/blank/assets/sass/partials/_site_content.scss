@@ -33,31 +33,25 @@
       background: transparent;
     }
 
-    // @include media('>=desktop') {
-
-    // }
-
     &__subTitle {
       @include media('>=phone') {
         margin: 0;
-        // padding: 1.25ex 2.5ex;
       }
 
       @include media('>=tablet') {
-        @include slide-up-down;
+        // @include slide-up-down;
+        @include slide-up-down(slideDownLarge);
         @include basic-drop-shadow(text);
         padding: 0;
       }
 
       @include media('>=desktop') {
-        @include slide-up-down(slideDownLarge);
-        padding: 0;
+        // @include slide-up-down(slideDownLarge);
       }
 
       @include responsive-font(7.25vw, 4.5rem, 17rem, 200px);
-      display: block;
-      // font-family: $justus-pro;
-      line-height: 1em;
+      // display: block;
+      line-height: var(--s3);
     }
   }
 

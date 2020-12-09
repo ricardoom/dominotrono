@@ -10,9 +10,9 @@ $oneThirdHeight: 0.33;
 $oneQuarter: 0.25;
 $oneFifth: 0.2;
 // Set a smallest screen width
-$small-screen: 25.875em; // 414px
-$medium-screen: 48em; // 768px
-$wide-screen: 80em; // 1280px
+$small-screen: 25.875rem; // 414px
+$medium-screen: 48rem; // 768px
+$wide-screen: 80rem; // 1280px
 $mega-screen: 93rem // 1488px
 
 
@@ -47,7 +47,4 @@ $mega-screen: 93rem // 1488px
    --oneQuarter: calc(100vh * #{$oneQuarter});
    --oneFifth: calc(100vh * #{$oneFifth});
    --threeFifths: calc(100vh * #{$threeFifths});
-
-   font-size: var(--s0);
-   line-height: var(--ratio);
 }

@@ -109,15 +109,15 @@ $mobile-second-row: 15vh;
 // Only for the home page,
 // TODO make a grid directory and move all grids into their own sub partials...
 // TODO, this could be done a bit more elegant:
-.home-page {
-  .grid-wrapper {
-    // @include media('>=phone') {
-    //   padding: 2.5ex;
-    // }
-    align-items: center;
-    grid-template-rows: minmax(3.5em, 7.5em) auto;
-  }
-}
+// .home-page {
+//   .grid-wrapper {
+//     // @include media('>=phone') {
+//     //   padding: 2.5ex;
+//     // }
+//     // align-items: center;
+//     // grid-template-rows: minmax(3.5em, 7.5em) auto;
+//   }
+// }
 
 //
 /// We Need a Global Grid
@@ -129,15 +129,12 @@ $mobile-second-row: 15vh;
   @include media('>=phone') {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    // padding: 0 6vw;
   }
 
   @include media('>=tablet') {
     grid-template-columns: minmax(1em, $tablet-column) repeat(3, 1fr);
-    // padding: 0 1em 0 0;
-    // padding: 3.25ex 2.5ex;
-    padding-right: var(--s0);
-    padding-inline-end: var(--s0);
+    // padding-right: var(--s0);
+    // padding-inline-end: var(--s0);
   }
 
   @include media('>=desktop') {
@@ -145,49 +142,14 @@ $mobile-second-row: 15vh;
     // padding-right: 4em;
   }
 
-  display: grid;
+  // display: grid;
 
-  //
-  // Containing our fancy svg graphic on the home page
-  //
-  .prime-box {
-    @include media('>=phone') {
-      grid-column: 1 / 1;
-      grid-row: 1 /1;
-
-      // svg {
-      //   opacity: 0.45;
-      // }
-    }
-
-    @include media('>=tablet') {
-      grid-column: 1 / 5;
-      grid-row: 1 / 1;
-    }
-
-    @include media('>=desktop') {
-      grid-row: nameBox;
-    }
-
-    svg {
-      filter: opacity(0.4);
-      // position: fixed;
-      z-index: -1;
-      // fill: $site-white;
-      // filter {
-      //   flood-color: $site-white;
-      // }
-      // height: auto;
-      // padding: 1em;
-      // width: 100%;
-    }
-  } // prime box
+  
 
   .subtitle-grid-container {
     @include media('>=phone') {
       grid-column: 1 / 1;
       grid-row: 1 / 2;
-      // padding: 1.25ex 2.5ex;
     }
 
     @include media('>=tablet') {
@@ -208,11 +170,6 @@ $mobile-second-row: 15vh;
       grid-row: 1 / 1;
     }
 
-    //  @include media('>=desktop') {
-    //   grid-column: 2 / 4;
-    //   grid-row: 1 / 1;
-    //  }
-
     &--portfolio-list {
       @include media('>=phone') {
         grid-column: 1;
@@ -226,8 +183,6 @@ $mobile-second-row: 15vh;
       margin: 0;
     }
 
-    // &--portfolio-item {
-    // }
   }
   // /__listParent
 

@@ -52,7 +52,8 @@
         display: none;
       }
 
-      &:hover {
+      &:hover,
+      &:focus {
         box-shadow: 0 0 0 2px $site-green-blue;
       }
 
@@ -81,6 +82,12 @@
             display: flex;
             justify-content: flex-end;
             margin: unset;
+            padding: var(--s0) var(--s0) 0 0;
+            padding-block-end: 0;
+            padding-block-start: var(--s0);
+            padding-inline-end: var(--s0);
+            padding-inline-start: 0;
+            
           }
         }
       }
@@ -128,14 +135,18 @@
         a {
           @include basic-drop-shadow(text);
           color: $site-white;
-          font-size: var(--s0);
-          padding: var(--s-2);
+
+          padding: var(--s-3) var(--s-2) 0;
+          padding-block-start: var(--s-3);
+          padding-block-end: 0;
+          padding-inline-end: var(--s-2);
+          padding-inline-start: var(--s-2);
           text-decoration: none;
         }
 
         &:nth-child(n) {
-          @include media('>=phone') {
-          }
+          // @include media('>=phone') {
+          // }
 
           @include media('>=tablet') {
             // flex-basis: 25%;
@@ -150,11 +161,17 @@
       }
       
       .text-link {
+        align-self: center;
+        margin-right: var(--s0);
+        margin-inline-end: var(--s0);
+
+        a:first-child {
+          padding-inline-start: 0;
+        }
 
         @include media('<tablet') {
           align-self: flex-end;
         }
-        align-self: center;        
       }
 
       .social-icon {
@@ -166,13 +183,13 @@
 
         a {
           display: block;
-          // width: 3.5rem;
 
           &:hover {
             box-shadow: none;
           }
 
-          &:hover svg {
+          &:hover svg,
+          &:focus svg {
             fill: $site-punk-pink;
           }
         }

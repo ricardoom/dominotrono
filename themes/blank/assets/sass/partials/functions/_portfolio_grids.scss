@@ -13,7 +13,7 @@
     grid-column: #{$col-start} / #{$col-end};
     grid-row: #{$row-start} / #{$row-end};
   }
-  @content;
+  //@content;
 }
 
 // mixin that makes the grids and the breakpoints

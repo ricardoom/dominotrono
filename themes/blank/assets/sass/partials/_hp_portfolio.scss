@@ -10,32 +10,30 @@
 ///
 .portfolio-container {
   // handles placement on the parent grid:
-  @include media('>=phone') {
-    grid: auto / 1fr;
-    grid-column: 1 / 1;
-    grid-row: 4 / 5;
-  }
+  // @include media('>=phone') {
+  //   // grid: auto / 1fr;
+  //   // grid-column: 1 / 1;
+  //   // grid-row: 4 / 5;
+  // }
 
-  @include media('>=tablet') {
-    grid: auto / repeat(4, 1fr);
-    grid-column: 1 / 5;
-  }
+  // @include media('>=tablet') {
+  //   // grid: auto / repeat(4, 1fr);
+  //   // grid-column: 1 / 5;
+  // }
 
-  @include media('>=desktop') {
-    grid: auto / repeat(5, 1fr);
-  }
+  // @include media('>=desktop') {
+  //   // grid: auto / repeat(5, 1fr);
+  // }
 
   .portfolio-flex {
     margin-top: clamp(var(--s1), var(--s0), var(--s5));
-    // display: block;
+    display: flex;
+    flex-wrap: wrap;
+    
     @include media('<=phone') {
       display: block;
     }
 
-    @include media('>=phone') {
-      display: flex;
-      flex-wrap: wrap;
-    }
 
     li {
       @include media('>=phone', '<=25.875em') {

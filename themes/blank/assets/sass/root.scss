@@ -36,14 +36,13 @@
 
 body {
   background-color: $site-background-color;
-  background-repeat: no-repeat;
-  background: rgba(9, 84, 104, 1);
+  // background-repeat: no-repeat;
   background: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
   color: $site-white;
   font-family: $frank-new;
   font-size: $base-font;
   margin: auto  0;
-  
+  max-width: $wide-screen;
 }
 
 header,
@@ -51,7 +50,7 @@ main,
 footer,
 aside {
   margin: 0 auto;
-  max-width: $wide-screen;
+
 }
 
 body > * {
@@ -96,7 +95,7 @@ header {
 
 //   width: 100vw;
 // }
-
+p,
 ul {
   margin: 0;
   padding: 0;
@@ -110,11 +109,11 @@ li {
 /// Home Page
 ///
 
-.svg-overlay-container {
-  height: 0;
-  overflow: auto;
-  width: 0;
-}
+// .svg-overlay-container {
+//   height: 0;
+//   overflow: auto;
+//   width: 0;
+// }
 
 ///
 /// Inner pages
@@ -128,12 +127,12 @@ li {
 ///
 /// for landing pages w/ rivers of posts:
 
-.single-column {
-  @include media('>=phone') {
-    padding: 0;
-  }
-  padding: 0 1em;
-}
+// .single-column {
+//   @include media('>=phone') {
+//     padding: 0;
+//   }
+//   padding: 0 1em;
+// }
 
 ///
 /// site experiments
@@ -146,7 +145,7 @@ li {
 ///
 /// some pagination rules
 ///
-.site-pagination {
-  background-color: lighten($site-background-color, 25%);
-  padding: 2ex 2em;
-}
+// .site-pagination {
+//   background-color: lighten($site-background-color, 25%);
+//   padding: 2ex 2em;
+// }

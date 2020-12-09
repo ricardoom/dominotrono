@@ -117,17 +117,17 @@
       flex-flow: row nowrap;
 
         @include media('>=phone') {
-          padding-left: 0;
+          // padding-left: 0;
         }
 
-        @include media('>=tablet') {
-          padding-left: 6vw;
-        }
+        // @include media('>=tablet') {
+        //   padding-left: 6vw;
+        // }
 
         @include media('>=tablet') {
           grid-column: 1 / 6;
           justify-content: flex-start;
-          padding: initial;
+          // padding: initial;
         }
       
 

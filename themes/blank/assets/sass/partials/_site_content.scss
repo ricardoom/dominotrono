@@ -21,9 +21,9 @@
     padding: 0.5em 1em;
   }
 
-  &__homePage {
-    width: 90vw;
-  }
+  // &__homePage {
+  //   width: 90vw;
+  // }
 }
 
 .grid-wrapper {
@@ -51,17 +51,16 @@
 
       @include responsive-font(7.25vw, 4.5rem, 17rem, 200px);
       // display: block;
-      line-height: var(--s3);
+      // line-height: var(--s3);
     }
   }
 
   .mast-head {
+    margin: var(--s0) 0;
+    margin-block-end: var(--s0);
+    margin-block-start: var(--s0);
+    max-width: var(--smallMeasure);
     @include media('>=phone') {
-      // padding: 1.25ex 2.5ex;
-    }
-
-    @include media('>=tablet') {
-      line-height: 1.2;
     }
 
     @include responsive-font(2.75vw, 1.25em, 5.5rem, 32px);

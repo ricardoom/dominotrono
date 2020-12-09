@@ -26,7 +26,7 @@
       .portfolio {
         &__content {
           .portfolio-image-wrapper {
-            margin: 0.5em 0;
+            margin: var(--s05) 0;
 
             @include media('<=tablet') {
               display: block;
@@ -74,7 +74,7 @@
       // display: flex;
     }
 
-    grid-column: 1 / 6;
+    grid-column: 1 / -1;
     grid-row: 2 / 4;
 
     //
@@ -97,6 +97,7 @@
       .hero-grid,
       .details-grid {
         display: grid;
+        // max-width: $wide-screen;
       }
       //  Note:
       //  should only be used at the top of each portfolio case study.
@@ -106,45 +107,58 @@
       // hero grid specific variables:
       $hero-rows-phone: #{minmax(225px, auto) minmax(150px, auto)};
       $hero-rows-tablet: #{minmax(475px, auto) minmax(150px, auto)};
-      $hero-columns: #{2.5vw 1fr 2.5vw 1fr 2.5vw};
+      $hero-columns: #{var(--s1) 1fr var(--s1) 1fr var(--s1)};
+      $hc: 2fr 1fr;
       //
 
       .hero-grid {
-        @include portfolio-grid('>=phone', $hero-columns, $hero-rows-phone);
-        @include portfolio-grid('>=tablet', $hero-columns, $hero-rows-tablet);
+        @include portfolio-grid('>=phone', $hc, $hero-rows-phone);
+        @include portfolio-grid('>=tablet', $hc, $hero-rows-tablet);
+        
+        figure {
+          // max-width: calc(#{$wide-screen} - var(--s0));
+          // width: 100%;
+        }
+
+        img {
+          object-fit: cover;
+          width: 100%;
+        }
 
         &__imageBlock {
           margin-left: calc(var(--s0) * -1);
-        margin-right: calc(var(--s0) * -1);
-        margin-inline-end: calc(var(--s0) * -1);
-        margin-inline-start: calc(var(--s0) * -1);
-          @include add-to-grid('>=phone', 1, -1, 1, 2) {
-            img {
-              left: -5rem;
-              position: relative;
-              top: 0;
-              width: 180%;
-            }
-          }
+          // margin-right: calc(var(--s0) * -1);
+          // margin-inline-end: calc(var(--s0) * -1);
+          margin-inline-start: calc(var(--s0) * -1);
+          @include add-to-grid('>=phone', 1, -1, 1, 2) 
+          // {
+          //   // img {
+          //   //   left: -5rem;
+          //   //   position: relative;
+          //   //   top: 0;
+          //   //   width: 180%;
+          //   // }
+          // }
 
-          @include add-to-grid('>=tablet', 1, -1, 1, -1) {
-            img {
-              left: 0;
-              max-width: $wide-screen;
-              width: 100%;
+          @include add-to-grid('>=tablet', 1, -1, 1, -1) 
+          // {
+          //   // img {
+          //   //   left: 0;
+          //   //   max-width: $wide-screen;
+          //   //   width: auto;
 
-            }
-          }
-          overflow: hidden;
+          //   // }
+          // }
+          // overflow: hidden;
         }
 
         &__copyBlock {
           @include add-to-grid('>=phone', 1, 6, 2, 3);
-          @include add-to-grid('>=tablet', 2, 6, 2, 3);
+          @include add-to-grid('>=tablet', 1, -1, 2, 3);
           @include responsive-font(1.8vw, 18px, 32px, 20px);
           background-color: transparentize($site-dark-blue, 0.1);
-          margin: 0;
-          padding: 3ex;
+          // margin: 0;
+          padding: var(--s1);
           z-index: 1;
         }
       } // /.hero-grid

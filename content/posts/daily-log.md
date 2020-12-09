@@ -11,12 +11,13 @@ The idea here is to briefly jot down activities, changes, inquiries, research to
 
 <!--more-->
 
-### 12-1-202
+### 12-1-2020
+
 Moving this log to individual posts... makes more sense. See you on the other side.
 
 ### 3-17-2020
 
-Crazy times. Corona virus has the world paralyzed. For my family's part, we're scared and resolute. Frustrated and yet despite all the failings, hopeful.
+Crazy times. Corona virus has the world paralyzed. For my family's part, we're scared and resolute. Frustrated and yet despite all the ~~winning~~ failing, hopeful.
 
 ### 3-16-2020
 

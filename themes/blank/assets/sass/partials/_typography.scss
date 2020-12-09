@@ -44,7 +44,7 @@ $headings: (h1, h2, h3, h4, h5, h6);
     font-family: $serif;
     font-weight: 200;
     font-style: normal;
-    line-height: var(--s1);
+    // line-height: var(--s1);
     margin: var(--s-1) 0;
 
     ///
@@ -128,6 +128,7 @@ code {
 .site-single,
 .portfolio {
   &__content {
+
     h2,
     h3 {
       margin-bottom: 0.5ex;
@@ -144,6 +145,9 @@ code {
     // set the max width for <p> elements to a reasonable / standard amount of characters
     p {
       max-width: $max-line-length;
+      margin: var(--s0) 0;
+      margin-block-end: var(--s0);
+      margin-block-start: var(--s0);
     }
 
     ul {

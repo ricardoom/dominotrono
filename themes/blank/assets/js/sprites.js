@@ -9,7 +9,7 @@ const ajax = new XMLHttpRequest();
 ajax.open('GET', spritePath, true);
 ajax.send();
 ajax.onload = function(e) {
-  div.setAttribute('class', 'site-header__siteNavigation--social-svg');
+  div.setAttribute('class', 'social-svg');
   div.innerHTML = ajax.responseText;
   nav.insertBefore(div, nav.childNodes[0]);
 };

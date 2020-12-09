@@ -144,19 +144,6 @@ $mobile-second-row: 15vh;
 
   // display: grid;
 
-  
-
-  .subtitle-grid-container {
-    @include media('>=phone') {
-      grid-column: 1 / 1;
-      grid-row: 1 / 2;
-    }
-
-    @include media('>=tablet') {
-      grid-column: 1 / 4;
-      grid-row: 1 / 1;
-    }
-  } // ./subtitle grid container
 
   &__listParent,
   &__portfolioParent {
@@ -212,3 +199,15 @@ $mobile-second-row: 15vh;
     // padding: 0 0 0 2.25vw;
   }
 }
+
+.subtitle-grid-container {
+    // @include media('>=phone') {
+    //   grid-column: 1 / 1;
+    //   grid-row: 1 / 2;
+    // }
+
+    // @include media('>=tablet') {
+    //   grid-column: 1 / 4;
+    //   grid-row: 1 / 1;
+    // }
+  } // ./subtitle grid container

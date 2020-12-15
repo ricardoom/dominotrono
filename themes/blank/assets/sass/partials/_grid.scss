@@ -1,11 +1,6 @@
 ///
-/// Grid Settings Y Styles
+/// Grid & Flexbox Settings
 ///
-
-//
-// TODO: this entire partial needs cleaning up...
-// * look at utilizing the new grid mixin
-// * look to using [named] grid definitions instead of numbered... just might be easier to use
 
 ///
 /// Header
@@ -21,31 +16,24 @@ $mobile-first-row: 15vh;
 $mobile-second-row: 15vh;
 
 .site-header {
-  @include media('>=phone') {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }
-  @include media('>=tablet') {
-    display: block;
-  }
+ 
 
-  &__siteNameContainer,
-  &__siteNavigation {
-    // set up the grids for the breakpoints... really need to make this a mixin or function
-    // function take named media q. as args
-    // take number after each as arg of number of frs to output
+  // &__siteNameContainer,
+  // &__siteNavigation {
+  //   // set up the grids for the breakpoints... really need to make this a mixin or function
+  //   // function take named media q. as args
+  //   // take number after each as arg of number of frs to output
 
-    @include media('>=phone') {
-      grid-template-columns: 1fr;
-      grid-template-rows: minmax(3.2em, 4em);
-    }
+  //   @include media('>=phone') {
+  //     grid-template-columns: 1fr;
+  //     grid-template-rows: minmax(3.2em, 4em);
+  //   }
 
-    @include media('>=tablet') {
-      grid-template-columns: $left-column repeat(4, 1fr);
-      grid-template-rows: 8em;
-    }
-  }
+  //   @include media('>=tablet') {
+  //     grid-template-columns: $left-column repeat(4, 1fr);
+  //     grid-template-rows: 8em;
+  //   }
+  // }
 
   &__siteNameContainer {
     @include media('>=phone') {
@@ -55,23 +43,23 @@ $mobile-second-row: 15vh;
     }
 
     @include media('>=tablet') {
-      display: grid;
-      padding-top: 0;
+      // display: grid;
+      // padding-top: 0;
     }
 
-    &--name {
-      @include media('>=phone') {
-        // grid-column: 1 / 1;
-      }
+    // &--name {
+    //   @include media('>=phone') {
+    //     // grid-column: 1 / 1;
+    //   }
 
-      @include media('>=tablet') {
-        grid-column: 1 / 4;
-      }
-    }
+    //   @include media('>=tablet') {
+    //     grid-column: 1 / 4;
+    //   }
+    // }
   }
 
   //
-  // Sets up the grid and layout ONLY for the nav...
+  // Sets up the flexbox and layout ONLY for the nav...
   //
   &__siteNavigation {
     @include media('>=phone') {

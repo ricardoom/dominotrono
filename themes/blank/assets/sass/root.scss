@@ -37,7 +37,9 @@
 body {
   background-color: $site-background-color;
   // background-repeat: no-repeat;
-  background: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
+  // background-image: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
   color: $site-white;
   font-family: $frank-new;
   font-size: $base-font;

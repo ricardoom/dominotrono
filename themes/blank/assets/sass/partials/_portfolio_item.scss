@@ -15,38 +15,38 @@
     // TODO: Determine if this entire code block is still in use...
     //
 
-    &--portfolio-item {
-      @include basic-article-wrapper('>=phone', 95vw, 5vw);
-      @include basic-article-wrapper('>=tablet', 100vw, 0, 1.5vw);
-      @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
-      @include media('>=tablet') {
-        flex: 1 0 75%;
-      }
+    // &--portfolio-item {
+    //   @include basic-article-wrapper('>=phone', 95vw, 5vw);
+    //   @include basic-article-wrapper('>=tablet', 100vw, 0, 1.5vw);
+    //   @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
+    //   @include media('>=tablet') {
+    //     flex: 1 0 75%;
+    //   }
 
-      .portfolio {
-        &__content {
-          .portfolio-image-wrapper {
-            margin: var(--s05) 0;
+    //   // .portfolio {
+    //   //   &__content {
+    //   //     .portfolio-image-wrapper {
+    //   //       margin: var(--s05) 0;
 
-            @include media('<=tablet') {
-              display: block;
-            }
+    //   //       @include media('<=tablet') {
+    //   //         display: block;
+    //   //       }
 
-            @include media('>=tablet') {
-              display: flex;
-            }
+    //   //       @include media('>=tablet') {
+    //   //         display: flex;
+    //   //       }
 
-            figcaption {
-              margin: 3ex 1ex;
-            }
-          }
+    //   //       figcaption {
+    //   //         margin: 3ex 1ex;
+    //   //       }
+    //   //     }
 
-          h3 {
-            // @include responsive-font(1.5vw, 1.6em, 22px, 32px);
-          }
-        } // /__content
-      }
-    }
+    //   //     h3 {
+    //   //       // @include responsive-font(1.5vw, 1.6em, 22px, 32px);
+    //   //     }
+    //   //   } // /__content
+    //   // }
+    // }
   }
 } // /grid-wrapper
 
@@ -83,22 +83,24 @@
     //
     h3 {
       &:first-child {
-        margin-bottom: 2ex;
+        margin-bottom: var(--s0);
       }
 
       @include responsive-font(1.5vw, 1.6em, 22px, 32px);
-      margin: 4ex 0 0 2.5vw;
+      margin: var(--s1) 0 0;
     }
 
     .portfolio__content {
       //
       // uses the same grid styles, but namespaced to differentiate
       //
-
+      section { // utility style:
+        max-width: $wide-screen;
+      }
       .hero-grid,
       .details-grid {
         display: grid;
-        // max-width: $wide-screen;
+        
       }
       //  Note:
       //  should only be used at the top of each portfolio case study.
@@ -115,7 +117,7 @@
       .hero-grid {
         @include portfolio-grid('>=phone', $hc, $hero-rows-phone);
         @include portfolio-grid('>=tablet', $hc, $hero-rows-tablet);
-        max-width: $wide-screen;
+        // max-width: $wide-screen;
         figure {
           // max-width: calc(#{$wide-screen} - var(--s0));
           // width: 100%;

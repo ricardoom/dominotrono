@@ -47,18 +47,20 @@
   }
 }
 
-@mixin grid-figcaption {
+@mixin grid-figcaption { // makes the figcaption portable... but maybe we just set all figcaptions to be this?
   > figcaption {
-    @include media('>=phone') {
-      background-color: transparentize($site-dark-blue, 0.05);
-      top: -1.5em;
-      right: -3em;
-      position: relative;
-      width: 90%;
-    }
-
+    color: $site-dark-blue;
     font-style: italic;
-    padding: 2ex;
+    padding: var(--s1);
+    background-color: #fff;
+    box-shadow: var(--s-2) var(--s0) var(--s3) transparentize($site-black, 0.3);
+    @include media('>=phone') {
+      
+      top: calc(var(--s1)  * -1);
+      right: calc(var(--s2)  * -1);
+      position: relative;
+      width: calc(90% - var(--s0));
+    }
   }
 }
 

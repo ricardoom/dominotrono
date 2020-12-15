@@ -99,9 +99,9 @@ a,
     color: $site-punk-pink;
   }
 
-  &:active {
-    background-color: $site-link-active-bg;
-  }
+  // &:active {
+  //   background-color: $site-link-active-bg;
+  // }
 
   &:focus {
     @include focus-ring(outline);

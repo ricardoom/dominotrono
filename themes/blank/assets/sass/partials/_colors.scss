@@ -3,8 +3,10 @@
 ///
 
 $site-dark-blue: hsl(212, 76%, 10%);
+$site-t-dark-blue: transparentize($site-dark-blue, 0.1);
 $site-green-blue: hsl(203, 39%, 48%);
 $site-white: hsl(0, 0%, 100%);
+$site-t-white: transparentize($site-white, 0.3);
 $site-punk-pink: hsl(324, 90%, 61%);
 $site-hot-orange: hsl(7, 85%, 64%);
 $site-lava-orange: hsl(15, 93%, 56%);
@@ -30,13 +32,13 @@ $site-link-active-bg: $site-green-blue;
 /// per screen size bg colors
 ///
 
-$small-bg-color: lighten($site-background-color, 1%);
-$medium-bg-color: lighten($site-background-color, 5%);
+// $small-bg-color: lighten($site-background-color, 1%);
+// $medium-bg-color: lighten($site-background-color, 5%);
 $large-bg-color: lighten($site-background-color, 8.5%);
 
 /// Colors that have transparency by virtue of hsla vs. sass doing that work for us
-$site-transparent-black: hsla(0, 5%, 5%, 0.15);
-$site-transparent-bg: transparentize($site-background-color, 0.6);
+// $site-transparent-black: hsla(0, 5%, 5%, 0.15);
+// $site-transparent-bg: transparentize($site-background-color, 0.6);
 
 // take each color from above and create a global class by that name:
 // ex output would be: .site-color--green-blue;

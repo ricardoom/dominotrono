@@ -1,9 +1,10 @@
+{{ if .Site.IsServer }}
 {{ printf "<!-- portfolio list template new Card template aqui  -->" | safeHTML }}
-
+{{ end }}
 {{ partial "header.html" . }}
 <main>
   <div class="grid-wrapper">
-    <ul class="grid-wrapper__listParent--portfolio-list">
+    <ul>
       {{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") 20 }}
       {{ range $paginator.Pages }}
       {{ partial "portfolio_hero" . }}

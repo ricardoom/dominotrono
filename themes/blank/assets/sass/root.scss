@@ -41,16 +41,16 @@ body {
   color: $site-white;
   font-family: $frank-new;
   font-size: $base-font;
-  margin: auto  0;
+  margin: 0 auto;
   max-width: $wide-screen;
 }
 
-header,
-main,
-footer,
-aside {
-  margin: 0 auto;
-}
+// header,
+// main,
+// footer,
+// aside {
+//   margin: 0 auto;
+// }
 
 body > * {
     margin-bottom: var(--s0);

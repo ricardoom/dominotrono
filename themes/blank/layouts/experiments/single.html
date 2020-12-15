@@ -5,6 +5,7 @@
 {{ $vendorPath := .Site.Params.vendorPath }}
 {{ $jsVendor := .Site.Params.vendors }}
 {{ $jsLowerCased := lower $pageJS }}
+{{ $local := .Site.IsServer }}
 {{ printf "<!-- +++ experiments single.html  -->" | safeHTML }}
 {{ partial "header.html" . }}
 <main>
@@ -64,5 +65,7 @@
   </div>
 </main>
 {{ partial "sidebar.html" . }}
-
 {{ partial "footer.html" . }}
+{{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}

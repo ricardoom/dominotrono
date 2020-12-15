@@ -13,9 +13,14 @@ $oneFifth: 0.2;
 $small-screen: 25.875rem; // 414px
 $medium-screen: 48rem; // 768px
 $wide-screen: 80rem; // 1280px
-$mega-screen: 93rem // 1488px
+$mega-screen: 93rem; // 1488px
 
 
+$tablet-column: 15vw;
+$desktop-column: 25vw;
+$left-column: 15vw;
+$mobile-first-row: 15vh;
+$mobile-second-row: 15vh;
 
 :root {
   --measure: 60ch;

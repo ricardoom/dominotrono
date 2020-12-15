@@ -59,6 +59,7 @@
   grid-template-columns: var(--s0) minmax(69vw, 800px) minmax(14.95vw, 340px) minmax(10vw, 350px) var(--s0);
   grid-template-rows: auto;
   row-gap: 2ex;
+
   h1,
   time {
     grid-column: 2 / 4;
@@ -114,7 +115,7 @@
       .hero-grid {
         @include portfolio-grid('>=phone', $hc, $hero-rows-phone);
         @include portfolio-grid('>=tablet', $hc, $hero-rows-tablet);
-        
+        max-width: $wide-screen;
         figure {
           // max-width: calc(#{$wide-screen} - var(--s0));
           // width: 100%;
@@ -154,7 +155,7 @@
 
         &__copyBlock {
           @include add-to-grid('>=phone', 1, 6, 2, 3);
-          @include add-to-grid('>=tablet', 1, -1, 2, 3);
+          @include add-to-grid('>=tablet', 1, -2, 2, 3);
           @include responsive-font(1.8vw, 18px, 32px, 20px);
           background-color: transparentize($site-dark-blue, 0.1);
           // margin: 0;

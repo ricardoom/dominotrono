@@ -20,10 +20,6 @@
     font-size: 1.25rem;
     padding: 0.5em 1em;
   }
-
-  // &__homePage {
-  //   width: 90vw;
-  // }
 }
 
 .grid-wrapper {
@@ -34,22 +30,22 @@
     }
 
     &__subTitle {
+      @include responsive-font(7.25vw, 4.5rem, 17rem, 200px);
       @include media('>=phone') {
         margin: 0;
       }
 
       @include media('>=tablet') {
-        // @include slide-up-down;
         @include slide-up-down(slideDownLarge);
         @include basic-drop-shadow(text);
         padding: 0;
       }
 
-      @include media('>=desktop') {
-        // @include slide-up-down(slideDownLarge);
-      }
+      // @include media('>=desktop') {
+      //   // @include slide-up-down(slideDownLarge);
+      // }
 
-      @include responsive-font(7.25vw, 4.5rem, 17rem, 200px);
+    
       // display: block;
       // line-height: var(--s3);
     }

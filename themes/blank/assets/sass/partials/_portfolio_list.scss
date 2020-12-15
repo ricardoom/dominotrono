@@ -64,20 +64,6 @@
       @include media('>=desktop') {
       }
 
-      // svg {
-      //   @include media('>=phone') {
-      //     fill: $site-white;
-      //     max-width: 100%;
-      //     margin: 10% 10% 0;
-      //     opacity: 0.15;
-      //   }
-
-      //   @include media('>=tablet') {
-      //     max-width: 40%;
-      //     padding: 3% 5%;
-      //   }
-      // }
-
       top: 5em;
       z-index: 1;
     }
@@ -143,10 +129,7 @@
 
     @include media('>=desktop') {
       grid-template-columns: 9vw 1.5fr 2fr;
-      grid-template-rows: repeat(2, minmax(3vh, 7vh)) minmax(auto, max-content) minmax(
-          1vh,
-          2vh
-        );
+      grid-template-rows: repeat(2, minmax(3vh, 7vh)) minmax(auto, max-content) minmax(1vh, 2vh);
       align-items: start;
     }
 

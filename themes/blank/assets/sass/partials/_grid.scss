@@ -9,31 +9,8 @@
 /// Some Common Variables that should be moved to a separate file, possibly the _functions mixin...
 /// Desktop view ports
 
-$tablet-column: 15vw;
-$desktop-column: 25vw;
-$left-column: 15vw;
-$mobile-first-row: 15vh;
-$mobile-second-row: 15vh;
 
 .site-header {
- 
-
-  // &__siteNameContainer,
-  // &__siteNavigation {
-  //   // set up the grids for the breakpoints... really need to make this a mixin or function
-  //   // function take named media q. as args
-  //   // take number after each as arg of number of frs to output
-
-  //   @include media('>=phone') {
-  //     grid-template-columns: 1fr;
-  //     grid-template-rows: minmax(3.2em, 4em);
-  //   }
-
-  //   @include media('>=tablet') {
-  //     grid-template-columns: $left-column repeat(4, 1fr);
-  //     grid-template-rows: 8em;
-  //   }
-  // }
 
   &__siteNameContainer {
     @include media('>=phone') {
@@ -41,21 +18,6 @@ $mobile-second-row: 15vh;
       flex: 2 1 95%;
       
     }
-
-    @include media('>=tablet') {
-      // display: grid;
-      // padding-top: 0;
-    }
-
-    // &--name {
-    //   @include media('>=phone') {
-    //     // grid-column: 1 / 1;
-    //   }
-
-    //   @include media('>=tablet') {
-    //     grid-column: 1 / 4;
-    //   }
-    // }
   }
 
   //
@@ -67,53 +29,17 @@ $mobile-second-row: 15vh;
     }
 
     @include media('>=tablet') {
-      // display: grid;
       padding-block-end: var(--s-1);
       padding-block-start: var(--s-1);
       padding-bottom: var(--s-1);
       padding-top: var(--s-1);
     }
-
-    // &--items {
-    //   @include media('>=phone') {
-    //     grid-column: 1;
-    //   }
-
-    //   @include media('>=tablet') {
-    //     grid-column: 2 / 4;
-    //   }
-    //   @include media('>=desktop') {
-    //     grid-column: 2 / 4;
-    //   }
-    // }
-
-    // grid-template-rows: initial;
-    // padding: 0;
   }
 }
 
 //
 // Grid Wrapper(s)
 //
-
-// Only for the home page,
-// TODO make a grid directory and move all grids into their own sub partials...
-// TODO, this could be done a bit more elegant:
-// .home-page {
-//   .grid-wrapper {
-//     // @include media('>=phone') {
-//     //   padding: 2.5ex;
-//     // }
-//     // align-items: center;
-//     // grid-template-rows: minmax(3.5em, 7.5em) auto;
-//   }
-// }
-
-//
-/// We Need a Global Grid
-//
-
-
 
 .grid-wrapper {
   @include media('>=phone') {
@@ -123,57 +49,35 @@ $mobile-second-row: 15vh;
 
   @include media('>=tablet') {
     grid-template-columns: minmax(1em, $tablet-column) repeat(3, 1fr);
-    // padding-right: var(--s0);
-    // padding-inline-end: var(--s0);
   }
 
   @include media('>=desktop') {
     grid-template-columns: $left-column repeat(3, 1fr);
-    // padding-right: 4em;
   }
 
-  // display: grid;
+  // &__listParent,
+  // &__portfolioParent {
+  //   // @include media('>=phone') {
+  //   //   grid-column: 1 / -1;
+  //   //   grid-row: 2 / 2;
+  //   // }
 
+  //   // @include media('>=tablet') {
+  //   //   grid-column: 1 / -1;
+  //   //   grid-row: 1 / 1;
+  //   // }
 
-  &__listParent,
-  &__portfolioParent {
-    @include media('>=phone') {
-      grid-column: 1 / -1;
-      grid-row: 2 / 2;
-    }
+  //   // &--portfolio-list {
+  //   //   @include media('>=phone') {
+  //   //     grid-column: 1;
+  //   //   }
 
-    @include media('>=tablet') {
-      grid-column: 1 / -1;
-      grid-row: 1 / 1;
-    }
+  //   //   @include media('>=tablet') {
+  //   //     grid-column: 2 / 5;
+  //   //   }
+  //   // }
 
-    &--portfolio-list {
-      @include media('>=phone') {
-        grid-column: 1;
-      }
-
-      @include media('>=tablet') {
-        grid-column: 2 / 5;
-      }
-
-      // padding: 0;
-      // margin: 0;
-    }
-
-  }
-  // /__listParent
-
-  // .mast-head {
-  //   @include media('>=phone') {
-  //     grid-column: 1 / 1;
-  //   }
-
-  //   @include media('>=tablet') {
-  //     grid-column: 1 / 4;
-  //   }
-
-  //   grid-row: 3 / 4;
-  // } // /__masthead
+  // }
 
   @include media('>=phone') {
     .grid-site-data {
@@ -186,18 +90,5 @@ $mobile-second-row: 15vh;
   h1 {
     @include add-to-grid('>=phone', 2, 5, 1, 2);
     @include add-to-grid('>=tablet', 2, 5, 1, 2);
-    // padding: 0 0 0 2.25vw;
   }
 }
-
-.subtitle-grid-container {
-    // @include media('>=phone') {
-    //   grid-column: 1 / 1;
-    //   grid-row: 1 / 2;
-    // }
-
-    // @include media('>=tablet') {
-    //   grid-column: 1 / 4;
-    //   grid-row: 1 / 1;
-    // }
-  } // ./subtitle grid container

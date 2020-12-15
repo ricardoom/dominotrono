@@ -74,27 +74,7 @@ header {
     padding-block-start: var(--s05);
   }
 }
-// .fullWidthWrapper {
-//   > :nth-child(n) {
-//     @include media('>=phone') {
-//       margin: 0;
-//       width: 100vw;
-//     }
 
-//     @include media('>=tablet') {
-//       margin: 0 0 0 5vw;
-//       padding: 0 0 0 15ex;
-//       width: 75vw;
-//     }
-
-//     @include media('>=desktop') {
-//       margin: 0 0 0 10vw;
-//       width: 60vw;
-//     }
-//   }
-
-//   width: 100vw;
-// }
 p,
 ul {
   margin: 0;
@@ -105,47 +85,7 @@ li {
   list-style: none;
 }
 
-///
-/// Home Page
-///
-
-// .svg-overlay-container {
-//   height: 0;
-//   overflow: auto;
-//   width: 0;
+// .site-experiments {
+//   background-color: darken($site-background-color, 0.2);
 // }
 
-///
-/// Inner pages
-///
-// .inner-page {
-//   main {
-//     margin-bottom: 1em;
-//   }
-// }
-
-///
-/// for landing pages w/ rivers of posts:
-
-// .single-column {
-//   @include media('>=phone') {
-//     padding: 0;
-//   }
-//   padding: 0 1em;
-// }
-
-///
-/// site experiments
-///
-
-.site-experiments {
-  background-color: darken($site-background-color, 0.2);
-}
-
-///
-/// some pagination rules
-///
-// .site-pagination {
-//   background-color: lighten($site-background-color, 25%);
-//   padding: 2ex 2em;
-// }

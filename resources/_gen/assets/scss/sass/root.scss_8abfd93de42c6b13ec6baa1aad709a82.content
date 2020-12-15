@@ -1638,25 +1638,9 @@ figure {
     border-left: 100px red dotted; }
 
 .biography-skills {
-  font-size: 48px;
-  font-size: 2vw;
-  border-bottom: 0;
-  grid-column: 1 / 5;
-  grid-row: 5 / 6; }
-  @media (min-width: 19.25em) {
-    .biography-skills {
-      padding: 4ex 6vw; } }
-  @media (min-width: 48em) {
-    .biography-skills {
-      padding: 8ex 0; } }
-  @media (max-width: 900px) {
-    .biography-skills {
-      font-size: 18px; } }
-  @media (min-width: 50em) {
-    .biography-skills {
-      font-size: 1em; } }
-  .biography-skills h3 {
-    margin-bottom: var(--s0); }
+  font-size: clamp(var(--s0), var(--s1), 24px);
+  margin-top: var(--s0);
+  margin-block-start: var(--s0); }
   .biography-skills > ul * {
     margin: 0;
     padding: 0; }
@@ -1684,13 +1668,10 @@ figure {
         .biography-skills > ul > li {
           margin: 0; } }
       .biography-skills > ul > li > ul > li {
-        margin: 0.45em 0; }
+        margin: var(--s05) 0; }
         .biography-skills > ul > li > ul > li > a {
           text-decoration: none;
           border-bottom: 2px solid white; }
-  .biography-skills p {
-    font-size: 1.8rem;
-    margin: 3ex 0 0; }
 
 .site-footer {
   background: #061629;
@@ -1744,8 +1725,5 @@ ul {
 
 li {
   list-style: none; }
-
-.site-experiments {
-  background-color: #06182c; }
 
 /*# sourceMappingURL=root.css.map */

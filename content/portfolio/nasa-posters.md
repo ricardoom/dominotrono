@@ -16,7 +16,7 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero3x: ''
 portfolioHeroAlt: 'A cropped image of the NASA Poster / Info-graphic'
 heroFigcaption: ''
-svgClipObjectClass: 'boxDiagonals'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--white'
 tags: ['infographic', 'Graphic Design', 'Illustration']
 weight: 9

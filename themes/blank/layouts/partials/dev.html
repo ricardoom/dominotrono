@@ -1,0 +1,96 @@
+<style>
+  .dev {
+    --max-width: 65ch;
+    --color: #333;
+    background-color: hsl(120, 80%, 94%);
+    color: #333;
+    color: var(--color, #333);
+    max-width: var(--max-width);
+    
+  }
+
+  .dev>p,
+  .dev>dl {
+    border-block-end: 2px solid hsl(157, 100%, 19%);
+    overflow-wrap: break-word;
+  }
+
+  dd {
+    overflow-wrap: break-word;
+  }
+
+  .debugger>* {
+    outline: red 1px dotted;
+  }
+  .dev > ul > li {
+    margin: 1rem 0;
+  }
+  .dev > ul > li > a:link,
+  .dev > ul > li > a:visited {
+    color: #333;
+    color: var(--color, #333);
+  }
+
+  time {
+    font-size: var(--s-1);
+  };
+
+</style>
+<aside class="dev">
+  <h4>Variables & Useful Development info:</h4>
+  <p>This Page or Section Title: <b>{{ .Title }}</b></p>
+  <p><b>Here are the .Page.Resources:</b></p>
+  {{ $resources := .Resources }}
+  {{ range $elem_index, $elem_val := $resources }}
+  <dl>
+    <dt><b>{{ $elem_index }}</b></dt>
+    <dd>{{ $elem_val }}</dd>
+  </dl>
+  {{ end }}
+  <p>The dot for this page or section: <b>{{ . }}</b></p>
+  <p>Current Section type & path: <b>{{ .CurrentSection }}</b></p>
+  <p>Number of child descendant sections to this one: <b>{{ .Sections }}</b></p>
+
+  <p><b>.Site.Params:</b></p>
+  {{ $siteParams := .Site.Params }}
+  {{ range $elem_index, $elem_val := $siteParams }}
+  <dl>
+    <dt><b>{{ $elem_index }}</b></dt>
+    <dd>{{ $elem_val }}</dd>
+  </dl>
+  {{ end }}
+
+  <p><b>Page Params:</b></p>
+  {{ $params := .Page.Params }}
+  {{ range $elem_index, $elem_val := $params }}
+  <dl>
+    <dt><b>{{ $elem_index }}</b></dt>
+    <dd>{{ $elem_val }}</dd>
+  </dl>
+  {{ end }}
+
+  <h4>Range through .RegularPagesRecursive</h4>
+  {{ $regRecurs := .RegularPagesRecursive }}
+  {{ range $regRecurs }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+  <ul>All the regular pages and only first-level section pages under the current list page:
+    {{ range .Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }} (Type: {{ .Type }})</a></li>
+    {{ end }}
+  </ul>
+  <ul>All the pages:
+    {{ range .Site.Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}
+        <ul>
+          <li>Type: {{ .Type }}</li>
+          <li>Kind: {{ .Kind }}</li>
+          {{ if .IsSection }}
+          <li>Section: {{ .IsSection }}</li>
+          {{ .Sections }}
+          {{ end }}
+        </ul>
+      </a></li>
+    {{ end }}
+  </ul>
+</aside>

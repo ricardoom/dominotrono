@@ -1,4 +1,8 @@
+{{ $local := .Site.IsServer }}
+{{ if $local }}
 {{ printf "<!-- +++ Default summary template +++ -->" | safeHTML }}
+{{ end  }}
+
 <article class="site-summary">
 
   <h1>
@@ -8,7 +12,7 @@
   <div class="site-summary__content">
     <p class="site-summary__copy">{{ .Summary }}
       {{ if .Truncated }}
-      <a href="{{ .Permalink }}">Continue Reading about {{ .Title }}.</a>
+      <a href="{{ .Permalink }}">Continue reading about {{ .Title }}.</a>
       {{ end }}
     </p>
     {{ if and (.Params.postimage) (ne .Params.postimage "") }}
@@ -19,7 +23,7 @@
       {{ end }}
     </figure>
     {{ end }}
-    {{ if .Site.IsServer }}
+    {{ if $local }}
     {{if and (.Params.tags) (ne .Params.tags "") }}
     <ul>
       {{ range .Params.tags }}

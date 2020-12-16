@@ -74,8 +74,8 @@ newLayout: true
          class="details-grid__fiftyWords big-image"
          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x,q_auto,w_auto,c_scale,f_auto/v1582831627/simply-e/se-adroid-audio-screens.jpg"
          
-         alt="an image of the Android user flow and screens"
-         figcaption="The Android version of the player and user flow. "
+         alt="an image of the Android user flow and screens with interactive hot-spots set up in Sketch"
+         figcaption="The Android version of the player and user flow with interactive hot-spots set up in Sketch."
         >}}
             {{< copy_wrapper
               class="details-grid__fiftyWords copy-block" >}}

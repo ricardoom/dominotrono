@@ -3,12 +3,12 @@
 ///
 
 .site-summary {
-  @include basic-article-wrapper('>=phone', 95vw);
+  @include basic-article-wrapper('>=phone', $max-line-length);
 
   @include media('>=desktop') {
     border-left: 0;
     border-right: 0;
-    max-width: 100vw;
+    max-width: $max-line-length;
   }
 
   a {

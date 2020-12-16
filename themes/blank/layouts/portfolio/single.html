@@ -4,6 +4,7 @@
 {{ $atWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
+{{ $local := .Site.IsServer }}
 {{ partial "header.html" . }}
 <main>
   {{ if $newLayout }}
@@ -11,9 +12,9 @@
     {{ else }}
   <article class="{{ $imgWrapper }}">
   {{ end }}
-    
-     <h1>{{ .Title }}</h1>
-     {{ if .Site.IsServer }}
+
+    <h1>{{ .Title }}</h1>
+    {{ if .Site.IsServer }}
      <time>{{ .Date.Format "01.02.2006 15:04" }}</time>
     {{ end }}
      <div class="{{ if ( $newLayout ) }}{{ $atWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioParent">
@@ -26,3 +27,6 @@
 </main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
+{{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}

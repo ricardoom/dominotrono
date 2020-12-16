@@ -45,7 +45,7 @@ newLayout: true
       {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 
-### The Home Page
+## The Home Page
 
 {{< section_wrapper class="details-grid" >}}
 
@@ -71,7 +71,7 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-### Video Page
+## Video Page
 
 {{< section_wrapper class="details-grid" >}}
 
@@ -102,7 +102,7 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-### Series maps and posters
+## Series maps and posters
 
 {{< section_wrapper class="details-grid" >}}
 

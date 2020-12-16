@@ -6,6 +6,7 @@
 @import 'partials/functions';
 @import 'vendor/include_media';
 @import 'vendor/fluid_type';
+@import 'partials/scaleRules';
 @import 'partials/custom_breakpoints';
 @import 'partials/colors';
 @import 'partials/typography';
@@ -27,70 +28,55 @@
 @import 'partials/skill_block';
 @import 'partials/footer';
 
-// rules
-//
-/// Box Sizing
-/// TODO: Make sure this box-sizing rule is in fact the one we want
-///
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  background-color: $site-background-color;
-  background-repeat: no-repeat;
-  background: rgba(9, 84, 104, 1);
-  background: -webkit-linear-gradient(bottom right, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
-  background: -moz-linear-gradient(bottom right, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
-  background: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
-  background-attachment: fixed;
-  background-origin: 0 0;
-  background-position: 0 0;
-  background-size: cover;
-  color: $site-white;
-  font-family: $sans-serif;
-  font-size: $base-font;
-}
+*,
+*::before,
+*::after {
+  box-sizing:border-box
+  }
 
 body {
-  font-size: 1.6rem;
-  margin: 0;
-}
-
-header,
-main,
-footer,
-aside {
+  background-color: $site-background-color;
+  // background-repeat: no-repeat;
+  // background-image: linear-gradient(to top left, rgba(9, 84, 104, 1), rgba(21, 20, 59, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $site-white;
+  font-family: $frank-new;
+  font-size: $base-font;
   margin: 0 auto;
+  max-width: $wide-screen;
 }
 
-.fullWidthWrapper {
-  > :nth-child(n) {
-    @include media('>=phone') {
-      margin: 0;
-      width: 100vw;
-    }
+// header,
+// main,
+// footer,
+// aside {
+//   margin: 0 auto;
+// }
 
-    @include media('>=tablet') {
-      margin: 0 0 0 5vw;
-      padding: 0 0 0 15ex;
-      width: 75vw;
-    }
-
-    @include media('>=desktop') {
-      margin: 0 0 0 10vw;
-      width: 60vw;
-    }
+body > * {
+    margin-bottom: var(--s0);
+    padding-left: var(--s0);
+    padding-right: var(--s0);
+    padding-inline-end: var(--s0);
+    padding-inline-start: var(--s0);
   }
 
-  &.minus-body {
-    font-size: $base-font-small;
-  }
-
-  width: 100vw;
+main {
+  @include media('<=tablet') {
+      margin-block-start: var(--s0);
+    }
 }
 
+
+header {
+  @include media('<=tablet') {
+    padding-block-end: var(--s05);
+    padding-block-start: var(--s05);
+  }
+}
+
+p,
 ul {
   margin: 0;
   padding: 0;
@@ -98,49 +84,4 @@ ul {
 
 li {
   list-style: none;
-}
-
-///
-/// Home Page
-///
-
-.svg-overlay-container {
-  height: 0;
-  overflow: auto;
-  width: 0;
-}
-
-///
-/// Inner pages
-///
-.inner-page {
-  main {
-    margin-bottom: 1em;
-  }
-}
-
-///
-/// for landing pages w/ rivers of posts:
-
-.single-column {
-  @include media('>=phone') {
-    padding: 0;
-  }
-  padding: 0 1em;
-}
-
-///
-/// site experiments
-///
-
-.site-experiments {
-  background-color: darken($site-background-color, 0.2);
-}
-
-///
-/// some pagination rules
-///
-.site-pagination {
-  background-color: lighten($site-background-color, 25%);
-  padding: 2ex 2em;
 }

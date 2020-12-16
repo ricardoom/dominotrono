@@ -5,7 +5,7 @@
 $sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
   'Segoe UI Emoji', 'Segoe UI Symbol';
 
-$serif: 'Liberation Serif', Times, Cambria, Utopia, 'Hoefler Text', 'Nimbus Roman No9 L Regular', 'Times New Roman',
+$serif: Cambria, 'Liberation Serif', Times, Utopia, 'Hoefler Text', 'Nimbus Roman No9 L Regular', 'Times New Roman',
   serif;
 
 $monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter',
@@ -25,44 +25,27 @@ $justus-pro: 'justus-pro', $serif;
 ///
 /// type size
 ///
-$base-font-raw: 62.5;
-$base-font: $base-font-raw * 1%;
-$base-font-small: ($base-font * 0.85);
-$base-font-normal: ($base-font * 1.8);
-$base-font-gigantic: ($base-font * 3.5);
+// $base-font-raw: 62.5;
+$base-font: var(--s0);
+$base-font-small: var(--s-1);
+$base-font-normal: var(--s0);
+$base-font-gigantic: var(--s2);
 $base-letter-spacing: 0.01;
 
-///
-/// Mixins
-///
+$max-line-length: var(--measure);
 
 ///
-/// descender fixing
+/// basic <h#>
 ///
 
-@mixin descender($descender-bg: '') {
-  background-image: linear-gradient(currentColor, currentColor);
-  background-repeat: no-repeat;
-  background-size: 100% 0.0625em;
-  background-position: center bottom 21%;
-  background-origin: padding-box;
-  //color: $color;
-  padding: 10px 0;
-  text-decoration: none;
-  text-shadow: 3px 0 $descender-bg, 2px 0 $descender-bg, 1px 0 $descender-bg, -1px 0 $descender-bg, -2px 0 $descender-bg,
-    -3px 0 $descender-bg;
-  transition: color 0.1s ease-out;
-}
-
-///
-/// basic <h#> shadow
-///
-
-@each $heading in h1, h2, h3, h4, h5, h6 {
+$headings: (h1, h2, h3, h4, h5, h6);
+@each $heading in $headings {
   #{$heading} {
     font-family: $serif;
     font-weight: 200;
     font-style: normal;
+    // line-height: var(--s1);
+    margin: var(--s-1) 0;
 
     ///
     /// Headings that wrap links
@@ -83,6 +66,19 @@ $base-letter-spacing: 0.01;
   }
 }
 
+h1 {
+    @include responsive-font(3.75vw, 1.75em, 32px, 64px);
+}
+
+h2 {
+  @include responsive-font(2.75vw, 1.25rem, 24px, 24px);
+}
+
+h3 {
+  @include responsive-font(3.75vw, 2.25em, 5.5em, 32px);
+  // font-size: clamp(, #{$ideal}, #{$max});
+}
+
 ///
 /// Set a base link style here:
 ///
@@ -91,7 +87,6 @@ a,
 .fonts-loaded a {
   &:link {
     color: $site-link;
-    // box-shadow: 0 0 0 0 $site-punk-pink;
   }
 
   &:visited {
@@ -99,14 +94,14 @@ a,
     background: $site-hot-orange;
   }
 
-  &:hover {
-    // box-shadow: 0 0 0 2px $site-green-blue;
+  &:hover,
+  &:focus {
     color: $site-punk-pink;
   }
 
-  &:active {
-    background-color: $site-link-active-bg;
-  }
+  // &:active {
+  //   background-color: $site-link-active-bg;
+  // }
 
   &:focus {
     @include focus-ring(outline);
@@ -116,33 +111,14 @@ a,
 ///
 /// Basic typographic rules
 ///
+
 code {
   background: transparentize($site-hot-orange, 0.85);
   border-radius: 0.125em;
   color: $site-white;
   font-family: $monospace;
-  font-size: 1.65rem;
+  font-size: var(--s05);
   padding: 0.15em;
-}
-
-// article {
-//   // We want to control overall line length, so we set the width of the container here:
-//   @include media('>phone') {
-//     max-width: 90vw;
-//   }
-
-//   @include media('>tablet') {
-//     max-width: 75vw;
-//   }
-
-//   @include media('>desktop') {
-//     max-width: 65vw;
-//   }
-//   //overflow: auto;
-// }
-
-.siteAuthor {
-  font-size: 1.3rem;
 }
 
 //
@@ -151,42 +127,78 @@ code {
 //
 .site-single,
 .portfolio {
-  &__content {
+  // &__content {
+
+  //   h2,
+  //   h3 {
+  //     margin-bottom: 0.5ex;
+  //   }
+
+  //   // h2 {
+  //   //   font-size: 2.75rem;
+  //   // }
+
+  //   // h3 {
+  //   //   font-size: 1.75rem;
+  //   // }
+
+  //   // set the max width for <p> elements to a reasonable / standard amount of characters
+  //   p {
+  //     max-width: $max-line-length;
+  //     margin: var(--s0) 0;
+  //     margin-block-end: var(--s0);
+  //     margin-block-start: var(--s0);
+  //   }
+
+  //   ul {
+  //     padding-left: 3ex;
+
+  //     li {
+  //       list-style-type: disc;
+  //     }
+
+  //     li ul {
+  //       border: 0;
+  //     }
+  //   }
+  //   h3 + ul {
+  //     margin-top: 0.5ex;
+  //   }
+
+  //   b,
+  //   strong {
+  //     font-weight: 500;
+  //   }
+  // } // /&__content
+} // /.portfolio
+
+.content {
+
     h2,
     h3 {
       margin-bottom: 0.5ex;
     }
 
-    h2 {
-      font-size: 2.75rem;
-    }
+    // h2 {
+    //   font-size: 2.75rem;
+    // }
 
-    h3 {
-      font-size: 1.75rem;
-    }
+    // h3 {
+    //   font-size: 1.75rem;
+    // }
 
     // set the max width for <p> elements to a reasonable / standard amount of characters
     p {
-      @include media('>=tablet') {
-        max-width: initial;
-      }
-      @include media('>=tablet') {
-        max-width: 52ch;
-      }
-    }
-
-    p,
-    ul {
-      font-size: 1.8rem;
-      line-height: 1.65;
+      max-width: $max-line-length;
+      margin: var(--s0) 0;
+      margin-block-end: var(--s0);
+      margin-block-start: var(--s0);
     }
 
     ul {
-      // border-left: 0.25ex solid transparentize($site-white, 0.45);
       padding-left: 3ex;
 
       li {
-        //padding-left: 2ex;
         list-style-type: disc;
       }
 
@@ -202,37 +214,16 @@ code {
     strong {
       font-weight: 500;
     }
-
-    figcaption {
-      font-family: $frank-new;
-    }
-  } // /&__content
-} // /.portfolio
+  } 
 
 .sidebar-prime {
   font-size: 1.6rem;
 }
 
-//
-// TODO: Refactor this later!
-//
 .fonts-loaded {
-  .site-single,
-  .portfolio {
-    &__content {
-      p {
-        font-family: $frank-new;
-      }
-    }
-  }
-
-  .article-grid-wrapper {
-    &__portfolioInvolvement {
-      font-family: $frank-new;
-    }
+  font-family: $frank-new;
 
     &__portfolioInvolvement ul {
       word-break: break-word;
-    }
-  }
+    } 
 }

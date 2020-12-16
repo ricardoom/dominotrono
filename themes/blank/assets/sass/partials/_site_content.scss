@@ -20,10 +20,6 @@
     font-size: 1.25rem;
     padding: 0.5em 1em;
   }
-
-  &__homePage {
-    width: 90vw;
-  }
 }
 
 .grid-wrapper {
@@ -31,51 +27,40 @@
 
     @include media('>=tablet') {
       background: transparent;
-      // padding: 3.25ex 2.5ex;
-      // width: 75%;
     }
 
-    // @include media('>=desktop') {
-
-    // }
-
     &__subTitle {
+      @include responsive-font(7.25vw, 4.5rem, 17rem, 200px);
       @include media('>=phone') {
         margin: 0;
-        // padding: 1.25ex 2.5ex;
       }
 
       @include media('>=tablet') {
-        @include slide-up-down;
+        @include slide-up-down(slideDownLarge);
         @include basic-drop-shadow(text);
         padding: 0;
       }
 
-      @include media('>=desktop') {
-        @include slide-up-down(slideDownLarge);
-        padding: 0;
-      }
+      // @include media('>=desktop') {
+      //   // @include slide-up-down(slideDownLarge);
+      // }
 
-      @include responsive-font(7.25vw, 4.5rem, 17rem, 200px);
-      display: block;
-      font-family: $justus-pro;
-      line-height: 1em;
+    
+      // display: block;
+      // line-height: var(--s3);
     }
   }
 
   .mast-head {
+    margin: var(--s0) 0;
+    margin-block-end: var(--s0);
+    margin-block-start: var(--s0);
+    max-width: var(--smallMeasure);
     @include media('>=phone') {
-      // padding: 1.25ex 2.5ex;
-    }
-
-    @include media('>=tablet') {
-      line-height: 1.2;
     }
 
     @include responsive-font(2.75vw, 1.25em, 5.5rem, 32px);
-    // @include purple-gradient;
     @include basic-drop-shadow(text);
-    font-family: $frank-new;
     font-weight: 200;
     font-style: normal;
     z-index: 1;

@@ -1,4 +1,8 @@
-<!-- portfolio hero template: /portfolio/  -->
+{{ $local := .Site.IsServer }}
+{{ if $local }}
+{{ printf "<!-- portfolio hero template: /portfolio/  -->" | safeHTML }}
+{{ end  }}
+
 {{/*  on this page: /portfolio/  */}}
 {{ $date := .Date.Format "02012006" }}
 {{ $svg := .Params.svgClipObjectClass }}

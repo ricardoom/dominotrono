@@ -84,7 +84,7 @@ newLayout: true
 
         {{< copy_wrapper
           class="details-grid__fiftyWords copy-block" >}}
-          As the design brief was very open-ended, for V.0, the team decided to maintain a minimal aesthetic. For the logotype, we settled on Avenir. Its a favorite of mine because of its robust and reliable letter forms lending itself to readability.
+          As the design brief was very open-ended, for V.0, the team decided to maintain a minimal aesthetic. For the logotype, we settled on the typeface Avenir. It is a favorite of mine because of its robust and reliable letter forms lending itself to readability.
           <br><br>
           For the app's body and label type, we went with Nunito Sans. It has a variety of weights available, giving us maximum flexibility where needed, and we could be confident in readability at any screen size.
         {{< /copy_wrapper>}}

@@ -16,7 +16,7 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_a
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto:eco,t_portfolio_hero_3x/v1549726136/mamasan-soul-shack/soulshackHero.jpg'
 portfolioHeroAlt: 'An image of the front door'
 heroFigcaption: ''
-svgClipObjectClass: 'twoSquares'
+svgClipObjectClass: ''
 svgColorClass: 'site-color--hot-orange'
 tags: ['Graphic Design', 'Logo Design', 'Brand Identity']
 weight: 8

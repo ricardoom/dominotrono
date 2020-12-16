@@ -129,21 +129,24 @@
 }
 
 @keyframes slideDownLarge {
+  
   0% {
+    --y: -200px;
     opacity: 0;
-    transform: translateY(-175px);
+    transform: translateY(var(--y));
   }
   100% {
+    --y: 0%;
     opacity: 1;
-    transform: translateY(-20%);
+    transform: translateY(var(--y));
   }
 }
 
 @mixin slide-up-down(
   $animation-name: slideDownMedium,
-  $duration: 750ms,
+  $duration: 550ms,
   $direction: normal,
-  $delay: 200ms,
+  $delay: 175ms,
   $iteration-count: 1,
   $timing-function: ease-out,
   $fill-mode: both
@@ -157,26 +160,3 @@
   animation-fill-mode: $fill-mode;
 }
 
-// @mixin svg-overlay($clipPath: null) {
-//   .portfolioCard {
-//     animation-duration: 250ms;
-//     animation-iteration-count: 1;
-//     animation-timing-function: ease-in;
-//     animation-delay: 0s;
-//     animation-direction: normal;
-//     animation-fill-mode: forwards;
-//     clip-path: url(#{$clipPath});
-//     opacity: 0.5;
-//     pointer-events: all;
-//   }
-//   .portfolioCardOff {
-//     animation-duration: 250ms;
-//     animation-timing-function: ease-out;
-//     animation-delay: 0s;
-//     animation-iteration-count: 1;
-//     animation-direction: normal;
-//     animation-fill-mode: forwards;
-//     clip-path: none;
-//     pointer-events: all;
-//   }
-// }

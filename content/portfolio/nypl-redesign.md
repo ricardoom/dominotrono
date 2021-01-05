@@ -33,7 +33,7 @@ newLayout: true
     {{< image_cld
     loading="eager"
     class="hero-grid__imageBlock"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1571683582/nypl-dot-org/nypl.org.hp.2019.jpg"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1571683582/nypl-dot-org/NYPL_HP_desktop.jpg"
     
     alt="An image of the New York Public Library home page"
     figcaption=""
@@ -47,8 +47,25 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
+     {{< copy_wrapper
+        class="details-grid__twoByTwo copy-block__left" >}}
+        Mucho words here...
+    {{< /copy_wrapper>}}
+
+    {{< image_cld 
+      loading="eager"
+      class="details-grid__twentyWords image-block__right"
+      alt="An image of the NYPL home page early in the design and prototype stage"
+      figcaption="Add some interesting words here..."
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1608140034/nypl-dot-org/NYPL_HP_desktop_detail.jpg"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
     {{< image_cld
-    loading="eager"
+    loading="lazy"
     class="details-grid__twentyWords image-block__left"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/t_960x960_1x/nypl-dot-org/nypl_ed_landingPage.jpg"
     
@@ -70,7 +87,6 @@ newLayout: true
       alt="An image of an interior page"
       figcaption="This grid overlay demonstrates the rational approach taken to page layout."
     >}}
-
 
 {{< /section_wrapper >}}
 
@@ -98,7 +114,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
         {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__left" >}}
+          class="details-grid__twoByTwo copy-block__center" >}}
           The login drop down in the header is completely keyboard and assistive device compatible. This portion was particularly challenging due to an overabundance of breakpoints to accommodate a large variety of viewports and devices. The majority of the SCSS for this particular feature was written by me.
         {{< /copy_wrapper>}}
 

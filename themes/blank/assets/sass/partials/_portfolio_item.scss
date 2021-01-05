@@ -2,80 +2,32 @@
 /// An Individual Portfolio item: ../portfolio/the-portfolio-item
 ///
 
-.grid-wrapper {
-  &__portfolioParent {
-    @include media('>=phone') {
-      display: block;
-    }
-
-    @include media('>=tablet') {
-      display: flex;
-    }
-    //
-    // TODO: Determine if this entire code block is still in use...
-    //
-
-    // &--portfolio-item {
-    //   @include basic-article-wrapper('>=phone', 95vw, 5vw);
-    //   @include basic-article-wrapper('>=tablet', 100vw, 0, 1.5vw);
-    //   @include basic-article-wrapper('>=desktop', 100vw, 0, 0);
-    //   @include media('>=tablet') {
-    //     flex: 1 0 75%;
-    //   }
-
-    //   // .portfolio {
-    //   //   &__content {
-    //   //     .portfolio-image-wrapper {
-    //   //       margin: var(--s05) 0;
-
-    //   //       @include media('<=tablet') {
-    //   //         display: block;
-    //   //       }
-
-    //   //       @include media('>=tablet') {
-    //   //         display: flex;
-    //   //       }
-
-    //   //       figcaption {
-    //   //         margin: 3ex 1ex;
-    //   //       }
-    //   //     }
-
-    //   //     h3 {
-    //   //       // @include responsive-font(1.5vw, 1.6em, 22px, 32px);
-    //   //     }
-    //   //   } // /__content
-    //   // }
-    // }
-  }
-} // /grid-wrapper
-
 .article-grid-wrapper {
   @include media('<=tablet') {
       display: block;
     }
 
   display: grid;
-  grid-template-columns: var(--s0) minmax(69vw, 800px) minmax(14.95vw, 340px) minmax(10vw, 350px) var(--s0);
+  // grid-template-columns: var(--s0) minmax(69vw, 800px) minmax(14.95vw, 340px) minmax(10vw, 350px) var(--s0);
+   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
   row-gap: 2ex;
 
-  h1,
-  time {
-    grid-column: 2 / 4;
+  h1 {
+    grid-column: 1 / 3;
     grid-row: 1 / 2;
   }
 
   &__portfolioParent {
-    @include media('>=phone') {
-      // display: block;
-    }
+    // @include media('>=phone') {
+    //   // display: block;
+    // }
 
-    @include media('>=tablet') {
-      // display: flex;
-    }
+    // @include media('>=tablet') {
+    //   // display: flex;
+    // }
 
-    grid-column: 1 / -1;
+    grid-column: 1 / 3;
     grid-row: 2 / 4;
 
     //
@@ -117,11 +69,6 @@
       .hero-grid {
         @include portfolio-grid('>=phone', $hc, $hero-rows-phone);
         @include portfolio-grid('>=tablet', $hc, $hero-rows-tablet);
-        // max-width: $wide-screen;
-        figure {
-          // max-width: calc(#{$wide-screen} - var(--s0));
-          // width: 100%;
-        }
 
         img {
           object-fit: cover;
@@ -130,29 +77,11 @@
 
         &__imageBlock {
           margin-left: calc(var(--s0) * -1);
-          // margin-right: calc(var(--s0) * -1);
-          // margin-inline-end: calc(var(--s0) * -1);
+          margin-right: calc(var(--s0) * -1);
+          margin-inline-end: calc(var(--s0) * -1);
           margin-inline-start: calc(var(--s0) * -1);
-          @include add-to-grid('>=phone', 1, -1, 1, 2) 
-          // {
-          //   // img {
-          //   //   left: -5rem;
-          //   //   position: relative;
-          //   //   top: 0;
-          //   //   width: 180%;
-          //   // }
-          // }
-
-          @include add-to-grid('>=tablet', 1, -1, 1, -1) 
-          // {
-          //   // img {
-          //   //   left: 0;
-          //   //   max-width: $wide-screen;
-          //   //   width: auto;
-
-          //   // }
-          // }
-          // overflow: hidden;
+          @include add-to-grid('>=phone', 1, -1, 1, 2);
+          @include add-to-grid('>=tablet', 1, -1, 1, -1); 
         }
 
         &__copyBlock {
@@ -160,7 +89,7 @@
           @include add-to-grid('>=tablet', 1, -2, 2, 3);
           @include responsive-font(1.8vw, 18px, 32px, 20px);
           background-color: transparentize($site-dark-blue, 0.1);
-          // margin: 0;
+          margin-inline-end: var(--s1);
           padding: var(--s1);
           z-index: 1;
         }
@@ -176,7 +105,7 @@
 
       .details-grid {
         @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
-        align-items: center;
+        align-items: start;
         margin-top: var(--s0);
 
         > p {
@@ -198,6 +127,15 @@
               @include add-to-grid('>=phone', 1, -1, auto, auto);
               @include add-to-grid('>=tablet', 3, 4, auto, auto);
             }
+
+            &__center {
+              @include add-to-grid('>=phone', 1, -1, auto, auto);
+              padding: var(--s1);
+              padding-block-end: var(--s1);
+              padding-block-start: var(--s1);
+              padding-inline-end: var(--s1);
+              padding-inline-start: var(--s1);
+            }
           }
           &.image-block {
             &__left,
@@ -207,16 +145,19 @@
           }
         } // /twoByTwo
 
+//
+// Twenty Words
+//
         &__twentyWords {
           &.image-block {
             &__left {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 1, 2, auto, auto);
+              @include add-to-grid('>=tablet', 1, 2, 1, 3);
             }
 
             &__right {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 3, 4, auto, auto);
+              @include add-to-grid('>=tablet', 3, 4, -2, auto);
             }
           }
 
@@ -272,19 +213,25 @@
 
   &__portfolioInvolvement {
     background-color: transparentize($site-dark-blue, 0.1);
+    padding: var(--s1);
+    padding-block-end: var(--s1);
+    padding-block-start: var(--s1);
+    padding-inline-end: var(--s1);
+    padding-inline-start: var(--s1);
 
     @include media('>=phone') {
-      grid-column: 2 / 5;
+      grid-column: 1 / 3;
       grid-row: 4 / 5;
-      padding: var(--s0);
       width: 100%;
     }
 
     @include media('>=tablet') {
-      grid-column: 3 / 5;
+      grid-column: 2 / 3;
       grid-row: 2 / 3;
       margin-top: var(--s3);
       margin-block-start: var(--s3);
+      margin-inline-end: var(--s0);
+      margin-inline-start: clamp(var(---1) var(--s2) var(--s3));
       width: initial;
       z-index: 1;
     }

@@ -6,7 +6,6 @@ $site-dark-blue: hsl(212, 76%, 10%);
 $site-t-dark-blue: transparentize($site-dark-blue, 0.1);
 $site-green-blue: hsl(203, 39%, 48%);
 $site-white: hsl(0, 0%, 100%);
-// $site-t-white: transparentize($site-white, 0.3);
 $site-punk-pink: hsl(324, 90%, 61%);
 $site-hot-orange: hsl(7, 85%, 64%);
 $site-lava-orange: hsl(15, 93%, 56%);
@@ -22,7 +21,7 @@ $site-canary-yellow: hsl(50, 100%, 70%);
 ///
 $site-focus-ring: $site-lava-orange;
 $site-main-text-color: $site-black;
-$site-background-color: $site-dark-blue;
+$site-background-color: lighten($site-dark-blue, 0.95);
 $site-link: $site-white;
 $site-link-visited: darken($site-white, 3%);
 $site-link-hover-bg: $site-acid-green;
@@ -68,33 +67,3 @@ $site-colors: (
   }
 }
 
-///
-/// Some Gradients we use:
-///
-@mixin purple-gradient {
-  //background-color: hsla(202, 95%, 25%, 0.5);
-  background-image: -webkit-linear-gradient(
-    0,
-    hsla(202, 95%, 25%, 0.25) 0%,
-    hsla(216, 100%, 15%, 0.5) 69%,
-    hsla(0, 0%, 100%, 0) 100%
-  );
-  background-image: -moz-linear-gradient(
-    0,
-    hsla(202, 95%, 25%, 0.25) 0%,
-    hsla(216, 100%, 15%, 0.5) 69%,
-    hsla(0, 0%, 100%, 0) 100%
-  );
-  background-image: -o-linear-gradient(
-    0,
-    hsla(202, 95%, 25%, 0.25) 0%,
-    hsla(216, 100%, 15%, 0.5) 69%,
-    hsla(0, 0%, 100%, 0) 100%
-  );
-  background-image: linear-gradient(
-    0,
-    hsla(202, 95%, 25%, 0.25) 0%,
-    hsla(216, 100%, 15%, 0.5) 69%,
-    hsla(0, 0%, 100%, 0) 100%
-  );
-}

@@ -32,14 +32,14 @@ enableRobotsTXT = "true"
     placeHolderSVG = "/images/placeHolding.svg"
     [params.cloudinary]    
         class = "cld-responsive"
-    [params.twitter]
-        name = "twitter"
-        site = "@rixblargh"
-        title = "Ricardo E. Galvez - Design Technologist"
-        description = "Designer & Developer"
-        card = "summary_large_image"
-        url = "https://twitter.com/rixblargh"
-        iconClass = "twitter"
+    # [params.twitter]
+    #     name = "twitter"
+    #     site = "@rixblargh"
+    #     title = "Ricardo E. Galvez - Design Technologist"
+    #     description = "Designer & Developer"
+    #     card = "summary_large_image"
+    #     url = "https://twitter.com/rixblargh"
+    #     iconClass = "twitter"
     [params.github]
         name = "github"
         userName = "@ricardoom"
@@ -48,16 +48,16 @@ enableRobotsTXT = "true"
         name = "linkedin"
         url = "https://www.linkedin.com/in/ricardogalvez/"
         iconClass = "linkedin"
-    [params.instagram]
-        name = "instagram"
-        userName = "@rixblargh"
-        url = "https://www.instagram.com/ricardogalvez.design/"
-        iconClass = "instagram"
-    [params.dribbble]
-        name = "dribbble"
-        userName = "@rixblargh"
-        url = "https://dribbble.com/ricardoom"
-        iconClass = "instagram"
+    # [params.instagram]
+    #     name = "instagram"
+    #     userName = "@rixblargh"
+    #     url = "https://www.instagram.com/ricardogalvez.design/"
+    #     iconClass = "instagram"
+    # [params.dribbble]
+    #     name = "dribbble"
+    #     userName = "@rixblargh"
+    #     url = "https://dribbble.com/ricardoom"
+    #     iconClass = "instagram"
     [params.openGraph]
         image = "images/twitterCard@2x.jpg"
     [params.portfolio]

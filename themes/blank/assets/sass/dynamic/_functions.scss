@@ -11,7 +11,7 @@
 // import using @use the grids
 //
 
-@import 'functions/portfolio_grids';
+@import 'dynamic/portfolio_grids';
 
 // Very Basic Text Shadow Mixin:
 @mixin basic-drop-shadow($type: text) {

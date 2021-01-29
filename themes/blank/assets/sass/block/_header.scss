@@ -3,14 +3,14 @@
 ///
 
 .site-header {
-  background: transparent;
+  // background: transparent;
   border-bottom: var(--s-4) solid $site-white;
 
-   @include media('>=phone') {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }
+  //  @include media('>=phone') {
+  //   display: flex;
+  //   flex-wrap: nowrap;
+  //   justify-content: space-between;
+  // }
 
   @include media('>=tablet') {
     display: block;

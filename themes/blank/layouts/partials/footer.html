@@ -1,11 +1,10 @@
 {{ $mobileNav := resources.Get "js/mobileNav.js" }}
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $socialSprites := resources.Get "js/sprites.js" }}
-{{ $cloudinaryCore := "https://unpkg.com/cloudinary-core@2.11.3/cloudinary-core-shrinkwrap.min.js"}}
+{{ $cloudinaryCore := "https://unpkg.com/cloudinary-core@2.11.3/cloudinary-core-shrinkwrap.min.js" }}
 
 <footer class="site-footer">
-  <p class="site-footer__siteCredit">&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-  </p>
+  <p class="site-footer__siteCredit">&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
 </footer>
 <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
 {{ if .Site.IsServer }}

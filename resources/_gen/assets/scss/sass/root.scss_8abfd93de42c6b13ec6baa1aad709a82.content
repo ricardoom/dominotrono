@@ -236,32 +236,14 @@ h6 {
   font-family: "justus-pro", Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
 
 h1 {
-  font-size: 64px;
-  font-size: 3.75vw; }
-  @media (max-width: 46.66666667em) {
-    h1 {
-      font-size: 1.75em; } }
-  @media (min-width: 853.33333333px) {
-    h1 {
-      font-size: 32px; } }
+  font-size: clamp(1.25em, var(--s2), 48px); }
+
 h2 {
-  font-size: 24px;
-  font-size: 2.75vw; }
-  @media (max-width: 45.45454545rem) {
-    h2 {
-      font-size: 1.25rem; } }
-  @media (min-width: 872.72727273px) {
-    h2 {
-      font-size: 24px; } }
+  font-size: clamp(1em, var(--s1), 48px); }
+
 h3 {
-  font-size: 32px;
-  font-size: 3.75vw; }
-  @media (max-width: 60em) {
-    h3 {
-      font-size: 2.25em; } }
-  @media (min-width: 146.66666667em) {
-    h3 {
-      font-size: 5.5em; } }
+  font-size: clamp(1.125em, var(--s0), 24px); }
+
 a:link,
 .fonts-loaded a:link {
   color: white; }
@@ -796,6 +778,7 @@ figure {
       margin-right: 0; } }
 
 .portfolio-list-item {
+  list-style-type: none;
   margin: var(--s1) 0; }
   .portfolio-list-item__content {
     display: grid; }
@@ -1276,9 +1259,9 @@ figure {
           text-decoration: none;
           border-bottom: 2px solid white; }
 
-.site-footer__siteCredit {
+footer {
   font-size: var(--s-1);
-  margin: var(--s0); }
+  margin: var(--s0) 0; }
 
 *,
 *::before,
@@ -1297,8 +1280,5 @@ p,
 ul {
   margin: 0;
   padding: 0; }
-
-li {
-  list-style: none; }
 
 /*# sourceMappingURL=root.css.map */

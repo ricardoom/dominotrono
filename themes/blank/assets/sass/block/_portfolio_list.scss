@@ -3,6 +3,8 @@
 // each item on the page: ../portfolio/
 //
 .portfolio-list-item {
+  // TODO: move this list rule to E for Exception
+  list-style-type: none;
   margin: var(--s1) 0;
 
   &__content {

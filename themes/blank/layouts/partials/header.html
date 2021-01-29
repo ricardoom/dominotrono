@@ -1,5 +1,6 @@
 {{ $targetPath := "css/root.css" }}
 {{ $sassRoot := "sass/root.scss" }}
+{{ $rootClass := ( slice "homePage" "innerPage" ) }}
 {{ $options := ( dict "targetPath" $targetPath "enableSourceMap" true ) }}
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $options }}
 {{ $prodStyle := resources.Get $sassRoot | resources.ToCSS | resources.Minify | resources.Fingerprint }}
@@ -45,7 +46,8 @@
 </head>
 
 
-<body class="{{ if .IsHome }}{{ $class.homePage }}{{ else }}{{ $class.innerPage }}{{ end }}">
+<body class="{{ if .IsHome }}{{ index $rootClass 0 }}{{ else }}{{ index $rootClass 1 }}{{ end }}">
+  
   <header role="banner" class="site-header">
     <div class="site-header__siteNameContainer">
       <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>

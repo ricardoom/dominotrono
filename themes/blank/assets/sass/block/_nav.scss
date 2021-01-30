@@ -2,8 +2,6 @@
 /// Navigation
 ///
 
-
-
 .siteNavigation {
     // Mobile Nav
     button {
@@ -50,15 +48,6 @@
 
       @include media('>=tablet') {
         display: none;
-      }
-
-      &:hover,
-      &:focus {
-        box-shadow: 0 0 0 2px $site-green-blue;
-      }
-
-      &:focus {
-        @include focus-ring(outline);
       }
     }
 
@@ -170,12 +159,6 @@
           fill: $site-white;
           height: var(--s1);
         }
-      }
-
-     
-
-      &:first-child {
-        background-color: honeydew;
       }
     } // /ul
   }

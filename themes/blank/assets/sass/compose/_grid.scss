@@ -12,13 +12,9 @@
 
 .site-header {
 
-  &__siteNameContainer {
-    @include media('>=phone') {
-      display: block;
-      flex: 2 1 95%;
-      
-    }
-  }
+  // &__siteNameContainer {
+    
+  // }
 
   //
   // Sets up the flexbox and layout ONLY for the nav...
@@ -54,30 +50,6 @@
   @include media('>=desktop') {
     grid-template-columns: $left-column repeat(3, 1fr);
   }
-
-  // &__listParent,
-  // &__portfolioParent {
-  //   // @include media('>=phone') {
-  //   //   grid-column: 1 / -1;
-  //   //   grid-row: 2 / 2;
-  //   // }
-
-  //   // @include media('>=tablet') {
-  //   //   grid-column: 1 / -1;
-  //   //   grid-row: 1 / 1;
-  //   // }
-
-  //   // &--portfolio-list {
-  //   //   @include media('>=phone') {
-  //   //     grid-column: 1;
-  //   //   }
-
-  //   //   @include media('>=tablet') {
-  //   //     grid-column: 2 / 5;
-  //   //   }
-  //   // }
-
-  // }
 
   @include media('>=phone') {
     .grid-site-data {

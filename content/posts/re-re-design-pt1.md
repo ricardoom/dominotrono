@@ -17,7 +17,7 @@ So today, I'm working specifically on updating the CSS for this project. Its blo
 
 ### C.U.B.E.
 
-I like the approach to writing CSS that Andy Bell laid in a couple of posts so I'm going down that road, because the reasoning is sound in my mind, that is the mental model resonates with how I _want_ my CSS to be written. Its simple; it stands for Compose, Utility, Block, Exception, it makes heavy use of the Cascade and relies on a simple premise that a majority of styles can be set a higher level in the cascade, can be more or less _global_ and only modified where an _exception_ occurs. Pretty cool and I think will make this site's CSS way cleaner, easier to maintain and experiment with without worry that I'll screw something up somewhere else. Or need to create more convoluted partials and classes when making explorations and modifications.
+I like the approach to writing CSS that Andy Bell laid in a couple of posts so I'm going down that road, because the reasoning is sound in my mind, that is the mental model resonates with how I _want_ my CSS to be written. Its simple; it stands for Compose, Utility, Block, Exception, it makes heavy use of the Cascade and relies on a simple premise that a majority of styles can be set a higher level in the cascade, can be more or less _global_ and only modified where an _exception_ occurs. Pretty cool and I think will make this site's CSS way cleaner, easier to maintain and experiment with without worry that I'll screw something up somewhere else. Or need to create more convoluted partials and classes when creating explorations or making modifications.
 
 #### Short list of modifications
 
@@ -25,3 +25,9 @@ I like the approach to writing CSS that Andy Bell laid in a couple of posts so I
 - Reorganization of the style scheme completed
 - Working towards using `clamp()` instead of the responsive font vendor function
 - creating more partial templates to further isolate blocks of code for ease of use and readability
+
+### Jan. 30, 2021
+
+Carrying on through the CSS cleanup, and adding in compact and more concise css and html partials, reflective of a more component based way of thinking. While Its not nearly close enough, this is the overall attitude and mind set.
+
+It should also be noted that as of today, the compiled css file size is around 42.5K. Way too much! My goal is to cut it half from when I orgininaly started which was at 50.1K (Yikes!) So when its down to 25-20K I'll be happy. Ideally though I should be at 10 or less. I just don't think there's enough styling going on to warrant such a big file. And is indicative of my lackadaisical approach and superficial understanding of the BEM methodology and its implementation. That misapprehension manifesting as a needlessly deep nested structure. Hard to maintain.

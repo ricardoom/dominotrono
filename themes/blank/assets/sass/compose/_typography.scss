@@ -67,8 +67,8 @@ $headings: (h1, h2, h3, h4, h5, h6);
 }
 
 h1 {
-    // @include responsive-font(3.75vw, 1.75em, 32px, 64px);
     font-size: clamp(1.25em, var(--s2), 48px);
+    line-height: var(--s2);
 }
 
 h2 {
@@ -86,8 +86,7 @@ h3 {
 /// Set a base link style here:
 ///
 
-a,
-.fonts-loaded a {
+a {
   &:link {
     color: $site-link;
   }
@@ -102,14 +101,13 @@ a,
     color: $site-punk-pink;
   }
 
-  // &:active {
-  //   background-color: $site-link-active-bg;
-  // }
-
-  &:focus {
+&:focus {
     @include focus-ring(outline);
   }
 }
+
+
+ 
 
 ///
 /// Basic typographic rules
@@ -124,71 +122,12 @@ code {
   padding: 0.15em;
 }
 
-//
-// Type rules for single and portfolio pages:
-// TODO: determine if site-single is used / useful anymore and then do something about it
-//
-.site-single,
-.portfolio {
-  // &__content {
-
-  //   h2,
-  //   h3 {
-  //     margin-bottom: 0.5ex;
-  //   }
-
-  //   // h2 {
-  //   //   font-size: 2.75rem;
-  //   // }
-
-  //   // h3 {
-  //   //   font-size: 1.75rem;
-  //   // }
-
-  //   // set the max width for <p> elements to a reasonable / standard amount of characters
-  //   p {
-  //     max-width: $max-line-length;
-  //     margin: var(--s0) 0;
-  //     margin-block-end: var(--s0);
-  //     margin-block-start: var(--s0);
-  //   }
-
-  //   ul {
-  //     padding-left: 3ex;
-
-  //     li {
-  //       list-style-type: disc;
-  //     }
-
-  //     li ul {
-  //       border: 0;
-  //     }
-  //   }
-  //   h3 + ul {
-  //     margin-top: 0.5ex;
-  //   }
-
-  //   b,
-  //   strong {
-  //     font-weight: 500;
-  //   }
-  // } // /&__content
-} // /.portfolio
-
 .content {
 
     h2,
     h3 {
       margin-bottom: 0.5ex;
     }
-
-    // h2 {
-    //   font-size: 2.75rem;
-    // }
-
-    // h3 {
-    //   font-size: 1.75rem;
-    // }
 
     // set the max width for <p> elements to a reasonable / standard amount of characters
     p {

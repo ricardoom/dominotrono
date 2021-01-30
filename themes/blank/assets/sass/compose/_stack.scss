@@ -1,5 +1,5 @@
 .stack {
-  --space: 1.5rem;
+  // --space: var();
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -11,5 +11,6 @@
 } 
 
 .stack > * + * {
-  margin-top: var(--space);
+  margin-top: var(--s1);
+  margin-block-start: var(--s1);
 }

@@ -9,7 +9,7 @@
 {{ $atWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
-<aside class="{{ if ( $newLayout )}}{{ $atWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioInvolvement">
+<aside class="portfolioInvolvement">
   {{ if and ( $url ) ( ne $url "" )}}
   <h3>Site</h3>
   <ul>
@@ -17,7 +17,7 @@
   </ul>
   {{ end }}
   {{ if and ( $role ) ( ne $role "" ) }}
-  <h3>Involvement</h3>
+  <h3>Role</h3>
   <ul>
     {{ range $role }}
     <li>{{ . }}</li>

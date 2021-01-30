@@ -8,33 +8,20 @@
 {{ $class := .Site.Params.classes }}
 {{ $navControlIconClose := ( partial "svg/navControlIcon.svg" ) }}
 {{ $navControlIconOpen := ( partial "svg/burgerIcon3d.svg" ) }}
-{{ $ogImage := .Site.Params.openGraph.image }}
+
 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="designer" content="Ricardo E. Galvez, {{ .Site.Params.Title }}">
-  <meta name="twitter:site" content="{{ .Site.Params.twitter.site }}">
-  <meta name="twitter:title" content="{{ .Site.Params.twitter.title }}">
-  <meta name="twitter:description" content="{{ .Site.Params.twitter.description }}">
-  <meta name="twitter:card" content="{{ .Site.Params.twitter.card }}">
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ $ogImage }}">
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ .Site.BaseURL }}" />
-  <meta property="og:title" content="{{ .Site.Params.twitter.description }}">
-  <meta property="og:description" content="{{ .Site.Params.twitter.description }}">
-  <meta property="og:image" content="{{ .Site.BaseURL }}{{ $ogImage }}">
+  {{ partial "meta.html" . }}
   <link rel="icon" href="/images/fourDots_2@2x.jpg">
   <title>{{ .Title }}</title>
   {{ with .Site.Params.description }}
   <meta name="description" content="{{ . }}">{{ end }}
   {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}">{{ end }}
-  {{ if .Site.IsServer }}
+  {{ with .Site.IsServer }}
   <link rel="stylesheet" href="{{ $devStyle.Permalink }}">
   {{ else }}
   <link rel="stylesheet" href="{{ $prodStyle.Permalink }}">
@@ -49,17 +36,17 @@
 <body class="{{ if .IsHome }}{{ index $rootClass 0 }}{{ else }}{{ index $rootClass 1 }}{{ end }}">
   
   <header role="banner" class="site-header">
-    <div class="site-header__siteNameContainer">
-      <a href="{{ .Site.BaseURL }}" class="site-header__siteNameContainer--name">{{ .Site.Title }}</a>
+    <div class="siteNameContainer">
+      <a href="{{ .Site.BaseURL }}" class="name">{{ .Site.Title }}</a>
     </div>
-    <nav class="site-header__siteNavigation">
-      <button class="site-header__siteNavigation--button" id="mobileNavButton"  aria-labelledby="menuLabel"
+    <nav class="siteNavigation">
+      <button class="siteNavigation--button" id="mobileNavButton"  aria-labelledby="menuLabel"
       aria-controls="navItems">
         <span class="button-icon__open" id="navControlOpen">{{ $navControlIconOpen }}</span>
         <span class="button-icon__closed" id="navControlClose">{{ $navControlIconClose }}</span>
         <span class="menu-label" id="menuLabel">Menu</span>
       </button>
-      <ul id="navItems" class="site-header__siteNavigation--items" aria-expanded="false">
+      <ul id="navItems" class="siteNavigation--items" aria-expanded="false">
         {{ range .Site.Menus.main }}
         <li class="text-link"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}

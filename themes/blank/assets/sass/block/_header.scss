@@ -2,7 +2,7 @@
 /// Header
 ///
 
-.site-header {
+header {
   // background: transparent;
   border-bottom: var(--s-4) solid $site-white;
 
@@ -16,7 +16,7 @@
     display: block;
   }
 
-  &__siteNameContainer {
+  .siteNameContainer {
     padding: var(--s0) 0;
     padding-inline-start: var(--s0) 0;
     padding-block-end: (var(--s0));

@@ -24,3 +24,4 @@ I like the approach to writing CSS that Andy Bell laid in a couple of posts so I
 - Added in the stack utility
 - Reorganization of the style scheme completed
 - Working towards using `clamp()` instead of the responsive font vendor function
+- creating more partial templates to further isolate blocks of code for ease of use and readability

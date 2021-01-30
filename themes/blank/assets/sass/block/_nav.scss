@@ -2,9 +2,9 @@
 /// Navigation
 ///
 
-.site-header {
-  /// Controls initial display only
-  &__siteNavigation {
+
+
+.siteNavigation {
     // Mobile Nav
     button {
       @include media('>=phone') {
@@ -103,11 +103,7 @@
       display: none;
     }
 
-  &__siteNavigation {
-    // background: transparent;
-    // font-family: $sans-serif;
-
-    
+  .siteNavigation {
 
     &--items { // the <ul>
       display: inline-block;
@@ -116,18 +112,9 @@
       display: flex;
       flex-flow: row nowrap;
 
-        @include media('>=phone') {
-          // padding-left: 0;
-        }
-
-        // @include media('>=tablet') {
-        //   padding-left: 6vw;
-        // }
-
         @include media('>=tablet') {
           grid-column: 1 / 6;
           justify-content: flex-start;
-          // padding: initial;
         }
       
 
@@ -142,21 +129,6 @@
           padding-inline-start: var(--s-2);
           text-decoration: none;
         }
-
-        // &:nth-child(n) {
-        //   // @include media('>=phone') {
-        //   // }
-
-        //   // @include media('>=tablet') {
-        //   //   // flex-basis: 25%;
-
-        //   //   // &.social-icon {
-              
-        //   //   //   // flex-basis: 10%;
-        //   //   //   // padding-top: 1.75ex;
-        //   //   // }
-        //   // }
-        // }
       }
       
       .text-link {
@@ -207,5 +179,5 @@
       }
     } // /ul
   }
-} // .site-header
+
 

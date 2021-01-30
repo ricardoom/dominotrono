@@ -126,7 +126,7 @@ code {
 
     h2,
     h3 {
-      margin-bottom: 0.5ex;
+      margin-bottom: var(--s-1);
     }
 
     // set the max width for <p> elements to a reasonable / standard amount of characters
@@ -138,18 +138,18 @@ code {
     }
 
     ul {
-      padding-left: 3ex;
+      padding-left: var(--s0);
 
-      li {
-        list-style-type: disc;
-      }
+      // li {
+      //   // list-style-type: disc;
+      // }
 
       li ul {
         border: 0;
       }
     }
     h3 + ul {
-      margin-top: 0.5ex;
+      margin-top: var(--s-1);
     }
 
     b,
@@ -157,10 +157,6 @@ code {
       font-weight: 500;
     }
   } 
-
-.sidebar-prime {
-  font-size: 1.6rem;
-}
 
 .fonts-loaded {
   font-family: $frank-new;

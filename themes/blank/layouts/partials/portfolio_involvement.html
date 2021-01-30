@@ -9,7 +9,7 @@
 {{ $atWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
-<aside class="portfolioInvolvement">
+<aside class="portfolioInvolvement squeeze">
   {{ if and ( $url ) ( ne $url "" )}}
   <h3>Site</h3>
   <ul>
@@ -49,7 +49,7 @@
   {{ if .Site.IsServer }}
   {{ if and ( $tags ) ( ne $tags "" ) }}
   <h3>Filed under:</h3>
-  <ul id="tags" class="site-tags">
+  <ul id="tags">
     {{ range $tags }}
     <li class="site-tags__tag">
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>

@@ -12,24 +12,5 @@
     @include media('>=tablet') {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
-      // width: initial;
-      // z-index: 1;
     }
-
-    // h3 {
-    //   font-size: var(--s0);
-    //   margin: var(--s0) 0 0 0;
-
-    //   &:first-child {
-    //     margin-top: 0;
-    //   }
-    // }
-
-    // p {
-    //   margin: initial;
-
-    //   &:first-child {
-    //     margin-top: 0;
-    //   }
-    // }
   }

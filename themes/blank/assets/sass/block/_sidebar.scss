@@ -12,12 +12,6 @@
     }
   }
 
-  // &__sidebarSubTitle {
-  //   // display: block;
-  //   font-size:var(--s0);
-  //   // margin-left: var(--s0);
-  // }
-
   &__sidebarList,
   &__sidebarTags {
     list-style: none;
@@ -61,7 +55,6 @@
             }
 
             &:visited {
-              // background: $large-bg-color;
               color: currentColor;
             }
 
@@ -82,9 +75,6 @@
     > li:focus {
       background: $site-lava-orange;
       background: linear-gradient(to bottom right, $site-lava-orange, $site-punk-pink);
-
-      // > a:hover {
-      // }
     }
   }
 }

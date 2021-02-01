@@ -17,6 +17,7 @@
 @import 'compose/grid';
 
 // Utility
+@import 'utility/debug';
 @import 'utility/width_control';
 // Block
 @import 'block/nav';
@@ -54,8 +55,8 @@ body {
   color: $site-white;
   font-family: $frank-new;
   font-size: $base-font;
-  margin: 0 auto;
-  max-width: $wide-screen;
+  // margin: 0 auto;
+  // max-width: $wide-screen;
 }
 
 // body > * {

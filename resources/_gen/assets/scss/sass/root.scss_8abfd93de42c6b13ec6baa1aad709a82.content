@@ -346,6 +346,9 @@ code {
     grid-column: 2 / 5;
     grid-row: 1 / 2; } }
 
+.debug {
+  border: 2px dotted lightcoral; }
+
 .squeeze > * {
   padding-left: var(--s0);
   padding-right: var(--s0);
@@ -354,6 +357,14 @@ code {
 
 .belt > * {
   max-width: 80rem; }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding-left: var(--s0);
+  padding-right: var(--s0);
+  padding-inline-end: var(--s0);
+  padding-inline-start: var(--s0); }
 
 @media (min-width: 19.25em) {
   .siteNavigation button {
@@ -364,7 +375,7 @@ code {
     font-size: 0.8em;
     display: flex;
     flex-direction: column;
-    padding: 1ex; }
+    padding: var(--s0); }
     @supports not (display: flex) {
       .siteNavigation button {
         display: block; } }
@@ -702,30 +713,29 @@ code {
   display: inline-block; }
 
 header {
-  border-bottom: var(--s-4) solid white; }
+  background-color: #111111;
+  border-bottom: var(--s-4) solid white;
+  padding-top: var(--s5) 0 var(--s1);
+  padding-block-start: var(--s3);
+  padding-block-end: var(--s1); }
   @media (min-width: 48em) {
     header {
       display: block; } }
-  header .siteNameContainer {
-    padding: var(--s0) 0;
-    padding-inline-start: var(--s0) 0;
-    padding-block-end: var(--s0);
-    padding-block-start: var(--s0); }
-    @media (min-width: 19.25em) {
-      header .siteNameContainer {
-        display: block;
-        flex: 2 1 95%; } }
-    header .siteNameContainer--name {
-      font-size: clamp(24px, 2.25vw, 48px);
-      text-shadow: 2px 2px 2px #111111;
-      align-self: end;
-      color: white;
-      font-style: normal;
-      font-weight: 200;
-      text-decoration: none; }
-      @media (min-width: 48em) {
-        header .siteNameContainer--name {
-          margin: 0; } }
+  @media (min-width: 19.25em) {
+    header .siteNameContainer {
+      display: block;
+      flex: 2 1 95%; } }
+  header .siteNameContainer--name {
+    font-size: clamp(24px, 2.25vw, 48px);
+    text-shadow: 2px 2px 2px #111111;
+    align-self: end;
+    color: white;
+    font-style: normal;
+    font-weight: 200;
+    text-decoration: none; }
+    @media (min-width: 48em) {
+      header .siteNameContainer--name {
+        margin: 0; } }
 figure {
   margin: 0; }
   figure img {
@@ -1249,9 +1259,7 @@ body {
   background-color: rgba(6, 24, 45, 0.9);
   color: white;
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: var(--s0);
-  margin: 0 auto;
-  max-width: 80rem; }
+  font-size: var(--s0); }
 
 p,
 ul {

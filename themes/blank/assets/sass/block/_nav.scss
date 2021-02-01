@@ -17,7 +17,7 @@
         font-size: 0.8em;
         display: flex;
         flex-direction: column;
-        padding: 1ex;
+        padding: var(--s0);
 
         svg {
           fill: currentColor;

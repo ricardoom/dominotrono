@@ -3,8 +3,11 @@
 ///
 
 header {
+  background-color: $site-black;
   border-bottom: var(--s-4) solid $site-white;
-
+  padding-top: var(--s5) 0 var(--s1);
+  padding-block-start: var(--s3);
+  padding-block-end: var(--s1);
   @include media('>=tablet') {
     display: block;
   }
@@ -14,10 +17,10 @@ header {
       display: block;
       flex: 2 1 95%;
     }
-    padding: var(--s0) 0;
-    padding-inline-start: var(--s0) 0;
-    padding-block-end: (var(--s0));
-    padding-block-start: (var(--s0));
+    // padding: var(--s0) 0;
+    // padding-inline-start: var(--s0) 0;
+    // padding-block-end: (var(--s0));
+    // padding-block-start: (var(--s0));
 
     &--name {
       

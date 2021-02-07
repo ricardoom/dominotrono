@@ -67,7 +67,8 @@ $headings: (h1, h2, h3, h4, h5, h6);
 }
 
 h1 {
-    font-size: clamp(0.8em, var(--s1), 48px);
+    // font-size: clamp(0.8em, var(--s1), 48px);
+    font-size: #{clamp(#{var(--s0)}, #{0.1837rem} + #{4.0816vw}, #{var(--s2)})};
     line-height: var(--s1);
 }
 

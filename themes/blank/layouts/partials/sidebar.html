@@ -3,11 +3,11 @@
 {{ $experiments := ($.Site.GetPage "Type" "experiments") }}
 {{ $groups := slice $posts $portfolio $experiments }}
 
-<aside class="sidebar-prime">
-  <div class="wrapper">
-  <h3 class="sidebarTitle">Etcetera</h3>
+<aside class="[ sidebar-prime ]">
+  <div class="[ wrapper ]">
+  <h3 class="[ sidebarTitle ]">Etcetera</h3>
   <p>A feed of all published work on this site.</p>
-  <ul class="sidebarList">
+  <ul class="[ sidebarList ]">
     {{ range $groups }}
       {{ range .Pages }}
         {{ .Render "post-grid" }}

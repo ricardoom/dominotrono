@@ -5,12 +5,12 @@
 .portfolio-list-item {
   // TODO: move this list rule to E for Exception
   list-style-type: none;
-  margin: var(--s1) 0;
+  // margin: var(--s1) 0;
 
   &__content {
     
     &--hero {
-      height: 100%;
+      // height: 100%;
       margin: 0;
       max-width: $wide-screen;
       padding: 0;
@@ -95,7 +95,9 @@
     }
 
     &--static-tags {
-      @include responsive-font(1.5vw, 0.8em, 10px, 18px);
+      // @include responsive-font(1.5vw, 0.8em, 10px, 18px);
+      font-size: clamp(8px, var(--s-1), 100vw);
+     
 
       @include media('>=phone') {
         display: none;
@@ -104,13 +106,11 @@
       @include media('>=tablet') {
         display: initial;
         grid-column: 2 / 3;
-
       }
 
-      padding: 2ex;
-
       li {
-        display: inline;
+        display: inline-block;
+        padding: var(--s-1) var(--s0);
       }
 
       background-color: transparentize($site-black, 0.15);
@@ -124,13 +124,13 @@
     }
 
     @include media('>=tablet') {
-      grid-template-columns: 5vw repeat(2, 2fr);
+      grid-template-columns: var(--s1) repeat(2, minmax(10px, 2fr));
       grid-template-rows: minmax(3vh, 6vh) 3fr;
       align-items: center;
     }
 
     @include media('>=desktop') {
-      grid-template-columns: 9vw 1.5fr 2fr;
+      grid-template-columns: var(--s2) 1.5fr 2fr;
       grid-template-rows: repeat(2, minmax(3vh, 7vh)) minmax(auto, max-content) minmax(1vh, 2vh);
       align-items: start;
     }

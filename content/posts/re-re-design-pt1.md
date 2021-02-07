@@ -35,3 +35,7 @@ It should also be noted that as of today, the compiled css file size is around 4
 ### Feb. 5 / 6 2021
 
 Mostly going through and adding composition classes and the odd utility class. The goal is to make it so high level layout can be handled w/ one or two classes, instead of spreading layout and grid rules around. I also think I'll be able to refactor some of the more complicated grid layouts to use flex instead... That should be fun.
+
+### Feb. 7
+
+Fixing up some type rules and I must admit, I'm still unclear as to how to make `clamp` work...

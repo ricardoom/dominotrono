@@ -249,8 +249,8 @@ h6 {
   font-family: "justus-pro", Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
 
 h1 {
-  font-size: clamp(1.25em, var(--s2), 48px);
-  line-height: var(--s2); }
+  font-size: clamp(0.8em, var(--s1), 48px);
+  line-height: var(--s1); }
 
 h2 {
   font-size: clamp(1em, var(--s1), 48px); }
@@ -779,12 +779,10 @@ figure {
       margin-right: 0; } }
 
 .portfolio-list-item {
-  list-style-type: none;
-  margin: var(--s1) 0; }
+  list-style-type: none; }
   .portfolio-list-item__content {
     display: grid; }
     .portfolio-list-item__content--hero {
-      height: 100%;
       margin: 0;
       max-width: 80rem;
       padding: 0;
@@ -852,17 +850,9 @@ figure {
           align-self: self-start;
           margin-top: var(--s1); } }
     .portfolio-list-item__content--static-tags {
-      font-size: 18px;
-      font-size: 1.5vw;
-      padding: 2ex;
+      font-size: clamp(8px, var(--s-1), 100vw);
       background-color: rgba(17, 17, 17, 0.85);
       z-index: 1; }
-      @media (max-width: 53.33333333em) {
-        .portfolio-list-item__content--static-tags {
-          font-size: 0.8em; } }
-      @media (min-width: 666.66666667px) {
-        .portfolio-list-item__content--static-tags {
-          font-size: 10px; } }
       @media (min-width: 19.25em) {
         .portfolio-list-item__content--static-tags {
           display: none; } }
@@ -871,7 +861,8 @@ figure {
           display: initial;
           grid-column: 2 / 3; } }
       .portfolio-list-item__content--static-tags li {
-        display: inline; }
+        display: inline-block;
+        padding: var(--s-1) var(--s0); }
     @media (min-width: 19.25em) {
       .portfolio-list-item__content {
         grid-template-columns: minmax(3vw, 8vw) 3fr 3fr;
@@ -879,12 +870,12 @@ figure {
         align-items: center; } }
     @media (min-width: 48em) {
       .portfolio-list-item__content {
-        grid-template-columns: 5vw repeat(2, 2fr);
+        grid-template-columns: var(--s1) repeat(2, minmax(10px, 2fr));
         grid-template-rows: minmax(3vh, 6vh) 3fr;
         align-items: center; } }
     @media (min-width: 64em) {
       .portfolio-list-item__content {
-        grid-template-columns: 9vw 1.5fr 2fr;
+        grid-template-columns: var(--s2) 1.5fr 2fr;
         grid-template-rows: repeat(2, minmax(3vh, 7vh)) minmax(auto, max-content) minmax(1vh, 2vh);
         align-items: start; } }
   .portfolio-list-item a {
@@ -1263,7 +1254,7 @@ footer {
   box-sizing: border-box; }
 
 body {
-  background-color: #111111;
+  background-color: #8b8b8b;
   color: white;
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: var(--s0); }

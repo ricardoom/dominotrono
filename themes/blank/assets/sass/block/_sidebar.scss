@@ -1,10 +1,11 @@
 ///
 /// A Sidebar Prime
 /// always found at the bottom of the page
-//
+// This is that block of blocks, its the feed
+// Should look like a periodic table of elements at some point...
 
 .sidebar-prime {
-
+  background-color: $site-black;
   .sidebarTitle {
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
     @include media('>tablet') {
@@ -12,13 +13,13 @@
     }
   }
 
-  &__sidebarList,
-  &__sidebarTags {
+  .sidebarList,
+  .sidebarTags {
     list-style: none;
     padding: 0;
   }
 
-  &__sidebarList {
+  .sidebarList {
     display: flex;
     flex-wrap: wrap;
 

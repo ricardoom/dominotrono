@@ -1,26 +1,30 @@
 {{ partial "header.html" . }}
 <!-- === root index === -->
-<main class="site-content [ stack ]" id="siteContent">
+<main class="site-content" id="siteContent">
+  <div class="wild-svg">
+  </div>
+  <div class="wrapper debug">
    {{ partial "jumbo_two.html" . }}
-   
+
   <!-- <div class="grid-wrapper">
-    
-   
+
     {{/*
     {{ partial "hp-portfolio.html" . }} 
     {{ partial "skills.html" . }}
     */}}
-    
+
   </div> -->
-  
+  </div>
+  <div class="wrapper subtitle-grid-container">
+  {{ with $.Site.Params.subtitle }}
+  <h2 class="subtitle-grid-container__subTitle">{{ . }}</h2>
+  {{ end }}
+</div>
 </main>
-<div class="subtitle-grid-container [ stack ]">
-      {{ with $.Site.Params.subtitle }}
-      <h2 class="subtitle-grid-container__subTitle">{{ . }}</h2>
-      {{ end }}
-    </div>
+
+
 {{ partial "sidebar.html" . }}
-<div class="mast-head [ stack ]">
+<div class="wrapper mast-head">
    {{ .Content }}
 </div>
 {{ partial "contact.html" . }}

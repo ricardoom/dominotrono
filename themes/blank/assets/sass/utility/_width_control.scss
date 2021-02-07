@@ -8,13 +8,21 @@
   padding-inline-start: var(--s0);
 }
 
-.belt > * {
+// Make all the children's children have a max widht.
+// TODO: make sure this doesnt come back to haunt us in the rump...
+//
+.belt > * > * {
   max-width: $wide-screen;
 }
 
+.belt > * > p {
+  max-width: var(--measure);
+}
+
 .wrapper {
-  margin: 0 auto;
-  max-width: $wide-screen;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  // max-width: $wide-screen;
   padding-left: var(--s0);
   padding-right: var(--s0);
   padding-inline-end: var(--s0);

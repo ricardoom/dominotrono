@@ -3,8 +3,10 @@
 {{ $socialSprites := resources.Get "js/sprites.js" }}
 {{ $cloudinaryCore := "https://unpkg.com/cloudinary-core@2.11.3/cloudinary-core-shrinkwrap.min.js" }}
 
+
 <footer>
   <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
+  
 </footer>
 <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
 {{ if .Site.IsServer }}

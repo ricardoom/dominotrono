@@ -36,6 +36,7 @@
 @import 'block/hp_portfolio_2';
 @import 'block/portfolio_involvement.scss';
 @import 'block/skill_block';
+@import 'block/contact';
 @import 'block/footer';
 
 // Exception
@@ -48,7 +49,7 @@
   }
 
 body {
-  background-color: $site-t-dark-blue;
+  background-color: $site-black;
   // background-color: pink;
   // background-repeat: no-repeat;
   // background-size: cover;

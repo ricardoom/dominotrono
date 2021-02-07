@@ -4,15 +4,15 @@
 {{ $groups := slice $posts $portfolio $experiments }}
 
 <aside class="sidebar-prime">
-  
-    <h3 class="sidebarTitle">Etcetera</h3>
-    <p>A feed of all published work on this site.</p>
-    <ul class="sidebar-prime__sidebarList">
-      {{ range $groups }}
-        {{ range .Pages }}
-          {{ .Render "post-grid" }}
-        {{ end }}
+  <div class="wrapper">
+  <h3 class="sidebarTitle">Etcetera</h3>
+  <p>A feed of all published work on this site.</p>
+  <ul class="sidebarList">
+    {{ range $groups }}
+      {{ range .Pages }}
+        {{ .Render "post-grid" }}
       {{ end }}
-    </ul>
-
+    {{ end }}
+  </ul>
+  </div>
 </aside>

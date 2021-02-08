@@ -36,6 +36,11 @@ It should also be noted that as of today, the compiled css file size is around 4
 
 Mostly going through and adding composition classes and the odd utility class. The goal is to make it so high level layout can be handled w/ one or two classes, instead of spreading layout and grid rules around. I also think I'll be able to refactor some of the more complicated grid layouts to use flex instead... That should be fun.
 
-### Feb. 7
+### Feb. 7 2021
 
 Fixing up some type rules and I must admit, I'm still unclear as to how to make `clamp` work...
+
+### Feb 8. 2021
+
+So I had to jump through some hoops to get my brain around how clamping works but I think I have it. This post helped quite a bit <https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/>, but also, if I follow correctly, creates some heavy lifting on the `scss` front to get it to work. Mostly converting the much of the scale rules to be unit-less until the last second. I'm still not certain it is the correct approach, for my needs. To be really honest I've been chasing this fluid typography dragon for years now, and I'm still not pleased with where I'm at in terms of understanding or having a solid approach. Alas, I like a fiend w/ his dope or a drunkard with his wine, I will have lust for the lure of fluid type...
+

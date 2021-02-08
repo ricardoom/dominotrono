@@ -44,7 +44,7 @@ img:not([alt]) {
 :root {
   --measure: 60ch;
   --smallMeasure: 40ch;
-  --ratio: 1.6180339887;
+  --ratio: 1.61803399;
   --halfRatio: calc(var(--ratio) / 2);
   --s-5: calc(var(--s-4) / var(--ratio));
   --s-4: calc(var(--s-3) / var(--ratio));
@@ -249,8 +249,9 @@ h6 {
   font-family: "justus-pro", Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif; }
 
 h1 {
-  font-size: clamp(var(--s0), 0.1837rem + 4.0816vw, var(--s2));
-  line-height: var(--s1); }
+  --line-height: clamp(1.25em, 3.5vw, 1.6em);
+  font-size: clamp(var(--s0), 3.13511345vw, var(--s2));
+  line-height: var(--line-height); }
 
 h2 {
   font-size: clamp(1em, var(--s1), 48px); }
@@ -789,6 +790,7 @@ figure {
       overflow: hidden; }
       @media (min-width: 19.25em) {
         .portfolio-list-item__content--hero {
+          align-self: start;
           grid-column: 2 / 5;
           grid-row: 1 / 5; } }
       @media (min-width: 48em) {
@@ -803,7 +805,7 @@ figure {
       align-self: center;
       background-color: rgba(17, 17, 17, 0.8);
       font-weight: 400;
-      padding: var(--s1);
+      padding: clamp(var(--s0), 2.5vw, var(--s1));
       text-shadow: 1px 1px 10px rgba(17, 17, 17, 0.5);
       z-index: 1; }
       @media (min-width: 19.25em) {
@@ -813,53 +815,29 @@ figure {
       @media (min-width: 48em) {
         .portfolio-list-item__content h1 {
           grid-row: 2 / 3; } }
-    .portfolio-list-item__content--deck {
-      top: 5em;
-      z-index: 1; }
-      @media (min-width: 19.25em) {
-        .portfolio-list-item__content--deck {
-          grid-column: 1 / 2;
-          grid-row: 2 / 2; } }
-      @media (min-width: 48em) {
-        .portfolio-list-item__content--deck {
-          align-self: center;
-          grid-column: 1 / 2; } }
     .portfolio-list-item__content--description {
-      font-size: 22px;
-      font-size: 1.5vw;
+      align-self: end;
+      font-size: clamp(var(--s05), 1.5vw, var(--s0));
+      grid-column: 2 / -1;
+      padding: var(--s0);
       background-color: rgba(17, 17, 17, 0.8);
       z-index: 1; }
-      @media (max-width: 60em) {
-        .portfolio-list-item__content--description {
-          font-size: 0.9em; } }
-      @media (min-width: 1200px) {
-        .portfolio-list-item__content--description {
-          font-size: 18px; } }
-      @media (min-width: 19.25em) {
-        .portfolio-list-item__content--description {
-          display: none; } }
       @media (min-width: 48em) {
         .portfolio-list-item__content--description {
-          align-self: center;
-          display: initial;
           grid-column: 2 / 3;
-          grid-row: 3 / 4;
-          padding: var(--s0); } }
+          grid-row: 3 / 4; } }
       @media (min-width: 64em) {
         .portfolio-list-item__content--description {
-          align-self: self-start;
           margin-top: var(--s1); } }
     .portfolio-list-item__content--static-tags {
       font-size: clamp(8px, var(--s-1), 100vw);
+      grid-column: 2 / -1;
       background-color: rgba(17, 17, 17, 0.85);
       z-index: 1; }
-      @media (min-width: 19.25em) {
-        .portfolio-list-item__content--static-tags {
-          display: none; } }
       @media (min-width: 48em) {
         .portfolio-list-item__content--static-tags {
           display: initial;
-          grid-column: 2 / 3; } }
+          grid-column: 2 / -2; } }
       .portfolio-list-item__content--static-tags li {
         display: inline-block;
         padding: var(--s-1) var(--s0); }

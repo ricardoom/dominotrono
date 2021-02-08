@@ -66,10 +66,35 @@ $headings: (h1, h2, h3, h4, h5, h6);
   }
 }
 
+// do some calculations to get the proper fluidity:
+// min font size: var(--s0)
+// max font size var(--s2);
+// min view port: $small-screen
+// max view port: $mega-screen
+// slope = (maxFontSize - minFontSize) / (maxWidth - minWidth)
+// yAxisIntersection = -minWidth * slope + minFontSize
+// preferredValue = yAxisIntersection[rem] + (slope * 100)[vw]
+// TODO: make this a function so we can reuse it.... Every Where!
+$screenDifference: $mega - $small;
+$fontDifference: $s2 - $s0;
+$slope: $fontDifference / $screenDifference;
+$yAxisIntersection : (($small * -1) * $slope) + $s0;
+$preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
+
+// @debug $s0, $s1, $s2;
+// @debug $screenDifference;
+// @debug $fontDifference;
+// @debug $slope;
+// @debug $yAxisIntersection ;
+// @debug $preferredValue;
+
+
+
 h1 {
-    // font-size: clamp(0.8em, var(--s1), 48px);
-    font-size: #{clamp(#{var(--s0)}, #{0.1837rem} + #{4.0816vw}, #{var(--s2)})};
-    line-height: var(--s1);
+    --line-height: clamp(1.25em, 3.5vw, 1.6em); 
+    // font-size: clamp(0.8em, var(--s1), 48px);;
+    font-size: clamp(var(--s0), $preferredValue, var(--s2));
+    line-height: var(--line-height);
 }
 
 h2 {

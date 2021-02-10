@@ -1,4 +1,9 @@
-<div class="jumbo">
+
+{{ $local := .Site.IsServer }}
+{{ if $local }}
+{{ printf "<!-- +++ jumbo_two.html  -->" | safeHTML }}
+{{ end  }}
+<div class="[ jumbo ][ test ]">
   <p>this space is the fun weird part of the home page</p>
   <p>Soon to be filled by something wild</p>
 </div>

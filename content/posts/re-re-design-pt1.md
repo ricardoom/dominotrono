@@ -46,3 +46,8 @@ So I had to jump through some hoops to get my brain around how clamping works bu
 
 ### Feb 10. 2021
 
+New branch added this tackles issue #53 where we start to address the overall issue laid out by Simon Collison here: <https://colly.com/articles/this-used-to-be-our-playground> I intend to make this site my playground.
+
+- first up: get some cool `svg` arworks into this project.  ✓
+- next up: get some css and/ or JS working on individual groups and elements within the svg. Better yet:
+  - Will HUGO allow me to put dynamic content inside the SVG in the form of a partial?

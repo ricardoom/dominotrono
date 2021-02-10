@@ -1,9 +1,9 @@
 {{ $targetPath := "css/root.css" }}
 {{ $sassRoot := "sass/root.scss" }}
 {{ $rootClass := ( slice "homePage" "innerPage" ) }}
-{{ $options := ( dict "targetPath" $targetPath "enableSourceMap" true ) }}
+{{ $options := ( dict "targetPath" $targetPath  "outputStyle" "compressed" "enableSourceMap" true ) }}
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $options }}
-{{ $prodStyle := resources.Get $sassRoot | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+{{ $prodStyle := resources.Get $sassRoot | resources.ToCSS $options | resources.Fingerprint }}
 {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
 {{ $class := .Site.Params.classes }}
 

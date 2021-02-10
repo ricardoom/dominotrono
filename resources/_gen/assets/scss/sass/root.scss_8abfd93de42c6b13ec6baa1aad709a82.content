@@ -250,7 +250,7 @@ h6 {
 
 h1 {
   --line-height: clamp(1.25em, 3.5vw, 1.6em);
-  font-size: clamp(var(--s0), 3.13511345vw, var(--s2));
+  font-size: clamp(var(--s1), 2.36731844vw, var(--s2));
   line-height: var(--line-height); }
 
 h2 {
@@ -726,21 +726,13 @@ header {
   @media (min-width: 48em) {
     header {
       display: block; } }
+  header > .wrapper {
+    display: flex;
+    align-items: center; }
   @media (min-width: 19.25em) {
     header .siteNameContainer {
       display: block;
       flex: 2 1 95%; } }
-  header .siteNameContainer--name {
-    font-size: clamp(24px, 2.25vw, 48px);
-    text-shadow: 2px 2px 2px #111111;
-    align-self: end;
-    color: white;
-    font-style: normal;
-    font-weight: 200;
-    text-decoration: none; }
-    @media (min-width: 48em) {
-      header .siteNameContainer--name {
-        margin: 0; } }
 figure {
   margin: 0; }
   figure img {
@@ -1232,7 +1224,7 @@ footer {
   box-sizing: border-box; }
 
 body {
-  background-color: #8b8b8b;
+  background-color: #231d3a;
   color: white;
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: var(--s0); }

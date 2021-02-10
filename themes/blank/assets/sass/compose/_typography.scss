@@ -76,7 +76,7 @@ $headings: (h1, h2, h3, h4, h5, h6);
 // preferredValue = yAxisIntersection[rem] + (slope * 100)[vw]
 // TODO: make this a function so we can reuse it.... Every Where!
 $screenDifference: $mega - $small;
-$fontDifference: $s2 - $s0;
+$fontDifference: $s2 - $s1;
 $slope: $fontDifference / $screenDifference;
 $yAxisIntersection : (($small * -1) * $slope) + $s0;
 $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
@@ -93,7 +93,7 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 h1 {
     --line-height: clamp(1.25em, 3.5vw, 1.6em); 
     // font-size: clamp(0.8em, var(--s1), 48px);;
-    font-size: clamp(var(--s0), $preferredValue, var(--s2));
+    font-size: clamp(var(--s1), $preferredValue, var(--s2));
     line-height: var(--line-height);
 }
 

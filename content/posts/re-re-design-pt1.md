@@ -1,6 +1,6 @@
 ---
 author: Ricardo G.
-categories: []
+categories: ['thoughts']
 date: 2021-01-29T10:52:00-05:00
 draft: false
 tags: []

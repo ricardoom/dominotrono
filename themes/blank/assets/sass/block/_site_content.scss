@@ -1,9 +1,11 @@
 ///
 /// The main styles for the river of posts
 /// grid settings can be found over in _grid.scss
-///
+/// TODO: determine if we can eliminate this partial or repatriate the styles to more appropriate style sheets
 
 .site-content {
+
+
   button {
     background: transparent;
     border: 0.15em solid $site-white;

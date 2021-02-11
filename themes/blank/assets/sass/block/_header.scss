@@ -4,15 +4,16 @@
 
 header {
   background-color: $site-black;
-  padding-top: var(--s5) 0 var(--s1);
-  padding-block-start: var(--s3);
+  padding-top: clamp(var(--s1), 2.5vw, var(--s2));
+  padding-bottom:  var(--s1);
+  padding-block-start:  clamp(var(--s1), 2.5vw, var(--s2));
   padding-block-end: var(--s1);
   
   @include media('>=tablet') {
     display: block;
   }
   // TODO: This feels a bit fragile and could cause problems down the road:
-  & >.wrapper {
+  & > .wrapper {
     display: flex;
     align-items: center;
   }

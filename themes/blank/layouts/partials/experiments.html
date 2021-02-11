@@ -7,8 +7,21 @@
 {{ $jsLowerCased := lower $pageJS }}
 {{ $local := .Site.IsServer }}
 {{ $cat := .Param "categories" }}
-{{ printf "<!-- +++ experiments single.html  -->" | safeHTML }}
+{{/*  
+  Check if this is an SVG experiment:
+  Front matter would be like
+  experimentType = "svg" or "canvas" or... whatever...
+  use the title as the containing element root id
+  */}}
 
+{{ $experimentType := .Page.Param "experimentType" }}  
+{{ printf "<!-- +++ experiments single.html  -->" | safeHTML }}
+{{ if and ( eq $experimentType "svg" ) ( ne $experimentType "" ) }}
+ <svg id="{{ lower .Title }}">
+    ...
+  </svg>
+  
+{{ end  }}
 {{ if $pageJS }}
   {{  range $vendorName, $vendorURL := $jsVendor }}
     {{ if eq $vendorName $jsLowerCased }}
@@ -28,7 +41,7 @@
 
       {{ else if eq $jsLowerCased "gsapjs" }}
         {{ printf "<!-- If GSAP is present then we directly load from their CDN  -->" | safeHTML }}
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 
       {{ else }}
         <p>and the full path we set is here: <b>{{ $.Site.BaseURL }}

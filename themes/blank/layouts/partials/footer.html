@@ -6,17 +6,14 @@
 
 <footer>
   <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
-  
 </footer>
 <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
 {{ if .Site.IsServer }}
-
-{{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" }}
-<script src="{{ $script.Permalink }}"></script>
+  {{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" }}
+  <script src="{{ $script.Permalink }}"></script>
 {{ else }}
-{{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" | fingerprint }}
-<script src="{{ $script.Permalink }}"></script>
-
+  {{ $script := slice  $mobileNav $observer $socialSprites | resources.Concat "/js/main.js" | fingerprint }}
+  <script src="{{ $script.Permalink }}"></script>
 {{ end }}
 <script type="text/javascript">
   const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets" });
@@ -24,5 +21,4 @@
   cl.responsive();
 </script>
 </body>
-
 </html>

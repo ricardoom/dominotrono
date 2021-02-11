@@ -79,7 +79,7 @@ enableRobotsTXT = "true"
         p5JS = "p5/p5.js"
         svgJS = "svg/svg.min.js"
         threeJS = "three/three.min.js"
-        gsapJS = "gsap/TweenMax.min.js"
+        gsapJS = "gsap/3.6.0/gsap.min.js"
         animeJS = "anime/anime.min.js"
 [permalinks]
     post = "/:year/:month/:title/"

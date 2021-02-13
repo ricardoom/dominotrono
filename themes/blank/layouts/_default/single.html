@@ -18,8 +18,21 @@
           {{ .Content }}
         </section>
         {{ if eq .Type "experiments"  }}
-          {{ partial "experiments.html" . }}
-      {{ end }}
+          {{/*  
+             Check if this is an SVG experiment:
+          Front matter would be like
+          experimentType = "svg" or "canvas" or... whatever...
+          use the title as the containing element root id
+          */}}
+          {{ $experimentType := .Page.Param "experimentType" }}
+          {{ if $local }}
+          {{ printf "<!-- +++ experimental svg / canvas / ???  -->" | safeHTML }}
+          {{ end  }}
+          {{ if and ( eq $experimentType "svg" ) ( ne $experimentType "" ) }}
+            <svg id="{{ lower .Title }}"  class="[ svg-exp ]">
+            </svg>
+          {{ end  }}
+        {{ end }}
       </article>
       {{ if .Params.tags }}
       {{ partial "tags.html" . }}
@@ -29,6 +42,9 @@
 </main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
+{{/*  {{ if eq .Type "experiments"  }}
+  {{ partial "experiments.html" . }}
+{{ end }}  */}}
 {{ if $local }}
 {{ partial "dev.html" . }}
 {{ end }}

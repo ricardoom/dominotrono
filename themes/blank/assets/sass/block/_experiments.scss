@@ -1,0 +1,11 @@
+//
+// Experiments Styles
+// This handles how the experiments are laid out on a give page
+// handles SVGs and Canvas elements
+
+
+.svg-exp {
+  // border: 1px dotted rebeccapurple;
+  width: calc(100vw - var(--s1));
+  height: 100vh;
+}

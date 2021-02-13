@@ -7,21 +7,7 @@
 {{ $jsLowerCased := lower $pageJS }}
 {{ $local := .Site.IsServer }}
 {{ $cat := .Param "categories" }}
-{{/*  
-  Check if this is an SVG experiment:
-  Front matter would be like
-  experimentType = "svg" or "canvas" or... whatever...
-  use the title as the containing element root id
-  */}}
 
-{{ $experimentType := .Page.Param "experimentType" }}  
-{{ printf "<!-- +++ experiments single.html  -->" | safeHTML }}
-{{ if and ( eq $experimentType "svg" ) ( ne $experimentType "" ) }}
- <svg id="{{ lower .Title }}">
-    ...
-  </svg>
-  
-{{ end  }}
 {{ if $pageJS }}
   {{  range $vendorName, $vendorURL := $jsVendor }}
     {{ if eq $vendorName $jsLowerCased }}
@@ -33,8 +19,11 @@
         </p>
       </div>
       {{ if eq $jsLowerCased "paperjs" }}
+        {{ if $local }}
         {{ printf "<!-- If paper js is present then we do special stuff  -->" | safeHTML }}
+        {{ end  }}
           <script type="text/javascript" src="{{ $.Site.BaseURL }}{{ $vendorPath }}{{ $vendorURL }}"></script>
+          
           <script type="text/paperscript" src="{{ $.Site.BaseURL }}js/PaperAnyone.js" canvas="paperCanvas"></script>
           
           <canvas class="canvas__myCanvas" id="paperCanvas" resize></canvas>
@@ -57,4 +46,4 @@
   {{ end }}
   {{ $.Site.BaseURL }}{{ $customJsPath }}{{ $customJS }}
     <script src="{{ $.Site.BaseURL }}{{ $customJsPath }}{{ $customJS }}"></script>
-    {{ end }}
+{{ end }}

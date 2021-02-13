@@ -42,6 +42,7 @@ function makeCircles(numberOfCircles) {
   // removeElementWithPizzaz(svgContainer);
   // make sure all of the elements are somewhere in the viewBox
   svgContainer.setAttribute('viewBox', `0 0 ${x} ${y}`);
+  svgContainer.setAttribute('width', `${x - 100}`);
   for (let i = 0; i < numberOfCircles; i++) {
     const newCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
     newCircle.setAttribute('cx', getRandomInt(x));

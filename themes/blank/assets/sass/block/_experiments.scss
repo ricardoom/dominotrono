@@ -5,7 +5,11 @@
 
 
 .svg-exp {
-  // border: 1px dotted rebeccapurple;
-  width: calc(100vw - var(--s1));
-  height: 100vh;
+  // TODO: Magic numbers (vh & vw) here need to be resolved w/  some reseting the css via the JS file
+  border: 1px dotted rebeccapurple;
+  height: calc(85vh - var(--s4));
+  position: absolute;
+  top: var(--s5);
+  width: calc(85vw - var(--s2));
+  z-index: -100;
 }

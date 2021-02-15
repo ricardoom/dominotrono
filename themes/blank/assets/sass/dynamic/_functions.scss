@@ -41,7 +41,7 @@
 // $mw = max width
 // $pl = padding left
 // $pr = padding right
-@mixin basic-article-wrapper($breakpoint, $mw, $pl: #{initial}, $pr: #{initial}) {
+@mixin basic-article-wrapper($breakpoint, $mw: "", $pl: #{initial}, $pr: #{initial}) {
   @include media(#{$breakpoint}) {
     max-width: $mw;
     padding-left: $pl;

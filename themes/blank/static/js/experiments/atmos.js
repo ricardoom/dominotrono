@@ -3,12 +3,16 @@
 //
 
 // Atmosphere in this case
+// Get the parent wrapper node:
+
+const parentWrapper = document.querySelector('.wrapper');
 // Get the DOM node:
 const svgContainer = document.querySelector('#atmosphere');
+
 // Get the viewport dimensions and set up two constants:
-const x = svgContainer.clientWidth; // use the client window width
-const y = svgContainer.clientHeight; // use the client window height
-const r = getRandomInt(100);
+const x = document.body.clientWidth; // use the client window width
+const y = document.body.clientHeight; // use the client window height
+const r = getRandomInt(25);
 
 //
 // set up the animation function
@@ -42,13 +46,14 @@ function makeCircles(numberOfCircles) {
   // removeElementWithPizzaz(svgContainer);
   // make sure all of the elements are somewhere in the viewBox
   svgContainer.setAttribute('viewBox', `0 0 ${x} ${y}`);
-  svgContainer.setAttribute('width', `${x - 100}`);
+  // svgContainer.setAttribute('width', `${x - 100}`);
   for (let i = 0; i < numberOfCircles; i++) {
     const newCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
     newCircle.setAttribute('cx', getRandomInt(x));
     newCircle.setAttribute('cy', getRandomInt(y));
     newCircle.setAttribute('r', getRandomInt(r));
-    newCircle.style.color = `hsla(${getRandomInt(360)},${getRandomInt(100)}%, ${getRandomInt(100)}%`;
+    // newCircle.style.color = `hsla(${getRandomInt(360)},${getRandomInt(100)}%, ${getRandomInt(100)}%`;
+    newCircle.style.color = `hsla(0, 0, 100%, ${getRandomInt(100)}%)`;
     newCircle.style.fill = 'currentColor';
     newCircle.style.filter = `blur(${getRandomInt(3)}px)`;
     svgContainer.appendChild(newCircle);

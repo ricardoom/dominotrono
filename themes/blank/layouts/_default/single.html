@@ -29,7 +29,7 @@
           {{ printf "<!-- +++ experimental svg / canvas / ???  -->" | safeHTML }}
           {{ end  }}
           {{ if and ( eq $experimentType "svg" ) ( ne $experimentType "" ) }}
-            
+              
               <svg id="{{ lower .Title }}"  class="[ svg-exp ]" viewBox="0 0 0 0"></svg>
             
           {{ end  }}

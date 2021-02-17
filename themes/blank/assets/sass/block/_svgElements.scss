@@ -17,3 +17,64 @@
   top: 0;
   z-index: -1000;
 }
+
+.red-bot {
+  // padding-left: 50vw;
+  transform: translateY(25vh);
+  overflow: hidden;
+  .aa {
+        fill: url(#aa);
+      }
+
+      .bb, .cc, .dd {
+        fill: none;
+      }
+
+      .bb {
+        stroke: #a2166b;
+      }
+
+      .bb, .cc {
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .bb, .cc, .dd, .ee, .ff, .ii {
+        stroke-miterlimit: 10;
+      }
+
+      .cc {
+        stroke: #550335;
+      }
+
+      .dd, .ff, .ii {
+        stroke: #450121;
+      }
+
+      .dd, .ee, .ff, .ii {
+        stroke-width: 10px;
+      }
+
+      .ee {
+        fill: #3b071f;
+        opacity: 0.5;
+        stroke: url(#bb);
+      }
+
+      .ff {
+        fill: url(#cc);
+      }
+
+      .gg {
+        fill: #b7bd15;
+      }
+
+      .hh {
+        fill: #a2166b;
+      }
+
+      .ii {
+        fill: url(#dd);
+      }
+}
+

@@ -32,19 +32,19 @@ Carrying on through the CSS cleanup, and adding in compact and more concise css 
 
 It should also be noted that as of today, the compiled css file size is around 42.5K. Way too much! My goal is to cut it half from when I originally started which was at 50.1K (Yikes!) So when its down to 25-20K I'll be happy. Ideally though I should be at 10 or less. I just don't think there's enough styling going on to warrant such a big file. And is indicative of my lackadaisical approach and superficial understanding of the BEM methodology and its implementation. That misapprehension manifesting as a needlessly deep nested structure. Hard to maintain.
 
-### Feb. 5 / 6 2021
+### Feb. 5 / 6, 2021
 
 Mostly going through and adding composition classes and the odd utility class. The goal is to make it so high level layout can be handled w/ one or two classes, instead of spreading layout and grid rules around. I also think I'll be able to refactor some of the more complicated grid layouts to use flex instead... That should be fun.
 
-### Feb. 7 2021
+### Feb. 7, 2021
 
 Fixing up some type rules and I must admit, I'm still unclear as to how to make `clamp` work...
 
-### Feb 8. 2021
+### Feb. 8, 2021
 
 So I had to jump through some hoops to get my brain around how clamping works but I think I have it. This post helped quite a bit <https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/>, but also, if I follow correctly, creates some heavy lifting on the `scss` front to get it to work. Mostly converting the much of the scale rules to be unit-less until the last second. I'm still not certain it is the correct approach, for my needs. To be really honest I've been chasing this fluid typography dragon for years now, and I'm still not pleased with where I'm at in terms of understanding or having a solid approach. Alas, I like a fiend w/ his dope or a drunkard with his wine, I will have lust for the lure of fluid type...
 
-### Feb 10. 2021
+### Feb. 10, 2021
 
 New branch added this tackles issue #53 where we start to address the overall issue laid out by Simon Collison here: <https://colly.com/articles/this-used-to-be-our-playground> I intend to make this site my playground.
 
@@ -52,3 +52,9 @@ New branch added this tackles issue #53 where we start to address the overall is
 - next up: get some css and/ or JS working on individual groups and elements within the svg. Better yet:
   - Will HUGO allow me to put dynamic content inside the SVG in the form of a partial?
   - Still unclear on this front...
+
+### Feb. 15 - 17, 2021
+
+I havent reallly been journaling the progress on recent changes and progress, but this thing is coming along, or spinning wildly out of control I'm not sure. But it is fun! I want to continue work on the home page, but I know its probalby not the thing I should be doing. Futzing w/ SVG and robots is lots of fun. But I need to get other things in the pipeling. The trick now is how to merge the whole thing down without all hell breaking loose.
+
+Thats the trick.

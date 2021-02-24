@@ -58,3 +58,7 @@ New branch added this tackles issue #53 where we start to address the overall is
 I havent reallly been journaling the progress on recent changes and progress, but this thing is coming along, or spinning wildly out of control I'm not sure. But it is fun! I want to continue work on the home page, but I know its probalby not the thing I should be doing. Futzing w/ SVG and robots is lots of fun. But I need to get other things in the pipeling. The trick now is how to merge the whole thing down without all hell breaking loose.
 
 Thats the trick.
+
+### Feb. 18, 2021
+
+Not much to report at this point. Sidetracked by starting up another project.

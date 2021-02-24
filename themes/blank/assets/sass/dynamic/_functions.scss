@@ -11,7 +11,7 @@
 // import using @use the grids
 //
 
-@import 'functions/portfolio_grids';
+@import 'dynamic/portfolio_grids';
 
 // Very Basic Text Shadow Mixin:
 @mixin basic-drop-shadow($type: text) {
@@ -24,48 +24,7 @@
   }
 }
 
-// Do some craziness to text shadows...
-// @param {number} $n - number of shadows to add
-// @param {number} $r - red value as in rgb
-// @param {number} $g - green value
-// @param {number} $b - blue value
-// @param {number} $x - the x value in text-shadow rule set
-// @param {number} $y - the y value in text-shadow rule set
-// @param {number} $u - unit, px, ex, etc..
-@function multiple-text-shadow($n, $r, $g, $b, $x, $y, $u) {
-  //$unit: '#{$u}';
-  $value: '#{$x}#{$u} #{$y}#{$u} 0 rgba(#{$r}, #{$g}, #{$b}, 1),';
-  @for $i from 0.5 through $n {
-    $x: ($i * $x);
-    $y: ($i * $y);
-    $a: 1 / ($n * $i);
-    // remove trailing comma...or not...
-    $value: '#{$value} #{$x}#{$u} #{$y}#{$u} 0 '+'rgba(#{$r}, #{$g}, #{$b}, #{$a})'+',';
-  }
-  @return unquote($value);
-}
-
-//
-// This produces a solid 3d
-// @param $color {value} - hex or rgba
-// @param $num {number} - number of shadows to apply
-// @param $spread {number} - the shadow's spread
-// @param $blur {number} - the text shadow's blur
-// @param $y {number} - the y value
-// @param $x {number} - the x value
-//
-
-@function big-3d($x, $y, $blur, $spread, $color, $num) {
-  $output: '#{$x}px #{$y}px #{$blur} #{$spread} #{$color}';
-  @for $i from 1 to $num {
-    $x: ($i + 1);
-    $y: ($i + 1);
-  }
-  @return unquote($output);
-}
-
 // Mixins
-
 // mixin for basic padding
 // todo: add {params}
 // param {$media} : >=phone
@@ -82,7 +41,7 @@
 // $mw = max width
 // $pl = padding left
 // $pr = padding right
-@mixin basic-article-wrapper($breakpoint, $mw, $pl: #{initial}, $pr: #{initial}) {
+@mixin basic-article-wrapper($breakpoint, $mw: "", $pl: #{initial}, $pr: #{initial}) {
   @include media(#{$breakpoint}) {
     max-width: $mw;
     padding-left: $pl;

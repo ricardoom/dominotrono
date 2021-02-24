@@ -66,25 +66,53 @@ $headings: (h1, h2, h3, h4, h5, h6);
   }
 }
 
+// do some calculations to get the proper fluidity:
+// min font size: var(--s0)
+// max font size var(--s2);
+// min view port: $small-screen
+// max view port: $mega-screen
+// slope = (maxFontSize - minFontSize) / (maxWidth - minWidth)
+// yAxisIntersection = -minWidth * slope + minFontSize
+// preferredValue = yAxisIntersection[rem] + (slope * 100)[vw]
+// TODO: make this a function so we can reuse it.... Every Where!
+$screenDifference: $mega - $small;
+$fontDifference: $s2 - $s1;
+$slope: $fontDifference / $screenDifference;
+$yAxisIntersection : (($small * -1) * $slope) + $s0;
+$preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
+
+// @debug $s0, $s1, $s2;
+// @debug $screenDifference;
+// @debug $fontDifference;
+// @debug $slope;
+// @debug $yAxisIntersection ;
+// @debug $preferredValue;
+
+
+
 h1 {
-    @include responsive-font(3.75vw, 1.75em, 32px, 64px);
+    --line-height: clamp(1.25em, 3.5vw, 1.6em); 
+    // font-size: clamp(0.8em, var(--s1), 48px);;
+    font-size: clamp(var(--s1), $preferredValue, var(--s2));
+    line-height: var(--line-height);
 }
 
 h2 {
-  @include responsive-font(2.75vw, 1.25rem, 24px, 24px);
+  // @include responsive-font(2.75vw, 1.25rem, 24px, 24px);
+  font-size: clamp(1em, var(--s1), 48px);
 }
 
 h3 {
-  @include responsive-font(3.75vw, 2.25em, 5.5em, 32px);
+  // @include responsive-font(1.75vw, 1.25em, 5.5em, 32px);
   // font-size: clamp(, #{$ideal}, #{$max});
+  font-size: clamp(1.125em, var(--s0), 24px);
 }
 
 ///
 /// Set a base link style here:
 ///
 
-a,
-.fonts-loaded a {
+a {
   &:link {
     color: $site-link;
   }
@@ -99,14 +127,13 @@ a,
     color: $site-punk-pink;
   }
 
-  // &:active {
-  //   background-color: $site-link-active-bg;
-  // }
-
-  &:focus {
+&:focus {
     @include focus-ring(outline);
   }
 }
+
+
+ 
 
 ///
 /// Basic typographic rules
@@ -121,71 +148,12 @@ code {
   padding: 0.15em;
 }
 
-//
-// Type rules for single and portfolio pages:
-// TODO: determine if site-single is used / useful anymore and then do something about it
-//
-.site-single,
-.portfolio {
-  // &__content {
-
-  //   h2,
-  //   h3 {
-  //     margin-bottom: 0.5ex;
-  //   }
-
-  //   // h2 {
-  //   //   font-size: 2.75rem;
-  //   // }
-
-  //   // h3 {
-  //   //   font-size: 1.75rem;
-  //   // }
-
-  //   // set the max width for <p> elements to a reasonable / standard amount of characters
-  //   p {
-  //     max-width: $max-line-length;
-  //     margin: var(--s0) 0;
-  //     margin-block-end: var(--s0);
-  //     margin-block-start: var(--s0);
-  //   }
-
-  //   ul {
-  //     padding-left: 3ex;
-
-  //     li {
-  //       list-style-type: disc;
-  //     }
-
-  //     li ul {
-  //       border: 0;
-  //     }
-  //   }
-  //   h3 + ul {
-  //     margin-top: 0.5ex;
-  //   }
-
-  //   b,
-  //   strong {
-  //     font-weight: 500;
-  //   }
-  // } // /&__content
-} // /.portfolio
-
-.content {
+// .content {
 
     h2,
     h3 {
-      margin-bottom: 0.5ex;
+      margin-bottom: var(--s-1);
     }
-
-    // h2 {
-    //   font-size: 2.75rem;
-    // }
-
-    // h3 {
-    //   font-size: 1.75rem;
-    // }
 
     // set the max width for <p> elements to a reasonable / standard amount of characters
     p {
@@ -196,29 +164,21 @@ code {
     }
 
     ul {
-      padding-left: 3ex;
-
-      li {
-        list-style-type: disc;
-      }
+      padding-left: var(--s0);
 
       li ul {
         border: 0;
       }
     }
     h3 + ul {
-      margin-top: 0.5ex;
+      margin-top: var(--s-1);
     }
 
     b,
     strong {
       font-weight: 500;
     }
-  } 
-
-.sidebar-prime {
-  font-size: 1.6rem;
-}
+  // } 
 
 .fonts-loaded {
   font-family: $frank-new;

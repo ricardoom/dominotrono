@@ -1,36 +1,25 @@
 ///
 /// A Sidebar Prime
 /// always found at the bottom of the page
-//
+// This is that block of blocks, its the feed
+// Should look like a periodic table of elements at some point...
 
 .sidebar-prime {
-  background: darken($site-background-color, 0.9);
-  font-style: normal;
-  font-weight: 400;
-  overflow: auto;
-  padding-top: var(--s0);
-
-  &__sidebarTitle {
+  background-color: $site-black;
+  .sidebarTitle {
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
     @include media('>tablet') {
       margin-bottom:  var(--s0);
     }
-    // margin-left: var(--s0);
   }
 
-  &__sidebarSubTitle {
-    display: block;
-    font-size:var(--s0);
-    // margin-left: var(--s0);
-  }
-
-  &__sidebarList,
-  &__sidebarTags {
+  .sidebarList,
+  .sidebarTags {
     list-style: none;
     padding: 0;
   }
 
-  &__sidebarList {
+  .sidebarList {
     display: flex;
     flex-wrap: wrap;
 
@@ -67,7 +56,6 @@
             }
 
             &:visited {
-              // background: $large-bg-color;
               color: currentColor;
             }
 
@@ -88,9 +76,6 @@
     > li:focus {
       background: $site-lava-orange;
       background: linear-gradient(to bottom right, $site-lava-orange, $site-punk-pink);
-
-      // > a:hover {
-      // }
     }
   }
 }

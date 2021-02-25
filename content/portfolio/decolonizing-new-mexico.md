@@ -4,21 +4,20 @@ date: 2021-02-24T14:58:13-05:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-postImageSqip: '../media/portfolio/decolonizing-new-mexico/sqip.svg'
-portfolioHeroSqip: '../media/portfolio/decolonizing-new-mexico/sqip.svg'
+portfolioHeroSqip: '../media/portfolio/decolonizing-new-mexico/hero-sqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto/v1614280367/decolonizing-nm/dcnm-hp2.png'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto/v1614280367/decolonizing-nm/dcnm-hp2.png'
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto/v1614280367/decolonizing-nm/dcnm-hp2.png'
-portfolioHeroAlt: ''
+portfolioHeroAlt: 'An image from the website home page depicting an image of two boys wearing plastic conquistador costumes'
 # heroFigcaption goes on the portfolio/ landing page
 heroFigcaption: ''
-postImage1x: ''
-postImage2x: '../media/portfolio/decolonizing-new-mexico/placeHolder_sm@2x.png'
-postImage3x: '../media/portfolio/decolonizing-new-mexico/placeHolder_sm@3x.png'
-postImageAlt: ''
+postImageSqip: '../media/portfolio/decolonizing-new-mexico/sqip.svg'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_auto,f_auto/v1614285011/decolonizing-nm/IMG_0569_sq.jpg'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_auto,f_auto/v1614285011/decolonizing-nm/IMG_0569_sq.jpg'
+postImageAlt: 'an image of two boys wearing plastic conquistador costumes'
 figcaption: ''
 svgClipObjectClass: ''
-svgColorClass: ''
+svgColorClass: 'site-color--sage-green'
 projectRoles: ['Designer', 'Developer']
 projectClients: ['Dr. Estevan Rael Gálvez', 'McCune Foundation', 'New Mexico Humanities Council']
 projectDate: '2020 - 2021'

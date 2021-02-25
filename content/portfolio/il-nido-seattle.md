@@ -22,7 +22,7 @@ projectClients: ['Chef Mike Easton of Il Nido Seattle']
 projectCredits: []
 projectDate: ''
 tags: ['Logo Design', 'Web Design', 'Web Development', 'Brand Identity']
-weight: 2
+weight: -9
 externalURL: 'http://ilnidoseattle.com'
 projectDesc: 'A freelance design and development project contracted by the Chef / Owner of Il Nido Seattle. This new business required a simple, maintenance-free website.'
 newLayout: true

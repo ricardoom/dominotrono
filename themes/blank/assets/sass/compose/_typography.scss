@@ -88,8 +88,6 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 // @debug $yAxisIntersection ;
 // @debug $preferredValue;
 
-
-
 h1 {
     --line-height: clamp(1.25em, 3.5vw, 1.6em); 
     // font-size: clamp(0.8em, var(--s1), 48px);;

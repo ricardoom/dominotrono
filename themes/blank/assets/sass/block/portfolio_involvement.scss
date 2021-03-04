@@ -2,6 +2,7 @@
     background-color: transparentize($site-black, 0.1);
     padding-bottom: var(--s1);
     padding-block-end: var(--s1);
+    z-index: 2;
 
     @include media('>=phone') {
       grid-column: 1 / 3;

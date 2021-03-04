@@ -28,7 +28,7 @@
       &:first-child {
         margin-bottom: var(--s0);
       }
-
+    // magic numbers
       @include responsive-font(1.5vw, 1.6em, 22px, 32px);
       margin: var(--s1) 0 0;
     }
@@ -91,11 +91,11 @@
       // details-grid for secondary and tertiary content layouts
       // details grid specific variables:
       $details-grid-columns: #{1fr 6.5vw 1fr 2.5vw};
-      $details-grid-rows: #{minmax(130px, auto) auto};
+      $details-grid-rows: #{minmax(4vh, auto) auto};
       //
 
       .details-grid {
-        @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows);
+        @include portfolio-grid('>=phone', $details-grid-columns);
         align-items: start;
         margin-top: var(--s0);
 
@@ -103,6 +103,9 @@
           margin: var(--s0) 0;
         }
 
+        .vertical-center {
+            align-self: center;
+          }
         //
         // twoByTwo: this layout can be used to stack 3 images to the right or left
         // with a copy block on the opposite side..

@@ -36,7 +36,7 @@ newLayout: true
     >}}
     {{< copy_wrapper
         class="hero-grid__copyBlock" >}}
-          Decolonizing New Mexico is meant to enter gather historical context and ideas toward the development of a process, centering truth and transformation in New Mexico. The project is designed with flexibility for growth and expansion as new material created and added. I designed the entire project to be as lean as possible. The design and prototype work was executed in Adobe XD, the site is built with Hugo. For hosting, we us Netlify and Forestry as the CMS for easy and very intuitive content management.
+          Decolonizing New Mexico is meant to enter gather historical context and ideas toward the development of a process, centering truth and transformation in New Mexico. The project is designed with flexibility for growth and expansion as new material created and added. I designed the entire project to be as lean as possible. The design and prototype work was executed in Adobe XD, the site is built with Hugo. For hosting, we use Netlify hosting / deployment and Forestry as the CMS for easy and very intuitive content management.
       {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}

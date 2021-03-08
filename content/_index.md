@@ -3,4 +3,4 @@ title: 'Ricardo E. Gálvez - Freelance Designer & Developer'
 draft: false
 ---
 
-Hi, I am a Designer & Front End Developer. At the core of my practice, you will find simplicity coupled with a "user first" mentality. I will always strive to find the perfect balance between function and form.
+Hi, I am a Designer & Front End Developer. I am interested in unusual interfaces, animation with CSS, SVG and Javascript. To confound that a bit I am also dedicated to building Accessible interfaces, and working with non-profit organizations and small businesses.

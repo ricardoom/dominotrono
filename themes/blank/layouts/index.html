@@ -5,12 +5,20 @@
    {{ partial "jumbo_two.html" . }}
   */}}
    <div class="[ wrapper ]">
-
-    
+    <div class="[ features ]">
+      {{ .Content }}
+      {{/* Ranges through the Content type Features based on the param set on _index.md */}}
+      {{ range .Params.features }}
+        {{ with $.GetPage . }}
+          {{/*  {{ partial "partials/hp-features.html" ( dict "Features" . ) }}  */}}
+          {{ partial "partials/hp-features.html" . }}
+        {{ end  }}
+      {{ end  }}
+    </div>
+    {{/* 
     {{ partial "hp-portfolio.html" . }} 
     {{ partial "skills.html" . }}
-    
-
+    */}}
   </div>
  {{/*
   <div class="wrapper subtitle-grid-container">
@@ -34,3 +42,7 @@
 */}}
 {{ partial "footer.html" . }}
 {{ partial "svg/filter.svg" . }}
+{{ $local := .Site.IsServer }}
+{{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}

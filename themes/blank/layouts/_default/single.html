@@ -17,6 +17,13 @@
         <section class="site-single">
           {{ .Content }}
         </section>
+        {{ if eq .Type "features" }}
+          {{/*  {{ range .Page.Param.pages }}
+            {{ with .SiteGet.Page . }}
+              {{ .Title }}
+            {{ end }}
+          {{ end }}  */}}
+        {{ end  }}
         {{ if eq .Type "experiments"  }}
           {{/*  
              Check if this is an SVG experiment:

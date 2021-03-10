@@ -1,0 +1,10 @@
+<svg width="480" height="480" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 0L480 480H0L240 0Z" fill="url(#paint0_angular)"/>
+<defs>
+<radialGradient id="paint0_angular" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 240) rotate(151.175) scale(157.13 157.333)">
+<stop stop-color="#B1FFF1"/>
+<stop offset="0.340909" stop-color="#75FFE6"/>
+<stop offset="1" stop-color="#FDD506"/>
+</radialGradient>
+</defs>
+</svg>

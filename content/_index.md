@@ -3,6 +3,7 @@ title: 'Ricardo E. Gálvez - Freelance Designer & Developer'
 draft: false
 features:
   - /features/html.md
+  - /features/design.md
   - /features/css.md
   - /features/svg.md
   - /features/javascript.md

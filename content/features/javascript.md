@@ -6,7 +6,7 @@ draft: false
 tags: []
 title: "Javascript"
 graphics: 
-  url: diagonalDot.svg
-  class: diagDot
+  url: tetrahedron.svg
+  class: tetrahedron
 ---
 I am late to the party. That said, I'll be joining a Code Smith Prep course in a couple weeks. Then on to the Software Engineering immersive.

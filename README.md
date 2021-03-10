@@ -9,10 +9,12 @@ Built with static site generator Hugo, SASS, and vanilla Javascript
 - 0.0.4
   - New home page deployed
   - Work on the new layout, see post <theblogpost.html>
+    - new svg elements complete
   - project / custom / dynamic verticals
     - create a url
     - use front matter to compose a page
     - resources drawn from other site content
+  - Switch type faces to Monoid / Inter. For good times and fresher vibrations.
 
 - 0.0.3
   - CSS refactored quite a bit, down reduced unused or redundant rules probably by 30%, shaved about 20k off.

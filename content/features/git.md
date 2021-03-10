@@ -6,7 +6,7 @@ draft: false
 tags: []
 title: "Git"
 graphics: 
-  url: circleCircle.svg
-  class: circleCircle
+  url: gitCube.svg
+  class: gitCube
 ---
 Check out my git repo!

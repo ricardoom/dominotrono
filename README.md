@@ -2,14 +2,14 @@
 
 Built with static site generator Hugo, SASS, and vanilla Javascript
 
-## Changelog
-
-### Versions
+## Versions ~ Changelog
 
 - 0.0.4
   - New home page deployed
   - Work on the new layout, see post <theblogpost.html>
     - new svg elements complete
+      - made responsive
+      - aria attributes set to hidden
   - project / custom / dynamic verticals
     - create a url
     - use front matter to compose a page

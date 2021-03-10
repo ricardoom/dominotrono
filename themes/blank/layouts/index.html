@@ -5,9 +5,9 @@
    {{ partial "jumbo_two.html" . }}
   */}}
    <div class="[ wrapper ]">
-    <div class="[ features ]">
+    <div class="[ stack ][ features ]">
       {{ .Content }}
-      {{/* Ranges through the Content type Features based on the param set on _index.md */}}
+      {{/* Ranges through the Content type Features based on the "features" param set on _index.md */}}
       {{ range .Params.features }}
         {{ with $.GetPage . }}
           {{/*  {{ partial "partials/hp-features.html" ( dict "Features" . ) }}  */}}

@@ -3,16 +3,14 @@
 {{ $svgURL := .Params.graphics.url | string}}
 {{ $fullPath := delimit (slice "partials/svg/" $svgURL) "" | string }}
 {{ $title := lower .Title }}
-<section class="feature-{{ $title }}">
+<section class="[ feature-{{ $title }} ]">
   <a href="{{ .Permalink }}">
-  <h2>{{ .Title }}</h2>
-  {{ .Summary }}
-  </a>
-  <p>
+    <div>    
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Summary }}</p>
+    </div>
   {{ with and ( $svg ) ( ne $svg "" ) }}
-    {{/*  {{ with $svg }}  */}}
-      {{ partial $fullPath (dict "polygonClass" $svgClass) }}
-    {{/*  {{ end }}  */}}
+    {{ partial $fullPath (dict "polygonClass" $svgClass) }}
   {{ end }}
-  </p>  
+  </a>
 </section>

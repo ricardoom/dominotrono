@@ -24,19 +24,20 @@ header {
       flex: 2 1 95%;
     }
 
-    // &--name {
+    .name {
       
-    //   @include media('>=tablet') {
-    //     margin: 0;
-    //   }
+      @include media('>=tablet') {
+        font-weight: 500;
+        margin: 0;
+      }
 
-    //   font-size: clamp(24px, 2.25vw, 48px);
-    //   @include basic-drop-shadow;
-    //   align-self: end;
-    //   color: $site-white;
-    //   font-style: normal;
-    //   font-weight: 200;
-    //   text-decoration: none;
-    // }
+      font-size: clamp(18px, 2vw, var(--s2));
+      @include basic-drop-shadow;
+      align-self: end;
+      color: $site-white;
+      font-style: normal;
+      font-weight: 200;
+      text-decoration: none;
+    }
   }
 }

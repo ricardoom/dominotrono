@@ -1,0 +1,34 @@
+//
+// This partial is for the home page features section
+//
+
+.features {
+  
+  section:nth-child(even) {
+    align-self: flex-start;
+
+    a {
+      flex-flow: row-reverse;
+    }
+  }
+
+  section:nth-child(odd) {
+    align-self: flex-end;
+  }
+
+  a {
+    display: flex;
+    text-decoration: none;
+   
+    // :not(svg) {
+    //   margin-left: var(--s2);
+    // }
+    
+    svg {
+      // left: 0;
+      // position: absolute;
+      // top: 0;
+      width: 35%;
+    }
+  }  
+}

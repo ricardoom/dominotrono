@@ -9,9 +9,10 @@ shape: /media/svg/trianglePolygonUno.svg
 pages: 
   - content/portfolio/il-nido-seattle.md
   - content/portfolio/decolonizing-new-mexico.md
+deck: I've spent the better half of two decades working with HTML.
 graphics: 
   url: trianglePolygonUno.svg
   class: triangle
 ---
 
-I've spent the better half of two decades working with HTML. Here are a few things I've been done where I've authored the markup in a significant way...
+Here are a few things I've been done where I've authored the markup in a significant way...

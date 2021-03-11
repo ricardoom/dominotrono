@@ -3,7 +3,7 @@
 //
 
 .features {
-  section {
+  section {;
     max-width: 50%;
     }
 
@@ -11,7 +11,8 @@
     align-self: flex-start;
 
     a {
-            
+      // filter: blur(2px);
+
       h2 {
         align-self: end;
         grid-area: 1 / 2 / 2 / -1;
@@ -50,15 +51,31 @@
 
   a {
     display: grid;
+    filter: blur(var(--s-4));
     grid-template-columns: repeat(3, 1fr) ;
     grid-template-rows: repeat(3, auto);
     text-decoration: none;
-   
+
+    &:hover {
+     color: currentColor;
+     filter: unset;
+   }
+
     h2 {
-      font-weight: 600;
+      font-size: var(--s3);
+      font-weight: 674;
+      line-height: 1;
+      margin-bottom: 0;
+      margin-block-end: 0;
+    }
+
+    p {
+      font-size: var(--s1);
     }
 
     svg {
+      filter: drop-shadow(var(--s1) var(--s1) var(--s3) transparentize($site-dark-blue, 0.35));
+      z-index: -100;
       // left: 0;
       // position: absolute;
       // top: 0;

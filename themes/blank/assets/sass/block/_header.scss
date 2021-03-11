@@ -4,7 +4,7 @@
 
 header {
   background-color: $site-black;
-  padding-top: clamp(var(--s1), 2.5vw, var(--s2));
+  padding-top: clamp(var(--s1), 2.75vw, var(--s2));
   padding-bottom:  var(--s1);
   padding-block-start:  clamp(var(--s1), 2.5vw, var(--s2));
   padding-block-end: var(--s1);

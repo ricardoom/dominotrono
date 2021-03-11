@@ -6,7 +6,10 @@
 
 .sidebar-prime {
   background-color: $site-black;
-  .sidebarTitle {
+  color: $site-white;
+  padding-block-start: var(--s0);
+
+  h3 {
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
     @include media('>tablet') {
       margin-bottom:  var(--s0);
@@ -25,12 +28,16 @@
 
     > li {
       padding: var(--s0);
+      padding-block-start: var(--s0);
+      padding-block-end: var(--s0);
+      padding-inline-start: 0;
+      padding-inline-end: var(--s0);
 
       &:nth-of-type(4n) {
         padding-right: 0;
 
         ul {
-          padding-right: 1em;
+          padding-right: var(--s0);
         }
       }
 
@@ -43,7 +50,7 @@
             @include responsive-font(5vw, 2.6rem, 5rem, 22px);
             border-bottom: solid var(--s-3) $site-white;
             display: block;
-            font-family: $justus-pro;
+            font-family: $inter;
             font-weight: 400;
             font-style: normal;
             line-height: var(--s2);
@@ -71,8 +78,8 @@
         }
       }
     }
-
-    > li:hover,
+    // TODO: do some snazz animation transition here abouts...
+    > li:hover, 
     > li:focus {
       background: $site-lava-orange;
       background: linear-gradient(to bottom right, $site-lava-orange, $site-punk-pink);

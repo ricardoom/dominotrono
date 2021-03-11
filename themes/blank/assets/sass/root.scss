@@ -58,10 +58,11 @@
 
 body {
   background-color: $site-prince-purple;
+  background: linear-gradient(25deg, $gradient-features);
   // background-color: pink;
   // background-repeat: no-repeat;
   // background-size: cover;
-  color: $site-white;
+  color: $site-dark-blue;
   font-family: $frank-new;
   font-size: $base-font;
   // margin: 0 auto;

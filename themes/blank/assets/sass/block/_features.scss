@@ -3,32 +3,66 @@
 //
 
 .features {
-  
+  section {
+    max-width: 50%;
+    }
+
   section:nth-child(even) {
     align-self: flex-start;
 
     a {
-      flex-flow: row-reverse;
+            
+      h2 {
+        align-self: end;
+        grid-area: 1 / 2 / 2 / -1;
+      }
+
+      p {
+        grid-area: 2 / 2 / -2 / -1;
+      }
+
+      svg {
+        grid-area: 1 / 1 / -2 / -2;
+      }
     }
   }
 
   section:nth-child(odd) {
     align-self: flex-end;
+
+    a {
+
+      h2 {
+        grid-area: 1 / 1 / 2 / -1;
+        align-self: end;
+      }
+
+      p {
+        grid-area: 2 / 1 / -2 / -1;
+      }
+
+      svg {
+        grid-area: 1 / 2 / -2 / -1;
+      }
+    }
+    
   }
 
   a {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(3, auto);
     text-decoration: none;
    
-    // :not(svg) {
-    //   margin-left: var(--s2);
-    // }
-    
+    h2 {
+      font-weight: 600;
+    }
+
     svg {
       // left: 0;
       // position: absolute;
       // top: 0;
-      width: 35%;
+      // width: 35%;
     }
   }  
 }

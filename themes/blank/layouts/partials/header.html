@@ -5,6 +5,7 @@
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $options }}
 {{ $prodStyle := resources.Get $sassRoot | resources.ToCSS $options | resources.Fingerprint }}
 {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
+{{ $googleFontInter := "https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" }}
 {{ $class := .Site.Params.classes }}
 
 
@@ -26,6 +27,8 @@
   {{ end }}
   {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ $typeKitLink }}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="{{ $googleFontInter }}" rel="stylesheet"> 
   {{ partial "fontface_script.html" . }}
 </head>
 

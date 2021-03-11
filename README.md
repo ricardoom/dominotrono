@@ -14,7 +14,7 @@ Built with static site generator Hugo, SASS, and vanilla Javascript
     - create a url
     - use front matter to compose a page
     - resources drawn from other site content
-  - Switch type faces to Monoid / Inter. For good times and fresher vibrations.
+  - Switch type faces to Inter. For good times and fresher vibrations.
 
 - 0.0.3
   - CSS refactored quite a bit, down reduced unused or redundant rules probably by 30%, shaved about 20k off.

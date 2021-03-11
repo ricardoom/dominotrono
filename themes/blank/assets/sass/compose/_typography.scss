@@ -14,13 +14,16 @@ $monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida
 
 $slab-serif: 'Rockwell', 'Rockwell Extra Bold', 'Courier New', Monoco, Courier, monospace;
 
+
+
 ///
 /// from Adobe Typekit
 /// see FontFace Observer
 ///
 
 $frank-new: 'frank-new', $sans-serif;
-$justus-pro: 'justus-pro', $serif;
+$inter: 'Inter', $sans-serif;
+// $justus-pro: 'justus-pro', $serif;
 
 ///
 /// type size
@@ -42,10 +45,10 @@ $headings: (h1, h2, h3, h4, h5, h6);
 @each $heading in $headings {
   #{$heading} {
     font-family: $serif;
-    font-weight: 200;
+    font-weight: 672;
     font-style: normal;
     // line-height: var(--s1);
-    margin: var(--s-1) 0;
+    // margin: var(--s-1) 0;
 
     ///
     /// Headings that wrap links
@@ -62,7 +65,7 @@ $headings: (h1, h2, h3, h4, h5, h6);
   }
 
   .fonts-loaded #{$heading} {
-    font-family: $justus-pro;
+    font-family: $inter;
   }
 }
 

@@ -29,6 +29,15 @@ $site-link-visited: darken($site-white, 3%);
 $site-link-hover-bg: $site-acid-green;
 $site-link-active-bg: $site-green-blue;
 
+
+// Gradients
+$pale-lavender: hsl(223, 45%, 67%);
+$pale-lave-mint: hsl(187, 45%, 67%);
+$cool-mint: hsl(169, 60%, 79%);
+$minty-lilac: hsl(209, 60%, 79%);
+$site-lilac: hsl(317, 40%, 68%);
+$gradient-features: #{$pale-lavender,$pale-lave-mint, $cool-mint,$minty-lilac, $site-lilac};
+
 ///
 /// per screen size bg colors
 ///

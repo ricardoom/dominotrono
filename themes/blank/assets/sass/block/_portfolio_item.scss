@@ -20,6 +20,9 @@
   &__portfolioParent {
     grid-column: 1 / 3;
     grid-row: 2 / 4;
+    //TODO: fix this in hank chizljaw's reset
+    margin-top: 0;
+    margin-block-start: 0;
 
     //
     // section headings
@@ -79,6 +82,7 @@
           @include add-to-grid('>=phone', 1, 6, 2, 3);
           @include add-to-grid('>=tablet', 1, -2, 2, 3);
           @include responsive-font(1.8vw, 18px, 32px, 20px);
+          color: $site-white;
           background-color: transparentize($site-dark-blue, 0.1);
           margin-inline-end: var(--s1);
           padding: var(--s1);
@@ -97,7 +101,7 @@
       .details-grid {
         @include portfolio-grid('>=phone', $details-grid-columns);
         align-items: start;
-        margin-top: var(--s0);
+        margin-top: var(--s1);
 
         > p {
           margin: var(--s0) 0;

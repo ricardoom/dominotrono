@@ -9,7 +9,7 @@ shape: /media/svg/trianglePolygonUno.svg
 pages: 
   - content/portfolio/il-nido-seattle.md
   - content/portfolio/decolonizing-new-mexico.md
-deck: I've spent the better half of two decades working with HTML.
+deck: "I've spent the better half of two decades working with HTML."
 graphics: 
   url: trianglePolygonUno.svg
   class: triangle

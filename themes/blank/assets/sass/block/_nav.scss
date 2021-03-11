@@ -111,12 +111,17 @@
       li {
         a {
           @include basic-drop-shadow(text);
+          color: $site-link-nav;
           padding: var(--s-3) var(--s-2) 0;
           padding-block-start: var(--s-3);
           padding-block-end: 0;
           padding-inline-end: var(--s-2);
           padding-inline-start: var(--s-2);
           text-decoration: none;
+
+          &:visited {
+            color: $site-link-nav;
+          }
         }
       }
       
@@ -151,7 +156,7 @@
 
           &:hover svg,
           &:focus svg {
-            fill: $site-punk-pink;
+            fill: $site-acid-green;
           }
         }
 

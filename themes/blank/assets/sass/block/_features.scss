@@ -11,7 +11,6 @@
     align-self: flex-start;
 
     a {
-      // filter: blur(2px);
 
       h2 {
         align-self: end;
@@ -48,17 +47,22 @@
     }
     
   }
+  // TODO: 
+  // Need MQ for Touch devices to remove the blurs on hover
+  // Maybe even for prefer's reduced motion
 
   a {
     display: grid;
-    filter: blur(var(--s-4));
+    filter: blur(var(--s-4)) opacity(0.8);
     grid-template-columns: repeat(3, 1fr) ;
     grid-template-rows: repeat(3, auto);
+    transition: filter 200ms ease-in;
     text-decoration: none;
 
     &:hover {
      color: currentColor;
      filter: unset;
+     transition: filter 300ms ease-out;
    }
 
     h2 {
@@ -71,6 +75,7 @@
 
     p {
       font-size: var(--s1);
+      line-height: var(--s1);
     }
 
     svg {

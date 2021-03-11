@@ -17,6 +17,11 @@ $site-red: hsl(345, 100%, 40%);
 $site-seafoam-green: hsl(167, 87%, 49%);
 $site-canary-yellow: hsl(50, 100%, 70%);
 $site-sage-green: hsl(66, 29%, 60%);
+$pale-lavender: hsl(223, 45%, 67%);
+$pale-lave-mint: hsl(187, 45%, 67%);
+$cool-mint: hsl(169, 60%, 79%);
+$minty-lilac: hsl(209, 60%, 79%);
+$site-lilac: hsl(317, 40%, 68%);
 
 ///
 /// further abstract away the site's colors so we can do work on them:
@@ -29,14 +34,12 @@ $site-link-visited: lighten($site-link, 3%);
 $site-link-hover-bg: $site-acid-green;
 $site-link-active-bg: $site-green-blue;
 
+$site-link-nav: $site-white;
+
 
 // Gradients
-$pale-lavender: hsl(223, 45%, 67%);
-$pale-lave-mint: hsl(187, 45%, 67%);
-$cool-mint: hsl(169, 60%, 79%);
-$minty-lilac: hsl(209, 60%, 79%);
-$site-lilac: hsl(317, 40%, 68%);
-$gradient-features: #{$pale-lavender,$pale-lave-mint, $cool-mint,$minty-lilac, $site-lilac};
+
+$gradient-features: #{$pale-lavender,$pale-lave-mint, $cool-mint ,$minty-lilac, $site-lilac};
 
 ///
 /// per screen size bg colors

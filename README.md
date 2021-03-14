@@ -6,6 +6,7 @@ Built with static site generator Hugo, SASS, and vanilla Javascript
 
 - 0.0.4
   - New home page deployed
+    - pink bot needs to be sorted out...
   - Work on the new layout, see post <theblogpost.html>
     - new svg elements complete
       - made responsive

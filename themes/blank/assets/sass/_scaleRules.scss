@@ -35,9 +35,10 @@ $s2: $s1 * $ratio;
 // @debug $s0, $s1, $s2;
 
 :root {
+  --ratio: #{$ratio};
   --measure: 60ch;
   --smallMeasure: 40ch;
-  --ratio: #{$ratio};
+  --line-height: var(--ratio);
   --halfRatio: calc(var(--ratio) / 2);
   --s-5: calc(var(--s-4) / var(--ratio));
   --s-4: calc(var(--s-3) / var(--ratio));

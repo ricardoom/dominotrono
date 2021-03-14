@@ -3,8 +3,12 @@
 //
 
 .features {
-  section {;
-    max-width: 50%;
+  section {
+    @media screen and (max-width: $small-screen ) {
+      max-width: 100%;
+      }
+
+    max-width: 60%;
     }
 
   section:nth-child(even) {
@@ -12,8 +16,8 @@
 
     a {
 
-      h2 {
-        align-self: end;
+      h1 {
+        // align-self: end;
         grid-area: 1 / 2 / 2 / -1;
       }
 
@@ -32,9 +36,8 @@
 
     a {
 
-      h2 {
+      h1 {
         grid-area: 1 / 1 / 2 / -1;
-        align-self: end;
       }
 
       p {
@@ -45,28 +48,22 @@
         grid-area: 1 / 2 / -2 / -1;
       }
     }
-    
   }
-  // TODO: 
-  // Need MQ for Touch devices to remove the blurs on hover
-  // Maybe even for prefer's reduced motion
 
-  a {
+    a {
     display: grid;
-    filter: blur(var(--s-4)) opacity(0.8);
     grid-template-columns: repeat(3, 1fr) ;
     grid-template-rows: repeat(3, auto);
     transition: filter 200ms ease-in;
-    text-decoration: none;
+    text-decoration: none;  
 
     &:hover {
      color: currentColor;
-     filter: unset;
-     transition: filter 300ms ease-out;
-   }
+    }
 
-    h2 {
-      font-size: var(--s3);
+    h1 {
+      align-self: end;
+      font-size: clamp(var(--s1), $preferredValue, var(--s3));
       font-weight: 674;
       line-height: 1;
       margin-bottom: 0;
@@ -74,17 +71,24 @@
     }
 
     p {
-      font-size: var(--s1);
-      line-height: var(--s1);
+      font-size: clamp(var(--s0), $preferredValue, var(--s1));
+      line-height: var(--line-height);
     }
 
     svg {
       filter: drop-shadow(var(--s1) var(--s1) var(--s3) transparentize($site-dark-blue, 0.35));
       z-index: -100;
-      // left: 0;
-      // position: absolute;
-      // top: 0;
-      // width: 35%;
     }
-  }  
+  }
+  .pivot {
+     color: currentColor;
+     filter: unset;
+     transform: scale(1);
+     transition: filter 300ms ease-out, transform 310ms ease-out;
+  }
+
+  .card-state {  
+    filter: blur(var(--s-4)) opacity(0.8);
+    transform: scale(0.85);
+  }
 }

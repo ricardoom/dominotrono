@@ -6,11 +6,11 @@
 {{ $title := lower .Title }}
 <section class="[ feature-{{ $title }} ]">
   
-  <a href="{{ .Permalink }}">  
+  <a href="{{ .Permalink }}" class="[ card-state ]" data-class="pivot">  
     {{ with and ( $svg ) ( ne $svg "" ) }}
       {{ partial $fullPath (dict "polygonClass" $svgClass) }}
     {{ end }}
-    <h2>{{ .Title }}</h2>
+    <h1>{{ .Title }}</h1>
     <p>
       {{ if $deck }}
         {{ $deck }}

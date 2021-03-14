@@ -100,7 +100,8 @@ h1 {
 
 h2 {
   // @include responsive-font(2.75vw, 1.25rem, 24px, 24px);
-  font-size: clamp(1em, var(--s1), 48px);
+  // font-size: clamp(1em, var(--s1), 48px);
+  font-size: clamp(var(--s0), $preferredValue, var(--s1));
 }
 
 h3 {

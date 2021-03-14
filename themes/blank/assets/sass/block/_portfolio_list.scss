@@ -67,8 +67,6 @@
       @include media('>=tablet') {
         grid-column: 2 / 3;
         grid-row: 3 / 4;
-        
-        
       }
 
       @include media('>=desktop') {

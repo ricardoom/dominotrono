@@ -10,6 +10,7 @@ Built with static site generator Hugo, SASS, and vanilla Javascript
     - new svg elements complete
       - made responsive
       - aria attributes set to hidden
+    - Doing a cool blur fade in fade out on scroll using `IntersectionObserver`
   - project / custom / dynamic verticals
     - create a url
     - use front matter to compose a page

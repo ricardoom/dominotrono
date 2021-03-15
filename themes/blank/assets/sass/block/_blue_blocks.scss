@@ -1,5 +1,5 @@
 .blue-block {
-  background-color: $minty-lilac;
+  background-color: $cool-sky-blue;
   border: var(--s05) solid $site-white;
   border-radius: var(--s2);
   box-shadow: 0 0 var(--s5) var(--s4) transparentize($site-prince-purple, 0.5);
@@ -25,10 +25,10 @@
 
  &.beta {
     grid-area: 5 / 2 / 7 / 3;
-    padding: 0;
-    margin: 0;
 
     > p {
+      margin: 0;
+      // padding: 0;
       transform: rotate(90deg);
     }
   }

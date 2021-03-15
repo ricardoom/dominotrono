@@ -1,5 +1,6 @@
 {{ $targetPath := "css/root.css" }}
 {{ $sassRoot := "sass/root.scss" }}
+
 {{ $rootClass := ( slice "homePage" "innerPage" ) }}
 {{ $options := ( dict "targetPath" $targetPath  "outputStyle" "compressed" "enableSourceMap" true ) }}
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $options }}
@@ -31,9 +32,12 @@
   <link href="{{ $googleFontInter }}" rel="stylesheet"> 
   {{ partial "fontface_script.html" . }}
 </head>
+{{ if .IsHome }}
+<body class="[ {{ index $rootClass 0 }} ][ stack ]">
+{{ else }}
+<body class="[ {{ index $rootClass 1 }} ][ stack belt ]">
+{{ end  }}
 
-<body class="[ {{ if .IsHome }}{{ index $rootClass 0 }}{{ else }}{{ index $rootClass 1 }}{{ end }} ][ stack belt ]">
-  
   <header role="banner" class="[ site-header ]">
     <div class="[ wrapper ]">
       <div class="siteNameContainer">

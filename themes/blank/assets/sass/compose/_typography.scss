@@ -69,6 +69,7 @@ $headings: (h1, h2, h3, h4, h5, h6);
   }
 }
 
+// TODO: find link to CSS Tricks where we pulled this from.
 // do some calculations to get the proper fluidity:
 // min font size: var(--s0)
 // max font size var(--s2);
@@ -92,10 +93,10 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 // @debug $preferredValue;
 
 h1 {
-    --line-height: clamp(1.25em, 3.5vw, 1.6em); 
+    --line-height: clamp(1.25em, 2vw, 1.6em); 
     // font-size: clamp(0.8em, var(--s1), 48px);;
     font-size: clamp(var(--s1), $preferredValue, var(--s2));
-    line-height: var(--line-height);
+    line-height: var(--line-height, 1.2);
 }
 
 h2 {
@@ -166,6 +167,7 @@ code {
     }
 
     ul {
+      max-width: $max-line-length;
       padding-left: var(--s0);
 
       li ul {

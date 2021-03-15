@@ -4,9 +4,22 @@
 // 
 
 .jumbo {
+  display: grid;
+  // grid: auto-flow dense 25% / ;
+  // grid-template-rows: 
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   min-height: 100vh;
-  max-width: unset;
+  // max-width: unset;
   position: relative;
   width: 100%;
   // overflow-x: hidden;
+
+  .bot-contain {
+    display: grid;
+    grid-area: 1 / 1 / -1 / -1;
+    z-index: -1;
+   }
 }
+
+

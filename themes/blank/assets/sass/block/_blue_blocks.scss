@@ -1,3 +1,35 @@
 .blue-block {
- font-size: var(--s0);
+  background-color: $minty-lilac;
+  border: var(--s05) solid $site-white;
+  border-radius: var(--s2);
+  box-shadow: 0 0 var(--s5) var(--s4) transparentize($site-prince-purple, 0.5);
+  color: $site-dark-blue;
+  display: flex;
+  font-size: var(--s0);
+  margin: var(--s3);
+  margin-block: var(--s3);
+  margin-inline: var(--s3);
+
+& > * {
+  align-self: center;
+}
+
+& > p {
+  padding: var(--s3);
+}
+
+ &.alpha {
+   font-size: var(--s1);
+   grid-area: 4 / 3 / -4 / -1;
+ }
+
+ &.beta {
+    grid-area: 5 / 2 / 7 / 3;
+    padding: 0;
+    margin: 0;
+
+    > p {
+      transform: rotate(90deg);
+    }
+  }
 }

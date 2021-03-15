@@ -1,60 +1,146 @@
 .red-bot {
+  grid-area: 1 / 1 / -1 / -1;
   margin-top: calc(var(--s5) * 2);
   margin-block-start: calc(var(--s5) * 2);
 
-
-.aa {
-        fill: url(#aa);
+.cls-1 {
+        fill: url(#burgundyPinkGradient1);
       }
 
-      .bb, .cc, .dd {
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-3, .cls-4, .cls-6 {
         fill: none;
       }
 
-      .bb {
+      .cls-2 {
         stroke: #a2166b;
       }
 
-      .bb, .cc {
+      .cls-2, .cls-3, .cls-6 {
         stroke-linecap: round;
         stroke-width: 5px;
       }
 
-      .bb, .cc, .dd, .ee, .ff {
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
         stroke-miterlimit: 10;
       }
 
-      .cc {
+      .cls-3 {
         stroke: #550335;
       }
 
-      .dd, .ff {
+      .cls-4 {
         stroke: #450121;
       }
 
-      .dd, .ee, .ff {
+      .cls-4, .cls-5, .cls-7 {
         stroke-width: 10px;
       }
 
-      .ee {
+      .cls-5 {
         fill: #3b071f;
         opacity: 0.5;
-        stroke: url(#bb);
+        stroke: url(#burgundyPinkGradient1-2);
       }
 
-      .ff {
-        fill: url(#cc);
+      .cls-6 {
+        stroke: url(#burgundyPinkGradient1-3);
       }
 
-      .gg {
+      .cls-7 {
+        fill: url(#radial-gradient);
+        stroke: url(#burgundyPinkGradient1-4);
+      }
+
+      .cls-8 {
         fill: #b7bd15;
+        stroke: url(#burgundyPinkGradient1-5);
       }
 
-      .hh {
+      .cls-9 {
         fill: #a2166b;
       }
 
-       .ii {
-        fill: url(#dd);
+      .cls-10 {
+        fill: url(#burgundyPinkGradient);
       }
-    }
+
+      .cls-11, .cls-13 {
+        stroke: #6b1a47;
+      }
+
+      .cls-11 {
+        stroke-width: 65px;
+      }
+
+      .cls-12 {
+        stroke: #efadd1;
+      }
+
+      .cls-12, .cls-13, .cls-14 {
+        stroke-width: 27.218px;
+      }
+
+      .cls-14 {
+        stroke: #d6338d;
+      }
+
+      .cls-15 {
+        fill: #d6338d;
+      }
+}
+
+// .aa {
+//         fill: url(#aa);
+//       }
+
+//       .bb, .cc, .dd {
+//         fill: none;
+//       }
+
+//       .bb {
+//         stroke: #a2166b;
+//       }
+
+//       .bb, .cc {
+//         stroke-linecap: round;
+//         stroke-width: 5px;
+//       }
+
+//       .bb, .cc, .dd, .ee, .ff {
+//         stroke-miterlimit: 10;
+//       }
+
+//       .cc {
+//         stroke: #550335;
+//       }
+
+//       .dd, .ff {
+//         stroke: #450121;
+//       }
+
+//       .dd, .ee, .ff {
+//         stroke-width: 10px;
+//       }
+
+//       .ee {
+//         fill: #3b071f;
+//         opacity: 0.5;
+//         stroke: url(#bb);
+//       }
+
+//       .ff {
+//         fill: url(#cc);
+//       }
+
+//       .gg {
+//         fill: #b7bd15;
+//       }
+
+//       .hh {
+//         fill: #a2166b;
+//       }
+
+//        .ii {
+//         fill: url(#dd);
+//       }
+//     }

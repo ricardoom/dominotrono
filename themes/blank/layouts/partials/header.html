@@ -32,7 +32,7 @@
   {{ partial "fontface_script.html" . }}
 </head>
 
-<body class="{{ if .IsHome }}{{ index $rootClass 0 }}{{ else }}{{ index $rootClass 1 }}{{ end }} [ stack belt ]">
+<body class="[ {{ if .IsHome }}{{ index $rootClass 0 }}{{ else }}{{ index $rootClass 1 }}{{ end }} ][ stack belt ]">
   
   <header role="banner" class="[ site-header ]">
     <div class="[ wrapper ]">

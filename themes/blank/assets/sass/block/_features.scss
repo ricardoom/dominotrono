@@ -4,6 +4,10 @@
 
 .features {
   background: linear-gradient(to bottom, $gradient-features);
+}
+
+.feature {
+  color: $site-dark-blue;
 
   section {
     @media screen and (max-width: $small-screen ) {
@@ -13,9 +17,15 @@
     max-width: 60%;
     }
 
+  section:last-child {
+    margin-bottom: var(--s3);
+    margin-block-end: var(--s3);
+  }
+
   section:nth-child(even) {
     align-self: flex-start;
-
+    margin-left: var(--s1);
+    margin-inline-start: var(--s1);
     a {
 
       h1 {
@@ -35,6 +45,8 @@
 
   section:nth-child(odd) {
     align-self: flex-end;
+    margin-right: var(--s1);
+    margin-inline-end: var(--s1);
 
     a {
 
@@ -73,8 +85,10 @@
     }
 
     p {
+      --line-height: 1.2;
       font-size: clamp(var(--s0), $preferredValue, var(--s1));
       line-height: var(--line-height);
+      width: 65%;
     }
 
     svg {

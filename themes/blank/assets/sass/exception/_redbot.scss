@@ -1,0 +1,60 @@
+.red-bot {
+  margin-top: calc(var(--s5) * 2);
+  margin-block-start: calc(var(--s5) * 2);
+
+
+.aa {
+        fill: url(#aa);
+      }
+
+      .bb, .cc, .dd {
+        fill: none;
+      }
+
+      .bb {
+        stroke: #a2166b;
+      }
+
+      .bb, .cc {
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .bb, .cc, .dd, .ee, .ff {
+        stroke-miterlimit: 10;
+      }
+
+      .cc {
+        stroke: #550335;
+      }
+
+      .dd, .ff {
+        stroke: #450121;
+      }
+
+      .dd, .ee, .ff {
+        stroke-width: 10px;
+      }
+
+      .ee {
+        fill: #3b071f;
+        opacity: 0.5;
+        stroke: url(#bb);
+      }
+
+      .ff {
+        fill: url(#cc);
+      }
+
+      .gg {
+        fill: #b7bd15;
+      }
+
+      .hh {
+        fill: #a2166b;
+      }
+
+       .ii {
+        fill: url(#dd);
+      }
+    }

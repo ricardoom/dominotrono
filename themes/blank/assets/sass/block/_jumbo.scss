@@ -5,5 +5,8 @@
 
 .jumbo {
   min-height: 100vh;
-  overflow-x: hidden;
+  max-width: unset;
+  position: relative;
+  width: 100%;
+  // overflow-x: hidden;
 }

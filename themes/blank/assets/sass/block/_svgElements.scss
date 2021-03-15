@@ -6,77 +6,84 @@
   // add stuff;
 }
 
-// this is hp background svg
-.spooky {
-  bottom: 0;
-  position: absolute;
-  margin-top: 0;
-  margin-block-start: 0;
-  min-height: 100%;
-  // height: 100%;
-  top: 0;
-  z-index: -1000;
+//
+// We want to contain the bot and the background together
+
+.bot-contain {
+  position: relative;
 }
 
-.red-bot {
-  // padding-left: 50vw;
-  // transform: translateY(25vh);
-  
-  margin-top: calc(var(--s5) * 2);
-  margin-block-start: calc(var(--s5) * 2);
-  .aa {
-        fill: url(#aa);
-      }
+// .spooky {
+//   // bottom: 0;
+//   position: absolute;
+//   margin-top: 0;
+//   margin-block-start: 0;
+//   // min-height: 100%;
+//   // height: 100vh;
+//   width: 100%;
+//   top: 0;
+//   z-index: -1;
+// }
 
-      .bb, .cc, .dd {
-        fill: none;
-      }
+// .red-bot {
+//   // padding-left: 50vw;
+//   // transform: translateY(25vh);  
+//   margin-top: calc(var(--s5) * 2);
+//   margin-block-start: calc(var(--s5) * 2);
+//   // position: absolute;
+//   .aa {
+//         fill: url(#aa);
+//       }
 
-      .bb {
-        stroke: #a2166b;
-      }
+//       .bb, .cc, .dd {
+//         fill: none;
+//       }
 
-      .bb, .cc {
-        stroke-linecap: round;
-        stroke-width: 5px;
-      }
+//       .bb {
+//         stroke: #a2166b;
+//       }
 
-      .bb, .cc, .dd, .ee, .ff, .ii {
-        stroke-miterlimit: 10;
-      }
+//       .bb, .cc {
+//         stroke-linecap: round;
+//         stroke-width: 5px;
+//       }
 
-      .cc {
-        stroke: #550335;
-      }
+//       .bb, .cc, .dd, .ee, .ff, .ii {
+//         stroke-miterlimit: 10;
+//       }
 
-      .dd, .ff, .ii {
-        stroke: #450121;
-      }
+//       .cc {
+//         stroke: #550335;
+//       }
 
-      .dd, .ee, .ff, .ii {
-        stroke-width: 10px;
-      }
+//       .dd, .ff, .ii {
+//         stroke: #450121;
+//       }
 
-      .ee {
-        fill: #3b071f;
-        opacity: 0.5;
-        stroke: url(#bb);
-      }
+//       .dd, .ee, .ff, .ii {
+//         stroke-width: 10px;
+//       }
 
-      .ff {
-        fill: url(#cc);
-      }
+//       .ee {
+//         fill: #3b071f;
+//         opacity: 0.5;
+//         stroke: url(#bb);
+//       }
 
-      .gg {
-        fill: #b7bd15;
-      }
+//       .ff {
+//         fill: url(#cc);
+//       }
 
-      .hh {
-        fill: #a2166b;
-      }
+//       .gg {
+//         fill: #b7bd15;
+//       }
 
-      .ii {
-        fill: url(#dd);
-      }
-}
+//       .hh {
+//         fill: #a2166b;
+//       }
+
+//       .ii {
+//         fill: url(#dd);
+//       }
+// }
 

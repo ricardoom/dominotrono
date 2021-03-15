@@ -1,33 +1,28 @@
 {{ $local := .Site.IsServer }} {{ if $local }} {{ printf "<!-- +++ jumbo_two.html  -->" | safeHTML }} {{ end }}
-<div class="[ jumbo ][ test ]">
-  {{ partial "svg/spookyBackground.svg" . }} 
-  {{ partial "svg/redBotHalf.svg" . }}
-  <div class="[ blue-block alpha ]">
-    
-  </div>
-  <div class="[ blue-block beta ]">
-    <a href="#">
-    
-    <p>Not a complete and total mystery</p>
-    </a>
-  </div>
-  <div class="[ blue-block gamma ]">
-    
-    <a href="#">
-    
-      <p>An equinox found upon a barren shore</p>
-    </a>
-  </div>
-  <div class="[ blue-block delta ]">
-    <a href="#">
-    
-      <p>Divided pulsar wavers ceaselessly</p>
-    </a>
-  </div>
-  <div class="[ blue-block epsilon ]">
-    <a href="#">
-    
-      <p>Righteous indignation with flavored popsicles</p>
-    </a>
+<div class="[ jumbo ]">
+  <div class=" [ bot-contain ]">
+    {{ partial "svg/spookyBackground.svg" . }}
+    {{ partial "svg/redBotHalf.svg" . }}
+    <div class="[ blue-block alpha ]"></div>
+    <div class="[ blue-block beta ]">
+      <a href="#">
+      <p>Not a complete and total mystery</p>
+      </a>
+    </div>
+    <div class="[ blue-block gamma ]">
+      <a href="#">
+        <p>An equinox found upon a barren shore</p>
+      </a>
+    </div>
+    <div class="[ blue-block delta ]">
+      <a href="#">
+        <p>Divided pulsar wavers ceaselessly</p>
+      </a>
+    </div>
+    <div class="[ blue-block epsilon ]">
+      <a href="#">
+        <p>Righteous indignation with flavored popsicles</p>
+      </a>
+    </div>
   </div>
 </div>

@@ -1,0 +1,13 @@
+//
+// Masthead class on the homepage
+
+.mast-head {
+  background-color: $site-white;
+  color: $site-dark-blue;
+  font-size: var(--s2);
+  line-height: var(--s2);
+  padding: var(--s2);
+  margin-top: var(--s2);
+  margin-block-start: var(--s2);
+  margin-inline: var(--s3);
+}

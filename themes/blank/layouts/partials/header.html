@@ -3,7 +3,8 @@
 
 {{ $rootClass := ( slice "homePage" "innerPage" ) }}
 {{ $options := ( dict "targetPath" $targetPath  "outputStyle" "compressed" "enableSourceMap" true ) }}
-{{ $devStyle := resources.Get $sassRoot | resources.ToCSS $options }}
+{{ $devOptions := (dict "targetPath" $targetPath "outputStyle" "" "enableSourceMap" true)  }}
+{{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }}
 {{ $prodStyle := resources.Get $sassRoot | resources.ToCSS $options | resources.Fingerprint }}
 {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
 {{ $googleFontInter := "https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" }}
@@ -33,7 +34,7 @@
   {{ partial "fontface_script.html" . }}
 </head>
 {{ if .IsHome }}
-<body class="[ {{ index $rootClass 0 }} ][ stack ]">
+<body class="[ {{ index $rootClass 0 }} ]">
 {{ else }}
 <body class="[ {{ index $rootClass 1 }} ][ stack belt ]">
 {{ end  }}

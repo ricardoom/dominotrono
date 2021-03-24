@@ -7,7 +7,7 @@
   display: grid;
   // grid: auto-flow dense 25% / ;
   // grid-template-rows: 
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(8, min-content);
   grid-template-columns: repeat(5, 1fr);
   min-height: 100vh;
   // max-width: unset;

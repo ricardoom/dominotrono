@@ -104,4 +104,29 @@ enableRobotsTXT = "true"
         url = "/portfolio/"
         weight = -10
 
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            # definitionList = true
+            # footnote = true
+            # linkify = true
+            # strikethrough = true
+            # table = true
+            # taskList = true
+            # typographer = true
+        [markup.goldmark.parser]
+            # autoHeadingID = true
+            # autoHeadingIDType = "github"
+        [markup.goldmark.parser.attribute]
+            block = true
+            title = true
+        [markup.goldmark.renderer]
+            # hardWraps = false
+            # unsafe = false
+            # xhtml = false
+            # attribute = true
+
+
+
 # [resources]

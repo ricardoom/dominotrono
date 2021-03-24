@@ -32,7 +32,8 @@
         margin-bottom: var(--s0);
       }
     // magic numbers
-      @include responsive-font(1.5vw, 1.6em, 22px, 32px);
+      // @include responsive-font(1.5vw, 1.6em, 22px, 32px);
+      font-size: var(--s0);
       margin: var(--s1) 0 0;
     }
 

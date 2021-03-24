@@ -53,7 +53,7 @@ newLayout: true
 
 {{< /section_wrapper >}}
 
-### Prototyping and Wireframing
+## Prototyping and Wireframing
 
 {{< section_wrapper class="details-grid" >}}
   
@@ -111,7 +111,7 @@ newLayout: true
 
 {{< /section_wrapper >}}
 
-### Component Layouts
+## Component Layouts
 
 {{< section_wrapper class="details-grid" >}}
 

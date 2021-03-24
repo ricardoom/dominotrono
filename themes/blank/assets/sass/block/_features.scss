@@ -4,6 +4,8 @@
 
 .features {
   background: linear-gradient(to bottom, $gradient-features);
+  margin: 0;
+  margin-block: 0;
 }
 
 .feature {
@@ -71,7 +73,8 @@
     transition: filter 200ms ease-in;
     text-decoration: none;  
 
-    &:hover {
+    &:hover,
+    &:visited {
      color: currentColor;
     }
 
@@ -103,8 +106,13 @@
      transition: filter 300ms ease-out, transform 310ms ease-out;
   }
 
-  .card-state {  
-    filter: blur(var(--s-4)) opacity(0.8);
+  .card-state {
+    $angles: 25;
+    --string: 'px';
+    --perspective: #{$angles};
+    // filter: blur(var(--s-4)) opacity(0.8);
     transform: scale(0.85);
+    perspective: 45px;
+    perspective-origin: right;
   }
 }

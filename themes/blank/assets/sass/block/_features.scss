@@ -6,6 +6,8 @@
   background: linear-gradient(to bottom, $gradient-features);
   margin: 0;
   margin-block: 0;
+  padding-top: var(--s2);
+  padding-block: var(--s2);
 }
 
 .feature {
@@ -110,9 +112,9 @@
     $angles: 25;
     --string: 'px';
     --perspective: #{$angles};
-    // filter: blur(var(--s-4)) opacity(0.8);
+    filter: blur(var(--s-4)) opacity(0.8);
     transform: scale(0.85);
-    perspective: 45px;
-    perspective-origin: right;
+    // perspective: 45px;
+    // perspective-origin: right;
   }
 }

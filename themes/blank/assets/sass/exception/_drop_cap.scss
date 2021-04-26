@@ -1,0 +1,69 @@
+//
+// Basic Drop Cap for all pages
+
+.has-dropcap {
+  // font-size: var(--s1-5);
+  margin-top: var(--s-1);
+  margin-block-start: var(--s-1);
+
+  .dropcap {
+    float: left;
+    font-family: $inter;
+    font-size: var(--s4);
+    font-weight: 900;
+    margin: 0.1em 0.05em 0 0;
+
+    @media screen and (max-width: $small-screen) {
+      line-height: 0.35em;
+    }
+  }
+
+  .dropcap:before,
+  .dropcap:after {
+    content: '';
+    display: block;
+  }
+
+  .dropcap:before {
+    margin-top: -0.41em;
+    @media screen and (max-width: $small-screen){
+      margin-block-start: 0.2em;
+    }
+  }
+
+  .dropcap:after {
+    margin-bottom: -0.25em;
+    @media screen and (max-width: $small-screen) {
+      margin: 0;
+    }
+  }
+
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}
+
+//
+// Modified Styles for the home page only
+//
+
+.homepage-content {
+  .has-dropcap {
+    .dropcap:before {
+        margin-top: 0.2em;
+        margin-block-start: 0.2em;
+      }
+      .dropcap:after {
+        @media screen and (max-width: $small-screen) {
+          margin: 0;
+        }
+      }  
+    }
+  }
+

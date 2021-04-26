@@ -1,3 +1,6 @@
+
+{{ $mainContent := partial "first-paragraph.html" .Content }}
+
 {{ partial "header.html" . }}
 <!-- === root index === -->
 <main class="[ site-content ]" id="siteContent">
@@ -5,10 +8,11 @@
    {{ partial "jumbo_two.html" . }}
 
 </main>
+<section class="[ wrapper ][ mast ]">{{ $mainContent }}</section>
 <aside class="[ features ]">
   <div class="[ wrapper ]">
   <div class="[ stack ][ feature ]">
-    {{ .Content }}
+    
     {{/* Ranges through the Content type Features based on the "features" param set on _index.md */}}
     {{ range .Params.features }}
       {{ with $.GetPage . }}

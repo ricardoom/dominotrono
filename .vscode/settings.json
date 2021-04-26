@@ -20,6 +20,8 @@
     "titleBar.inactiveBackground": "#495c06",
     "activityBar.foreground": "#84ff4b",
     "statusBar.foreground": "#82fd51",
-    "statusBar.background": "#237c00"
+    "statusBar.background": "#237c00",
+    "editor.selectionBackground": "#404861",
+    // "editor.selectionForeground": "#000000"
   },
 }

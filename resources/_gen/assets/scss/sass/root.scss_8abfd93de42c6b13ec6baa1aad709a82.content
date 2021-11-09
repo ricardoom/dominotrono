@@ -444,21 +444,25 @@ main {
     border: none;
     color: currentColor;
     cursor: pointer;
-    font-size: 0.8em;
+    font-size: var(--s-1);
     display: flex;
     flex-direction: column;
     padding: var(--s0); }
     @supports not (display: flex) {
       .siteNavigation button {
         display: block; } }
-    .siteNavigation button svg {
+    .siteNavigation button .inactive svg {
       fill: currentColor;
+      transform: rotate(0deg), scaleY(var(--s1));
+      transition: transform ease-out 210ms, fill ease-out 110ms; }
+    .siteNavigation button svg {
+      fill: #c2ff0a;
       height: var(--s1);
+      transform: rotate(90deg);
+      transition: transform ease-in 210ms, fill ease-in 110ms;
       width: var(--s1); }
     .siteNavigation button .menu-label {
       text-shadow: 2px 2px 2px #121212; }
-    .siteNavigation button .inactive svg {
-      fill: red; }
     .siteNavigation button .button-icon__open {
       display: block;
       position: relative; }

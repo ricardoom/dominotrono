@@ -10,4 +10,4 @@ graphics:
   url: dart.svg
   class: dart
 ---
-But CSS is still my first love (as far as web design goes.) I was there when creating 960px grid layouts were all the rage. Now its easy to just set up a grid.
+But CSS is still my first love (as far as web design goes.) I was there when creating 960px grid layouts were all the rage. And "float rage" was real. Now its easy to just set up a grid or a flex and we can get down the real business of arguing over whether or not HTML is a programming language...(it is).

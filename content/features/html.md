@@ -6,7 +6,7 @@ draft: false
 specimen:
   - /tags/web-design/
 shape: /media/svg/trianglePolygonUno.svg
-pages: 
+pages:
   - content/portfolio/il-nido-seattle.md
   - content/portfolio/decolonizing-new-mexico.md
 deck: "I've spent the better half of two decades working with HTML."
@@ -15,4 +15,4 @@ graphics:
   class: triangle
 ---
 
-Here are a few things I've been done where I've authored the markup in a significant way...
+Here a number of projects where I've authored the markup or otherwise been instrumental in the design and development of the entire project in a significant way...

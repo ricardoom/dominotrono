@@ -1,13 +1,14 @@
 {{ $navControlIconClose := ( partial "svg/navControlIcon.svg" ) }}
 {{ $navControlIconOpen := ( partial "svg/burgerIcon3d.svg" ) }}
+{{ $navControlIcon := ( partial "svg/singlePattyIcon.svg" ) }}
 
 <nav class="siteNavigation">
   <button class="siteNavigation--button" id="mobileNavButton"  aria-labelledby="menuLabel"
   aria-controls="navItems">
-    <span class="button-icon__open" id="navControlOpen">
-      {{ $navControlIconOpen }}
+    <span class="button-icon__open inactive" id="navControlIcon">
+      {{ $navControlIcon }}
     </span>
-    <span class="button-icon__closed" id="navControlClose">{{ $navControlIconClose }}</span>
+    <!-- <span class="button-icon__closed" id="navControlClose">{{ $navControlIcon }}</span> -->
     <span class="menu-label" id="menuLabel">Menu</span>
     </button>
   <ul id="navItems" class="siteNavigation--items" aria-expanded="false">

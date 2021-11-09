@@ -8,13 +8,9 @@
   font-size: clamp(var(--s05), $preferredValue, var(--s2));
   // line-height: clamp(var(--s05), $preferredValue, var(--s2));;
   
-  // > p {
-  //   padding: clamp(var(--s05), $preferredValue, var(--s2));
-  //   margin-bottom: clamp(var(--s05), $preferredValue, var(--s2));
-  //   margin-top: clamp(var(--s05), $preferredValue, var(--s2));
-  //   margin-block-end: clamp(var(--s05), $preferredValue, var(--s2));
-  //   margin-block-start: clamp(var(--s05), $preferredValue, var(--s2));
-  //   margin-inline-end: clamp(var(--s05), $preferredValue, var(--s2));
-  //   margin-inline-start: clamp(var(--s05), $preferredValue, var(--s2));
-  // }
+  > div {
+    padding: clamp(var(--s05), $preferredValue, var(--s2));
+    margin-inline-end: clamp(var(--s05), $preferredValue, var(--s2));
+    margin-inline-start: clamp(var(--s05), $preferredValue, var(--s2));
+  }
 }

@@ -10,7 +10,7 @@
           display: block;
         }
 
-        background: transparentize($site-dark-blue, 0.5);
+        background: transparentize($site-black, 0.5);
         border: none;
         color: currentColor;
         cursor: pointer;
@@ -28,12 +28,15 @@
         .menu-label {
           @include basic-drop-shadow('text');
         }
-
+        .inactive svg {
+          fill: red;
+        }
         .button-icon {
           &__open {
             display: block;
             position: relative;
-            top: 0.25rem;
+            // top: 0.25rem;
+            
           }
 
           &__closed {
@@ -43,7 +46,7 @@
       } // /phone mq
 
       &.button-active {
-        background: transparentize($site-background-color, 0.2);
+        background: transparentize($site-black, 0.2);
       }
 
       @include media('>=tablet') {
@@ -56,7 +59,7 @@
         display: none;
 
         &.is-active {
-          background: transparentize($site-background-color, 0.2);
+          background: transparentize($site-black, 0.2);
           display: flex;
           flex-direction: column;
           flex-wrap: wrap;
@@ -77,7 +80,10 @@
             padding-block-start: var(--s0);
             padding-inline-end: var(--s0);
             padding-inline-start: 0;
-            
+          }
+          & li:first-child {
+            padding-top: 0;
+            padding-block-start: 0;
           }
         }
       }

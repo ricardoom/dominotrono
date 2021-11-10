@@ -97,13 +97,13 @@ img:not([alt]) {
   flex-direction: column;
   justify-content: flex-start; }
 
-.stack > * {
-  margin-top: 0;
-  margin-bottom: 0; }
-
 .stack > * + * {
   margin-top: var(--s1);
   margin-block-start: var(--s1); }
+
+.stack > * {
+  margin-top: 0;
+  margin-bottom: 0; }
 
 .site-color--dark-blue {
   background: #06182d; }
@@ -462,6 +462,7 @@ main {
       transition: transform ease-in 210ms, fill ease-in 110ms;
       width: var(--s1); }
     .siteNavigation button .menu-label {
+      color: currentColor;
       text-shadow: 2px 2px 2px #121212; }
     .siteNavigation button .button-icon__open {
       display: block;
@@ -471,6 +472,8 @@ main {
 
 .siteNavigation button.button-active {
   background: rgba(18, 18, 18, 0.8); }
+  .siteNavigation button.button-active .menu-label {
+    color: #c2ff0a; }
 
 @media (min-width: 48em) {
   .siteNavigation button {
@@ -478,31 +481,38 @@ main {
 
 @media (min-width: 19.25em) {
   .siteNavigation ul {
-    display: none; }
-    .siteNavigation ul.is-active {
-      background: rgba(18, 18, 18, 0.8);
+    background: rgba(18, 18, 18, 0.8);
+    background-image: linear-gradient(#121212 20%, rgba(18, 18, 18, 0) 100%);
+    color: transparent;
+    filter: opacity(0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: flex-start;
+    left: 0;
+    position: absolute;
+    max-width: unset;
+    transition: all ease-out 101ms;
+    width: 100%; }
+    .siteNavigation ul li {
       display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      height: 100vh;
-      justify-content: flex-start;
-      left: 0;
-      position: absolute;
-      max-width: unset;
-      width: 100%;
-      z-index: 1000; }
-      .siteNavigation ul.is-active li {
-        display: flex;
-        justify-content: flex-end;
-        margin: unset;
-        padding: var(--s0) var(--s0) 0 0;
-        padding-block-end: 0;
-        padding-block-start: var(--s0);
-        padding-inline-end: var(--s0);
-        padding-inline-start: 0; }
-      .siteNavigation ul.is-active li:first-child {
-        padding-top: 0;
-        padding-block-start: 0; } }
+      justify-content: flex-end;
+      margin: unset;
+      padding: var(--s0) var(--s0) 0 0;
+      padding-block-end: 0;
+      padding-block-start: var(--s0);
+      padding-inline-end: var(--s0);
+      padding-inline-start: 0; }
+      .siteNavigation ul li a:hover, .siteNavigation ul li a:focus {
+        color: #c2ff0a; }
+      .siteNavigation ul li a:focus {
+        outline: #c2ff0a dotted 2px; }
+    .siteNavigation ul.is-active {
+      color: white;
+      filter: opacity(1);
+      transition: all ease-in 101ms;
+      z-index: 1000; } }
 
 @media (min-width: 48em) {
   .siteNavigation ul {
@@ -1573,7 +1583,8 @@ body {
   color: white;
   font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: var(--s0);
-  min-height: 100vh; }
+  min-height: 100vh;
+  overflow-x: scroll; }
 
 p,
 ul {

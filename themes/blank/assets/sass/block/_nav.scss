@@ -66,7 +66,6 @@
 
   ul {
     @include media('>=phone') {
-      // display: none;
       background: transparentize($site-black, 0.2);
       background-image: linear-gradient($site-black 20%, transparentize($site-black, 1) 100%);
       color: transparent;
@@ -81,35 +80,32 @@
       max-width: unset;
       transition: all ease-out 101ms;
       width: 100%;
-      
-      
-      
-        li {
-          display: flex;
-          justify-content: flex-end;
-          margin: unset;
-          padding: var(--s0) var(--s0) 0 0;
-          padding-block-end: 0;
-          padding-block-start: var(--s0);
-          padding-inline-end: var(--s0);
-          padding-inline-start: 0;
-          a {
-            &:hover,
-            &:focus {
-              color: $site-acid-green;
-            }
-            &:focus {
-              outline: $site-acid-green dotted 2px;
-            }
+
+      li {
+        display: flex;
+        justify-content: flex-end;
+        margin: unset;
+        padding: var(--s0) var(--s0) 0 0;
+        padding-block-end: 0;
+        padding-block-start: var(--s0);
+        padding-inline-end: var(--s0);
+        padding-inline-start: 0;
+        a {
+          &:hover,
+          &:focus {
+            color: $site-acid-green;
+          }
+          &:focus {
+            outline: $site-acid-green dotted 2px;
           }
         }
+      }
 
       &.is-active {
         color: $site-white;
         filter: opacity(1);
         transition: all ease-in 101ms;
         z-index: 1000;
-        
 
         // & li:first-child {
         //   padding-top: 0;
@@ -119,7 +115,17 @@
     }
 
     @include media('>=tablet') {
+      // color: $site-acid-green;
       display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      filter: opacity(1);
+      height: auto;
+      position: relative;
+
+      li {
+        justify-items: center;
+      }
     }
   }
 }
@@ -178,6 +184,8 @@
       @include basic-drop-shadow(svg);
       @include media('<tablet') {
         align-self: flex-end;
+        margin-right: var(--s0);
+        margin-inline-end: var(--s0);
       }
 
       align-self: center;

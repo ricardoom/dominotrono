@@ -1,34 +1,20 @@
-
-{{ $mainContent := partial "first-paragraph.html" .Content }}
-
-{{ partial "header.html" . }}
+{{ $mainContent := partial "first-paragraph.html" .Content }} {{ partial "header.html" . }}
 <!-- === root index === -->
-<main class="[ site-content ]" id="siteContent">
-  
-   {{ partial "jumbo_two.html" . }}
-
-</main>
-<section class="[ wrapper ][ mast ]">
-  <div>{{ $mainContent }}</div>
+<main class="[ site-content ]" id="siteContent">{{ partial "jumbo_two.html" . }}</main>
+<div class="[ mast-container ]">
+  {{ partial "svg/onion_dome.svg" (dict "class" "[ first-dome ]") }}
+  <section class="[ wrapper ][ mast ]">
+    <div>{{ $mainContent }}</div>
   </section>
+  {{ partial "svg/onion_dome.svg" (dict "class" "[ second-dome ]") }}
+</div>
 <aside class="[ features ]">
   <div class="[ wrapper ]">
-  <div class="[ stack ][ feature ]">
-    
-    {{/* Ranges through the Content type Features based on the "features" param set on _index.md */}}
-    {{ range .Params.features }}
-      {{ with $.GetPage . }}
-        {{ partial "partials/hp-features.html" . }}
-      {{ end }}
-    {{ end  }}
-  </div>
+    <div class="[ stack ][ feature ]">
+      {{/* Ranges through the Content type Features based on the "features" param set on _index.md */}} {{ range .Params.features }} {{ with $.GetPage
+      . }} {{ partial "partials/hp-features.html" . }} {{ end }} {{ end }}
     </div>
+  </div>
 </aside>
-{{ partial "sidebar.html" . }}
-{{ partial "footer.html" . }}
-{{ partial "svg/filter.svg" . }}
-{{ $local := .Site.IsServer }}
-{{ if $local }}
-{{ partial "dev.html" . }}
-{{ end }}
-  
+{{ partial "sidebar.html" . }} {{ partial "footer.html" . }} {{ partial "svg/filter.svg" . }} {{ $local := .Site.IsServer }} {{ if $local }} {{
+partial "dev.html" . }} {{ end }}

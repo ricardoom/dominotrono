@@ -1,0 +1,25 @@
+.dome {
+  background-color: $site-white;
+}
+
+.first-dome {
+  // must needs that nice drop shadow, but for now use a simple one:
+  filter: drop-shadow(4px 4px 4px $site-black);
+  transform: rotate(180deg);
+}
+
+.dome-two {
+}
+// the inner domes of each SVG cluster of domes
+.dome-1 {
+  fill: #c3009b;
+}
+
+.dome-2 {
+  fill: #e2009b;
+}
+
+.dome-3 {
+  // fill: #93009b;
+  fill: $site-white
+}

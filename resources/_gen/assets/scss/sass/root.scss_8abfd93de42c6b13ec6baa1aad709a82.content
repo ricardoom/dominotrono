@@ -604,7 +604,12 @@ main {
     display: grid;
     grid-area: 1 / 1 / -1 / -1;
     z-index: -1; }
-
+    @media (max-width: 48em) {
+      .jumbo .bot-contain {
+        overflow: hidden; } }
+  @media (max-width: 48em) {
+    .jumbo .spooky {
+      height: 100%; } }
 @media (min-width: 48em) {
   .grid-wrapper__listParent .site-article {
     max-width: var(--measure);
@@ -1378,7 +1383,8 @@ fieldset {
   font-size: var(--s0);
   margin: var(--s2);
   margin-block: clamp(var(--s05), 2.36731844vw, var(--s2));
-  margin-inline: clamp(var(--s05), 2.36731844vw, var(--s2)); }
+  margin-inline: clamp(var(--s05), 2.36731844vw, var(--s2));
+  transition: transform ease-in 103ms; }
   .blue-block > * {
     align-self: center; }
   .blue-block > p {
@@ -1389,6 +1395,13 @@ fieldset {
     grid-area: 4 / 3 / -4 / -1; }
   .blue-block.beta {
     grid-area: 5 / 1 / 7 / 3; }
+  .blue-block.delta {
+    grid-row: 3 /4;
+    grid-column: 2 / 4; }
+  .blue-block:hover, .blue-block:focus {
+    z-index: 100;
+    transform: scale(1.25);
+    transition: all ease-out 123ms; }
 
 footer {
   font-size: var(--s-1);
@@ -1482,8 +1495,8 @@ footer {
 
 .red-bot {
   grid-area: 1 / 1 / -1 / -1;
-  margin-top: calc(var(--s5) * 2);
-  margin-block-start: calc(var(--s5) * 2); }
+  margin-top: calc(var(--s4) * 2);
+  margin-block-start: calc(var(--s4) * 2); }
   .red-bot .cls-1 {
     fill: url(#burgundyPinkGradient1); }
   .red-bot .cls-11, .red-bot .cls-12, .red-bot .cls-13, .red-bot .cls-14, .red-bot .cls-2, .red-bot .cls-3, .red-bot .cls-4, .red-bot .cls-6 {
@@ -1573,6 +1586,12 @@ footer {
   .homepage-content .has-dropcap .dropcap:after {
     margin: 0; } }
 
+.mast-container {
+  background-color: transparent;
+  margin: -8em 0;
+  margin-block-start: -8em;
+  margin-block-end: -8em; }
+
 .mast {
   background-color: white;
   color: #06182d;
@@ -1581,6 +1600,22 @@ footer {
     padding: clamp(var(--s05), 2.36731844vw, var(--s2));
     margin-inline-end: clamp(var(--s05), 2.36731844vw, var(--s2));
     margin-inline-start: clamp(var(--s05), 2.36731844vw, var(--s2)); }
+
+.dome {
+  background-color: white; }
+
+.first-dome {
+  filter: drop-shadow(4px 4px 4px #121212);
+  transform: rotate(180deg); }
+
+.dome-1 {
+  fill: #c3009b; }
+
+.dome-2 {
+  fill: #e2009b; }
+
+.dome-3 {
+  fill: white; }
 
 *,
 *::before,

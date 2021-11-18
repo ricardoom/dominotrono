@@ -1,5 +1,11 @@
 //
 // Masthead class on the homepage
+.mast-container {
+  background-color: transparent;
+  margin: -8em 0;
+  margin-block-start: -8em;
+  margin-block-end: -8em; // magic numbers here...
+}
 
 .mast {
   background-color: $site-white;
@@ -7,7 +13,7 @@
   // font-size: var(--s2);
   font-size: clamp(var(--s05), $preferredValue, var(--s2));
   // line-height: clamp(var(--s05), $preferredValue, var(--s2));;
-  
+
   > div {
     padding: clamp(var(--s05), $preferredValue, var(--s2));
     margin-inline-end: clamp(var(--s05), $preferredValue, var(--s2));

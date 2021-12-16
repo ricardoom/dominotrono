@@ -1,22 +1,28 @@
 //
 // Masthead class on the homepage
 .mast-container {
-  background-color: transparent;
-  margin: -8em 0;
-  margin-block-start: -8em;
-  margin-block-end: -8em; // magic numbers here...
+  // background-color: transparent;
+  // margin: -8em 0;
+  // margin-block-start: -8em;
+  // margin-block-end: -8em; // magic numbers here...
+  
 }
 
 .mast {
   background-color: $site-white;
   color: $site-dark-blue;
-  // font-size: var(--s2);
   font-size: clamp(var(--s05), $preferredValue, var(--s2));
-  // line-height: clamp(var(--s05), $preferredValue, var(--s2));;
+  // line-height: clamp(var(--s1), $preferredValue, var(--s2));
+  margin-top: -7px;
+  margin-block-start: -7px;
+  position: relative;
+  z-index: 10;
 
   > div {
     padding: clamp(var(--s05), $preferredValue, var(--s2));
     margin-inline-end: clamp(var(--s05), $preferredValue, var(--s2));
     margin-inline-start: clamp(var(--s05), $preferredValue, var(--s2));
+    position: relative;
+    
   }
 }

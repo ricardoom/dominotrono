@@ -1586,26 +1586,24 @@ footer {
   .homepage-content .has-dropcap .dropcap:after {
     margin: 0; } }
 
-.mast-container {
-  background-color: transparent;
-  margin: -8em 0;
-  margin-block-start: -8em;
-  margin-block-end: -8em; }
-
 .mast {
   background-color: white;
   color: #06182d;
-  font-size: clamp(var(--s05), 2.36731844vw, var(--s2)); }
+  font-size: clamp(var(--s05), 2.36731844vw, var(--s2));
+  margin-top: -7px;
+  margin-block-start: -7px;
+  position: relative;
+  z-index: 10; }
   .mast > div {
     padding: clamp(var(--s05), 2.36731844vw, var(--s2));
     margin-inline-end: clamp(var(--s05), 2.36731844vw, var(--s2));
-    margin-inline-start: clamp(var(--s05), 2.36731844vw, var(--s2)); }
+    margin-inline-start: clamp(var(--s05), 2.36731844vw, var(--s2));
+    position: relative; }
 
 .dome {
   background-color: white; }
 
 .first-dome {
-  filter: drop-shadow(4px 4px 4px #121212);
   transform: rotate(180deg); }
 
 .dome-1 {

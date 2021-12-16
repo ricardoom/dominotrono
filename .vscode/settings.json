@@ -24,4 +24,6 @@
     "editor.selectionBackground": "#404861",
     // "editor.selectionForeground": "#000000"
   },
+  "prettier.requirePragma": true,
+  "prettier.useTabs": true,
 }

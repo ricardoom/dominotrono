@@ -14,14 +14,20 @@ Contact: ricardo.e.galvez@gmail.com
 ## Skills and Expertise
 
 - Code: HTML / CSS / Javascript / git
-- Design: Adobe CS / Sketch 
+- Design: Figma / Adobe CS / Sketch
 - UX: Wire-framing / Prototyping / Responsive Design / Accessibility
 - Methods: Agile / Data Driven / User Testing
-- Static Site Generator Hugo
+- Misc: Hugo / React
 
-## Professional Accomplishments:
+## Professional Accomplishments
 
 ### Freelance Designer and Developer, Brooklyn NY,  2018 - 2021
+
+**StableHouse.io**
+
+- Gatsby SSG
+
+- Typescript
 
 **Decolonizing New Mexico**
 

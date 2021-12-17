@@ -11,7 +11,7 @@
     <!-- <span class="button-icon__closed" id="navControlClose">{{ $navControlIcon }}</span> -->
     <span class="menu-label" id="menuLabel">Menu</span>
     </button>
-  <ul id="navItems" class="siteNavigation--items" aria-expanded="false">
+  <ul id="navItems" class="siteNavigation--items is-inactive" aria-expanded="false">
     {{ range .Site.Menus.main }}
     <li class="text-link"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
     {{ end }}

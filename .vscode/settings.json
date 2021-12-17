@@ -6,11 +6,8 @@
   "cSpell.words": [
     "NYPL's"
   ],
-  
-  "html.format.indentInnerHtml": true,
   "html.format.wrapAttributes": "preserve-aligned",
   "html.format.enable": false,
-  "html.format.indentHandlebars": true,
   "html.format.preserveNewLines": false,
 
    "workbench.colorCustomizations": {

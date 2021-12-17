@@ -1,10 +1,10 @@
 //
 // Masthead class on the homepage
 .mast-container {
-  // background-color: transparent;
-  // margin: -8em 0;
-  // margin-block-start: -8em;
-  // margin-block-end: -8em; // magic numbers here...
+  background-color: transparent;
+  margin: -9.5em 0;
+  margin-block-start: -9.5em;
+  margin-block-end: -9.5em; // magic numbers here...
   
 }
 
@@ -19,7 +19,7 @@
   z-index: 10;
 
   > div {
-    padding: clamp(var(--s05), $preferredValue, var(--s2));
+    padding: clamp(var(--s1), $preferredValue, var(--s2));
     margin-inline-end: clamp(var(--s05), $preferredValue, var(--s2));
     margin-inline-start: clamp(var(--s05), $preferredValue, var(--s2));
     position: relative;

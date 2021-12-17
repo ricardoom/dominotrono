@@ -500,14 +500,21 @@ main {
       justify-content: flex-end;
       margin: unset;
       padding: var(--s0) var(--s0) 0 0;
-      padding-block-end: 0;
       padding-block-start: var(--s0);
-      padding-inline-end: var(--s0);
-      padding-inline-start: 0; }
+      padding-inline-end: var(--s0); }
       .siteNavigation ul li a:hover, .siteNavigation ul li a:focus {
         color: #c2ff0a; }
       .siteNavigation ul li a:focus {
         outline: #c2ff0a dotted 2px; }
+    .siteNavigation ul.is-inactive {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: auto;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+      white-space: nowrap; }
     .siteNavigation ul.is-active {
       color: white;
       filter: opacity(1);
@@ -523,7 +530,12 @@ main {
     height: auto;
     position: relative; }
     .siteNavigation ul li {
-      justify-items: center; } }
+      justify-items: center;
+      padding: 0 var(--s0) 0 0;
+      padding-block-end: 0;
+      padding-block-start: 0;
+      padding-inline-end: var(--s0);
+      padding-inline-start: 0; } }
 
 .social-svg {
   display: none; }
@@ -538,17 +550,20 @@ main {
     .siteNavigation--items {
       grid-column: 1 / 6;
       justify-content: flex-start; } }
-  .siteNavigation--items li a {
-    text-shadow: 2px 2px 2px #121212;
-    color: white;
-    padding: var(--s-3) var(--s-2) 0;
-    padding-block-start: var(--s-3);
-    padding-block-end: 0;
-    padding-inline-end: var(--s-2);
-    padding-inline-start: var(--s-2);
-    text-decoration: none; }
-    .siteNavigation--items li a:visited {
-      color: white; }
+  .siteNavigation--items li {
+    padding-top: 0;
+    padding-block-start: 0; }
+    .siteNavigation--items li a {
+      text-shadow: 2px 2px 2px #121212;
+      color: white;
+      padding: 0 var(--s-2) 0;
+      padding-block-start: 0;
+      padding-block-end: 0;
+      padding-inline-end: var(--s-2);
+      padding-inline-start: var(--s-2);
+      text-decoration: none; }
+      .siteNavigation--items li a:visited {
+        color: white; }
   .siteNavigation--items .text-link {
     align-self: center;
     margin-right: var(--s0);
@@ -1586,6 +1601,12 @@ footer {
   .homepage-content .has-dropcap .dropcap:after {
     margin: 0; } }
 
+.mast-container {
+  background-color: transparent;
+  margin: -9.5em 0;
+  margin-block-start: -9.5em;
+  margin-block-end: -9.5em; }
+
 .mast {
   background-color: white;
   color: #06182d;
@@ -1595,7 +1616,7 @@ footer {
   position: relative;
   z-index: 10; }
   .mast > div {
-    padding: clamp(var(--s05), 2.36731844vw, var(--s2));
+    padding: clamp(var(--s1), 2.36731844vw, var(--s2));
     margin-inline-end: clamp(var(--s05), 2.36731844vw, var(--s2));
     margin-inline-start: clamp(var(--s05), 2.36731844vw, var(--s2));
     position: relative; }

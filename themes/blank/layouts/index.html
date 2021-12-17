@@ -16,5 +16,10 @@
     </div>
   </div>
 </aside>
-{{ partial "sidebar.html" . }} {{ partial "footer.html" . }} {{ partial "svg/filter.svg" . }} {{ $local := .Site.IsServer }} {{ if $local }} {{
-partial "dev.html" . }} {{ end }}
+{{ partial "sidebar.html" . }} 
+{{ partial "footer.html" . }}
+{{ partial "svg/filter.svg" . }}
+{{ $local := .Site.IsServer }} 
+  {{ if $local }} 
+    {{ partial "dev.html" . }}
+  {{ end }}

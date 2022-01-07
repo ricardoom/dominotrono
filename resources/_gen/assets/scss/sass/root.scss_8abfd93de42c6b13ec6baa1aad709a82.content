@@ -506,15 +506,6 @@ main {
         color: #c2ff0a; }
       .siteNavigation ul li a:focus {
         outline: #c2ff0a dotted 2px; }
-    .siteNavigation ul.is-inactive {
-      border: 0;
-      clip: rect(0 0 0 0);
-      height: auto;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
-      white-space: nowrap; }
     .siteNavigation ul.is-active {
       color: white;
       filter: opacity(1);

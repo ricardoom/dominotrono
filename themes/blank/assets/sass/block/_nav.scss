@@ -100,9 +100,9 @@
         }
       }
 
-      &.is-inactive {
-        @include visually-hidden;
-      }
+      // &.is-inactive {
+      //   @include visually-hidden;
+      // }
 
       &.is-active {
         color: $site-white;
@@ -113,7 +113,6 @@
     }
 
     @include media('>=tablet') {
-      // color: $site-acid-green;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;

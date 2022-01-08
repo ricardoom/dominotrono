@@ -1,22 +1,9 @@
-{{ $deck := .Params.deck }}
-{{ $svg := .Params.graphics }}
-{{ $svgClass := .Params.graphics.class }}
-{{ $svgURL := .Params.graphics.url | string}}
-{{ $fullPath := delimit (slice "partials/svg/" $svgURL) "" | string }}
-{{ $title := lower .Title }}
+{{ $deck := .Params.deck }} {{ $svg := .Params.graphics }} {{ $svgClass := .Params.graphics.class }} {{ $svgURL := .Params.graphics.url | string}} {{
+$fullPath := delimit (slice "partials/svg/" $svgURL) "" | string }} {{ $title := lower .Title }}
 <section class="[ feature-{{ $title }} ]">
-  
-  <a href="{{ .Permalink }}" class="[ card-state ]" data-class="pivot">  
-    {{ with and ( $svg ) ( ne $svg "" ) }}
-      {{ partial $fullPath (dict "polygonClass" $svgClass) }}
-    {{ end }}
+  <a href="{{ .Permalink }}" class="[ card-state ]" data-class="pivot">
+    {{ with and ( $svg ) ( ne $svg "" ) }} {{ partial $fullPath (dict "polygonClass" $svgClass) }} {{ end }}
     <h1>{{ .Title }}</h1>
-    <p>
-      {{ if $deck }}
-        {{ $deck }}
-      {{ else }}
-        {{ .Summary }}
-      {{ end }}
-      </p>
+    <p>{{ if $deck }} {{ $deck }} {{ else }} {{ .Summary }} {{ end }}</p>
   </a>
 </section>

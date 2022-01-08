@@ -19,7 +19,17 @@
     display: grid;
     grid-area: 1 / 1 / -1 / -1;
     z-index: -1;
+    @include media('<=tablet') {
+      overflow: hidden;
+    }
    }
+
+   .spooky {
+     @include media('<=tablet') {
+       height: 100%;
+     }
+   }
+   .red-bot {}
 }
 
 

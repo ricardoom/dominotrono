@@ -9,4 +9,5 @@ graphics:
   url: circleCircle.svg
   class: circleCircle
 ---
-You will need some SVG content here... Mastering the dark arts of SVG is my thing.
+Mastering the dark arts of SVG is my thing.
+

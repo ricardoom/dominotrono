@@ -1,4 +1,4 @@
-<svg aria-hidden="true" class="svgIcon" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48">
+<svg aria-hidden="true" class="svgIcon" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48" aria-hidden={{ . }} >
     <title>
         navigation close icon
     </title>

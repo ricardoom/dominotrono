@@ -29,15 +29,6 @@
 // todo: add {params}
 // param {$media} : >=phone
 // param {$padding} $pl/$pr = padding-right left etc...
-
-@mixin visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
 // $mw = max width
 // $pl = padding left
 // $pr = padding right
@@ -47,6 +38,17 @@
     padding-left: $pl;
     padding-right: $pr;
   }
+}
+
+@mixin visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; 
 }
 
 // In some cases we might want to vary the kind of focus ring we apply,

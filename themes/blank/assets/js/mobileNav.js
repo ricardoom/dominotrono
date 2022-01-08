@@ -10,11 +10,13 @@ const navControlIcon = document.getElementById('navControlIcon');
 mobileNavButton.addEventListener('click', function () {
   if (mobileNavItems.classList.contains('is-active')) {
     mobileNavButton.classList.remove('button-active');
+    mobileNavItems.classList.add('is-inactive');
     mobileNavItems.setAttribute('aria-expanded', 'false');
     mobileNavItems.classList.remove('is-active');
     mobileNavLabel.innerText = 'Menu';
   } else {
     mobileNavItems.classList.add('is-active');
+    mobileNavItems.classList.remove('is-inactive');
     mobileNavItems.setAttribute('aria-expanded', 'true');
     mobileNavButton.classList.add('button-active');
     mobileNavLabel.innerText = 'Close';

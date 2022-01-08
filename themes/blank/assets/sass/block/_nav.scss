@@ -3,176 +3,215 @@
 ///
 
 .siteNavigation {
-    // Mobile Nav
-    button {
-      @include media('>=phone') {
-        @supports not (display: flex) {
-          display: block;
-        }
+  // Mobile Nav
+  button {
+    @include media('>=phone') {
+      @supports not (display: flex) {
+        display: block;
+      }
 
-        background: transparentize($site-black, 0.5);
-        border: none;
+      background: transparentize($site-black, 0.5);
+      border: none;
+      color: currentColor;
+      cursor: pointer;
+      font-size: var(--s-1);
+      display: flex;
+      flex-direction: column;
+      padding: var(--s0);
+
+      .inactive svg {
+        fill: currentColor;
+        transform: rotate(0deg), scaleY(var(--s1));
+        transition: transform ease-out 210ms, fill ease-out 110ms;
+      }
+
+      svg {
+        fill: $site-acid-green;
+        height: var(--s1);
+        transform: rotate(90deg);
+        transition: transform ease-in 210ms, fill ease-in 110ms;
+        width: var(--s1);
+      }
+
+      .menu-label {
         color: currentColor;
-        cursor: pointer;
-        font-size: 0.8em;
-        display: flex;
-        flex-direction: column;
-        padding: var(--s0);
-
-        svg {
-          fill: currentColor;
-          height: var(--s1);
-          width: var(--s1);
-        }
-
-        .menu-label {
-          @include basic-drop-shadow('text');
-        }
-        .inactive svg {
-          fill: red;
-        }
-        .button-icon {
-          &__open {
-            display: block;
-            position: relative;
-            // top: 0.25rem;
-            
-          }
-
-          &__closed {
-            display: none;
-          }
-        }
-      } // /phone mq
-
-      &.button-active {
-        background: transparentize($site-black, 0.2);
+        @include basic-drop-shadow('text');
       }
 
-      @include media('>=tablet') {
-        display: none;
+      .button-icon {
+        &__open {
+          display: block;
+          position: relative;
+          // top: 0.25rem;
+        }
+
+        &__closed {
+          display: none;
+        }
+      }
+    } // /phone mq
+
+    &.button-active {
+      background: transparentize($site-black, 0.2);
+
+      .menu-label {
+        color: $site-acid-green;
       }
     }
 
-    ul {
-      @include media('>=phone') {
-        display: none;
-
-        &.is-active {
-          background: transparentize($site-black, 0.2);
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          height: 100vh;
-          justify-content: flex-start;
-          left: 0;
-          position: absolute;
-          max-width: unset;
-          width: 100%;
-          z-index: 1000;
-
-          li {
-            display: flex;
-            justify-content: flex-end;
-            margin: unset;
-            padding: var(--s0) var(--s0) 0 0;
-            padding-block-end: 0;
-            padding-block-start: var(--s0);
-            padding-inline-end: var(--s0);
-            padding-inline-start: 0;
-          }
-          & li:first-child {
-            padding-top: 0;
-            padding-block-start: 0;
-          }
-        }
-      }
-
-      @include media('>=tablet') {
-        display: flex;
-      }
-    }
-  }
-
-  /// Uses classes to control/style all else:
-  .social-svg {
+    @include media('>=tablet') {
       display: none;
     }
-
-  .siteNavigation {
-
-    &--items { // the <ul>
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-flow: row nowrap;
-
-        @include media('>=tablet') {
-          grid-column: 1 / 6;
-          justify-content: flex-start;
-        }
-      
-
-
-      li {
-        a {
-          @include basic-drop-shadow(text);
-          color: $site-link-nav;
-          padding: var(--s-3) var(--s-2) 0;
-          padding-block-start: var(--s-3);
-          padding-block-end: 0;
-          padding-inline-end: var(--s-2);
-          padding-inline-start: var(--s-2);
-          text-decoration: none;
-
-          &:visited {
-            color: $site-link-nav;
-          }
-        }
-      }
-      
-      .text-link {
-        align-self: center;
-        margin-right: var(--s0);
-        margin-inline-end: var(--s0);
-
-        a:first-child {
-          padding-inline-start: 0;
-        }
-
-        @include media('<tablet') {
-          align-self: flex-end;
-        }
-      }
-
-      .social-icon {
-        @include basic-drop-shadow(svg);
-        @include media('<tablet') {
-          align-self: flex-end;
-        }
-
-        align-self: center;
-
-        a {
-          display: block;
-
-          &:hover {
-            box-shadow: none;
-          }
-
-          &:hover svg,
-          &:focus svg {
-            fill: $site-acid-green;
-          }
-        }
-
-        svg {
-          fill: $site-white;
-          height: var(--s1);
-        }
-      }
-    } // /ul
   }
 
+  ul {
+    @include media('>=phone') {
+      background: transparentize($site-black, 0.2);
+      background-image: linear-gradient($site-black 20%, transparentize($site-black, 1) 100%);
+      color: transparent;
+      filter: opacity(0);
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 100vh;
+      justify-content: flex-start;
+      left: 0;
+      position: absolute;
+      max-width: unset;
+      transition: all ease-out 101ms;
+      width: 100%;
 
+      li {
+        display: flex;
+        justify-content: flex-end;
+        margin: unset;
+        padding: var(--s0) var(--s0) 0 0;
+        padding-block-start: var(--s0);
+        padding-inline-end: var(--s0);
+
+        a {
+          &:hover,
+          &:focus {
+            color: $site-acid-green;
+          }
+          &:focus {
+            outline: $site-acid-green dotted 2px;
+          }
+        }
+      }
+
+      // &.is-inactive {
+      //   @include visually-hidden;
+      // }
+
+      &.is-active {
+        color: $site-white;
+        filter: opacity(1);
+        transition: all ease-in 101ms;
+        z-index: 1000;
+      }
+    }
+
+    @include media('>=tablet') {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      filter: opacity(1);
+      height: auto;
+      position: relative;
+
+      li {
+        justify-items: center;
+        padding: 0 var(--s0) 0 0;
+        padding-block-end: 0;
+        padding-block-start: 0;
+        padding-inline-end: var(--s0);
+        padding-inline-start: 0;
+      }
+    }
+  }
+}
+
+/// Uses classes to control/style all else:
+.social-svg {
+  display: none;
+}
+
+.siteNavigation {
+  &--items {
+    // the <ul>
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+
+    @include media('>=tablet') {
+      grid-column: 1 / 6;
+      justify-content: flex-start;
+    }
+
+    li {
+      padding-top: 0;
+      padding-block-start: 0;
+
+      a {
+        @include basic-drop-shadow(text);
+        color: $site-link-nav;
+        padding: 0 var(--s-2) 0;
+        padding-block-start: 0;
+        padding-block-end: 0;
+        padding-inline-end: var(--s-2);
+        padding-inline-start: var(--s-2);
+        text-decoration: none;
+
+        &:visited {
+          color: $site-link-nav;
+        }
+      }
+    }
+
+    .text-link {
+      align-self: center;
+      margin-right: var(--s0);
+      margin-inline-end: var(--s0);
+
+      a:first-child {
+        padding-inline-start: 0;
+      }
+
+      @include media('<tablet') {
+        align-self: flex-end;
+      }
+    }
+
+    .social-icon {
+      @include basic-drop-shadow(svg);
+      @include media('<tablet') {
+        align-self: flex-end;
+        margin-right: var(--s0);
+        margin-inline-end: var(--s0);
+      }
+
+      align-self: center;
+
+      a {
+        display: block;
+
+        &:hover {
+          box-shadow: none;
+        }
+
+        &:hover svg,
+        &:focus svg {
+          fill: $site-acid-green;
+        }
+      }
+
+      svg {
+        fill: $site-white;
+        height: var(--s1);
+      }
+    }
+  } // /ul
+}

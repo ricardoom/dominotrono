@@ -1,6 +1,4 @@
-{{ $navControlIconClose := ( partial "svg/navControlIcon.svg" ) }}
-{{ $navControlIconOpen := ( partial "svg/burgerIcon3d.svg" ) }}
-{{ $navControlIcon := ( partial "svg/singlePattyIcon.svg" ) }}
+{{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
 
 <nav class="siteNavigation">
   <button class="siteNavigation--button" id="mobileNavButton"  aria-labelledby="menuLabel"
@@ -8,10 +6,9 @@
     <span class="button-icon__open inactive" id="navControlIcon">
       {{ $navControlIcon }}
     </span>
-    <!-- <span class="button-icon__closed" id="navControlClose">{{ $navControlIcon }}</span> -->
     <span class="menu-label" id="menuLabel">Menu</span>
     </button>
-  <ul id="navItems" class="siteNavigation--items" aria-expanded="false">
+  <ul id="navItems" class="siteNavigation--items is-inactive" aria-expanded="false">
     {{ range .Site.Menus.main }}
     <li class="text-link"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
     {{ end }}

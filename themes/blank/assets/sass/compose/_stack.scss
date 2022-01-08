@@ -4,12 +4,12 @@
   justify-content: flex-start;
 }
 
-.stack > * {
-  margin-top: 0;
-  margin-bottom: 0;
-} 
-
 .stack > * + * {
   margin-top: var(--s1);
   margin-block-start: var(--s1);
 }
+
+.stack > * {
+  margin-top: 0;
+  margin-bottom: 0;
+} 

@@ -1,49 +1,43 @@
-{{ $targetPath := "css/root.css" }}
-{{ $sassRoot := "sass/root.scss" }}
-
-{{ $rootClass := ( slice "homePage" "innerPage" ) }}
-{{ $options := ( dict "targetPath" $targetPath  "outputStyle" "compressed" "enableSourceMap" true ) }}
-{{ $devOptions := (dict "targetPath" $targetPath "outputStyle" "" "enableSourceMap" true)  }}
-{{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }}
-{{ $prodStyle := resources.Get $sassRoot | resources.ToCSS $options | resources.Fingerprint }}
-{{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }}
-{{ $googleFontInter := "https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" }}
-{{ $class := .Site.Params.classes }}
-
+{{ $targetPath := "css/root.css" }} {{ $sassRoot := "sass/root.scss" }} {{ $rootClass := ( slice "homePage" "innerPage" ) }} {{ $options := ( dict
+"targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" true ) }} {{ $devOptions := (dict "targetPath" $targetPath "outputStyle" ""
+"enableSourceMap" true) }} {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }} {{ $prodStyle := resources.Get $sassRoot |
+resources.ToCSS $options | resources.Fingerprint }} {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }} {{ $googleFont :=
+"https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" }} {{ $class := .Site.Params.classes }}
 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 
 <head>
   {{ partial "meta.html" . }}
-  <link rel="icon" href="/images/fourDots_2@2x.jpg">
+  <link rel="icon" href="/images/fourDots_2@2x.jpg" />
   <title>{{ .Title }}</title>
   {{ with .Site.Params.description }}
-  <meta name="description" content="{{ . }}">{{ end }}
-  {{ with .Site.Params.author }}
-  <meta name="author" content="{{ . }}">{{ end }}
-  {{ with .Site.IsServer }}
-  <link rel="stylesheet" href="{{ $devStyle.Permalink }}">
+  <meta name="description" content="{{ . }}" />
+  {{ end }} {{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}" />
+  {{ end }} {{ with .Site.IsServer }}
+  <link rel="stylesheet" href="{{ $devStyle.Permalink }}" />
   {{ else }}
-  <link rel="stylesheet" href="{{ $prodStyle.Permalink }}">
-  {{ end }}
-  {{ hugo.Generator }}
-  <link rel="stylesheet" href="{{ $typeKitLink }}">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="{{ $googleFontInter }}" rel="stylesheet"> 
+  <link rel="stylesheet" href="{{ $prodStyle.Permalink }}" />
+  {{ end }} {{ hugo.Generator }}
+  <link rel="stylesheet" href="{{ $typeKitLink }}" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="{{ $googleFont }}" rel="stylesheet" />
   {{ partial "fontface_script.html" . }}
 </head>
 {{ if .IsHome }}
 <body class="[ {{ index $rootClass 0 }} ]">
-{{ else }}
-<body class="[ {{ index $rootClass 1 }} ][ stack belt ]">
-{{ end  }}
+  {{ else }}
+  <body class="[ {{ index $rootClass 1 }} ][ stack belt ]">
+    {{ end }}
 
-  <header role="banner" class="[ site-header ]">
-    <div class="[ wrapper ]">
-      <div class="siteNameContainer">
-        <a href="{{ .Site.BaseURL }}" class="name">{{ .Site.Title }}</a>
+    <header role="banner" class="[ site-header ]">
+      <div class="[ wrapper ]">
+        <div class="siteNameContainer">
+          <a href="{{ .Site.BaseURL }}" class="name">{{ .Site.Title }}</a>
+        </div>
+        {{ partial "nav.html" . }}
       </div>
-      {{ partial "nav.html" . }}
-    </div>
-  </header>
+    </header>
+  </body>
+</body>

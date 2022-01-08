@@ -92,24 +92,19 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 // @debug $fontDifference;
 // @debug $slope;
 // @debug $yAxisIntersection ;
-@debug $preferredValue;
+// @debug $preferredValue;
 
 h1 {
     --line-height: clamp(1.25em, 2vw, 1.6em); 
-    // font-size: clamp(0.8em, var(--s1), 48px);;
     font-size: clamp(var(--s1), $preferredValue, var(--s2));
     line-height: var(--line-height, 1.2);
 }
 
 h2 {
-  // @include responsive-font(2.75vw, 1.25rem, 24px, 24px);
-  // font-size: clamp(1em, var(--s1), 48px);
   font-size: clamp(var(--s0), $preferredValue, var(--s1));
 }
 
 h3 {
-  // @include responsive-font(1.75vw, 1.25em, 5.5em, 32px);
-  // font-size: clamp(, #{$ideal}, #{$max});
   font-size: clamp(1.125em, var(--s0), 24px);
 }
 
@@ -169,7 +164,6 @@ code {
     }
 
     ul {
-      // max-width: $max-line-length;
       padding-left: var(--s0);
 
       li ul {

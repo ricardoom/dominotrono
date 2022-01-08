@@ -1555,7 +1555,7 @@ footer {
   .has-dropcap .dropcap {
     float: left;
     font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: var(--s4);
+    font-size: clamp(var(--s3), 2.36731844vw, var(--s4));
     font-weight: 900;
     margin: 0.1em 0.05em 0 0; }
     @media screen and (max-width: 25.875rem) {
@@ -1571,7 +1571,7 @@ footer {
       .has-dropcap .dropcap:before {
         margin-block-start: 0.2em; } }
   .has-dropcap .dropcap:after {
-    margin-bottom: -0.25em; }
+    margin-bottom: clamp(-0.55em, 2.36731844vw, -0.25em); }
     @media screen and (max-width: 25.875rem) {
       .has-dropcap .dropcap:after {
         margin: 0; } }

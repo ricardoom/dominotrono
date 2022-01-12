@@ -9,8 +9,8 @@
   .dropcap {
     float: left;
     font-family: $frank-new;
-    // font-size: var(--s4);
-    font-size: clamp(var(--s3), $preferredValue, var(--s4));
+    font-size: var(--s5);
+    font-size: clamp(var(--s3), $preferredValue, var(--s5));
     font-weight: 900;
     margin: 0.1em 0.05em 0 0;
 
@@ -33,7 +33,7 @@
   }
 
   .dropcap:after {
-    margin-bottom: clamp(-0.55em, $preferredValue, -0.25em);
+    margin-bottom: clamp(-0.55em, $preferredValue, -1em);
     @media screen and (max-width: $small-screen) {
       margin: 0;
     }

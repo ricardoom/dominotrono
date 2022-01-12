@@ -7,48 +7,32 @@
   display: flex;
   font-size: var(--s0);
   margin: var(--s2);
-  // margin-block: var(--s2);
   margin-block: clamp(var(--s05), $preferredValue, var(--s2));
   margin-inline: clamp(var(--s05), $preferredValue, var(--s2));
   transition: transform ease-in 103ms;
+  will-change: transition;
+
   & > * {
     align-self: center;
   }
 
   & > p {
     font-size: clamp(var(--s-1), $preferredValue, var(--s1));
-    // padding: var(--s3);
     padding-block: 10%;
     padding-inline: 10%;
   }
 
   &.alpha {
-    //  font-size: var(--s1);
     grid-area: 4 / 3 / -4 / -1;
   }
 
   &.beta {
     grid-area: 5 / 1 / 7 / 3;
-
-    // > p {
-    //   margin: 0;
-    //   // padding: 0;
-    //   transform: rotate(90deg);
-    // }
   }
   &.delta {
     grid-row: 3 /4;
     grid-column: 2 / 4;
   }
-
-  // &.gamma {
-  //   //  grid-area: 3 / 4 / 3 / 2;
-  //   grid-row: 7 / 9;
-  //   grid-column: 2 / 5;
-  // }
-  // &.epislon {
-
-  // }
 
   &:hover,
   &:focus {

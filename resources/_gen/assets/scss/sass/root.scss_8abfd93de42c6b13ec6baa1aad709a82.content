@@ -673,25 +673,19 @@ main {
           padding-right: var(--s0); }
       .sidebar-prime .sidebarList > li .post-grid {
         min-height: 13ex;
-        padding: 0; }
+        padding-left: var(--s0, 1.125rem);
+        padding-inline-start: var(--s0, 1.125rem); }
         .sidebar-prime .sidebarList > li .post-grid .drop-cap > a {
-          font-size: 22px;
-          font-size: 5vw;
+          font-size: var(--s3);
           border-bottom: solid var(--s-3) white;
           display: block;
-          font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          font-family: "justus-pro", Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
           font-weight: 400;
           font-style: normal;
           line-height: var(--s2);
           margin-bottom: var(--s-1);
           text-decoration: none;
           width: 25%; }
-          @media (max-width: 52rem) {
-            .sidebar-prime .sidebarList > li .post-grid .drop-cap > a {
-              font-size: 2.6rem; } }
-          @media (min-width: 100rem) {
-            .sidebar-prime .sidebarList > li .post-grid .drop-cap > a {
-              font-size: 5rem; } }
           .sidebar-prime .sidebarList > li .post-grid .drop-cap > a .small-letter {
             font-size: 18px;
             font-size: 2.5vw; }
@@ -1426,7 +1420,8 @@ footer {
     max-width: 60%; }
     @media screen and (max-width: 25.875rem) {
       .feature section {
-        max-width: 100%; } }
+        max-width: 100%;
+        padding-block-start: var(--s2); } }
   .feature section:last-child {
     margin-bottom: var(--s3);
     margin-block-end: var(--s3); }
@@ -1555,7 +1550,8 @@ footer {
   .has-dropcap .dropcap {
     float: left;
     font-family: "frank-new", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: clamp(var(--s3), 2.36731844vw, var(--s4));
+    font-size: var(--s5);
+    font-size: clamp(var(--s3), 2.36731844vw, var(--s5));
     font-weight: 900;
     margin: 0.1em 0.05em 0 0; }
     @media screen and (max-width: 25.875rem) {
@@ -1571,7 +1567,7 @@ footer {
       .has-dropcap .dropcap:before {
         margin-block-start: 0.2em; } }
   .has-dropcap .dropcap:after {
-    margin-bottom: clamp(-0.55em, 2.36731844vw, -0.25em); }
+    margin-bottom: clamp(-0.55em, 2.36731844vw, -1em); }
     @media screen and (max-width: 25.875rem) {
       .has-dropcap .dropcap:after {
         margin: 0; } }

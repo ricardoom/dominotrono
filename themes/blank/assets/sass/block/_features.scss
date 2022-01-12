@@ -16,6 +16,7 @@
   section {
     @media screen and (max-width: $small-screen ) {
       max-width: 100%;
+      padding-block-start: var(--s2);
       }
 
     max-width: 60%;

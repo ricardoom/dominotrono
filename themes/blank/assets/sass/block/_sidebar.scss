@@ -46,14 +46,16 @@
 
       .post-grid {
         min-height: 13ex;
-        padding: 0;
+        padding-left: var(--s0, 1.125rem);
+        padding-inline-start: var(--s0, 1.125rem);
 
         .drop-cap {
           & > a {
-            @include responsive-font(5vw, 2.6rem, 5rem, 22px);
+            // @include responsive-font(5vw, 2.6rem, 5rem, 22px);
+            font-size: var(--s3);
             border-bottom: solid var(--s-3) $site-white;
             display: block;
-            font-family: $inter;
+            font-family: $justus-pro;
             font-weight: 400;
             font-style: normal;
             line-height: var(--s2);

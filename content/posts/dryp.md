@@ -9,10 +9,7 @@ figcaption: ''
 tags: ['javascript', 'gardening']
 title: 'Dryyp: A remote garden manager'
 ---
-
-This project was conceived 
-
-This idea came about whilst preparing my garden to be cared for by a neighbor. We were leaving for vacation and I was lamenting the lack of an automated system that could be controlled remotely or by a timing system. An additional motivation for this project is purely for professional development. The idea is to mock up the  product and grow and cultivate it, starting from basic concept to a finished product. It should come complete with functional and technical specs, wire-frames, screen designs, work flows, . While it may never see the light of day in terms of a real, functional product, it is a good exercise in product development.
+This idea came about whilst preparing my garden to be cared for by a neighbor. We were leaving for vacation and I was lamenting the lack of an automated system that could be controlled remotely or by an automated and semi-intelligent system. An additional motivation for this project is purely for professional development. The idea is to mock up the  product and grow and cultivate it, starting from basic concept to a finished product. It should come complete with functional and technical specs, wire-frames, screen designs, work flows, . While it may never see the light of day in terms of a real, functional product, it is a good exercise in product development.
 
 <!--more-->
 

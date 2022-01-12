@@ -1384,7 +1384,8 @@ fieldset {
   margin: var(--s2);
   margin-block: clamp(var(--s05), 2.36731844vw, var(--s2));
   margin-inline: clamp(var(--s05), 2.36731844vw, var(--s2));
-  transition: transform ease-in 103ms; }
+  transition: transform ease-in 103ms;
+  will-change: transition; }
   .blue-block > * {
     align-self: center; }
   .blue-block > p {
@@ -1472,12 +1473,14 @@ footer {
     color: currentColor;
     filter: unset;
     transform: scale(1);
-    transition: filter 300ms ease-out, transform 310ms ease-out; }
+    transition: filter 300ms ease-out, transform 310ms ease-out;
+    will-change: transform; }
   .feature .card-state {
     --string: 'px';
     --perspective: 25;
     filter: blur(var(--s-4)) opacity(0.8);
-    transform: scale(0.85); }
+    transform: scale(0.85);
+    will-change: transform; }
 
 .site-single ul {
   margin-left: var(--s0);

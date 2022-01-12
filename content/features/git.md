@@ -10,4 +10,6 @@ graphics:
   url: gitCube.svg
   class: gitCube
 ---
-I had mucho git fear at first, now 
+Lately... it's been sleepy. Been working on other stuff.
+
+But its 2022, and there are big things afoot. Or so I keep telling myself. [Behold!](https://github.com/ricardoom)

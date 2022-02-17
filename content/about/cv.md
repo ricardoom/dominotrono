@@ -7,7 +7,7 @@ menu:
   main:
     weight: 0
 ---
-# Ricardo E. Galvez
+## Ricardo E. Gálvez
 
 Contact: ricardo.e.galvez@gmail.com
 
@@ -24,7 +24,7 @@ Contact: ricardo.e.galvez@gmail.com
 
 #### StableHouse.io
 
-- Tasked with building out the new company's marketing website with Gatsby, React, Tailwind and TypeScript. 
+- Tasked with building out the new company's marketing website with Gatsby, React, Tailwind and TypeScript.
 
 #### Decolonizing New Mexico
 
@@ -34,13 +34,15 @@ Contact: ricardo.e.galvez@gmail.com
 
 - All design and prototyping work completed in Adobe XD
 
-#### Nido at the Alki Homestead, Seattle WA, 2018 - 2020 
+#### Il Nido at the Alki Homestead, Seattle WA, 2018 - 2021
 
 - End to end project design, development and execution small business brochure website for a new restaurant concept and location
 
 - Site designed in Sketch, developed with Gulp JS, HTML, Sass
 
 - Consultation, Development, User Experience Design, Branding Strategy
+
+- Ongoing maintenance and consultation
 
 #### FYLE
 
@@ -60,11 +62,11 @@ Contact: ricardo.e.galvez@gmail.com
 
 - Successfully oversaw a diverse range of web and interface design projects from concept, prototype to production.
 
-- Lead the experience and interface design for NYPL’s Shared Collections, Staff Picks, and New Arrivals applications.
+- Lead the experience and interface design for NYPL&apos;s Shared Collections, Staff Picks, and New Arrivals applications.
 
 - Directed and executed new visual and experience design for obtaining a library card.
 
-- Created and deployed new user experience and interface design patterns in Sketch, HTML, and SCSS for the open-source eReader Simply E.
+- Created and deployed new user experience and interface design patterns in Sketch, HTML, and Sass for the open-source eReader Simply E.
 
 - Lead and completed v.1 of the UX & Visual design efforts for the Simply E administrative interface for managing and maintaining content.
 
@@ -74,11 +76,11 @@ Contact: ricardo.e.galvez@gmail.com
 
 - Completed research, development, and lead the successful implementation of visual, functional, and accessibility standards.
 
-- Owner and maintainer of codebase built with Jekyll, SCSS, Javascript, and HTML.
+- Owner and maintainer of codebase built with Jekyll, Sass, Javascript, and HTML.
 
 - Improved design and deployment efforts by utilizing technologies that include Gulp, git, Github, and npm.
 
-- Designed, developed, and maintained a system of custom SVG icons used across many of NYPL’s web properties.
+- Designed, developed, and maintained a system of custom SVG icons used across many of NYPL&apos;s web properties.
 
 #### Accessibility Design and Development
 
@@ -100,7 +102,7 @@ Contact: ricardo.e.galvez@gmail.com
 
 #### Interface, Experience and Graphic Design
 
-- Principal web designer for the NJTV News daily news program.
+- Principal web designer for the a number of locally and nationally produced websites. Including Finding Yor Roots with Henry Louis Gates Jr., Shakespeare Uncovered, Thirteen Explore and MetroFocus.
 
 - Conceived new typographic, color, and layouts for complex information hierarchies using Adobe Illustrator, CSS and HTML
 

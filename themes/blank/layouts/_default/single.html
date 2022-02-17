@@ -5,46 +5,39 @@
 {{ partial "header.html" . }}
 <main>
   <div class="[ wrapper ][ grid-wrapper ]">
-    {{/*  <div class="grid-wrapper__listParent">  */}}
+      
       <article class="[ site-article ]">
         <h1>{{ .Title }}</h1>
         {{ if ne .Section "portfolio" }}
-        <p class="siteAuthor">by: {{ .Site.Params.author }}</p>
+        <p class="site-author">by: {{ .Site.Params.author }}</p>
           <time>{{ .Date.Format "01.02.2006 15:04" }}</time>
         {{ end }}
         <section class="site-single">
           {{ .Content }}
         </section>
+        
         {{ if eq .Type "features" }}
-        {{ printf "<!-- a feature page  -->" | safeHTML }}
-        {{ .Params.pages }}
-              
-              {{ range .Params.pages }}
-                
-          {{ end }}
+          {{ printf "<!-- a feature page  -->" | safeHTML }}
+          
         {{ end  }}
         {{ if eq .Type "experiments"  }}
-          {{/*  
-             Check if this is an SVG experiment:
-          Front matter would be like
-          experimentType = "svg" or "canvas" or... whatever...
-          use the title as the containing element root id
-          */}}
+          {{/* Check the page param type and set a class or (whatever else based on that param) */}}
           {{ $experimentType := .Page.Param "experimentType" }}
           {{ if $local }}
           {{ printf "<!-- +++ experimental svg / canvas / ???  -->" | safeHTML }}
+         
           {{ end  }}
           {{ if and ( eq $experimentType "svg" ) ( ne $experimentType "" ) }}
-              
+
               <svg id="{{ lower .Title }}"  class="[ svg-exp ]" viewBox="0 0 0 0"></svg>
-            
+
           {{ end  }}
         {{ end }}
       </article>
       {{ if .Params.tags }}
       {{ partial "tags.html" . }}
       {{ end }}
-    {{/*  </div>  */}}
+    
   </div>
 </main>
 {{ partial "sidebar.html" . }}

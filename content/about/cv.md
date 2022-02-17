@@ -45,9 +45,6 @@ Contact: ricardo.e.galvez@gmail.com
 
 - Consultation, Development, User Experience Design, Branding Strategy
 
-**FYLE**
-
-- 
 
 ### New York Public Library, New York, NY 2015 – 2018
 

@@ -1,3 +1,7 @@
+{{ $local := .Site.IsServer }}
+{{ if $local }}
+{{ printf "<!-- +++ portfolio single item  -->" | safeHTML }}
+{{ end  }}
 <!-- new layout flag: -->
 {{ $newLayout := .Params.newLayout }}
 <!-- put all the two main classes into variables: -->

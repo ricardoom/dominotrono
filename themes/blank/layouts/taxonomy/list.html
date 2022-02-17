@@ -1,8 +1,13 @@
+{{ $local := .Site.IsServer }}
+{{ if $local }}
+{{ printf "<!-- ++ taxonomy list template ++ -->" | safeHTML }}
+{{ end  }}
 
 {{ partial "header.html" . }}
 <main class="taxo-list-portfolio">
-  <div class="grid-wrapper">
-    <h1>{{ .Title }}</h1>
+  
+  <div class="[ wrapper ][ grid-wrapper ]">
+    <h1>{{ .Title }}</h1>  
     <ul>
       {{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") 20 }}
       {{ range $paginator.Pages }}

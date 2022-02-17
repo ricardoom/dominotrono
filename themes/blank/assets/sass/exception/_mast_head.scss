@@ -2,9 +2,10 @@
 // Masthead class on the homepage
 .mast-container {
   background-color: transparent;
-  margin: -9.5em 0;
-  margin-block-start: -9.5em;
-  margin-block-end: -9.5em; // magic numbers here...
+  margin: -14.5em 0;
+  margin-block-start: -14.5em;
+  margin-block-end: -14.5em; // these are hard coded
+  // TODO: find a flex box solution to this....
   
 }
 

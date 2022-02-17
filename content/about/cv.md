@@ -16,8 +16,7 @@ Contact: ricardo.e.galvez@gmail.com
 - Code: HTML / CSS / Javascript / git
 - Design: Figma / Adobe CS / Sketch
 - UX: Wire-framing / Prototyping / Responsive Design / Accessibility
-- Methods: Agile / Data Driven / User Testing
-- Misc: Hugo / React
+- Frameworks & Libraries: Hugo / React / NextJS / Gatsby
 
 ## Professional Accomplishments
 

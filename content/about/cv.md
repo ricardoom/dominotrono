@@ -21,15 +21,13 @@ Contact: ricardo.e.galvez@gmail.com
 
 ## Professional Accomplishments
 
-### Freelance Designer and Developer, Brooklyn NY,  2018 - 2021
+### Freelance Designer and Developer, Brooklyn NY, Los Angeles CA,  2018 - Present
 
-**StableHouse.io**
+#### StableHouse.io
 
-- Gatsby SSG
+- Tasked with building out the new company's marketing website with Gatsby, React, Tailwind and TypeScript. 
 
-- Typescript
-
-**Decolonizing New Mexico**
+#### Decolonizing New Mexico
 
 - Design and development of fully functional website
 
@@ -37,17 +35,21 @@ Contact: ricardo.e.galvez@gmail.com
 
 - All design and prototyping work completed in Adobe XD
 
-**Il Nido at the Alki Homestead, Seattle WA, 2018 - 2020** 
+#### Nido at the Alki Homestead, Seattle WA, 2018 - 2020 
 
-- End to end project development and execution
+- End to end project design, development and execution
 
 - Designed and developed the website for a new restaurant concept and location
 
 - Consultation, Development, User Experience Design, Branding Strategy
 
-**FYLE**
+#### FYLE
 
-- 
+- Initial designs and prototypes built in Sketch and Illustrator.
+
+#### Acqwash
+
+- Wireframing, Visual Design,
 
 ### New York Public Library, New York, NY 2015 – 2018
 

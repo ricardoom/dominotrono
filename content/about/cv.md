@@ -49,7 +49,7 @@ Contact: ricardo.e.galvez@gmail.com
 
 #### Acqwash
 
-- Wireframing, Visual Design,
+- Wireframing, Visual Design, UX Design
 
 ### New York Public Library, New York, NY 2015 – 2018
 

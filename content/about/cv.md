@@ -13,17 +13,10 @@ Contact: ricardo.e.galvez@gmail.com
 
 ## Skills and Expertise
 
-<<<<<<< HEAD
-- Code: HTML / CSS / Javascript / git
-- Design: Figma / Adobe CS / Sketch
-- UX: Wire-framing / Prototyping / Responsive Design / Accessibility
-- Frameworks & Libraries: Hugo / React / NextJS / Gatsby
-=======
 - Code: HTML / CSS / Sass / Javascript / SVG / git
 - Design: Figma / Adobe Illustrator / XD / Sketch
 - UX: Wire-framing / Prototyping / Responsive Design / Accessibility
 - Frameworks & Libraries: Hugo / React / NextJS / Gatsby / Tailwind
->>>>>>> main
 
 ## Professional Accomplishments
 
@@ -31,11 +24,7 @@ Contact: ricardo.e.galvez@gmail.com
 
 #### StableHouse.io
 
-<<<<<<< HEAD
-- Tasked with building out the new company's marketing website with Gatsby, React, Tailwind and TypeScript. 
-=======
 - Tasked with building out the new company's marketing website with Gatsby, React, Tailwind and TypeScript.
->>>>>>> main
 
 #### Decolonizing New Mexico
 
@@ -45,29 +34,14 @@ Contact: ricardo.e.galvez@gmail.com
 
 - All design and prototyping work completed in Adobe XD
 
-<<<<<<< HEAD
-#### Nido at the Alki Homestead, Seattle WA, 2018 - 2020 
-
-- End to end project design, development and execution
-=======
 #### Il Nido at the Alki Homestead, Seattle WA, 2018 - 2021
 
 - End to end project design, development and execution small business brochure website for a new restaurant concept and location
->>>>>>> main
 
 - Site designed in Sketch, developed with Gulp JS, HTML, Sass
 
 - Consultation, Development, User Experience Design, Branding Strategy
 
-<<<<<<< HEAD
-#### FYLE
-
-- Initial designs and prototypes built in Sketch and Illustrator.
-
-#### Acqwash
-
-- Wireframing, Visual Design, UX Design
-=======
 - Ongoing maintenance and consultation
 
 #### FYLE
@@ -81,7 +55,6 @@ Contact: ricardo.e.galvez@gmail.com
 #### Acqwash
 
 - Wire framing, Visual Design, UX Design
->>>>>>> main
 
 ### New York Public Library, New York, NY 2015 – 2018
 

@@ -39,7 +39,8 @@ const circles = document.querySelectorAll('circle');
 const circArr = Array.from(circles);
 if (gsap) {
   // get all the circles in the svg element
-
-  const opts = { x: x, duration: 10, repeat: -1, delay: 0.3 };
-  gsap.to(circArr, { opts });
+  console.log(circArr);
+  const opts = { x: x, y: 'random(1000, y, 10)', duration: 10, repeat: -1, delay: 'random(-0.5, 0.5, .1)', yoyo: true };
+  // gsap.to(circArr, { x: x, duration: 10, repeat: -1, delay: 0.3 });
+  circArr.forEach((circ) => gsap.to(circ, opts));
 }

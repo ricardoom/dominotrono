@@ -642,7 +642,7 @@ main {
   font-size: var(--s-1); }
 
 .svg-exp {
-  background-color: rebeccapurple; }
+  background-color: transparent; }
 
 .sidebar-prime {
   background-color: #121212;

@@ -4,6 +4,7 @@
   "svg.preview.background": "transparent",
   "editor.autoIndent": false,
   "cSpell.words": [
+    "gsap",
     "NYPL's"
   ],
   "html.format.wrapAttributes": "preserve-aligned",

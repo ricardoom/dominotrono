@@ -315,7 +315,7 @@ h6 {
 
 h1 {
   --line-height: clamp(1.25em, 2vw, 1.6em);
-  font-size: clamp(var(--s1), 2.36731844vw, var(--s2));
+  font-size: clamp(var(--s2), 2.36731844vw, var(--s3));
   line-height: var(--line-height, 1.2); }
 
 h2 {

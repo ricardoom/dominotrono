@@ -96,7 +96,7 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 
 h1 {
     --line-height: clamp(1.25em, 2vw, 1.6em); 
-    font-size: clamp(var(--s1), $preferredValue, var(--s2));
+    font-size: clamp(var(--s2), $preferredValue, var(--s3));
     line-height: var(--line-height, 1.2);
 }
 

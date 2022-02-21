@@ -34,4 +34,5 @@ Here a number of different projects that demonstrate the breadth and depth of my
 
 - Mama San Soul Shack
 
+See the rest of my portfolio
 Here is a link to my CV

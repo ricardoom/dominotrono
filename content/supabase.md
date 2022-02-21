@@ -18,17 +18,15 @@ I am a design engineer. I want to design and code. There I said it.
 
 Here a number of differnt projects that demonstrate the breadth and depth of my experience and skills.
 
-
-
 - StableHouse
 
 - NYPL Redesign
 
-- DCNM 
+- DCNM
 
 - NYPL / SimplyE Admin interface
 
-- Il Nido 
+- Il Nido
 
 - NYPL Best books
 

@@ -16,7 +16,7 @@ We can and should do accessibility, its easy to get wrong, but is not hard to ca
 
 I am a design engineer. I want to design and code. There I said it.
 
-Here a number of differnt projects that demonstrate the breadth and depth of my experience and skills.
+Here a number of different projects that demonstrate the breadth and depth of my experience and skills.
 
 - StableHouse
 

@@ -32,6 +32,7 @@ enableRobotsTXT = "true"
     placeHolderSVG = "/images/placeHolding.svg"
     [params.cloudinary]    
         class = "cld-responsive"
+        url = "https://res.cloudinary.com/toupeeproofbullets/image/upload"
     [params.twitter]
         name = "twitter"
         site = "@rixblargh"

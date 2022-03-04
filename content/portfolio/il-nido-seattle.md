@@ -57,7 +57,7 @@ newLayout: true
       >}}
 
       {{<
-        copy_wrapper class="details-grid__fiftyWords"
+        copy_wrapper class="details-grid__fiftyWords copy-block"
       >}}For Il Nido's most recent design update, I wanted to highlight the chef's photography while also adding visual elements to complement and emphasize the dynamism of both cuisine and chef.
       {{< /copy_wrapper >}}
 
@@ -70,10 +70,22 @@ newLayout: true
         figcaption=""
       >}}
       {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
-        For the second version of the site, I sought to create a visually appealing set of overlays, using the owner's photography to highlight the variety of flavors and textures.
+        I sought to create a visually appealing set of overlays, using the owner's photography to highlight the variety of flavors and textures.
       {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
+{{< section_wrapper class="details-grid">}}
+   {{< image_cld
+        class="details-grid__twentyWords image-block__right"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582758771/il-nido-il-corvo/ilNidomobileDetail.jpeg"
+      >}}
+
+    {{< copy_wrapper class="[ align-self-center ] details-grid__details-grid__twentyWords copy-block__left" >}}
+      In this detail, we see the a responsive view for small screens. CSS Grid was used along with media queries to achieve various layouts depending on screen size. 
+    {{< /copy_wrapper >}}
+{{< /section_wrapper >}}
+
+### Version 1 Visual Design
 
 {{< section_wrapper class="details-grid" >}}
 

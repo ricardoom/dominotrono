@@ -8,7 +8,7 @@ postImageSqip: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_cro
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1645485699/il-nido-il-corvo/ilnido-hp-v2.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1645485699/il-nido-il-corvo/ilnido-hp-v2.jpg'
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1645485699/il-nido-il-corvo/ilnido-hp-v2.jpg'
-portfolioHeroAlt: ''
+portfolioHeroAlt: 'an image of the three view port layouts'
 portfolioHeroSqip: '../media/portfolio/il_nido_seattle/ilNidoHeroSqip.svg'
 heroFigcaption: ''
 postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,f_auto,g_north,h_600,q_auto,w_600/v1645485813/il-nido-il-corvo/ilnido-hp-live.png'
@@ -33,18 +33,47 @@ newLayout: true
       {{< image_cld
         loading="eager"
         class="hero-grid__imageBlock"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570027260/il-nido-il-corvo/il-nido-responsive-screens.jpg"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570027260/il-nido-il-corvo/ilNidoScreens.jpg"
 
         alt="An image of the Il Nido website at various viewport dimensions"
        >}}
 
         {{< copy_wrapper class="hero-grid__copyBlock" >}}
-          Chef Mike Easton of Il Corvo Pasta in Seattle approached me to design and develop the website for his new restaurant concept Il Nido. No longer interested in maintaining a blog, he decided to close down his WordPress site and go with a simple brochure style single page site.
+          Seattle based Chef Mike Easton approached me to design and develop the website for his new restaurant concept Il Nido. No longer interested in maintaining a blog, we decided to close down his WordPress site and go with a simple brochure-style single-page site. Included in my remit was to increase their placement in search engine results.
         {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
 
-### Prototyping and Visual Design
+### Prototyping and Visual Design Versions 1 & 2
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< image_cld
+      class="details-grid__fiftyWords big-image"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570024423/il-nido-il-corvo/ilNidoScreensLower.jpg"
+
+      alt="The Second version of the Il Nido website at various viewport dimensions"
+      imgHeading=""
+      >}}
+
+      {{<
+        copy_wrapper class="details-grid__fiftyWords"
+      >}}For Il Nido's most recent design update, I wanted to highlight the chef's photography while also adding visual elements to complement and emphasize the dynamism of both cuisine and chef.
+      {{< /copy_wrapper >}}
+
+
+      {{< image_cld
+        class="details-grid__fiftyWords small-image "
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582758771/il-nido-il-corvo/ilNidodeskTopDetail.jpeg"
+
+        alt="An image of the home page screen"
+        figcaption=""
+      >}}
+      {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
+        For the second version of the site, I sought to create a visually appealing set of overlays, using the owner's photography to highlight the variety of flavors and textures.
+      {{< /copy_wrapper >}}
+
+{{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 

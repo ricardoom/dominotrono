@@ -1,4 +1,5 @@
 {{ $paginator := .Paginate .Site.RegularPages 20 }}
+{{ $url := .Site.Params.cloudinary.url }}
 
 {{ printf "<!-- home page portfolio block 2021 -->" | safeHTML }}
 <div class="portfolio-container">

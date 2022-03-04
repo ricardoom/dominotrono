@@ -17,8 +17,9 @@
 
 <li class="portfolio-list-item" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
-    <div class="portfolio-list-item__content">
+    <section class="portfolio-list-item__content">
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
+      <h1>{{ .Title }}</h1>
       <figure class="portfolio-list-item__content--hero {{ $color }}">
         <img class="portfolioHero__image lazy" data-srcset="{{ .Params.portfolioHero1x }},
                      {{ $2x }} 2x
@@ -33,7 +34,7 @@
         {{ end }}
       </figure>
       {{ end }}
-      <h1>{{ .Title }}</h1>
+      
       {{ if and ( $projectDescription ) ( ne $projectDescription "" ) }}
       <p class="portfolio-list-item__content--description">{{ $projectDescription }}</p>
       {{ end }}
@@ -43,6 +44,6 @@
         <li class="site-tags__tags">{{ delimit $tags ", "}}</li>
       </ul>
       {{ end }}
-    </div>
+    </section>
   </a>
 </li>

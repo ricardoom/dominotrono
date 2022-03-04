@@ -21,7 +21,7 @@ projectRoles: ['Art Direction', 'Designer', 'Developer']
 projectClients: ['Chef Mike Easton of Il Nido Seattle']
 projectCredits: []
 projectDate: ''
-tags: ['Logo Design', 'Web Design', 'Web Development', 'Brand Identity', 'HTML', 'JavaScript', 'Sass']
+tags: ['Logo Design', 'Web Design', 'Web Development', 'Brand Identity', 'HTML', 'Sass']
 weight: -9
 externalURL: 'http://ilnidoseattle.com'
 projectDesc: 'A freelance design and development project contracted by the Chef / Owner of Il Nido Seattle. This new business required a simple, maintenance-free website.'
@@ -34,7 +34,6 @@ newLayout: true
         loading="eager"
         class="hero-grid__imageBlock"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570027260/il-nido-il-corvo/ilNidoScreens.jpg"
-
         alt="An image of the Il Nido website at various viewport dimensions"
        >}}
 
@@ -44,48 +43,48 @@ newLayout: true
 
 {{< /section_wrapper >}}
 
-### Prototyping and Visual Design Versions 1 & 2
+### Prototyping and Visual Design Version 2
 
+{{< section_wrapper >}}
+  {{< image_cld
+      loading="eager"
+      class="details-grid__twentyWords image-block__left"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_3x,f_auto,q_auto/v1645485813/il-nido-il-corvo/ilnido-hp-live.jpg"
+      figcaption="A view of the live version of the website"
+      alt="An image of the Il Nido website"
+      >}}
+{{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-
     {{< image_cld
       class="details-grid__fiftyWords big-image"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570024423/il-nido-il-corvo/ilNidoScreensLower.jpg"
-
       alt="The Second version of the Il Nido website at various viewport dimensions"
-      imgHeading=""
       >}}
-
-      {{<
-        copy_wrapper class="details-grid__fiftyWords copy-block"
-      >}}For Il Nido's most recent design update, I wanted to highlight the chef's photography while also adding visual elements to complement and emphasize the dynamism of both cuisine and chef.
+      {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
+        For Il Nido's most recent design update, I wanted to highlight the chef's photography while also adding visual elements to complement and emphasize the dynamism of both cuisine and chef.
       {{< /copy_wrapper >}}
-
-
       {{< image_cld
-        class="details-grid__fiftyWords small-image "
+          loading="lazy"
+        class="details-grid__fiftyWords small-image"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582758771/il-nido-il-corvo/ilNidodeskTopDetail.jpeg"
-
         alt="An image of the home page screen"
         figcaption=""
       >}}
-      {{< copy_wrapper class="details-grid__fiftyWords copy-block" >}}
+      {{< copy_wrapper class="[ align-self-center ] details-grid__fiftyWords copy-block" >}}
         I sought to create a visually appealing set of overlays, using the owner's photography to highlight the variety of flavors and textures.
       {{< /copy_wrapper >}}
-
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid">}}
    {{< image_cld
         class="details-grid__twentyWords image-block__right"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582758771/il-nido-il-corvo/ilNidomobileDetail.jpeg"
       >}}
-
-    {{< copy_wrapper class="[ align-self-center ] details-grid__details-grid__twentyWords copy-block__left" >}}
-      In this detail, we see the a responsive view for small screens. CSS Grid was used along with media queries to achieve various layouts depending on screen size. 
+    {{< copy_wrapper class="[ align-self-center ] details-grid__twentyWords copy-block__left" >}}
+      In this detail, we see the a responsive view for small screens. CSS Grid was used along with media queries to achieve various layouts depending on screen size.
     {{< /copy_wrapper >}}
 {{< /section_wrapper >}}
 
-### Version 1 Visual Design
+### Visual Design Version 1
 
 {{< section_wrapper class="details-grid" >}}
 
@@ -117,6 +116,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
       {{< image_cld
+          loading="lazy"
         class="details-grid__fiftyWords big-image"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png"
 
@@ -125,6 +125,7 @@ newLayout: true
       >}}
 
       {{< image_cld
+          loading="lazy"
           class="details-grid__fiftyWords small-image "
           data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1570210025/il-nido-il-corvo/logos/il_nido_logo_metal.2.jpg"
           

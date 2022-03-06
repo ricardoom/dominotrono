@@ -441,6 +441,9 @@ main {
   padding-inline-end: var(--s0);
   padding-inline-start: var(--s0); }
 
+.align-self-center {
+  align-self: center; }
+
 @media (min-width: 19.25em) {
   .siteNavigation button {
     background: rgba(18, 18, 18, 0.5);
@@ -602,6 +605,15 @@ main {
     @media (min-width: 48em) {
       .site-tags__tag {
         display: block; } }
+.taxo-list > * > h1 {
+  color: #c2ff0a;
+  margin: 0 0 var(--s1) 0;
+  margin-block-end: var(--s1);
+  margin-block-start: 0;
+  padding: 0 clamp(var(--s0), 2.5vw, var(--s1));
+  padding-inline-end: clamp(var(--s0), 2.5vw, var(--s1));
+  padding-inline-start: clamp(var(--s0), 2.5vw, var(--s1)); }
+
 .jumbo {
   display: grid;
   grid-template-rows: repeat(8, min-content);
@@ -1248,7 +1260,7 @@ figure {
             width: calc(90% - var(--s0)); } }
       @media (min-width: 19.25em) {
         .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.copy-block {
-          grid-column: 1 / -1;
+          grid-column: 1 / 5;
           grid-row: auto / auto; } }
       @media (min-width: 48em) {
         .article-grid-wrapper__portfolioParent .portfolio__content .details-grid__fiftyWords.copy-block {

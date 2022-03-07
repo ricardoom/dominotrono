@@ -10,8 +10,18 @@ graphics:
   url: designBlob.svg
   class: designBlob
 ---
-Below are some completed projects and some experiments and sketches.
+Design is the core of my work. I have been working in some capcity as a designer for my entire adult life. At some point I will dig into the crates and give examples of my work from as far back as I can reach. For now the works below function as a companion and overview of my main portfolio. But in no particular order
 
-down here are a bunch of short codes and resources piped in from Hugo
-- use hugo resources
-- use hugo short  codes passing in variables from front matter and elsewhere...
+- JS experiments
+
+- DCNM 
+
+- Il Nido
+
+- Mama San
+
+- Diorama
+
+- NPL
+
+- Nasa posters

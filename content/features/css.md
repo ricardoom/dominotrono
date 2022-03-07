@@ -10,7 +10,7 @@ graphics:
   url: dart.svg
   class: dart
 ---
-But CSS is still my first love (as far as web design goes.) I was there when creating 960px grid layouts were all the rage. And "float rage" was real. Now its easy to just set up a grid or a flex and we can get down the real business of arguing over whether or not HTML is a programming language...(it is).
+But CSS is still my first love (as far as web design goes.) I was there when creating 960px grid layouts were all the rage. And "float rage" was real. Now its easy to just set up a grid or a flex and we can get down the real business of arguing over whether or not CSS is a programming language...
 
 While working as a freelance designer working w/ CSS and Sass are my bread and butter. I authored all the CSS on this site. For better or worse. Below are number of projects that show case my skill with CSS.
 

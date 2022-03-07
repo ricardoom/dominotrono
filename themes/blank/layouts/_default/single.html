@@ -4,7 +4,15 @@
 {{ end  }}
 {{ partial "header.html" . }}
 <main>
-  <div class="[ wrapper ][ grid-wrapper ]">
+  {{ if eq .Type "features" }}
+    {{ if $local }}
+    {{ printf "<!-- a feature page  -->" | safeHTML }}
+    {{ end  }}
+    <div class="[ wrapper ][ grid-wrapper ][ feature-page ]">
+    {{ else }}
+    <div class="[ wrapper ][ grid-wrapper ]">
+    {{ end  }}
+  
       
       <article class="[ site-article ]">
         <h1>{{ .Title }}</h1>
@@ -16,10 +24,7 @@
           {{ .Content }}
         </section>
         
-        {{ if eq .Type "features" }}
-          {{ printf "<!-- a feature page  -->" | safeHTML }}
-          
-        {{ end  }}
+        
         {{ if eq .Type "experiments"  }}
           {{/* Check the page param type and set a class or (whatever else based on that param) */}}
           {{ $experimentType := .Page.Param "experimentType" }}

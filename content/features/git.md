@@ -13,3 +13,7 @@ graphics:
 Lately... it's been sleepy. Been working on other stuff.
 
 But its 2022, and there are big things afoot. Or so I keep telling myself. [Behold!](https://github.com/ricardoom)
+
+I am setting up API keys and tokens to get more information out of this. A knockdown benefit from this work is getting more comfortable w/ using REST apis and setting up environments.
+
+More soon!

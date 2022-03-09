@@ -332,10 +332,11 @@ a:visited {
   background: #f16755; }
 
 a:hover, a:focus {
-  color: #f542ad; }
+  color: #c2ff0a;
+  outline: dotted #c2ff0a var(--s-3); }
 
 a:focus {
-  outline: dotted #f75b26 0.0625em; }
+  outline: dotted #c2ff0a var(--s-3); }
 
 code {
   background: rgba(241, 103, 85, 0.15);
@@ -509,9 +510,10 @@ main {
       padding-block-start: var(--s0);
       padding-inline-end: var(--s0); }
       .siteNavigation ul li a:hover, .siteNavigation ul li a:focus {
-        color: #c2ff0a; }
+        color: #c2ff0a;
+        outline: dotted #c2ff0a var(--s-3); }
       .siteNavigation ul li a:focus {
-        outline: #c2ff0a dotted 2px; }
+        outline: dotted #c2ff0a var(--s-3); }
     .siteNavigation ul.is-active {
       color: white;
       filter: opacity(1);
@@ -554,7 +556,7 @@ main {
       text-shadow: 2px 2px 2px #121212;
       color: white;
       padding: 0 var(--s-2) 0;
-      padding-block-start: 0;
+      padding-block-start: var(--s-2);
       padding-block-end: 0;
       padding-inline-end: var(--s-2);
       padding-inline-start: var(--s-2);
@@ -565,8 +567,6 @@ main {
     align-self: center;
     margin-right: var(--s0);
     margin-inline-end: var(--s0); }
-    .siteNavigation--items .text-link a:first-child {
-      padding-inline-start: 0; }
     @media (max-width: 47.99em) {
       .siteNavigation--items .text-link {
         align-self: flex-end; } }
@@ -1489,7 +1489,7 @@ footer {
     margin-block-end: 0; }
   .feature a p {
     --line-height: 1.2;
-    font-size: clamp(var(--s1), 2.36731844vw, var(--s2));
+    font-size: clamp(var(--s0), 2.36731844vw, var(--s2));
     line-height: var(--line-height);
     width: 65%; }
   .feature a svg {
@@ -1498,11 +1498,16 @@ footer {
     z-index: -100; }
 
 .feature .pivot {
+  border-radius: var(--s0);
   color: currentColor;
   filter: unset;
+  padding: var(--s3) var(--s2);
   transform: scale(1);
   transition: filter 300ms ease-out, transform 310ms ease-out;
   will-change: transform, transition; }
+  .feature .pivot:hover, .feature .pivot:focus {
+    outline: dotted #f542ad var(--s-3);
+    background-color: rgba(255, 255, 255, 0.5); }
 
 .feature .card-state {
   --string: 'px';

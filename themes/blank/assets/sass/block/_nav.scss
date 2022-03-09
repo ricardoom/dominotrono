@@ -93,9 +93,10 @@
           &:hover,
           &:focus {
             color: $site-acid-green;
+            @include focus-ring(outline)
           }
           &:focus {
-            outline: $site-acid-green dotted 2px;
+            @include focus-ring(outline)
           }
         }
       }
@@ -159,7 +160,7 @@
         @include basic-drop-shadow(text);
         color: $site-link-nav;
         padding: 0 var(--s-2) 0;
-        padding-block-start: 0;
+        padding-block-start:  var(--s-2);
         padding-block-end: 0;
         padding-inline-end: var(--s-2);
         padding-inline-start: var(--s-2);
@@ -177,7 +178,7 @@
       margin-inline-end: var(--s0);
 
       a:first-child {
-        padding-inline-start: 0;
+        // padding-inline-start: 0;
       }
 
       @include media('<tablet') {

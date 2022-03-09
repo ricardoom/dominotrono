@@ -124,7 +124,8 @@ a {
 
   &:hover,
   &:focus {
-    color: $site-punk-pink;
+    color: $site-acid-green;
+    @include focus-ring(outline);
   }
 
 &:focus {

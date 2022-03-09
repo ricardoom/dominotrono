@@ -12,15 +12,14 @@
 }
 
 .feature {
-
   section {
-    @media screen and (max-width: $small-screen ) {
+    @media screen and (max-width: $small-screen) {
       max-width: 100%;
       padding-block-start: var(--s2);
-      }
+    }
 
     max-width: 60%;
-    }
+  }
 
   section:first-child {
     z-index: 1000;
@@ -36,7 +35,6 @@
     margin-left: var(--s1);
     margin-inline-start: var(--s1);
     a {
-
       h1 {
         grid-area: 1 / 2 / 2 / -1;
       }
@@ -57,7 +55,6 @@
     margin-inline-end: var(--s1);
 
     a {
-
       h1 {
         grid-area: 1 / 1 / 2 / -1;
       }
@@ -72,16 +69,16 @@
     }
   }
 
-    a {
+  a {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     transition: filter 200ms ease-in;
-    text-decoration: none;  
+    text-decoration: none;
 
     &:hover,
     &:visited {
-     color: currentColor;
+      color: currentColor;
     }
 
     h1 {
@@ -95,7 +92,7 @@
 
     p {
       --line-height: 1.2;
-      font-size: clamp(var(--s1), $preferredValue, var(--s2));
+      font-size: clamp(var(--s0), $preferredValue, var(--s2));
       line-height: var(--line-height);
       width: 65%;
     }
@@ -107,11 +104,19 @@
     }
   }
   .pivot {
-     color: currentColor;
-     filter: unset;
-     transform: scale(1);
-     transition: filter 300ms ease-out, transform 310ms ease-out;
-     will-change: transform, transition;
+    border-radius: var(--s0);
+    color: currentColor;
+    filter: unset;
+    padding: var(--s3) var(--s2);
+    transform: scale(1);
+    transition: filter 300ms ease-out, transform 310ms ease-out;
+    will-change: transform, transition;
+
+    &:hover,
+    &:focus {
+      @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
+      background-color: transparentize($color: $site-white, $amount: 0.5);
+    }
   }
 
   .card-state {

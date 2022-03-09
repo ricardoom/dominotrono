@@ -12,8 +12,6 @@
     {{ else }}
     <div class="[ wrapper ][ grid-wrapper ]">
     {{ end  }}
-  
-      
       <article class="[ site-article ]">
         <h1>{{ .Title }}</h1>
         {{ if ne .Section "portfolio" }}
@@ -23,14 +21,11 @@
         <section class="site-single">
           {{ .Content }}
         </section>
-        
-        
         {{ if eq .Type "experiments"  }}
           {{/* Check the page param type and set a class or (whatever else based on that param) */}}
           {{ $experimentType := .Page.Param "experimentType" }}
           {{ if $local }}
           {{ printf "<!-- +++ experimental svg / canvas / ???  -->" | safeHTML }}
-         
           {{ end  }}
           {{ if and ( eq $experimentType "svg" ) ( ne $experimentType "" ) }}
 

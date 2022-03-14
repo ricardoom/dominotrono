@@ -80,7 +80,7 @@ $headings: (h1, h2, h3, h4, h5, h6);
 // slope = (maxFontSize - minFontSize) / (maxWidth - minWidth)
 // yAxisIntersection = -minWidth * slope + minFontSize
 // preferredValue = yAxisIntersection[rem] + (slope * 100)[vw]
-// TODO: make this a function so we can reuse it.... Every Where!
+// TODO: make this a function / mixin so we can reuse it.... Every Where!
 $screenDifference: $mega - $small;
 $fontDifference: $s2 - $s1;
 $slope: $fontDifference / $screenDifference;

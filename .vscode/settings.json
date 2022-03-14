@@ -2,7 +2,7 @@
   "editor.formatOnSave": false,
   "editor.tabSize": 2,
   "svg.preview.background": "transparent",
-  "editor.autoIndent": false,
+  "editor.autoIndent": "full",
   "cSpell.words": [
     "Nido's",
     "NYPL's",

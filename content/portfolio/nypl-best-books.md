@@ -33,7 +33,7 @@ externalURL: 'https://www.nypl.org/books-music-movies/recommendations/best-books
 projectCredits:
   ['Edwin Guzman', 'Kang Ting Peng', 'Willa Armstrong', 'Courtney McGee']
 projectDate: '2016 - 2018'
-projectDesc: 'We created the Best Books app to highlight the expertise and extensive breadth of knowledge held by the librarians working at NYPL. We built an interactive tool allowing users to discover what the librarians were reading and recommend to their patrons.'
+projectDesc: 'We created the Best Books app to highlight the expertise and extensive breadth of knowledge held by the librarians working at NYPL. We built an interactive tool allowing users to discover new recommendations from our expert staff'
 newLayout: true
 ---
 

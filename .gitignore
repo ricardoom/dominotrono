@@ -20,3 +20,6 @@ public/
 deploy
 deliver
 sandbox/
+
+# ingnore hugo lock file
+.hugo_build.lock

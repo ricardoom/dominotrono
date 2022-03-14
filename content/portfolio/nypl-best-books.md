@@ -37,6 +37,7 @@ projectDesc: 'We created the Best Books app to highlight the expertise and exten
 newLayout: true
 ---
 
+
 {{< section_wrapper class="hero-grid" >}}
 
     {{< image_cld
@@ -53,7 +54,7 @@ newLayout: true
 
 {{< /section_wrapper >}}
 
-### Prototyping and Wireframing
+### Prototyping and Wire Framing
 
 {{< section_wrapper class="details-grid" >}}
   

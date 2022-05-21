@@ -1,0 +1,15 @@
+{
+  "name": "dominotrono",
+  "version": "1.0.0",
+  "description": "personal website thing",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardoom/dominotrono.git"
+  },
+  "scripts": {},
+  "author": "ricardo galvez",
+  "license": "MIT"
+}

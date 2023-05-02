@@ -25,4 +25,7 @@
   },
   "prettier.requirePragma": true,
   "prettier.useTabs": true,
+  "conventionalCommits.scopes": [
+    "Content Updates"
+  ],
 }

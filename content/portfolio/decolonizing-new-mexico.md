@@ -24,7 +24,7 @@ projectDate: '2020 - 2021'
 tags: ['Web Design', 'Visual Design', 'Hugo', 'Forestry.io', 'Netlify', 'Cloudinary']
 weight: -10
 externalURL: 'http://decolonizingnewmexico.com'
-projectDesc: 'Decolonizing New Mexico is an ongoing project meant to enter gather historical context and ideas toward the development of a process, centering truth and transformation in New Mexico.'
+projectDesc: 'Decolonizing New Mexico is an ongoing project meant to gather historical context and ideas toward the development of a process, centering truth and transformation in New Mexico.'
 newLayout: true
 ---
 {{< section_wrapper class="hero-grid" >}}

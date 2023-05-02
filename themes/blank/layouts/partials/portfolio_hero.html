@@ -15,7 +15,7 @@
 {{ $tags := .Params.tags }}
 {{ $projectDescription := .Params.projectDesc }}
 
-<li class="portfolio-list-item" data-post-date="{{ $date }}">
+<li class="[ portfolio-list-item ]" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
     <section class="portfolio-list-item__content">
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}

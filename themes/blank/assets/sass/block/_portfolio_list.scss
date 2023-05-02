@@ -6,7 +6,9 @@
   // TODO: move this list rule to E for Exception
   list-style-type: none;
   // margin: var(--s1) 0;
-
+  margin-block-end: var(--s0);
+  margin-block-start: var(--s0);
+  
   &__content {
     
     &--hero {

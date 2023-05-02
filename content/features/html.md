@@ -17,11 +17,9 @@ graphics:
 
 Here a number of projects where I've authored the markup or otherwise been instrumental in the design and development of the entire project in a significant way...
 
-{{< section_wrapper class="hero-grid" >}}
+{{< feature_wrapper class="hero-grid" >}}
   {{< image_cld
-        class="hero-grid__imageBlock"
-        
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto,t_portfolio_hero_16_9/v1548722203/nypl-design-toolkit/dtk.small.jpg"
+        class="hero-grid__imageBlock" data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto,t_portfolio_hero_16_9/v1548722203/nypl-design-toolkit/dtk.small.jpg"
         alt="An image of a NYPL Design Toolkit page"
       >}}
-{{< /section_wrapper>}}
+{{< /feature_wrapper>}}

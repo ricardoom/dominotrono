@@ -22,4 +22,7 @@
     "statusBar.foreground": "#82fd51",
     "statusBar.background": "#237c00"
   },
+  "conventionalCommits.scopes": [
+    "Content Update"
+  ],
 }

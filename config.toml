@@ -4,6 +4,12 @@ title = "ricardogalvez.design"
 theme = "blank"
 relativeURLs = "true"
 enableRobotsTXT = "true"
+enableGitInfo = "true"
+[frontmatter]
+  date = ['lastmod', 'publishDate', 'date']
+#   expiryDate = ['expiryDate']
+  lastmod = ['lastmod', ':fileModTime', ':default']
+#   publishDate = ['publishDate', 'date']
 
 [params]
     author="Ricardo Eric Gálvez"

@@ -10,7 +10,7 @@ portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_8
 portfolioHeroSqip: '../media/portfolio/shakespeare/shakespeareSqip.svg'
 portfolioHeroAlt: ''
 heroFigcaption: ''
-postImageSqip: '../media/portfolio/shakespeare/shakespeare_postimage.svg'
+postImageSqip: '../media/portfolio/shakespeare/shakespeareHP.svg'
 postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio/v1581539539/wnet/shakespeareHP.jpg'
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_2x/v1581539539/wnet/shakespeareHP.jpg'
 postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x/v1581539539/wnet/shakespeareHP.jpg'

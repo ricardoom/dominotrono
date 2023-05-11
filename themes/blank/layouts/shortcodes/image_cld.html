@@ -19,8 +19,7 @@
 <h3>{{ $imgHeading }}</h3>
 {{ end }}
 
-<figure class="{{ $class }}" {{ if $title }} title="{{ $title }}" {{ end }}>
-  
+<figure class="[ {{ $class }} ]" {{ if $title }} title="{{ $title }}" {{ end }}>
   <img 
     class="{{ $cl.class }}"
     src="{{ $placeHolder }}"

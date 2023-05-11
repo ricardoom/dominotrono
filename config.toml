@@ -38,6 +38,11 @@ enableGitInfo = "true"
     placeHolderSVG = "/images/placeHolding.svg"
     [params.cloudinary]    
         class = "cld-responsive"
+        cloudPath = "https://res.cloudinary.com/toupeeproofbullets/image/upload/"
+        portfolioHero = "q_auto,f_auto,w_auto/"
+        postImage = "c_scale,q_auto,f_auto,w_auto/"
+        cloudID = "v1234567890/"
+        cloudDir = "cloudinary-dirctory/"
     [params.twitter]
         name = "twitter"
         site = "@rixblargh"

@@ -4,19 +4,24 @@ date: {{ .Date }}
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
+## Placeholders
 postImageSqip: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/sqip.svg'
+
 portfolioHeroSqip: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/sqip.svg'
-portfolioHero1x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/placeHolder_sm.png'
-portfolioHero2x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}heroPlaceholder@2x.png'
-portfolioHero3x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/heroPlaceholder@3x.png'
+## Hero Images
+portfolioHero1x: '{{ .Site.Params.cloudinary.cloudPath }}{{ .Site.Params.cloudinary.portfolioHero }}{{ .Site.Params.cloudinary.cloudId }}{{ replace .TranslationBaseName '-' '_' | lower }}/placeHolder_sm.png'
+##
+portfolioHero2x: '{{ .Site.Params.cloudinary.cloudPath }}{{ .Site.Params.cloudinary.portfolioHero }}{{ .Site.Params.cloudinary.cloudId }}{{ replace .TranslationBaseName '-' '_' | lower }}/heroPlaceholder@2x.png'
+##
+portfolioHero3x: '{{ .Site.Params.cloudinary.cloudPath }}{{ .Site.Params.cloudinary.portfolioHero }}{{ .Site.Params.cloudinary.cloudId }}{{ replace .TranslationBaseName '-' '_' | lower }}/heroPlaceholder@3x.png'
+##
 portfolioHeroAlt: ''
 # heroFigcaption goes on the portfolio/ landing page
 heroFigcaption: ''
-postImage1x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/placeHolder_sm.png'
-postImage2x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/placeHolder_sm@2x.png'
-postImage3x: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/placeHolder_sm@3x.png'
+postImage1x: '{{ .Site.Params.cloudinary.cloudPath }}{{ .Site.Params.cloudinary.postImage }}{{ .Site.Params.cloudinary.cloudID }}{{ replace .TranslationBaseName '-' '_' | lower }}/file-name.jpg'
+postImage2x: '{{ .Site.Params.cloudinary.cloudPath }}{{ .Site.Params.cloudinary.postImage }}{{ .Site.Params.cloudinary.cloudID }}{{ replace .TranslationBaseName '-' '_' | lower }}/file-name.jpg'
+postImage3x: '{{ .Site.Params.cloudinary.cloudPath }}{{ .Site.Params.cloudinary.postImage }}{{ .Site.Params.cloudinary.cloudID }}{{ replace .TranslationBaseName '-' '_' | lower }}/file-name.jpg'
 postImageAlt: ''
-figcaption: ''
 svgClipObjectClass: ''
 svgColorClass: ''
 projectRoles: ['role one', 'role two']

@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-## Placeholders
+## SQIP / LQIP Placeholders
 postImageSqip: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/sqip.svg'
 
 portfolioHeroSqip: '../media/portfolio/{{ replace .TranslationBaseName '-' '_' | lower }}/sqip.svg'
@@ -32,5 +32,5 @@ tags: []
 weight: 10
 externalURL: ''
 projectDesc: ''
-newLayout: #true or false
+newLayout: true
 ---

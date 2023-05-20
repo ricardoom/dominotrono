@@ -27,11 +27,10 @@ svgColorClass: 'site-color--hot-orange'
 projectRoles: ['Design & Technology Lead']
 projectClients: ['Dr Estevan Rael—Galvez']
 projectCredits: []
-projectDate: ''
-tags: []
-weight: -15
+projectDate: '2021—2023'
+tags: ['Design', 'Development', 'Figma', 'Branding', 'Design Systems']
+weight: -14
 externalURL: ''
-projectDesc: ''
-newLayout: #true or false
+projectDesc: 'From 2021 to early 2022, I acted as chief technical and creative advisor on the archival scholarly project called Native Bound Unbound. The objective of Native Bound-Unbound is to create a centralized digital repository centered on the lives of enslaved Indigenous people across the Americas.'
+newLayout: true
 ---
-https://res.cloudinary.com/toupeeproofbullets/image/upload/v1683830083/native-bound-unbound/nbuPostImage.jpg

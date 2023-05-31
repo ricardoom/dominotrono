@@ -1,44 +1,39 @@
-<!-- short code for big-blog-image.html -->
-<!-- this kind of sucks but in order to provide low res AND lower pixel density images, this has to accept FOUR versions of the same image... bummer... -->
+<!-- short code for images pulled from Cloudinary -->
+
 <!-- prettier-ignore -->
 {{ $class := .Get "class" }}
 {{ $title := .Get "title" }}
 {{ $dataSrc := .Get "data-src" }}
-
+{{ $alt := .Get "alt" }}
 {{ $loading := .Get "loading" }}
-{{ $imgHeading := .Get "imgHeading" }}
-
-{{ $placeHolder := $.Site.Params.placeHolderSVG }}
+{{ $sh := .Get "sectionHeading" }}
+{{ $fc := .Get "figcaption" }}
+{{ $ph := $.Site.Params.placeHolderSVG }}
 {{ $cl := $.Site.Params.cloudinary }}
-
 {{ $path := $cl.cloudPath }}
 
-<!--
-  add cloudinary snazz here instead of all this confusing srset etc...
--->
-
-{{ if and ( $imgHeading ) ( ne $imgHeading "" ) }}
-<h3>{{ $imgHeading }}</h3>
+{{ if and ( $sh ) ( ne $sh "" ) }}
+<h4 class="[ heading ]">{{ $sh }}</h4>
 {{ end }}
 
 <figure class="[ {{ $class }} ]" {{ if $title }} title="{{ $title }}" {{ end }}>
   
   <img 
-    class="{{ $cl.class }}"
-    src="{{ $placeHolder }}"
+    class="[ {{ $cl.class }} ]"
+    src="{{ $ph }}"
     data-src="{{ $dataSrc }}"
     {{ with $loading }}
     loading="{{ . }}"
     {{ else }}
     loading="lazy"
     {{ end }}
-    {{  with .Get "alt" }} 
+    {{  with $alt }} 
       alt="{{ . }}" 
     {{ else }}
-    alt="an image in the post {{ .Params.Title }}"
+    alt="an image of an artifact in the {{ .Params.Title }} portfolio item"
     {{ end }}
      />
-  {{ with .Get "figcaption" }}
+  {{ with $fc }}
   <figcaption>{{ . }}</figcaption>
   {{ end }}
 </figure>

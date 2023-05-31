@@ -64,48 +64,86 @@ newLayout: true
     {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 
+### Visual Design and Art Direction
 {{< section_wrapper class="details-grid" >}}
 
 {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684799719/native-bound-unbound/MoodThemes.webp"
       alt=""
-      figcaption=""
-      caption=""
+      figcaption="Mood board: color, type and logo explorations, as well as employing imagery"
       class="details-grid__fiftyWords big-image"
 >}}
 
-  {{< copy_wrapper
-    class="details-grid__twoByTwo copy-block__right" >}}
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+      {{< copy_wrapper
+    class="details-grid__twentyWords copy-block__right" >}}
     Id eiusmod ea ullamco laboris pariatur qui Lorem sunt magna veniam nostrud officia pariatur. Eu sit veniam ad aliqua nostrud elit sit consequat ad enim duis. Et occaecat irure ut ullamco officia amet aute ullamco do culpa dolore labore id aliqua.
 
     Nulla fugiat ex in quis enim dolore consequat reprehenderit ullamco. Tempor do duis duis veniam consectetur non labore dolore. Do in sunt incididunt eu fugiat laborum id ut dolor officia occaecat id est consectetur. Sint fugiat pariatur voluptate aliquip labore. Aliquip ex duis reprehenderit exercitation qui magna nisi sint tempor occaecat ullamco enim.       
   {{< /copy_wrapper>}}
+
+
+    {{< image_cld
+      loading=" lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685557266/native-bound-unbound/Color_Set_Final.webp"
+      alt="An image of the approved color set for the website and applications"
+      figcaption="Approved color set for the website and applications"
+      class="details-grid__twentyWords image-block__left"
+    >}}
+
 {{< /section_wrapper>}}
-### Page & Screen Layouts
+
 {{< section_wrapper class="details-grid" >}}
-  {{< image_cld
-    loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683580752/native-bound-unbound/HomePageDark.jpg"
-    alt=""
-    figcaption=""
-    caption=""
-    class="details-grid__twoByTwo image-block__left"
-  >}}
 
   {{< image_cld
-    loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683580754/native-bound-unbound/HomePageLight.jpg"
-    alt=""
-    figcaption=""
-    caption=""
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1685569391/native-bound-unbound/Logos.webp"
+    alt="An image of logo types organized in a grid"
+    figcaption="The panopoly of logos. A wide variety for a number of differnet applications and implementations."
     class="details-grid__twoByTwo image-block__right"
-  >}}
+  >}}    
 
-{{< copy_wrapper
-  class="details-grid__twoByTwo copy-block__right" >}}
-  Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
-  {{< /copy_wrapper>}}
+{{< /section_wrapper>}}
+
+### Typography
+
+{{< section_wrapper class="details-grid" >}}
+    
+    {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__left" >}}
+      Eu est nostrud enim id duis dolore. Duis sunt nostrud enim cupidatat proident non ullamco reprehenderit non cillum. Tempor excepteur mollit pariatur aliquip velit irure ipsum labore.
+    {{< /copy_wrapper>}}
+
+    {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126320/native-bound-unbound/Text_Lockups.webp"
+      alt="An image of basic tyopgraphic treatments for the project"
+      figcaption=""
+      caption="Basic typographic treatments from which to build further specimens from"
+      class="details-grid__fiftyWords big-image"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< copy_wrapper
+      class="details-grid__fiftyWords copy-block" >}}
+      Velit ea minim dolore occaecat ipsum laborum irure irure culpa. Excepteur sint do reprehenderit consequat proident nisi minim non occaecat proident aliqua consectetur qui magna. Dolore duis ad do commodo Lorem dolor elit voluptate.
+    {{< /copy_wrapper>}}
+
+    {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685484977/native-bound-unbound/Type_and_Scales.webp"
+      alt=""
+      figcaption=""
+      caption=""
+      class="details-grid__fiftyWords big-image"
+    >}}
 
 {{< /section_wrapper>}}
 
@@ -117,12 +155,30 @@ newLayout: true
     loading="eager"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126322/native-bound-unbound/Buttons.webp"
     alt="A image of variations on basic button, with both icons and without"
-    figcaption="Variations on basic button, with both icons and without"
-    caption="Variations on basic button, with both icons and without"
+    figcaption="Variations on basic button, with both icons and without. This included basic type treatments as well"
     class="details-grid__fiftyWords big-image"
     >}}
 
 {{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1685126322/native-bound-unbound/Inputs.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__right"
+    >}}
+
+    {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__left" >}}
+      Cillum pariatur irure culpa do fugiat nisi eiusmod magna nisi cupidatat. Voluptate in ipsum elit deserunt consectetur laboris fugiat ipsum anim ad irure et est sunt. Labore non consectetur exercitation sit Lorem elit excepteur sunt ex eu laboris esse.
+    {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+
 
 ### Components
 
@@ -138,13 +194,33 @@ newLayout: true
     >}}
 
 {{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685558092/native-bound-unbound/PrimaryNav.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__left "
+    >}}
+
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Tempor consectetur anim nisi est ex et. Eu aute enim et nostrud irure anim ullamco eiusmod veniam veniam occaecat aute esse amet. Aliqua laborum mollit esse cupidatat ex. Nisi sit veniam eiusmod voluptate consectetur quis. Ullamco nisi in sit aliquip reprehenderit exercitation.
+    {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+
+
 {{< section_wrapper class="details-grid" >}}
 
     {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_1280_2x_portfolioHero,q_auto,f_auto,w_auto/v1685057837/native-bound-unbound/Images_captions.webp"
-    alt="Words in the direction..."
-    figcaption="Velit et incididunt officia eiusmod laborum in. Deserunt esse deserunt ipsum officia nulla esse nostrud officia dolor officia."
+    alt="A layout displaying image layouts with captions"
+    figcaption="The design system created in Figma showing large, full width images with their layout layers both on and off, as well as light and dark mode versions"
     caption=""
     class="details-grid__fiftyWords big-image"
     >}}
@@ -173,43 +249,35 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-
-
-
-### Typography
-
+### Page & Screen Layouts
 {{< section_wrapper class="details-grid" >}}
-    
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Eu est nostrud enim id duis dolore. Duis sunt nostrud enim cupidatat proident non ullamco reprehenderit non cillum. Tempor excepteur mollit pariatur aliquip velit irure ipsum labore.
-    {{< /copy_wrapper>}}
 
-    {{< image_cld
+  {{< copy_wrapper
+    class="details-grid__twoByTwo copy-left" >}}
+    Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
+  {{< /copy_wrapper>}}
+
+  {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126320/native-bound-unbound/Text_Lockups.webp"
-    alt="An image of basic tyopgraphic treatments for the project"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683580752/native-bound-unbound/HomePageDark.jpg"
+    alt=""
     figcaption=""
-    caption="Basic typographic treatments from which to build further specimens from"
-    class="details-grid__fiftyWords big-image"
-    >}}
+    caption=""
+    class="details-grid__twoByTwo image-block__left"
+  >}}
 
-{{< /section_wrapper>}}
+  {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683580754/native-bound-unbound/HomePageLight.jpg"
+    alt=""
+    figcaption=""
+    caption=""
+    class="details-grid__twoByTwo image-block__right"
+  >}}
 
-{{< section_wrapper class="details-grid" >}}
-
-    {{< copy_wrapper
-      class="details-grid__fiftyWords copy-block" >}}
-      Velit ea minim dolore occaecat ipsum laborum irure irure culpa. Excepteur sint do reprehenderit consequat proident nisi minim non occaecat proident aliqua consectetur qui magna. Dolore duis ad do commodo Lorem dolor elit voluptate.
-    {{< /copy_wrapper>}}
-
-    {{< image_cld
-      loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685484977/native-bound-unbound/Type_and_Scales.webp"
-      alt=""
-      figcaption=""
-      caption=""
-      class="details-grid__fiftyWords big-image"
-    >}}
+  {{< copy_wrapper
+    class="details-grid__twoByTwo copy-block__right" >}}
+    Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
+  {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}

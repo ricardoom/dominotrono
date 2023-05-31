@@ -23,7 +23,7 @@ postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,
 postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684517351/curriculex/CurriculexHPCardSM.jpg'
 postImageAlt: ''
 svgClipObjectClass: ''
-svgColorClass: ''
+svgColorClass: 'site-color--seafoam-green'
 projectRoles: ['UX Designer']
 projectClients: ['Pearson']
 projectCredits: ['Nicole Nishimoto', 'Don Bratton']

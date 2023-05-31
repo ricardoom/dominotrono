@@ -1,0 +1,11 @@
+<!-- Section Heading for portfolio sections -->
+<!-- Ex: H4 before an image block to head up a lower section in the body of the page -->
+
+
+
+{{ $ih := .Get "imgHeading" }}
+
+
+{{ if and ( $ih ) ( ne $ih "" ) }}
+<h4 class="[ heading ]">{{ $ih }}</h4>
+{{ end }}

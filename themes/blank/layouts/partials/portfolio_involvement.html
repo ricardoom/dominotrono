@@ -50,7 +50,7 @@
   {{ if and ( $tags ) ( ne $tags "" ) }}
   <h3>Tagged:</h3>
   <ul id="tags">
-    {{ range $tags }}
+    {{ range sort $tags }}
     <li class="site-tags__tag">
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
     </li>

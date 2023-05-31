@@ -42,7 +42,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      For full disclosure Dr. Rael–Gálvez and I are first cousins. The project grew out of an informal consulting relationship when Dr. Rael–Gálvez contacted me for advice on how he should go about creating and publishing his paper <i>"Decolonizing New Mexico"</i> to his website. Rather than bury this timely and important piece in PDF form there, I suggested we create a website around this important and timely piece, as a result of a number of conversations, this project was born. It gave me valuable insight and experience working with Hugo, Netlify, Forestry and modern CSS, HTML and JavaScript, as well as ancillary technologies like git, and bash scripting.
+      For full disclosure Dr. Rael–Gálvez and I are first cousins. The project grew out of an informal consulting relationship when Dr. Rael–Gálvez contacted me for advice on how he should go about creating and publishing his paper <i>"Decolonizing New Mexico"</i> to his website. Rather than bury this timely and important piece in PDF form there, I suggested we create a website. As a result this project we collaborated to create this project. It gave me valuable insight and experience working with Hugo, Netlify, Forestry and modern CSS, HTML and JavaScript, as well as ancillary technologies like git, and bash scripting.
     {{< /copy_wrapper>}}
     {{< image_cld
     loading="eager"

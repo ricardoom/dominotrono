@@ -11,6 +11,8 @@
 {{ $placeHolder := $.Site.Params.placeHolderSVG }}
 {{ $cl := $.Site.Params.cloudinary }}
 
+{{ $path := $cl.cloudPath }}
+
 <!--
   add cloudinary snazz here instead of all this confusing srset etc...
 -->
@@ -20,6 +22,7 @@
 {{ end }}
 
 <figure class="[ {{ $class }} ]" {{ if $title }} title="{{ $title }}" {{ end }}>
+  
   <img 
     class="{{ $cl.class }}"
     src="{{ $placeHolder }}"

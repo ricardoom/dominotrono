@@ -9,26 +9,26 @@ postImageSqip: '../media/portfolio/stablehouse/sqip.svg'
 
 portfolioHeroSqip: '../media/portfolio/stablehouse/sqip.svg'
 ## Hero Images
-portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1234567890/stablehouse/placeHolder_sm.png'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9,q_auto,f_auto/v1647544269/stablehouse/shHomeScreen.webp'
 ##
-portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1234567890/stablehouse/heroPlaceholder@2x.png'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9,q_auto,f_auto/v1647544269/stablehouse/shHomeScreen.webp'
 ##
-portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1234567890/stablehouse/heroPlaceholder@3x.png'
+portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9,q_auto,f_auto/v1647544269/stablehouse/shHomeScreen.webp'
 ##
 portfolioHeroAlt: ''
 # heroFigcaption goes on the portfolio/ landing page
 heroFigcaption: ''
-postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_auto,f_auto,w_auto/v1234567890/stablehouse/file-name.jpg'
-postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_auto,f_auto,w_auto/v1234567890/stablehouse/file-name.jpg'
-postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_auto,f_auto,w_auto/v1234567890/stablehouse/file-name.jpg'
+postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio,q_auto,f_auto,w_auto/v1647544269/stablehouse/shHomeScreen.webp'
+postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio,q_auto,f_auto,w_auto/v1647544269/stablehouse/shHomeScreen.webp'
+postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio,q_auto,f_auto,w_auto/v1647544269/stablehouse/shHomeScreen.webp'
 postImageAlt: ''
 svgClipObjectClass: ''
-svgColorClass: ''
-projectRoles: ['role one', 'role two']
-projectClients: ['client A', 'client B']
-projectCredits: ['collaborator 1', 'collaborator 2']
+svgColorClass: 'site-color--punk-pink'
+projectRoles: ['UI Engineer']
+projectClients: ['Stablehouse.com']
+projectCredits: ['']
 projectDate: '2021'
-tags: []
+tags: ['Sass', 'React', 'HTML', 'JavaScript', 'Gatsby']
 weight: -12
 externalURL: ''
 projectDesc: ''

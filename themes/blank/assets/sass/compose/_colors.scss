@@ -58,6 +58,7 @@ $site-colors: (
   brown: $site-seafoam-green,
   canary-yellow: $site-canary-yellow,
   sage-green: $site-sage-green,
+  seafoam-green: $site-seafoam-green,
 );
 
 @each $site-color-name, $site-color in $site-colors {

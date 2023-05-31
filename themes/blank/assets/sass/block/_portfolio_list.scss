@@ -95,7 +95,8 @@
 
       li {
         display: inline-block;
-        padding: var(--s-1) var(--s0);
+        padding: var(--s-1) var(--s-1);
+        text-transform: capitalize;
       }
 
       background-color: transparentize($site-black, 0.15);

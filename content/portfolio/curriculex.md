@@ -34,3 +34,125 @@ externalURL: ''
 projectDesc: ''
 newLayout: true
 ---
+
+{{< section_wrapper class="hero-grid" >}}
+
+    {{< image_cld
+      loading="eager"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_16_9,f_auto,w_auto,q_auto/v1685578723/curriculex/analytics/analytics.webp"
+      alt=""
+      figcaption=""
+      class="hero-grid__imageBlock"
+    >}}
+
+    {{< copy_wrapper
+      class="hero-grid__copyBlock" >}}
+      Ipsum ut non pariatur nulla sunt incididunt et cupidatat aliqua culpa fugiat. Ex pariatur incididunt officia dolor Lorem mollit sunt occaecat minim duis do dolor labore. Enim nisi duis laboris quis do aliqua cupidatat aliqua. Minim duis duis ut non incididunt do.
+    {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+### Problem to solve...
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+        {{< /copy_wrapper>}}
+        
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+        {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+### Overview 
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+        {{< /copy_wrapper>}}
+        
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+        {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+
+### Before Class Experience
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+        {{< /copy_wrapper>}}
+        
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__right" >}}
+          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+        {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+#### Instructor Dashboards
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+        {{< /copy_wrapper>}}
+        
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+        {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+### During Class Experience
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+        {{< /copy_wrapper>}}
+        
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+        {{< /copy_wrapper>}}
+
+
+
+{{< /section_wrapper>}}
+
+
+#### Group Work
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+        {{< /copy_wrapper>}}
+        
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+        {{< /copy_wrapper>}}
+
+
+
+{{< /section_wrapper>}}
+
+#### Lecture Feature
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+        {{< /copy_wrapper>}}
+        
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+        {{< /copy_wrapper>}}
+
+
+
+{{< /section_wrapper>}}

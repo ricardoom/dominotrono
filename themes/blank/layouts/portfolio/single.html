@@ -17,7 +17,7 @@
      <time>{{ .Lastmod | time.Format ":date_long" }}</time>
     {{ end }}
      <div class="{{ if ( $newLayout ) }}{{ $atWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioParent">
-        <div  class="portfolio__content [ stack ]">
+        <div  class="[ portfolio__content ][ stack ]">
           {{ .Content }}
         </div>
       </div>

@@ -44,8 +44,9 @@ $headings: (h1, h2, h3, h4, h5, h6);
     font-family: $serif;
     font-weight: 200;
     font-style: normal;
-    // line-height: var(--s1);
-    margin: var(--s-1) 0;
+    margin-block-end: var(--s-1);
+    margin-block-start: var(--s-1);
+    margin-inline: 0;
 
     ///
     /// Headings that wrap links
@@ -78,15 +79,15 @@ $headings: (h1, h2, h3, h4, h5, h6);
 $screenDifference: $mega - $small;
 $fontDifference: $s2 - $s1;
 $slope: $fontDifference / $screenDifference;
-$yAxisIntersection : (($small * -1) * $slope) + $s0;
+$yAxisIntersection: (($small * -1) * $slope) + $s0;
 $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 
-// @debug $s0, $s1, $s2;
-// @debug $screenDifference;
-// @debug $fontDifference;
-// @debug $slope;
-// @debug $yAxisIntersection ;
-// @debug $preferredValue;
+@debug $s0, $s1, $s2;
+@debug $screenDifference;
+@debug $fontDifference;
+@debug $slope;
+@debug $yAxisIntersection ;
+@debug $preferredValue;
 
 h1 {
     --line-height: clamp(1.25em, 3.5vw, 1.6em); 
@@ -105,6 +106,8 @@ h3 {
   // font-size: clamp(, #{$ideal}, #{$max});
   font-size: clamp(1.125em, var(--s0), 24px);
 }
+
+h4 {}
 
 ///
 /// Set a base link style here:

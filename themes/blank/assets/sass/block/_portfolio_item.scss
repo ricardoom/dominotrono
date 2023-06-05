@@ -29,7 +29,7 @@
         margin-bottom: var(--s0);
       }
     // magic numbers
-      @include responsive-font(1.5vw, 1.6em, 22px, 32px);
+      // @include responsive-font(1.5vw, 1.6em, 22px, 32px);
       margin: var(--s1) 0 0;
     }
 
@@ -190,6 +190,11 @@
         }
 
         &__fiftyWords {
+          &.figma-embed {
+            background-color: red;
+            width: 1244px;
+            height: 804px;
+          }
           &.big-image {
             @include add-to-grid('>=phone', 1, -1, 1, 2);
             @include add-to-grid('>=tablet', 1, -1, 1, 2);

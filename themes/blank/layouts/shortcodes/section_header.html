@@ -2,10 +2,11 @@
 <!-- Ex: H4 before an image block to head up a lower section in the body of the page -->
 
 
+<!-- the Heading level number goes here -->
+{{ $l := .Get "level" }}
+{{ $t := .Get "text" }}
 
-{{ $ih := .Get "imgHeading" }}
 
-
-{{ if and ( $ih ) ( ne $ih "" ) }}
-<h4 class="[ heading ]">{{ $ih }}</h4>
+{{ if and ( $l ) ( ne $l "" ) }}
+<h{{ $l }} class="[ heading ]">{{ $t }}</h{{ $l }}>
 {{ end }}

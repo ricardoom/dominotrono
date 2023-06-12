@@ -1,10 +1,7 @@
-<!-- Section Wrapper -->
-
+{{/*  Section Wrapper  */}}
 {{ $layout := .Get "layout" }}
-
 {{ if and ( $layout ) ( ne $layout "" ) }}
-
-<section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }} >
+<section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }}>
     <div class="flex">
         {{ .Inner }}
     </div>

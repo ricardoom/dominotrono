@@ -164,6 +164,9 @@
 // Twenty Words
 //
         &__twentyWords {
+          img {
+            margin-block: var(--s0);
+          }
           
           &.image-block {
             &__left {

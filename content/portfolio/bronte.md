@@ -50,6 +50,112 @@ newLayout: true
       {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 
-{{<raw >}}
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1244" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPnkuVon3hkUd5DQdEV4lej%2FBRNT-16131%3Ftype%3Ddesign%26node-id%3D1340%253A8172%26t%3DI5trwOAmn5XzLxYP-1" allowfullscreen></iframe>
-{{< /raw>}}
+
+
+
+
+
+{{< section_wrapper class="details-grid" >}}
+
+{{< section_header level="2" text="Publishing" >}}    
+
+    {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__left" >}}
+      Eu mollit consequat et aute. Aute quis tempor in esse voluptate amet sit elit exercitation consequat. Veniam quis anim voluptate minim nisi fugiat fugiat. Proident culpa nisi in ad tempor consectetur ut nostrud tempor.
+    {{< /copy_wrapper>}}
+
+  {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686770581/bronte/BrontePublishingWire.webp"
+    alt="An image of a set of screens related to the publishing workflow"
+    figcaption="Initial overview of a publishing workflows"
+    class="details-grid__fiftyWords big-image"
+    >}}
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+  {{< section_header level="3" text="Problem to solve:" >}}
+        {{< copy_wrapper
+          class="details-grid__twoByTwo copy-block__left" >}}
+          Publishing a Course or Lesson is difficult and requires multiple steps. As a content creator / manager, I want to this process to be less time consuming
+
+          Secondary: Does the UI need a  dedicated tab / screen in the workspace view to surface a set of published courses?
+
+          Versions, and their potential to become unweildy According to stakeholders and admins, the versions, while ultimately useful are rarely deleted. This might necessitate cultural shift in work flows.
+          
+          Is having many (10s-100s) of Published items a problem? Over 50 might be an edge case and rarely the norm.</li>
+          
+          Caveats:
+          Where is Publication meta data and how is it accessed?
+          What happens when we need to publish again
+          more reliance on content creators to know and explore UI for subtle functionality
+
+        {{< /copy_wrapper>}}
+        
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< image_cld
+        loading=" lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772126/bronte/BrontePublishingInitial.webp"
+        alt="An image of a project publishing interface"
+        figcaption=""
+        class="details-grid__fiftyWords big-image"
+        >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772776/bronte/ModalActive.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__left"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/DoubleCheckCancel.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__right"
+    >}}
+    
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/PreparingtoPublish.webp"
+    alt="~"
+    figcaption=""
+    class="details-grid__twentyWords image-block__left"
+    >}}
+  
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+  {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683837501/bronte/brnt-publishing.jpg"
+    alt=""
+    figcaption=""
+    class="details-grid__fiftyWords big-image"
+    >}}
+
+    {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__left" >}}
+      Deserunt occaecat commodo velit est esse velit laborum officia consectetur sunt veniam magna. Velit dolore irure do ullamco aliquip cillum duis do mollit mollit. Lorem id ad commodo laboris dolore nulla dolore ad in. Nostrud fugiat elit incididunt sunt incididunt Lorem commodo consequat excepteur magna. Cupidatat nisi do consequat commodo mollit.
+    {{< /copy_wrapper>}}
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__right" >}}
+      Aliqua magna ex sunt et magna exercitation id aute. Veniam dolor adipisicing cupidatat ex culpa. Culpa officia tempor cupidatat ullamco qui laborum consequat ex voluptate. Excepteur sint pariatur enim id proident. Incididunt consectetur dolore mollit aliqua nostrud labore sunt est aliqua velit. Irure ullamco dolor do sunt minim magna deserunt fugiat eiusmod nulla Lorem. Sint commodo nisi ea voluptate esse adipisicing aute nisi fugiat.
+    {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}

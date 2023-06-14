@@ -17,7 +17,7 @@
 {{ end }}
 
 <figure class="[ {{ $class }} ]" {{ if $title }} title="{{ $title }}" {{ end }}>
-  
+
   <img 
     class="[ {{ $cl.class }} ]"
     src="{{ $ph }}"
@@ -36,4 +36,5 @@
   {{ with $fc }}
   <figcaption>{{ . }}</figcaption>
   {{ end }}
+
 </figure>

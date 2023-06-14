@@ -75,31 +75,51 @@ $headings: (h1, h2, h3, h4, h5, h6);
 // slope = (maxFontSize - minFontSize) / (maxWidth - minWidth)
 // yAxisIntersection = -minWidth * slope + minFontSize
 // preferredValue = yAxisIntersection[rem] + (slope * 100)[vw]
-// TODO: make this a function so we can reuse it.... Every Where!
+// DONE: make this a function so we can reuse it.... Every Where!
+// 
 $screenDifference: $mega - $small;
 $fontDifference: $s3 - $s1;
 $slope: $fontDifference / $screenDifference;
 $yAxisIntersection: (($small * -1) * $slope) + $s0;
 $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 
+// Preferred Value Function:
+@function pv() {
+  $screenDifference: $mega - $small;
+  $fontDifference: $s3 - $s1;
+  $slope: $fontDifference / $screenDifference;
+  $yAxisIntersection: (($small * -1) * $slope) + $s0;
+  $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
+  @return $preferredValue;
+}
+
 // @debug $s0, $s1, $s2;
 // @debug $screenDifference;
 // @debug $fontDifference;
 // @debug $slope;
 // @debug $yAxisIntersection ;
-// @debug $preferredValue;
+//  @debug $preferredValue;
 
+// Fluid Type Function
+// $lower-limit: 
+@function ft($lower-limit, $pv, $upper-limit) {
+  
+  @return clamp(#{$lower-limit}, $pv, #{$upper-limit});
+}
 
+// .test {
+//   font-size: ft(var(--s3), 4vw, var(--s6));
+// }
 
 h1 {
     --line-height: clamp(calc(var(--s1) * 1.2), 4vw, calc(var(--s3) * 1.3)); 
-    font-size: clamp(var(--s1), $preferredValue, var(--s3));
+    font-size: ft(var(--s1),$preferredValue,var(--s3));
     line-height: var(--line-height);
 }
 
 h2 {
   // @include responsive-font(2.75vw, 1.25rem, 24px, 24px);
-  font-size: clamp(1.125rem, var(--s1), 3rem);
+  font-size: clamp(1.125rem, $preferredValue, 3rem);
 }
 
 h3 {

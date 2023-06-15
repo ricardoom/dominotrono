@@ -114,5 +114,11 @@ enableGitInfo = "true"
         title = "portfolio"
         url = "/portfolio/"
         weight = -10
+    [[menu.main]]
+        identifier = "about"
+        name = "about"
+        title = "about"
+        url = "/about/"
+        weight = -9
 
 [resources]

@@ -196,6 +196,10 @@
           @include grid-figcaption;
         }
 
+//
+// Fifty Words
+// 
+
         &__fiftyWords {
           &.figma-embed {
             background-color: red;
@@ -206,7 +210,7 @@
 
           &.big-image {
             @include add-to-grid('>=phone', 1, -1, auto, auto);
-            @include add-to-grid('>=tablet', 1, -1, auto, auto);
+            @include add-to-grid('>=tablet', 1, -2, auto, auto);
             @include grid-figcaption;
           }
 

@@ -38,6 +38,9 @@ $max-line-length: var(--measure);
 /// basic <h#>
 ///
 
+
+// TODO: Explore different ways this might be done more efficiently, both from a code quality standpoint and the way the css could be parsed. Goal is to reduce selectors and rules.
+
 $headings: (h1, h2, h3, h4, h5, h6);
 @each $heading in $headings {
   #{$heading} {
@@ -130,9 +133,10 @@ h3 {
   font-size: ft(var(--s0), var(--s1));
 }
 
-h4 {
-  font-size: ft(var(--s-1), var(--s1));
+
+h4, .fonts-loaded h4 {
   font-family: $sans-serif;
+  font-size: ft(var(--s-2), var(--s0));
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: var(--s-4);

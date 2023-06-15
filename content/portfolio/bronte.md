@@ -1,5 +1,5 @@
 ---
-title: 'Bronte'
+title: 'Bronte Publishing'
 date: 2023-05-11T13:31:19-07:00
 draft: false
 categories: 'portfolio'
@@ -60,7 +60,7 @@ newLayout: true
     {{< /copy_wrapper>}}
 
   {{< image_cld
-    loading=" lazy"
+    loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686770581/bronte/BrontePublishingWire.webp"
     alt="An image of a set of screens related to the publishing workflow"
     figcaption="Initial overview of a publishing workflows"
@@ -91,42 +91,84 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
+    {{< section_header level="3" text="Design Discovery" >}}
+      
+      {{< copy_wrapper
+        class="details-grid__twoByTwo copy-block__left" >}}
+        Aute mollit cillum quis ipsum ea. Laborum ullamco voluptate occaecat magna tempor aliqua tempor. Sunt cupidatat excepteur labore ad laborum nostrud non do consectetur laboris. Incididunt proident sint ullamco nostrud aliquip nostrud id nostrud consectetur eu eu veniam.
+      {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+      {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686793831/bronte/ListView.webp"
+      alt=""
+      figcaption=""
+      class="details-grid__twoByTwo image-block__left"
+      >}}
+
+      {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686793831/bronte/MenuOpenHover.webp"
+      alt=""
+      figcaption=""
+      class="details-grid__twoByTwo image-block__right"
+      >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
     {{< image_cld
-        loading=" lazy"
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686860274/bronte/itemTray.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__fiftyWords big-image"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< section_header level="3" text="Initial visual design and prototype" >}}
+    {{< image_cld
+        loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772126/bronte/BrontePublishingInitial.webp"
         alt="An image of a project publishing interface"
         figcaption=""
         class="details-grid__fiftyWords big-image"
         >}}
-
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
 
     {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772776/bronte/ModalActive.webp"
-    alt=""
-    figcaption="Step one of publishing modal"
-    class="details-grid__twentyWords image-block__left"
-    >}}
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772776/bronte/ModalActive.webp"
+      alt=""
+      figcaption="Step one of publishing modal"
+      class="details-grid__twentyWords image-block__left"
+      >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
     {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/DoubleCheckCancel.webp"
-    alt=""
-    figcaption="Warning modal"
-    class="details-grid__twentyWords image-block__right"
-    >}}
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/DoubleCheckCancel.webp"
+        alt=""
+        figcaption="Warning modal"
+        class="details-grid__twentyWords image-block__right"
+        >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
     {{< image_cld
-    loading=" lazy"
+    loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/PreparingtoPublish.webp"
     alt="~"
     figcaption="Preparing to publish modal"
@@ -137,7 +179,7 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
   {{< image_cld
-    loading=" lazy"
+    loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683837501/bronte/brnt-publishing.jpg"
     alt=""
     figcaption="Publish Complete"
@@ -148,9 +190,75 @@ newLayout: true
       class=" details-grid__twentyWords copy-block__left" >}}
       Deserunt occaecat commodo velit est esse velit laborum officia consectetur sunt veniam magna. Velit dolore irure do ullamco aliquip cillum duis do mollit mollit. Lorem id ad commodo laboris dolore nulla dolore ad in. Nostrud fugiat elit incididunt sunt incididunt Lorem commodo consequat excepteur magna. Cupidatat nisi do consequat commodo mollit.
     {{< /copy_wrapper>}}
+  {{< /section_wrapper>}}
+
+  {{< section_wrapper class="details-grid" >}}
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686866819/bronte/rowItemExpanded.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__left"
+    >}}
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__right" >}}
       Aliqua magna ex sunt et magna exercitation id aute. Veniam dolor adipisicing cupidatat ex culpa. Culpa officia tempor cupidatat ullamco qui laborum consequat ex voluptate. Excepteur sint pariatur enim id proident. Incididunt consectetur dolore mollit aliqua nostrud labore sunt est aliqua velit. Irure ullamco dolor do sunt minim magna deserunt fugiat eiusmod nulla Lorem. Sint commodo nisi ea voluptate esse adipisicing aute nisi fugiat.
     {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< section_header level="3" text="Artifacts" >}}
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685993538/bronte/UI-Specs.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__fiftyWords big-image"
+    >}}
+
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__right" >}}
+      Aliqua magna ex sunt et magna exercitation id aute. Veniam dolor adipisicing cupidatat ex culpa. Culpa officia tempor cupidatat ullamco qui laborum consequat ex voluptate. Excepteur sint pariatur enim id proident. Incididunt consectetur dolore mollit aliqua nostrud labore sunt est aliqua velit. Irure ullamco dolor do sunt minim magna deserunt fugiat eiusmod nulla Lorem. Sint commodo nisi ea voluptate esse adipisicing aute nisi fugiat.
+    {{< /copy_wrapper>}}
+
+    
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< section_header level="4" text="Accessibility & Tab Order" >}}
+     {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686794395/bronte/tabThroughDetails.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__fiftyWords big-image"
+    >}}
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      A critical part of the team's process was to produce specifications for state and accesibility. In the following examples I prodcued artifacts that covered all possible states of buttons and tab order, w/ careful attention to hover, focus and the combined state of having both focus and being hovered.
+    {{< /copy_wrapper>}}
+
+ {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686794395/bronte/kebabDetails.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__fiftyWords big-image"
+    >}}
+   
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+ {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685993592/bronte/PublicationIcons.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__left"
+    >}}
 
 {{< /section_wrapper>}}

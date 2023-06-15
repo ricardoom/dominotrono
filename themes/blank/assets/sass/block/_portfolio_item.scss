@@ -167,7 +167,7 @@
           img {
             margin-block: var(--s0);
           }
-          
+
           &.image-block {
             &__left {
               @include add-to-grid('>=phone', 1, -1, auto, auto);

@@ -50,11 +50,6 @@ newLayout: true
       {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 
-
-
-
-
-
 {{< section_wrapper class="details-grid" >}}
 
 {{< section_header level="2" text="Publishing" >}}    
@@ -112,7 +107,7 @@ newLayout: true
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772776/bronte/ModalActive.webp"
     alt=""
-    figcaption=""
+    figcaption="Step one of publishing modal"
     class="details-grid__twentyWords image-block__left"
     >}}
 
@@ -123,10 +118,10 @@ newLayout: true
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/DoubleCheckCancel.webp"
     alt=""
-    figcaption=""
+    figcaption="Warning modal"
     class="details-grid__twentyWords image-block__right"
     >}}
-    
+
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -134,7 +129,7 @@ newLayout: true
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/PreparingtoPublish.webp"
     alt="~"
-    figcaption=""
+    figcaption="Preparing to publish modal"
     class="details-grid__twentyWords image-block__left"
     >}}
   
@@ -145,7 +140,7 @@ newLayout: true
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683837501/bronte/brnt-publishing.jpg"
     alt=""
-    figcaption=""
+    figcaption="Publish Complete"
     class="details-grid__fiftyWords big-image"
     >}}
 

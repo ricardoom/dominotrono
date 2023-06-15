@@ -1,6 +1,7 @@
 .stack {
   display: flex;
   flex-direction: column;
+  gap: var(--s3);
   justify-content: flex-start;
 }
 
@@ -9,7 +10,10 @@
   margin-bottom: 0;
 } 
 
-.stack > * + * {
-  margin-top: var(--s1);
-  margin-block-start: var(--s1);
-}
+//
+// TODO: This might have breaking changes elsewhere...
+
+// .stack > * + * {
+//   margin-top: var(--s1);
+//   margin-block-start: var(--s1);
+// }

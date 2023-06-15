@@ -1,10 +1,10 @@
 ---
-title: 'about'
+title: 'About Ricardo:'
 date: 2017-12-27T13:48:52-05:00
 draft: false
-menu:
-  main:
-    weight: 15
+# menu:
+#   main:
+#     weight: 15
 ---
 
 Until May of 2023, I was part of a team of UX and UI designers at Pearson, the renowned educational tech company. The team brought me on board to work on an internal tool called Bronte. Bronte is an authoring environment for generating eText books. An analogous tool might be a no-code website builder. Most of that work centered around improving the user experience for publishing and notifications. I also participated in product design and research for a nursing education platform. While that project is still in the early stages, funding for full development in 2024. All told, the work on content creation and educational tools at Pearson has been gratifying.

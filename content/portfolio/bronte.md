@@ -45,7 +45,7 @@ newLayout: true
       class="hero-grid__imageBlock"
       >}}
       {{< copy_wrapper
-        class="hero-grid__copyBlock" >}}
+        class="hero-grid__copyBlock box-shadow" >}}
         Sit aute voluptate elit est nostrud sit reprehenderit dolor veniam qui mollit qui duis velit. Proident quis quis sit aliquip aliqua irure proident nostrud excepteur do nulla incididunt amet eiusmod. Sint tempor nulla occaecat ea eiusmod velit non sunt aute veniam veniam elit. Duis eiusmod sint id aliquip minim ea elit labore do. Esse commodo velit proident labore mollit.
       {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
@@ -73,14 +73,22 @@ newLayout: true
         {{< copy_wrapper
           class="details-grid__twoByTwo copy-block__left" >}}
           Publishing a Course or Lesson is difficult and requires multiple steps. As a content creator / manager, I want to this process to be less time consuming
-
+        {{< /copy_wrapper>}}
+        {{< copy_wrapper
+          class="details-grid__twoByTwo copy-block__left" >}}
           Secondary: Does the UI need a  dedicated tab / screen in the workspace view to surface a set of published courses?
-
+        {{< /copy_wrapper>}}
+        {{< copy_wrapper
+          class="details-grid__twoByTwo copy-block__left" >}}
           Versions, and their potential to become unweildy According to stakeholders and admins, the versions, while ultimately useful are rarely deleted. This might necessitate cultural shift in work flows.
-          
+        {{< /copy_wrapper>}}
+        {{< copy_wrapper
+          class="details-grid__twoByTwo copy-block__left" >}}          
           Is having many (10s-100s) of Published items a problem? Over 50 might be an edge case and rarely the norm.</li>
-          
-          Caveats:
+        {{< /copy_wrapper>}}
+        {{< copy_wrapper
+          class="details-grid__twoByTwo copy-block__left" >}}  
+          Caveats we were keen to observe:
           Where is Publication meta data and how is it accessed?
           What happens when we need to publish again
           more reliance on content creators to know and explore UI for subtle functionality

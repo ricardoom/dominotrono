@@ -1,0 +1,7 @@
+//
+// Some Decoration Utility classes
+//
+
+.box-shadow {
+  box-shadow: var(--s05) var(--s05) var(--s2) transparentize($site-dark-blue, 0.2);
+}

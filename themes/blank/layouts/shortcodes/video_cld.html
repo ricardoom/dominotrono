@@ -1,0 +1,22 @@
+<!-- short code for video pulled from Cloudinary -->
+
+{{/*  https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto,vc_vp9/v1687206397/nypl-browse-new-arrivals/bna-filter.webm  */}}
+
+{{ $cl := $.Site.Params.cloudinary }}
+{{ $class := .Get "class" }}
+{{ $title := .Get "title" }}
+{{/*  {{ $src := .Get "src" }}  */}}
+{{ $dataSrc := .Get "data-src" }}
+{{ $url := "https://res.cloudinary.com/toupeeproofbullets/video/upload/" }}
+{{ $quality := "q_auto" }}
+{{ $codec := "vc_vp9" }}
+{{ $file := .Get "file-name" }}
+{{ $webm := .Get "webm" }}
+{{ $mp4 := .Get "mp4" }}
+{{ $format := slice $webm $mp4 }}
+
+<video controls class="{{ $class }}">
+  {{ range $format }}
+  <source  src="{{ . }}">
+  {{ end }}
+</video>

@@ -46,6 +46,7 @@
 
         .drop-cap {
           & > a {
+            //TODO: change this to our fluid type configuration
             @include responsive-font(5vw, 2.6rem, 5rem, 22px);
             border-bottom: solid var(--s-3) $site-white;
             display: block;

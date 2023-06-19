@@ -101,7 +101,7 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 // @debug $fontDifference;
 // @debug $slope;
 // @debug $yAxisIntersection ;
-//  @debug $preferredValue;
+ @debug $preferredValue;
 
 // Fluid Type Function
 // $lower-limit: 
@@ -115,21 +115,21 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 // }
 
 h1 {
-    --line-height: clamp(calc(var(--s1) * 1.2), $preferredValue, calc(var(--s3) * 1.3)); 
+    --line-height: clamp(calc(var(--s1) * 1.2), #{$preferredValue}, calc(var(--s3) * 1.5)); 
     font-size: ft(var(--s2), var(--s4));
     font-weight: 400;
     line-height: var(--line-height);
 }
 
 h2 {
-   --line-height: clamp(calc(var(--s0) * 1.2), $preferredValue, calc(var(--s2) * 1.3)); 
+   --line-height: clamp((var(--s05), #{$preferredValue}, var(--s1))); 
   // font-size: clamp(var(--s0), $preferredValue, var(--s2));
   font-size: ft(var(--s0), var(--s2));
   line-height: var(--line-height);
 }
 
 h3 {
-  font-size: clamp(1rem, var(--s1), 1.5rem);
+  // font-size: clamp(1rem, var(--s1), 1.5rem);
   font-size: ft(var(--s0), var(--s1));
 }
 
@@ -218,7 +218,7 @@ code {
 .fonts-loaded {
   font-family: $frank-new;
 
-    &__portfolioInvolvement ul {
+    &__portfolio-involvement ul {
       word-break: break-word;
     } 
 }

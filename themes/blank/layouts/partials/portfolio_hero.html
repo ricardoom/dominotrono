@@ -16,9 +16,9 @@
 {{ $projectDescription := .Params.projectDesc }}
 {{ $tags := delimit $tag ", "}}
 
-<li class="portfolio-list-item" data-post-date="{{ $date }}">
+<li class="[ portfolio-list-item ]" data-post-date="{{ $date }}">
   <a href="{{ .Permalink }}">
-    <div class="portfolio-list-item__content">
+    <div class="[ portfolio-list-item__content ]">
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
       <figure class="portfolio-list-item__content--hero {{ $color }}">
         <img class="portfolioHero__image lazy" data-srcset="{{ .Params.portfolioHero1x }},

@@ -1,42 +1,48 @@
-<!-- short code for video pulled from Cloudinary -->
-
-{{/*  https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto,vc_vp9/v1687206397/nypl-browse-new-arrivals/bna-filter.webm  */}}
-
-{{ $class := $.Get "class" }}
 {{/*
-{{ $webm := .Get "webm" }}
-{{ $mp4 := .Get "mp4" }}
-{{ $format := slice $webm $mp4 }}
-{{ $type := slice "webm" "mp4" }}
-{{ $video := dict $format $type  }}  */}}
+Format to follow in markdown:
 
+{{< video class="foo" >}}
+  https://example.org/quickstart.mp4
+  https://example.org/quickstart.ogv
+  https://example.org/quickstart.webm
+{{< /video>}}
 
+*/}}
 
-{{/*  <video controls class="{{ $class }}">
-  {{ range $format, $type := $video }}
-  {{ range $format }}
-  <source src="{{ $format }}" type="video/{{ $type }}">
-  <source src="{{ . }}">
-  {{ end }}
-</video>  */}}
+{{- $class := $.Get "class" -}}
 
-{{ $sources := slice }}
-{{ with .Get "webm" }}
-  {{ $sources = $sources | append . }}
-{{ end }}
-{{ with .Get "mp4" }}
-  {{ $sources = $sources | append . }}
-{{ end }}
+{{- /* Set order of source elements within video element. */}}
+{{- $mediaTypes := slice "video/webm" "video/mp4" "video/ogg" }}
 
+{{- /* Map media types to extensions. */}}
+{{- $m := dict
+  "mp4" "video/mp4"
+  "webm" "video/webm"
+  "ogv" "video/ogg"
+}}
 
-{{ with $sources }}
-<div class="[ {{ $class }} ]">
+{{- /* Build map of sources. */}}
+{{- $list := replace .Inner "\r" "\n" }}
+{{- $list = split $list "\n" }}
+{{- $sources := dict }}
+{{- range $list }}
+  {{- with (trim . " ") }}
+    {{- $ext := path.Ext . | strings.TrimPrefix "." }}
+    {{- $sources = merge $sources (dict (index $m $ext) .) }}
+  {{- end }}
+{{- end }}
+
+{{- /* Render video element. */}}
+{{- if $sources -}}
+<div {{- with $class }} class="[ {{ . }} ]" {{- end }}>
   <video controls>
-    {{ range . }}
-    <source src="{{ . }}" type="video/{{ path.Ext . | strings.TrimPrefix "." }}">
-    {{ end }}
+    {{- range $type := $mediaTypes }}
+      {{- with index $sources . }}
+        <source src="{{ . }}" type="{{ $type }}">
+      {{- end }}
+    {{- end }}
   </video>
-{{ else }}
-  {{ errorf "The %q shortcode was called without any sources. See %s" .Name .Position }}
-{{ end }}
-</div>
+  </div>
+{{- else }}
+  {{- errorf "The %q shorcode was called without any sources. See %s" .Name .Position }}
+{{- end -}}

@@ -198,6 +198,12 @@ newLayout: true
       class=" details-grid__twentyWords copy-block__left" >}}
       Deserunt occaecat commodo velit est esse velit laborum officia consectetur sunt veniam magna. Velit dolore irure do ullamco aliquip cillum duis do mollit mollit. Lorem id ad commodo laboris dolore nulla dolore ad in. Nostrud fugiat elit incididunt sunt incididunt Lorem commodo consequat excepteur magna. Cupidatat nisi do consequat commodo mollit.
     {{< /copy_wrapper>}}
+
+    {{< video_cld class="details-grid__twentyWords image-block__right" >}}
+      https://res.cloudinary.com/toupeeproofbullets/video/upload/w_auto,q_auto,vc_vp9/v1687295928/bronte/publishing-open-tray.webm
+      https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto/v1687295928/bronte/publishing-open-tray.mp4
+    {{< /video_cld >}}
+
   {{< /section_wrapper>}}
 
   {{< section_wrapper class="details-grid" >}}

@@ -34,3 +34,31 @@ externalURL: ''
 projectDesc: ''
 newLayout: true
 ---
+{{< section_wrapper class="hero-grid" >}}
+
+    {{< image_cld
+    loading="eager"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_portfolio_hero_3x,f_auto/v1647544269/stablehouse/shHomeScreen.jpg"
+    alt=""
+    figcaption=""
+    class="hero-grid__imageBlock"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+        {{< copy_wrapper
+          class="details-grid__twentyWords copy-block__right" >}}
+          Nisi id cupidatat minim qui fugiat sit non ullamco. Sit sit anim tempor Lorem magna Lorem labore do voluptate ut magna et tempor. Anim ullamco laboris non deserunt in cupidatat. Ea ad exercitation minim irure labore culpa fugiat ut laborum pariatur adipisicing qui. Id est est officia dolor esse exercitation adipisicing cupidatat id qui ad Lorem officia proident. Ut sit eiusmod occaecat pariatur sunt quis ullamco commodo dolore. Sit magna cupidatat ex et non duis sit deserunt consectetur ullamco consequat incididunt ex.
+        {{< /copy_wrapper>}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544269/stablehouse/shHomeScreen.png"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__left"
+    >}}
+
+{{< /section_wrapper>}}

@@ -2,21 +2,41 @@
 
 {{/*  https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto,vc_vp9/v1687206397/nypl-browse-new-arrivals/bna-filter.webm  */}}
 
-{{ $cl := $.Site.Params.cloudinary }}
-{{ $class := .Get "class" }}
-{{ $title := .Get "title" }}
-{{/*  {{ $src := .Get "src" }}  */}}
-{{ $dataSrc := .Get "data-src" }}
-{{ $url := "https://res.cloudinary.com/toupeeproofbullets/video/upload/" }}
-{{ $quality := "q_auto" }}
-{{ $codec := "vc_vp9" }}
-{{ $file := .Get "file-name" }}
+{{ $class := $.Get "class" }}
+{{/*
 {{ $webm := .Get "webm" }}
 {{ $mp4 := .Get "mp4" }}
 {{ $format := slice $webm $mp4 }}
+{{ $type := slice "webm" "mp4" }}
+{{ $video := dict $format $type  }}  */}}
 
-<video controls class="{{ $class }}">
+
+
+{{/*  <video controls class="{{ $class }}">
+  {{ range $format, $type := $video }}
   {{ range $format }}
-  <source  src="{{ . }}">
+  <source src="{{ $format }}" type="video/{{ $type }}">
+  <source src="{{ . }}">
   {{ end }}
-</video>
+</video>  */}}
+
+{{ $sources := slice }}
+{{ with .Get "webm" }}
+  {{ $sources = $sources | append . }}
+{{ end }}
+{{ with .Get "mp4" }}
+  {{ $sources = $sources | append . }}
+{{ end }}
+
+
+{{ with $sources }}
+<div class="[ {{ $class }} ]">
+  <video controls>
+    {{ range . }}
+    <source src="{{ . }}" type="video/{{ path.Ext . | strings.TrimPrefix "." }}">
+    {{ end }}
+  </video>
+{{ else }}
+  {{ errorf "The %q shortcode was called without any sources. See %s" .Name .Position }}
+{{ end }}
+</div>

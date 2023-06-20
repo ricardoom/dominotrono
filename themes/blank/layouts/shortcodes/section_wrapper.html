@@ -3,11 +3,11 @@
 {{ if and ( $layout ) ( ne $layout "" ) }}
 <section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }}>
     <div class="flex">
-        {{ .Inner }}
+        {{- .Inner -}}
     </div>
  </section>
 {{ else }}
 <section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }}>
-    {{ .Inner }}
+    {{- .Inner -}}
 </section>
 {{ end }}

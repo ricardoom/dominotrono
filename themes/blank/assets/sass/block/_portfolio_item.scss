@@ -164,8 +164,12 @@
 // Twenty Words
 //
         &__twentyWords {
-          img {
+          img, video {
             margin-block: var(--s0);
+          }
+
+          video {
+            width: 100%;
           }
 
           &.image-block {

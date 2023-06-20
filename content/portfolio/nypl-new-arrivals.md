@@ -66,8 +66,8 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
     {{< section_header level="2" text="Filtering" >}}
     {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686948247/nypl-browse-new-arrivals/bna-ya-filter-detail.webp"
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,q_auto,f_auto/v1686948247/nypl-browse-new-arrivals/bna-ya-filter-detail.webp"
     alt=""
     figcaption=""
     class="details-grid__twentyWords image-block__left"
@@ -76,23 +76,14 @@ newLayout: true
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__right" >}}
       Excepteur minim consequat proident ullamco et. Excepteur magna enim labore dolore ex. Eiusmod do velit cillum pariatur excepteur et. Consequat amet Lorem aliquip exercitation labore duis. Eiusmod occaecat amet adipisicing irure amet et proident cillum do ex quis ex.
-    {{< /copy_wrapper>}}
+    {{< /copy_wrapper >}}
 
-    {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/video/upload/v1686942241/nypl-browse-new-arrivals/bna-filter.mp4"
-    alt=""
-    figcaption=""
-    class="details-grid__twentyWords image-block__right"
-    >}}
-
-    {{< video_cld
-      webm="https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto,vc_vp9/v1687206397/nypl-browse-new-arrivals/bna-filter.webm"
+     {{< video_cld webm="https://res.cloudinary.com/toupeeproofbullets/video/upload/w_auto,q_auto,vc_vp9/v1687206397/nypl-browse-new-arrivals/bna-filter.webm"
       mp4="https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto/v1687206397/nypl-browse-new-arrivals/bna-filter.mp4"
       class="details-grid__twentyWords image-block__right"
     >}}
 
-{{< /section_wrapper>}}
+{{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 
@@ -100,6 +91,6 @@ newLayout: true
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
       Excepteur minim consequat proident ullamco et. Excepteur magna enim labore dolore ex. Eiusmod do velit cillum pariatur excepteur et. Consequat amet Lorem aliquip exercitation labore duis. Eiusmod occaecat amet adipisicing irure amet et proident cillum do ex quis ex.
-    {{< /copy_wrapper>}}
+    {{< /copy_wrapper >}}
 
-{{< /section_wrapper>}}
+{{< /section_wrapper >}}

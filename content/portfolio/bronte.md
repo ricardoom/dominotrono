@@ -195,7 +195,7 @@ newLayout: true
     >}}
 
     {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
+      class="details-grid__twentyWords copy-block__left" >}}
       Deserunt occaecat commodo velit est esse velit laborum officia consectetur sunt veniam magna. Velit dolore irure do ullamco aliquip cillum duis do mollit mollit. Lorem id ad commodo laboris dolore nulla dolore ad in. Nostrud fugiat elit incididunt sunt incididunt Lorem commodo consequat excepteur magna. Cupidatat nisi do consequat commodo mollit.
     {{< /copy_wrapper>}}
 

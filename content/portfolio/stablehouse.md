@@ -1,7 +1,7 @@
 ---
 title: 'Stablehouse'
 date: 2023-05-12T13:10:30-07:00
-draft: false
+draft: true
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders
@@ -31,7 +31,7 @@ projectDate: '2021'
 tags: ['Sass', 'React', 'HTML', 'JavaScript', 'Gatsby']
 weight: -12
 externalURL: ''
-projectDesc: ''
+projectDesc: 'Stablehouse is a burgeoning cryptocurrency marketplace.'
 newLayout: true
 ---
 {{< section_wrapper class="hero-grid" >}}

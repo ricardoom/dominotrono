@@ -1,9 +1,14 @@
 {{ partial "header.html" . }}
 <!-- === root index === -->
 <main class="[ site-content ]" id="siteContent">
-    {{/*
+{{/*
    {{ partial "jumbo_two.html" . }}
   */}}
+{{/*  
+   <div class="[ wrapper ][ mast-head ]">
+      {{ .Content }}
+      </div>
+*/}}
    <div class="[ wrapper ]">
 
     
@@ -17,17 +22,14 @@
   {{ with $.Site.Params.subtitle }}
   <h2 class="subtitle-grid-container__subTitle">{{ . }}</h2>
   {{ end }}
-</div>
+<  /div>
 */}} 
 </main>
 
 
 {{ partial "sidebar.html" . }}
-{{/*
-<div class="wrapper mast-head">
-   {{ .Content }}
-</div>
-*/}}  
+
+
 
 {{/* 
 {{ partial "contact.html" . }}

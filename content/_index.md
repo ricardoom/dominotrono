@@ -1,5 +1,5 @@
 ---
-title: 'Ricardo E. Gálvez - Freelance Designer & Developer'
+title: 'Ricardo E. Gálvez - UX Designer & UI Developer'
 draft: false
 ---
 

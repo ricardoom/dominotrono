@@ -8,13 +8,13 @@ author: Ricardo G.
 postImageSqip: '../media/portfolio/native-bound-unbound/postimage-sqip.svg'
 portfolioHeroSqip: '../media/portfolio/native-bound-unbound/hero-sqip.svg'
 ## Hero Images
-portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683840372/native-bound-unbound/nb-hero.jpg'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,t_porfolio_hero_1280_1x/v1683840372/native-bound-unbound/nb-hero.webp'
 ##
-portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683840372/native-bound-unbound/nb-hero.jpg'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,t_porfolio_hero_1280_2x/v1683840372/native-bound-unbound/nb-hero.webp'
 ##
-portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683840372/native-bound-unbound/nb-hero.jpg'
+portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,t_porfolio_hero_1280_3x/v1683840372/native-bound-unbound/nb-hero.webp'
 ##
-portfolioHeroAlt: ''
+portfolioHeroAlt: 'An image of the home page top half'
 # heroFigcaption goes on the portfolio/ landing page
 heroFigcaption: ''
 postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,q_auto,f_auto,w_auto/v1683830083/native-bound-unbound/nbuPostImage.jpg'
@@ -28,7 +28,7 @@ projectRoles: ['Design & Technology Lead']
 projectClients: ['Dr. Estevan Rael Gálvez']
 projectCredits: []
 projectDate: '2021—2023'
-tags: ['Visual Design', 'Development', 'Figma', 'Branding', 'Design Systems']
+tags: ['Visual Design', 'Development', 'Figma', 'Branding', 'Design Systems', 'Project Management']
 weight: -14
 externalURL: ''
 projectDesc: 'From 2021 to early 2022, I acted as chief technical and creative advisor on the archival scholarly project called Native Bound Unbound. The objective of Native Bound-Unbound is to create a centralized digital repository centered on the lives of enslaved Indigenous people across the Americas.'

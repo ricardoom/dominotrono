@@ -1,9 +1,11 @@
-{{ if .Site.IsServer }}
+{{ $local := $.Site.IsServer }}
+{{ if $local }}
 {{ printf "<!-- portfolio list template new Card template aqui  -->" | safeHTML }}
 {{ end }}
 {{ partial "header.html" . }}
 <main>
   <div class="[ wrapper ][ grid-wrapper ]">
+    <h1>{{ .Title }}</h1>
     <ul class="[ stack ]">
       {{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") 20 }}
       {{ range $paginator.Pages }}
@@ -15,3 +17,6 @@
 </main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
+{{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}

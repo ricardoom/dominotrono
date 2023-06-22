@@ -5,6 +5,7 @@ theme = "blank"
 relativeURLs = "true"
 enableRobotsTXT = "true"
 enableGitInfo = "true"
+pluralizelisttitles = "false"
 [frontmatter]
   date = ['lastmod', 'publishDate', 'date']
 #   expiryDate = ['expiryDate']

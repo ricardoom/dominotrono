@@ -16,7 +16,7 @@
 {{ $projectDescription := .Params.projectDesc }}
 {{ $tags := delimit $tag ", "}}
 
-<li class="[ portfolio-list-item ]" data-post-date="{{ $date }}">
+<li class="[ portfolio-list-item ]" data-post-date="{{ $date }}" aria-labelledby="{{ .Title }}">
   <a href="{{ .Permalink }}">
     <div class="[ portfolio-list-item__content ]">
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
@@ -34,7 +34,7 @@
         {{ end }}
       </figure>
       {{ end }}
-      <h1>{{ .Title }}</h1>
+      <h2 id="{{ .Title }}">{{ .Title }}</h2>
       {{ if and ( $projectDescription ) ( ne $projectDescription "" ) }}
       <p class="portfolio-list-item__content--description">{{ $projectDescription }}</p>
       {{ end }}

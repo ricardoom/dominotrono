@@ -1,7 +1,7 @@
-
+{{ $local := $.Site.IsServer }}
 {{ partial "header.html" . }}
-<main class="taxo-list-portfolio">
-  <div class="grid-wrapper">
+<main class="[ taxo-list-portfolio ]">
+  <div class="[ wrapper ][ grid-wrapper ]">
     <h1>{{ .Title }}</h1>
     <ul>
       {{ $paginator := .Paginate (where .Data.Pages "Type" "portfolio") 20 }}
@@ -15,3 +15,7 @@
 
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
+
+{{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}

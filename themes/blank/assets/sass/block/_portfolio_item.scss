@@ -43,12 +43,11 @@
       .hero-grid,
       .details-grid {
         display: grid;
-        
       }
       //  Note:
       //  should only be used at the top of each portfolio case study.
       // TODO: explore possible further abstraction / using these values more globally.
-      //
+      // TODO: explore using scaling values combined w/ calc() to abstract away these fixed pixel values...
 
       // hero grid specific variables:
       $hero-rows-phone: #{minmax(225px, auto) minmax(150px, auto)};
@@ -84,7 +83,8 @@
           padding: var(--s1);
           z-index: 1;
         }
-      } // /.hero-grid
+      } 
+  // /.hero-grid
 
       //
       // Each lower section wrapper call gets this class

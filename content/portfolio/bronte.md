@@ -32,7 +32,7 @@ projectDate: '2022—2023'
 tags: ['User Experience', 'User Interface Design','Product Research and Design']
 weight: -16
 externalURL: ''
-projectDesc: 'The majority of my work at Pearson centered around an internal eText authoring tool called "Bronte." As a result, the user experience work focused specifically on the publishing workflow and administration. '
+projectDesc: 'Most of my work at Pearson centered around an internal eText authoring environment called "Bronte." As a result, the user experience work focused specifically on the publishing workflow and administration. '
 newLayout: true
 ---
 {{<section_wrapper class="hero-grid" >}}
@@ -46,7 +46,7 @@ newLayout: true
       >}}
       {{< copy_wrapper
         class="hero-grid__copyBlock box-shadow" >}}
-        Sit aute voluptate elit est nostrud sit reprehenderit dolor veniam qui mollit qui duis velit. Proident quis quis sit aliquip aliqua irure proident nostrud excepteur do nulla incididunt amet eiusmod. Sint tempor nulla occaecat ea eiusmod velit non sunt aute veniam veniam elit. Duis eiusmod sint id aliquip minim ea elit labore do. Esse commodo velit proident labore mollit.
+        The publishing platform Bronte is an internal product used at Pearson, allowing content authors to import or directly create a text and prepare it for publication in the Pearson ecosystem. Bronte is a feature-rich tool. Complete with text editing, image manipulation, layout tools, project management, and deployment. My remit was to improve the publication process. The goal was to reduce the various points an author was required to navigate to and create a flow tightly coupled with other project and content management features.
       {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 
@@ -56,20 +56,24 @@ newLayout: true
 
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      Eu mollit consequat et aute. Aute quis tempor in esse voluptate amet sit elit exercitation consequat. Veniam quis anim voluptate minim nisi fugiat fugiat. Proident culpa nisi in ad tempor consectetur ut nostrud tempor.
+      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.
     {{< /copy_wrapper>}}
 
   {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686770581/bronte/BrontePublishingWire.webp"
     alt="An image of a set of screens related to the publishing workflow"
-    figcaption="Initial overview of a publishing workflows"
+    figcaption="Initial overview of my improved publishing workflows"
     class="details-grid__fiftyWords big-image"
     >}}
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
   {{< section_header level="3" text="Problem to solve:" >}}
+        {{< copy_wrapper
+          class="details-grid__twoByTwo copy-block__left" >}}
+          Below is a set of questions I set out to circumscribe the issues related to a publishing workflow:
+        {{< /copy_wrapper>}}
         {{< copy_wrapper
           class="details-grid__twoByTwo copy-block__left" >}}
           Publishing a Course or Lesson is difficult and requires multiple steps. As a content creator / manager, I want to this process to be less time consuming
@@ -103,7 +107,7 @@ newLayout: true
       
       {{< copy_wrapper
         class="details-grid__twoByTwo copy-block__left" >}}
-        Aute mollit cillum quis ipsum ea. Laborum ullamco voluptate occaecat magna tempor aliqua tempor. Sunt cupidatat excepteur labore ad laborum nostrud non do consectetur laboris. Incididunt proident sint ullamco nostrud aliquip nostrud id nostrud consectetur eu eu veniam.
+        My proposed solution was to bring the publishing process into the project management interface activated via a kebab menu interaction alongside other available actions on the file.
       {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -153,6 +157,8 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
+    {{< section_header level="4" text="Publication Progress Modals" >}}
+
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772776/bronte/ModalActive.webp"
@@ -186,18 +192,27 @@ newLayout: true
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
+
+  {{< section_header level="4" text="Publication Complete" >}}
+
+  {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Once the publication process is finished, the content author can access the published document and its metadata. The author will receive visual indicators showing whether the publication was successful or not, along with user information and the type of publication, such as eText, ePub, or ePub 3. The location within the Pearson ecosystem where the publication is found, such as staging, QA, or production, is also displayed.
+    {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
   {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683837501/bronte/brnt-publishing.jpg"
     alt=""
-    figcaption="Publish Complete"
+    figcaption="Publish complete UI"
     class="details-grid__fiftyWords big-image"
     >}}
 
-    {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__left" >}}
-      Deserunt occaecat commodo velit est esse velit laborum officia consectetur sunt veniam magna. Velit dolore irure do ullamco aliquip cillum duis do mollit mollit. Lorem id ad commodo laboris dolore nulla dolore ad in. Nostrud fugiat elit incididunt sunt incididunt Lorem commodo consequat excepteur magna. Cupidatat nisi do consequat commodo mollit.
-    {{< /copy_wrapper>}}
+    
 
     {{< video_cld class="details-grid__twentyWords image-block__right" >}}
       https://res.cloudinary.com/toupeeproofbullets/video/upload/w_auto,q_auto,vc_vp9/v1687295928/bronte/publishing-open-tray.webm
@@ -214,11 +229,7 @@ newLayout: true
     figcaption=""
     class="details-grid__twentyWords image-block__left"
     >}}
-    {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__right" >}}
-      Aliqua magna ex sunt et magna exercitation id aute. Veniam dolor adipisicing cupidatat ex culpa. Culpa officia tempor cupidatat ullamco qui laborum consequat ex voluptate. Excepteur sint pariatur enim id proident. Incididunt consectetur dolore mollit aliqua nostrud labore sunt est aliqua velit. Irure ullamco dolor do sunt minim magna deserunt fugiat eiusmod nulla Lorem. Sint commodo nisi ea voluptate esse adipisicing aute nisi fugiat.
-    {{< /copy_wrapper>}}
-
+    
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -234,7 +245,7 @@ newLayout: true
 
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__right" >}}
-      Aliqua magna ex sunt et magna exercitation id aute. Veniam dolor adipisicing cupidatat ex culpa. Culpa officia tempor cupidatat ullamco qui laborum consequat ex voluptate. Excepteur sint pariatur enim id proident. Incididunt consectetur dolore mollit aliqua nostrud labore sunt est aliqua velit. Irure ullamco dolor do sunt minim magna deserunt fugiat eiusmod nulla Lorem. Sint commodo nisi ea voluptate esse adipisicing aute nisi fugiat.
+      As a general rule, we created specification sheets for all proposed components. We needed to outline specifically where there are state changes, subsequent animations, etc.
     {{< /copy_wrapper>}}
 
     
@@ -246,8 +257,8 @@ newLayout: true
      {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686794395/bronte/tabThroughDetails.webp"
-    alt=""
-    figcaption=""
+    alt="an image detailing the accessbility tab through order and focus ring styling"
+    figcaption="A detailed view of the accessibility tab order"
     class="details-grid__fiftyWords big-image"
     >}}
     {{< copy_wrapper
@@ -259,7 +270,7 @@ newLayout: true
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686794395/bronte/kebabDetails.webp"
     alt=""
-    figcaption=""
+    figcaption="A detailed Figma view of the kebab menu icon and its subsequent states"
     class="details-grid__fiftyWords big-image"
     >}}
    
@@ -271,7 +282,7 @@ newLayout: true
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685993592/bronte/PublicationIcons.webp"
     alt=""
-    figcaption=""
+    figcaption="The full scope of button artifacts and states"
     class="details-grid__twentyWords image-block__left"
     >}}
 

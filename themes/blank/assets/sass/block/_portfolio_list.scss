@@ -34,7 +34,7 @@
       }
     }
 
-    h1 {
+    h2 {
       @include media('>=phone') {
         grid-column: 1 / -1;
         grid-row: 2 / 2;
@@ -47,23 +47,17 @@
 
       align-self: center;
       background-color: (transparentize($site-black, 0.15));
-      padding: clamp(var(--s0), 2.5vw, var(--s1));
+      font-weight: 500;
+      padding: clamp(var(--s0), #{$preferredValue}, var(--s1));
       text-shadow: 1px 1px 10px transparentize($site-black, 0.5);
       z-index: 1;
     }
 
     &--description {
       align-self: end;
-      // TODO: Use the new scaling font function here
-      font-size: clamp(var(--s05), 1.5vw, var(--s0));
+      font-size: ft(var(--s05), var(--s0));
       grid-column: 2 / -1;
       padding: var(--s0);
-      // display: initial;
-      // @include responsive-font(1.5vw, 0.9em, 18px, 22px);
-
-      // @include media('>=phone') {
-      //   display: none;
-      // }
 
       @include media('>=tablet') {
         grid-column: 2 / 3;

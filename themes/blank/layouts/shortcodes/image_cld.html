@@ -6,15 +6,15 @@
 {{ $dataSrc := .Get "data-src" }}
 {{ $alt := .Get "alt" }}
 {{ $loading := .Get "loading" }}
-{{ $sh := .Get "sectionHeading" }}
+{{/*  {{ $sh := .Get "sectionHeading" }}  */}}
 {{ $fc := .Get "figcaption" }}
 {{ $ph := $.Site.Params.placeHolderSVG }}
 {{ $cl := $.Site.Params.cloudinary }}
 {{ $path := $cl.cloudPath }}
-
+{{/*  
 {{ if and ( $sh ) ( ne $sh "" ) }}
 <h4 class="[ heading ]">{{ $sh }}</h4>
-{{ end }}
+{{ end }}  */}}
 
 <figure class="[ {{ $class }} ]" {{ if $title }} title="{{ $title }}" {{ end }}>
 

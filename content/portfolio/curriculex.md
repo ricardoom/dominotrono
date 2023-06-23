@@ -44,17 +44,23 @@ newLayout: true
     >}}
     {{< copy_wrapper
       class="hero-grid__copyBlock" >}}
-      Ipsum ut non pariatur nulla sunt incididunt et cupidatat aliqua culpa fugiat. Ex pariatur incididunt officia dolor Lorem mollit sunt occaecat minim duis do dolor labore. Enim nisi duis laboris quis do aliqua cupidatat aliqua. Minim duis duis ut non incididunt do.
-    {{< /copy_wrapper>}}
+      Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. From a student's perspective, reading through long tracts of dense text is neither tenable nor does it provide the necessary background and foundation for real-world nursing situations.
+  {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="2" text="Problem to solve..." >}}
+  {{< section_header level="2" text="Towards a solution..." >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-      A single paragraph about the issues w/ nursing education today, and how Curriculex might mitigate that. Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+      Our team engaged in a discovery process circumscribing how current nursing students engage with their instructors and the nursing curriculum. We learned most students are taking advantage of short-form video and text content produced across social media platforms. We also learned from interviews with students that they are developing study aides based on lecture content.
+      {{< /copy_wrapper>}}
+      {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+      We sought to take this to an interactive level where we created lesson modules that focused on core concepts incrementally built upon as the semester went on.
+      {{< /copy_wrapper>}}
+      {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+      For instructors with limited availability and large class sizes, we needed to create a platform where they could pull lessons, lectures, and group projects from a library consistent with educational and medical standards.
       {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
-{{< section_wrapper class="details-grid" >}}
-  {{< section_header level="2" text="Overview" >}}
+{{< section_wrapper class="details-grid" section-header="Design Discovery and Research" >}}
+  {{< section_header level="2" text="Design Discovery and Research" >}}
     {{< image_cld
         loading="eager"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686082078/curriculex/AssignmentsClassWorkLanding.webp"
@@ -63,21 +69,30 @@ newLayout: true
         class="details-grid__fiftyWords big-image"
     >}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
+          In my case, I was responsible for explorations centered around the instructor's experience. Assignment and content libraries are organized into a dashboard with various pathways to deeper functionality, such as viewing each student's progress as they complete their homework.
         {{< /copy_wrapper>}}
-{{< /section_wrapper>}}
-{{< section_wrapper class="details-grid" >}}
-  {{< image_cld
-      loading=" lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007879/curriculex/Interactive%20Lecture/InteractiveLectureLanding.webp"
-      alt=""
-      figcaption=""
-      class="details-grid__twentyWords image-block__right"
-    >}} 
-  {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-      Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
-    {{< /copy_wrapper>}}
-{{< /section_wrapper>}}
+        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+          I organized the dashboard into primary, secondary, and tertiary layers of functionality. Current assignments and content library are the primary focus with navigating through, different types of content libraries being of second order, found as set of tabs inside the library.
+        {{< /copy_wrapper>}}
+        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+          Conceptually this pathway is designed to surface high-level data about a particular cohort's progress across assignments. A drill down into each pre-class assignment in flight would show more granular information. 
+        {{< /copy_wrapper>}}
+        {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+            Lastly, the left nav allows for higher-level functions for subject matter, roster, and cohort (section).
+        {{< /copy_wrapper>}}
+  {{< /section_wrapper>}}
+  {{< section_wrapper class="details-grid" >}}
+    {{< image_cld
+        loading=" lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007879/curriculex/Interactive%20Lecture/InteractiveLectureLanding.webp"
+        alt=""
+        figcaption="The lecture library"
+        class="details-grid__twentyWords image-block__right"
+      >}} 
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
+        An alternate screen visualizing an interface for organizing lecture content (see more below ↓). The idea here is; As an instructor, I want to see which lectures I must prepare for that day. This interface visualizes a chronological feed of upcoming "during class lectures" based on cohort and section.
+      {{< /copy_wrapper>}}
+  {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
   {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}

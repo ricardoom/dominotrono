@@ -83,7 +83,7 @@ newLayout: true
   {{< /section_wrapper>}}
   {{< section_wrapper class="details-grid" >}}
     {{< image_cld
-        loading=" lazy"
+        loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007879/curriculex/Interactive%20Lecture/InteractiveLectureLanding.webp"
         alt=""
         figcaption="The lecture library"
@@ -93,7 +93,7 @@ newLayout: true
         An alternate screen visualizing an interface for organizing lecture content (see more below ↓). The idea here is; As an instructor, I want to see which lectures I must prepare for that day. This interface visualizes a chronological feed of upcoming "during class lectures" based on cohort and section.
       {{< /copy_wrapper>}}
   {{< /section_wrapper>}}
-{{< section_wrapper class="details-grid" >}}
+{{< section_wrapper class="details-grid" section-header="Before Class Experience & Analytics Screens" >}}
   {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
       Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
@@ -102,7 +102,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 {{< section_header level="3" text="Instructor Dashboards" >}}
     {{< image_cld
-    loading=" lazy"
+    loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686598671/curriculex/TopLevelLandingScreen.webp"
     alt=""
     figcaption="The insturctor's landing screen with current assignments and schedule. This screen has ancillary information covering current roster, subject matter as well as pathways to subject and course work prep."
@@ -111,7 +111,7 @@ newLayout: true
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
     {{< image_cld
-      loading=" lazy"
+      loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686085716/curriculex/analytics/InitialScreen.jpg"
       alt=""
       figcaption="the fig caption..."
@@ -121,7 +121,7 @@ newLayout: true
       Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
     {{< /copy_wrapper>}}
     {{< image_cld
-      loading=" lazy"
+      loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686087786/curriculex/analytics/Progress.webp"
       alt=""
       figcaption="Screen detailing the section's progress across all assignments"
@@ -131,14 +131,14 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 {{< section_header level="4" text="Student focused drill downs" >}}
     {{< image_cld
-      loading=" lazy"
+      loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686090223/curriculex/analytics/roster.webp"
       alt=""
       figcaption="The roster screen where an instructor can monitor attendance, scores and progress."
       class="details-grid__twoByTwo image-block__left"
     >}}
     {{< image_cld
-      loading=" lazy"
+      loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686086098/curriculex/analytics/student.webp"
       alt="an image of a students assignment progress"
       figcaption="An individual drill down to an indvidual's scores in general and where they are with respect to their assignments."
@@ -161,7 +161,7 @@ newLayout: true
           Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
         {{< /copy_wrapper >}}
 {{< /section_wrapper >}}
-{{< section_wrapper class="details-grid" >}}
+{{< section_wrapper class="details-grid" section-header="During Class Experience">}}
   {{< section_header level="2" text="During Class Experience" >}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
           Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
@@ -173,7 +173,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
   {{< section_header level="3" text="Group Work" >}}
         {{< image_cld
-        loading=" lazy"
+        loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685998986/curriculex/group%20work/Expanded.webp"
         alt=""
         figcaption="A screen detailing how a set of questions given either in person or remotely can be followed by an instructor."
@@ -182,34 +182,34 @@ newLayout: true
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
       {{< image_cld
-      loading=" lazy"
+      loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1685581521/curriculex/group%20work/Case_Study_Group_Project.jpg"
       alt=""
       figcaption=""
       class="details-grid__twoByTwo image-block__left"
       >}}
       {{< image_cld
-      loading=" lazy"
+      loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1685581521/curriculex/group%20work/All_Answers_by_Group.jpg"
-      alt=""
-      figcaption=""
+      alt="An image from the beginning of the case study group work screen"
+      figcaption="Detailed progress per group"
       class="details-grid__twoByTwo image-block__right"
       >}}
        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
           Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
         {{< /copy_wrapper>}}
       {{< image_cld
-      loading=" lazy"
+      loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686605740/curriculex/group%20work/OverallByGroup.webp"
       alt=""
-      figcaption=""
+      figcaption="An example of a case study group project"
       class="details-grid__twoByTwo image-block__left"
       >}}
       {{< image_cld
-      loading="eager"
+      loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686604966/curriculex/group%20work/ChatRaisedHand.webp"
-      alt=""
-      figcaption=""
+      alt="An admin screen from the case study"
+      figcaption="Instructor's view of a group project with chat feature window open"
       class="details-grid__twoByTwo image-block__right"
       >}}
         {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}

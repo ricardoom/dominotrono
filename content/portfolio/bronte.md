@@ -29,7 +29,7 @@ projectRoles: ['UX & UI Designer']
 projectClients: ['Pearson']
 projectCredits: []
 projectDate: '2022—2023'
-tags: ['User Experience', 'User Interface Design','Product Research and Design']
+tags: ['Figma','User Experience', 'User Interface Design','Product Research and Design']
 weight: -16
 externalURL: ''
 projectDesc: 'Most of my work at Pearson centered around an internal eText authoring environment called "Bronte." As a result, the user experience work focused specifically on the publishing workflow and administration. '

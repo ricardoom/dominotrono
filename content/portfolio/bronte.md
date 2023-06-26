@@ -1,5 +1,5 @@
 ---
-title: 'Bronte Publishing'
+title: 'Pearson — Bronte Publishing'
 date: 2023-05-11T13:31:19-07:00
 draft: false
 categories: 'portfolio'

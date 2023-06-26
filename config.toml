@@ -5,6 +5,7 @@ theme = "blank"
 relativeURLs = "true"
 enableRobotsTXT = "true"
 enableGitInfo = "true"
+pluralizelisttitles = "false"
 [frontmatter]
   date = ['lastmod', 'publishDate', 'date']
 #   expiryDate = ['expiryDate']
@@ -38,6 +39,11 @@ enableGitInfo = "true"
     placeHolderSVG = "/images/placeHolding.svg"
     [params.cloudinary]    
         class = "cld-responsive"
+        cloudPath = "https://res.cloudinary.com/toupeeproofbullets/image/upload/"
+        portfolioHero = "q_auto,f_auto,w_auto/"
+        postImage = "c_scale,q_auto,f_auto,w_auto/"
+        cloudID = "v1234567890/"
+        cloudDir = "cloudinary-dirctory/"
     [params.twitter]
         name = "twitter"
         site = "@rixblargh"
@@ -109,5 +115,11 @@ enableGitInfo = "true"
         title = "portfolio"
         url = "/portfolio/"
         weight = -10
+    [[menu.main]]
+        identifier = "about"
+        name = "about"
+        title = "about"
+        url = "/about/"
+        weight = -9
 
 [resources]

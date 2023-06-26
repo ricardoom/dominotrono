@@ -1,5 +1,5 @@
-.portfolioInvolvement {
-    background-color: transparentize($site-black, 0.1);
+.portfolio-involvement {
+    background-color: transparentize($site-black, 0.05);
     padding-bottom: var(--s1);
     padding-block-end: var(--s1);
     z-index: 2;
@@ -13,5 +13,6 @@
     @include media('>=tablet') {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
+      margin-block-start: calc(var(--s1) * -1);
     }
   }

@@ -10,7 +10,7 @@
           display: block;
         }
 
-        background: transparentize($site-dark-blue, 0.5);
+        background: transparentize($site-black, 0.5);
         border: none;
         color: currentColor;
         cursor: pointer;
@@ -124,6 +124,7 @@
         align-self: center;
         margin-right: var(--s0);
         margin-inline-end: var(--s0);
+        text-transform: capitalize;
 
         a:first-child {
           padding-inline-start: 0;

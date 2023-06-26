@@ -59,11 +59,11 @@
     background-color: #fff;
     box-shadow: var(--s-2) var(--s0) var(--s3) transparentize($site-black, 0.3);
     @include media('>=phone') {
-      
-      top: calc(var(--s1)  * -1);
-      right: calc(var(--s2)  * -1);
       position: relative;
-      width: calc(90% - var(--s0));
+      right: calc(var(--s2)  * -1.2);
+      top: calc(var(--s2)  * -1);
+      width: calc(98% - var(--s0));
+      max-width: 98ch;
     }
   }
 }

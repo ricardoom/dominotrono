@@ -32,6 +32,7 @@ $mobile-second-row: 15vh;
 $s0: $baseUnit;
 $s1: $s0 * $ratio;
 $s2: $s1 * $ratio;
+$s3: $s2 * $ratio;
 // @debug $s0, $s1, $s2;
 
 :root {

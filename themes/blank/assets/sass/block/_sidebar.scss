@@ -6,10 +6,16 @@
 
 .sidebar-prime {
   background-color: $site-black;
+  p {
+    padding-inline-start: var(--s0);
+  }
+
   .sidebarTitle {
-    @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
+    font-size: ft(var(--s3), var(--s6));
+
     @include media('>tablet') {
-      margin-bottom:  var(--s0);
+      margin-block: var(--s3);
+      padding-inline-start: var(--s0);
     }
   }
 
@@ -40,6 +46,7 @@
 
         .drop-cap {
           & > a {
+            //TODO: change this to our fluid type configuration
             @include responsive-font(5vw, 2.6rem, 5rem, 22px);
             border-bottom: solid var(--s-3) $site-white;
             display: block;

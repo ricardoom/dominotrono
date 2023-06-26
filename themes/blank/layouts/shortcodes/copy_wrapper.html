@@ -1,10 +1,10 @@
-
 {{ $class := .Get "class" }}
-  {{ if and ( $class ) ( ne $class "" ) }}
-  <p class="{{ $class }}">
-    {{ .Inner }}
+{{ if and ( $class ) ( ne $class "" ) }}
+  <p class="[ {{ $class }} ]">
+    {{- .Inner -}}
+  </p>
   {{ else }}
   <p>
-    {{ .Inner }}
+    {{- .Inner -}}
   </p>
   {{ end }}

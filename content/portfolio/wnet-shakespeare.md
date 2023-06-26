@@ -45,18 +45,14 @@ newLayout: true
       {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 
-## The Home Page
-
 {{< section_wrapper class="details-grid" >}}
-
-        {{< image
-          class="details-grid__twentyWords image-block__left"
-          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1581613639/wnet/shakespeareuncovered.hp.jpg"
-          srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1581613639/wnet/shakespeareuncovered.hp.jpg"
-          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_2x/v1581613639/wnet/shakespeareuncovered.hp.jpg 2x"
-          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_3x/v1581613639/wnet/shakespeareuncovered.hp.jpg 3x"
-          alt=""
-          figcaption=""
+        {{< section_header level="2" text="The Home Page" >}}
+        {{< image_cld
+        loading="eager"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1581613639/wnet/hp_shakespeareUncovered.png"
+        alt="An image from the website"
+        figcaption=""
+        class="details-grid__twentyWords image-block__left"
         >}}
 
         {{< image
@@ -71,10 +67,8 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-## Video Page
-
 {{< section_wrapper class="details-grid" >}}
-
+        {{< section_header level="2" text="Video Page" >}}
         {{< image
          class="details-grid__twentyWords image-block__left"
          src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_1x/v1581613638/wnet/shakespeareuncovered.video.jpg"
@@ -82,13 +76,8 @@ newLayout: true
          srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_2x/v1581613638/wnet/shakespeareuncovered.video.jpg 2x"
          srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_640_3x/v1581613638/wnet/shakespeareuncovered.video.jpg 3x"
          alt=""
-         figcaption=""
+         figcaption="A vertical where all series episodes are indexed."
         >}}
-
-        {{< copy_wrapper
-          class="details-grid__twentyWords copy-block__right" >}}
-          A vertical where all series episodes are indexed.
-         {{< /copy_wrapper>}}
 
         {{< image
           class="details-grid__twentyWords image-block__right"
@@ -102,10 +91,8 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-## Series maps and posters
-
 {{< section_wrapper class="details-grid" >}}
-
+        {{< section_header level="2" text="Series maps and posters" >}}
         {{< image
           class="details-grid__fiftyWords big-image"
           src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_960_1x/v1548844265/wnet/shakespeare.deaths.jpg"

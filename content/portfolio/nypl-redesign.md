@@ -1,5 +1,5 @@
 ---
-title: 'New York Public Library Website Re-design'
+title: 'New York Public Library'
 date: 2018-10-09T11:47:46-04:00
 draft: false
 categories: 'portfolio'

@@ -4,7 +4,11 @@
   "svg.preview.background": "transparent",
   "editor.autoIndent": "advanced",
   "cSpell.words": [
-    "NYPL's"
+    "curriculex",
+    "errorf",
+    "herosqip",
+    "NYPL's",
+    "shortcode"
   ],
   
   "html.format.indentInnerHtml": true,
@@ -23,6 +27,8 @@
     "statusBar.background": "#237c00"
   },
   "conventionalCommits.scopes": [
-    "Content Update"
+    "Content Update",
+    "General — Touches Many General Things"
   ],
+  "editor.snippetSuggestions": "top",
 }

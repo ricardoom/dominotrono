@@ -5,7 +5,14 @@ Built with static site generator Hugo, SASS, and vanilla Javascript
 ## Changelog
 
 ### Versions
-
+- 0.0.4
+  - Lots of content updates and styling fixes
+    - clean up of redundant css
+    - added in more scalable type across pages.
+    - Added new content for last year's work on the projects outlined within
+    - Some template fixes
+    - Added new video short code (Hugo)
+    
 - 0.0.3
   - CSS refactored quite a bit, down reduced unused or redundant rules probably by 30%, shaved about 20k off.
   - removed the old masthead section as it probably wasnt helpling

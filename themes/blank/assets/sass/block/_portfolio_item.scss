@@ -100,7 +100,8 @@
         margin-top: var(--s0);
 
         > p {
-          margin: var(--s0) 0;
+          // margin: var(--s0) 0;
+          margin-block: var(--s1);
         }
 
         .vertical-center {

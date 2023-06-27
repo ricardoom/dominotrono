@@ -1,7 +1,7 @@
 ---
 title: 'Native Bound Unbound'
 date: 2023-05-11T11:20:19-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## Placeholders
@@ -30,8 +30,8 @@ projectCredits: []
 projectDate: '2021—2023'
 tags: ['Visual Design', 'Development', 'Figma', 'Branding', 'Design Systems', 'Project Management']
 weight: -14
-externalURL: ''
-projectDesc: 'From 2021 to early 2022, I acted as chief technical and creative advisor on the archival scholarly project called Native Bound Unbound. The objective of Native Bound-Unbound is to create a centralized digital repository centered on the lives of enslaved Indigenous people across the Americas.'
+externalURL: 'https://www.nativeboundunbound.org/'
+projectDesc: 'From 2021 to early 2022, I acted as chief technical and creative advisor on the archival scholarly project Native Bound Unbound. The objective of Native Bound-Unbound is to create a centralized digital repository centered on the lives of enslaved Indigenous people across the Americas.'
 newLayout: true
 ---
 
@@ -44,29 +44,39 @@ newLayout: true
     class="hero-grid__imageBlock"
     >}}
   
-    {{< copy_wrapper
-      class="hero-grid__copyBlock" >}}
-      Incididunt aute eu nostrud ipsum labore cillum commodo. Reprehenderit laboris ullamco occaecat cillum laborum consectetur ex cillum elit eiusmod reprehenderit occaecat irure. Qui nulla est proident nisi. Amet fugiat dolore mollit velit veniam. Consequat proident ad excepteur ea.
+    {{< copy_wrapper class="hero-grid__copyBlock" >}}
+      This exciting project required me to step outside my typical role as a designer and developer and take a holistic, managerial view of the project. My role encompassed, among other things,  writing technical documentation as a technical liaison between the director and development studios and developing strategies for content, working with graphic designers, and interviewing potential development firms.
     {{< /copy_wrapper>}}
 
   {{< /section_wrapper>}}
 
 
 {{< section_wrapper class="details-grid" >}}
-
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Sunt veniam cillum non nostrud exercitation et esse amet ex cupidatat. Deserunt fugiat quis minim laboris amet minim ipsum deserunt aliquip. Voluptate ex occaecat eiusmod elit cupidatat est esse consectetur mollit enim culpa enim sit fugiat.
-
-      Qui nostrud velit eu culpa qui tempor. Aliqua deserunt sint dolore minim mollit excepteur nostrud est occaecat aliquip Lorem aute veniam. Laboris excepteur magna aute ea laborum ut id laborum in non labore culpa. Ad in do pariatur amet commodo eiusmod fugiat occaecat dolor.
-
-      Veniam qui proident amet mollit ullamco. Lorem id irure pariatur anim officia amet ad cillum aliquip. Nulla id et labore occaecat laboris dolore velit reprehenderit nulla duis. Nulla do exercitation consequat mollit do culpa officia Lorem. Consequat sint consequat esse elit sint non exercitation quis. Eu commodo dolore enim sunt ea elit eu officia reprehenderit cillum occaecat. Minim enim nulla consectetur nisi commodo sunt ad nostrud pariatur enim magna aliquip mollit.
+    {{< section_header level="2" text="Project Overview and Objective" >}}
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      Although obscured from the national narrative and consciousness, Indigenous American slavery was a definitive experience for many millions across North and South America, including in entire regions of the United States. Records that reveal these experiences currently exist in archival repositories around the globe, including legal cases, censuses, letters, last wills, newspapers, photographs, and church records, such as baptisms, marriages, and burials. Museums steward tapestries, pottery, and more that also reflect Indigenous slavery. Individuals and families also hold personal records, objects, photographs, and remarkable stories about their ancestors. Collectively, all these archival imprints and cultural expressions encompass the indelible stories of people, places, and moments in time and, when drawn together, reflect a unique story of both the brutality suffered and the resilience of those that passed through it. 
     {{< /copy_wrapper>}}
+
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+    The project will serve as a major source for educators, scholars, storytellers, artists, and, most critically, descendants, both individuals as well as the broader collective.
+    {{< /copy_wrapper>}}
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      At the outset, I defined the technical possibilities and restraints. I developed strategies with Dr. Galvez to bring the vision to life. We discussed the breadth and scope of the project, how it fits into today's cultural climate, and technical limitations. We reviewed similar projects and met with other scholars and developers. 
+    {{< /copy_wrapper>}}
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      I specialize in design and development. As the project advanced, I was excited to work on the technical aspects of the project. We needed to create a proof of concept to understand the project's scope fully. To do this, I had to expand my knowledge of back-end processing, database setup, and building the front-end, which could interact with the database. Additionally, I was responsible for user experience, visual design, and creative direction. While I claim to be an expert in only some of these areas, my professional experience working with cultural institutions allowed me to ask the right questions and explore the best technological solutions for the project.
+    {{< /copy_wrapper>}}
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      For the purposes of this portfolio page, I will focus on my design work. The following examples are representative of the work I have done concerning visual design and design system development.
+    {{< /copy_wrapper>}}
+
 {{< /section_wrapper>}}
 
-### Visual Design and Art Direction
 {{< section_wrapper class="details-grid" >}}
-
+{{< section_header level="2" text="Visual Design and Art Direction" >}} 
+{{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      
+    {{< /copy_wrapper>}}
 {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684799719/native-bound-unbound/MoodThemes.webp"
@@ -81,9 +91,7 @@ newLayout: true
 
       {{< copy_wrapper
     class="details-grid__twentyWords copy-block__right" >}}
-    Id eiusmod ea ullamco laboris pariatur qui Lorem sunt magna veniam nostrud officia pariatur. Eu sit veniam ad aliqua nostrud elit sit consequat ad enim duis. Et occaecat irure ut ullamco officia amet aute ullamco do culpa dolore labore id aliqua.
-
-    Nulla fugiat ex in quis enim dolore consequat reprehenderit ullamco. Tempor do duis duis veniam consectetur non labore dolore. Do in sunt incididunt eu fugiat laborum id ut dolor officia occaecat id est consectetur. Sint fugiat pariatur voluptate aliquip labore. Aliquip ex duis reprehenderit exercitation qui magna nisi sint tempor occaecat ullamco enim.       
+    My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
   {{< /copy_wrapper>}}
 
 
@@ -109,15 +117,30 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-### Typography
-
 {{< section_wrapper class="details-grid" >}}
+    {{< section_header level="3" text="Typography" >}}    
     
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Eu est nostrud enim id duis dolore. Duis sunt nostrud enim cupidatat proident non ullamco reprehenderit non cillum. Tempor excepteur mollit pariatur aliquip velit irure ipsum labore.
+     {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      I began the design process by determining the type faces and scale needed to achieve a compatible and visually pleasing compositions. I utilized an online tool called utopia.xyz. That tool allows you to choose a scalar, upper and lower bounds (largest & smallest) and it will produce a set of scale rules allowing the designer to create a scalable type and layout system. This system takes advantage of the browser's capabilities to render a page back to the viewer at the right size for their screen without the need for breakpoints. 
     {{< /copy_wrapper>}}
 
+    {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685484977/native-bound-unbound/Type_and_Scales.webp"
+      alt="An image detailing scale and type"
+      figcaption="This example details the scaling factor and basis for headings, body and general uses"
+      class="details-grid__fiftyWords big-image"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Eu est nostrud enim id duis dolore. Duis sunt nostrud enim cupidatat proident non ullamco reprehenderit non cillum. Tempor excepteur mollit pariatur aliquip velit irure ipsum labore.
+    {{< /copy_wrapper>}}
+   
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126320/native-bound-unbound/Text_Lockups.webp"
@@ -129,28 +152,10 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-{{< section_wrapper class="details-grid" >}}
 
-    {{< copy_wrapper
-      class="details-grid__fiftyWords copy-block" >}}
-      Velit ea minim dolore occaecat ipsum laborum irure irure culpa. Excepteur sint do reprehenderit consequat proident nisi minim non occaecat proident aliqua consectetur qui magna. Dolore duis ad do commodo Lorem dolor elit voluptate.
-    {{< /copy_wrapper>}}
-
-    {{< image_cld
-      loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685484977/native-bound-unbound/Type_and_Scales.webp"
-      alt=""
-      figcaption=""
-      caption=""
-      class="details-grid__fiftyWords big-image"
-    >}}
-
-{{< /section_wrapper>}}
-
-### Atoms and Molecules
 
 {{< section_wrapper class="details-grid" >}}
-
+    {{< section_header level="3" text="Atoms and Molecules" >}}
     {{< image_cld
     loading="eager"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126322/native-bound-unbound/Buttons.webp"
@@ -178,12 +183,8 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-
-
-### Components
-
 {{< section_wrapper class="details-grid" >}}
-
+    {{< section_header level="3" text="Components" >}}
     {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126325/native-bound-unbound/small_cards.webp"
@@ -249,9 +250,8 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-### Page & Screen Layouts
 {{< section_wrapper class="details-grid" >}}
-
+  {{< section_header level="3" text="Page & Screen Layouts" >}}
   {{< copy_wrapper
     class="details-grid__twoByTwo copy-left" >}}
     Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.

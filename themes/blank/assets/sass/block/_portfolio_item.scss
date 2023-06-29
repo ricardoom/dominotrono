@@ -48,6 +48,7 @@
       //  should only be used at the top of each portfolio case study.
       // TODO: explore possible further abstraction / using these values more globally.
       // TODO: explore using scaling values combined w/ calc() to abstract away these fixed pixel values...
+      // TODO Explore using flex instead of grid. 
 
       // hero grid specific variables:
       $hero-rows-phone: #{minmax(225px, auto) minmax(150px, auto)};
@@ -127,21 +128,29 @@
             @include add-to-grid('>=phone', 1, -1, auto, auto);
             @include add-to-grid('>=tablet', 1, 2, auto, auto);
           }
+        & > .heading.right {
+            @include add-to-grid('>=phone', 1, -1, auto, auto);
+            @include add-to-grid('>=tablet', 3, 4, auto, auto);
+          }
         
         //
         // twoByTwo: this layout can be used to stack 3 images to the right or left
         // with a copy block on the opposite side..
         &__twoByTwo {
+
+          &.copy-block {
+            
+          }
           &.image-block,
           &.copy-block {
             &__left {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 1, 2, auto, auto);
+              @include add-to-grid('>=tablet', 1, 2, 1, 2);
             }
 
             &__right {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 3, 4, auto, auto);
+              @include add-to-grid('>=tablet', 3, 4, 1, 2);
             }
 
             &__center {

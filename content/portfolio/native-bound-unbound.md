@@ -88,9 +88,8 @@ newLayout: true
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-
-      {{< copy_wrapper
-    class="details-grid__twentyWords copy-block__right" >}}
+    {{< section_header level="4" text="Color, logo mark & type" position="right" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
     My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
   {{< /copy_wrapper>}}
 
@@ -100,7 +99,7 @@ newLayout: true
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685557266/native-bound-unbound/Color_Set_Final.webp"
       alt="An image of the approved color set for the website and applications"
       figcaption="Approved color set for the website and applications"
-      class="details-grid__twentyWords image-block__left"
+      class="details-grid__twentyWords image-block__right"
     >}}
 
 {{< /section_wrapper>}}
@@ -138,15 +137,15 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      Eu est nostrud enim id duis dolore. Duis sunt nostrud enim cupidatat proident non ullamco reprehenderit non cillum. Tempor excepteur mollit pariatur aliquip velit irure ipsum labore.
+      The fundamental aspect of the typographic work centers around headline and body copy type styles. All other forms are derived from these two core design artifacts. The reasoning behind this methodology is to sustain a very low level of design complexity. In my Figma, Sass and HTML I can easily modify these core elements and rely on cascading to effect all the descendant styles and layouts.
     {{< /copy_wrapper>}}
    
     {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126320/native-bound-unbound/Text_Lockups.webp"
-      alt="An image of basic tyopgraphic treatments for the project"
-      figcaption=""
-      caption="Basic typographic treatments from which to build further specimens from"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126320/native-bound-unbound/TextLockups.webp"
+      alt="An image of basic typographic treatments for the project"
+      figcaption="Departure point for typography: Headlines, body copy and basic lockups are delineated here"
+      caption=""
       class="details-grid__fiftyWords big-image"
     >}}
 
@@ -156,10 +155,11 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
     {{< section_header level="3" text="Atoms and Molecules" >}}
+    {{< section_header level="4" text="Button Sets" >}}
     {{< image_cld
     loading="eager"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126322/native-bound-unbound/Buttons.webp"
-    alt="A image of variations on basic button, with both icons and without"
+    alt="An image of variations on basic button, with both icons and without"
     figcaption="Variations on basic button, with both icons and without. This included basic type treatments as well"
     class="details-grid__fiftyWords big-image"
     >}}
@@ -172,25 +172,29 @@ newLayout: true
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1685126322/native-bound-unbound/Inputs.webp"
     alt=""
-    figcaption=""
-    class="details-grid__twentyWords image-block__right"
+    figcaption="Search input fields and buttons for both light and dark themes"
+    class="details-grid__twoByTwo image-block__right"
     >}}
 
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Cillum pariatur irure culpa do fugiat nisi eiusmod magna nisi cupidatat. Voluptate in ipsum elit deserunt consectetur laboris fugiat ipsum anim ad irure et est sunt. Labore non consectetur exercitation sit Lorem elit excepteur sunt ex eu laboris esse.
+    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" center="true" >}}
+      The proximal phase of the design process was to identify and apply color and type treatments to foundational screen elements, often referred to as "atoms." These elements are primarily composed of input fields and buttons.
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
     {{< section_header level="3" text="Components" >}}
+
+     {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Following the essential and more fundamental elements are components derived by compositing together the core elements. These tend towards more complex arrangements; again, the essential nature of these elements is their relationship to their origins within the ecosystem. Of primary importance is navigation. For both small and large screens, I devised a simple and flexible solution where designers or engineers could easily add any number of navigation items.
+    {{< /copy_wrapper>}}
+
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126325/native-bound-unbound/small_cards.webp"
-    alt="An image of design work for card layouts"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto//v1685559222/native-bound-unbound/PrimaryNav.webp"
+    alt="An image of the small and large screen navigation elements. Encompassing both light and dark screens"
     figcaption=""
-    caption=""
     class="details-grid__fiftyWords big-image"
     >}}
 
@@ -199,11 +203,12 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
     {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685558092/native-bound-unbound/PrimaryNav.webp"
-    alt=""
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126325/native-bound-unbound/small_cards.webp"
+    alt="An image of design work for card layouts"
     figcaption=""
-    class="details-grid__twentyWords image-block__left "
+    caption=""
+    class="details-grid__fiftyWords big-image"
     >}}
 
     {{< copy_wrapper
@@ -252,11 +257,13 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
   {{< section_header level="3" text="Page & Screen Layouts" >}}
-  {{< copy_wrapper
-    class="details-grid__twoByTwo copy-left" >}}
+  {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
     Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
   {{< /copy_wrapper>}}
 
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
   {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683580752/native-bound-unbound/HomePageDark.jpg"

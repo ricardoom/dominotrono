@@ -194,7 +194,7 @@ newLayout: true
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto//v1685559222/native-bound-unbound/PrimaryNav.webp"
     alt="An image of the small and large screen navigation elements. Encompassing both light and dark screens"
-    figcaption=""
+    figcaption="Small and large screen navigation elements. Encompassing both light and dark screens"
     class="details-grid__fiftyWords big-image"
     >}}
 
@@ -204,16 +204,50 @@ newLayout: true
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126325/native-bound-unbound/small_cards.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688072584/native-bound-unbound/FooterNavigation.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twoByTwo image-block__right"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126325/native-bound-unbound/small_cards.webp"
     alt="An image of design work for card layouts"
     figcaption=""
     caption=""
-    class="details-grid__fiftyWords big-image"
+    class="details-grid__twoByTwo image-block__left"
     >}}
 
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1688073270/native-bound-unbound/MobileCardDetail.webp"
+    alt="An image of design work for card layouts"
+    figcaption=""
+    caption=""
+    class="details-grid__twoByTwo image-block__right"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+  {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688073604/native-bound-unbound/cardVariant.webp"
+    alt="An image of design work for card layouts"
+    figcaption="Basic card layout in Figma displaying light and dark modes as well as active composition layers"
+    caption=""
+    class="details-grid__twoByTwo image-block__left"
+    >}}
+    
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      Tempor consectetur anim nisi est ex et. Eu aute enim et nostrud irure anim ullamco eiusmod veniam veniam occaecat aute esse amet. Aliqua laborum mollit esse cupidatat ex. Nisi sit veniam eiusmod voluptate consectetur quis. Ullamco nisi in sit aliquip reprehenderit exercitation.
+      As much of the content work has yet to be defined the team requested that we have a variety of cards in place to handle the potential for different types of content and levels of complexity.
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}

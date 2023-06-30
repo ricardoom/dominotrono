@@ -26,7 +26,7 @@ svgClipObjectClass: ''
 svgColorClass: 'site-color--red'
 projectRoles: ['Design & Technology Lead']
 projectClients: ['Dr. Estevan Rael Gálvez']
-projectCredits: []
+projectCredits: ['Mario Griego (Logo Designer)']
 projectDate: '2021—2023'
 tags: ['Visual Design', 'Development', 'Figma', 'Branding', 'Design Systems', 'Project Management']
 weight: -14
@@ -58,7 +58,7 @@ newLayout: true
     {{< /copy_wrapper>}}
 
     {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
-    The project will serve as a major source for educators, scholars, storytellers, artists, and, most critically, descendants, both individuals as well as the broader collective.
+      The project will serve as a major source for educators, scholars, storytellers, artists, and, most critically, descendants, both individuals as well as the broader collective.
     {{< /copy_wrapper>}}
     {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
       At the outset, I defined the technical possibilities and restraints. I developed strategies with Dr. Galvez to bring the vision to life. We discussed the breadth and scope of the project, how it fits into today's cultural climate, and technical limitations. We reviewed similar projects and met with other scholars and developers. 
@@ -74,26 +74,42 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 {{< section_header level="2" text="Visual Design and Art Direction" >}} 
-{{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
-      
-    {{< /copy_wrapper>}}
-{{< image_cld
+  {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
+    My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
+  {{< /copy_wrapper>}}
+  {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684799719/native-bound-unbound/MoodThemes.webp"
       alt=""
       figcaption="Mood board: color, type and logo explorations, as well as employing imagery"
       class="details-grid__fiftyWords big-image"
->}}
+  >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
+    {{< section_header level="4" text="Theme Exploration" >}}
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1688154138/native-bound-unbound/ThemeMidnight.webp"
+    alt=""
+    figcaption="Dark theme exploration"
+    class="details-grid__twentyWords image-block__left"
+    >}}
+
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688154138/native-bound-unbound/ThemeBrightWhite.webp"
+    alt=""
+    figcaption="Light theme exploration"
+    class="details-grid__twentyWords image-block__right"
+    >}}
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
     {{< section_header level="4" text="Color, logo mark & type" position="right" >}}
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-    My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
-  {{< /copy_wrapper>}}
-
-
+    
     {{< image_cld
       loading=" lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685557266/native-bound-unbound/Color_Set_Final.webp"
@@ -105,14 +121,20 @@ newLayout: true
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-
+  {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688155135/native-bound-unbound/LogoBlocking.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twoByTwo image-block__left"
+   >}}
   {{< image_cld
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1685569391/native-bound-unbound/Logos.webp"
     alt="An image of logo types organized in a grid"
     figcaption="The panopoly of logos. A wide variety for a number of differnet applications and implementations."
     class="details-grid__twoByTwo image-block__right"
-  >}}    
+  >}}
 
 {{< /section_wrapper>}}
 
@@ -212,7 +234,7 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-{{< section_wrapper class="details-grid" >}}
+{{< section_wrapper class="details-grid" >}} 
 
     {{< image_cld
     loading="lazy"
@@ -246,7 +268,7 @@ newLayout: true
     >}}
     
     {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__left" >}}
+      class="details-grid__twentyWords copy-block__right" center="true" >}}
       As much of the content work has yet to be defined the team requested that we have a variety of cards in place to handle the potential for different types of content and levels of complexity.
     {{< /copy_wrapper>}}
 
@@ -266,20 +288,6 @@ newLayout: true
     >}}
 {{< /section_wrapper>}}
 
-
-{{< section_wrapper class="details-grid" >}}
-
-    {{< image_cld
-    loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1685057837/native-bound-unbound/WIPInteriorScreen.webp"
-    alt="an Image of work in progress screens"
-    figcaption="some impsue"
-    caption="what?"
-    class="details-grid__fiftyWords big-image"
-    >}}
-
-{{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< copy_wrapper
@@ -287,12 +295,20 @@ newLayout: true
       Magna pariatur occaecat ea adipisicing mollit pariatur culpa labore exercitation. Irure dolore dolor magna dolore amet. Esse nisi excepteur officia id fugiat proident aliquip irure non. Magna quis Lorem sit excepteur id laborum deserunt ad ut consequat minim sit. Magna ea anim est officia velit consequat. Do ipsum aliquip aliquip nostrud anim aute dolore enim deserunt tempor culpa fugiat ad elit. Voluptate ea nostrud nulla ut voluptate commodo anim ex officia reprehenderit veniam reprehenderit laboris et.
     {{< /copy_wrapper>}}
 
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,f_auto,q_auto/v1688146767/native-bound-unbound/TextImageCombinations.webp"
+    alt="Image and text combinations"
+    figcaption="Image and text combinations"
+    class="details-grid__fiftyWords big-image"
+    >}}
+
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
   {{< section_header level="3" text="Page & Screen Layouts" >}}
-  {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-    Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
+  {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+    Babbroon Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
   {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -316,9 +332,38 @@ newLayout: true
     class="details-grid__twoByTwo image-block__right"
   >}}
 
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+  {{< section_header level="4" text="Composed interior page layouts" >}}
   {{< copy_wrapper
-    class="details-grid__twoByTwo copy-block__right" >}}
+    class="details-grid__twentyWords copy-block__left" >}}
     Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
   {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+    
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1685057837/native-bound-unbound/WIPInteriorScreen.webp"
+    alt="an Image of work in progress screens"
+    figcaption="A fully composed layout with text and imagery"
+    caption=""
+    class="details-grid__fiftyWords big-image"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688152872/native-bound-unbound/SmallBlogPost.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twoByTwo image-block__left"
+    >}}
 
 {{< /section_wrapper>}}

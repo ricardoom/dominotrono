@@ -119,18 +119,18 @@
           // need styles to allow for a more traditional header / content relationship. 
           // TODO: keep working this out
           > .heading {
-            @include add-to-grid('>=phone', 1, -1, auto, auto);
-            @include add-to-grid('>=tablet', 1, 2, auto, auto);
+            @include add-to-grid('>=phone', 1, -1, 1, 2);
+            @include add-to-grid('>=tablet', 1, 2, 1, 2);
           }
         }
 
         & > .heading {
-            @include add-to-grid('>=phone', 1, -1, auto, auto);
-            @include add-to-grid('>=tablet', 1, 2, auto, auto);
+            @include add-to-grid('>=phone', 1, -1, 1, 2);
+            @include add-to-grid('>=tablet', 1, 2, 1, 2);
           }
         & > .heading.right {
-            @include add-to-grid('>=phone', 1, -1, auto, auto);
-            @include add-to-grid('>=tablet', 3, 4, auto, auto);
+            @include add-to-grid('>=phone', 1, -1, 1, 2);
+            @include add-to-grid('>=tablet', 3, 4, 1, 2);
           }
         
         //
@@ -138,28 +138,29 @@
         // with a copy block on the opposite side..
         &__twoByTwo {
 
-          &.copy-block {
-            
-          }
+          // &.copy-block {
+
+          // }
           &.image-block,
           &.copy-block {
             &__left {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 1, 2, 1, 2);
+              @include add-to-grid('>=tablet', 1, 2, auto, auto);
             }
 
             &__right {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 3, 4, 1, 2);
+              @include add-to-grid('>=tablet', 3, 4, auto, auto);
             }
 
             &__center {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              padding: var(--s1);
-              padding-block-end: var(--s1);
-              padding-block-start: var(--s1);
-              padding-inline-end: var(--s1);
-              padding-inline-start: var(--s1);
+              justify-self: center
+              // padding: var(--s1);
+              // padding-block-end: var(--s1);
+              // padding-block-start: var(--s1);
+              // padding-inline-end: var(--s1);
+              // padding-inline-start: var(--s1);
             }
           }
           &.image-block {

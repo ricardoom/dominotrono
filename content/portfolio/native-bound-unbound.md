@@ -1,7 +1,7 @@
 ---
 title: 'Native Bound Unbound'
 date: 2023-05-11T11:20:19-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## Placeholders
@@ -26,12 +26,12 @@ svgClipObjectClass: ''
 svgColorClass: 'site-color--red'
 projectRoles: ['Design & Technology Lead']
 projectClients: ['Dr. Estevan Rael Gálvez']
-projectCredits: []
+projectCredits: ['Mario Griego (Logo Designer)']
 projectDate: '2021—2023'
 tags: ['Visual Design', 'Development', 'Figma', 'Branding', 'Design Systems', 'Project Management']
 weight: -14
-externalURL: ''
-projectDesc: 'From 2021 to early 2022, I acted as chief technical and creative advisor on the archival scholarly project called Native Bound Unbound. The objective of Native Bound-Unbound is to create a centralized digital repository centered on the lives of enslaved Indigenous people across the Americas.'
+externalURL: 'https://www.nativeboundunbound.org/'
+projectDesc: 'From 2021 to early 2022, I acted as chief technical and creative advisor on the archival scholarly project Native Bound Unbound. The objective of Native Bound-Unbound is to create a centralized digital repository centered on the lives of enslaved Indigenous people across the Americas.'
 newLayout: true
 ---
 
@@ -44,117 +44,144 @@ newLayout: true
     class="hero-grid__imageBlock"
     >}}
   
-    {{< copy_wrapper
-      class="hero-grid__copyBlock" >}}
-      Incididunt aute eu nostrud ipsum labore cillum commodo. Reprehenderit laboris ullamco occaecat cillum laborum consectetur ex cillum elit eiusmod reprehenderit occaecat irure. Qui nulla est proident nisi. Amet fugiat dolore mollit velit veniam. Consequat proident ad excepteur ea.
+    {{< copy_wrapper class="hero-grid__copyBlock" >}}
+      This exciting project required me to step outside my typical role as a designer and developer and take a holistic, managerial view of the project. My role encompassed, among other things,  writing technical documentation as a technical liaison between the director and development studios and developing strategies for content, working with graphic designers, and interviewing potential development firms.
     {{< /copy_wrapper>}}
 
   {{< /section_wrapper>}}
 
 
 {{< section_wrapper class="details-grid" >}}
-
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Sunt veniam cillum non nostrud exercitation et esse amet ex cupidatat. Deserunt fugiat quis minim laboris amet minim ipsum deserunt aliquip. Voluptate ex occaecat eiusmod elit cupidatat est esse consectetur mollit enim culpa enim sit fugiat.
-
-      Qui nostrud velit eu culpa qui tempor. Aliqua deserunt sint dolore minim mollit excepteur nostrud est occaecat aliquip Lorem aute veniam. Laboris excepteur magna aute ea laborum ut id laborum in non labore culpa. Ad in do pariatur amet commodo eiusmod fugiat occaecat dolor.
-
-      Veniam qui proident amet mollit ullamco. Lorem id irure pariatur anim officia amet ad cillum aliquip. Nulla id et labore occaecat laboris dolore velit reprehenderit nulla duis. Nulla do exercitation consequat mollit do culpa officia Lorem. Consequat sint consequat esse elit sint non exercitation quis. Eu commodo dolore enim sunt ea elit eu officia reprehenderit cillum occaecat. Minim enim nulla consectetur nisi commodo sunt ad nostrud pariatur enim magna aliquip mollit.
+    {{< section_header level="2" text="Project Overview and Objective" >}}
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      Although obscured from the national narrative and consciousness, Indigenous American slavery was a definitive experience for many millions across North and South America, including in entire regions of the United States. Records that reveal these experiences currently exist in archival repositories around the globe, including legal cases, censuses, letters, last wills, newspapers, photographs, and church records, such as baptisms, marriages, and burials. Museums steward tapestries, pottery, and more that also reflect Indigenous slavery. Individuals and families also hold personal records, objects, photographs, and remarkable stories about their ancestors. Collectively, all these archival imprints and cultural expressions encompass the indelible stories of people, places, and moments in time and, when drawn together, reflect a unique story of both the brutality suffered and the resilience of those that passed through it. 
     {{< /copy_wrapper>}}
+
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      The project will serve as a major source for educators, scholars, storytellers, artists, and, most critically, descendants, both individuals as well as the broader collective.
+    {{< /copy_wrapper>}}
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      At the outset, I defined the technical possibilities and restraints. I developed strategies with Dr. Galvez to bring the vision to life. We discussed the breadth and scope of the project, how it fits into today's cultural climate, and technical limitations. We reviewed similar projects and met with other scholars and developers. 
+    {{< /copy_wrapper>}}
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      I specialize in design and development. As the project advanced, I was excited to work on the technical aspects of the project. We needed to create a proof of concept to understand the project's scope fully. To do this, I had to expand my knowledge of back-end processing, database setup, and building the front-end, which could interact with the database. Additionally, I was responsible for user experience, visual design, and creative direction. While I claim to be an expert in only some of these areas, my professional experience working with cultural institutions allowed me to ask the right questions and explore the best technological solutions for the project.
+    {{< /copy_wrapper>}}
+    {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
+      For the purposes of this portfolio page, I will focus on my design work. The following examples are representative of the work I have done concerning visual design and design system development.
+    {{< /copy_wrapper>}}
+
 {{< /section_wrapper>}}
 
-### Visual Design and Art Direction
 {{< section_wrapper class="details-grid" >}}
-
-{{< image_cld
+{{< section_header level="2" text="Visual Design and Art Direction" >}} 
+  {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
+    My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
+  {{< /copy_wrapper>}}
+  {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684799719/native-bound-unbound/MoodThemes.webp"
       alt=""
       figcaption="Mood board: color, type and logo explorations, as well as employing imagery"
       class="details-grid__fiftyWords big-image"
->}}
+  >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
+    {{< section_header level="4" text="Theme Exploration" >}}
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1688154138/native-bound-unbound/ThemeMidnight.webp"
+    alt=""
+    figcaption="Dark theme exploration"
+    class="details-grid__twentyWords image-block__left"
+    >}}
 
-      {{< copy_wrapper
-    class="details-grid__twentyWords copy-block__right" >}}
-    Id eiusmod ea ullamco laboris pariatur qui Lorem sunt magna veniam nostrud officia pariatur. Eu sit veniam ad aliqua nostrud elit sit consequat ad enim duis. Et occaecat irure ut ullamco officia amet aute ullamco do culpa dolore labore id aliqua.
 
-    Nulla fugiat ex in quis enim dolore consequat reprehenderit ullamco. Tempor do duis duis veniam consectetur non labore dolore. Do in sunt incididunt eu fugiat laborum id ut dolor officia occaecat id est consectetur. Sint fugiat pariatur voluptate aliquip labore. Aliquip ex duis reprehenderit exercitation qui magna nisi sint tempor occaecat ullamco enim.       
-  {{< /copy_wrapper>}}
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688154138/native-bound-unbound/ThemeBrightWhite.webp"
+    alt=""
+    figcaption="Light theme exploration"
+    class="details-grid__twentyWords image-block__right"
+    >}}
+{{< /section_wrapper>}}
 
-
+{{< section_wrapper class="details-grid" >}}
+    {{< section_header level="4" text="Color, logo mark & type" position="right" >}}
+    
     {{< image_cld
       loading=" lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685557266/native-bound-unbound/Color_Set_Final.webp"
       alt="An image of the approved color set for the website and applications"
       figcaption="Approved color set for the website and applications"
-      class="details-grid__twentyWords image-block__left"
+      class="details-grid__twentyWords image-block__right"
     >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-
+  {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688155135/native-bound-unbound/LogoBlocking.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twoByTwo image-block__left"
+   >}}
   {{< image_cld
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1685569391/native-bound-unbound/Logos.webp"
     alt="An image of logo types organized in a grid"
     figcaption="The panopoly of logos. A wide variety for a number of differnet applications and implementations."
     class="details-grid__twoByTwo image-block__right"
-  >}}    
+  >}}
 
 {{< /section_wrapper>}}
 
-### Typography
-
 {{< section_wrapper class="details-grid" >}}
+    {{< section_header level="3" text="Typography" >}}    
     
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Eu est nostrud enim id duis dolore. Duis sunt nostrud enim cupidatat proident non ullamco reprehenderit non cillum. Tempor excepteur mollit pariatur aliquip velit irure ipsum labore.
+     {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      I began the design process by determining the type faces and scale needed to achieve a compatible and visually pleasing compositions. I utilized an online tool called utopia.xyz. That tool allows you to choose a scalar, upper and lower bounds (largest & smallest) and it will produce a set of scale rules allowing the designer to create a scalable type and layout system. This system takes advantage of the browser's capabilities to render a page back to the viewer at the right size for their screen without the need for breakpoints. 
     {{< /copy_wrapper>}}
 
     {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126320/native-bound-unbound/Text_Lockups.webp"
-      alt="An image of basic tyopgraphic treatments for the project"
-      figcaption=""
-      caption="Basic typographic treatments from which to build further specimens from"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685484977/native-bound-unbound/Type_and_Scales.webp"
+      alt="An image detailing scale and type"
+      figcaption="This example details the scaling factor and basis for headings, body and general uses"
       class="details-grid__fiftyWords big-image"
     >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-
     {{< copy_wrapper
-      class="details-grid__fiftyWords copy-block" >}}
-      Velit ea minim dolore occaecat ipsum laborum irure irure culpa. Excepteur sint do reprehenderit consequat proident nisi minim non occaecat proident aliqua consectetur qui magna. Dolore duis ad do commodo Lorem dolor elit voluptate.
+      class="details-grid__twentyWords copy-block__left" >}}
+      The fundamental aspect of the typographic work centers around headline and body copy type styles. All other forms are derived from these two core design artifacts. The reasoning behind this methodology is to sustain a very low level of design complexity. In my Figma, Sass and HTML I can easily modify these core elements and rely on cascading to effect all the descendant styles and layouts.
     {{< /copy_wrapper>}}
-
+   
     {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685484977/native-bound-unbound/Type_and_Scales.webp"
-      alt=""
-      figcaption=""
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126320/native-bound-unbound/TextLockups.webp"
+      alt="An image of basic typographic treatments for the project"
+      figcaption="Departure point for typography: Headlines, body copy and basic lockups are delineated here"
       caption=""
       class="details-grid__fiftyWords big-image"
     >}}
 
 {{< /section_wrapper>}}
 
-### Atoms and Molecules
+
 
 {{< section_wrapper class="details-grid" >}}
-
+    {{< section_header level="3" text="Atoms and Molecules" >}}
+    {{< section_header level="4" text="Button Sets" >}}
     {{< image_cld
     loading="eager"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126322/native-bound-unbound/Buttons.webp"
-    alt="A image of variations on basic button, with both icons and without"
+    alt="An image of variations on basic button, with both icons and without"
     figcaption="Variations on basic button, with both icons and without. This included basic type treatments as well"
     class="details-grid__fiftyWords big-image"
     >}}
@@ -167,29 +194,29 @@ newLayout: true
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1685126322/native-bound-unbound/Inputs.webp"
     alt=""
-    figcaption=""
-    class="details-grid__twentyWords image-block__right"
+    figcaption="Search input fields and buttons for both light and dark themes"
+    class="details-grid__twoByTwo image-block__right"
     >}}
 
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Cillum pariatur irure culpa do fugiat nisi eiusmod magna nisi cupidatat. Voluptate in ipsum elit deserunt consectetur laboris fugiat ipsum anim ad irure et est sunt. Labore non consectetur exercitation sit Lorem elit excepteur sunt ex eu laboris esse.
+    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" center="true" >}}
+      The proximal phase of the design process was to identify and apply color and type treatments to foundational screen elements, often referred to as "atoms." These elements are primarily composed of input fields and buttons.
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 
-
-
-### Components
-
 {{< section_wrapper class="details-grid" >}}
+    {{< section_header level="3" text="Components" >}}
+
+     {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Following the essential and more fundamental elements are components derived by compositing together the core elements. These tend towards more complex arrangements; again, the essential nature of these elements is their relationship to their origins within the ecosystem. Of primary importance is navigation. For both small and large screens, I devised a simple and flexible solution where designers or engineers could easily add any number of navigation items.
+    {{< /copy_wrapper>}}
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126325/native-bound-unbound/small_cards.webp"
-    alt="An image of design work for card layouts"
-    figcaption=""
-    caption=""
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto//v1685559222/native-bound-unbound/PrimaryNav.webp"
+    alt="An image of the small and large screen navigation elements. Encompassing both light and dark screens"
+    figcaption="Small and large screen navigation elements. Encompassing both light and dark screens"
     class="details-grid__fiftyWords big-image"
     >}}
 
@@ -198,16 +225,51 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
 
     {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685558092/native-bound-unbound/PrimaryNav.webp"
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688072584/native-bound-unbound/FooterNavigation.webp"
     alt=""
     figcaption=""
-    class="details-grid__twentyWords image-block__left "
+    class="details-grid__twoByTwo image-block__right"
     >}}
 
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}} 
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126325/native-bound-unbound/small_cards.webp"
+    alt="An image of design work for card layouts"
+    figcaption=""
+    caption=""
+    class="details-grid__twoByTwo image-block__left"
+    >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1688073270/native-bound-unbound/MobileCardDetail.webp"
+    alt="An image of design work for card layouts"
+    figcaption=""
+    caption=""
+    class="details-grid__twoByTwo image-block__right"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+  {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688073604/native-bound-unbound/cardVariant.webp"
+    alt="An image of design work for card layouts"
+    figcaption="Basic card layout in Figma displaying light and dark modes as well as active composition layers"
+    caption=""
+    class="details-grid__twoByTwo image-block__left"
+    >}}
+    
     {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__left" >}}
-      Tempor consectetur anim nisi est ex et. Eu aute enim et nostrud irure anim ullamco eiusmod veniam veniam occaecat aute esse amet. Aliqua laborum mollit esse cupidatat ex. Nisi sit veniam eiusmod voluptate consectetur quis. Ullamco nisi in sit aliquip reprehenderit exercitation.
+      class="details-grid__twentyWords copy-block__right" center="true" >}}
+      As much of the content work has yet to be defined the team requested that we have a variety of cards in place to handle the potential for different types of content and levels of complexity.
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -226,37 +288,27 @@ newLayout: true
     >}}
 {{< /section_wrapper>}}
 
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1685057837/native-bound-unbound/WIPInteriorScreen.webp"
-    alt="an Image of work in progress screens"
-    figcaption="some impsue"
-    caption="what?"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,f_auto,q_auto/v1688146767/native-bound-unbound/TextImageCombinations.webp"
+    alt="Image and text combinations"
+    figcaption="Image and text combinations"
     class="details-grid__fiftyWords big-image"
     >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Magna pariatur occaecat ea adipisicing mollit pariatur culpa labore exercitation. Irure dolore dolor magna dolore amet. Esse nisi excepteur officia id fugiat proident aliquip irure non. Magna quis Lorem sit excepteur id laborum deserunt ad ut consequat minim sit. Magna ea anim est officia velit consequat. Do ipsum aliquip aliquip nostrud anim aute dolore enim deserunt tempor culpa fugiat ad elit. Voluptate ea nostrud nulla ut voluptate commodo anim ex officia reprehenderit veniam reprehenderit laboris et.
-    {{< /copy_wrapper>}}
+  {{< section_header level="3" text="Page & Screen Layouts" >}}
+  {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+    At the time of this writing, the design system has been approved and is ready for deployment. The home page utilizes all defined aspects of the system; color, type and layout. The Figma files are complete and can be easily used by the both front end and design staff. 
+  {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 
-### Page & Screen Layouts
 {{< section_wrapper class="details-grid" >}}
-
-  {{< copy_wrapper
-    class="details-grid__twoByTwo copy-left" >}}
-    Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
-  {{< /copy_wrapper>}}
-
   {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683580752/native-bound-unbound/HomePageDark.jpg"
@@ -275,9 +327,38 @@ newLayout: true
     class="details-grid__twoByTwo image-block__right"
   >}}
 
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+  {{< section_header level="4" text="Composed interior page layouts" >}}
   {{< copy_wrapper
-    class="details-grid__twoByTwo copy-block__right" >}}
+    class="details-grid__twentyWords copy-block__left" >}}
     Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
   {{< /copy_wrapper>}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+    
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1685057837/native-bound-unbound/WIPInteriorScreen.webp"
+    alt="an Image of work in progress screens"
+    figcaption="A fully composed layout with text and imagery"
+    caption=""
+    class="details-grid__fiftyWords big-image"
+    >}}
+
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688152872/native-bound-unbound/SmallBlogPost.webp"
+    alt="A small screen blog post layout"
+    figcaption="Small screen blog post layout"
+    class="details-grid__twoByTwo image-block__left"
+    >}}
 
 {{< /section_wrapper>}}

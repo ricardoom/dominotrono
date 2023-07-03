@@ -5,6 +5,11 @@ Built with static site generator Hugo, SASS, and vanilla Javascript
 ## Changelog
 
 ### Versions
+- 0.0.5
+  - Wrapped up the NBU content post
+  - Lots of CSS refactoring
+  - Minor styling updated here and there...
+  
 - 0.0.4
   - Lots of content updates and styling fixes
     - clean up of redundant css

@@ -290,11 +290,6 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      Magna pariatur occaecat ea adipisicing mollit pariatur culpa labore exercitation. Irure dolore dolor magna dolore amet. Esse nisi excepteur officia id fugiat proident aliquip irure non. Magna quis Lorem sit excepteur id laborum deserunt ad ut consequat minim sit. Magna ea anim est officia velit consequat. Do ipsum aliquip aliquip nostrud anim aute dolore enim deserunt tempor culpa fugiat ad elit. Voluptate ea nostrud nulla ut voluptate commodo anim ex officia reprehenderit veniam reprehenderit laboris et.
-    {{< /copy_wrapper>}}
-
     {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,f_auto,q_auto/v1688146767/native-bound-unbound/TextImageCombinations.webp"
@@ -308,7 +303,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
   {{< section_header level="3" text="Page & Screen Layouts" >}}
   {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
-    Babbroon Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
+    At the time of this writing, the design system has been approved and is ready for deployment. The home page utilizes all defined aspects of the system; color, type and layout. The Figma files are complete and can be easily used by the both front end and design staff. 
   {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -361,8 +356,8 @@ newLayout: true
     {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688152872/native-bound-unbound/SmallBlogPost.webp"
-    alt=""
-    figcaption=""
+    alt="A small screen blog post layout"
+    figcaption="Small screen blog post layout"
     class="details-grid__twoByTwo image-block__left"
     >}}
 

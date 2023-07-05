@@ -12,12 +12,13 @@
 {{ $3x := .Params.portfolioHero3x }}
 {{ $portfolioHeroSqip := .Params.portfolioHeroSqip }}
 {{ $alt := .Params.portfolioHeroAlt }}
-{{ $tags := .Params.tags }}
+{{ $tag := .Params.tags }}
 {{ $projectDescription := .Params.projectDesc }}
+{{ $tags := delimit $tag ", "}}
 
-<li class="[ portfolio-list-item ]" data-post-date="{{ $date }}">
+<li class="[ portfolio-list-item ]" data-post-date="{{ $date }}" aria-labelledby="{{ .Title }}">
   <a href="{{ .Permalink }}">
-    <section class="portfolio-list-item__content">
+    <div class="[ portfolio-list-item__content ]">
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
       <h1>{{ .Title }}</h1>
       <figure class="portfolio-list-item__content--hero {{ $color }}">
@@ -34,14 +35,14 @@
         {{ end }}
       </figure>
       {{ end }}
-      
+      <h2 id="{{ .Title }}">{{ .Title }}</h2>
       {{ if and ( $projectDescription ) ( ne $projectDescription "" ) }}
       <p class="portfolio-list-item__content--description">{{ $projectDescription }}</p>
       {{ end }}
 
       {{ if and ( $tags ) ( ne $tags "" ) }}
       <ul class="portfolio-list-item__content--static-tags">
-        <li class="site-tags__tags">{{ delimit $tags ", "}}</li>
+        {{ range sort $tag }}<li class="site-tags__tags">{{ . }}</li>{{ end }}
       </ul>
       {{ end }}
     </section>

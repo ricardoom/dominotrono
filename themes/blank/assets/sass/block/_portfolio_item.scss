@@ -47,12 +47,12 @@
       .hero-grid,
       .details-grid {
         display: grid;
-        
       }
       //  Note:
       //  should only be used at the top of each portfolio case study.
       // TODO: explore possible further abstraction / using these values more globally.
-      //
+      // TODO: explore using scaling values combined w/ calc() to abstract away these fixed pixel values...
+      // TODO Explore using flex instead of grid. 
 
       // hero grid specific variables:
       $hero-rows-phone: #{minmax(225px, auto) minmax(150px, auto)};
@@ -83,13 +83,13 @@
           @include add-to-grid('>=phone', 1, 6, 2, 3);
           @include add-to-grid('>=tablet', 1, -2, 2, 3);
           @include responsive-font(1.8vw, 18px, 32px, 20px);
-          color: $site-white;
-          background-color: transparentize($site-dark-blue, 0.1);
+          background-color: transparentize($site-black, 0.03);
           margin-inline-end: var(--s1);
           padding: var(--s1);
           z-index: 1;
         }
-      } // /.hero-grid
+      } 
+  // /.hero-grid
 
       //
       // Each lower section wrapper call gets this class
@@ -105,16 +105,46 @@
         margin-top: var(--s1);
 
         > p {
-          margin: var(--s0) 0;
+          // margin: var(--s0) 0;
+          margin-block: var(--s1);
         }
 
         .vertical-center {
             align-self: center;
           }
+        
+        // Section with Heading (H4), Image and text
+        // <h4> section / block heading
+        // Uses flex and grid together
+        //
+
+        &__flex-section {
+          //! Not ready for prime time.
+          // need styles to allow for a more traditional header / content relationship. 
+          // TODO: keep working this out
+          > .heading {
+            @include add-to-grid('>=phone', 1, -1, 1, 2);
+            @include add-to-grid('>=tablet', 1, 2, 1, 2);
+          }
+        }
+
+        & > .heading {
+            @include add-to-grid('>=phone', 1, -1, auto, auto);
+            @include add-to-grid('>=tablet', 1, 2, auto, auto);
+          }
+        & > .heading.right {
+            @include add-to-grid('>=phone', 1, -1, 1, 2);
+            @include add-to-grid('>=tablet', 3, 4, 1, 2);
+          }
+        
         //
         // twoByTwo: this layout can be used to stack 3 images to the right or left
         // with a copy block on the opposite side..
         &__twoByTwo {
+
+          // &.copy-block {
+
+          // }
           &.image-block,
           &.copy-block {
             &__left {
@@ -129,11 +159,12 @@
 
             &__center {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              padding: var(--s1);
-              padding-block-end: var(--s1);
-              padding-block-start: var(--s1);
-              padding-inline-end: var(--s1);
-              padding-inline-start: var(--s1);
+              justify-self: center
+              // padding: var(--s1);
+              // padding-block-end: var(--s1);
+              // padding-block-start: var(--s1);
+              // padding-inline-end: var(--s1);
+              // padding-inline-start: var(--s1);
             }
           }
           &.image-block {
@@ -148,15 +179,23 @@
 // Twenty Words
 //
         &__twentyWords {
+          img, video {
+            margin-block: var(--s0);
+          }
+
+          video {
+            width: 100%;
+          }
+
           &.image-block {
             &__left {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 1, 2, 1, 3);
+              @include add-to-grid('>=tablet', 1, 2, auto, auto);
             }
 
             &__right {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 3, 4, -2, auto);
+              @include add-to-grid('>=tablet', 3, 4, auto, auto);
             }
           }
 
@@ -176,10 +215,21 @@
           @include grid-figcaption;
         }
 
+//
+// Fifty Words
+// 
+
         &__fiftyWords {
+          &.figma-embed {
+            background-color: red;
+            width: 1244px;
+            height: 804px;
+          }
+          
+
           &.big-image {
-            @include add-to-grid('>=phone', 1, -1, 1, 2);
-            @include add-to-grid('>=tablet', 1, -1, 1, 2);
+            @include add-to-grid('>=phone', 1, -1, auto, auto);
+            @include add-to-grid('>=tablet', 1, -2, auto, auto);
             @include grid-figcaption;
           }
 

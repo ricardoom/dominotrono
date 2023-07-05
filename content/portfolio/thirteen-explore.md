@@ -34,7 +34,7 @@ newLayout: true
       class="hero-grid__imageBlock"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,t_portfolio_hero_16_9,f_auto/v1549730983/thirteen-explore/13_explore_init.jpg"
       
-      alt="An image of the app's intial screen"
+      alt="An image of the app's initial screen"
       >}}
 
       {{< copy_wrapper class="hero-grid__copyBlock" >}}
@@ -43,8 +43,6 @@ newLayout: true
 
    {{< /section_wrapper >}}
 
-
-  
 {{< section_wrapper class="details-grid" >}}
 
     {{< image_cld

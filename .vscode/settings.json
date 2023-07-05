@@ -2,11 +2,13 @@
   "editor.formatOnSave": false,
   "editor.tabSize": 2,
   "svg.preview.background": "transparent",
-  "editor.autoIndent": "full",
+  "editor.autoIndent": "advanced",
   "cSpell.words": [
-    "Nido's",
+    "curriculex",
+    "errorf",
+    "herosqip",
     "NYPL's",
-    "Resy"
+    "shortcode"
   ],
   "html.format.wrapAttributes": "preserve-aligned",
   "html.format.enable": false,
@@ -23,9 +25,9 @@
     "editor.selectionBackground": "#404861",
     // "editor.selectionForeground": "#000000"
   },
-  "prettier.requirePragma": true,
-  "prettier.useTabs": true,
   "conventionalCommits.scopes": [
-    "Content Updates"
+    "Content Update",
+    "General — Touches Many General Things"
   ],
+  "editor.snippetSuggestions": "top",
 }

@@ -4,7 +4,7 @@ date: 2021-02-24T14:58:13-05:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-portfolioHeroSqip: '../media/portfolio/decolonizing-new-mexico/hero-sqip.svg'
+portfolioHeroSqip: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_lqip/v1612896446/dcnm/dcnm_card.png'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1614280367/decolonizing-nm/dcnm-hp2.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1614280367/decolonizing-nm/dcnm-hp2.jpg'
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1614280367/decolonizing-nm/dcnm-hp2.jpg'
@@ -42,7 +42,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      For full disclosure Dr. Rael–Gálvez and I are first cousins. The project grew out of an informal consulting relationship when Dr. Rael–Gálvez contacted me for advice on how he should go about creating and publishing his paper <i>"Decolonizing New Mexico"</i> to his website. Rather than bury this timely and important piece in PDF form there, I suggested we create a website around this important and timely piece, as a result of a number of conversations, this project was born. It gave me valuable insight and experience working with Hugo, Netlify, Forestry and modern CSS, HTML and JavaScript, as well as ancillary technologies like git, and bash scripting.
+      For full disclosure Dr. Rael–Gálvez and I are first cousins. The project grew out of an informal consulting relationship when Dr. Rael–Gálvez contacted me for advice on how he should go about creating and publishing his paper <i>"Decolonizing New Mexico"</i> to his website. Rather than bury this timely and important piece in PDF form there, I suggested we create a website. As a result this project we collaborated to create this project. It gave me valuable insight and experience working with Hugo, Netlify, Forestry and modern CSS, HTML and JavaScript, as well as ancillary technologies like git, and bash scripting.
     {{< /copy_wrapper>}}
     {{< image_cld
     loading="eager"

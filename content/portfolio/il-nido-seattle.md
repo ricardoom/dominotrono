@@ -38,7 +38,7 @@ newLayout: true
        >}}
 
         {{< copy_wrapper class="hero-grid__copyBlock" >}}
-          Seattle based Chef Mike Easton approached me to design and develop the website for his new restaurant concept Il Nido. No longer interested in maintaining a blog, we decided to close down his WordPress site and go with a simple brochure-style single-page site. Included in my remit was to increase their placement in search engine results.
+          Seattle based Chef Mike Easton approached me to design and develop the website for his new restaurant concept Il Nido. No longer interested in maintaining a blog, we decided to close down his WordPress site and go with a simple brochure-style single-page site.
         {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}

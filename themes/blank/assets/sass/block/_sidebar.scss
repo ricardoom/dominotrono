@@ -14,8 +14,16 @@
 
   h3 {
     @include responsive-font(3.75vw, 2.25rem, 5.5rem, 32px);
+  p {
+    padding-inline-start: var(--s0);
+  }
+
+  .sidebarTitle {
+    font-size: ft(var(--s3), var(--s6));
+
     @include media('>tablet') {
-      margin-bottom:  var(--s0);
+      margin-block: var(--s3);
+      padding-inline-start: var(--s0);
     }
   }
 
@@ -90,4 +98,5 @@
       background: linear-gradient(to bottom right, $site-lava-orange, $site-punk-pink);
     }
   }
+}
 }

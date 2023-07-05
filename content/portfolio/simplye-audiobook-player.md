@@ -43,7 +43,7 @@ newLayout: true
 
         {{< copy_wrapper
           class="hero-grid__copyBlock" >}}
-          I was fortunate to be able to work on this fantastic project with some brilliant people. My particular role was to create a user interface for audio-book playback and to create new pathways for discovery.
+          My role was to create a user interface for audio-book playback and to create new pathways for discovery.
         {{< /copy_wrapper>}}
 
 {{< /section_wrapper >}}

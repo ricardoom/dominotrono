@@ -7,6 +7,7 @@ npm-debug.log
 botConfig.js
 artwork/
 
+
 dominotrono.sublime-project
 dominotrono.sublime-workspace
 
@@ -20,3 +21,7 @@ public/
 deploy
 deliver
 sandbox/
+
+# ingnore hugo lock file
+.hugo_build.lock
+.SynologyWorkingDirectory

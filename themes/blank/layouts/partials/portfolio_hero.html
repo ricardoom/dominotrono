@@ -18,7 +18,7 @@
 
 <li class="[ portfolio-list-item ]" data-post-date="{{ $date }}" aria-labelledby="{{ .Title }}">
   <a href="{{ .Permalink }}">
-    <div class="[ portfolio-list-item__content ]">
+    <section class="[ portfolio-list-item__content ]">
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
       <h1>{{ .Title }}</h1>
       <figure class="portfolio-list-item__content--hero {{ $color }}">

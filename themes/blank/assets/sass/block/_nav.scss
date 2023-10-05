@@ -3,6 +3,7 @@
 ///
 
 .siteNavigation {
+  
   // Mobile Nav
   button {
     @include media('>=phone') {
@@ -62,8 +63,9 @@
     @include media('>=tablet') {
       display: none;
     }
-
-  .siteNavigation {
+  }
+  
+  // .siteNavigation {
 
     &--items { // the <ul>
       display: inline-block;
@@ -133,7 +135,7 @@
         }
       }
     } // /ul
-  }
+  // }
 
   ul {
     @include media('>=phone') {
@@ -172,9 +174,9 @@
         }
       }
 
-      // &.is-inactive {
-      //   @include visually-hidden;
-      // }
+      &.is-inactive {
+        @include visually-hidden;
+      }
 
       &.is-active {
         color: $site-white;
@@ -202,12 +204,15 @@
       }
     }
   }
+
+
+  /// Uses classes to control/style all else:
+  .social-svg {
+    display: none;
+  }
 }
 
-/// Uses classes to control/style all else:
-.social-svg {
-  display: none;
-}
+// Large Screen Nav
 
 .siteNavigation {
   &--items {
@@ -286,5 +291,4 @@
       }
     }
   } // /ul
-}
 }

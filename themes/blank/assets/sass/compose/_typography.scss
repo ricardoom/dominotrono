@@ -107,7 +107,7 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 // @debug $fontDifference;
 // @debug $slope;
 // @debug $yAxisIntersection ;
- @debug $preferredValue;
+//  @debug $preferredValue;
 
 // Fluid Type Function
 // $lower-limit: 
@@ -123,7 +123,7 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 h1 {
     --line-height: clamp(calc(var(--s2) * 1.2), #{$preferredValue}, calc(var(--s4) * 1.5)); 
     font-size: ft(var(--s2), var(--s4));
-    font-weight: 400;
+    font-weight: 674;
     line-height: var(--line-height);
 }
 

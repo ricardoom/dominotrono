@@ -106,7 +106,7 @@
   .pivot {
     border-radius: var(--s0);
     color: currentColor;
-    filter: unset;
+    filter: none;
     padding: var(--s3) var(--s2);
     transform: scale(1);
     transition: filter 300ms ease-out, transform 310ms ease-out;
@@ -114,8 +114,12 @@
 
     &:hover,
     &:focus {
-      @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
+      // @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
       background-color: transparentize($color: $site-white, $amount: 0.5);
+    }
+
+    &:focus {
+      @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
     }
   }
 

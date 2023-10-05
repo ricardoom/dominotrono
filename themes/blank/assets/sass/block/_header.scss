@@ -18,7 +18,7 @@ header {
     align-items: center;
   }
 
-  .siteNameContainer {
+  .site-name-container {
     @include media('>=phone') {
       display: block;
       flex: 2 1 95%;

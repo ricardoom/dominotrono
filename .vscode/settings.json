@@ -30,4 +30,5 @@
     "General — Touches Many General Things"
   ],
   "editor.snippetSuggestions": "top",
+  "editor.linkedEditing": true,
 }

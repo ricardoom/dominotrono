@@ -5,7 +5,6 @@
 .portfolio-list-item {
   // TODO: move this list rule to E for Exception
   list-style-type: none;
-  // margin: var(--s1) 0;
   margin-block-end: var(--s0);
   margin-block-start: var(--s0);
   
@@ -35,6 +34,7 @@
         width: 100%;
       }
     }
+    
 
     h2 {
       @include media('>=phone') {
@@ -48,8 +48,8 @@
       }
 
       align-self: center;
-      background-color: (transparentize($site-black, 0.15));
-      font-weight: 500;
+      background-color: (transparentize($site-black, 0.05));
+      font-weight: 674;
       padding: clamp(var(--s0), #{$preferredValue}, var(--s1));
       text-shadow: 1px 1px 10px transparentize($site-black, 0.5);
       z-index: 1;
@@ -125,3 +125,18 @@
     text-decoration: none;
   }
 }
+
+
+
+// .portfolio-list-item {
+//   --site-color: #fff;
+//   figure {
+//     background-color: var(--site-color);
+//   }
+//   p {
+//     color: var(--site-color);
+//   }
+//   ul {
+//     color: var(--site-color);
+//   }
+// }

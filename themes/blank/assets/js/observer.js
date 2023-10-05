@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const cardOpts = {
       root: null,
-      rootMargin: '0% 0% 0% 0%',
+      rootMargin: '450px 10% 450px 10%',
       threshold: 0.6,
     };
 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
       entries.forEach((entry) => {
         let fadedCard = entry.target;
         if (entry.isIntersecting) {
-          // console.log(`${fadedCard} is intersecting...`);
+          //console.log(`${fadedCard} is intersecting...`);
           fadedCard.classList = fadedCard.dataset.class;
         } else {
           // console.log(`${fadedCard} not intersecting...`);

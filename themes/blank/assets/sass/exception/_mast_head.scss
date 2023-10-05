@@ -20,10 +20,11 @@
   z-index: 10;
 
   > div {
+    display: flex;
+    justify-content: center;
     padding: clamp(var(--s1), $preferredValue, var(--s2));
     margin-inline-end: clamp(var(--s05), $preferredValue, var(--s2));
     margin-inline-start: clamp(var(--s05), $preferredValue, var(--s2));
-    position: relative;
-    
+    // position: relative;    
   }
 }

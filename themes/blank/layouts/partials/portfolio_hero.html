@@ -18,11 +18,11 @@
 
 <li class="[ portfolio-list-item ]" data-post-date="{{ $date }}" aria-labelledby="{{ .Title }}">
   <a href="{{ .Permalink }}">
-    <section class="[ portfolio-list-item__content ]">
+    <section class="[ portfolio-list-item__content ][ {{ $color }} ] ">
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}
-      <h1>{{ .Title }}</h1>
-      <figure class="portfolio-list-item__content--hero {{ $color }}">
-        <img class="portfolioHero__image lazy" data-srcset="{{ .Params.portfolioHero1x }},
+      <h2>{{ .Title }}</h2>
+      <figure class="[ portfolio-list-item__content--hero ]">
+        <img class="[ portfolioHero__image][ lazy ]" data-srcset="{{ .Params.portfolioHero1x }},
                      {{ $2x }} 2x
                      {{ if and ( $3x ) (ne $3x "" ) }}
                       ,{{ $3x }} 3x
@@ -30,13 +30,15 @@
                     (max-width: 50em) 75vw,
                     (max-width: 60em) 65vw" src="{{ $portfolioHeroSqip }}" data-src="{{ $portfolioHero }}"
           alt="{{ $alt }}" />
-        {{ if and ( .Params.heroFigcaption ) ( ne .Params.heroFigcaption "" ) }}
-        <figcaption>{{ .Params.heroFigcaption }}</figcaption>
+        {{/*  {{ if and ( .Params.heroFigcaption ) ( ne .Params.heroFigcaption "" ) }}  */}}
+        {{ with .Params.heroFigcaption }}
+        <figcaption>{{ . }}</figcaption>
         {{ end }}
       </figure>
       {{ end }}
-      <h2 id="{{ .Title }}">{{ .Title }}</h2>
+      
       {{ if and ( $projectDescription ) ( ne $projectDescription "" ) }}
+      
       <p class="portfolio-list-item__content--description">{{ $projectDescription }}</p>
       {{ end }}
 

@@ -8,8 +8,9 @@
   // TODO: Magic numbers (vh & vw) here need to be resolved w/  some reseting the css via the JS file
   background-color: transparent;
   // height: calc(80vh - var(--s1));
-  // position: absolute;
-  // top: var(--s5);
-  // width: 100%;
-  // z-index: -100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -2;
 }

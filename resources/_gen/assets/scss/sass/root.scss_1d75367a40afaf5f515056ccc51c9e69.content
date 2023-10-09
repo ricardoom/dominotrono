@@ -721,7 +721,12 @@ main {
   font-size: var(--s-1); }
 
 .svg-exp {
-  background-color: transparent; }
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -2; }
 
 .sidebar-prime {
   background-color: #212121;

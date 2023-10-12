@@ -1,0 +1,15 @@
+<svg class="{{ .polygonClass }}" aria-hidden="true" width="498" height="512" viewBox="0 0 498 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M210.749 82.3717C210.749 82.3717 408.444 374.547 401.56 415.739C394.676 456.931 19.9386 415.739 19.9386 415.739C19.9386 415.739 -8.62177 315.154 73.7622 234.686C156.146 154.218 210.749 82.3717 210.749 82.3717Z" fill="url(#paint0_radial_1839_242)"/>
+<path d="M95.4925 342.182C95.4925 342.182 249.677 24.8858 288.792 10.2515C327.907 -4.38289 479.603 340.745 479.603 340.745C479.603 340.745 406.774 415.772 295.894 384.659C185.015 353.547 95.4925 342.182 95.4925 342.182Z" fill="url(#paint1_radial_1839_242)" fill-opacity="0.75"/>
+<defs>
+<radialGradient id="paint0_radial_1839_242" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(365.938 228.938) rotate(152.52) scale(375.763 376.247)">
+<stop stop-color="#B1FFF1"/>
+<stop offset="0.434195" stop-color="#75FFE6"/>
+<stop offset="1" stop-color="#FDD506"/>
+</radialGradient>
+<radialGradient id="paint1_radial_1839_242" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(144.829 134.502) rotate(32.5204) scale(375.763 376.247)">
+<stop stop-color="#83FA80"/>
+<stop offset="1" stop-color="#F8FD06"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg class="{{ .polygonClass }}" width="533" height="616" viewBox="0 0 533 616" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M292.092 0.999959C310 8.99996 518.136 418.674 507.818 444.837C497.5 471 185.5 604.5 161.949 598C138.398 591.5 83.5001 414.5 78.0001 382.787C72.5001 351.074 274.184 -7.00004 292.092 0.999959Z" fill="url(#paint0_linear_1845_284)"/>
+  <path d="M246.918 22C273 59 256.836 606.862 246.918 615.431C237 624 9.00046 529 1.00037 515.487C-6.99973 501.974 220.836 -15 246.918 22Z" fill="#F5DCDC" fill-opacity="0.4"/>
+  <path d="M225.551 3.2359C212.5 9.00006 210.601 590.835 225.551 596.667C240.5 602.5 533 456 532 445.5C531 435 238.601 -2.52826 225.551 3.2359Z" fill="#F13434" fill-opacity="0.4"/>
+  <defs>
+    <linearGradient id="paint0_linear_1845_284" x1="293.039" y1="0.867914" x2="155.673" y2="482.668" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D824DC"/>
+      <stop offset="1" stop-color="#FED9FF"/>
+    </linearGradient>
+  </defs>
+</svg>

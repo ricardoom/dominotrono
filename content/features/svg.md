@@ -7,7 +7,7 @@ tags: []
 title: "SVG"
 deck: "Mastering the dark arts of SVG is my thing."
 graphics: 
-  url: circleCircle.svg
+  url: circleCircleDos.svg
   class: circleCircle
 ---
 I built an icon library for NYPL, and have strongly advocated for their use across any number of projects I've worked on. SVG is rich with complexity and capability. The whole front page of this site is one giant SVG or rather a few of them composed together.

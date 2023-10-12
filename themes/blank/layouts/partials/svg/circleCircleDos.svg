@@ -1,0 +1,24 @@
+<svg class="{{ .polygonClass }}" aria-hidden="true" width="508" height="577" viewBox="0 0 508 577" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="254" cy="322.721" rx="254" ry="254.279" fill="url(#paint0_radial_1845_279)"/>
+<ellipse cx="312.391" cy="194.12" rx="134.299" ry="189.979" fill="url(#paint1_radial_1845_279)" fill-opacity="0.4"/>
+<ellipse cx="204.368" cy="321.259" rx="62.8391" ry="87.5862" transform="rotate(-90 204.368 321.259)" fill="url(#paint2_radial_1845_279)" fill-opacity="0.49"/>
+<path d="M368.385 48.4897C408.688 75.2698 432.007 124.286 412.836 153.201C393.665 182.117 368.385 132.985 298.96 153.201C332.487 80.8863 241.527 81.2712 260.698 52.3559C279.869 23.4406 328.083 21.7096 368.385 48.4897Z" fill="url(#paint3_radial_1845_279)" fill-opacity="0.49"/>
+<defs>
+<radialGradient id="paint0_radial_1845_279" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(449.943 275.497) rotate(177.859) scale(437.548 438.028)">
+<stop stop-color="#8DADFF"/>
+<stop offset="1" stop-color="#CD8DFF"/>
+</radialGradient>
+<radialGradient id="paint1_radial_1845_279" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(299.253 81.5938) rotate(78.4522) scale(196.887 248.795)">
+<stop offset="0.013829" stop-color="#DB09EE"/>
+<stop offset="1" stop-color="#ED22FF"/>
+</radialGradient>
+<radialGradient id="paint2_radial_1845_279" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(143.084 305.65) rotate(26.9558) scale(129.131 162.038)">
+<stop offset="0.013829" stop-color="#2E68FF"/>
+<stop offset="1" stop-color="#9069AE"/>
+</radialGradient>
+<radialGradient id="paint3_radial_1845_279" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(282.714 185.4) rotate(-29.4717) scale(129.052 162.136)">
+<stop offset="0.013829" stop-color="#0A3AB6"/>
+<stop offset="1" stop-color="#9526EC"/>
+</radialGradient>
+</defs>
+</svg>

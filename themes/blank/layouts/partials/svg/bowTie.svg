@@ -1,0 +1,14 @@
+<svg class="{{ .polygonClass }}" aria-hidden="true" width="538" height="519" viewBox="0 0 538 519" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.48584 313.246L261.119 32.7303L469.149 88.4718L537.69 186.761L279.027 482.039L0.48584 313.246Z" fill="url(#paint0_linear_1840_260)"/>
+<path d="M464.933 365.161C452.992 366.348 340.043 301.789 240.773 245.621C168.525 370.57 102.525 524.331 83.7115 518.387C57.6301 510.147 66.5738 163.329 88.5319 164.649C98.005 165.218 165.451 203.004 240.773 245.621C268.686 197.348 297.531 153.375 324.948 124.573C423.329 21.2238 490.113 0.640869 490.113 0.640869C490.113 0.640869 485.935 363.072 464.933 365.161Z" fill="url(#paint1_linear_1840_260)" fill-opacity="0.75"/>
+<defs>
+<linearGradient id="paint0_linear_1840_260" x1="278.5" y1="32" x2="348.198" y2="479.262" gradientUnits="userSpaceOnUse">
+<stop stop-color="#72EEA4"/>
+<stop offset="0.858082" stop-color="#F1648E"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1840_260" x1="352.5" y1="107" x2="444.5" y2="335" gradientUnits="userSpaceOnUse">
+<stop offset="0.150245" stop-color="#F134DE"/>
+<stop offset="1" stop-color="#34F152" stop-opacity="0.62"/>
+</linearGradient>
+</defs>
+</svg>

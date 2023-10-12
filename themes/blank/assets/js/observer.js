@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const cardOpts = {
       root: null,
-      rootMargin: '450px 10% 450px 10%',
-      threshold: 0.6,
+      rootMargin: '450px 10% 400px 10%',
+      threshold: 0.5,
     };
 
     let cardObserver = new IntersectionObserver((entries) => {

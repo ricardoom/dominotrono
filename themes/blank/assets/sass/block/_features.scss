@@ -8,7 +8,8 @@
   margin: 0;
   margin-block: 0;
   padding-top: var(--s2);
-  padding-block: var(--s2);
+  padding-block-end: var(--s2);
+  padding-block-start: var(--s5);
 }
 
 .feature {
@@ -83,7 +84,7 @@
 
     h1 {
       align-self: end;
-      font-size: clamp(var(--s2), $preferredValue, var(--s4));
+      font-size: clamp(var(--s0), $preferredValue, var(--s4));
       font-weight: 674;
       line-height: 1;
       margin-bottom: 0;
@@ -94,7 +95,7 @@
       --line-height: 1.2;
       font-size: clamp(var(--s0), $preferredValue, var(--s2));
       line-height: var(--line-height);
-      width: 65%;
+      width: fit-content;
     }
 
     svg {
@@ -104,10 +105,13 @@
     }
   }
   .pivot {
+    @media screen and (max-width: $medium-screen) {
+      padding-inline: var(--s0);
+      }
     border-radius: var(--s0);
     color: currentColor;
     filter: none;
-    padding: var(--s3) var(--s2);
+    padding-inline: var(--s2);
     transform: scale(1);
     transition: filter 300ms ease-out, transform 310ms ease-out;
     will-change: transform, transition;

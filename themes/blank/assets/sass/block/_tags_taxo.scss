@@ -11,8 +11,9 @@
   }
 
   padding: 0;
+}
 
-  &__tag {
+.tag {
 
     @include media('>=phone') {
       display: inline-block;
@@ -25,7 +26,6 @@
     text-decoration: none;
     padding: 0;
   }
-}
 
 // On a List page where sorted / listed by Taxonomy style that pages elements as needed::after
 .taxo-list {

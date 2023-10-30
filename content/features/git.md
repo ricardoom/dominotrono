@@ -6,6 +6,7 @@ draft: false
 tags: []
 title: "Git"
 deck: "Check out my git repo!"
+externalURL: "https://github.com/ricardoom"
 graphics: 
   url: gitCubeDos.svg
   class: gitCube

@@ -11,7 +11,7 @@ pages:
   - portfolio/decolonizing-new-mexico
 deck: "I've spent the better half of two decades working with HTML."
 graphics: 
-  url: triangleDos.svg
+  url: blobDos.svg
   class: triangle
 ---
 

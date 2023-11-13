@@ -6,9 +6,9 @@ features:
   - /features/design.md
   - /features/html.md
   - /features/css.md
-  - /features/svg.md
-  - /features/javascript.md
-  - /features/git.md
+  # - /features/svg.md
+  # - /features/javascript.md
+  # - /features/git.md
   
 ---
 

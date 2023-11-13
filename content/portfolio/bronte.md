@@ -34,6 +34,7 @@ weight: -16
 externalURL: ''
 projectDesc: 'Most of my work at Pearson centered around an internal eText authoring environment called "Bronte." As a result, the user experience work focused specifically on the publishing workflow and administration. '
 newLayout: true
+feature: ['User Experience']
 ---
 {{<section_wrapper class="hero-grid" >}}
       {{< image_cld

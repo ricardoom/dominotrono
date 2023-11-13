@@ -9,6 +9,7 @@
 {{ $atWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
+{{ $feature := .Params.feature }}
 <aside class="[ portfolio-involvement ][ squeeze ][ box-shadow ]">
   {{ if and ( $clients ) ( ne $clients "" ) }}
   <h3>Client:</h3>
@@ -60,6 +61,16 @@
     </li>
     {{ end }}
   </ul>
-  
   {{ end }}
+  {{ if and ( $feature ) ( ne $feature "" ) }}
+  <h3>Feature:</h3>
+  <ul id="features">
+    {{ range sort $feature }}
+    <li class="[ site-tags ][ tag ]">
+      <a href="{{ "/features/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  
+  {{ end  }}
 </aside>

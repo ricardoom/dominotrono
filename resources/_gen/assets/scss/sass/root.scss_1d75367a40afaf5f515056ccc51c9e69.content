@@ -1530,9 +1530,9 @@ fieldset {
     padding-block: 10%;
     padding-inline: 10%; }
   .blue-block.alpha {
-    grid-area: 4 / 3 / -4 / -1; }
+    grid-area: 4 / 3 / 5 / -1; }
   .blue-block.beta {
-    grid-area: 5 / 1 / 7 / 3; }
+    grid-area: 5 / 1 / 6 / 3; }
   .blue-block.delta {
     grid-row: 3 /4;
     grid-column: 2 / 4; }

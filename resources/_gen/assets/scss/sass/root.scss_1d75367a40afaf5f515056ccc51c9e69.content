@@ -1536,6 +1536,8 @@ fieldset {
   .blue-block.delta {
     grid-row: 3 /4;
     grid-column: 2 / 4; }
+  .blue-block.epsilon {
+    grid-area: 7 / -4 / 8 / -2; }
   .blue-block:hover, .blue-block:focus {
     z-index: 100;
     transform: scale(1.25);
@@ -1701,7 +1703,8 @@ footer {
   .red-bot .cls-14 {
     stroke: #d6338d; }
   .red-bot .cls-15 {
-    fill: #d6338d; }
+    fill: #d6338d;
+    filter: drop-shadow(2px 2px 22px rgba(66, 16, 42, 0.4)); }
 
 .has-dropcap {
   font-size: clamp(var(--s-1), 4.37743189vw, var(--s1));
@@ -1776,13 +1779,16 @@ footer {
   transform: rotate(180deg); }
 
 .dome-1 {
-  fill: #c3009b; }
+  fill: #c3009b;
+  filter: drop-shadow(2px 2px 8px rgba(108, 14, 89, 0.5)); }
 
 .dome-2 {
-  fill: #e2009b; }
+  fill: #e2009b;
+  filter: drop-shadow(2px 2px 8px rgba(151, 7, 105, 0.5)); }
 
 .dome-3 {
-  fill: white; }
+  fill: white;
+  filter: drop-shadow(2px 2px 8px rgba(89, 89, 89, 0.8)); }
 
 *,
 *::before,

@@ -3,7 +3,7 @@
 {{ $svgClass := .Params.graphics.class }}
 {{ $svgURL := .Params.graphics.url | string}}
 {{ $fullPath := delimit (slice "partials/svg/" $svgURL) "" | string }}
-{{ $title := lower .Title }}
+{{ $title := lower (replace .Title " " "-") }}
 {{ $extURL := .Params.externalURL | string }}
 <section class="[ feature-{{ $title }} ]">
   {{ if and ( $extURL ) ( ne $extURL "" ) }}

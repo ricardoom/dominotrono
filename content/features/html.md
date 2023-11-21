@@ -5,13 +5,13 @@ date: 2021-03-08T10:55:36-05:00
 draft: false
 specimen:
   - /tags/web-design/
-shape: /media/svg/trianglePolygonUno.svg
+shape: /media/svg/triangleDos.svg
 pages:
   - portfolio/il-nido-seattle
   - portfolio/decolonizing-new-mexico
 deck: "I've spent the better half of two decades working with HTML."
 graphics: 
-  url: trianglePolygonUno.svg
+  url: blobDos.svg
   class: triangle
 ---
 

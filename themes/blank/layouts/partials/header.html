@@ -33,8 +33,8 @@ resources.ToCSS $options | resources.Fingerprint }} {{ $typeKitLink := "https://
 
     <header role="banner" class="[ site-header ]">
       <div class="[ wrapper ]">
-        <div class="siteNameContainer">
-          <a href="{{ .Site.BaseURL }}" class="name">{{ .Site.Title }}</a>
+        <div class="[ site-name-container ]">
+          <a href="{{ .Site.BaseURL }}" class="[ name ]">{{ .Site.Title }}</a>
         </div>
         {{ partial "nav.html" . }}
       </div>

@@ -1,7 +1,7 @@
 ---
 title: 'cv'
 date: 2017-12-27T13:48:52-05:00
-draft: false
+draft: true
 url: '/cv'
 menu:
   main:

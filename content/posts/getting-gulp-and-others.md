@@ -1,7 +1,7 @@
 ---
 title: "Getting Gulp and Others"
 date: 2017-12-17T22:29:33-05:00
-draft: false
+draft: true
 tags: [ "javascript", "sass", "css"]
 ---
 

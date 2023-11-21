@@ -3,6 +3,7 @@
 ///
 
 .siteNavigation {
+  
   // Mobile Nav
   button {
     @include media('>=phone') {
@@ -63,6 +64,78 @@
       display: none;
     }
   }
+  
+  // .siteNavigation {
+
+    &--items { // the <ul>
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-flow: row nowrap;
+
+        @include media('>=tablet') {
+          grid-column: 1 / 6;
+          justify-content: flex-start;
+        }
+      
+
+
+      li {
+        a {
+          @include basic-drop-shadow(text);
+          padding: var(--s-3) var(--s-2) 0;
+          padding-block-start: var(--s-3);
+          padding-block-end: var(--s-2);
+          padding-inline-end: var(--s-2);
+          padding-inline-start: var(--s-2);
+          text-decoration: none;
+        }
+      }
+      
+      .text-link {
+        align-self: center;
+        margin-right: var(--s0);
+        margin-inline-end: var(--s0);
+        text-transform: capitalize;
+
+        // a:first-child {
+          // padding-inline-start: 0;
+        // }
+
+        @include media('<tablet') {
+          align-self: flex-end;
+        }
+      }
+
+      .social-icon {
+        @include basic-drop-shadow(svg);
+        @include media('<tablet') {
+          align-self: flex-end;
+        }
+
+        align-self: center;
+
+        a {
+          display: block;
+
+          &:hover {
+            box-shadow: none;
+          }
+
+          &:hover svg,
+          &:focus svg {
+            fill: $site-punk-pink;
+          }
+        }
+
+        svg {
+          fill: $site-white;
+          height: var(--s1);
+        }
+      }
+    } // /ul
+  // }
 
   ul {
     @include media('>=phone') {
@@ -101,9 +174,9 @@
         }
       }
 
-      // &.is-inactive {
-      //   @include visually-hidden;
-      // }
+      &.is-inactive {
+        @include visually-hidden;
+      }
 
       &.is-active {
         color: $site-white;
@@ -131,12 +204,15 @@
       }
     }
   }
+
+
+  /// Uses classes to control/style all else:
+  .social-svg {
+    display: none;
+  }
 }
 
-/// Uses classes to control/style all else:
-.social-svg {
-  display: none;
-}
+// Large Screen Nav
 
 .siteNavigation {
   &--items {
@@ -161,7 +237,7 @@
         color: $site-link-nav;
         padding: 0 var(--s-2) 0;
         padding-block-start:  var(--s-2);
-        padding-block-end: 0;
+        padding-block-end: var(--s-2);
         padding-inline-end: var(--s-2);
         padding-inline-start: var(--s-2);
         text-decoration: none;
@@ -198,6 +274,7 @@
 
       a {
         display: block;
+        padding-block-end: 0;
 
         &:hover {
           box-shadow: none;

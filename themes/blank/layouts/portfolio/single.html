@@ -5,23 +5,25 @@
 <!-- new layout flag: -->
 {{ $newLayout := .Params.newLayout }}
 <!-- put all the two main classes into variables: -->
-{{ $atWrapper := "article-grid-wrapper"}}
+{{ $agWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
 {{ $local := .Site.IsServer }}
+{{ $headerText := $.Scratch.Get "section-header" }}
 {{ partial "header.html" . }}
 <main>
+  
   {{ if $newLayout }}
-  <article class="[ wrapper ][ {{ $atWrapper }} ]">
+  <article class="[ wrapper ][ {{ $agWrapper }} ]">
     {{ else }}
-  <article class="{{ $imgWrapper }}">
+  <article class="[ {{ $imgWrapper }} ]">
   {{ end }}
     <h1>{{ .Title }}</h1>
     {{ if $local }}
-     <time>{{ .Date.Format "01.02.2006 15:04" }}</time>
+     <time>{{ .Lastmod | time.Format ":date_long" }}</time>
     {{ end }}
-     <div class="{{ if ( $newLayout ) }}{{ $atWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioParent">
-        <div  class="portfolio__content [ stack ]">
+     <div class="[ {{ if ( $newLayout ) }}{{ $agWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioParent ]">
+        <div  class="[ portfolio__content ][ stack ]">
           {{ .Content }}
         </div>
       </div>
@@ -30,6 +32,7 @@
 </main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
+
 {{ if $local }}
 {{ partial "dev.html" . }}
-{{ end }}
+{{ end }}  

@@ -1,10 +1,11 @@
-
 {{ $class := .Get "class" }}
-  {{ if and ( $class ) ( ne $class "" ) }}
-  <p class="{{ $class }}">
-    {{ .Inner }}
+{{ $c := .Get "center" }}
+{{ if and ( $class ) ( ne $class "" ) }}
+  <p class="[ {{ $class }} ]{{ with $c }}[ vertical-center ]{{ end }}">
+    {{- .Inner -}}
+  </p>
   {{ else }}
   <p>
-    {{ .Inner }}
+    {{- .Inner -}}
   </p>
-  {{ end }}
+{{ end }}

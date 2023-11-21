@@ -10,6 +10,11 @@ function getRandomFloat(num) {
   return Math.random(num);
 }
 
+function getRandom() {
+  return Math.random();
+}
+
+
 function getRandomPosNeg(num) {
   if (typeof num !== 'number') {
     return;

@@ -1,4 +1,4 @@
-.portfolioInvolvement {
+.portfolio-involvement {
     background-color: transparentize($site-black, 0.1);
     color: $site-white;
     font-size: var(--s05);
@@ -15,10 +15,11 @@
     @include media('>=tablet') {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
+      margin-block-start: calc(var(--s1) * -1);
     }
 
     h3 {
       font-weight: 450;
-       margin: var(--s-1) 0;
+      margin: var(--s-1) 0;
     }
   }

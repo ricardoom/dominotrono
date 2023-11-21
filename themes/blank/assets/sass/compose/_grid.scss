@@ -58,5 +58,12 @@
   h1 {
     @include add-to-grid('>=phone', 2, 5, 1, 2);
     @include add-to-grid('>=tablet', 2, 5, 1, 2);
+    margin-block-end: var(--s3);
+    //  padding-inline-start: 0;
+
+    @include media('>=tablet') {
+      // margin-inline-start: var(--s0);
+      // padding-inline-start: clamp(var(--s0), 2.5vw, var(--s1));
+    }
   }
 }

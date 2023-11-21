@@ -2,7 +2,7 @@
 // Basic Drop Cap for all pages
 
 .has-dropcap {
-  // font-size: var(--s1-5);
+  font-size: clamp(var(--s-1), $preferredValue, var(--s1));
   margin-top: var(--s-1);
   margin-block-start: var(--s-1);
 

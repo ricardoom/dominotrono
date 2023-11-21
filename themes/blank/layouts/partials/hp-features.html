@@ -3,11 +3,17 @@
 {{ $svgClass := .Params.graphics.class }}
 {{ $svgURL := .Params.graphics.url | string}}
 {{ $fullPath := delimit (slice "partials/svg/" $svgURL) "" | string }}
-{{ $title := lower .Title }}
+{{ $title := lower (replace .Title " " "-") }}
+{{ $extURL := .Params.externalURL | string }}
 <section class="[ feature-{{ $title }} ]">
-  <a href="{{ .Permalink }}" class="[ card-state ]" data-class="pivot">
+  {{ if and ( $extURL ) ( ne $extURL "" ) }}
+  <a href="{{ $extURL }}" class="[ card-state ]" data-class="[ pivot ]">
+  {{ else }}
+  <a href="{{ .Permalink }}" class="[ card-state ]" data-class="[ pivot ]">
+  {{ end }}
     {{ with and ( $svg ) ( ne $svg "" ) }} {{ partial $fullPath (dict "polygonClass" $svgClass) }} {{ end }}
     <h1>{{ .Title }}</h1>
     <p>{{ if $deck }} {{ $deck }} {{ else }} {{ .Summary }} {{ end }}</p>
   </a>
+  
 </section>

@@ -1,0 +1,7 @@
+
+{{ $class := .Get "class" }}
+{{ $src := .Get "src" }}
+{{ $loading := .Get "loading"}}
+
+<iframe loading="{{ $loading }}" class="{{ $class }}" src="{{ $src }}" allowfullscreen></iframe>
+

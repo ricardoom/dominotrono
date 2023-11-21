@@ -21,6 +21,7 @@
 @import 'utility/debug';
 @import 'utility/width_control';
 @import 'utility/textUtils';
+@import 'utility/decor';
 
 // Block
 @import 'block/nav';
@@ -101,7 +102,6 @@ body {
 //   }
 // }
 
-// p,
 ul {
   margin: 0;
   padding: 0;

@@ -4,20 +4,20 @@ Built with static site generator Hugo, SASS, and vanilla Javascript
 
 ## Versions ~ Changelog
 
+### Versions
+- 0.0.5
+  - Wrapped up the NBU content post
+  - Lots of CSS refactoring
+  - Minor styling updated here and there...
+  
 - 0.0.4
-  - New home page deployed
-    - pink bot needs to be sorted out...
-  - Work on the new layout, see post <theblogpost.html>
-    - new svg elements complete
-      - made responsive
-      - aria attributes set to hidden
-    - Doing a cool blur fade in fade out on scroll using `IntersectionObserver`
-  - project / custom / dynamic verticals
-    - create a url
-    - use front matter to compose a page
-    - resources drawn from other site content
-  - Switch type faces to Inter. For good times and fresher vibrations.
-
+  - Lots of content updates and styling fixes
+    - clean up of redundant css
+    - added in more scalable type across pages.
+    - Added new content for last year's work on the projects outlined within
+    - Some template fixes
+    - Added new video short code (Hugo)
+    
 - 0.0.3
   - CSS refactored quite a bit, down reduced unused or redundant rules probably by 30%, shaved about 20k off.
   - removed the old masthead section as it probably wasnt helpling

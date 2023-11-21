@@ -1,3 +1,24 @@
-<section {{ with .Get "class" }} class="{{ . }}" {{ end }}>
-    {{ .Inner }}
+{{/*  Section Wrapper  */}}
+{{ $local := $.Site.IsServer }}
+{{ $layout := $.Get "layout" }}
+{{ $hasHeader := $.Get "section-header" }}
+{{ $headerID := $hasHeader }}
+
+{{ if and ( $layout ) ( ne $layout "" ) }}
+    {{ if $local }}
+        {{ printf "<!-- section_wrapper template aqui  -->" | safeHTML }}
+    {{ end }}
+<section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }}>
+    <div class="flex">
+        {{- .Inner -}}
+    </div>
+ </section>
+{{ else }}
+{{ if $local }}
+{{ printf "<!-- section_wrapper template aqui  -->" | safeHTML }}
+{{ end }}
+<section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }} {{ with $hasHeader }}aria-labelledby="{{ $headerID }}"{{ end }}>
+    
+    {{- .Inner -}}
 </section>
+{{ end }}

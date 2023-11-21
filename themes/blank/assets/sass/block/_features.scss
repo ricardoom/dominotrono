@@ -5,13 +5,19 @@
 .features {
   background: linear-gradient(to bottom, $gradient-features);
   color: $site-dark-blue;
-  margin: 0;
-  margin-block: 0;
-  padding-top: var(--s2);
-  padding-block: var(--s2);
+  padding: 0;
+  @include media('>=tablet') {
+    margin: 0;
+    margin-block: 0;
+    padding-top: var(--s2);
+    padding-block-end: var(--s2);
+    padding-block-start: var(--s5);
+  }
 }
 
 .feature {
+  gap: var(--s0);
+
   section {
     @media screen and (max-width: $small-screen) {
       max-width: 100%;
@@ -73,6 +79,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
+    // min-block-size: calc(var(--s6) * 1);
+    padding-block: var(--s1);
     transition: filter 200ms ease-in;
     text-decoration: none;
 
@@ -92,30 +100,38 @@
 
     p {
       --line-height: 1.2;
-      font-size: clamp(var(--s0), $preferredValue, var(--s2));
+      font-size: clamp(var(--s-1), $preferredValue, var(--s1));
       line-height: var(--line-height);
-      width: 65%;
+      width: fit-content;
     }
 
     svg {
-      filter: drop-shadow(var(--s1) var(--s1) var(--s3) transparentize($site-dark-blue, 0.35));
+      // filter: drop-shadow(var(--s1) var(--s1) var(--s3) transparentize($site-dark-blue, 0.35));
+      min-block-size: calc(var(--s6) * 1.5);
       width: 100%;
       z-index: -100;
     }
   }
   .pivot {
+    @media screen and (max-width: $medium-screen) {
+      padding-inline: var(--s0);
+      }
     border-radius: var(--s0);
     color: currentColor;
-    filter: unset;
-    padding: var(--s3) var(--s2);
+    filter: none;
+    padding-inline: var(--s2);
     transform: scale(1);
     transition: filter 300ms ease-out, transform 310ms ease-out;
     will-change: transform, transition;
 
     &:hover,
     &:focus {
-      @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
+      // @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
       background-color: transparentize($color: $site-white, $amount: 0.5);
+    }
+
+    &:focus {
+      @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
     }
   }
 
@@ -127,5 +143,9 @@
     filter: blur(var(--s-4)) opacity(0.8);
     transform: scale(0.85);
     will-change: transform;
+  }
+
+  &-css {
+    //background-color: red;
   }
 }

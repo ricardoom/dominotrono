@@ -5,19 +5,20 @@
 
 .jumbo {
   display: grid;
-  // grid: auto-flow dense 25% / ;
-  // grid-template-rows: 
-  grid-template-rows: repeat(8, min-content);
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr;  
+
+  @include media('>=tablet') {
+    grid-template-columns: repeat(5, 1fr);  
+  }
+  
+  grid-template-rows: repeat(auto-fit, min-content);
   min-height: 100vh;
-  // max-width: unset;
   position: relative;
   width: 100%;
-  // overflow-x: hidden;
 
   .bot-contain {
     display: grid;
-    grid-area: 1 / 1 / -1 / -1;
+    grid-area: 1 / 1 / 8 / -1;
     z-index: -1;
     @include media('<=tablet') {
       overflow: hidden;
@@ -29,7 +30,7 @@
        height: 100%;
      }
    }
-   .red-bot {}
+  //  .red-bot {}
 }
 
 

@@ -5,11 +5,14 @@
 .features {
   background: linear-gradient(to bottom, $gradient-features);
   color: $site-dark-blue;
-  margin: 0;
-  margin-block: 0;
-  padding-top: var(--s2);
-  padding-block-end: var(--s2);
-  padding-block-start: var(--s5);
+  padding: 0;
+  @include media('>=tablet') {
+    margin: 0;
+    margin-block: 0;
+    padding-top: var(--s2);
+    padding-block-end: var(--s2);
+    padding-block-start: var(--s5);
+  }
 }
 
 .feature {

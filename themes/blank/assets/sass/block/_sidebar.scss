@@ -25,78 +25,78 @@
       margin-block: var(--s3);
       padding-inline-start: var(--s0);
     }
+  } 
   }
+}
 
-  .sidebarList,
-  .sidebarTags {
-    list-style: none;
-    padding: 0;
-  }
+.sidebarList {
+  display: flex;
+  flex-wrap: wrap;
 
-  .sidebarList {
-    display: flex;
-    flex-wrap: wrap;
+  > li {
+    padding: var(--s0);
+    padding-block-start: var(--s0);
+    padding-block-end: var(--s0);
+    padding-inline-start: 0;
+    padding-inline-end: var(--s0);
 
-    > li {
-      padding: var(--s0);
-      padding-block-start: var(--s0);
-      padding-block-end: var(--s0);
-      padding-inline-start: 0;
-      padding-inline-end: var(--s0);
+    &:nth-of-type(4n) {
+      padding-right: 0;
 
-      &:nth-of-type(4n) {
-        padding-right: 0;
-
-        ul {
-          padding-right: var(--s0);
-        }
+      ul {
+        padding-right: var(--s0);
       }
+    }
 
-      .post-grid {
-        min-height: 13ex;
-        padding-left: var(--s0, 1.125rem);
-        padding-inline-start: var(--s0, 1.125rem);
+    .post-grid {
+      min-height: 13ex;
+      padding-left: var(--s0, 1.125rem);
+      padding-inline-start: var(--s0, 1.125rem);
 
-        .drop-cap {
-          & > a {
-            // @include responsive-font(5vw, 2.6rem, 5rem, 22px);
-            font-size: var(--s3);
-            border-bottom: solid var(--s-3) $site-white;
-            display: block;
-            font-family: $justus-pro;
-            font-weight: 400;
-            font-style: normal;
-            line-height: var(--s2);
-            margin-bottom: var(--s-1);
-            text-decoration: none;
-            width: 25%;
+      .drop-cap {
+        & > a {
+          // @include responsive-font(5vw, 2.6rem, 5rem, 22px);
+          font-size: var(--s3);
+          border-bottom: solid var(--s-3) $site-white;
+          display: block;
+          font-family: $justus-pro;
+          font-weight: 400;
+          font-style: normal;
+          line-height: var(--s2);
+          margin-bottom: var(--s-1);
+          text-decoration: none;
+          width: 25%;
 
-            .small-letter {
-              @include responsive-font(2.5vw, 1.24rem, 3rem, 18px);
-            }
+          .small-letter {
+            @include responsive-font(2.5vw, 1.24rem, 3rem, 18px);
+          }
 
-            &:visited {
-              color: currentColor;
-            }
+          &:visited {
+            color: currentColor;
+          }
 
-            &:hover,
-            &:focus {
-              color: $site-white;
-            }
+          &:hover,
+          &:focus {
+            color: $site-white;
           }
         }
+      }
 
-        .full-title {
-          @include responsive-font(1.25vw, 0.65em, 1em, 12px);
-        }
+      .full-title {
+        @include responsive-font(1.25vw, 0.65em, 1em, 12px);
       }
     }
-    // TODO: do some snazz animation transition here abouts...
-    > li:hover, 
-    > li:focus {
-      background: $site-lava-orange;
-      background: linear-gradient(to bottom right, $site-lava-orange, $site-punk-pink);
-    }
+  }
+  // TODO: do some snazz animation transition here abouts...
+  > li:hover, 
+  > li:focus {
+    background: $site-lava-orange;
+    background: linear-gradient(to bottom right, $site-lava-orange, $site-punk-pink);
   }
 }
-}
+
+// .sidebarList,
+// .sidebarTags {
+//   list-style: none;
+//   padding: 0;
+// }

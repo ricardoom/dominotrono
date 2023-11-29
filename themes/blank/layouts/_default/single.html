@@ -17,9 +17,7 @@
         <h1>{{ .Title }}</h1>
         {{ if ne .Section "portfolio" }}
         <p class="[ site-author ]">by: {{ .Site.Params.author }}</p>
-          <time>{{ .Lastmod | time.Format ":date_long" }}</time>
-          {{/*  <time>Last Modified: {{ .Lastmod.Format "01.02.2006 15:04" }}</time>  */}}
-          
+          <time>Last Update: {{ .Lastmod | time.Format ":date_long" }}</time>
         {{ end }}
         {{ if eq .Title "About Ricardo:" }}
           
@@ -34,9 +32,7 @@
           {{ printf "<!-- +++ experimental svg / canvas / ???  -->" | safeHTML }}
           {{ end  }}
           {{ if and ( eq $experimentType "svg" ) ( ne $experimentType "" ) }}
-
               <svg id="{{ lower .Title }}"  class="[ svg-exp ]" viewBox="0 0 0 0"></svg>
-
           {{ end  }}
         {{ end }}
       </article>
@@ -46,7 +42,9 @@
     
   </div>
 </main>
-{{ partial "sidebar.html" . }}
+{{ if $local }}
+  {{ partial "sidebar.html" . }}
+{{ end }}
 {{ partial "footer.html" . }}
 {{/*  {{ if eq .Type "experiments"  }}
   {{ partial "experiments.html" . }}

@@ -13,7 +13,7 @@ pluralizelisttitles = "false"
 #   publishDate = ['publishDate', 'date']
 
 [params]
-    author="Ricardo Eric Gálvez"
+    author="Ricardo E. Gálvez"
     subtitle="Ricardo E. Gálvez"
     # javascript vendor path
     vendorPath = "js/vendor/"
@@ -60,6 +60,9 @@ pluralizelisttitles = "false"
         name = "linkedin"
         url = "https://www.linkedin.com/in/ricardogalvez/"
         iconClass = "linkedin"
+    [params.resume]
+        url = "/about/Ricardo_Galvez_Resume.pdf"
+        name = "Resume"
     # [params.instagram]
     #     name = "instagram"
     #     userName = "@rixblargh"

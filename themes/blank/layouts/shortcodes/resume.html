@@ -1,3 +1,4 @@
+{{ $resume := .Site.Params.resume  }}
 <aside class="[ ]">
-    <a href="Ricardo_Galvez_Resume.pdf">Download Resume...</a>
+    <a href="{{ $resume.url }}">Download {{ $resume.name }}</a>
 </aside>

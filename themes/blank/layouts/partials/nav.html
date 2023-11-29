@@ -1,3 +1,4 @@
+{{ $resume := .Site.Params.resume  }}
 {{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
 
 <nav class="[ siteNavigation ]">
@@ -12,6 +13,7 @@
     {{ range .Site.Menus.main }}
     <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
     {{ end }}
+    <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>
     {{- partial "social_list.html" . -}}
   </ul>
 </nav>

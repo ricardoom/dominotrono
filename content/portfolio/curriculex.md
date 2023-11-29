@@ -28,7 +28,7 @@ projectRoles: ['UX Designer']
 projectClients: ['Pearson']
 projectCredits: ['Nicole Nishimoto', 'Don Bratton']
 projectDate: '2022—2023'
-tags: ['User Experience', 'Product Design', 'Figma', 'Interaction Design']
+tags: ['User Experience', 'Product Design', 'Figma', 'Interaction Design', 'Product Research']
 weight: -15
 externalURL: ''
 projectDesc: 'The Curriculex project seeks to fill a gap in nursing education. The goal is to develop a learning platform designed to replace dense, text-based learning with interactive lessons and lectures. A key feature of Curriculex caters to instructors and students with feature sets designed to facilitate both needs. My work focused primarily on the instructor experience.'

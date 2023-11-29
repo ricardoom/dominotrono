@@ -1,5 +1,5 @@
 ---
-title: 'SimplyE Audio-books and Catalog'
+title: 'SimplyE Audiobooks'
 date: 2018-10-08T16:07:05-04:00
 draft: false
 categories: 'portfolio'

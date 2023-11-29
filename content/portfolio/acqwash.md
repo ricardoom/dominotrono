@@ -18,15 +18,15 @@ postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_po
 postImageAlt: ''
 figcaption: ''
 svgClipObjectClass: ''
-svgColorClass: 'site-color--lava-orange'
-projectRoles: ['UX', 'Visual Design', 'Web Design']
+svgColorClass: 'site-color--purple'
+projectRoles: ['User Experience Designer']
 projectClients: ['Acqwash']
 projectCredits: ['Rafael Hernandez']
 projectDate: ''
-tags: ['UX', 'Web Design']
-weight: -8
+tags: ['User Experience']
+weight: 12
 externalURL: ''
-projectDesc: 'My role in this project was to create the UX and visual design for this exciting NYC startup.'
+projectDesc: 'My role in this project was to create the UX and explore visual designs for this exciting NYC startup.'
 newLayout: true
 ---
 

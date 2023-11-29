@@ -21,7 +21,9 @@
     </div>
   </div>
 </aside>
-{{ partial "sidebar.html" . }} 
+{{ if $local }}
+  {{ partial "sidebar.html" . }}
+{{ end }}
 {{ partial "footer.html" . }}
 
 

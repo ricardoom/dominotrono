@@ -21,7 +21,7 @@ svgColorClass: 'site-color--sage-green'
 projectRoles: ['Designer', 'Developer']
 projectClients: ['Dr. Estevan Rael Gálvez', 'McCune Foundation', 'New Mexico Humanities Council']
 projectDate: '2020 - 2021'
-tags: ['Web Design', 'Visual Design', 'Hugo', 'Forestry.io', 'Netlify', 'Cloudinary']
+tags: ['Visual Design', 'Web Development']
 weight: -10
 externalURL: 'http://decolonizingnewmexico.com'
 projectDesc: 'Decolonizing New Mexico is an ongoing project meant to gather historical context and ideas toward the development of a process, centering truth and transformation in New Mexico.'

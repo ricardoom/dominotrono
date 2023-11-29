@@ -30,7 +30,9 @@
        {{ partial "portfolio_involvement.html" . }}
   </article>
 </main>
+{{ if $local }}
 {{ partial "sidebar.html" . }}
+{{ end }}
 {{ partial "footer.html" . }}
 
 {{ if $local }}

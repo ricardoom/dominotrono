@@ -1,4 +1,5 @@
 <!-- portfolio_involvement.html -->
+{{ $local := .Site.IsServer }}
 {{ $newLayout := .Params.newLayout }}
 {{ $role := .Params.projectRoles }}
 {{ $url := .Params.externalURL }}
@@ -6,11 +7,12 @@
 {{ $date := .Params.projectDate }}
 {{ $credits := .Params.projectCredits }}
 {{ $tags := .Params.tags }}
+{{ $tech := .Params.tech }}
 {{ $atWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
 {{ $feature := .Params.feature }}
-<aside class="[ portfolio-involvement ][ squeeze ][ box-shadow ]">
+<aside class="[ portfolio-involvement ][ squeeze ][ --box-shadow ]">
   {{ if and ( $clients ) ( ne $clients "" ) }}
   <h3>Client:</h3>
   <ul>
@@ -62,7 +64,18 @@
     {{ end }}
   </ul>
   {{ end }}
+  {{ if and ( $tech ) ( ne $tech "" ) }}
+  <h3>Technology:</h3>
+  <ul id="tech">
+    {{ range sort $tech }}
+    <li class="[ site-tags ][ tag ]">
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
   {{ if and ( $feature ) ( ne $feature "" ) }}
+  {{ if $local }}
   <h3>Feature:</h3>
   <ul id="features">
     {{ range sort $feature }}
@@ -71,6 +84,6 @@
     </li>
     {{ end }}
   </ul>
-  
+  {{ end }}
   {{ end  }}
 </aside>

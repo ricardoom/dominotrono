@@ -1447,9 +1447,11 @@ figure {
     border-left: 100px red dotted; }
 
 .portfolio-involvement {
-  background-color: rgba(33, 33, 33, 0.9);
+  --t-prince-purple: rgba(35, 29, 58, 0.85);
+  background-image: linear-gradient(#231d3a 25% 60%, var(--t-prince-purple));
   color: white;
   font-size: var(--s05);
+  font-style: italic;
   padding-bottom: var(--s1);
   padding-block-end: var(--s1);
   z-index: 2; }
@@ -1464,6 +1466,8 @@ figure {
       grid-row: 2 / 3;
       margin-block-start: calc(var(--s1) * -1); } }
   .portfolio-involvement h3 {
+    font-size: clamp(var(--s-1), 4.37743189vw, var(--s0));
+    font-style: italic;
     font-weight: 450;
     margin: var(--s-1) 0; }
 

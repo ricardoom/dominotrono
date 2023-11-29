@@ -1,6 +1,8 @@
 {{ $local := $.Site.IsServer }}
 {{ partial "header.html" . }}
-++++ TAGS TEMPLATE +++++
+{{ if $local }}
+  {{ printf "<!-- ++++ TAGS TEMPLATE +++++  -->" | safeHTML }}
+{{ end }}
 <main class="[ taxo-list-portfolio ]">
   <div class="[ wrapper ][ grid-wrapper ]">
     <h1>{{ .Title }}</h1>
@@ -13,8 +15,9 @@
   </div>
   <!-- {{ partial "pagination.html" . }} -->
 </main>
-
+{{ if $local }}
 {{ partial "sidebar.html" . }}
+{{ end }}
 {{ partial "footer.html" . }}
 
 {{ if $local }}

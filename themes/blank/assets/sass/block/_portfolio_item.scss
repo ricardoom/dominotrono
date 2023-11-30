@@ -97,12 +97,14 @@
       // details grid specific variables:
       $details-grid-columns: #{1fr 6.5vw 1fr 2.5vw};
       $details-grid-rows: #{minmax(4vh, auto) auto};
+      $row-gap: var(--s0);
       //
 
       .details-grid {
-        @include portfolio-grid('>=phone', $details-grid-columns);
+        @include portfolio-grid('>=phone', $details-grid-columns, $row-gap);
         align-items: start;
         margin-top: var(--s1);
+        
 
         > p {
           // margin: var(--s0) 0;
@@ -220,6 +222,11 @@
 // 
 
         &__fiftyWords {
+
+          video {
+            width: 100%;
+          }
+
           &.figma-embed {
             background-color: red;
             width: 1244px;

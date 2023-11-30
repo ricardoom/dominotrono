@@ -10,11 +10,19 @@ graphics:
   url: uxCubeDos.svg
   class: uxCube
 ---
- After some long reflection, I would submit that the majority of my work has always had a the end user's needs center in my practice. The essence of all interactive projects, be they more single direction such as a brochure, purely informative site to something where there is give and take on the behalf of both parties, usually a computer and database and a human.
+The majority of my work has always had the end user's needs centered in my practice. Even in situations where I was taking on a front-end engineering role, my guiding principle has always been to maintain focus on the end user's experience. The following examples represent projects where I contributed directly to existing feature sets or created new ones based on stakeholder requirements.
 
  ### Bronte
 
 At Pearson blah blah
+
+{{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686770581/bronte/BrontePublishingWire.webp"
+      alt="An image of a set of screens related to the publishing workflow"
+      figcaption="Initial overview of my improved publishing workflows"
+      class="details-grid__fiftyWords big-image"
+      >}}
 
 [See the complete project ->](/portfolio/bronte/)
 
@@ -30,11 +38,10 @@ Best books
 
 [Learn More about the best books project ->](/portfolio/nypl-best-books/)
 
- ### SimplyE Audiobooks
+### SimplyE Audiobooks
 
 [Explore the project ->](/portfolio/simplye-audiobook-player/)
 
+### Thirteen Explore
 
- ### Thirteen Explore
-
- [/portfolio/thirteen-explore/](/portfolio/thirteen-explore/)
+[/portfolio/thirteen-explore/](/portfolio/thirteen-explore/)

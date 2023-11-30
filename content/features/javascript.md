@@ -2,7 +2,7 @@
 author: Ricardo G.
 categories: []
 date: 2021-03-08T12:55:42-05:00
-draft: false
+draft: true
 tags: []
 title: "Javascript"
 deck: "I am late to the party."

@@ -1,6 +1,8 @@
 {{ $local := .Site.IsServer }} 
 {{ $mainContent := partial "first-paragraph.html" .Content }} {{ partial "header.html" . }}
-<!-- === root index === -->
+{{ if $local }}
+{{ printf "<!-- === root index === -->" | safeHTML }}
+{{ end  }}
 <main class="[ site-content ]" id="siteContent">{{ partial "jumbo_two.html" . }}</main>
 <div class="[ mast-container ]">
   {{ partial "svg/onion_dome.svg" (dict "class" "[ first-dome ]") }}

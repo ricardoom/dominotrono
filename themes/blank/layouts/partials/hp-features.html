@@ -14,6 +14,7 @@
     {{ with and ( $svg ) ( ne $svg "" ) }} {{ partial $fullPath (dict "polygonClass" $svgClass) }} {{ end }}
     <h1>{{ .Title }}</h1>
     <p>{{ if $deck }} {{ $deck }} {{ else }} {{ .Summary }} {{ end }}</p>
+    <span>See more of my {{ .Title }} projects ↘</span>
   </a>
   
 </section>

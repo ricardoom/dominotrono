@@ -105,6 +105,10 @@
       width: fit-content;
     }
 
+    span {
+      color: hsla(0, 0, 0%, 0);
+    }
+
     svg {
       // filter: drop-shadow(var(--s1) var(--s1) var(--s3) transparentize($site-dark-blue, 0.35));
       min-block-size: calc(var(--s6) * 1.5);
@@ -128,6 +132,10 @@
     &:focus {
       // @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
       background-color: transparentize($color: $site-white, $amount: 0.5);
+
+      & span {
+        color: initial;
+      }
     }
 
     &:focus {

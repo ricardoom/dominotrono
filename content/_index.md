@@ -3,9 +3,10 @@ title: 'Ricardo E. Gálvez - UX Designer & UI Developer'
 draft: false
 features:
   - /features/user-experience.md
-  - /features/design.md
-  - /features/html.md
-  - /features/css.md
+  - /features/visual-design.md
+  # - /features/html.md
+  # - /features/css.md
+  - /features/development.md
   # - /features/svg.md
   # - /features/javascript.md
   # - /features/git.md

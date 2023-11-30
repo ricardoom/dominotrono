@@ -2,8 +2,8 @@
 // Basic Drop Cap for all pages
 
 .has-dropcap {
-  font-size: clamp(var(--s-1), $preferredValue, var(--s1));
-  margin-top: var(--s-1);
+  // font-size: clamp(var(--s-2), $preferredValue, var(--s1));
+  font-size: ft(var(--s-2), var(--s1));
   margin-block-start: var(--s-1);
 
   .dropcap {
@@ -12,9 +12,14 @@
     font-size: var(--s5);
     font-size: clamp(var(--s3), $preferredValue, var(--s5));
     font-weight: 900;
-    margin: 0.1em 0.05em 0 0;
+    margin-block: var(--s-2) 0;
+    margin-inline: 0 var(--s-2);
 
-    @media screen and (max-width: $small-screen) {
+
+    // @media screen and (max-width: $small-screen) {
+    //   line-height: 0.35em;
+    // }
+    @include media('<=phone') {
       line-height: 0.35em;
     }
   }

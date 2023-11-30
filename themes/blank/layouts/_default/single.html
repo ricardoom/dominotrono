@@ -1,7 +1,9 @@
 {{ $local := .Site.IsServer }}
+{{ $mainContent := partial "first-paragraph.html" .Content }} 
 {{ if $local }}
 {{ printf "<!-- +++ default single item  -->" | safeHTML }}
 {{ end  }}
+
 {{ partial "header.html" . }}
 <main>
   {{ if eq .Type "features" }}
@@ -11,19 +13,19 @@
     <div class="[ wrapper ][ grid-wrapper ][ feature-page ]">
     {{ else }}
     <div class="[ wrapper ][ grid-wrapper ]">
-    {{ end  }}
-      <article class="[ site-article ]">
-        
-        <h1>{{ .Title }}</h1>
+  {{ end  }}
+  <article class="[ site-article ]"> 
+    <h1>{{ .Title }}</h1>
         {{ if ne .Section "portfolio" }}
         <p class="[ site-author ]">by: {{ .Site.Params.author }}</p>
           <time>Last Update: {{ .Lastmod | time.Format ":date_long" }}</time>
         {{ end }}
-        {{ if eq .Title "About Ricardo:" }}
+        {{ if eq .Title "About Ricardo:" }}{{ end }}
+        <section class="[ site-single ]">
           
-        {{ end }}
-        <section class="site-single">
-          {{ .Content }}
+          
+            {{ .Content }}
+          
         </section>
         {{ if eq .Type "experiments"  }}
           {{/* Check the page param type and set a class or (whatever else based on that param) */}}

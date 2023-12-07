@@ -24,13 +24,13 @@
       <figure class="[ portfolio-list-item__content--hero ]">
         <img class="[ portfolioHero__image][ lazy ]" data-srcset="{{ .Params.portfolioHero1x }},
                      {{ $2x }} 2x
-                     {{ if and ( $3x ) (ne $3x "" ) }}
+                     {{ if and ( $3x ) (ne $3x "") }}
                       ,{{ $3x }} 3x
                      {{ end }}" sizes="(max-width: 20em) 100vw,
                     (max-width: 50em) 75vw,
                     (max-width: 60em) 65vw" src="{{ $portfolioHeroSqip }}" data-src="{{ $portfolioHero }}"
           alt="{{ $alt }}" />
-        {{/*  {{ if and ( .Params.heroFigcaption ) ( ne .Params.heroFigcaption "" ) }}  */}}
+
         {{ with .Params.heroFigcaption }}
         <figcaption>{{ . }}</figcaption>
         {{ end }}
@@ -39,13 +39,16 @@
       
       {{ if and ( $projectDescription ) ( ne $projectDescription "" ) }}
       
-      <p class="portfolio-list-item__content--description">{{ $projectDescription }}</p>
+      <p class="[ portfolio-list-item__content--description ]">{{ $projectDescription }}</p>
       {{ end }}
-
-      {{ if and ( $tags ) ( ne $tags "" ) }}
-      <ul class="portfolio-list-item__content--static-tags">
-        {{ range sort $tag }}<li class="site-tags__tags">{{ . }}</li>{{ end }}
-      </ul>
+        
+          {{ if and ( $tags ) ( ne $tags "" ) }}
+            <ul class="[ portfolio-list-item__content--static-tags ]">
+            {{ range sort $tag }}
+            <li class="[ site-tags__tags ]">{{ . }}</li>
+          {{ end }}
+        </ul>
+        
       {{ end }}
     </section>
   </a>

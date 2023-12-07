@@ -1,0 +1,29 @@
+{{ $local := $.Site.IsServer }}
+{{ if $local }}
+  {{ printf "<!-- ++++ TAXONOMY TERM TEMPLATE +++++  -->" | safeHTML }}
+{{ end }}
+{{ partial "header.html" . }}
+<main class="[ taxo-list-portfolio ]">
+    <div class="[ wrapper ][ grid-wrapper ]">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.blurb }}</p>
+        <ul class="[ stack ]">
+        {{ range .Pages }}
+        {{ if eq .Type "portfolio" }}
+          {{ partial "portfolio_hero.html" . }}
+        {{ else }}
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <p>{{ .Summary }}</p>
+        {{ end }}
+      {{ end }}
+      </ul>
+    </div>
+  </main>
+  {{/*  {{ if $local }}
+  {{ partial "sidebar.html" . }}
+  {{ end }}  */}}
+  {{ partial "footer.html" . }}
+  
+  {{ if $local }}
+  {{ partial "dev.html" . }}
+  {{ end }}

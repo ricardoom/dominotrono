@@ -52,6 +52,7 @@ feature: ['user-experience']
         class="hero-grid__copyBlock box-shadow" >}}
         The publishing platform Bronte is an internal product used at Pearson, allowing content authors to import or directly create a text and prepare it for publication in the Pearson ecosystem. Bronte is a feature-rich tool. Complete with text editing, image manipulation, layout tools, project management, and deployment. My remit was to improve the publication process. The goal was to reduce the various points an author was required to navigate to and create a flow tightly coupled with other project and content management features.
       {{< /copy_wrapper>}}
+
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}

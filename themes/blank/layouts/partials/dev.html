@@ -2,9 +2,7 @@
   .dev {
     --max-width: 65ch;
     --color: #333;
-    background-color: hsl(120, 80%, 94%);
-    color: #333;
-    color: var(--color, #333);
+    
     max-width: var(--max-width);
   }
   .dev > h4 {
@@ -12,7 +10,8 @@
   }
   .dev > p,
   .dev > dl {
-    border-block-end: 2px solid hsl(157, 100%, 19%);
+    /* border-block-end: 2px solid hsl(157, 100%, 92%); */
+    margin-block: var(--s1);
     overflow-wrap: break-word;
   }
 
@@ -26,18 +25,16 @@
   .dev > ul > li {
     margin: 1rem 0;
   }
-  .dev > ul > li > a:link,
-  .dev > ul > li > a:visited {
-    color: #333;
-    color: var(--color, #333);
-  }
 
   time {
     font-size: var(--s-1);
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   };
-  
+
+  .dev-tags {
+    display: inline-block;
+  }
 </style>
 <aside class="dev wrapper">
   <h4>Variables & Useful Development info:</h4>
@@ -50,17 +47,24 @@
     <dd>{{ $elem_val }}</dd>
   </dl>
   {{ end }}
-  <p>The dot for this page or section: <b>{{ . }}</b></p>
+  <p>The "dot" for this page or section: <b>{{ . }}</b></p>
   <p>Current Section type & path: <b>{{ .CurrentSection }}</b></p>
   <p>Number of child descendant sections to this one: <b>{{ .Sections }}</b></p>
 
   <p><b>.Site.Params:</b></p>
   {{ $siteParams := .Site.Params }}
   {{ range $elem_index, $elem_val := $siteParams }}
+  {{ if and ($elem_index) (ne $elem_index "") }}
+    {{ if and ($elem_val) (ne $elem_val "") }}
   <dl>
-    <dt><b>{{ $elem_index }}</b></dt>
+    <dt>
+      <b>{{ $elem_index }}:&nbsp;</b>
+    </dt>
     <dd>{{ $elem_val }}</dd>
+    
   </dl>
+  {{ end }}
+  {{ end }}
   {{ end }}
 
   <p><b>Page Params:</b></p>
@@ -68,7 +72,7 @@
   {{ range $elem_index, $elem_val := $params }}
   <dl>
     <dt class="{{ $elem_index }}"><b>Param: {{ $elem_index }}</b></dt>
-    <dd>Param Value: {{ $elem_val }}</dd>
+    <dd>Page Param Value: {{ $elem_val }}</dd>
   </dl>
   {{ end }}
 
@@ -86,17 +90,34 @@
   </ul>
   <ul><b>All the pages:</b>
     {{ range .Site.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}
-        <ul>
-          <li>Type: {{ .Type }}</li>
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <ul>
+          <li>Content Type: {{ .Type }}</li>
           <li>Kind: {{ .Kind }}</li>
           
+          {{ $taxonomy := "tags" }}
+          {{ with .GetTerms $taxonomy }}
+            <li>{{ (site.GetPage $taxonomy).LinkTitle }}:</li>
+            <li>
+              <ul class="dev-tags">
+                {{ range . }}
+                  <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                {{ end }}
+              </ul>
+            </li>
+          
+              
+      
+          {{ end }}
+
+          
           {{ if .IsSection }}
-          <li>Section: {{ .IsSection }}</li>
+          <h3>Section:</h3>
           {{ .Sections }}
           {{ end }}
         </ul>
-      </a></li>
+      </li>
     {{ end }}
   </ul>
 </aside>

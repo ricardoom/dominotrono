@@ -2,11 +2,11 @@
 author: Ricardo G.
 categories: []
 date: 2018-02-17T09:07:37-05:00
-draft: false
+draft: true
 postimage: ''
 postImageAlt: ''
 figcaption: ''
-tags: ['javascript', 'gardening']
+tags: ['JavaScript']
 title: 'Dryyp: A remote garden manager'
 ---
 This idea came about whilst preparing my garden to be cared for by a neighbor. We were leaving for vacation and I was lamenting the lack of an automated system that could be controlled remotely or by an automated and semi-intelligent system. An additional motivation for this project is purely for professional development. The idea is to mock up the  product and grow and cultivate it, starting from basic concept to a finished product. It should come complete with functional and technical specs, wire-frames, screen designs, work flows, . While it may never see the light of day in terms of a real, functional product, it is a good exercise in product development.

@@ -35,6 +35,7 @@ projectCredits:
 projectDate: '2016 - 2018'
 projectDesc: 'We created the Best Books app to highlight the expertise and extensive breadth of knowledge held by the librarians working at NYPL. We built an interactive tool allowing users to discover new recommendations from our expert staff'
 newLayout: true
+feature: ['user-experience']
 ---
 
 
@@ -54,8 +55,6 @@ newLayout: true
 
 {{< /section_wrapper >}}
 
-### Prototyping and Wire Framing
-
 {{< section_wrapper class="details-grid" >}}
   
     {{< image_cld
@@ -74,6 +73,8 @@ newLayout: true
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
+
+    {{< section_header level="3" text="Prototyping and Wire Framing" >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
        My initial wireframes outline the structure of the end-user view. These gave substance to the initial concept and allowed the team to discuss the core facets of the application. The app had to be WCAG 2.0 Accessible, be functional if JavaScript was disabled. These mockups allowed us to discuss semantics, design, and behavior.
@@ -166,4 +167,8 @@ newLayout: true
 
     {{< /copy_wrapper >}}
 
+{{< /section_wrapper >}}
+
+{{< section_wrapper >}}
+  
 {{< /section_wrapper >}}

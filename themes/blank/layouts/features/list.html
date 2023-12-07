@@ -1,9 +1,9 @@
 {{ $local := $.Site.IsServer }}
-{{ partial "header.html" . }}
 {{ if $local }}
-  {{ printf "<!-- ++++ TAGS TEMPLATE +++++  -->" | safeHTML }}
+{{ printf "<!-- portfolio list template new Card template aqui  -->" | safeHTML }}
 {{ end }}
-<main class="[ taxo-list-portfolio ]">
+{{ partial "header.html" . }}
+<main>
   <div class="[ wrapper ][ grid-wrapper ]">
     <h1>{{ .Title }}</h1>
     <ul class="[ stack ]">
@@ -15,11 +15,8 @@
   </div>
   <!-- {{ partial "pagination.html" . }} -->
 </main>
-{{ if $local }}
 {{ partial "sidebar.html" . }}
-{{ end }}
 {{ partial "footer.html" . }}
-
 {{ if $local }}
 {{ partial "dev.html" . }}
 {{ end }}

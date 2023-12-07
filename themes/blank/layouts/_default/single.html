@@ -20,12 +20,11 @@
         <p class="[ site-author ]">by: {{ .Site.Params.author }}</p>
           <time>Last Update: {{ .Lastmod | time.Format ":date_long" }}</time>
         {{ end }}
-        {{ if eq .Title "About Ricardo:" }}{{ end }}
-        <section class="[ site-single ]">
-          
-          
+        {{ if eq .Type "features" }}
+          {{ .Content }}
+        {{ end }}
+        <section class="[ site-single ]">          
             {{ .Content }}
-          
         </section>
         {{ if eq .Type "experiments"  }}
           {{/* Check the page param type and set a class or (whatever else based on that param) */}}

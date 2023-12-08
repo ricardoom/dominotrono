@@ -217,6 +217,14 @@ img:not([alt]) {
     --overlay-color: #10eabb;
     color: var(--overlay-color); }
 
+.site-color--cool-sky-blue {
+  background: #38deff; }
+  .site-color--cool-sky-blue figcaption {
+    box-shadow: 10px 10px 0 #38deff; }
+  .site-color--cool-sky-blue > ul {
+    --overlay-color: #38deff;
+    color: var(--overlay-color); }
+
 h1 {
   font-family: Cambria, "Liberation Serif", Times, Utopia, "Hoefler Text", "Nimbus Roman No9 L Regular", "Times New Roman", serif;
   font-weight: 672;
@@ -339,7 +347,7 @@ h4, .fonts-loaded h4 {
   letter-spacing: var(--s-4); }
 
 a {
-  --hover-color: #f542ad; }
+  --hover-color: #38deff; }
   a:link {
     color: white; }
   a:visited {
@@ -362,6 +370,8 @@ p {
   font-size: clamp(var(--s05), 4.37743189vw, var(--s0));
   max-width: var(--measure);
   margin-block: var(--s0); }
+  p.lede {
+    font-size: clamp(var(--s-1), 4.37743189vw, var(--s1)); }
 
 ul {
   padding-left: var(--s0); }
@@ -1016,7 +1026,11 @@ figure {
   margin-block-end: var(--s0);
   margin-block-start: var(--s0); }
   .portfolio-list-item__content {
-    display: grid; }
+    display: grid;
+    transition: background-color 200ms ease-out; }
+    .portfolio-list-item__content:hover {
+      transition: background-color 250ms ease-in;
+      background-color: rgba(0, 0, 0, 0); }
     .portfolio-list-item__content--hero {
       margin: 0;
       max-width: 80rem;
@@ -1035,6 +1049,8 @@ figure {
         height: 100%;
         opacity: 0.75;
         width: 100%; }
+        .portfolio-list-item__content--hero img:hover {
+          opacity: 1; }
     .portfolio-list-item__content h2 {
       align-self: center;
       background-color: rgba(33, 33, 33, 0.95);

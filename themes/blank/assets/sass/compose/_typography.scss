@@ -157,7 +157,7 @@ h4, .fonts-loaded h4 {
 ///
 
 a {
-  --hover-color: #{$site-punk-pink};
+  --hover-color: #{$cool-sky-blue};
   &:link {
     color: $site-link;
   }
@@ -199,6 +199,10 @@ p {
   font-size: ft(var(--s05), var(--s0));
   max-width: $max-line-length;
   margin-block: var(--s0);
+
+  &.lede {
+    font-size: ft(var(--s-1), var(--s1));
+  }
 }
 
 ul {

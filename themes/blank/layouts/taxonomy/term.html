@@ -11,6 +11,7 @@
         {{ range .Pages }}
         {{ if eq .Type "portfolio" }}
           {{ partial "portfolio_hero.html" . }}
+        </p>
         {{ else }}
           <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
           <p>{{ .Summary }}</p>

@@ -1,4 +1,5 @@
 {{ $local := $.Site.IsServer }}
+{{ $blurb := .Params.blurb }}
 {{ if $local }}
   {{ printf "<!-- ++++ TAXONOMY TERM TEMPLATE +++++  -->" | safeHTML }}
 {{ end }}
@@ -6,7 +7,9 @@
 <main class="[ taxo-list-portfolio ]">
     <div class="[ wrapper ][ grid-wrapper ]">
       <h1>{{ .Title }}</h1>
-      <p>{{ .Params.blurb }}</p>
+      {{ if $blurb }}
+        <p>{{ $blurb }}</p>
+      {{ end  }}
         <ul class="[ stack ]">
         {{ range .Pages }}
         {{ if eq .Type "portfolio" }}

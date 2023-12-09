@@ -111,6 +111,13 @@ li {
   list-style: none;
 }
 
+svg {
+  &[data-filter] {
+    display: block;
+    height: 0;
+  }
+  
+}
 // TODO
 // Disable hover on touch devices:
 // @media (hover: hover) and (pointer: fine) {

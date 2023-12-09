@@ -4,6 +4,27 @@
 //
 
 footer {
-  font-size: $base-font-small;
-  margin: var(--s0) 0;
+  background-color: $site-black;
+  font-size: ft(var(--s0), var(--s1));
+  padding-inline: var(--s1);
+  min-height: calc(var(--s1) * 10);
+
+  p {
+    margin-block: 0;
+    padding-block: var(--s1);
+  }
+}
+
+// Add the Vendor JS info block here
+// TODO: move this out of the file
+
+[data-vendor] {
+  background-color: $site-white;
+  color: $site-dark-blue;
+  padding-inline: var(--s0);
+
+  p {
+    font-size: ft(var(--s-3), var(--s-1));
+    margin-block-start: 0;
+  }
 }

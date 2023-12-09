@@ -94,14 +94,5 @@ $site-colors: (
       color: var(--overlay-color);
       }
   }
-
-  // .site-color--#{$site-color-name} {
-  //   ~ h2, 
-  //   ~ p,
-  //   ~ ul {
-  //     color: lighten($site-color, .75);
-  //     }
-  //   }
-  
 }
 

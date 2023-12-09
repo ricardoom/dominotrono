@@ -1,7 +1,7 @@
 {{ $local := .Site.IsServer }} 
 {{ $mainContent := partial "first-paragraph.html" .Content }} {{ partial "header.html" . }}
 {{ if $local }}
-{{ printf "<!-- === root index === -->" | safeHTML }}
+  {{ printf "<!-- === root index === -->" | safeHTML }}
 {{ end  }}
 <main class="[ site-content ]" id="siteContent">{{ partial "jumbo_two.html" . }}</main>
 <div class="[ mast-container ]">
@@ -23,13 +23,11 @@
     </div>
   </div>
 </aside>
-{{ if $local }}
+{{/*  {{ if $local }}
   {{ partial "sidebar.html" . }}
-{{ end }}
+{{ end }}  */}}
 {{ partial "footer.html" . }}
-
-
   {{ if $local }} 
     {{ partial "svg/filter.html" . }}
-    {{ partial "dev.html" . }}
+    {{/*  {{ partial "dev.html" . }}  */}}
   {{ end }}

@@ -19,7 +19,7 @@ $mega: 93;
 $small-screen: $small * 1rem; // 414px
 $medium-screen: 48rem; // 768px
 $wide-screen: 80rem; // 1280px
-$mega-screen: 93 * 1rem; // 1488px
+$mega-screen: $mega * 1rem; // 1488px
 
 
 $tablet-column: 15vw;
@@ -33,12 +33,13 @@ $s0: $baseUnit;
 $s1: $s0 * $ratio;
 $s2: $s1 * $ratio;
 $s3: $s2 * $ratio;
-// @debug $s0, $s1, $s2;
+@debug $s0, $s1, $s2;
 
 :root {
+  --ratio: #{$ratio};
   --measure: 60ch;
   --smallMeasure: 40ch;
-  --ratio: #{$ratio};
+  --line-height: var(--ratio);
   --halfRatio: calc(var(--ratio) / 2);
   --s-5: calc(var(--s-4) / var(--ratio));
   --s-4: calc(var(--s-3) / var(--ratio));

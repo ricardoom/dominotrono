@@ -3,9 +3,9 @@
 //
 // Globals, Dynamic (functions / mixins), Vendors
 @import 'vendor/reset.min';
-@import 'vendor/include_media';
-@import 'vendor/fluid_type';
 @import 'scaleRules';
+@import 'vendor/fluid_type';
+@import 'vendor/include_media';
 @import 'dynamic/functions';
 
 // CUBE
@@ -20,6 +20,7 @@
 // Utility
 @import 'utility/debug';
 @import 'utility/width_control';
+@import 'utility/textUtils';
 @import 'utility/decor';
 
 // Block
@@ -45,9 +46,19 @@
 @import 'block/svgElements';
 @import 'block/blue_blocks';
 @import 'block/footer';
+@import 'block/features';
+
 
 // Exception
 @import 'exception/single';
+@import 'exception/spooky';
+@import 'exception/redbot';
+@import 'exception/drop_cap';
+@import 'exception/mast_head';
+@import 'exception/onion_dome';
+
+
+
 
 *,
 *::before,
@@ -65,6 +76,8 @@ body {
   font-size: $base-font;
   // margin: 0 auto;
   // max-width: $wide-screen;
+  min-height: 100vh;
+  overflow-x: scroll;
 }
 
 // body > * {
@@ -97,3 +110,16 @@ ul {
 li {
   list-style: none;
 }
+
+svg {
+  &[data-filter] {
+    display: block;
+    height: 0;
+  }
+  
+}
+// TODO
+// Disable hover on touch devices:
+// @media (hover: hover) and (pointer: fine) {
+//   a:hover { color: red; }
+// }

@@ -1,5 +1,5 @@
 ---
-title: 'SimplyE Audio-books and Catalog'
+title: 'SimplyE Audiobooks'
 date: 2018-10-08T16:07:05-04:00
 draft: false
 categories: 'portfolio'
@@ -16,7 +16,7 @@ portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_p
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_3x/v1582837490/simply-e/se-screens-view-ios.jpg'
 portfolioHeroAlt: 'A partial image of the SimplyE design click flow'
 svgClipObjectClass: ''
-svgColorClass: 'site-color--brown'
+svgColorClass: 'site-color--seafoam-green'
 tags: ['User Experience', 'Accessibility', 'Interface Design']
 weight: 5
 projectRoles: ['Designer']

@@ -10,7 +10,7 @@
 //
 // import using @use the grids
 //
-
+// TODO: Do someting about this...
 @import 'dynamic/portfolio_grids';
 
 // TODO: Determine where this is being used as of 6/16/2023 and if its not being used lets ge tid of it...
@@ -30,15 +30,6 @@
 // todo: add {params}
 // param {$media} : >=phone
 // param {$padding} $pl/$pr = padding-right left etc...
-
-@mixin visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
 // $mw = max width
 // $pl = padding left
 // $pr = padding right
@@ -50,17 +41,28 @@
   }
 }
 
+@mixin visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; 
+}
+
 // In some cases we might want to vary the kind of focus ring we apply,
 // @Param
 //
 
-@mixin focus-ring($type, $color: $site-focus-ring) {
+@mixin focus-ring($type, $color: $site-focus-ring, $size: #{var(--s-3)}) {
   @if $type == 'outline' {
-    outline: dotted $color (1em / 16);
+    outline: dotted $color $size;
   } @else if $type == 'border' {
-    border: (1em / 16) dotted $color;
+    border: $size dotted $color;
   } @else if $type == 'box-shadow' {
-    box-shadow: inset 0 0 0 (1em / 16) $color;
+    box-shadow: inset 0 0 0 $size $color;
   }
 }
 

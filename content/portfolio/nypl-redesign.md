@@ -17,7 +17,7 @@ portfolioHeroAlt: ''
 heroFigcaption: ''
 svgClipObjectClass: ''
 svgColorClass: 'site-color--purple'
-tags: ['Visual Design', 'Web Design']
+tags: ['Visual Design', 'Web Development', 'Accessibility']
 weight: 1
 projectRoles: ['Design Lead']
 projectClients: ['Internal Stake Holders at NYPL']
@@ -26,6 +26,7 @@ projectDate: '2015-2018'
 projectDesc: 'In 2015 I was hired to be the in-house designer for the New York Public Library. My initial responsibility was to oversee the visual and interface design efforts for the New York Public Library redesign.'
 externalURL: 'http://nypl.org'
 newLayout: true
+tech: ['React', 'SASS', 'Javascript']
 ---
 
 {{< section_wrapper class="hero-grid" >}}

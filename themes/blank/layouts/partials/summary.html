@@ -1,29 +1,40 @@
+
+
+
 {{ $local := .Site.IsServer }}
 {{ if $local }}
 {{ printf "<!-- +++ Default summary template +++ -->" | safeHTML }}
 {{ end  }}
 
-<article class="site-summary">
+<article class="[ site-summary ]">
 
-  <h1>
+  <h2>
     <a href="{{ .Permalink }}">{{ .Title }}</a>
-  </h1>
+  </h2>
+  
+  
   <time>{{ .Date.Format "02.01.2006 15:04" }}</time>
-  <div class="site-summary__content">
-    <p class="site-summary__copy">{{ .Summary }}
+
+  <div class="[ site-summary__content ]">
+    <p class="[ site-summary__copy ]">{{ .Summary }}
       {{ if .Truncated }}
       <a href="{{ .Permalink }}">Continue reading about {{ .Title }}.</a>
       {{ end }}
     </p>
-    {{ if and (.Params.postimage) (ne .Params.postimage "") }}
-    <figure>
-      <img src="{{ .Params.postimage }}" alt="{{ .Site.Params.postImageAlt }}" />
+    
+    {{ if and (.Params.portfolioHero1x) (ne .Params.portfolioHero1x "") }}
+
+  
+
+    <figure class="[ {{ .Params.class }} ]">
+      <img src="{{ .Params.portfolioHero1x }}" alt="{{ .Site.Params.portfolioHeroAlt }}" />
       {{ if and (.Params.figcaption) (ne .Params.figcaption "") }}
       <figcaption>{{ .Params.figcaption }}</figcaption>
       {{ end }}
-    </figure>
+    </figure> 
     {{ end }}
-    {{ if $local }}
+    
+    {{/*  {{ if $local }}
     {{if and (.Params.tags) (ne .Params.tags "") }}
     <ul>
       {{ range .Params.tags }}
@@ -33,6 +44,7 @@
       {{ end }}
     </ul>
     {{ end }}
-    {{ end }}
+    {{ end }}  */}}
   </div>
+  
 </article>

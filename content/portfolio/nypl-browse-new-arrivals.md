@@ -1,5 +1,5 @@
 ---
-title: 'Nypl-Browse-New-Arrivals'
+title: 'NYPL Browse New Arrivals'
 date: 2019-10-16T12:53:29-04:00
 draft: true
 categories: 'portfolio'

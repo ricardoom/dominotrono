@@ -19,14 +19,14 @@ postImageAlt: ''
 figcaption: ''
 svgClipObjectClass: ''
 svgColorClass: 'site-color--lava-orange'
-projectRoles: ['UX', 'Visual Design', 'Web Design']
+projectRoles: ['User Experience Designer']
 projectClients: ['Acqwash']
 projectCredits: ['Rafael Hernandez']
 projectDate: ''
-tags: ['UX', 'Web Design']
+tags: ['User Experience']
 weight: -8
 externalURL: ''
-projectDesc: 'My role in this project was to create the UX and visual design for this exciting NYC startup.'
+projectDesc: 'My role in this project was to create the UX and explore visual designs for this exciting NYC startup.'
 newLayout: true
 ---
 

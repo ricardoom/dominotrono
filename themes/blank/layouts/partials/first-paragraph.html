@@ -1,0 +1,22 @@
+
+{{- $content := . -}}
+{{ $stringToFind := `^<p>\S+`}}
+{{- with findRE $stringToFind $content -}}
+
+{{- $firstWord := index . 0 | strings.TrimPrefix "<p>" -}}
+{{- $firstCharacter := substr $firstWord 0 1 -}}
+{{- $remainingCharacters := substr $firstWord 1 -}}
+{{- $chunk := `
+  <p class="[ has-dropcap ]">
+    <span aria-hidden="true">
+      <span class="[ dropcap ]">firstCharacter</span>remainingCharacters
+    </span>
+    <span class="[ sr-only ]">firstWord</span>` -}}
+{{- $chunk = replace $chunk "firstCharacter" $firstCharacter -}}
+{{- $chunk = replace $chunk "remainingCharacters" $remainingCharacters -}}
+{{- $chunk = replace $chunk "firstWord" $firstWord -}}
+{{- replaceRE `^<p>\S+` $chunk $content | safeHTML -}}
+{{- else -}}
+{{- $content | safeHTML -}}
+
+{{- end -}}

@@ -29,6 +29,7 @@ projectClients: ['client A', 'client B']
 projectCredits: ['collaborator 1', 'collaborator 2']
 projectDate: ''
 tags: []
+tech: []
 weight: 10
 externalURL: ''
 projectDesc: ''

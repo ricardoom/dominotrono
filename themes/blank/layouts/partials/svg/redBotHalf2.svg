@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 964.99 2417.18">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b, .c, .d {
+        fill: none;
+      }
+
+      .b {
+        stroke: #a2166b;
+      }
+
+      .b, .c {
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .b, .c, .d, .e, .f {
+        stroke-miterlimit: 10;
+      }
+
+      .c {
+        stroke: #550335;
+      }
+
+      .d, .f {
+        stroke: #450121;
+      }
+
+      .d, .e, .f {
+        stroke-width: 10px;
+      }
+
+      .e {
+        fill: #3b071f;
+        opacity: 0.5;
+        stroke: url(#b);
+      }
+
+      .f {
+        fill: url(#c);
+      }
+
+      .g {
+        fill: #b7bd15;
+      }
+
+      .h {
+        fill: #a2166b;
+      }
+
+      .i {
+        fill: url(#d);
+      }
+    </style>
+    <radialGradient id="a" data-name="New Gradient Swatch 1" cx="422.757" cy="206.613" fx="315.03755407629933" fy="-66.06226263351607" r="462.577" gradientTransform="matrix(0.961, -0.234, 0.168, 0.706, -11.592, 159.452)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eb1e79"/>
+      <stop offset="0.511" stop-color="#c50f6b"/>
+      <stop offset="1" stop-color="#9c005d"/>
+    </radialGradient>
+    <linearGradient id="b" x1="329.929" y1="90.791" x2="397.381" y2="361.328" gradientTransform="translate(496.045 -181.151) rotate(76.144)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d71a71"/>
+      <stop offset="0.229" stop-color="#d41a70"/>
+      <stop offset="0.387" stop-color="#cb196b"/>
+      <stop offset="0.524" stop-color="#bc1763"/>
+      <stop offset="0.649" stop-color="#a61457"/>
+      <stop offset="0.765" stop-color="#8a1048"/>
+      <stop offset="0.875" stop-color="#670c36"/>
+      <stop offset="0.979" stop-color="#3f0721"/>
+      <stop offset="1" stop-color="#36061c"/>
+    </linearGradient>
+    <radialGradient id="c" cx="346.008" cy="275.426" fx="399.2902666070023" fy="289.9540001719051" r="57.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#feffd5"/>
+      <stop offset="0.443" stop-color="#fcff85"/>
+      <stop offset="0.822" stop-color="#fbff46"/>
+      <stop offset="1" stop-color="#faff2e"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <radialGradient id="d" data-name="New Gradient Swatch 2" cx="434.17" cy="965.177" fx="271.25533959865135" fy="344.763400978762" r="801.46" gradientTransform="translate(0 126.409) scale(1 0.869)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.111" stop-color="#eb1e79"/>
+      <stop offset="0.418" stop-color="#c50f6b"/>
+      <stop offset="0.712" stop-color="#9c005d"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <path class="a" d="M689.99,272.18c-150.828-275.508-337.822-314.192-453-223s-76.257,246.5-47.547,337.752c22.51,71.544,79.762,147.074,79.762,147.074S467.99,344.18,689.99,272.18Z"/>
+    <path class="b" d="M249.49,39.68S326.407-.29,403.8,21.17C490.055,45.087,561.125,156.9,625.49,277.68"/>
+    <path class="c" d="M249.49,39.68S322.407,1.71,399.8,23.17C486.055,47.087,557.125,158.9,621.49,279.68"/>
+    <path class="d" d="M689.99,272.18c-150.828-275.508-337.822-314.192-453-223s-76.257,246.5-47.547,337.752c22.51,71.544,96.547,161.248,96.547,161.248S433.238,410.215,689.99,272.18Z"/>
+    <ellipse class="e" cx="363.655" cy="226.059" rx="139.724" ry="113.169" transform="translate(57.083 524.993) rotate(-76.144)"/>
+    <ellipse class="c" cx="364.028" cy="227.717" rx="144.41" ry="116.965" transform="translate(55.757 526.616) rotate(-76.144)"/>
+    <circle class="f" cx="346.008" cy="275.426" r="57.03"/>
+    <circle class="g" cx="330.99" cy="296.18" r="12"/>
+    <ellipse class="h" cx="637.99" cy="254.68" rx="10" ry="12.5" transform="translate(-48.457 280.819) rotate(-23.942)"/>
+    <ellipse class="h" cx="582.99" cy="249.68" rx="10" ry="12.5" transform="translate(-51.161 258.069) rotate(-23.942)"/>
+    <ellipse class="h" cx="599.99" cy="188.68" rx="10" ry="12.5" transform="translate(-24.943 259.72) rotate(-23.942)"/>
+    <ellipse class="h" cx="541.99" cy="180.68" rx="10" ry="12.5" transform="translate(-26.687 235.494) rotate(-23.942)"/>
+    <ellipse class="h" cx="288.99" cy="380.68" rx="10" ry="12.5" transform="translate(-185.183 440.612) rotate(-60)"/>
+    <ellipse class="h" cx="357.99" cy="393.68" rx="10" ry="12.5" transform="matrix(0.038, -0.999, 0.999, 0.038, -49.11, 736.332)"/>
+    <ellipse class="h" cx="423.4" cy="370.523" rx="12.5" ry="10" transform="matrix(0.866, -0.5, 0.5, 0.866, -128.537, 261.34)"/>
+    <ellipse class="h" cx="245.99" cy="332.68" rx="10" ry="12.5" transform="translate(-143.791 193.909) rotate(-33.923)"/>
+    <ellipse class="h" cx="541.99" cy="105.68" rx="10" ry="12.5" transform="translate(3.749 229.041) rotate(-23.942)"/>
+    <ellipse class="h" cx="478.99" cy="93.68" rx="10" ry="12.5" transform="translate(3.198 202.442) rotate(-23.942)"/>
+    <path class="i" d="M963.99,212.628c-468.868,0-930.483,429.152-960,892.523V2417.18h960S964.99,663.18,963.99,212.628Z"/>
+    <path class="d" d="M964.99,212.628c-468.868,0-930.483,429.152-960,892.523"/>
+  </g>
+</svg>

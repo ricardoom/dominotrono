@@ -1,0 +1,10 @@
+<svg class="{{ .polygonClass }}" viewBox="0 0 469 480" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<path d="M234.5 0L469 480H0L201.344 300.408L234.5 0Z" fill="#00C2FF"/>
+<path d="M469 480L201.5 301L0 480H469Z" fill="url(#dartTop_linear)"/>
+<defs>
+<linearGradient id="dartTop_linear" x1="117.5" y1="366.5" x2="289" y2="494.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#739AFF"/>
+<stop offset="1" stop-color="#18F5CD"/>
+</linearGradient>
+</defs>
+</svg>

@@ -2,9 +2,10 @@
 author: Ricardo G.
 categories: "typography"
 date: 2017-12-29T08:09:02-05:00
-draft: false
-tags: ["sass", "typography", ]
+draft: true
+tags: ["Typography", "Web Development"]
 title: "Why Fluid Type"
+tech: ["SASS", "HTML", "CSS"]
 ---
 
 I've been obsessed with fluid type for a while now.

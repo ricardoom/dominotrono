@@ -1,0 +1,147 @@
+.red-bot {
+  grid-area: 1 / 1 / -1 / -1;
+  margin-top: calc(var(--s4) * 2);
+  margin-block-start: calc(var(--s4) * 2);
+
+.cls-1 {
+        fill: url(#burgundyPinkGradient1);
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-3, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #a2166b;
+      }
+
+      .cls-2, .cls-3, .cls-6 {
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: #550335;
+      }
+
+      .cls-4 {
+        stroke: #450121;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        stroke-width: 10px;
+      }
+
+      .cls-5 {
+        fill: #3b071f;
+        opacity: 0.5;
+        stroke: url(#burgundyPinkGradient1-2);
+      }
+
+      .cls-6 {
+        stroke: url(#burgundyPinkGradient1-3);
+      }
+
+      .cls-7 {
+        fill: url(#radial-gradient);
+        stroke: url(#burgundyPinkGradient1-4);
+      }
+
+      .cls-8 {
+        fill: #b7bd15;
+        stroke: url(#burgundyPinkGradient1-5);
+      }
+
+      .cls-9 {
+        fill: #a2166b;
+      }
+
+      .cls-10 {
+        fill: url(#burgundyPinkGradient);
+      }
+
+      .cls-11, .cls-13 {
+        stroke: #6b1a47;
+      }
+
+      .cls-11 {
+        stroke-width: 65px;
+      }
+
+      .cls-12 {
+        stroke: #efadd1;
+      }
+
+      .cls-12, .cls-13, .cls-14 {
+        stroke-width: 27.218px;
+      }
+
+      .cls-14 {
+        stroke: #d6338d;
+      }
+
+      .cls-15 {
+        fill: #d6338d;
+        filter: drop-shadow(2px 2px 22px hsla(328, 62%, 16%, 0.4))
+      }
+}
+
+// .aa {
+//         fill: url(#aa);
+//       }
+
+//       .bb, .cc, .dd {
+//         fill: none;
+//       }
+
+//       .bb {
+//         stroke: #a2166b;
+//       }
+
+//       .bb, .cc {
+//         stroke-linecap: round;
+//         stroke-width: 5px;
+//       }
+
+//       .bb, .cc, .dd, .ee, .ff {
+//         stroke-miterlimit: 10;
+//       }
+
+//       .cc {
+//         stroke: #550335;
+//       }
+
+//       .dd, .ff {
+//         stroke: #450121;
+//       }
+
+//       .dd, .ee, .ff {
+//         stroke-width: 10px;
+//       }
+
+//       .ee {
+//         fill: #3b071f;
+//         opacity: 0.5;
+//         stroke: url(#bb);
+//       }
+
+//       .ff {
+//         fill: url(#cc);
+//       }
+
+//       .gg {
+//         fill: #b7bd15;
+//       }
+
+//       .hh {
+//         fill: #a2166b;
+//       }
+
+//        .ii {
+//         fill: url(#dd);
+//       }
+//     }

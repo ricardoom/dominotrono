@@ -9,7 +9,7 @@ but only print the first letter of each title
 {{ $ariaId := replaceRE "(\\s)" "" .Title}}
 <li>
   <ul class="post-grid {{ $firstLetter }}">
-    <li class="drop-cap">
+    <li class="drop-cap" aria-hidden="true">
       <a href="{{ .Permalink }}" aria-labelledby="{{ $ariaId }}">{{ $firstLetter }}<span
           class="small-letter">{{ $secondLetter }}</span></a>
     </li>

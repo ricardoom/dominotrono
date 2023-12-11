@@ -1,7 +1,7 @@
 ---
 title: 'Stablehouse'
 date: 2023-05-12T13:10:30-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders
@@ -26,13 +26,14 @@ svgClipObjectClass: ''
 svgColorClass: 'site-color--punk-pink'
 projectRoles: ['UI Engineer']
 projectClients: ['Stablehouse.com']
-projectCredits: ['']
+projectCredits: []
 projectDate: '2021'
-tags: ['Sass', 'React', 'HTML', 'JavaScript', 'Gatsby']
+tags: ['Web Development']
 weight: -12
 externalURL: ''
 projectDesc: 'Stablehouse is a burgeoning cryptocurrency marketplace.'
 newLayout: true
+tech: ['SASS', 'React', 'HTML', 'JavaScript', 'Gatsby']
 ---
 {{< section_wrapper class="hero-grid" >}}
 

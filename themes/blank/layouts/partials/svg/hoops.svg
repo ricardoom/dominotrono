@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2090.357 1256.872">
+  <defs>
+    <style>
+      .hoop-a, .hoop-b, .hoop-c, .hoop-d {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .hoop-a, .hoop-c {
+        stroke: #6b1a47;
+      }
+
+      .hoop-a {
+        stroke-width: 65px;
+      }
+
+      .hoop-b {
+        stroke: #efadd1;
+      }
+
+      .hoop-b, .hoop-c, .hoop-d {
+        stroke-width: 27.218px;
+      }
+
+      .hoop-d {
+        stroke: #d6338d;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="hoop-a" d="M2051.746,349.515c-7.058,413.239-621.742,413.174-628.739-.013C1430.063-63.723,2044.748-63.658,2051.746,349.515Z"/>
+    <path class="hoop-b" d="M2076.746,323.515c-7.058,413.239-621.742,413.174-628.739-.013C1455.063-89.723,2069.748-89.658,2076.746,323.515Z"/>
+    <circle class="hoop-c" cx="633.53" cy="649.907" r="593.356"/>
+    <circle class="hoop-d" cx="606.965" cy="626.998" r="593.356"/>
+  </g>
+</svg>

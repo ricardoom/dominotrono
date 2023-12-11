@@ -2,8 +2,8 @@
 // Masthead class on the homepage
 .mast-container {
   background-color: transparent;
-  margin-block-end: -3.5em;
-  margin-block-start: -3.5em;
+  margin-block-end: -6.5em;
+  margin-block-start: -6.5em;
   @include media('>=tablet') {
     // margin: -14.5em 0;
     margin-block-start: -14.5em;

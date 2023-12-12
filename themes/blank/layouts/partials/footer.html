@@ -3,6 +3,7 @@
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $socialSprites := resources.Get "js/sprites.js" }}
 {{ $utils := resources.Get "js/utils.js" }}
+{{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" }}
 {{ $cloudinaryCore := "https://unpkg.com/cloudinary-core@2.11.3/cloudinary-core-shrinkwrap.min.js" }}
 {{ $cloudinaryCoreSkyPack := "https://cdn.skypack.dev/cloudinary-core" }}
 {{ $customJS := .Param "experimentJS" }}
@@ -20,13 +21,12 @@
   </section>
 </footer>
 {{ if $local }}
-  {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" }}
-  <script src="{{ $script.Permalink }}"></script>
+  <script src="{{ $script.RelPermalink }}"></script>
 {{ else }}
-  {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" | minify }}
-    {{ with . | fingerprint "sha256" }}
-    <script src="{{ $script.Permalink }}" integrity="{{ .Data.Integrity }}"></script>
-    {{ end }}
+  {{ $script := $script | minify | fingerprint "sha256" }}
+    
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
+    
 {{ end }}
 {{ if ne .Type "experiments" }}
   <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>

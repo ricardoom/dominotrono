@@ -37,6 +37,10 @@ pluralizelisttitles = "false"
     portfolioHero3x = ""
     portfolioHeroAlt = ""
     placeHolderSVG = "/images/placeHolding.svg"
+    [params.typography]
+        googleFont = "https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap"
+        preconnect = "https://fonts.gstatic.com"
+        adobeTypekit = "https://use.typekit.net/ybr6uwn.css"
     [params.cloudinary]    
         class = "cld-responsive"
         cloudPath = "https://res.cloudinary.com/toupeeproofbullets/image/upload/"
@@ -147,7 +151,3 @@ pluralizelisttitles = "false"
             # unsafe = false
             # xhtml = false
             # attribute = true
-
-
-
-# [resources]

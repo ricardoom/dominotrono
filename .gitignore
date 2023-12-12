@@ -25,3 +25,8 @@ sandbox/
 # ingnore hugo lock file
 .hugo_build.lock
 .SynologyWorkingDirectory
+
+# ignore finger printing files
+
+resources/_gen/assets/scss/sass/root.*.content
+resources/_gen/assets/scss/sass/root.*.json

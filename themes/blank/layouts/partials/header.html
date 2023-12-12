@@ -1,8 +1,15 @@
-{{ $targetPath := "css/root.css" }} {{ $sassRoot := "sass/root.scss" }} {{ $rootClass := ( slice "homePage" "innerPage" ) }} {{ $options := ( dict
-"targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" true ) }} {{ $devOptions := (dict "targetPath" $targetPath "outputStyle" ""
-"enableSourceMap" true) }} {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }} {{ $prodStyle := resources.Get $sassRoot |
-resources.ToCSS $options | resources.Fingerprint }} {{ $typeKitLink := "https://use.typekit.net/ybr6uwn.css" }} {{ $googleFont :=
-"https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" }} {{ $class := .Site.Params.classes }}
+{{ $local := .Site.IsServer }} 
+{{ $targetPath := "css/root.css" }} 
+{{ $sassRoot := "sass/root.scss" }} 
+{{ $rootClass := ( slice "homePage" "innerPage" ) }} 
+{{ $prodOptions := ( dict "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" false ) }} 
+{{ $devOptions := (dict "targetPath" $targetPath "outputStyle" ""
+"enableSourceMap" true) }} 
+{{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }}
+{{ $prodStyle := resources.Get $sassRoot | resources.ToCSS $prodOptions | resources.Fingerprint }} 
+{{ $typography := .Site.Params.typography }}
+
+{{ $class := .Site.Params.classes }}
 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
@@ -11,18 +18,22 @@ resources.ToCSS $options | resources.Fingerprint }} {{ $typeKitLink := "https://
   {{ partial "meta.html" . }}
   <link rel="icon" href="/images/fourDots_2@2x.jpg" />
   <title>{{ .Title }}</title>
+  <link rel="preconnect" href="{{ $typography.preconnect}}" />
   {{ with .Site.Params.description }}
   <meta name="description" content="{{ . }}" />
-  {{ end }} {{ with .Site.Params.author }}
+  {{ end }} 
+  {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}" />
-  {{ end }} {{ with .Site.IsServer }}
+  {{ end }} 
+  {{ if $local }}
   <link rel="stylesheet" href="{{ $devStyle.Permalink }}" />
   {{ else }}
   <link rel="stylesheet" href="{{ $prodStyle.Permalink }}" />
-  {{ end }} {{ hugo.Generator }}
-  <link rel="stylesheet" href="{{ $typeKitLink }}" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="{{ $googleFont }}" rel="stylesheet" />
+  {{ end }} 
+  {{ hugo.Generator }}
+  <link rel="stylesheet" href="{{ $typography.adobeTypekit }}" />
+  
+  <link href="{{ $typography.googleFont }}" rel="stylesheet" />
   {{ partial "fontface_script.html" . }}
 </head>
 {{ if .IsHome }}

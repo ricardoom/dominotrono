@@ -3,7 +3,7 @@ author: Ricardo G.
 categories: ["experiments"]
 date: 2021-02-11T13:49:42-05:00
 draft: false
-tags: ['Animation', 'Web Development']
+tags: ['Animation']
 title: "Atmosphere"
 vendorJS: "gsapJS"
 experimentJS: 'atmos.js'

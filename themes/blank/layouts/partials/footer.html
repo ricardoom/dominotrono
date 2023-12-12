@@ -1,12 +1,10 @@
+{{ $local := .Site.IsServer }} 
 {{ $mobileNav := resources.Get "js/mobileNav.js" }}
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $socialSprites := resources.Get "js/sprites.js" }}
 {{ $utils := resources.Get "js/utils.js" }}
-
-
 {{ $cloudinaryCore := "https://unpkg.com/cloudinary-core@2.11.3/cloudinary-core-shrinkwrap.min.js" }}
 {{ $cloudinaryCoreSkyPack := "https://cdn.skypack.dev/cloudinary-core" }}
-
 {{ $customJS := .Param "experimentJS" }}
 {{ $customJsURL := .Site.Params.customJsURL }}
 {{ $customJsPath := .Site.Params.customJsPath }}
@@ -14,7 +12,6 @@
 {{ $vendorPath := .Site.Params.vendorPath }}
 {{ $jsVendor := .Site.Params.vendors }}
 {{ $jsLowerCased := lower $pageJS }}
-{{ $local := .Site.IsServer }}
 {{ $cat := .Param "categories" }}
 
 <footer>
@@ -22,11 +19,11 @@
     <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
   </section>
 </footer>
-{{ if .Site.IsServer }}
+{{ if $local }}
   {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" }}
   <script src="{{ $script.Permalink }}"></script>
 {{ else }}
-  {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" | fingerprint }}
+  {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" | minify | fingerprint }}
   <script src="{{ $script.Permalink }}"></script>
 {{ end }}
 {{ if ne .Type "experiments" }}

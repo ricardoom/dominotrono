@@ -23,8 +23,10 @@
   {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" }}
   <script src="{{ $script.Permalink }}"></script>
 {{ else }}
-  {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" | minify | fingerprint }}
-  <script src="{{ $script.Permalink }}" integrity="{{ .Data.Integrity }}"></script>
+  {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" | minify }}
+    {{ with . | fingerprint "sha256" }}
+    <script src="{{ $script.Permalink }}" integrity="{{ .Data.Integrity }}"></script>
+    {{ end }}
 {{ end }}
 {{ if ne .Type "experiments" }}
   <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>

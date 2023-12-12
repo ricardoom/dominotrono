@@ -22,16 +22,18 @@ function makeCircles(numberOfCircles) {
     newCircle.setAttribute('cx', getRandomInt(x));
     newCircle.setAttribute('cy', getRandomInt(y));
     newCircle.setAttribute('r', getRandomInt(radius));
-    newCircle.style.color = `hsla(0, 0, 100%, ${getRandomInt(100)}%)`;
-    newCircle.style.fill = 'currentColor';
-    newCircle.style.filter = `blur(${getRandomInt(3)}px)`;
+    //newCircle.style.color = `hsla(${getRandomInt(360)}, ${getRandomInt(100)}%, ${getRandomInt(100)}%, ${getRandomInt()})`;
+    newCircle.style.fill = `hsla(${getRandomInt(360)}, ${getRandomInt(100)}%, ${getRandomInt(100)}%, ${getRandom()})`;
+    // newCircle.style.fill = `hsla(${getRandomInt(360)}, ${getRandomInt(100)}%, ${getRandomInt(100)}%, ${getRandomInt()})`;
+    newCircle.style.filter = `blur(${getRandomInt(10)}px)`;
     svgContainer.appendChild(newCircle);
+    console.log(getRandomInt());
   }
 }
 // show and animate them
 
 // kick it all off
-makeCircles(getRandomInt(25));
+makeCircles(getRandomInt(125));
 
 // GSAP animation
 // Do a simple check to see if gsap is available
@@ -39,7 +41,8 @@ const circles = document.querySelectorAll('circle');
 const circArr = Array.from(circles);
 if (gsap) {
   // get all the circles in the svg element
-
-  const opts = { x: x, duration: 10, repeat: -1, delay: 0.3 };
-  gsap.to(circArr, { opts });
+  console.log(circArr);
+  const opts = { x: (x - 10), y: 'random(1000, y, 100)', duration: 5, repeat: -1, delay: 'random(-0.5, 0.5, .1)', yoyo: true };
+  // gsap.to(circArr, { x: x, duration: 10, repeat: -1, delay: 0.3 });
+  circArr.forEach((circ) => gsap.to(circ, opts));
 }

@@ -10,6 +10,9 @@ title: 'Daily Log'
 The idea here is to briefly jot down activities, changes, inquiries, research topics etc, so as to better document and gauge progress on this site specifically and growth as a artist, designer and developer in general.
 
 <!--more-->
+### 2-21-2022
+
+So... um yeah. havent done anything lately! as of late.... blergh. So here we go. I've been gardening. Raising the kids. Moved to LA. I also need to fix a bunch of stuff on this website!
 
 ### 12-1-2020
 

@@ -11,8 +11,9 @@
   }
 
   padding: 0;
+}
 
-  &__tag {
+.tag {
 
     @include media('>=phone') {
       display: inline-block;
@@ -24,5 +25,17 @@
 
     text-decoration: none;
     padding: 0;
+  }
+
+// On a List page where sorted / listed by Taxonomy style that pages elements as needed::after
+.taxo-list {
+ > * > h1 {
+    color: $site-acid-green;
+    margin: 0 0 var(--s1) 0;
+    margin-block-end: var(--s1);
+    margin-block-start: 0;
+    padding: 0 clamp(var(--s0), 2.5vw, var(--s1));
+    padding-inline-end: clamp(var(--s0), 2.5vw, var(--s1));
+    padding-inline-start: clamp(var(--s0), 2.5vw, var(--s1));
   }
 }

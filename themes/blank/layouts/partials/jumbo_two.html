@@ -1,36 +1,23 @@
 {{ $local := .Site.IsServer }} {{ if $local }} {{ printf "<!-- +++ jumbo_two.html  -->" | safeHTML }} {{ end }}
-<div class="[ jumbo ][ test ]">
-  {{ partial "svg/spookyBackground.svg" . }} 
-  {{ partial "svg/redBotHalf.svg" . }}
-  <div class="[ blue-block alpha ]">
-    <a href="#">
-      <h2>HTML</h2>
-      <p>This robot of consolation</p>
-    </a>
+<div class="[ jumbo ]">
+  <div class=" [ bot-contain ]">
+    {{ partial "svg/spookyBackground.svg" . }}
+    {{ partial "svg/fullBot.svg" . }}
   </div>
-  <div class="[ blue-block beta ]">
-    <a href="#">
-    <h2>CSS</h2>
-    <p>Not a complete and total mystery</p>
-    </a>
+    <div class="[ blue-block alpha ]">
+      <p>Not a complete and total mystery. A rigorous scaffolding. A kind of flying buttress. Finding the path. Loosing it again, then stumbling across a hidden passage way, blind to the entrance. Banking only on the fog between way points.</p>
+    </div>
+    <div class="[ blue-block beta ]">
+      <p>A corporeal and ethereal wrestling match</p>
+    </div>
+    <!-- <div class="[ blue-block gamma ]">
+        
+    </div> -->
+    <div class="[ blue-block delta ]">
+        <p>Divided pulsar wavers ceaselessly. A canticle, song or half assed sonnet comes to fruition, or bears loops</p>
+    </div>
+    <div class="[ blue-block epsilon ]">
+        <p>Righteous indignation with flavored popsicles</p>
+    </div>
   </div>
-  <div class="[ blue-block gamma ]">
-    
-    <a href="#">
-      <h2>JavaScript</h2>
-      <p>An equinox found upon a barren shore</p>
-    </a>
-  </div>
-  <div class="[ blue-block delta ]">
-    <a href="#">
-      <h2>SVG</h2>
-      <p>Divided pulsar wavers ceaselessly</p>
-    </a>
-  </div>
-  <div class="[ blue-block epsilon ]">
-    <a href="#">
-      <h2>Hugo</h2>
-      <p>Righteous indignation with flavored popsicles</p>
-    </a>
-  </div>
-</div>
+

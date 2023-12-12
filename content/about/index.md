@@ -7,7 +7,9 @@ draft: false
 #     weight: 15
 ---
 
-Until May of 2023, I was part of a team of UX and UI designers at Pearson, the renowned educational tech company. The team brought me on board to work on an internal tool called Bronte. Bronte is an authoring environment for generating eText books. An analogous tool might be a no-code website builder. Most of that work centered around improving the user experience for publishing and notifications. I also participated in product design and research for a nursing education platform. While that project is still in the early stages, funding for full development in 2024. All told, the work on content creation and educational tools at Pearson has been gratifying.
+{{< resume >}}
+
+Up until May of 2023, I was part of a team of UX and UI designers at Pearson, the renowned educational tech company. The team brought me on board to work on Bronte, an internal tool. Bronte is an authoring environment for generating eText books. An analogous tool might be a no-code website builder. Most of that work centered around improving the user experience for publishing and notifications. I also participated in product design and research for a nursing education platform. While that project is still in the early stages, funding for full development is slated to arrive in 2024. All told, the work on content creation and educational tools at Pearson has been gratifying.
 
 During 2021, I participated and acted as chief technical and creative advisor on an archival scholarly project called Native Bound Unbound. The objective of Native Bound-Unbound is to create a centralized digital repository centered on the lives of enslaved Indigenous people across the Americas. While much of the repository will focus on primary source material and the data visualizations that draw from that, the project will also consider how to incorporate interpretive research and other types of creative expressions.
 
@@ -19,4 +21,8 @@ I am highly proficient with Figma, Adobe CC, and Sketch. Over the last few years
 
 I started my design career in the 5th grade by entering and winning a “crazy t-shirt” contest. My love for typography stems from being a graffiti writer and painting murals in New York and Philadelphia. However, my passion for art and design spans many years. From punk rock show fliers produced at Kinko’s with X-Acto knives, glue sticks, and Xerox machines through skateboard graphics through my training as an offset printing press operator, I’ve always been an artist and designer.
 
-In 2021 we moved our family to California to be closer to family. Before that, we lived and worked in New York City since 2005. I am originally from Albuquerque, New Mexico. I have a wife, two kids, and two cats. I am learning Brazilian Jiu-Jitsu and putter in my little garden in my spare time. Occasionally, I dust off my skateboard, make turns, and carve lines in space-time.
+In 2021 we moved our family to California to be closer to family. Before that, we lived and worked in New York City since 2005. I am originally from Albuquerque, New Mexico. I have a wife, two kids, and two cats. I am learning Brazilian Jiujitsu and putter in my little garden in my spare time. Occasionally, I dust off my skateboard, make turns, and draw arcs through space and time.
+
+Thanks for taking the time to learn more about my expertise, experience and life
+
+—RG

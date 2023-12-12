@@ -22,9 +22,11 @@
 .wrapper {
   margin-inline-start: auto;
   margin-inline-end: auto;
-  // max-width: $wide-screen;
   padding-left: var(--s0);
   padding-right: var(--s0);
+  padding-bottom: var(--s1);
+  padding-block-end: var(--s1);
+  padding-block-start: var(--s1);
   padding-inline-end: var(--s0);
   padding-inline-start: var(--s0);
 }

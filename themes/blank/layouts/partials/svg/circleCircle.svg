@@ -1,0 +1,9 @@
+<svg class="{{ .polygonClass }}" viewBox="0 0 481 481" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<circle cx="240.412" cy="240.353" r="240" fill="url(#paint0_radial)"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(425.555 195.782) rotate(177.861) scale(413.431)">
+<stop stop-color="#8DADFF"/>
+<stop offset="1" stop-color="#CD8DFF"/>
+</radialGradient>
+</defs>
+</svg>

@@ -2,9 +2,17 @@
 
 Built with static site generator Hugo, SASS, and vanilla Javascript
 
-## Changelog
+## Versions ~ Changelog
 
 ### Versions
+
+- 0.1.0
+  - Finally releasing the new design
+  - Layouts and graphics updates
+  - Content organized by tags
+  - Features on the home page aligned with skills
+  - Refactored lots of SASS, reduced some repetition
+
 - 0.0.5
   - Wrapped up the NBU content post
   - Lots of CSS refactoring

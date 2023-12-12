@@ -29,14 +29,17 @@ projectRoles: ['UX & UI Designer']
 projectClients: ['Pearson']
 projectCredits: []
 projectDate: '2022—2023'
-tags: ['Figma','User Experience', 'User Interface Design','Product Research and Design']
+tags: ['User Experience', 'User Interface Design','Product Design', 'Product Research']
+tech: ['Figma']
 weight: -16
 externalURL: ''
 projectDesc: 'Most of my work at Pearson centered around an internal eText authoring environment called "Bronte." As a result, the user experience work focused specifically on the publishing workflow and administration. '
 newLayout: true
+feature: ['user-experience']
 ---
 {{<section_wrapper class="hero-grid" >}}
-      {{< image_cld
+    
+    {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683837501/bronte/brnt-publishing.jpg"
       alt=""
@@ -44,10 +47,12 @@ newLayout: true
       caption=""
       class="hero-grid__imageBlock"
       >}}
-      {{< copy_wrapper
+    
+    {{< copy_wrapper
         class="hero-grid__copyBlock box-shadow" >}}
         The publishing platform Bronte is an internal product used at Pearson, allowing content authors to import or directly create a text and prepare it for publication in the Pearson ecosystem. Bronte is a feature-rich tool. Complete with text editing, image manipulation, layout tools, project management, and deployment. My remit was to improve the publication process. The goal was to reduce the various points an author was required to navigate to and create a flow tightly coupled with other project and content management features.
       {{< /copy_wrapper>}}
+
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -59,18 +64,19 @@ newLayout: true
       The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.
     {{< /copy_wrapper>}}
 
-  {{< image_cld
-    loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686770581/bronte/BrontePublishingWire.webp"
-    alt="An image of a set of screens related to the publishing workflow"
-    figcaption="Initial overview of my improved publishing workflows"
-    class="details-grid__fiftyWords big-image"
-    >}}
-{{< /section_wrapper>}}
+    {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686770581/bronte/BrontePublishingWire.webp"
+      alt="An image of a set of screens related to the publishing workflow"
+      figcaption="Initial overview of my improved publishing workflows"
+      class="details-grid__fiftyWords big-image"
+      >}}
 
+{{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="3" text="Problem to solve:" >}}
-        {{< copy_wrapper
+    
+    {{< section_header level="3" text="Problem to solve:" >}}
+      {{< copy_wrapper
           class="details-grid__twoByTwo copy-block__left" >}}
           Below is a set of questions I set out to circumscribe the issues related to a publishing workflow:
         {{< /copy_wrapper>}}
@@ -97,7 +103,7 @@ newLayout: true
           What happens when we need to publish again
           more reliance on content creators to know and explore UI for subtle functionality
 
-        {{< /copy_wrapper>}}
+      {{< /copy_wrapper>}}
         
 {{< /section_wrapper>}}
 
@@ -170,17 +176,19 @@ newLayout: true
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
+  
     {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/DoubleCheckCancel.webp"
-        alt=""
-        figcaption="Warning modal"
-        class="details-grid__twentyWords image-block__right"
-        >}}
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/DoubleCheckCancel.webp"
+    alt=""
+    figcaption="Warning modal"
+    class="details-grid__twentyWords image-block__right"
+    >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
+    
     {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686772777/bronte/PreparingtoPublish.webp"
@@ -204,7 +212,7 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-  {{< image_cld
+    {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683837501/bronte/brnt-publishing.jpg"
     alt=""
@@ -212,9 +220,8 @@ newLayout: true
     class="details-grid__fiftyWords big-image"
     >}}
 
-    
-
-    {{< video_cld class="details-grid__twentyWords image-block__right" >}}
+    {{< video_cld 
+      class="details-grid__fiftyWords big-image" >}}
       https://res.cloudinary.com/toupeeproofbullets/video/upload/w_auto,q_auto,vc_vp9/v1687295928/bronte/publishing-open-tray.webm
       https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto/v1687295928/bronte/publishing-open-tray.mp4
     {{< /video_cld >}}
@@ -222,13 +229,14 @@ newLayout: true
   {{< /section_wrapper>}}
 
   {{< section_wrapper class="details-grid" >}}
-    {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686866819/bronte/rowItemExpanded.webp"
-    alt=""
-    figcaption=""
-    class="details-grid__twentyWords image-block__left"
-    >}}
+    
+      {{< image_cld
+      loading=" lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686866819/bronte/rowItemExpanded.webp"
+      alt=""
+      figcaption=""
+      class="details-grid__twentyWords image-block__left"
+      >}}
     
 {{< /section_wrapper>}}
 

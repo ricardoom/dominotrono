@@ -1,38 +1,33 @@
-{{ partial "header.html" . }}
-<!-- === root index === -->
-<main class="[ site-content ]" id="siteContent">
-{{/*
-   {{ partial "jumbo_two.html" . }}
-  */}}
-{{/*  
-   <div class="[ wrapper ][ mast-head ]">
-      {{ .Content }}
-      </div>
-*/}}
-   <div class="[ wrapper ]">
-
-    
-    {{ partial "hp-portfolio.html" . }} 
-    {{ partial "skills.html" . }}
-    
-
+{{ $local := .Site.IsServer }} 
+{{ $mainContent := partial "first-paragraph.html" .Content }} {{ partial "header.html" . }}
+{{ if $local }}
+  {{ printf "<!-- === root index === -->" | safeHTML }}
+{{ end  }}
+<main class="[ site-content ]" id="siteContent">{{ partial "jumbo_two.html" . }}</main>
+<div class="[ mast-container ]">
+  {{ partial "svg/onion_dome.svg" (dict "class" "[ first-dome ]") }}
+  <section class="[ wrapper ][ mast ]">
+    <div>{{ $mainContent }}</div>
+  </section>
+  {{ partial "svg/onion_dome.svg" (dict "class" "[ second-dome ]") }}
+</div>
+<aside class="[ features ]">
+  <div class="[ wrapper ]">
+    <div class="[ stack ][ feature ]">
+      {{/* Ranges through the Content type Features based on the "features" param set on _index.md */}} 
+      {{ range .Params.features }} 
+      {{ with $.GetPage . }} 
+        {{ partial "partials/hp-features.html" . }} 
+      {{ end }} 
+      {{ end }}
+    </div>
   </div>
- {{/*
-  <div class="wrapper subtitle-grid-container">
-  {{ with $.Site.Params.subtitle }}
-  <h2 class="subtitle-grid-container__subTitle">{{ . }}</h2>
-  {{ end }}
-<  /div>
-*/}} 
-</main>
-
-
-{{ partial "sidebar.html" . }}
-
-
-
-{{/* 
-{{ partial "contact.html" . }}
-*/}}
+</aside>
+{{/*  {{ if $local }}
+  {{ partial "sidebar.html" . }}
+{{ end }}  */}}
 {{ partial "footer.html" . }}
-{{ partial "svg/filter.svg" . }}
+  {{ if $local }} 
+    {{ partial "svg/filter.html" . }}
+    {{/*  {{ partial "dev.html" . }}  */}}
+  {{ end }}

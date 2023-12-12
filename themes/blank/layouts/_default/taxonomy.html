@@ -1,14 +1,27 @@
+{{ $local := $.Site.IsServer }}
+{{ if $local }}
+  {{ printf "<!-- ++++ DEFAULT TAXONOMY TAGS TEMPLATE +++++  -->" | safeHTML }}
+{{ end }}
 {{ partial "header.html" . }}
-<main class="dynamic-class">
-  <div>
+
+<main class="[ taxo-list-portfolio ]">
+  <div class="[ wrapper ][ grid-wrapper ]">
     <h1>{{ .Title }}</h1>
-    <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
-    {{ range .Pages }}
-    {{ .Render "summary"}}
-    -- taxonomy template --
-    {{ end }}
+    <ul class="[ stack ]">
+      <!-- Ranges through content/posts/*.md -->
+        {{ range .Pages.ByLinkTitle }}
+        <li>
+          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        </li>
+      {{ end }}
+    </ul>
   </div>
 </main>
-
+{{/*  {{ if $local }}
 {{ partial "sidebar.html" . }}
+{{ end }}  */}}
 {{ partial "footer.html" . }}
+
+{{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}

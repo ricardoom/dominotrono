@@ -5,10 +5,18 @@
 .portfolio-list-item {
   // TODO: move this list rule to E for Exception
   list-style-type: none;
-  // margin: var(--s1) 0;
-
+  margin-block-end: var(--s0);
+  margin-block-start: var(--s0);
+  
   &__content {
-    
+    display: grid;
+    transition: background-color 200ms ease-out;
+
+    &:hover {
+      transition: background-color 250ms ease-in;
+      background-color: hsla(0, 0%, 0%, 0);
+    }
+
     &--hero {
       // height: 100%;
       margin: 0;
@@ -31,8 +39,13 @@
         height: 100%;
         opacity: 0.75;
         width: 100%;
+
+        &:hover {
+          opacity: 1;
+        }
       }
     }
+    
 
     h2 {
       @include media('>=phone') {
@@ -46,8 +59,8 @@
       }
 
       align-self: center;
-      background-color: (transparentize($site-black, 0.15));
-      font-weight: 500;
+      background-color: (transparentize($site-black, 0.05));
+      font-weight: 674;
       padding: clamp(var(--s0), #{$preferredValue}, var(--s1));
       text-shadow: 1px 1px 10px transparentize($site-black, 0.5);
       z-index: 1;
@@ -62,8 +75,6 @@
       @include media('>=tablet') {
         grid-column: 2 / 3;
         grid-row: 3 / 4;
-        
-        
       }
 
       @include media('>=desktop') {
@@ -116,8 +127,6 @@
       grid-template-rows: repeat(2, minmax(3vh, 7vh)) minmax(auto, max-content) minmax(1vh, 2vh);
       align-items: start;
     }
-
-    display: grid;
   }
 
   a {
@@ -125,3 +134,26 @@
     text-decoration: none;
   }
 }
+
+
+
+// .portfolio-list-item {
+//   // --site-color: #fff;
+//   // figure {
+//   //   background-color: var(--site-color);
+//   // }
+//   // p {
+//   //   color: var(--site-color);
+//   // }
+//   // ul {
+//   //   color: var(--site-color);
+//   // }
+//   &__content {
+//     transition: background-color 200ms ease-out;
+
+//     &:hover {
+//       transition: background-color 250ms ease-in;
+//       background-color: hsla(0, 0%, 0%, 0);
+//     }
+//   }
+// }

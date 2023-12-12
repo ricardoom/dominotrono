@@ -9,15 +9,10 @@
   justify-content: flex-start;
 }
 
+.stack > * + * {
+  margin-block: var(--s1);
+}
+
 .stack > * {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-block: 0;
 } 
-
-//
-// TODO: This might have breaking changes elsewhere...
-
-// .stack > * + * {
-//   margin-top: var(--s1);
-//   margin-block-start: var(--s1);
-// }

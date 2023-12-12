@@ -2,7 +2,7 @@
 
 Built with static site generator Hugo, SASS, and vanilla Javascript
 
-## Changelog
+## Versions ~ Changelog
 
 ### Versions
 

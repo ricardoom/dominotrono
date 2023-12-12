@@ -2,6 +2,7 @@
 {{ $local := $.Site.IsServer }}
 {{ $layout := $.Get "layout" }}
 {{ $hasHeader := $.Get "section-header" }}
+{{ $hasCopy := $.Get "section-copy" }}
 {{ $headerID := $hasHeader }}
 
 {{ if and ( $layout ) ( ne $layout "" ) }}
@@ -15,10 +16,11 @@
  </section>
 {{ else }}
 {{ if $local }}
-{{ printf "<!-- section_wrapper template aqui  -->" | safeHTML }}
+    {{ printf "<!-- section_wrapper template condition 2 aqui  -->" | safeHTML }}
 {{ end }}
 <section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }} {{ with $hasHeader }}aria-labelledby="{{ $headerID }}"{{ end }}>
     
     {{- .Inner -}}
+    
 </section>
 {{ end }}

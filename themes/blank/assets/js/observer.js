@@ -1,16 +1,13 @@
 ///
 /// Observer.js
 ///
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
-  
+  const fadedCards = [].slice.call(document.querySelectorAll('.card-state'));
   if ('IntersectionObserver' in window) {
     //console.log('IntersectionObserver done working...');
-    let lazyImageObserver = new IntersectionObserver(function(
-      entries,
-      observer,
-    ) {
-      entries.forEach(function(entry) {
+    let lazyImageObserver = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(function (entry) {
         if (entry.isIntersecting) {
           let lazyImage = entry.target;
           lazyImage.src = lazyImage.dataset.src;
@@ -19,22 +16,45 @@ document.addEventListener('DOMContentLoaded', function() {
           lazyImageObserver.unobserve(lazyImage);
         }
       });
+    }); // /lazyImageObserver
+
+    const cardOpts = {
+      root: null,
+      rootMargin: '450px 10% 400px 10%',
+      threshold: 0.5,
+    };
+
+    let cardObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        let fadedCard = entry.target;
+        if (entry.isIntersecting) {
+          //console.log(`${fadedCard} is intersecting...`);
+          fadedCard.classList = fadedCard.dataset.class;
+        } else {
+          // console.log(`${fadedCard} not intersecting...`);
+          fadedCard.classList = 'card-state';
+        }
+      });
+    }, cardOpts);
+
+    lazyImages.forEach(function (lazyImage) {
+      lazyImageObserver.observe(lazyImage);
     });
 
-    lazyImages.forEach(function(lazyImage) {
-      lazyImageObserver.observe(lazyImage);
+    fadedCards.forEach((fadedCard) => {
+      cardObserver.observe(fadedCard);
     });
   } else {
     //console.log('done messed up!');
     let lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
     let active = false;
 
-    const lazyLoad = function() {
+    const lazyLoad = function () {
       if (active === false) {
         active = true;
 
-        setTimeout(function() {
-          lazyImages.forEach(function(lazyImage) {
+        setTimeout(function () {
+          lazyImages.forEach(function (lazyImage) {
             if (
               lazyImage.getBoundingClientRect().top <= window.innerHeight &&
               lazyImage.getBoundingClientRect().bottom >= 0 &&
@@ -44,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
               lazyImage.srcset = lazyImage.dataset.srcset;
               lazyImage.classList.remove('lazy');
 
-              lazyImages = lazyImages.filter(function(image) {
+              lazyImages = lazyImages.filter(function (image) {
                 return image !== lazyImage;
               });
 

@@ -2,6 +2,7 @@
   var script = document.createElement('script');
   
   script.src = '/js/vendor/fontfaceObserver/fontfaceobserver.standalone.js';
+  script.type = 'application/javascript';
   script.async = true;
   script.onload = function () {
     function timeout(time) {
@@ -9,10 +10,11 @@
         setTimeout(reject, time);
       });
     }
+    var inter = new FontFaceObserver('inter');
     var justus = new FontFaceObserver('justus-pro');
     var frank = new FontFaceObserver('frank-new');
     var html = document.documentElement;
-    Promise.race([justus.load(), frank.load(), timeout(5000)]).then(function () {
+    Promise.race([inter.load(), justus.load(), frank.load(), timeout(5000)]).then(function () {
       html.classList.add('fonts-loaded');
     });
   };

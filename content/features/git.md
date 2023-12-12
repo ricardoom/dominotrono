@@ -6,8 +6,9 @@ draft: false
 tags: []
 title: "Git"
 deck: "Check out my git repo!"
+externalURL: "https://github.com/ricardoom"
 graphics: 
-  url: gitCube.svg
+  url: gitCubeDos.svg
   class: gitCube
 ---
 Lately... it's been sleepy. Been working on other stuff.

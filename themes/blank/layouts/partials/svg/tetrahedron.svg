@@ -1,0 +1,10 @@
+<svg class="{{ .polygonClass }}" viewBox="0 0 327 480" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<path d="M177.226 0L326.154 400.714L122.583 480L0 306.964L177.226 0Z" fill="url(#paint0_linear)"/>
+<path d="M176.786 2.14282L122.143 478.929L325.714 398.571L176.786 2.14282Z" fill="#F13434" fill-opacity="0.4"/>
+<defs>
+<linearGradient id="paint0_linear" x1="163.077" y1="-4.69541e-06" x2="47.1429" y2="383.571" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D824DC"/>
+<stop offset="1" stop-color="#FED9FF"/>
+</linearGradient>
+</defs>
+</svg>

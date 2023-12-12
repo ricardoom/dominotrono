@@ -11,4 +11,10 @@
    font-size: var(--s05);
    list-style-type: disc;
  }
+
+ a {
+  padding: var(--s-2);
+  position: relative;
+  left: calc(var(--s-2) * -1);
+  }
 }

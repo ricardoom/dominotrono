@@ -18,7 +18,7 @@ postImageAlt: ''
 figcaption: ''
 svgClipObjectClass: ''
 svgColorClass: 'site-color--green-blue'
-tags: ['Web Design', 'Graphic Design', 'Illustration', 'Visual Design']
+tags: ['Visual Design', 'Graphic Design', 'Illustration']
 weight: 10
 projectRoles: ['Designer']
 projectClients: ['WNET Thirteen', 'PBS']
@@ -26,6 +26,7 @@ projectCredits: ['Tom McNamara', 'Nicholas Miller']
 projectDate: '2013'
 projectDesc: 'A fully complete project, from concept, wire frames through website to additional Illustrations and posters'
 newLayout: true
+tech: ['Adobe Illustrator', 'Sketch', 'Wordpress']
 ---
 
 {{< section_wrapper class="hero-grid" >}}

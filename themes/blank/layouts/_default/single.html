@@ -1,48 +1,51 @@
 {{ $local := .Site.IsServer }}
+{{ $mainContent := partial "first-paragraph.html" .Content }} 
 {{ if $local }}
 {{ printf "<!-- +++ default single item  -->" | safeHTML }}
 {{ end  }}
+
 {{ partial "header.html" . }}
 <main>
-  <div class="[ wrapper ][ grid-wrapper ]">
-    {{/*  <div class="grid-wrapper__listParent">  */}}
-      <article class="[ site-article ]">
-        <h1>{{ .Title }}</h1>
+  {{ if eq .Type "features" }}
+    {{ if $local }}
+    {{ printf "<!-- a feature page  -->" | safeHTML }}
+    {{ end  }}
+    <div class="[ wrapper ][ grid-wrapper ][ feature-page ]">
+    {{ else }}
+    <div class="[ wrapper ][ grid-wrapper ]">
+  {{ end  }}
+  <article class="[ site-article ]"> 
+    <h1>{{ .Title }}</h1>
         {{ if ne .Section "portfolio" }}
-        <p class="siteAuthor">by: {{ .Site.Params.author }}</p>
-          
-          <time>{{ .Lastmod | time.Format ":date_long" }}</time>
-          {{/*  <time>Last Modified: {{ .Lastmod.Format "01.02.2006 15:04" }}</time>  */}}
-          
+        <p class="[ site-author ]">by: {{ .Site.Params.author }}</p>
+          <time>Last Update: {{ .Lastmod | time.Format ":date_long" }}</time>
         {{ end }}
-        <section class="site-single">
+        {{ if eq .Type "features" }}
           {{ .Content }}
+        {{ end }}
+        <section class="[ site-single ]">          
+            {{ .Content }}
         </section>
         {{ if eq .Type "experiments"  }}
-          {{/*  
-             Check if this is an SVG experiment:
-          Front matter would be like
-          experimentType = "svg" or "canvas" or... whatever...
-          use the title as the containing element root id
-          */}}
+          {{/* Check the page param type and set a class or (whatever else based on that param) */}}
           {{ $experimentType := .Page.Param "experimentType" }}
           {{ if $local }}
           {{ printf "<!-- +++ experimental svg / canvas / ???  -->" | safeHTML }}
           {{ end  }}
           {{ if and ( eq $experimentType "svg" ) ( ne $experimentType "" ) }}
-              
               <svg id="{{ lower .Title }}"  class="[ svg-exp ]" viewBox="0 0 0 0"></svg>
-            
           {{ end  }}
         {{ end }}
       </article>
       {{ if .Params.tags }}
       {{ partial "tags.html" . }}
       {{ end }}
-    {{/*  </div>  */}}
+    
   </div>
 </main>
-{{ partial "sidebar.html" . }}
+{{/*  {{ if $local }}
+  {{ partial "sidebar.html" . }}
+{{ end }}  */}}
 {{ partial "footer.html" . }}
 {{/*  {{ if eq .Type "experiments"  }}
   {{ partial "experiments.html" . }}

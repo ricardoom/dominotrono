@@ -21,7 +21,7 @@ svgColorClass: 'site-color--sage-green'
 projectRoles: ['Designer', 'Developer']
 projectClients: ['Dr. Estevan Rael Gálvez', 'McCune Foundation', 'New Mexico Humanities Council']
 projectDate: '2020 - 2021'
-tags: ['Web Design', 'Visual Design', 'Hugo', 'Forestry.io', 'Netlify', 'Cloudinary']
+tags: ['Visual Design', 'Web Development']
 weight: -10
 externalURL: 'http://decolonizingnewmexico.com'
 projectDesc: 'Decolonizing New Mexico is an ongoing project meant to gather historical context and ideas toward the development of a process, centering truth and transformation in New Mexico.'
@@ -92,7 +92,7 @@ newLayout: true
     class="details-grid__twentyWords image-block__left"
     >}}
     {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__right vertical-center" >}}
+      class="[ align-self-center ] details-grid__twentyWords copy-block__right vertical-center" >}}
       For simplicty sake and to avoid needless content shift, I opted for to use system fonts. I often rely on a stack composed of the major sets of system fonts found on across the most popular devices. By doing this we provide a very reliable and familiar experience. User's will see their own system's fonts in use and they will not experience FOUC (Flash of Unstyled Content.) Additionally by not adding another request, often to a different source for type faces, the content loads faster and we save our user's time and bandwidth.
     {{< /copy_wrapper>}}
 {{< /section_wrapper>}}

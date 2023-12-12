@@ -1,0 +1,4 @@
+---
+title: "User Experience"
+blurb: "The majority of my work has always had the end user's needs centered in my practice. Even in situations where I was taking on a front-end engineering role, my guiding principle has always been to maintain focus on the end user's experience. The following examples represent projects where my role was experience designer. Where I was directly contributing to existing feature sets or creating new ones based on stakeholder requirements. The following examples represent projects I had direct influence over and were integrated into the production environments."
+---

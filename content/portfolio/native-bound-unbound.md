@@ -28,11 +28,12 @@ projectRoles: ['Design & Technology Lead']
 projectClients: ['Dr. Estevan Rael Gálvez']
 projectCredits: ['Mario Griego (Logo Designer)']
 projectDate: '2021—2023'
-tags: ['Visual Design', 'Development', 'Figma', 'Branding', 'Design Systems', 'Project Management']
+tags: ['Visual Design', 'Web Development', 'Brand Development', 'Design Systems', 'Project Management']
 weight: -14
 externalURL: 'https://www.nativeboundunbound.org/'
 projectDesc: 'From 2021 to early 2022, I acted as chief technical and creative advisor on the archival scholarly project Native Bound Unbound. The objective of Native Bound-Unbound is to create a centralized digital repository centered on the lives of enslaved Indigenous people across the Americas.'
 newLayout: true
+tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 ---
 
 {{< section_wrapper class="hero-grid" >}}

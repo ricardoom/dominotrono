@@ -1,7 +1,7 @@
 ---
 title: 'Pearson — Curriculex'
 date: 2023-05-12T13:14:05-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders
@@ -28,11 +28,12 @@ projectRoles: ['UX Designer']
 projectClients: ['Pearson']
 projectCredits: ['Nicole Nishimoto', 'Don Bratton']
 projectDate: '2022—2023'
-tags: ['User Experience', 'Product Design', 'Figma', 'Interaction Design']
+tags: ['User Experience', 'Product Design', 'Interaction Design', 'Product Research']
 weight: -15
 externalURL: ''
 projectDesc: 'The Curriculex project seeks to fill a gap in nursing education. The goal is to develop a learning platform designed to replace dense, text-based learning with interactive lessons and lectures. A key feature of Curriculex caters to instructors and students with feature sets designed to facilitate both needs. My work focused primarily on the instructor experience.'
 newLayout: true
+tech: ['Figma', 'Miro']
 ---
 {{< section_wrapper class="hero-grid" >}}
     {{< image_cld
@@ -48,7 +49,9 @@ newLayout: true
   {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="2" text="Towards a solution..." >}}
+  
+    {{< section_header level="2" text="Towards a solution..." >}}
+    
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
       Our team engaged in a discovery process circumscribing how current nursing students engage with their instructors and the nursing curriculum. We learned most students are taking advantage of short-form video and text content produced across social media platforms. We also learned from interviews with students that they are developing study aides based on lecture content.
       {{< /copy_wrapper>}}

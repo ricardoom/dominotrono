@@ -4,6 +4,33 @@
 // 
 
 .jumbo {
+  display: grid;
+  grid-template-columns: 1fr;  
+
+  @include media('>=tablet') {
+    grid-template-columns: repeat(5, 1fr);  
+  }
+  
+  grid-template-rows: repeat(auto-fit, min-content);
   min-height: 100vh;
-  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+
+  .bot-contain {
+    display: grid;
+    grid-area: 1 / 1 / 8 / -1;
+    z-index: -1;
+    @include media('<=tablet') {
+      overflow: hidden;
+    }
+   }
+
+   .spooky {
+     @include media('<=tablet') {
+       height: 100%;
+     }
+   }
+  //  .red-bot {}
 }
+
+

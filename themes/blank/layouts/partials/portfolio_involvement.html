@@ -1,4 +1,5 @@
 <!-- portfolio_involvement.html -->
+{{ $local := .Site.IsServer }}
 {{ $newLayout := .Params.newLayout }}
 {{ $role := .Params.projectRoles }}
 {{ $url := .Params.externalURL }}
@@ -6,24 +7,12 @@
 {{ $date := .Params.projectDate }}
 {{ $credits := .Params.projectCredits }}
 {{ $tags := .Params.tags }}
+{{ $tech := .Params.tech }}
 {{ $atWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
-<aside class="[ portfolio-involvement ][ squeeze ][ box-shadow ]">
-  {{ if and ( $url ) ( ne $url "" )}}
-  <h3>Site</h3>
-  <ul>
-    <li><a href="{{ $url }}">{{ $url }}</a></li>
-  </ul>
-  {{ end }}
-  {{ if and ( $role ) ( ne $role "" ) }}
-  <h3>Role</h3>
-  <ul>
-    {{ range $role }}
-    <li>{{ . }}</li>
-    {{ end }}
-  </ul>
-  {{ end }}
+{{ $feature := .Params.feature }}
+<aside class="[ portfolio-involvement ][ squeeze ][ --box-shadow ]">
   {{ if and ( $clients ) ( ne $clients "" ) }}
   <h3>Client:</h3>
   <ul>
@@ -32,9 +21,27 @@
     {{ end }}
   </ul>
   {{ end }}
+  {{ if and ( $url ) ( ne $url "" )}}
+  <h3>Site</h3>
+  <ul>
+    <li><a href="{{ $url }}">{{ $url }}</a></li>
+  </ul>
+  {{ end }}
+  {{ if and ( $role ) ( ne $role "" ) }}
+  <h3>Role:</h3>
+  <ul>
+    {{ range $role }}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  
   {{ if and ( $date ) ( ne $date "" ) }}
-  <h3>Date:</h3>
-  <p>{{ $date }}</p>
+  <h3>Project Date:</h3>
+  <ul>
+    <li>{{ $date }}</li>
+  </ul>
+  
   {{ end }}
   {{ if and ( $credits ) ( ne $credits "" ) }}
   <h3>Collaborators:</h3>
@@ -46,16 +53,37 @@
     {{ end }}
   </ul>
   {{ end }}
-  {{ if .Site.IsServer }}
+  
   {{ if and ( $tags ) ( ne $tags "" ) }}
   <h3>Tagged:</h3>
   <ul id="tags">
     {{ range sort $tags }}
-    <li class="site-tags__tag">
+    <li class="[ site-tags ][ tag ]">
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
     </li>
     {{ end }}
   </ul>
   {{ end }}
+  {{ if and ( $tech ) ( ne $tech "" ) }}
+  <h3>Technology:</h3>
+  <ul id="tech">
+    {{ range sort $tech }}
+    <li class="[ site-tags ][ tag ]">
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    </li>
+    {{ end }}
+  </ul>
   {{ end }}
+  {{ if and ( $feature ) ( ne $feature "" ) }}
+  {{ if $local }}
+  <h3>Feature:</h3>
+  <ul id="features">
+    {{ range sort $feature }}
+    <li class="[ site-tags ][ tag ]">
+      <a href="{{ "/features/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  {{ end  }}
 </aside>

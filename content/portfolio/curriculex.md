@@ -1,7 +1,7 @@
 ---
 title: 'Pearson — Curriculex'
 date: 2023-05-12T13:14:05-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders
@@ -47,8 +47,8 @@ tech: ['Figma', 'Miro']
     {{< copy_wrapper
       class="hero-grid__copyBlock" >}}
       Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. From a student's perspective, reading through long tracts of dense text is neither tenable nor provides the necessary background and foundation for real-world nursing situations.
-  {{< /copy_wrapper >}}
-{{< /section_wrapper >}}
+  {{< /copy_wrapper>}}
+{{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
   
     {{< section_header level="2" text="Towards a solution..." >}}
@@ -135,8 +135,7 @@ tech: ['Figma', 'Miro']
     >}}
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-
-    {{< section_header level="4" text="Student-focused drill downs" >}}
+{{< section_header level="4" text="Student-focused drill downs" >}}
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686090223/curriculex/analytics/roster.webp"

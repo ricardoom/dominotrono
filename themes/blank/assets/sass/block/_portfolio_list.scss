@@ -44,6 +44,11 @@
           opacity: 1;
         }
       }
+
+      figcaption {
+        // @include visually-hidden;
+        color:oklab(from color l a b)
+      }
     }
     
 

@@ -18,7 +18,7 @@ portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_a
 ##
 portfolioHeroAlt: 'An image of the Bronte authoring interface'
 # heroFigcaption goes on the portfolio/ landing page
-heroFigcaption: ''
+heroFigcaption: 'Publishing Interface'
 postImage1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x,f_auto/v1683837501/bronte/brnt-publishing.jpg'
 postImage2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x,f_auto/v1683837501/bronte/brnt-publishing.jpg'
 postImage3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_portfolio_3x,f_auto/v1683837501/bronte/brnt-publishing.jpg'

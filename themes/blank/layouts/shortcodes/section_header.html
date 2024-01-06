@@ -7,6 +7,7 @@
 {{ $t := $.Get "text" }}
 {{ $p := $.Get "position" }}
 
+
 {{ if and ( $l ) ( ne $l "" ) }}
 <h{{ $l }} class="[ heading {{ with $p }}{{ . }}{{ end }} ]" id="{{ $t }}">{{ $t }}</h{{ $l }}>
 {{ end }}

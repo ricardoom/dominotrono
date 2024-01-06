@@ -113,7 +113,7 @@ newLayout: true
   {{< section_header level="2" text="Components" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-     Broadly speaking, the guiding principle in our design was to remove as much guesswork a developer might have concerning design, structure, or behavior. The final product culminated in two avenues for implementation. The first method being via an NPM module install. Which could then be integrated into a given application. Another way to use the Design Toolkit is by compiling the SASS file. And then copy and pasting individual instances of a component into one's app.
+     Broadly speaking, the guiding principle in our design was to remove as much guesswork a developer might have concerning design, structure, or behavior. The final product culminated in two avenues for implementation. The first method is via an NPM module install. Which could then be integrated into a given application. Another way to use the Design Toolkit is by compiling the Sass file. Then copy and paste the individual instance of a component into one's app.
     {{< /copy_wrapper>}}
 
         {{< image_cld

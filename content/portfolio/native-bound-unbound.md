@@ -52,7 +52,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
   {{< /section_wrapper>}}
 
 
-{{< section_wrapper class="details-grid" >}}
+{{< section_wrapper class="details-grid" section-header="Project Overview">}}
     {{< section_header level="2" text="Project Overview and Objective" >}}
     {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
       Although obscured from the national narrative and consciousness, Indigenous American slavery was a definitive experience for many millions across North and South America, including in entire regions of the United States. Records that reveal these experiences currently exist in archival repositories around the globe, including legal cases, censuses, letters, last wills, newspapers, photographs, and church records, such as baptisms, marriages, and burials. Museums steward tapestries, pottery, and more that also reflect Indigenous slavery. Individuals and families also hold personal records, objects, photographs, and remarkable stories about their ancestors. Collectively, all these archival imprints and cultural expressions encompass the indelible stories of people, places, and moments in time and, when drawn together, reflect a unique story of both the brutality suffered and the resilience of those that passed through it. 

@@ -120,7 +120,7 @@ tech: ['Figma', 'Miro']
       class="details-grid__twentyWords image-block__left"
     >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-      Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+      Much of the following screens demonstrate analytics and progress for a given cohort with increasing levels of detail.
     {{< /copy_wrapper>}}
     {{< image_cld
       loading="lazy"
@@ -153,9 +153,17 @@ tech: ['Figma', 'Miro']
   {{< /copy_wrapper>}}
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="4" text="Assigment management interface" >}}         
+  {{< section_header level="4" text="Assigment management interface" >}}
+  {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,t_960_2x/v1686082078/curriculex/AssignmentsClassWorkLanding.webp"
+      alt="an image of a students assignment progress"
+      figcaption="Assignment Management landing screen"
+      class="details-grid__fiftyWords big-image"
+    >}}
+
   {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-    Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+    An area of exploration for the instructor's experience was to explore assignment management. We wanted to have a high level landing page that gave the instructor a snapshot of assignments in flight as well as access to libraries of assignment content with interfaces to delve deeper.
    {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}

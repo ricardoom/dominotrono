@@ -18,14 +18,7 @@ heroFigcaption: ''
 title: 'NYPL Blogs'
 svgClipObjectClass: ''
 svgColorClass: 'site-color--acid-green'
-tags:
-  [
-    'Visual Design',
-    'User Experience',
-    'Progressive Enhancement',
-    'Responsive Design',
-    'Accessibility',
-  ]
+tags: ['Visual Design','User Experience','Progressive Enhancement',    'Responsive Design','Accessibility']
 weight: 2
 projectRoles: ['Design Lead']
 projectClients: ['NYPL']

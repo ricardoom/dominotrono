@@ -31,11 +31,12 @@ projectDate: '2022—2023'
 tags: ['User Experience', 'Product Design', 'Interaction Design', 'Product Research']
 weight: -15
 externalURL: ''
-projectDesc: 'The Curriculex project seeks to fill a gap in nursing education. The goal is to develop a learning platform designed to replace dense, text-based learning with interactive lessons and lectures. A key feature of Curriculex caters to instructors and students with feature sets designed to facilitate both needs. My work focused primarily on the instructor experience.'
+projectDesc: 'The Curriculex project seeks to fill a gap in nursing education. The goal is to develop a learning platform to replace dense, text-based learning with interactive lessons and lectures. A key feature of Curriculex caters to instructors and students with feature sets designed to facilitate both needs. My work focused primarily on the instructor experience.'
 newLayout: true
 tech: ['Figma', 'Miro']
 ---
 {{< section_wrapper class="hero-grid" >}}
+    
     {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,f_auto,q_auto/v1686070114/curriculex/curriculexOverview.webp"
@@ -45,9 +46,9 @@ tech: ['Figma', 'Miro']
     >}}
     {{< copy_wrapper
       class="hero-grid__copyBlock" >}}
-      Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. From a student's perspective, reading through long tracts of dense text is neither tenable nor does it provide the necessary background and foundation for real-world nursing situations.
-  {{< /copy_wrapper>}}
-{{< /section_wrapper>}}
+      Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. From a student's perspective, reading through long tracts of dense text is neither tenable nor provides the necessary background and foundation for real-world nursing situations.
+  {{< /copy_wrapper >}}
+{{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
   
     {{< section_header level="2" text="Towards a solution..." >}}
@@ -64,7 +65,8 @@ tech: ['Figma', 'Miro']
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" section-header="Design Discovery and Research" >}}
   {{< section_header level="2" text="Design Discovery and Research" >}}
-    {{< image_cld
+      
+      {{< image_cld
         loading="eager"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686082078/curriculex/AssignmentsClassWorkLanding.webp"
         alt=""
@@ -72,19 +74,20 @@ tech: ['Figma', 'Miro']
         class="details-grid__fiftyWords big-image"
     >}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-          In my case, I was responsible for explorations centered around the instructor's experience. Assignment and content libraries are organized into a dashboard with various pathways to deeper functionality, such as viewing each student's progress as they complete their homework.
+          In my case, I was responsible for explorations centered around the instructor's experience. My approach was to create assignment and content libraries organized into dashboards with various pathways to deeper functionality, such as viewing each student's progress as they complete their homework.
         {{< /copy_wrapper>}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-          I organized the dashboard into primary, secondary, and tertiary layers of functionality. Current assignments and content library are the primary focus with navigating through, different types of content libraries being of second order, found as set of tabs inside the library.
+          I organized the dashboard into primary, secondary, and tertiary layers of functionality. Current assignments and content libraries are the primary focus. 
         {{< /copy_wrapper>}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-          Conceptually this pathway is designed to surface high-level data about a particular cohort's progress across assignments. A drill down into each pre-class assignment in flight would show more granular information. 
+          Conceptually, the pathway design intends to surface high-level data about a particular cohort's progress across assignments. A drill down into each pre-class assignment in flight would show more granular information.
         {{< /copy_wrapper>}}
         {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
             Lastly, the left nav allows for higher-level functions for subject matter, roster, and cohort (section).
         {{< /copy_wrapper>}}
   {{< /section_wrapper>}}
   {{< section_wrapper class="details-grid" >}}
+    
     {{< image_cld
         loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007879/curriculex/Interactive%20Lecture/InteractiveLectureLanding.webp"
@@ -93,26 +96,26 @@ tech: ['Figma', 'Miro']
         class="details-grid__twentyWords image-block__right"
       >}} 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-        An alternate screen visualizing an interface for organizing lecture content (see more below ↓). The idea here is; As an instructor, I want to see which lectures I must prepare for that day. This interface visualizes a chronological feed of upcoming "during class lectures" based on cohort and section.
+        An alternate screen visualizing an interface for organizing lecture content (see more below ↓). The idea here is: As an instructor, I want to see which lectures I must prepare for that day. This interface visualizes a chronological feed of upcoming "during class lectures" based on cohort and section.
       {{< /copy_wrapper>}}
   {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" section-header="Before Class Experience & Analytics Screens" >}}
-  {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-      Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
-    {{< /copy_wrapper>}}
-{{< /section_wrapper >}}
-{{< section_wrapper class="details-grid" >}}
-{{< section_header level="3" text="Instructor Dashboards" >}}
-    {{< image_cld
+  
+    {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
+    {{< section_header level="3" text="Instructor Dashboards" >}}
+      {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686598671/curriculex/TopLevelLandingScreen.webp"
     alt=""
-    figcaption="The insturctor's landing screen with current assignments and schedule. This screen has ancillary information covering current roster, subject matter as well as pathways to subject and course work prep."
+    figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering the current roster, subject matter as well as pathways to subject and course work prep."
     class="details-grid__fiftyWords big-image"
     >}}
-{{< /section_wrapper>}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}} The overarching concept for the dashboard and subsequent screens is to provide the instructor with a range of increasingly granular insights into their class's progress.
+    {{< /copy_wrapper>}}
+{{< /section_wrapper >}}
+
 {{< section_wrapper class="details-grid" >}}
+    
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686085716/curriculex/analytics/InitialScreen.jpg"
@@ -121,7 +124,7 @@ tech: ['Figma', 'Miro']
       class="details-grid__twentyWords image-block__left"
     >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-      Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+      Much of the following screens demonstrate analytics and progress for a given cohort with increasing levels of detail.
     {{< /copy_wrapper>}}
     {{< image_cld
       loading="lazy"
@@ -132,31 +135,41 @@ tech: ['Figma', 'Miro']
     >}}
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-{{< section_header level="4" text="Student focused drill downs" >}}
+
+    {{< section_header level="4" text="Student-focused drill downs" >}}
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686090223/curriculex/analytics/roster.webp"
-      alt=""
+      alt="An image of an analytics screen"
       figcaption="The roster screen where an instructor can monitor attendance, scores and progress."
       class="details-grid__twoByTwo image-block__left"
     >}}
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686086098/curriculex/analytics/student.webp"
-      alt="an image of a students assignment progress"
-      figcaption="An individual drill down to an indvidual's scores in general and where they are with respect to their assignments."
+      alt="an image of a student's assignment progress"
+      figcaption="An individual drill down to an individual's scores in general and where they are with respect to their assignments."
       class="details-grid__twoByTwo image-block__right"
     >}}
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}       
-  {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+  
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
   {{< /copy_wrapper>}}
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="4" text="Assigment management interface" >}}         
+  {{< section_header level="4" text="Assigment management interface" >}}
+  {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,t_960_2x/v1686082078/curriculex/AssignmentsClassWorkLanding.webp"
+      alt="an image of a students assignment progress"
+      figcaption="Assignment Management landing screen"
+      class="details-grid__fiftyWords big-image"
+    >}}
+
   {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-    Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
+    An area of exploration for the instructor's experience was to explore assignment management. We wanted to have a high level landing page that gave the instructor a snapshot of assignments in flight as well as access to libraries of assignment content with interfaces to delve deeper.
    {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}

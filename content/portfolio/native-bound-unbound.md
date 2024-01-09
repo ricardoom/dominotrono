@@ -46,13 +46,13 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
     >}}
   
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
-      This exciting project required me to step outside my typical role as a designer and developer and take a holistic, managerial view of the project. My role encompassed, among other things,  writing technical documentation as a technical liaison between the director and development studios and developing strategies for content, working with graphic designers, and interviewing potential development firms.
+      This exciting project required me to step outside my typical role as a designer and developer and take a holistic, managerial view of the project. My role encompassed, among other things,  writing technical documentation as a technical liaison between the director and development studios as well as developing strategies for content, working with graphic designers, and interviewing potential development firms.
     {{< /copy_wrapper>}}
 
   {{< /section_wrapper>}}
 
 
-{{< section_wrapper class="details-grid" >}}
+{{< section_wrapper class="details-grid" section-header="Project Overview">}}
     {{< section_header level="2" text="Project Overview and Objective" >}}
     {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
       Although obscured from the national narrative and consciousness, Indigenous American slavery was a definitive experience for many millions across North and South America, including in entire regions of the United States. Records that reveal these experiences currently exist in archival repositories around the globe, including legal cases, censuses, letters, last wills, newspapers, photographs, and church records, such as baptisms, marriages, and burials. Museums steward tapestries, pottery, and more that also reflect Indigenous slavery. Individuals and families also hold personal records, objects, photographs, and remarkable stories about their ancestors. Collectively, all these archival imprints and cultural expressions encompass the indelible stories of people, places, and moments in time and, when drawn together, reflect a unique story of both the brutality suffered and the resilience of those that passed through it. 
@@ -62,10 +62,10 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
       The project will serve as a major source for educators, scholars, storytellers, artists, and, most critically, descendants, both individuals as well as the broader collective.
     {{< /copy_wrapper>}}
     {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
-      At the outset, I defined the technical possibilities and restraints. I developed strategies with Dr. Galvez to bring the vision to life. We discussed the breadth and scope of the project, how it fits into today's cultural climate, and technical limitations. We reviewed similar projects and met with other scholars and developers. 
+      At the outset, I defined the technical possibilities and restraints. I developed strategies with Dr. Galvez to bring the vision to life. We discussed the breadth and scope of the project, how it fits into today's cultural climate and technical limitations. We reviewed similar projects and met with other scholars and developers. 
     {{< /copy_wrapper>}}
     {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
-      I specialize in design and development. As the project advanced, I was excited to work on the technical aspects of the project. We needed to create a proof of concept to understand the project's scope fully. To do this, I had to expand my knowledge of back-end processing, database setup, and building the front-end, which could interact with the database. Additionally, I was responsible for user experience, visual design, and creative direction. While I claim to be an expert in only some of these areas, my professional experience working with cultural institutions allowed me to ask the right questions and explore the best technological solutions for the project.
+      I specialize in design and development. As the project advanced, I was excited to work on the technical aspects of the project. We needed to create a proof of concept to understand the project's scope fully. To do this, I had to expand my knowledge of back-end processing, database setup, and building the front end, which could interact with the database. Additionally, I was responsible for user experience, visual design, and creative direction. While I claim to be an expert in only some of these areas, my professional experience working with cultural institutions allowed me to ask the right questions and explore the best technological solutions for the project.
     {{< /copy_wrapper>}}
     {{< copy_wrapper class=" details-grid__twentyWords copy-block__left" >}}
       For the purposes of this portfolio page, I will focus on my design work. The following examples are representative of the work I have done concerning visual design and design system development.
@@ -74,22 +74,23 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-{{< section_header level="2" text="Visual Design and Art Direction" >}} 
-  {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
+  
+    {{< section_header level="2" text="Visual Design and Art Direction" >}} 
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
     My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
-  {{< /copy_wrapper>}}
-  {{< image_cld
+    {{< /copy_wrapper>}}
+    {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684799719/native-bound-unbound/MoodThemes.webp"
       alt=""
       figcaption="Mood board: color, type and logo explorations, as well as employing imagery"
       class="details-grid__fiftyWords big-image"
-  >}}
+    >}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-    {{< section_header level="4" text="Theme Exploration" >}}
+    {{< section_header level="3" text="Theme Exploration" >}}
     {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1688154138/native-bound-unbound/ThemeMidnight.webp"
@@ -109,7 +110,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-    {{< section_header level="4" text="Color, logo mark & type" position="right" >}}
+    {{< section_header level="4" text="Color and Branding Design" position="right" >}}
     
     {{< image_cld
       loading=" lazy"
@@ -133,7 +134,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1685569391/native-bound-unbound/Logos.webp"
     alt="An image of logo types organized in a grid"
-    figcaption="The panopoly of logos. A wide variety for a number of differnet applications and implementations."
+    figcaption="The panoply of logos. A wide variety for a number of different applications and implementations."
     class="details-grid__twoByTwo image-block__right"
   >}}
 
@@ -144,7 +145,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
     
      {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      I began the design process by determining the type faces and scale needed to achieve a compatible and visually pleasing compositions. I utilized an online tool called utopia.xyz. That tool allows you to choose a scalar, upper and lower bounds (largest & smallest) and it will produce a set of scale rules allowing the designer to create a scalable type and layout system. This system takes advantage of the browser's capabilities to render a page back to the viewer at the right size for their screen without the need for breakpoints. 
+      I began the design process by determining the typefaces and scale needed to achieve a visually pleasing composition. I utilized an online tool called utopia.xyz. That tool allows you to choose a scalar, upper and lower bounds (largest & smallest) and it will produce a set of scale rules allowing the designer to create a scalable type and layout system. This system takes advantage of the browser's capabilities to render a page back to the viewer at the right size for their screen without the need for breakpoints. 
     {{< /copy_wrapper>}}
 
     {{< image_cld
@@ -283,7 +284,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_1280_2x_portfolioHero,q_auto,f_auto,w_auto/v1685057837/native-bound-unbound/Images_captions.webp"
     alt="A layout displaying image layouts with captions"
-    figcaption="The design system created in Figma showing large, full width images with their layout layers both on and off, as well as light and dark mode versions"
+    figcaption="The design system created in Figma showing large, full-width images with their layout layers both on and off, as well as light and dark mode versions"
     caption=""
     class="details-grid__fiftyWords big-image"
     >}}
@@ -304,7 +305,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< section_wrapper class="details-grid" >}}
   {{< section_header level="3" text="Page & Screen Layouts" >}}
   {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
-    At the time of this writing, the design system has been approved and is ready for deployment. The home page utilizes all defined aspects of the system; color, type and layout. The Figma files are complete and can be easily used by the both front end and design staff. 
+    At the time of this writing, the design system has been approved and is ready for deployment. The home page utilizes all defined aspects of the system; color, type and layout. The Figma files are complete and can be easily used by the both front-end and design staff. 
   {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -331,10 +332,10 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="4" text="Composed interior page layouts" >}}
+  {{< section_header level="3" text="Composed interior page layouts" >}}
   {{< copy_wrapper
     class="details-grid__twentyWords copy-block__left" >}}
-    Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
+    The following is a Figma layout demonstrating a full page composite where components are assembled to define a layout for both mobile and desktop. I like to move away from these terms and refer to screens as large or small. My thinking here is that we should move away from specifics about user devices and think more broadly. I also like to include helper elements (the pink blocks and bars) on their layers for ease of toggling. This serves as an assistant to myself and other designers. Providing a very quick read on spatial correctness as defined by the defined scalar rules.
   {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}

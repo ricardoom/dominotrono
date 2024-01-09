@@ -1,10 +1,13 @@
-# The personal / professional website of Ricardo E. Galvez
+# The professional website of Ricardo E. Galvez
 
-Built with static site generator Hugo, SASS, and vanilla Javascript
+Built with static site generator Hugo, SASS, and vanilla JavaScript
 
 ## Versions ~ Changelog
 
 ### Versions
+- 0.1.1
+  - Minor content updates
+  - Corrections to spelling, grammar and syntax on this README (🥤)
 
 - 0.1.0
   - Finally releasing the new design
@@ -20,35 +23,35 @@ Built with static site generator Hugo, SASS, and vanilla Javascript
   
 - 0.0.4
   - Lots of content updates and styling fixes
-    - clean up of redundant css
+    - clean up of redundant CSS
     - added in more scalable type across pages.
     - Added new content for last year's work on the projects outlined within
     - Some template fixes
     - Added new video short code (Hugo)
     
 - 0.0.3
-  - CSS refactored quite a bit, down reduced unused or redundant rules probably by 30%, shaved about 20k off.
-  - removed the old masthead section as it probably wasnt helpling
-  - positioned the sites structure to take advantage of prinicipals laid out in Every Layout
-  - hoome page is now structured to be better landing page and utilize some of the funky layouts I've been working on and should be able to deploy easily.
+  - CSS refactored quite a bit, reduced unused or redundant rules probably by 30%, shaving off about 20k.
+  - Removed the old masthead section as it probably wasn't helping
+  - Positioned the site's structure to take advantage of principles laid out in Every Layout
+  - The home page is now structured to be a better landing page and utilize some of the funky layouts I've been working on and should be able to deploy easily.
 
 - 0.0.2
   
   - A new beginning
   
-Lets face it. The previous version of this project sucked and wasnt working. So time to tear it all down and start over, or at least start doing that.
+  Let us face it. The previous version of this project sucked and wasn't working. So time to tear it all down and start over, or at least start doing that.
 
-Heres a list non-exhaustive list of things todo and to be done...
+  Here is a list non-exhaustive list of things TODO and to be done...
 
 - new home page
 - more blogs
 - portfolio landing page
 - set up taxonomic vertical pages
   
-  - visual designs
-  - javascript learnings / experiments
-  - javascript tutorial results
-  - css experiments
+  - Visual Designs
+  - JavaScript education/experiments
+  - JavaScript tutorial results
+  - CSS experiments
   - blogging / set up "posse"
 
-- a more disciplined approach to process
+- a more disciplined approach to my process

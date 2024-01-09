@@ -38,17 +38,15 @@ newLayout: true
       >}}
 
     {{< copy_wrapper class="hero-grid__copyBlock">}}
-      The Design Toolkit at NYPL was our online style-guide and foundation for a more extensive design system. We wanted to free the front end developers up from having to make design decisions and create an opportunity to develop reusable components and styles. We also needed to have robust documentation and code examples.
+      The Design Toolkit at NYPL was our online style guide and foundation for a more extensive design system. We wanted to free the front-end developers up from having to make design decisions and create an opportunity to develop reusable components and styles. We also needed to have robust documentation and code examples.
     {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
 
-### SVG Icons
-
 {{< section_wrapper class="details-grid" >}}
-
+  {{< section_header level="2" text="SVG Icons" >}}
      {{< copy_wrapper
-        class=" details-grid__twentyWords copy-block__right" >}}
+        class=" details-grid__twentyWords copy-block__left" >}}
         We wanted to follow industry best practices and reduce our use of raster images to improve page performance and overall bandwidth usage. Part of that effort was to employ SVGs wherever we had flat, simple graphics, like icons and logos. SVGs are markup and, while not cacheable, are very flexible and portable. We took extra precautions to ensure our SVG icons were accessible.
       {{< /copy_wrapper>}}
 
@@ -62,10 +60,8 @@ newLayout: true
 
 {{< /section_wrapper >}}
 
-### Accessibility
-
 {{< section_wrapper class="details-grid" >}}
-
+    {{< section_header level="2" text="Accessibility" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
       We conducted an extensive survey of nypl.org and all of our internal tools, micro-sites, and applications for proper WCAG 2.0 Compliance. With the understanding that the Design Toolkit will need to inform and influence all projects going forward. For structure and style to be fully accessible by default, all components included in the Design Tool Kit would have their accessibility rules baked into their design patterns.
@@ -113,13 +109,11 @@ newLayout: true
 
 {{< /section_wrapper>}}
 
-### Components
-
 {{< section_wrapper class="details-grid" >}}
-
+  {{< section_header level="2" text="Components" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-     Broadly speaking, the guiding principle in our design was to remove as much guesswork a developer might have concerning design, structure, or behavior. The final product culminated in two avenues for implementation. The first method being via an NPM module install. Which could then be integrated into a given application. Another way to use the Design Toolkit is by compiling the SASS file. And then copy and pasting individual instances of a component into one's app.
+     Broadly speaking, the guiding principle in our design was to remove as much guesswork a developer might have concerning design, structure, or behavior. The final product culminated in two avenues for implementation. The first method is via an NPM module install. Which could then be integrated into a given application. Another way to use the Design Toolkit is by compiling the Sass file. Then copy and paste the individual instance of a component into one's app.
     {{< /copy_wrapper>}}
 
         {{< image_cld

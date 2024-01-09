@@ -332,10 +332,10 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="4" text="Composed interior page layouts" >}}
+  {{< section_header level="3" text="Composed interior page layouts" >}}
   {{< copy_wrapper
     class="details-grid__twentyWords copy-block__left" >}}
-    Et elit in ea consectetur labore excepteur elit. Ipsum enim ea esse labore ex nulla. Esse magna commodo fugiat nisi cillum laborum nisi dolore cillum veniam laboris. Anim incididunt non consequat aliqua do excepteur. Sint dolor ipsum ad enim.
+    The following is a Figma layout demonstrating a full page composite where components are assembled to define a layout for both mobile and desktop. I like to move away from these terms and refer to screens as large or small. My thinking here is that we should move away from specifics about user devices and think more broadly. I also like to include helper elements (the pink blocks and bars) on their layers for ease of toggling. This serves as an assistant to myself and other designers. Providing a very quick read on spatial correctness as defined by the defined scalar rules.
   {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}

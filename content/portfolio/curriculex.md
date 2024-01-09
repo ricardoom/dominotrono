@@ -103,7 +103,7 @@ tech: ['Figma', 'Miro']
   
     {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
     {{< section_header level="3" text="Instructor Dashboards" >}}
-    {{< image_cld
+      {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686598671/curriculex/TopLevelLandingScreen.webp"
     alt=""

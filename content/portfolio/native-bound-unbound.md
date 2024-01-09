@@ -305,11 +305,10 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-  
-    {{< section_header level="3" text="Page & Screen Layouts" >}}
-    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+  {{< section_header level="3" text="Page & Screen Layouts" >}}
+  {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
     At the time of this writing, the design system has been approved and is ready for deployment. The home page utilizes all defined aspects of the system; color, type and layout. The Figma files are complete and can be easily used by the both front-end and design staff. 
-    {{< /copy_wrapper>}}
+  {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 

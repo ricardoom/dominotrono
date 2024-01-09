@@ -33,7 +33,8 @@
       }
     // magic numbers
       // @include responsive-font(1.5vw, 1.6em, 22px, 32px);
-      font-size: var(--s0);
+      // font-size: var(--s0);
+      font-size: ft(var(--s0), var(--s1));
       margin: var(--s1) 0 0;
     }
 

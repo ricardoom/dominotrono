@@ -5,6 +5,7 @@
 {{ $hasCopy := $.Get "section-copy" }}
 {{ $headerID := $hasHeader }}
 
+
 {{ if and ( $layout ) ( ne $layout "" ) }}
     {{ if $local }}
         {{ printf "<!-- section_wrapper template aqui  -->" | safeHTML }}

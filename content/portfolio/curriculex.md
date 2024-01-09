@@ -47,8 +47,8 @@ tech: ['Figma', 'Miro']
     {{< copy_wrapper
       class="hero-grid__copyBlock" >}}
       Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. From a student's perspective, reading through long tracts of dense text is neither tenable nor provides the necessary background and foundation for real-world nursing situations.
-  {{< /copy_wrapper>}}
-{{< /section_wrapper>}}
+  {{< /copy_wrapper >}}
+{{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
   
     {{< section_header level="2" text="Towards a solution..." >}}
@@ -65,7 +65,8 @@ tech: ['Figma', 'Miro']
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" section-header="Design Discovery and Research" >}}
   {{< section_header level="2" text="Design Discovery and Research" >}}
-    {{< image_cld
+      
+      {{< image_cld
         loading="eager"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686082078/curriculex/AssignmentsClassWorkLanding.webp"
         alt=""
@@ -86,6 +87,7 @@ tech: ['Figma', 'Miro']
         {{< /copy_wrapper>}}
   {{< /section_wrapper>}}
   {{< section_wrapper class="details-grid" >}}
+    
     {{< image_cld
         loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007879/curriculex/Interactive%20Lecture/InteractiveLectureLanding.webp"
@@ -98,13 +100,14 @@ tech: ['Figma', 'Miro']
       {{< /copy_wrapper>}}
   {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" section-header="Before Class Experience & Analytics Screens" >}}
-  {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
-  {{< section_header level="3" text="Instructor Dashboards" >}}
-    {{< image_cld
+  
+    {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
+    {{< section_header level="3" text="Instructor Dashboards" >}}
+      {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686598671/curriculex/TopLevelLandingScreen.webp"
     alt=""
-    figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering current roster, subject matter as well as pathways to subject and course work prep."
+    figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering the current roster, subject matter as well as pathways to subject and course work prep."
     class="details-grid__fiftyWords big-image"
     >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}} The overarching concept for the dashboard and subsequent screens is to provide the instructor with a range of increasingly granular insights into their class's progress.
@@ -112,6 +115,7 @@ tech: ['Figma', 'Miro']
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
+    
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686085716/curriculex/analytics/InitialScreen.jpg"
@@ -131,24 +135,26 @@ tech: ['Figma', 'Miro']
     >}}
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-{{< section_header level="4" text="Student-focused drill downs" >}}
+
+    {{< section_header level="4" text="Student-focused drill downs" >}}
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686090223/curriculex/analytics/roster.webp"
-      alt=""
+      alt="An image of an analytics screen"
       figcaption="The roster screen where an instructor can monitor attendance, scores and progress."
       class="details-grid__twoByTwo image-block__left"
     >}}
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686086098/curriculex/analytics/student.webp"
-      alt="an image of a students assignment progress"
+      alt="an image of a student's assignment progress"
       figcaption="An individual drill down to an individual's scores in general and where they are with respect to their assignments."
       class="details-grid__twoByTwo image-block__right"
     >}}
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}       
-  {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+  
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
   {{< /copy_wrapper>}}
 {{< /section_wrapper >}}

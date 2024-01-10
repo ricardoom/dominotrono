@@ -47,12 +47,14 @@ $max-line-length: var(--measure);
 $headings: (h1, h2, h3, h4, h5, h6);
 @each $heading in $headings {
   #{$heading} {
+
     font-family: $serif;
     font-weight: 672;
     font-style: normal;
     margin-block-end: var(--s-1);
     margin-block-start: var(--s-1);
     margin-inline: 0;
+    text-wrap: balance;
 
     ///
     /// Headings that wrap links

@@ -26,7 +26,7 @@ projectDate: '2015-2018'
 projectDesc: 'In 2015 I was hired to be the in-house designer for the New York Public Library. My initial responsibility was to oversee the visual and interface design efforts for the New York Public Library redesign.'
 externalURL: 'http://nypl.org'
 newLayout: true
-tech: ['React', 'SASS', 'Javascript']
+tech: ['React', 'Sass', 'Javascript']
 ---
 
 {{< section_wrapper class="hero-grid" >}}
@@ -50,14 +50,14 @@ tech: ['React', 'SASS', 'Javascript']
 
      {{< copy_wrapper
         class="details-grid__twoByTwo copy-block__right" >}}
-        From the outset the goal of the new design of the home page was to promote a variety of offerings from the library. As an institution of renown and regard the library has stood for generations as beacon of learning, research and culture. Our goal as an institution was to invite people from all walks of life to access the services on offer, be they digital or physical. The home page was designed to be the primary gateway into these offerings.
+        From the outset, the goal of the new design of the home page was to promote a variety of offerings from the library. As an institution of renown and regard the library has stood for generations as a beacon of learning, research and culture. Our goal as an institution was to invite people from all walks of life to access the services on offer, be they digital or physical. The home page was designed to be the primary gateway into these offerings.
     {{< /copy_wrapper>}}
 
     {{< image_cld 
       loading="eager"
       class="details-grid__twentyWords image-block__left"
       alt="An image of the NYPL home page early in the design and prototype stage"
-      figcaption="The home page design clearly delineated the objectives of the Library: to promote expertise, events, education and services"
+      figcaption="The home page design delineates the objectives of the Library: to promote expertise, events, education and services"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1608140034/nypl-dot-org/NYPL_HP_desktop_detail.jpg"
     >}}
 
@@ -83,11 +83,11 @@ tech: ['React', 'SASS', 'Javascript']
     figcaption="The above image demonstrates an alternate view of an internal page where due to a viewport constraint, the layout modulates to account for smaller screen size." title="NYPL home page Tablet view" >}}
 
      {{< copy_wrapper class="details-grid__twentyWords copy-block__right" >}}
-      As design lead, my primary task was to provision the front end team with complete layout specifications for all device viewports, necessary SVG iconography, and web typography specifications.
+      As design lead, my primary task was to provision the front-end team with complete layout specifications for all device viewports, necessary SVG iconography, and web typography specifications.
     {{< /copy_wrapper >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-      The team worked diligently and thoroughly through various potential use cases and scenarios concerning patron devices, educational and cultural backgrounds.
+      The team worked diligently and thoroughly through various potential use cases and scenarios concerning patron devices, education and cultural backgrounds.
     {{< /copy_wrapper >}}
 
     {{< image_cld
@@ -125,14 +125,14 @@ tech: ['React', 'SASS', 'Javascript']
 
         {{< copy_wrapper
           class="details-grid__twoByTwo copy-block__center" >}}
-          The login drop down in the header is completely keyboard and assistive device compatible. This portion was particularly challenging due to an overabundance of breakpoints to accommodate a large variety of viewports and devices. The majority of the SCSS for this particular feature was written by me.
+          The login drop-down in the header is completely keyboard and assistive device-compatible. This portion was particularly challenging due to an overabundance of breakpoints to accommodate a large variety of viewports and devices. The majority of the SCSS for this particular feature was written by me.
         {{< /copy_wrapper>}}
 
         {{< image_cld
          class="details-grid__twoByTwo image-block__left"
          data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582755269/nypl-dot-org/nypl.login-dt.jpg"
          
-         alt="a detail image of the dropdown login dialog"
+         alt="a detailed image of the dropdown login dialog"
          figcaption="Desktop and tablet version of the login dropdown"
         >}}
 

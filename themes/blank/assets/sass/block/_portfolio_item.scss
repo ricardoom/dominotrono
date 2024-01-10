@@ -133,7 +133,7 @@
 
         & > .heading {
             @include add-to-grid('>=phone', 1, -1, auto, auto);
-            @include add-to-grid('>=tablet', 1, 2, auto, auto);
+            @include add-to-grid('>=tablet', 1, 3, auto, auto);
           }
         & > .heading.right {
             @include add-to-grid('>=phone', 1, -1, 1, 2);

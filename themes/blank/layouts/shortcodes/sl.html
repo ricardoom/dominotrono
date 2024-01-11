@@ -1,0 +1,5 @@
+{{ $url := .Get 0 }}
+{{ $text := .Get 1 }}
+{{ with $url }}
+<a href="{{ $url }}">{{ $text }} ↗</a>
+{{ end }}

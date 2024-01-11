@@ -345,13 +345,89 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
 
-    {{< section_header level="3" text="Best Books" >}}
+    {{< section_header level="3" text="Best Books & Staff Picks" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+        The New York Public Library offers many librarian-curated lists. Annually and Seasonally, a group of librarians creates the Staff Picks and Best of lists.  Part of our task was to make a fully Accessible web application where these lists could be searched, sorted, and filtered.  
+    {{< /copy_wrapper >}}
 
+    {{< image_cld
+      class="details-grid__fiftyWords big-image"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548801966/nypl-staff-picks/spLargeLayouts.jpg"
+      alt="An image of a variety of layouts"
+      figcaption="Design artifacts laid out in Sketch representing mobile, tablet, and desktop screen lists and single items."
+    >}}
+    
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__right" >}}
+      One of the challenges faced was building a website application that could reliably function without JavaScript. Additionally, the app must be fully operable by keyboard or assertive technology. Please see live example links and the initial concept designs and experience design work in the images below. 
+    {{< /copy_wrapper>}}
+    
+    {{< sl "/portfolio/nypl-best-books/" "Learn more about the Best Books and Staff Picks" >}}
 {{< /section_wrapper >}}
-
+    
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="New Arrivals" >}}
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      The New Arrivals web app/product is meant to allow library patrons to view and discover newly acquired materials by the library. It is capable of complex sorting functionality. Allowing patrons to see, at a very granular level, incoming materials. The New Arrivals sorting functionality can sort by language, genre and among other facets format.
+    {{< /copy_wrapper >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_3x/v1687294024/nypl-browse-new-arrivals/bna-hp-full-2.webp"
+    alt=""
+    figcaption="A top-level view of the New Arrivals landing page. This view defaults to the most recent acquisitions."
+    class="details-grid__fiftyWords big-image"
+    >}}
+    
+    {{< section_header level="4" text="Progressive Enhancement and Responsive Design" >}}
+
+    {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__left" >}}
+      As with all other aspects of my work at NYPL the New Arrivals app was no exception concerning Accessibility, mobile friendliness and progressive enhancements.
+    {{< /copy_wrapper>}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,q_auto,f_auto/v1686948246/nypl-browse-new-arrivals/bna-mobil-crop.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__left"
+    >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1687286651/nypl-browse-new-arrivals/bna-mobile-filters.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twentyWords image-block__right"
+    >}}
+
+    {{< section_header level="4" text="Filtering Interface" >}}
+    
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,q_auto,f_auto/v1686948247/nypl-browse-new-arrivals/bna-ya-filter-detail.webp"
+    alt=""
+    figcaption="This example displays the full breadth of filtering options"
+    class="details-grid__fiftyWords big-image"
+    >}}
+
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686950560/nypl-browse-new-arrivals/bna-hp-full.webp"
+    alt=""
+    figcaption="The landing page with filters applied"
+    class="details-grid__twentyWords image-block__left"
+    >}}
+
+    {{< video_cld class="details-grid__twentyWords image-block__right" >}}
+      https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto/v1687206397/nypl-browse-new-arrivals/bna-filter.mp4
+      https://res.cloudinary.com/toupeeproofbullets/video/upload/w_auto,q_auto,vc_vp9/v1687206397/nypl-browse-new-arrivals/bna-filter.webm
+    {{< /video_cld >}}
+
+    
 
 {{< /section_wrapper >}}
 

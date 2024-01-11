@@ -1,7 +1,7 @@
 ---
 title: 'NYPL New Arrivals'
 date: 2023-05-12T13:52:25-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders
@@ -46,7 +46,7 @@ newLayout: true
 
     {{< copy_wrapper
         class="hero-grid__copyBlock box-shadow" >}}
-        Sit aute voluptate elit est nostrud sit reprehenderit dolor veniam qui mollit qui duis velit. Proident quis quis sit aliquip aliqua irure proident nostrud excepteur do nulla incididunt amet eiusmod. Sint tempor nulla occaecat ea eiusmod velit non sunt aute veniam veniam elit. Duis eiusmod sint id aliquip minim ea elit labore do. Esse commodo velit proident labore mollit.
+        The New Arrivals web app/product is meant to allow library patrons to view and discover newly acquired materials by the library. It is capable of complex sorting functionality. Allowing patrons to see, at a very granular level, incoming materials. The New Arrivals sorting functionality can sort by language, genre and among other facets format.
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
@@ -57,7 +57,7 @@ newLayout: true
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_3x/v1687294024/nypl-browse-new-arrivals/bna-hp-full-2.webp"
     alt=""
-    figcaption=""
+    figcaption="A top-level view of the New Arrivals landing page. This view defaults to the most recent acquisitions."
     class="details-grid__fiftyWords big-image"
     >}}
 
@@ -145,12 +145,12 @@ newLayout: true
     class="details-grid__twentyWords image-block__left"
     >}}
 
-  {{< image_cld
+    {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1687286651/nypl-browse-new-arrivals/bna-mobile-filters.webp"
     alt=""
     figcaption=""
     class="details-grid__twentyWords image-block__right"
-  >}}
+    >}}
 
 {{< /section_wrapper >}}

@@ -40,7 +40,7 @@ tech: ['React', 'Sass', 'Javascript']
     figcaption=""
     >}}
 
-    {{< copy_wrapper class=" hero-grid__copyBlock" >}}
+    {{< copy_wrapper class="hero-grid__copyBlock" >}}
     The library contracted Portland-based design studio Second Story to consult and lead the overhaul of NYPL's main website. In close collaboration with Second Story, I led our in-house efforts towards designing and implementing their recommendations. I expanded and refined the visual and experience design to meet the library's accessibility and progressive enhancement standards.
     {{< /copy_wrapper >}}
 

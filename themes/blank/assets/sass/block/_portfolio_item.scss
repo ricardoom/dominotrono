@@ -106,11 +106,18 @@
         align-items: start;
         margin-top: var(--s1);
         
+        //! Quick and Dirty needs refactoring !
+        > a {
+          @include add-to-grid('>=phone', -2, -5, auto, auto);
+          @include add-to-grid('>=tablet', -2, -4, auto, auto);
+          justify-self: end;
+        }
 
         > p {
           // margin: var(--s0) 0;
           margin-block: var(--s1);
         }
+
         // TODO this section needs to be refactored, but for now it can stand...
         > h4 {
           margin-block-end: 0;
@@ -120,7 +127,7 @@
           margin-block-start: 0;
         }
         // TODO see above ⬆
-        
+
         .vertical-center {
             align-self: center;
           }

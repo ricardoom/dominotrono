@@ -50,7 +50,7 @@ feature: ['user-experience']
     >}}
 
      {{< copy_wrapper class=" hero-grid__copyBlock" >}}
-        The New York Public Library offers many librarian curated lists. Annually and Seasonally, a group of librarians creates the Staff Picks and Best of lists.  Part of our task was to make a fully Accessible web application where these lists could be searched, sorted, and filtered.  
+        The New York Public Library offers many librarian-curated lists. Annually and Seasonally, a group of librarians creates the Staff Picks and Best of lists.  Part of our task was to make a fully Accessible web application where these lists could be searched, sorted, and filtered.  
      {{< /copy_wrapper >}}
 
 {{< /section_wrapper >}}
@@ -59,7 +59,6 @@ feature: ['user-experience']
   
     {{< image_cld
       class="details-grid__fiftyWords big-image"
-      
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1548801966/nypl-staff-picks/spLargeLayouts.jpg"
       alt="An image of a variety of layouts"
       figcaption="Design artifacts laid out in Sketch representing mobile, tablet, and desktop screen lists and single items."
@@ -77,7 +76,7 @@ feature: ['user-experience']
     {{< section_header level="3" text="Prototyping and Wire Framing" >}}
 
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-       My initial wireframes outline the structure of the end-user view. These gave substance to the initial concept and allowed the team to discuss the core facets of the application. The app had to be WCAG 2.0 Accessible, be functional if JavaScript was disabled. These mockups allowed us to discuss semantics, design, and behavior.
+       My initial wireframes outline the structure of the end-user view. These gave substance to the initial concept and allowed the team to discuss the core facets of the application. The app had to be WCAG 2.0 compliant and be functional if JavaScript was disabled. These mockups allowed us to discuss semantics, design, and behavior.
     {{< /copy_wrapper >}}
     
     {{< image_cld

@@ -8,6 +8,7 @@ title: "Senior Web Designer Candidate at Cloud Flare"
 url: /cloud-flare
 newLayout: true
 ---
+
 {{<section_wrapper class="hero-grid" >}}
     
     {{< image_cld
@@ -19,7 +20,7 @@ newLayout: true
       class="hero-grid__imageBlock"
       >}}
     
-    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+    {{< copy_wrapper class="hero-grid__copyBlock" >}}
      The following examples highlight a cross-section of my web and app design experience. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw all visual and user experience design efforts for the digital team.
     {{< /copy_wrapper>}}
 
@@ -27,7 +28,7 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="Pearson" >}}
-    {{< section_header level="3" text="Bronte ePublishing Platform  " >}}
+    {{< section_header level="3" text="Bronte ePublishing Platform" >}}
 
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
@@ -47,20 +48,20 @@ newLayout: true
       class="details-grid__fiftyWords big-image"
       >}}
 
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.
-    {{< /copy_wrapper>}}
+    
 
 {{< /section_wrapper >}}
+
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="4" text="Design Discovery" >}}
-      
+      {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__left" >}}
+      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.{{< /copy_wrapper>}}
       {{< copy_wrapper
         class="details-grid__twoByTwo copy-block__left" >}}
-        My proposed solution was to bring the publishing process into the project management interface activated via a kebab menu interaction alongside other available actions on the file.
-      {{< /copy_wrapper>}}
+        My recommendation was to bring the publishing workflow into the management overview screen and embed the publishing functions, activating a kebab menu item and visually indicating the state and status of a given document.
+        {{< /copy_wrapper>}}
 
       {{< image_cld
       loading="lazy"
@@ -78,22 +79,36 @@ newLayout: true
       class="details-grid__twoByTwo image-block__right"
       >}}
 
+      {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686860274/bronte/itemTray.webp"
+      alt=""
+      figcaption=""
+      class="details-grid__twoByTwo image-block__left"
+      >}}
+
 {{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid">}}
+    
+    {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1686866819/bronte/rowItemExpanded.webp"
+      alt="an image of the completed design"
+      figcaption="This screen conveys all possible meta-data to the administrator as to the current state of all published versions of a given chapter of an Epub. Previously the user was compelled to visit an entirely separate part of the app to complete or manage publications."
+      class="details-grid__fiftyWords big-image"
+      >}}
+    
+{{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Design System Artifacts & Accessibility" >}}
-    {{< image_cld
-    loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685993538/bronte/UI-Specs.webp"
-    alt=""
-    figcaption=""
-    class="details-grid__fiftyWords big-image"
-    >}}
+    
 
     {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__right" >}}
-      As a general rule, we created specification sheets for all proposed components. We needed to outline specifically where there are state changes, subsequent animations, etc.
+      class="details-grid__twentyWords copy-block__left" >}}
+      As a general rule, we created specification sheets for all proposed components. We were required to outline specifically all states, where they changed, and any subsequent animations. Because Pearson has very strict Accessibility protocols, all new proposals are required to pass through an A11y audit. New features were required to have each possible state specified and in alignment with Bronte's design system.
     {{< /copy_wrapper>}}
 
      {{< image_cld
@@ -103,6 +118,15 @@ newLayout: true
     figcaption="A detailed Figma view of the kebab menu icon and its subsequent states"
     class="details-grid__fiftyWords big-image"
     >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685993538/bronte/UI-Specs.webp"
+    alt="an image of the overview for tab ordering for the recommended component updates to the publishing interface"
+    figcaption="This overview specifically outlines tab ordering for the recommended component updates to the publishing interface."
+    class="details-grid__fiftyWords big-image"
+    >}}
+
 
 {{< /section_wrapper>}}
 
@@ -119,28 +143,160 @@ newLayout: true
     >}}
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. From a student's perspective, reading through long tracts of dense text is neither tenable nor provides the necessary background and foundation for real-world nursing situations.
+      Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. My work focused on the instructor's experience; covering both class and learning asset/content management, while other team members focused on the student experience.
     {{< /copy_wrapper >}}
+        
+    {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684517113/curriculex/Curriculex_Hero.webp"
+        alt=""
+        figcaption="An overview of top-level instructor admin and analytics screens"
+        class="details-grid__fiftyWords big-image"
+        >}}
+        {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686598671/curriculex/TopLevelLandingScreen.webp"
+        alt=""
+        figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering the current roster, subject matter as well as pathways to subject and course work prep."
+        class="details-grid__fiftyWords big-image"
+        >}}
+
+    {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686086098/curriculex/analytics/student.webp"
+        alt="An image screen for a student's progress"
+        figcaption="A detail screen for a student's progress."
+        class="details-grid__twentyWords image-block__left"
+      >}} 
+
+    {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007879/curriculex/Interactive%20Lecture/InteractiveLectureLanding.webp"
+        alt="An image of the lecture library screen"
+        figcaption="A detailed concept for the interactive content library"
+        class="details-grid__twentyWords image-block__right"
+      >}}
 
 {{< /section_wrapper >}}
+
+
+
 
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="Native Bound Unbound" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+    My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
+    {{< /copy_wrapper>}}
+    
 
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Visual Design" >}}
+    {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684799719/native-bound-unbound/MoodThemes.webp"
+      alt=""
+      figcaption="Mood board: color, type and logo explorations, as well as employing imagery"
+      class="details-grid__fiftyWords big-image"
+    >}}
 
 {{< /section_wrapper >}}
+
+
 
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Design System" >}}
+    {{< section_header level="4" text="Typography and Scalars" >}}    
+    
+     {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      I began the design process by determining the typefaces and scale needed to achieve a visually pleasing composition. I utilized an online tool called utopia.xyz. That tool allows you to choose a scalar, upper and lower bounds (largest & smallest) and it will produce a set of scale rules allowing the designer to create a scalable type and layout system. This system takes advantage of the browser's capabilities to render a page back to the viewer at the right size for their screen without the need for breakpoints. 
+    {{< /copy_wrapper>}}
+
+    {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685484977/native-bound-unbound/Type_and_Scales.webp"
+      alt="An image detailing scale and type"
+      figcaption="This example details the scaling factor and basis for headings, body and general uses"
+      class="details-grid__fiftyWords big-image"
+    >}}
+
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      The fundamental aspect of the typographic work centers around headline and body copy type styles. All other forms are derived from these two core design artifacts. The reasoning behind this methodology is to sustain a very low level of design complexity. In my Figma, Sass and HTML I can easily modify these core elements and rely on cascading to effect all the descendant styles and layouts.
+    {{< /copy_wrapper>}}
+   
+    {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,q_auto,f_auto,w_auto/v1685126320/native-bound-unbound/TextLockups.webp"
+      alt="An image of basic typographic treatments for the project"
+      figcaption="Departure point for typography: Headlines, body copy and basic lockups are delineated here"
+      caption=""
+      class="details-grid__twentyWords image-block__left"
+    >}}
+
+    {{< image_cld
+    loading="eager"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126322/native-bound-unbound/Buttons.webp"
+    alt="An image of variations on basic buttons, with both icons and without"
+    figcaption="Variations on basic buttons, with both icons and without. This included basic type treatments as well"
+    class="details-grid__twentyWords image-block__right"
+    >}}
 
 {{< /section_wrapper >}}
+
+{{< section_wrapper class="details-grid" >}}
+    
+    {{< section_header level="4" text="Components" >}}
+
+     {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Following the essential and more fundamental elements are components derived by compositing together the core elements. These tend towards more complex arrangements; again, the essential nature of these elements is their relationship to their origins within the ecosystem. Of primary importance is navigation. For both small and large screens, I devised a simple and flexible solution where designers or engineers could easily add any number of navigation items.
+    {{< /copy_wrapper>}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto//v1685559222/native-bound-unbound/PrimaryNav.webp"
+    alt="An image of the small and large screen navigation elements. Encompassing both light and dark screens"
+    figcaption="Small and large screen navigation elements. Encompassing both light and dark screens"
+    class="details-grid__twoByTwo image-block__left"
+    >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688072584/native-bound-unbound/FooterNavigation.webp"
+    alt=""
+    figcaption=""
+    class="details-grid__twoByTwo image-block__right"
+    >}}
+
+{{< /section_wrapper >}}
+
+{{< section_wrapper class="details-grid" >}} 
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126325/native-bound-unbound/small_cards.webp"
+    alt="An image of design work for card layouts"
+    figcaption=""
+    caption=""
+    class="details-grid__twoByTwo image-block__left"
+    >}}
+
+    {{< image_cld
+    loading="lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1688073270/native-bound-unbound/MobileCardDetail.webp"
+    alt="An image of design work for card layouts"
+    figcaption=""
+    caption=""
+    class="details-grid__twoByTwo image-block__right"
+    >}}
+
+{{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
     

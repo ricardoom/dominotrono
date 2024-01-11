@@ -159,6 +159,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
+    
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
       The fundamental aspect of the typographic work centers around headline and body copy type styles. All other forms are derived from these two core design artifacts. The reasoning behind this methodology is to sustain a very low level of design complexity. In my Figma, Sass and HTML I can easily modify these core elements and rely on cascading to effect all the descendant styles and layouts.
@@ -178,13 +179,14 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 
 
 {{< section_wrapper class="details-grid" >}}
+    
     {{< section_header level="3" text="Atoms and Molecules" >}}
     {{< section_header level="4" text="Button Sets" >}}
     {{< image_cld
     loading="eager"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685126322/native-bound-unbound/Buttons.webp"
-    alt="An image of variations on basic button, with both icons and without"
-    figcaption="Variations on basic button, with both icons and without. This included basic type treatments as well"
+    alt="An image of variations on basic buttons, with both icons and without"
+    figcaption="Variations on basic buttons, with both icons and without. This included basic type treatments as well"
     class="details-grid__fiftyWords big-image"
     >}}
 
@@ -207,6 +209,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
+    
     {{< section_header level="3" text="Components" >}}
 
      {{< copy_wrapper
@@ -222,7 +225,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
     class="details-grid__fiftyWords big-image"
     >}}
 
-{{< /section_wrapper>}}
+{{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
 
@@ -260,12 +263,11 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 
 {{< section_wrapper class="details-grid" >}}
 
-  {{< image_cld
+    {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688073604/native-bound-unbound/cardVariant.webp"
     alt="An image of design work for card layouts"
     figcaption="Basic card layout in Figma displaying light and dark modes as well as active composition layers"
-    caption=""
     class="details-grid__twoByTwo image-block__left"
     >}}
     
@@ -303,31 +305,33 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="3" text="Page & Screen Layouts" >}}
-  {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+  
+    {{< section_header level="3" text="Page & Screen Layouts" >}}
+    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
     At the time of this writing, the design system has been approved and is ready for deployment. The home page utilizes all defined aspects of the system; color, type and layout. The Figma files are complete and can be easily used by the both front-end and design staff. 
-  {{< /copy_wrapper>}}
+    {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-  {{< image_cld
+  
+    {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683580752/native-bound-unbound/HomePageDark.jpg"
     alt=""
     figcaption=""
     caption=""
     class="details-grid__twoByTwo image-block__left"
-  >}}
+    >}}
 
-  {{< image_cld
+    {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683580754/native-bound-unbound/HomePageLight.jpg"
     alt=""
     figcaption=""
     caption=""
     class="details-grid__twoByTwo image-block__right"
-  >}}
+    >}}
 
 {{< /section_wrapper>}}
 

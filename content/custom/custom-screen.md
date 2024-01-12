@@ -4,8 +4,8 @@ categories: []
 date: 2024-01-10T09:48:08-08:00
 draft: false
 tags: []
-title: "Senior Web Designer Candidate at Cloud Flare"
-url: /cloud-flare
+title: "Senior Web Designer/UX Candidate"
+url: /custom-screen
 newLayout: true
 ---
 
@@ -433,13 +433,49 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
     
-    {{< section_header level="3" text="NYPL Shared Collections Catalog" >}}
+    {{< section_header level="2" text="SimplyE Audio Books Player" >}}
 
-{{< /section_wrapper >}}
-
-{{< section_wrapper class="details-grid" >}}
     
-    {{< section_header level="2" text="SimplyE Audio Books & Something" >}}
+    {{< image_cld
+    class="details-grid__fiftyWords big-image"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802598/simply-e/se-android-audio-player.webp"
+    alt="an image of the Android user flow and screens with interactive hot-spots set up in Sketch"
+    figcaption="The Android version of the player and user flow with interactive hot-spots set up in Sketch."
+    >}}
+
+    {{< image_cld
+    class="details-grid__fiftyWords big-image"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802600/simply-e/se-Audio-flow-iOS.webp"
+    alt="an image of the iOS user flow and screens with interactive hot-spots set up in Sketch"
+    figcaption="Similar to the previous example of the player for iOS and the user flow with interactive hot-spots set up in Sketch."
+    >}}
+
+    {{< copy_wrapper
+        class="details-grid__fiftyWords copy-block" >}}
+        As we progressed on our iOS version of the app, we also began creating the Android corollary designs and flows. While this was relatively trivial, Android OSes have different controls causing some minor divergence in how we considered our users and their expectations. The team decided to utilize as much of the Material design system as possible, mirroring the same attitude we held for our iOS version.
+      {{< /copy_wrapper>}}
+
+
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1582830616/simply-e/se-detail-view-ios.webp"
+    alt="an image of the content landing screen"
+    figcaption="The item screen with subsequent actions, meta-data, and related content lanes"
+    class="details-grid__twentyWords image-block__left"
+    >}}
+    
+    {{< image_cld
+    loading=" lazy"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1582830616/simply-e/se-main-player-ios.webp"
+    alt="An image of the player screen"
+    figcaption="The player screen"
+    class="details-grid__twentyWords image-block__right"
+    >}}
+
+    {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__right" >}}
+      The screens
+    {{< /copy_wrapper>}}
 
 {{< /section_wrapper >}}
   
@@ -471,7 +507,6 @@ Deep understanding of design systems and UI fundamentals
     {{< image_cld
       class="details-grid__twentyWords image-block__left"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
-      
       alt=""
       figcaption="The NYPL brand set color table"
       >}}

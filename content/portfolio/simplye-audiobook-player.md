@@ -54,17 +54,17 @@ newLayout: true
       class="details-grid__twoByTwo image-block__left"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582830616/simply-e/se-detail-view-ios.jpg"
       
-      alt=""
+      alt="an detailed view of the iOS workflow"
       figcaption="The iOS item selection screen. As a user would scroll they would also be presented with other titles by that author, or titles of a similar genre. Additionally, the app would also provide recommendations created by both algorithms and by librarians."
     >}}
 
-        {{< image_cld
-         class="details-grid__twoByTwo image-block__right"
-         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582830616/simply-e/se-main-player-ios.jpg"
-         
-         alt="An image of the main player screen"
-         figcaption="The main player screen"
-        >}}
+    {{< image_cld
+      class="details-grid__twoByTwo image-block__right"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1582830616/simply-e/se-main-player-ios.jpg"
+      
+      alt="An image of the main player screen"
+      figcaption="The main player screen"
+    >}}
 
 {{< /section_wrapper>}}
 

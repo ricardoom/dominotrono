@@ -1,7 +1,7 @@
 ---
 title: 'Pearson — Curriculex'
 date: 2023-05-12T13:14:05-07:00
-draft: false
+draft: true
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders

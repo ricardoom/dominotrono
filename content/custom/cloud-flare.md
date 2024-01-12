@@ -48,8 +48,6 @@ newLayout: true
       class="details-grid__fiftyWords big-image"
       >}}
 
-    
-
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -127,7 +125,7 @@ newLayout: true
     class="details-grid__fiftyWords big-image"
     >}}
 
-
+    {{< sl "/portfolio/bronte" "See the full project" >}}
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -185,11 +183,11 @@ newLayout: true
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="Native Bound Unbound" >}}
+
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
     {{< /copy_wrapper>}}
     
-
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -296,6 +294,7 @@ newLayout: true
     class="details-grid__twoByTwo image-block__right"
     >}}
 
+    {{< sl "/portfolio/native-bound-unbound/" "See the complete project">}}
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -340,6 +339,7 @@ newLayout: true
     figcaption="Detail from the home page section where the staff's monthly picks are publicly shared. This particular layout describes possibilities for overlay interactions within the book covers."
     >}}
 
+    {{< sl "/portfolio/nypl-redesign/" "See the more on the redesign project" >}}
     
 {{< /section_wrapper >}}
 
@@ -439,41 +439,10 @@ newLayout: true
 
 {{< section_wrapper class="details-grid" >}}
     
-    {{< section_header level="3" text="NYPL Shared Collections Catalog" >}}
-
-{{< /section_wrapper >}}
-
-
-{{< section_wrapper class="details-grid" >}}
-    
     {{< section_header level="2" text="SimplyE Audio Books & Something" >}}
 
 {{< /section_wrapper >}}
-
-
-
-_Track record of leading design projects from concept to launch Excellent communicator, able to articulate design concepts concisely and effectively_
-
-_Adaptability and a mindset geared towards growth_
-
-_Mastery of Figma and proficiency in Adobe Creative Suite_
-
-_A portfolio demonstrating a range of web and app design experiences_
-
-
-
-
-{{< section_wrapper class="details-grid" >}}
-
-    {{< section_header level="3" text="Native Bound Unbound" >}}
-
-{{< /section_wrapper >}}
-
-
-
-
-
-    
+  
 
 
 {{< section_wrapper class="details-grid" >}}
@@ -491,7 +460,8 @@ Deep understanding of design systems and UI fundamentals
 - Native Bound DS
 - NYPL Design TK
   
-  {{< section_wrapper class="details-grid" >}}
+{{< section_wrapper class="details-grid" >}}
+
     {{< section_header level="2" text="Accessibility" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}

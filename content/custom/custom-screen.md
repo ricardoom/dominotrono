@@ -9,7 +9,7 @@ url: /custom-screen
 newLayout: true
 ---
 
-{{<section_wrapper class="hero-grid" >}}
+{{< section_wrapper class="hero-grid" >}}
     
     {{< image_cld
       loading="eager"
@@ -25,6 +25,7 @@ newLayout: true
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
+
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="Pearson" >}}
@@ -432,6 +433,43 @@ newLayout: true
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
+
+    {{< section_header level="3" text="NYPL Design Toolkit" >}}
+    
+    {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__left" >}}
+      The Design Toolkit was the Library's robust guide and design system for semantics, style, behavior, and accessibility. Complete with functional examples and ready-to-use code.
+    {{< /copy_wrapper>}}
+    
+    {{< section_header level="4" text="Accessibility" >}}
+    {{< copy_wrapper
+      class=" details-grid__twentyWords copy-block__left" >}}
+      We conducted an extensive survey of nypl.org and all of our internal tools, micro-sites, and applications for proper WCAG 2.0 Compliance. With the understanding that the Design Toolkit will need to inform and influence all projects going forward. For structure and style to be fully accessible by default, all components included in the Design Tool Kit would have their accessibility rules baked into their design patterns.
+    {{< /copy_wrapper>}}
+        
+    {{< image_cld
+      class="details-grid__twentyWords image-block__left"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
+      alt=""
+      figcaption="The NYPL brand set color table"
+      >}}
+
+    {{< image_cld
+      class="details-grid__twentyWords image-block__right"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
+      alt=""
+      figcaption=""
+    >}}
+
+      {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__right" >}}
+       We paid close attention to getting our forms correct. Assigning the exact ARIA attributes and states was key to our implementation.
+      {{< /copy_wrapper>}}
+
+    {{< sl "/portfolio/nypl-design-toolkit/" "Go to the full project page">}}
+{{< /section_wrapper>}}
+
+{{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="SimplyE Audio Books Player" >}}
 
@@ -496,42 +534,3 @@ Deep understanding of design systems and UI fundamentals
 - Native Bound DS
 - NYPL Design TK
   
-{{< section_wrapper class="details-grid" >}}
-
-    {{< section_header level="2" text="Accessibility" >}}
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      We conducted an extensive survey of nypl.org and all of our internal tools, micro-sites, and applications for proper WCAG 2.0 Compliance. With the understanding that the Design Toolkit will need to inform and influence all projects going forward. For structure and style to be fully accessible by default, all components included in the Design Tool Kit would have their accessibility rules baked into their design patterns.
-    {{< /copy_wrapper>}}
-        
-    {{< image_cld
-      class="details-grid__twentyWords image-block__left"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576614197/nypl-design-toolkit/nypl-dtk-colors.jpg"
-      alt=""
-      figcaption="The NYPL brand set color table"
-      >}}
-
-    {{< image_cld
-      class="details-grid__twentyWords image-block__right"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,c_scale,f_auto/v1576612344/nypl-design-toolkit/nypl-dtk-forms.jpg"
-      alt=""
-      figcaption=""
-    >}}
-
-      {{< copy_wrapper
-        class="details-grid__twentyWords copy-block__right" >}}
-       We paid close attention to getting our forms correct. Assigning the exact ARIA attributes and states was key to our implementation.
-      {{< /copy_wrapper>}}
-
-{{< /section_wrapper>}}
-  
-- Bronte Spec screen(s)
-  Tab order
-  State specs
-
-
-
-_Experience applying in both qualitative and quantitative user research_
-_Competence in planning and executing user research through platforms like usertesting.com_
-_Familiarity with HTML, CSS, and web technologies_
-_Knowledge of Web Content Accessibility Guideline_

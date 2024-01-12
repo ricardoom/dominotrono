@@ -1,5 +1,4 @@
 {{ $url := .Get 0 }}
 {{ $text := .Get 1 }}
-{{ with $url }}
-<a href="{{ $url }}">{{ $text }} ↗</a>
-{{ end }}
+
+<a href="{{ with $url }}{{ $url }}{{ end }}">{{ with $text }}{{ $text }}{{ end }} ↗</a>

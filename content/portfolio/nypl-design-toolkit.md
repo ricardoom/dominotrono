@@ -24,7 +24,7 @@ projectClients: ['NYPL Digital Team']
 projectCredits: ['Mauricio Giraldo Arteaga', 'Willa Armstrong', 'Edwin Guzman']
 projectDate: '2016 - 2018'
 externalURL: 'https://nypl.github.io/design-toolkit/'
-projectDesc: "The Design Toolkit was the Library's robust guide and design system for semantics, style, behavior, and accessibility. Complete with functional examples and ready to use code."
+projectDesc: "The Design Toolkit was the Library's robust guide and design system for semantics, style, behavior, and accessibility. Complete with functional examples and ready-to-use code."
 newLayout: true
 ---
 

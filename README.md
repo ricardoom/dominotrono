@@ -5,6 +5,10 @@ Built with static site generator Hugo, SASS, and vanilla JavaScript
 ## Versions ~ Changelog
 
 ### Versions
+- 0.1.2
+  - Added a new custom content screen/markdown file for custom pages to target employers instead of the generic portfolio page.
+  - Style changes to `sass` and markup changes to the `html` template clean up and modification.
+ 
 - 0.1.1
   - Minor content updates
   - Corrections to spelling, grammar and syntax on this README (🥤)

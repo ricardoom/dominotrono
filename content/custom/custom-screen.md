@@ -512,25 +512,7 @@ newLayout: true
 
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__right" >}}
-      The screens
+      {{< sl "/portfolio/simplye-audiobook-player/" "Go to the full project page" >}}
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper >}}
-  
-
-
-{{< section_wrapper class="details-grid" >}}
-    
-{{< /section_wrapper >}}
-
-{{< section_wrapper class="details-grid">}}
-
-    {{< section_header level="2" text="Thirteen — New York Public Media, PBS" >}}
-
-{{< /section_wrapper >}}
-
-Deep understanding of design systems and UI fundamentals
-
-- Native Bound DS
-- NYPL Design TK
-  

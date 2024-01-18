@@ -1,7 +1,7 @@
 ---
 title: 'Pearson — Curriculex'
 date: 2023-05-12T13:14:05-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders
@@ -105,7 +105,7 @@ tech: ['Figma', 'Miro']
     {{< section_header level="3" text="Instructor Dashboards" >}}
       {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686598671/curriculex/TopLevelLandingScreen.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686598671/curriculex/TopLevelLandingScreen.webp"
     alt=""
     figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering the current roster, subject matter as well as pathways to subject and course work prep."
     class="details-grid__fiftyWords big-image"
@@ -139,7 +139,7 @@ tech: ['Figma', 'Miro']
     {{< section_header level="4" text="Student-focused drill downs" >}}
     {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686090223/curriculex/analytics/roster.webp"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686090223/curriculex/analytics/roster.webp"
       alt="An image of an analytics screen"
       figcaption="The roster screen where an instructor can monitor attendance, scores and progress."
       class="details-grid__twoByTwo image-block__left"
@@ -156,38 +156,47 @@ tech: ['Figma', 'Miro']
   
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
-  {{< /copy_wrapper>}}
+    {{< /copy_wrapper>}}
 {{< /section_wrapper >}}
+
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="4" text="Assigment management interface" >}}
-  {{< image_cld
+      
+      {{< section_header level="4" text="Assigment management interface" >}}
+      {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,t_960_2x/v1686082078/curriculex/AssignmentsClassWorkLanding.webp"
-      alt="an image of a students assignment progress"
-      figcaption="Assignment Management landing screen"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686082078/curriculex/AssignmentsClassWorkLanding.webp"
+      alt="an image of a student's progress through an assignment"
+      figcaption="Assignment Management landing screen showing progress through the given assignment"
       class="details-grid__fiftyWords big-image"
     >}}
 
-  {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     An area of exploration for the instructor's experience was to explore assignment management. We wanted to have a high level landing page that gave the instructor a snapshot of assignments in flight as well as access to libraries of assignment content with interfaces to delve deeper.
-   {{< /copy_wrapper>}}
+    {{< /copy_wrapper>}}
+
 {{< /section_wrapper>}}
+
 {{< section_wrapper class="details-grid" >}}
+        
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
           Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
         {{< /copy_wrapper >}}
 {{< /section_wrapper >}}
+        
 {{< section_wrapper class="details-grid" section-header="During Class Experience">}}
-  {{< section_header level="2" text="During Class Experience" >}}
+  
+        {{< section_header level="2" text="During Class Experience" >}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
           Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
         {{< /copy_wrapper>}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
           Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
         {{< /copy_wrapper>}}
+
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="3" text="Group Work" >}}
+        
+        {{< section_header level="3" text="Group Work" >}}
         {{< image_cld
         loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1685998986/curriculex/group%20work/Expanded.webp"
@@ -195,46 +204,56 @@ tech: ['Figma', 'Miro']
         figcaption="A screen detailing how a set of questions given either in person or remotely can be followed by an instructor."
         class="details-grid__fiftyWords big-image"
         >}}
+
 {{< /section_wrapper >}}
+
 {{< section_wrapper class="details-grid" >}}
+      
       {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1685581521/curriculex/group%20work/Case_Study_Group_Project.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1685581521/curriculex/group%20work/Case_Study_Group_Project.jpg"
       alt=""
       figcaption=""
       class="details-grid__twoByTwo image-block__left"
       >}}
+      
       {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1685581521/curriculex/group%20work/All_Answers_by_Group.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1685581521/curriculex/group%20work/All_Answers_by_Group.jpg"
       alt="An image from the beginning of the case study group work screen"
       figcaption="Detailed progress per group"
       class="details-grid__twoByTwo image-block__right"
       >}}
+      
        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
           Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
         {{< /copy_wrapper>}}
+      
       {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686605740/curriculex/group%20work/OverallByGroup.webp"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686605740/curriculex/group%20work/OverallByGroup.webp"
       alt=""
       figcaption="An example of a case study group project"
       class="details-grid__twoByTwo image-block__left"
       >}}
+      
       {{< image_cld
       loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686604966/curriculex/group%20work/ChatRaisedHand.webp"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686604966/curriculex/group%20work/ChatRaisedHand.webp"
       alt="An admin screen from the case study"
       figcaption="Instructor's view of a group project with chat feature window open"
       class="details-grid__twoByTwo image-block__right"
       >}}
-        {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+      
+      {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
           Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
         {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="3" text="Interactive Lecture Feature" >}}
-        {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+
+    {{< section_header level="3" text="Interactive Lecture Feature" >}}
+    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
           Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
-        {{< /copy_wrapper>}}
+    {{< /copy_wrapper>}}
+
 {{< /section_wrapper>}}

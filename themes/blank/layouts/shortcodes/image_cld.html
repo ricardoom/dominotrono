@@ -10,6 +10,9 @@
 {{ $ph := $.Site.Params.placeHolderSVG }}
 {{ $cl := $.Site.Params.cloudinary }}
 {{ $path := $cl.cloudPath }}
+{{/*  Make some Static dimensions:  */}}
+{{ $sw := 1600 }}
+{{ $sh := 900 }}
 
 <figure class="[ {{ $class }} ]" {{ if $title }} title="{{ $title }}" {{ end }}>
 
@@ -27,6 +30,9 @@
     {{ else }}
     alt="an image of an artifact in the {{ .Params.Title }} portfolio item"
     {{ end }}
+    
+    height="{{ $sh }}"
+    width="{{ $sw }}"
      />
   {{ with $fc }}
   <figcaption>{{ . }}</figcaption>

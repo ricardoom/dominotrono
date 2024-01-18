@@ -135,20 +135,27 @@ feature: ['user-experience']
     {{< image_cld
       class="details-grid__twoByTwo image-block__left"
       
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640/v1576000908/nypl-staff-picks/basic_mobile_card_v3.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_auto/v1576000908/nypl-staff-picks/basic_mobile_card_v3.webp"
       alt=""
       figcaption=""
-      >}}
+    >}}
 
-    {{< image
+
+    {{< image_cld
       class="details-grid__twoByTwo image-block__right"
-      srcsetOne="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_320/v1576000908/nypl-staff-picks/basic_mobile_card_v4.jpg 1x"
-      srcsetTwo="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_2.0/v1576000908/nypl-staff-picks/basic_mobile_card_v4.jpg 2x"
-      srcsetThree="https://res.cloudinary.com/toupeeproofbullets/image/upload/c_scale,w_640,dpr_3.0/v1576000908/nypl-staff-picks/basic_mobile_card_v4.jpg 3x"
-      src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548801964/nypl-staff-picks/newCard3.jpg"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,f_auto,q_auto,c_scale/v1548801964/nypl-staff-picks/newCard3.webp"
       alt=""
       figcaption=""
-      >}}
+    >}}
+
+    {{< image_cld
+      class="details-grid__twoByTwo image-block__right"
+      
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,f_auto,q_auto,c_scale/v1548801964/nypl-staff-picks/basic_mobile_card_v4.webp"
+      alt=""
+      figcaption=""
+    >}}
 
 {{< /section_wrapper >}}
 

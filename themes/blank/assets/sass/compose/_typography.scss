@@ -174,14 +174,7 @@ a {
   color: var(--hover-color);
   @include focus-ring(outline, var(--hover-color));
   }
-
-// &:focus {
-//     @include focus-ring(outline, var(--hover-color));
-//   }
 }
-
-
- 
 
 ///
 /// Basic typographic rules

@@ -5,6 +5,10 @@ Built with static site generator Hugo, SASS, and vanilla JavaScript
 ## Versions ~ Changelog
 
 ### Versions
+- 0.1.3
+  - Much clean up of repetitive CSS on the nav
+  - Added navigation to the footer
+
 - 0.1.2
   - Added a new custom content screen/markdown file for custom pages to target employers instead of the generic portfolio page.
   - Style changes to `sass` and markup changes to the `html` template clean up and modification.

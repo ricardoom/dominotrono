@@ -159,7 +159,7 @@ h4, .fonts-loaded h4 {
 ///
 
 a {
-  --hover-color: #{$cool-sky-blue};
+  color: var(--hover-color);
   &:link {
     color: $site-link;
   }
@@ -172,11 +172,12 @@ a {
   &:hover,
   &:focus {
   color: var(--hover-color);
+  @include focus-ring(outline, var(--hover-color));
   }
 
-&:focus {
-    @include focus-ring(outline);
-  }
+// &:focus {
+//     @include focus-ring(outline, var(--hover-color));
+//   }
 }
 
 

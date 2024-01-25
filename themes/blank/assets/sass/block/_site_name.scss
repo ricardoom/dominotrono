@@ -1,0 +1,39 @@
+.site-name-container {
+    @include media('>=phone') {
+      display: block;
+      flex: 2 1 95%;
+    }
+
+    .name {
+      
+      @include media('>=tablet') {
+        margin: 0;
+      }
+  
+      
+      @include basic-drop-shadow;
+      color: $site-white;
+      display: flex;      
+      font-style: normal;
+      font-weight: 450;
+      letter-spacing: .02em;
+      padding-block: var(--s-2);
+      padding-inline: var(--s-2);
+      text-decoration: none;
+      width: fit-content;
+  
+      &:hover,
+      &:focus {
+     color: var(--hover-color);
+     @include focus-ring(outline, var(--hover-color));
+        }
+    }
+}
+
+:is(footer) .name {
+    font-size: ft(var(--s-1), var(--s1));
+}
+
+:is(header) .name {
+    font-size: ft(var(--s0), var(--s1));
+}

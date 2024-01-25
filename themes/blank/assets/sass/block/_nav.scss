@@ -4,7 +4,9 @@
 
 
 // Shared Nav properties (Large vs. Small Screens)
-.siteNavigation {
+// These rules apply to the Footer Nav
+.siteNavigation,
+.footerNavigation {
  
   ul {
    display: flex;
@@ -15,9 +17,9 @@
     padding-inline: 0 var(--s0);
     text-transform: capitalize;
 
-    @include media('<tablet') {
-      align-self: flex-end;
-    }
+    // @include media('<tablet') {
+    //   // align-self: flex-end;
+    // }
     
     a,
     a:visited {
@@ -34,7 +36,7 @@
 
    .social-icon {
     @include basic-drop-shadow(svg);
-    align-self: flex-end;
+    // align-self: flex-end;
     
     a {
       align-items: center;
@@ -129,11 +131,11 @@
 
   ul {
     @include media('>=phone') {
+      align-items: flex-end;
       background: transparentize($site-black, 0.2);
       background-image: linear-gradient($site-black 20%, transparentize($site-black, 1) 100%);
-      color: transparent;
+      // color: transparent;
       filter: opacity(0);
-      // display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       height: 100vh; // TODO fix this view port unit 

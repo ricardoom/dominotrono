@@ -19,38 +19,6 @@ header {
     display: flex;
     align-items: center;
   }
-
-  .site-name-container {
-    @include media('>=phone') {
-      display: block;
-      flex: 2 1 95%;
-    }
-
-    .name {
-      
-      @include media('>=tablet') {
-        margin: 0;
-      }
-
-      
-      @include basic-drop-shadow;
-      // align-self: end;
-      color: $site-white;
-      display: flex;
-      font-size: clamp(18px, 2vw, var(--s2));
-      font-style: normal;
-      font-weight: 450;
-      letter-spacing: .02em;
-      padding-block: var(--s-2);
-      padding-inline: var(--s-2);
-      text-decoration: none;
-      width: fit-content;
-
-      &:hover,
-      &:focus {
-     color: $site-acid-green;
-     @include focus-ring(outline)
-    }
-    }
-  }
 }
+
+

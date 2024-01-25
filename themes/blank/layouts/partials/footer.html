@@ -19,7 +19,8 @@
 
 
 <footer>
-  <nav class="[ footerNavigation ][ debug ]">
+  {{ partial "site_name.html" . }}
+  <nav class="[ footerNavigation ]">
     <ul id="navItems" class="[ siteNavigation--items ]">
       {{ range .Site.Menus.main }}
       <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>

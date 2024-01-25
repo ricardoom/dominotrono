@@ -34,6 +34,7 @@
 @import 'block/twitter_hash';
 @import 'block/canvas';
 @import 'block/summary';
+@import 'block/site_name';
 @import 'block/header';
 @import 'block/portfolio_images';
 @import 'block/portfolio_list';
@@ -68,39 +69,12 @@
 
 body {
   background-color: $site-prince-purple;
-  // background-color: pink;
-  // background-repeat: no-repeat;
-  // background-size: cover;
   color: $site-white;
   font-family: $frank-new;
   font-size: $base-font;
-  // margin: 0 auto;
-  // max-width: $wide-screen;
   min-height: 100vh;
   overflow-x: scroll;
 }
-
-// body > * {
-//     margin-bottom: var(--s0);
-//     padding-left: var(--s0);
-//     padding-right: var(--s0);
-//     padding-inline-end: var(--s0);
-//     padding-inline-start: var(--s0);
-//   }
-
-// main {
-//   @include media('<=tablet') {
-//       margin-block-start: var(--s0);
-//     }
-// }
-
-
-// header {
-//   @include media('<=tablet') {
-//     padding-block-end: var(--s05);
-//     padding-block-start: var(--s05);
-//   }
-// }
 
 ul {
   margin: 0;

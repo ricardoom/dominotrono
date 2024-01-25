@@ -44,9 +44,7 @@
 
     <header role="banner" class="[ site-header ]">
       <div class="[ wrapper ]">
-        <div class="[ site-name-container ]">
-          <a href="{{ .Site.BaseURL }}" class="[ name ]">{{ .Site.Title }}</a>
-        </div>
+        {{ partial "site_name.html" . }}
         {{ partial "nav.html" . }}
       </div>
     </header>

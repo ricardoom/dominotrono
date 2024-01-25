@@ -14,11 +14,22 @@
 {{ $jsVendor := .Site.Params.vendors }}
 {{ $jsLowerCased := lower $pageJS }}
 {{ $cat := .Param "categories" }}
+{{ $resume := .Site.Params.resume  }}
+{{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
+
 
 <footer>
-  <section>
-    <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
-  </section>
+  {{ partial "site_name.html" . }}
+  <nav class="[ footerNavigation ]">
+    <ul id="navItems" class="[ siteNavigation--items ]">
+      {{ range .Site.Menus.main }}
+      <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      {{ end }}
+      <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>
+      {{- partial "social_list.html" . -}}
+    </ul>
+  </nav>
+  <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
 </footer>
 {{ if $local }}
   <script src="{{ $script.RelPermalink }}"></script>

@@ -2,10 +2,74 @@
 /// Navigation
 ///
 
+
+// Shared Nav properties (Large vs. Small Screens)
+// These rules apply to the Footer Nav
+.siteNavigation,
+.footerNavigation {
+ 
+  ul {
+   display: flex;
+
+   li {
+    margin-inline-end: var(--s0);
+    padding-block: var(--s0) 0;
+    padding-inline: 0 var(--s0);
+    text-transform: capitalize;
+
+    // @include media('<tablet') {
+    //   // align-self: flex-end;
+    // }
+    
+    a,
+    a:visited {
+      @include basic-drop-shadow(text);
+    }
+
+    a {
+      align-self: center;
+      padding-block: var(--s-1);
+      padding-inline: var(--s-1);
+      text-decoration: none;
+    }
+   }
+
+   .social-icon {
+    @include basic-drop-shadow(svg);
+    // align-self: flex-end;
+    
+    a {
+      align-items: center;
+      display: flex;
+
+      // &:hover {
+      //   box-shadow: none;
+      // }
+
+      &:hover svg,
+      &:focus svg {
+        fill: var(--hover-color);
+        }
+    }
+
+    svg {
+      fill: $site-white;
+      height: var(--s1);
+    }
+   }
+  }
+}
+
+// Mobile Nav
 .siteNavigation {
-  
-  // Mobile Nav
+
   button {
+    &:active,
+    &:focus {
+      fill: var(--hover-color);
+      @include focus-ring(outline, var(--hover-color));
+    }
+
     @include media('>=phone') {
       @supports not (display: flex) {
         display: block;
@@ -27,7 +91,7 @@
       }
 
       svg {
-        fill: $site-acid-green;
+        fill: var(--hover-color);
         height: var(--s1);
         transform: rotate(90deg);
         transition: transform ease-in 210ms, fill ease-in 110ms;
@@ -56,97 +120,25 @@
       background: transparentize($site-black, 0.2);
 
       .menu-label {
-        color: $site-acid-green;
+        color: var(--hover-color);
       }
     }
 
     @include media('>=tablet') {
       display: none;
     }
-  }
-  
-  // .siteNavigation {
-
-    &--items { // the <ul>
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-flow: row nowrap;
-
-        @include media('>=tablet') {
-          grid-column: 1 / 6;
-          justify-content: flex-start;
-        }
-      
-
-
-      li {
-        a {
-          @include basic-drop-shadow(text);
-          padding: var(--s-3) var(--s-2) 0;
-          padding-block-start: var(--s-3);
-          padding-block-end: var(--s-2);
-          padding-inline-end: var(--s-2);
-          padding-inline-start: var(--s-2);
-          text-decoration: none;
-        }
-      }
-      
-      .text-link {
-        align-self: center;
-        margin-right: var(--s0);
-        margin-inline-end: var(--s0);
-        text-transform: capitalize;
-
-        // a:first-child {
-          // padding-inline-start: 0;
-        // }
-
-        @include media('<tablet') {
-          align-self: flex-end;
-        }
-      }
-
-      .social-icon {
-        @include basic-drop-shadow(svg);
-        @include media('<tablet') {
-          align-self: flex-end;
-        }
-
-        align-self: center;
-
-        a {
-          display: block;
-
-          &:hover {
-            box-shadow: none;
-          }
-
-          &:hover svg,
-          &:focus svg {
-            fill: $site-punk-pink;
-          }
-        }
-
-        svg {
-          fill: $site-white;
-          height: var(--s1);
-        }
-      }
-    } // /ul
-  // }
+  }  
 
   ul {
     @include media('>=phone') {
+      align-items: flex-end;
       background: transparentize($site-black, 0.2);
       background-image: linear-gradient($site-black 20%, transparentize($site-black, 1) 100%);
-      color: transparent;
+      // color: transparent;
       filter: opacity(0);
-      display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      height: 100vh;
+      height: 100vh; // TODO fix this view port unit 
       justify-content: flex-start;
       left: 0;
       position: absolute;
@@ -156,22 +148,11 @@
 
       li {
         display: flex;
-        justify-content: flex-end;
-        margin: unset;
-        padding: var(--s0) var(--s0) 0 0;
-        padding-block-start: var(--s0);
-        padding-inline-end: var(--s0);
-
-        a {
-          &:hover,
-          &:focus {
-            color: $site-acid-green;
-            @include focus-ring(outline)
-          }
-          &:focus {
-            @include focus-ring(outline)
-          }
-        }
+        margin-inline-end: var(--s-1);
+        padding-block-start:  var(--s-2);
+        padding-block-end: var(--s-2);
+        padding-inline-end: var(--s-2);
+        padding-inline-start: var(--s-2);
       }
 
       &.is-inactive {
@@ -187,21 +168,12 @@
     }
 
     @include media('>=tablet') {
-      display: flex;
+      // display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       filter: opacity(1);
       height: auto;
       position: relative;
-
-      li {
-        justify-items: center;
-        padding: 0 var(--s0) 0 0;
-        padding-block-end: 0;
-        padding-block-start: 0;
-        padding-inline-end: var(--s0);
-        padding-inline-start: 0;
-      }
     }
   }
 
@@ -210,86 +182,4 @@
   .social-svg {
     display: none;
   }
-}
-
-// Large Screen Nav
-
-.siteNavigation {
-  &--items {
-    // the <ul>
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-flow: row nowrap;
-
-    @include media('>=tablet') {
-      grid-column: 1 / 6;
-      justify-content: flex-start;
-    }
-
-    li {
-      padding-top: 0;
-      padding-block-start: 0;
-
-      a {
-        @include basic-drop-shadow(text);
-        color: $site-link-nav;
-        padding: 0 var(--s-2) 0;
-        padding-block-start:  var(--s-2);
-        padding-block-end: var(--s-2);
-        padding-inline-end: var(--s-2);
-        padding-inline-start: var(--s-2);
-        text-decoration: none;
-
-        &:visited {
-          color: $site-link-nav;
-        }
-      }
-    }
-
-    .text-link {
-      align-self: center;
-      margin-right: var(--s0);
-      margin-inline-end: var(--s0);
-
-      a:first-child {
-        // padding-inline-start: 0;
-      }
-
-      @include media('<tablet') {
-        align-self: flex-end;
-      }
-    }
-
-    .social-icon {
-      @include basic-drop-shadow(svg);
-      @include media('<tablet') {
-        align-self: flex-end;
-        margin-right: var(--s0);
-        margin-inline-end: var(--s0);
-      }
-
-      align-self: center;
-
-      a {
-        display: block;
-        padding-block-end: 0;
-
-        &:hover {
-          box-shadow: none;
-        }
-
-        &:hover svg,
-        &:focus svg {
-          fill: $site-acid-green;
-        }
-      }
-
-      svg {
-        fill: $site-white;
-        height: var(--s1);
-      }
-    }
-  } // /ul
 }

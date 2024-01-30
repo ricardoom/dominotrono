@@ -4,7 +4,7 @@ date: 2021-02-24T14:58:13-05:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-portfolioHeroSqip: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_hp_lqip/v1612896446/dcnm/dcnm_card.png'
+portfolioHeroSqip: '../media/portfolio/decolonizing-new-mexico/hero-sqip.svg'
 portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1614280367/decolonizing-nm/dcnm-hp2.jpg'
 portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1614280367/decolonizing-nm/dcnm-hp2.jpg'
 portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1614280367/decolonizing-nm/dcnm-hp2.jpg'

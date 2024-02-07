@@ -1,7 +1,7 @@
 ---
 title: 'NYPL New Arrivals'
 date: 2023-05-12T13:52:25-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders
@@ -86,7 +86,7 @@ newLayout: true
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686948246/nypl-browse-new-arrivals/bna-list-view.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686948246/nypl-browse-new-arrivals/bna-list-view.webp"
     alt=""
     figcaption="Another detail of the list view, however, this showcases a default SVG placeholder when a poster image is unavailable"
     class="details-grid__twentyWords image-block__right"

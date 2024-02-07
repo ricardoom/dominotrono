@@ -1,7 +1,7 @@
 ---
 title: 'Pearson — Curriculex'
 date: 2023-05-12T13:14:05-07:00
-draft: true
+draft: false
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders
@@ -38,6 +38,7 @@ tech: ['Figma', 'Miro']
 {{< section_wrapper class="hero-grid" >}}
     
     {{< image_cld
+      preload=true
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,f_auto,q_auto/v1686070114/curriculex/curriculexOverview.webp"
       alt=""

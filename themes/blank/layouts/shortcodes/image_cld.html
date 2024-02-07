@@ -10,13 +10,17 @@
 {{ $ph := $.Site.Params.placeHolderSVG }}
 {{ $cl := $.Site.Params.cloudinary }}
 {{ $path := $cl.cloudPath }}
+{{ $preload := .Get "preload" }}
 {{/*  Make some Static dimensions:  */}}
 {{ $sw := 1600 }}
 {{ $sh := 900 }}
 
 <figure class="[ {{ $class }} ]" {{ if $title }} title="{{ $title }}" {{ end }}>
 
-  <img 
+  <img
+    {{ with $preload }}
+    rel="preload"
+    {{ end }}
     class="[ {{ $cl.class }} ]"
     src="{{ $ph }}"
     data-src="{{ $dataSrc }}"

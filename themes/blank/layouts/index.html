@@ -26,9 +26,10 @@
 {{/*  {{ if $local }}
   {{ partial "sidebar.html" . }}
 {{ end }}  */}}
+
 {{ partial "footer.html" . }}
-  {{ if $local }} 
-    {{ partial "svg/filter.html" . }}
-    {{/*  {{ partial "dev.html" . }}  */}}
-  {{ end }}
+{{ if $local }} 
+  {{ partial "svg/filter.html" . }}
+  {{/*  {{ partial "dev.html" . }}  */}}
+{{ end }}
   

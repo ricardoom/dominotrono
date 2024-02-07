@@ -4,8 +4,8 @@
 {{ $socialSprites := resources.Get "js/sprites.js" }}
 {{ $utils := resources.Get "js/utils.js" }}
 {{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" }}
-{{ $cloudinaryCore := "https://unpkg.com/cloudinary-core@2.11.3/cloudinary-core-shrinkwrap.min.js" }}
-{{ $cloudinaryCoreSkyPack := "https://cdn.skypack.dev/cloudinary-core" }}
+{{ $cloudinaryCore := .Site.Params.cloudinary.core }}
+{{ $cloudinaryCoreSkyPack := .Site.Params.cloudinary.skypack }}
 {{ $customJS := .Param "experimentJS" }}
 {{ $customJsURL := .Site.Params.customJsURL }}
 {{ $customJsPath := .Site.Params.customJsPath }}
@@ -20,14 +20,15 @@
 
 <footer>
   {{ partial "site_name.html" . }}
-  <nav class="[ footerNavigation ]">
-    <ul id="navItems" class="[ siteNavigation--items ]">
+  <nav id="footer-navigation" class="[ footerNavigation ]">
+    <ul id="footer-nav-items" class="[ siteNavigation--items ]">
       {{ range .Site.Menus.main }}
       <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
       <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>
-
-      {{- partial "social_list.html" . -}}
+      
+        {{- partial "social_list.html" . -}}
+      
     </ul>
   </nav>
   <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>

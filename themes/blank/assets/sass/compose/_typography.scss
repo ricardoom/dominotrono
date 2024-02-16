@@ -14,16 +14,15 @@ $monospace: 'SFMono-Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida
 
 $slab-serif: 'Rockwell', 'Rockwell Extra Bold', 'Courier New', Monoco, Courier, monospace;
 
-
-
 ///
 /// from Adobe Typekit
 /// see FontFace Observer
 ///
 
-$frank-new: 'frank-new', $sans-serif;
+$frank-new: 'new-frank', $sans-serif;
 $inter: 'Inter', $sans-serif;
 $justus-pro: 'justus-pro', $serif;
+$ivyepic: 'ivyepic-variable', $serif;
 
 ///
 /// type size
@@ -36,6 +35,10 @@ $base-font-gigantic: var(--s2);
 $base-letter-spacing: 0.01;
 
 $max-line-length: var(--measure);
+
+// Variable Font Variables:
+//
+
 
 ///
 /// basic <h#>
@@ -71,7 +74,7 @@ $headings: (h1, h2, h3, h4, h5, h6);
   }
 
   .fonts-loaded #{$heading} {
-    font-family: $frank-new;
+    font-family: $ivyepic;
   }
 }
 
@@ -122,17 +125,30 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 //   font-size: ft(var(--s3), 4vw, var(--s6));
 // }
 
+
+html {
+  --wdth: 82;
+  --wght: 274;
+}
+
 h1 {
-    --line-height: clamp(calc(var(--s2) * 1.2), #{$preferredValue}, calc(var(--s4) * 1.5)); 
+    --wdth: 95;
+    --wght: 333;
+    --line-height: clamp(calc(var(--s2) * 1.2), #{$preferredValue}, 
+    calc(var(--s4) * 1.5));
+    font-family: $ivyepic;
     font-size: ft(var(--s2), var(--s4));
-    font-weight: 100;
+    font-variation-settings: 'wdth' var(--wdth), 'wght' var(--wght), 'slnt' 0;
+    // font-weight: 100;
+    letter-spacing: .017em;
     line-height: var(--line-height);
 }
 
 h2 {
    --line-height: clamp((var(--s05), #{$preferredValue}, var(--s1))); 
   // font-size: clamp(var(--s0), $preferredValue, var(--s2));
-  font-size: ft(var(--s0), var(--s2));
+  font-size: ft(var(--s1), var(--s2));
+  font-variation-settings: 'wght';
   line-height: var(--line-height);
 }
 
@@ -146,7 +162,8 @@ h3 {
   margin-bottom: var(--s-1);
 }
 
-h4, .fonts-loaded h4 {
+h4, 
+.fonts-loaded h4 {
   font-family: $sans-serif;
   font-size: ft(var(--s-2), var(--s0));
   font-weight: 700;

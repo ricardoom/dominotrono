@@ -6,8 +6,9 @@
 {{ $l := $.Get "level" }}
 {{ $t := $.Get "text" }}
 {{ $p := $.Get "position" }}
+{{ $id := lower (replace $t " " "-") }}
 
 
 {{ if and ( $l ) ( ne $l "" ) }}
-<h{{ $l }} class="[ heading {{ with $p }}{{ . }}{{ end }} ]" id="{{ $t }}">{{ $t }}</h{{ $l }}>
+<h{{ $l }} class="[ heading {{ with $p }}{{ . }}{{ end }} ]" id="{{ $id }}">{{ $t }}</h{{ $l }}>
 {{ end }}

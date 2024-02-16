@@ -1,7 +1,7 @@
 ---
 title: 'NYPL New Arrivals'
 date: 2023-05-12T13:52:25-07:00
-draft: false
+draft: true
 categories: 'portfolio'
 author: Ricardo G.
 ## SQIP / LQIP Placeholders

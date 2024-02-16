@@ -102,7 +102,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688154138/native-bound-unbound/ThemeBrightWhite.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1688154138/native-bound-unbound/ThemeBrightWhite.webp"
     alt=""
     figcaption="Light theme exploration"
     class="details-grid__twentyWords image-block__right"
@@ -123,20 +123,21 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-  {{< image_cld
+  
+    {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688155135/native-bound-unbound/LogoBlocking.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1688155135/native-bound-unbound/LogoBlocking.webp"
     alt=""
     figcaption=""
     class="details-grid__twoByTwo image-block__left"
-   >}}
-  {{< image_cld
+    >}}
+    {{< image_cld
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1685569391/native-bound-unbound/Logos.webp"
     alt="An image of logo types organized in a grid"
     figcaption="The panoply of logos. A wide variety for a number of different applications and implementations."
     class="details-grid__twoByTwo image-block__right"
-  >}}
+    >}}
 
 {{< /section_wrapper>}}
 
@@ -231,7 +232,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688072584/native-bound-unbound/FooterNavigation.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1688072584/native-bound-unbound/FooterNavigation.webp"
     alt=""
     figcaption=""
     class="details-grid__twoByTwo image-block__right"
@@ -265,7 +266,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688073604/native-bound-unbound/cardVariant.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1688073604/native-bound-unbound/cardVariant.webp"
     alt="An image of design work for card layouts"
     figcaption="Basic card layout in Figma displaying light and dark modes as well as active composition layers"
     class="details-grid__twoByTwo image-block__left"
@@ -305,10 +306,11 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="3" text="Page & Screen Layouts" >}}
-  {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
+  
+    {{< section_header level="3" text="Page & Screen Layouts" >}}
+    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
     At the time of this writing, the design system has been approved and is ready for deployment. The home page utilizes all defined aspects of the system; color, type and layout. The Figma files are complete and can be easily used by the both front-end and design staff. 
-  {{< /copy_wrapper>}}
+    {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 
@@ -335,11 +337,12 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 {{< /section_wrapper>}}
 
 {{< section_wrapper class="details-grid" >}}
-  {{< section_header level="3" text="Composed interior page layouts" >}}
-  {{< copy_wrapper
+  
+    {{< section_header level="3" text="Composed interior page layouts" >}}
+    {{< copy_wrapper
     class="details-grid__twentyWords copy-block__left" >}}
     The following is a Figma layout demonstrating a full page composite where components are assembled to define a layout for both mobile and desktop. I like to move away from these terms and refer to screens as large or small. My thinking here is that we should move away from specifics about user devices and think more broadly. I also like to include helper elements (the pink blocks and bars) on their layers for ease of toggling. This serves as an assistant to myself and other designers. Providing a very quick read on spatial correctness as defined by the defined scalar rules.
-  {{< /copy_wrapper>}}
+    {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 
@@ -347,7 +350,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
     
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1685057837/native-bound-unbound/WIPInteriorScreen.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1685057837/native-bound-unbound/WIPInteriorScreen.webp"
     alt="an Image of work in progress screens"
     figcaption="A fully composed layout with text and imagery"
     caption=""
@@ -360,7 +363,7 @@ tech: ['Figma', 'Hugo', 'HTML', 'SASS']
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688152872/native-bound-unbound/SmallBlogPost.webp"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1688152872/native-bound-unbound/SmallBlogPost.webp"
     alt="A small screen blog post layout"
     figcaption="Small screen blog post layout"
     class="details-grid__twoByTwo image-block__left"

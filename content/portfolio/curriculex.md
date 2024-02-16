@@ -155,9 +155,7 @@ tech: ['Figma', 'Miro']
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}       
   
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-    Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
-    {{< /copy_wrapper>}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper>}}
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -179,20 +177,14 @@ tech: ['Figma', 'Miro']
 
 {{< section_wrapper class="details-grid" >}}
         
-        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
-        {{< /copy_wrapper >}}
+        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper >}}
 {{< /section_wrapper >}}
         
 {{< section_wrapper class="details-grid" section-header="During Class Experience">}}
   
         {{< section_header level="2" text="During Class Experience" >}}
-        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
-        {{< /copy_wrapper>}}
-        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
-        {{< /copy_wrapper>}}
+        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper>}}
+        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
@@ -226,9 +218,7 @@ tech: ['Figma', 'Miro']
       class="details-grid__twoByTwo image-block__right"
       >}}
       
-       {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
-        {{< /copy_wrapper>}}
+       {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper>}}
       
       {{< image_cld
       loading="lazy"
@@ -246,15 +236,11 @@ tech: ['Figma', 'Miro']
       class="details-grid__twoByTwo image-block__right"
       >}}
       
-      {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
-          Officia pariatur id aliqua irure anim duis magna dolore eu proident consequat ipsum. Lorem ipsum do fugiat minim culpa laboris cillum in ex minim anim nulla. Aute veniam non aliquip consequat in commodo ut irure sit. Proident laboris velit adipisicing mollit qui elit anim id quis ea fugiat veniam do eiusmod.
-        {{< /copy_wrapper>}}
+      {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}{{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Interactive Lecture Feature" >}}
-    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}
-          Id occaecat occaecat ut reprehenderit ut occaecat ex ipsum aute cupidatat dolore id ad ad. Velit voluptate non quis id mollit reprehenderit. Labore occaecat deserunt culpa aliqua duis mollit est deserunt Lorem. Fugiat sint minim eu nulla eu ea pariatur anim laborum excepteur duis velit culpa. Aute commodo sunt labore do voluptate magna ea eu laborum magna aliqua.
-    {{< /copy_wrapper>}}
+    {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}{{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}

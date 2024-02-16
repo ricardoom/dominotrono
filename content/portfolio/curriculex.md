@@ -48,8 +48,8 @@ tech: ['Figma', 'Miro']
     {{< copy_wrapper
       class="hero-grid__copyBlock" >}}
       Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. From a student's perspective, reading through long tracts of dense text is neither tenable nor provides the necessary background and foundation for real-world nursing situations.
-  {{< /copy_wrapper >}}
-{{< /section_wrapper >}}
+  {{< /copy_wrapper>}}
+{{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
   
     {{< section_header level="2" text="Towards a solution..." >}}
@@ -100,9 +100,11 @@ tech: ['Figma', 'Miro']
         An alternate screen visualizing an interface for organizing lecture content (see more below ↓). The idea here is: As an instructor, I want to see which lectures I must prepare for that day. This interface visualizes a chronological feed of upcoming "during class lectures" based on cohort and section.
       {{< /copy_wrapper>}}
   {{< /section_wrapper>}}
-{{< section_wrapper class="details-grid" section-header="Before Class Experience & Analytics Screens" >}}
+  {{< section_wrapper class="details-grid" section-header="Before Class Experience & Analytics Screens" >}}
   
     {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}} The overarching concept for the dashboard and subsequent screens is to provide the instructor with a range of increasingly granular insights into their class's progress.
+    {{< /copy_wrapper>}}
     {{< section_header level="3" text="Instructor Dashboards" >}}
       {{< image_cld
     loading="lazy"
@@ -111,8 +113,7 @@ tech: ['Figma', 'Miro']
     figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering the current roster, subject matter as well as pathways to subject and course work prep."
     class="details-grid__fiftyWords big-image"
     >}}
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}} The overarching concept for the dashboard and subsequent screens is to provide the instructor with a range of increasingly granular insights into their class's progress.
-    {{< /copy_wrapper>}}
+    
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -137,7 +138,7 @@ tech: ['Figma', 'Miro']
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
 
-    {{< section_header level="4" text="Student-focused drill downs" >}}
+    {{< section_header level="4" text="Student-focused Drill Downs" >}}
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686090223/curriculex/analytics/roster.webp"
@@ -149,7 +150,7 @@ tech: ['Figma', 'Miro']
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686086098/curriculex/analytics/student.webp"
       alt="an image of a student's assignment progress"
-      figcaption="An individual drill down to an individual's scores in general and where they are with respect to their assignments."
+      figcaption="An individual drill down to an individual's scores in general and where they are concerning their assignments."
       class="details-grid__twoByTwo image-block__right"
     >}}
 {{< /section_wrapper >}}
@@ -160,7 +161,7 @@ tech: ['Figma', 'Miro']
 
 {{< section_wrapper class="details-grid" >}}
       
-      {{< section_header level="4" text="Assigment management interface" >}}
+      {{< section_header level="4" text="Assignment management interface" >}}
       {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1686082078/curriculex/AssignmentsClassWorkLanding.webp"
@@ -183,8 +184,9 @@ tech: ['Figma', 'Miro']
 {{< section_wrapper class="details-grid" section-header="During Class Experience">}}
   
         {{< section_header level="2" text="During Class Experience" >}}
-        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper>}}
-        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper>}}
+        {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+        An interesting yet challenging portion of the application centered around the "during class" experience. We heard from instructors that progress and scoring were two vital characteristics they would like to see. Additionally, we opted enhance the student view of the sets of questions and problems with multiplex progress meters, giving detailed progress and success for each problem.
+        {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
@@ -238,9 +240,9 @@ tech: ['Figma', 'Miro']
       
       {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}{{< /copy_wrapper>}}
 {{< /section_wrapper>}}
-{{< section_wrapper class="details-grid" >}}
+<!-- {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Interactive Lecture Feature" >}}
     {{< copy_wrapper class="details-grid__twoByTwo copy-block__left" >}}{{< /copy_wrapper>}}
 
-{{< /section_wrapper>}}
+{{< /section_wrapper>}} -->

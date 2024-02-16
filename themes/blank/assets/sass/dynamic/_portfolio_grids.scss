@@ -25,21 +25,21 @@
 
 @mixin portfolio-grid(
   $breakpoint: '>=phone',
-  $columns: null,
-  $row-gap: null,
+  $template-columns: null,
   $rows: null,
+  $row-gap: null,
   $column-gap: null
 ) {
   @if $breakpoint == '>=phone' {
     @include media(#{$breakpoint}) {
-      grid-template-columns: $columns;
+      grid-template-columns: $template-columns;
       grid-template-rows: $rows;
       column-gap: $column-gap;
       row-gap: $row-gap;
     }
   } @else if $breakpoint == '>=tablet' {
     @include media(#{$breakpoint}) {
-      grid-template-columns: $columns;
+      grid-template-columns: $template-columns;
       grid-template-rows: $rows;
       column-gap: $column-gap;
       row-gap: $row-gap;

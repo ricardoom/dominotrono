@@ -85,7 +85,7 @@
           @include add-to-grid('>=tablet', 1, -2, 2, 3);
           @include responsive-font(1.8vw, 18px, 32px, 20px);
           background-color: transparentize($site-black, 0.03);
-          margin-inline-end: var(--s1);
+          // margin-inline-end: var(--s1);
           padding: var(--s1);
           z-index: 1;
         }
@@ -102,7 +102,7 @@
       //
 
       .details-grid {
-        @include portfolio-grid('>=phone', $details-grid-columns, $row-gap);
+        @include portfolio-grid('>=phone', $details-grid-columns, $details-grid-rows, $row-gap);
         align-items: start;
         margin-top: var(--s1);
         
@@ -168,12 +168,12 @@
           &.copy-block {
             &__left {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 1, 2, auto, auto);
+              @include add-to-grid('>=tablet', 1, 2, 1, -1);
             }
 
             &__right {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
-              @include add-to-grid('>=tablet', 3, 4, auto, auto);
+              @include add-to-grid('>=tablet', 3, 4, 1, -1);
             }
 
             &__center {

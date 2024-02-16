@@ -147,7 +147,7 @@ For this project I decided on using Netlify for hosting and Deployment. Its a re
 
     {{< image_cld
     loading="lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614441095/decolonizing-nm/dcnm-dancer.jpg"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1614441095/decolonizing-nm/dcnm-dancer.jpg"
     alt=""
     figcaption="A full bleed image and text sample from the website"
     caption=""

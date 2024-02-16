@@ -49,7 +49,7 @@ newLayout: true
   {{< image_cld
       loading="eager"
       class="details-grid__twentyWords image-block__left"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_2x3_3x,f_auto,q_auto/v1645485813/il-nido-il-corvo/ilnido-hp-live.jpg"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1645485813/il-nido-il-corvo/ilnido-hp-live.jpg"
       figcaption="A view of the live version of the website"
       alt="An image of the Il Nido website"
       >}}
@@ -118,7 +118,7 @@ newLayout: true
       {{< image_cld
           loading="lazy"
         class="details-grid__fiftyWords big-image"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/dpr_1.0/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,w_auto,q_auto/v1570209484/il-nido-il-corvo/logos/il-nido_logos.png"
 
         alt="An image of various iterations of the Il Nido logo"
         figcaption="Various iterations of the logo."

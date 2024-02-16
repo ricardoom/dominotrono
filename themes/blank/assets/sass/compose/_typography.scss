@@ -50,10 +50,9 @@ $max-line-length: var(--measure);
 $headings: (h1, h2, h3, h4, h5, h6);
 @each $heading in $headings {
   #{$heading} {
-
     font-family: $serif;
-    font-weight: 672;
     font-style: normal;
+    font-variation-settings: 'wdth' var(--wdth), 'wght' var(--wght), 'slnt' var(--slnt);
     margin-block-end: var(--s-1);
     margin-block-start: var(--s-1);
     margin-inline: 0;
@@ -127,8 +126,9 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 
 
 html {
-  --wdth: 82;
-  --wght: 274;
+  --wdth: 100;
+  --wght: 100;
+  --slnt: 0;
 }
 
 h1 {
@@ -138,17 +138,19 @@ h1 {
     calc(var(--s4) * 1.5));
     font-family: $ivyepic;
     font-size: ft(var(--s2), var(--s4));
-    font-variation-settings: 'wdth' var(--wdth), 'wght' var(--wght), 'slnt' 0;
+    // font-variation-settings: 'wdth' var(--wdth), 'wght' var(--wght), 'slnt' 0;
     // font-weight: 100;
     letter-spacing: .017em;
     line-height: var(--line-height);
 }
 
 h2 {
-   --line-height: clamp((var(--s05), #{$preferredValue}, var(--s1))); 
+  --wght: 100;
+  --wdth: 100;
+  --line-height: clamp((var(--s05), #{$preferredValue}, var(--s1))); 
   // font-size: clamp(var(--s0), $preferredValue, var(--s2));
   font-size: ft(var(--s1), var(--s2));
-  font-variation-settings: 'wght';
+  
   line-height: var(--line-height);
 }
 
@@ -162,11 +164,13 @@ h3 {
   margin-bottom: var(--s-1);
 }
 
-h4, 
-.fonts-loaded h4 {
-  font-family: $sans-serif;
+ 
+// .fonts-loaded h4,
+h4 {
+  // font-family: $sans-serif;
+  --wght: 605;
   font-size: ft(var(--s-2), var(--s0));
-  font-weight: 700;
+  // font-variation-settings: 'wght' var(--wght);
   text-transform: uppercase;
   letter-spacing: var(--s-4);
 }

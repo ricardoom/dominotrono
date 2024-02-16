@@ -73,33 +73,33 @@ feature: ['user-experience']
       >}}
 
 {{< /section_wrapper>}}
-{{< section_wrapper class="details-grid" >}}
+{{< section_wrapper class="details-grid" section-header="Problems to Solve">}}
     
-    {{< section_header level="3" text="Problem to solve:" >}}
+    {{< section_header level="3" text="Problems to Solve" >}}
       {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__left" >}}
+          class="details-grid__twentyWords copy-block__left" >}}
           Below is a set of questions I set out to circumscribe the issues related to a publishing workflow:
         {{< /copy_wrapper>}}
         {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__left" >}}
-          Publishing a Course or Lesson is difficult and requires multiple steps. As a content creator / manager, I want to this process to be less time consuming
+          class="details-grid__twentyWords copy-block__left" >}}
+          Publishing a Course or Lesson is difficult and requires multiple steps. As a content creator/manager, I want this process to be less time-consuming
         {{< /copy_wrapper>}}
         {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__left" >}}
-          Secondary: Does the UI need a  dedicated tab / screen in the workspace view to surface a set of published courses?
+          class="details-grid__twentyWords copy-block__left" >}}
+          Secondary: Does the UI need a dedicated tab/screen in the workspace view to surface a set of published courses?
         {{< /copy_wrapper>}}
         {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__left" >}}
-          Versions, and their potential to become unweildy According to stakeholders and admins, the versions, while ultimately useful are rarely deleted. This might necessitate cultural shift in work flows.
+          class="details-grid__twentyWords copy-block__left" >}}
+          Versions, and their potential to become unwieldy According to stakeholders and admins, the versions, while ultimately useful are rarely deleted. This might necessitate a cultural shift in workflows.
         {{< /copy_wrapper>}}
         {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__left" >}}          
+          class="details-grid__twentyWords copy-block__left" >}}          
           Is having many (10s-100s) of Published items a problem? Over 50 might be an edge case and rarely the norm.</li>
         {{< /copy_wrapper>}}
         {{< copy_wrapper
-          class="details-grid__twoByTwo copy-block__left" >}}  
+          class="details-grid__twentyWords copy-block__left" >}}  
           Caveats we were keen to observe:
-          Where is Publication meta data and how is it accessed?
+          Where is Publication metadata data and how is it accessed?
           What happens when we need to publish again
           more reliance on content creators to know and explore UI for subtle functionality
 
@@ -265,13 +265,13 @@ feature: ['user-experience']
      {{< image_cld
     loading="lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686794395/bronte/tabThroughDetails.webp"
-    alt="an image detailing the accessbility tab through order and focus ring styling"
+    alt="an image detailing the accessibility tab through order and focus ring styling"
     figcaption="A detailed view of the accessibility tab order"
     class="details-grid__fiftyWords big-image"
     >}}
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      A critical part of the team's process was to produce specifications for state and accesibility. In the following examples I prodcued artifacts that covered all possible states of buttons and tab order, w/ careful attention to hover, focus and the combined state of having both focus and being hovered.
+      A critical part of the team's process was to produce specifications for state and accessibility. In the following examples, I produced artifacts that covered all possible states of buttons and tab order, with careful attention to hover, focus and the combined state of having both focus and being hovered.
     {{< /copy_wrapper>}}
 
  {{< image_cld

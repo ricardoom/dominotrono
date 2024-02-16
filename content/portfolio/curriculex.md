@@ -100,9 +100,11 @@ tech: ['Figma', 'Miro']
         An alternate screen visualizing an interface for organizing lecture content (see more below ↓). The idea here is: As an instructor, I want to see which lectures I must prepare for that day. This interface visualizes a chronological feed of upcoming "during class lectures" based on cohort and section.
       {{< /copy_wrapper>}}
   {{< /section_wrapper>}}
-{{< section_wrapper class="details-grid" section-header="Before Class Experience & Analytics Screens" >}}
+  {{< section_wrapper class="details-grid" section-header="Before Class Experience & Analytics Screens" >}}
   
     {{< section_header level="2" text="Before Class Experience & Analytics Screens" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}} The overarching concept for the dashboard and subsequent screens is to provide the instructor with a range of increasingly granular insights into their class's progress.
+    {{< /copy_wrapper>}}
     {{< section_header level="3" text="Instructor Dashboards" >}}
       {{< image_cld
     loading="lazy"
@@ -111,8 +113,7 @@ tech: ['Figma', 'Miro']
     figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering the current roster, subject matter as well as pathways to subject and course work prep."
     class="details-grid__fiftyWords big-image"
     >}}
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}} The overarching concept for the dashboard and subsequent screens is to provide the instructor with a range of increasingly granular insights into their class's progress.
-    {{< /copy_wrapper>}}
+    
 {{< /section_wrapper >}}
 
 {{< section_wrapper class="details-grid" >}}
@@ -137,7 +138,7 @@ tech: ['Figma', 'Miro']
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
 
-    {{< section_header level="4" text="Student-focused drill downs" >}}
+    {{< section_header level="4" text="Student-focused Drill Downs" >}}
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686090223/curriculex/analytics/roster.webp"
@@ -182,7 +183,7 @@ tech: ['Figma', 'Miro']
         
 {{< section_wrapper class="details-grid" section-header="During Class Experience">}}
   
-        {{< section_header level="2" text="During Class Experience" >}}
+        {{< section_header level="2" text="During Class Experience Bobo" >}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper>}}
         {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}{{< /copy_wrapper>}}
 

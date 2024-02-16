@@ -1,7 +1,15 @@
+{{ $remote := "https://unpkg.com/browse/fontfaceobserver@2.3.0/fontfaceobserver.standalone.js" | safeURL }}
+{{ $observer := (dict "local" ("/js/vendor/fontfaceObserver/fontfaceobserver.standalone.js" | safeURL) "remote" $remote) }}
+
 <script>
-  var script = document.createElement('script');
+  const script = document.createElement('script');
   
-  script.src = '/js/vendor/fontfaceObserver/fontfaceobserver.standalone.js';
+  {{/*  script.src = '/js/vendor/fontfaceObserver/fontfaceobserver.standalone.js';  */}}
+  const remote = {{ $observer.remote }};
+  const remoteDecoded = decodeURIComponent(remote);
+  {{/*  console.log(remoteDecoded,{{ $observer.remote }} );  */}}
+  script.src = '{{ $observer.local }}';
+
   script.type = 'application/javascript';
   script.async = true;
   script.onload = function () {
@@ -11,10 +19,11 @@
       });
     }
     var inter = new FontFaceObserver('inter');
-    var justus = new FontFaceObserver('justus-pro');
+    {{/*  var justus = new FontFaceObserver('justus-pro');  */}}
     var frank = new FontFaceObserver('frank-new');
+    var ivyepic = new FontFaceObserver('ivyepic-variable')
     var html = document.documentElement;
-    Promise.race([inter.load(), justus.load(), frank.load(), timeout(5000)]).then(function () {
+    Promise.race([ivyepic.load(),inter.load(), frank.load(), timeout(5000)]).then(function () {
       html.classList.add('fonts-loaded');
     });
   };

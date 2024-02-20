@@ -6,10 +6,24 @@
 footer {
   background-color: $site-black;
   font-size: ft(var(--s0), var(--s1));
-  padding-block: var(--s1) 0;
-  padding-inline: var(--s1);
+  // padding-block: var(--s1) 0;
+  // padding-inline: var(--s1);
   min-height: calc(var(--s1) * 10);
   
+  .content-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    @include media('<=tablet') {
+      flex-direction: column;
+    }
+  }
+
+  .footer-blob {
+    max-height: calc(calc(764/2) * 1px);
+    max-width: 615px;
+  }
+
   nav {
     // border: dotted red 1px;
     font-size: ft(var(--s-1), var(--s0));

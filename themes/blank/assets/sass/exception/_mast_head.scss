@@ -18,8 +18,8 @@
   color: $site-dark-blue;
   font-size: clamp(var(--s05), $preferredValue, var(--s2));
   // line-height: clamp(var(--s1), $preferredValue, var(--s2));
-  margin-top: -7px;
-  margin-block-start: -7px;
+  // margin-top: -7px;
+  margin-block-start: -9px;
   position: relative;
   z-index: 10;
 

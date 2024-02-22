@@ -1,6 +1,6 @@
 {{ $local := .Site.IsServer }}
 {{ if $local }}
-{{ printf "<!-- +++ portfolio single item  -->" | safeHTML }}
+{{ printf "<!-- +++ portfolio single item  +++ -->" | safeHTML }}
 {{ end  }}
 <!-- new layout flag: -->
 {{ $newLayout := .Params.newLayout }}
@@ -12,7 +12,6 @@
 {{ $headerText := $.Scratch.Get "section-header" }}
 {{ partial "header.html" . }}
 <main>
-  
   {{ if $newLayout }}
   <article class="[ wrapper ][ {{ $agWrapper }} ]">
     {{ else }}

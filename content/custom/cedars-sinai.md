@@ -21,7 +21,7 @@ newLayout: true
       >}}
     
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
-     I created this web page to highlight my expertise and demonstrate my qualifications for theSenior UI UX Designer at Cedars-Sinai Hospital. The following examples highlight a cross-section of my web and app design experience. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw all visual and user experience design efforts.
+     I created this web page to highlight my expertise and demonstrate my qualifications for the Senior UI UX Designer at Cedars-Sinai Hospital. The following examples highlight a cross-section of my web and app design experience. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw all visual and user experience design efforts.
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}

@@ -38,7 +38,6 @@ newLayout: true
 feature: ['user-experience']
 ---
 {{<section_wrapper class="hero-grid" >}}
-    
     {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683837501/bronte/brnt-publishing.jpg"
@@ -54,11 +53,8 @@ feature: ['user-experience']
       {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
-
 {{< section_header level="2" text="Publishing" >}}    
-
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
       The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.
@@ -106,7 +102,6 @@ feature: ['user-experience']
       {{< /copy_wrapper>}}
         
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Design Discovery" >}}
@@ -117,7 +112,6 @@ feature: ['user-experience']
       {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
       {{< image_cld
       loading="lazy"
@@ -136,7 +130,6 @@ feature: ['user-experience']
       >}}
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< image_cld
@@ -148,7 +141,6 @@ feature: ['user-experience']
     >}}
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Initial visual design and prototype" >}}
@@ -160,7 +152,6 @@ feature: ['user-experience']
         class="details-grid__fiftyWords big-image"
         >}}
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="4" text="Publication Progress Modals" >}}
@@ -174,7 +165,6 @@ feature: ['user-experience']
       >}}
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
   
     {{< image_cld
@@ -186,7 +176,6 @@ feature: ['user-experience']
     >}}
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
     
     {{< image_cld
@@ -198,7 +187,6 @@ feature: ['user-experience']
     >}}
   
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
   {{< section_header level="4" text="Publication Complete" >}}
@@ -209,7 +197,6 @@ feature: ['user-experience']
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< image_cld
@@ -227,7 +214,6 @@ feature: ['user-experience']
     {{< /video_cld >}}
 
   {{< /section_wrapper>}}
-
   {{< section_wrapper class="details-grid" >}}
     
       {{< image_cld
@@ -239,7 +225,6 @@ feature: ['user-experience']
       >}}
     
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Artifacts" >}}
@@ -258,7 +243,6 @@ feature: ['user-experience']
 
     
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="4" text="Accessibility & Tab Order" >}}
@@ -284,7 +268,6 @@ feature: ['user-experience']
    
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
  {{< image_cld
     loading="lazy"

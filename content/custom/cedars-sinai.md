@@ -8,9 +8,7 @@ title: "Senior UI UX Designer at Cedars Sinai"
 url: /cedars-sinai
 newLayout: true
 ---
-
 {{< section_wrapper class="hero-grid" >}}
-    
     {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1683837501/bronte/brnt-publishing.jpg"
@@ -19,28 +17,20 @@ newLayout: true
       caption=""
       class="hero-grid__imageBlock"
       >}}
-    
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
      I created this web page to highlight my expertise and demonstrate my qualifications for the Senior UI UX Designer at Cedars-Sinai Hospital. The following examples highlight a cross-section of my web and app design experience. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw all visual and user experience design efforts.
     {{< /copy_wrapper>}}
-
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
-    
     {{< section_header level="2" text="Pearson" >}}
     {{< section_header level="3" text="Bronte ePublishing Platform" >}}
-
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
       Most of my work at Pearson centered around an internal eText authoring environment called "Bronte." As a result, the user experience work focused specifically on the publishing workflow and administration. 
     {{< /copy_wrapper>}}
-
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
-
 {{< section_header level="4" text="Publishing Management UI" >}}    
-
     {{< image_cld
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686770581/bronte/BrontePublishingWire.webp"
@@ -48,11 +38,8 @@ newLayout: true
       figcaption="Initial overview of my improved publishing workflows"
       class="details-grid__fiftyWords big-image"
       >}}
-
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}}
-
     {{< section_header level="4" text="Design Discovery" >}}
       {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
@@ -87,7 +74,6 @@ newLayout: true
       >}}
 
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid">}}
     
     {{< image_cld
@@ -99,7 +85,6 @@ newLayout: true
       >}}
     
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Design System Artifacts & Accessibility" >}}
@@ -128,7 +113,6 @@ newLayout: true
 
     {{< sl "/portfolio/bronte" "See the full project" >}}
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="3" text="Curriculex Nursing Education Platform" >}}
@@ -177,20 +161,14 @@ newLayout: true
       >}}
 
 {{< /section_wrapper >}}
-
-
-
-
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="Native Bound Unbound" >}}
-
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
     {{< /copy_wrapper>}}
     
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Visual Design" >}}
@@ -203,9 +181,6 @@ newLayout: true
     >}}
 
 {{< /section_wrapper >}}
-
-
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Design System" >}}
@@ -247,7 +222,6 @@ newLayout: true
     >}}
 
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="4" text="Components" >}}
@@ -274,7 +248,6 @@ newLayout: true
     >}}
 
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}} 
 
     {{< image_cld
@@ -297,7 +270,6 @@ newLayout: true
 
     {{< sl "/portfolio/native-bound-unbound/" "See the complete project">}}
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="New York Public Library" >}}
@@ -310,7 +282,6 @@ newLayout: true
     >}}
 
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Website Redesign" >}}
@@ -320,7 +291,6 @@ newLayout: true
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="4" text="Interior Pages and Components" >}}
@@ -340,10 +310,9 @@ newLayout: true
     figcaption="Detail from the home page section where the staff's monthly picks are publicly shared. This particular layout describes possibilities for overlay interactions within the book covers."
     >}}
 
-    {{< sl "/portfolio/nypl-redesign/" "See the more on the redesign project" >}}
+    {{< sl "/portfolio/nypl-redesign/" "See more on the redesign project" >}}
     
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Best Books & Staff Picks" >}}
@@ -365,7 +334,6 @@ newLayout: true
     
     {{< sl "/portfolio/nypl-best-books/" "Learn more about the Best Books and Staff Picks" >}}
 {{< /section_wrapper >}}
-    
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="New Arrivals" >}}
@@ -427,11 +395,7 @@ newLayout: true
       https://res.cloudinary.com/toupeeproofbullets/video/upload/q_auto/v1687206397/nypl-browse-new-arrivals/bna-filter.mp4
       https://res.cloudinary.com/toupeeproofbullets/video/upload/w_auto,q_auto,vc_vp9/v1687206397/nypl-browse-new-arrivals/bna-filter.webm
     {{< /video_cld >}}
-
-    
-
 {{< /section_wrapper >}}
-
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="NYPL Design Toolkit" >}}
@@ -468,12 +432,9 @@ newLayout: true
 
     {{< sl "/portfolio/nypl-design-toolkit/" "Go to the full project page">}}
 {{< /section_wrapper>}}
-
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="SimplyE Audio Books Player" >}}
-
-    
     {{< image_cld
     class="details-grid__fiftyWords big-image"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802598/simply-e/se-android-audio-player.webp"
@@ -514,5 +475,4 @@ newLayout: true
       class=" details-grid__twentyWords copy-block__right" >}}
       {{< sl "/portfolio/simplye-audiobook-player/" "Go to the full project page" >}}
     {{< /copy_wrapper>}}
-
 {{< /section_wrapper >}}

@@ -4,24 +4,15 @@
 {{ $hasHeader := $.Get "section-header" }}
 {{ $hasCopy := $.Get "section-copy" }}
 {{ $headerID := lower (replace $hasHeader " " "-") }}
-
-
-{{ if and ( $layout ) ( ne $layout "" ) }}
-    {{ if $local }}
-        {{ printf "<!-- section_wrapper template aqui  -->" | safeHTML }}
-    {{ end }}
+{{/*  {{ if and ( $layout ) ( ne $layout "" ) }}  */}}
+{{ with $layout }}
 <section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }}>
     <div class="flex">
         {{- .Inner -}}
     </div>
  </section>
 {{ else }}
-{{ if $local }}
-    {{ printf "<!-- section_wrapper template condition 2 aqui  -->" | safeHTML }}
-{{ end }}
 <section {{ with .Get "class" }} class="[ {{ . }} ]" {{ end }} {{ with $hasHeader }}aria-labelledby="{{  $headerID }}"{{ end }}>
-    
     {{- .Inner -}}
-    
 </section>
 {{ end }}

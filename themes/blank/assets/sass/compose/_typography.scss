@@ -145,7 +145,7 @@ h1 {
 }
 
 h2 {
-  --wght: 100;
+  --wght: 250;
   --wdth: 100;
   --line-height: clamp((var(--s05), #{$preferredValue}, var(--s1))); 
   // font-size: clamp(var(--s0), $preferredValue, var(--s2));
@@ -168,7 +168,7 @@ h3 {
 // .fonts-loaded h4,
 h4 {
   // font-family: $sans-serif;
-  --wght: 605;
+  --wght: 100;
   font-size: ft(var(--s-2), var(--s0));
   // font-variation-settings: 'wght' var(--wght);
   text-transform: uppercase;

@@ -370,7 +370,7 @@ a {
     background: #f16755; }
   a:hover, a:focus {
     color: var(--hover-color);
-    outline: dotted var(--hover-color) var(--s-3); }
+    outline: solid var(--hover-color) var(--s-4); }
 
 code {
   background: rgba(241, 103, 85, 0.15);
@@ -517,7 +517,7 @@ main {
 
 .siteNavigation button:active, .siteNavigation button:focus {
   fill: var(--hover-color);
-  outline: dotted var(--hover-color) var(--s-3); }
+  outline: solid var(--hover-color) var(--s-4); }
 
 @media (min-width: 19.25em) {
   .siteNavigation button {
@@ -917,7 +917,7 @@ main {
       margin: 0; } }
   .site-name-container .name:hover, .site-name-container .name:focus {
     color: var(--hover-color);
-    outline: dotted var(--hover-color) var(--s-3); }
+    outline: solid var(--hover-color) var(--s-4); }
 
 :is(footer) .name {
   font-size: clamp(var(--s-1), 4.37743189vw, var(--s1)); }
@@ -978,8 +978,9 @@ figure {
 
 .portfolio-list-item {
   list-style-type: none;
-  margin-block-end: var(--s0);
-  margin-block-start: var(--s0); }
+  margin-block: var(--s5); }
+  .portfolio-list-item a:hover {
+    outline: none; }
   .portfolio-list-item__content {
     display: grid;
     transition: background-color 200ms ease-out; }
@@ -1681,7 +1682,7 @@ footer {
         .feature .pivot:hover span, .feature .pivot:focus span {
           color: red; } }
     .feature .pivot:focus {
-      outline: dotted #f542ad var(--s-3); }
+      outline: solid #f542ad var(--s-3); }
   .feature .card-state {
     --string: 'px';
     --perspective: 25;
@@ -1807,13 +1808,8 @@ footer {
     margin: 0; } }
 
 .mast-container {
-  background-color: transparent;
-  margin-block-end: -6.5em;
-  margin-block-start: -6.5em; }
-  @media (min-width: 48em) {
-    .mast-container {
-      margin-block-start: -14.5em;
-      margin-block-end: -14.5em; } }
+  background-color: transparent; }
+
 .mast {
   background-color: white;
   color: #06182d;

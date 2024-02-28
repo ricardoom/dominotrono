@@ -5,9 +5,12 @@
 .portfolio-list-item {
   // TODO: move this list rule to E for Exception
   list-style-type: none;
-  margin-block-end: var(--s0);
-  margin-block-start: var(--s0);
+  margin-block: var(--s5);
   
+  & a:hover {
+    outline: none;
+  }
+
   &__content {
     display: grid;
     transition: background-color 200ms ease-out;
@@ -139,26 +142,3 @@
     text-decoration: none;
   }
 }
-
-
-
-// .portfolio-list-item {
-//   // --site-color: #fff;
-//   // figure {
-//   //   background-color: var(--site-color);
-//   // }
-//   // p {
-//   //   color: var(--site-color);
-//   // }
-//   // ul {
-//   //   color: var(--site-color);
-//   // }
-//   &__content {
-//     transition: background-color 200ms ease-out;
-
-//     &:hover {
-//       transition: background-color 250ms ease-in;
-//       background-color: hsla(0, 0%, 0%, 0);
-//     }
-//   }
-// }

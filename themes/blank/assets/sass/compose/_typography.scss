@@ -193,7 +193,7 @@ a {
   &:hover,
   &:focus {
   color: var(--hover-color);
-  @include focus-ring(outline, var(--hover-color));
+  @include focus-ring(outline, solid, var(--hover-color), var(--s-5));
   }
 }
 

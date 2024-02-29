@@ -140,7 +140,7 @@
     @include media('<=tablet') {
       background-color: transparentize($color: $site-white, $amount: 0.45);
       span {
-        color: red;
+        // color: currentColor;
         // font-size: ft(var(--s-1), var(--s1));
       }
     }
@@ -151,7 +151,7 @@
         background-color: transparentize($color: $site-white, $amount: 0.45);
 
         & span {
-          color: red;
+          // color: currentColor;
           
         }
       }
@@ -159,7 +159,7 @@
     
 
     &:focus {
-      @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
+      @include focus-ring(outline, solid, var(--hover-color), var(--s-2));
     }
   }
 

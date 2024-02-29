@@ -2,17 +2,18 @@
 // Basic Drop Cap for all pages
 
 .has-dropcap {
-  // font-size: clamp(var(--s-2), $preferredValue, var(--s1));
-  font-size: ft(var(--s-2), var(--s1));
+  color: var(--text-color);
+  font-size: ft(var(--s-1), var(--s2));
+  line-height:ft(var(--s-1), var(--s2));
   margin-block-start: var(--s-1);
 
   .dropcap {
     float: left;
     font-family: $frank-new;
     font-size: var(--s5);
-    font-size: clamp(var(--s3), $preferredValue, var(--s5));
+    font-size: clamp(var(--s5), $preferredValue, calc(var(--s5) * 4));
     font-weight: 900;
-    margin-block: var(--s-2) 0;
+    margin-block: calc(var(--s0) * 5) 0;
     margin-inline: 0 var(--s-2);
 
 

@@ -29,13 +29,14 @@ $site-lilac: hsl(317, 40%, 68%);
   --acid-green: #{$site-acid-green};
   --overlay-color: hsla(0, 0%, 100%, 1);
   --hover-color: #{$cool-sky-blue};
+  --text-color: #{$site-dark-blue};
 }
 
 
 ///
 /// further abstract away the site's colors so we can do work on them:
 ///
-$site-focus-ring: $site-acid-green;
+$site-focus-ring: var(--acid-green);
 $site-main-text-color: $site-black;
 $site-background-color: lighten($site-dark-blue, 0.95);
 $site-link: $site-white;

@@ -14,9 +14,9 @@
 }
 
 .mast {
-  background-color: $site-white;
-  color: $site-dark-blue;
-  font-size: clamp(var(--s05), $preferredValue, var(--s2));
+  background-color: transparentize($site-white, 0.2);
+  // color: $site-dark-blue;
+  // font-size: clamp(var(--s1), $preferredValue, var(--s4));
   // line-height: clamp(var(--s1), $preferredValue, var(--s2));
   // margin-top: -7px;
   margin-block-start: -9px;

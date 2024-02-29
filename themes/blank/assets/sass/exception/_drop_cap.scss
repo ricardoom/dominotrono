@@ -2,6 +2,7 @@
 // Basic Drop Cap for all pages
 
 .has-dropcap {
+  --measure: 50ch;
   color: var(--text-color);
   font-size: ft(var(--s-1), var(--s2));
   line-height:ft(var(--s-1), var(--s2));
@@ -14,7 +15,8 @@
     font-size: clamp(var(--s5), $preferredValue, calc(var(--s5) * 4));
     font-weight: 900;
     margin-block: calc(var(--s0) * 5) 0;
-    margin-inline: 0 var(--s-2);
+    // margin-inline: 0 var(--s-2);
+    margin-inline: calc(var(--s0) * -1) calc(var(--s0) * .15);
 
 
     // @media screen and (max-width: $small-screen) {

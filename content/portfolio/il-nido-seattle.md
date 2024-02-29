@@ -5,9 +5,9 @@ draft: false
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/c_crop,e_blur:600,f_auto,g_north,h_600,q_auto,w_600/v1645485813/il-nido-il-corvo/ilnido-hp-live.png'
-portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_1x/v1645485699/il-nido-il-corvo/ilnido-hp-v2.jpg'
-portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1645485699/il-nido-il-corvo/ilnido-hp-v2.jpg'
-portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x/v1645485699/il-nido-il-corvo/ilnido-hp-v2.jpg'
+portfolioHero1x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,f_auto,q_auto/v1645485699/il-nido-il-corvo/ilnido-hp-v2.webp'
+portfolioHero2x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,f_auto,q_auto/v1645485699/il-nido-il-corvo/ilnido-hp-v2.webp'
+portfolioHero3x: 'https://res.cloudinary.com/toupeeproofbullets/image/upload/w_auto,f_auto,q_auto/v1645485699/il-nido-il-corvo/ilnido-hp-v2.webp'
 portfolioHeroAlt: 'an image of the three view port layouts'
 portfolioHeroSqip: '../media/portfolio/il_nido_seattle/ilNidoHeroSqip.svg'
 heroFigcaption: ''

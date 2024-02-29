@@ -5,8 +5,8 @@
 .portfolio-list-item {
   // TODO: move this list rule to E for Exception
   list-style-type: none;
-  margin-block: var(--s5);
-  
+  margin-block: var(--s2);
+
   & a:hover {
     outline: none;
   }
@@ -64,6 +64,9 @@
       @include media('>=tablet') {
         grid-column: 1 / 3;
         grid-row: 2 / 3;
+        // TODO: consider a different approach... 
+        // TODO: no magic numbers here please...
+        transform: translateX(calc(var(--s1) * -1.1));
       }
 
       align-self: center;

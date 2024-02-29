@@ -85,14 +85,14 @@ $site-colors: (
 
 @each $site-color-name, $site-color in $site-colors {
   .site-color--#{$site-color-name} {
-    background: transparentize($site-color, 0);
+    background: transparentize($site-color, 0.9);
 
     figcaption {
       box-shadow: 10px 10px 0 $site-color;
     }
 
     > ul {
-      --overlay-color: #{$site-color};
+      // --overlay-color: #{$site-color};
       color: var(--overlay-color);
       }
   }

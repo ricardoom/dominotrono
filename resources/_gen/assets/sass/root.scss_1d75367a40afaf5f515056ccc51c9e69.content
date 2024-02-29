@@ -59,6 +59,9 @@ img:not([alt]) {
   --s4: calc(var(--s3) * var(--ratio));
   --s5: calc(var(--s4) * var(--ratio));
   --s6: calc(var(--s5) * var(--ratio));
+  --s7: calc(var(--s6) * var(--ratio));
+  --s8: calc(var(--s7) * var(--ratio));
+  --s9: calc(var(--s8) * var(--ratio));
   --s05: calc(var(--s0) * var(--halfRatio));
   --s1-5: calc(var(--s1) * var(--halfRatio));
   --small-screen: 25.875rem;
@@ -114,115 +117,101 @@ img:not([alt]) {
   --text-color: #06182d; }
 
 .site-color--dark-blue {
-  background: #06182d; }
+  background: rgba(6, 24, 45, 0.1); }
   .site-color--dark-blue figcaption {
     box-shadow: 10px 10px 0 #06182d; }
   .site-color--dark-blue > ul {
-    --overlay-color: #06182d;
     color: var(--overlay-color); }
 
 .site-color--green-blue {
-  background: #4b86aa; }
+  background: rgba(75, 134, 170, 0.1); }
   .site-color--green-blue figcaption {
     box-shadow: 10px 10px 0 #4b86aa; }
   .site-color--green-blue > ul {
-    --overlay-color: #4b86aa;
     color: var(--overlay-color); }
 
 .site-color--white {
-  background: white; }
+  background: rgba(255, 255, 255, 0.1); }
   .site-color--white figcaption {
     box-shadow: 10px 10px 0 white; }
   .site-color--white > ul {
-    --overlay-color: white;
     color: var(--overlay-color); }
 
 .site-color--punk-pink {
-  background: #f542ad; }
+  background: rgba(245, 66, 173, 0.1); }
   .site-color--punk-pink figcaption {
     box-shadow: 10px 10px 0 #f542ad; }
   .site-color--punk-pink > ul {
-    --overlay-color: #f542ad;
     color: var(--overlay-color); }
 
 .site-color--hot-orange {
-  background: #f16755; }
+  background: rgba(241, 103, 85, 0.1); }
   .site-color--hot-orange figcaption {
     box-shadow: 10px 10px 0 #f16755; }
   .site-color--hot-orange > ul {
-    --overlay-color: #f16755;
     color: var(--overlay-color); }
 
 .site-color--lava-orange {
-  background: #f75b26; }
+  background: rgba(247, 91, 38, 0.1); }
   .site-color--lava-orange figcaption {
     box-shadow: 10px 10px 0 #f75b26; }
   .site-color--lava-orange > ul {
-    --overlay-color: #f75b26;
     color: var(--overlay-color); }
 
 .site-color--acid-green {
-  background: #e3ff8f; }
+  background: rgba(227, 255, 143, 0.1); }
   .site-color--acid-green figcaption {
     box-shadow: 10px 10px 0 #e3ff8f; }
   .site-color--acid-green > ul {
-    --overlay-color: #e3ff8f;
     color: var(--overlay-color); }
 
 .site-color--black {
-  background: #212121; }
+  background: rgba(33, 33, 33, 0.1); }
   .site-color--black figcaption {
     box-shadow: 10px 10px 0 #212121; }
   .site-color--black > ul {
-    --overlay-color: #212121;
     color: var(--overlay-color); }
 
 .site-color--purple {
-  background: #c71efa; }
+  background: rgba(199, 30, 250, 0.1); }
   .site-color--purple figcaption {
     box-shadow: 10px 10px 0 #c71efa; }
   .site-color--purple > ul {
-    --overlay-color: #c71efa;
     color: var(--overlay-color); }
 
 .site-color--red {
-  background: #cc0033; }
+  background: rgba(204, 0, 51, 0.1); }
   .site-color--red figcaption {
     box-shadow: 10px 10px 0 #cc0033; }
   .site-color--red > ul {
-    --overlay-color: #cc0033;
     color: var(--overlay-color); }
 
 .site-color--canary-yellow {
-  background: #ffe666; }
+  background: rgba(255, 230, 102, 0.1); }
   .site-color--canary-yellow figcaption {
     box-shadow: 10px 10px 0 #ffe666; }
   .site-color--canary-yellow > ul {
-    --overlay-color: #ffe666;
     color: var(--overlay-color); }
 
 .site-color--sage-green {
-  background: #b1b77b; }
+  background: rgba(177, 183, 123, 0.1); }
   .site-color--sage-green figcaption {
     box-shadow: 10px 10px 0 #b1b77b; }
   .site-color--sage-green > ul {
-    --overlay-color: #b1b77b;
     color: var(--overlay-color); }
 
 .site-color--seafoam-green {
-  background: #10eabb; }
+  background: rgba(16, 234, 187, 0.1); }
   .site-color--seafoam-green figcaption {
     box-shadow: 10px 10px 0 #10eabb; }
   .site-color--seafoam-green > ul {
-    --overlay-color: #10eabb;
     color: var(--overlay-color); }
 
 .site-color--cool-sky-blue {
-  background: #38deff; }
+  background: rgba(56, 222, 255, 0.1); }
   .site-color--cool-sky-blue figcaption {
     box-shadow: 10px 10px 0 #38deff; }
   .site-color--cool-sky-blue > ul {
-    --overlay-color: #38deff;
     color: var(--overlay-color); }
 
 h1 {
@@ -388,7 +377,7 @@ p {
   max-width: var(--measure);
   margin-block: var(--s0); }
   p.lede {
-    font-size: clamp(var(--s-1), 4.37743189vw, var(--s1)); }
+    font-size: clamp(var(--s-1), 4.37743189vw, var(--s0)); }
 
 ul {
   padding-left: var(--s0); }
@@ -659,9 +648,6 @@ main {
   @media (max-width: 48em) {
     .jumbo .spooky {
       height: 100%; } }
-.grid-wrapper > h1 {
-  padding-block: var(--s1); }
-
 .grid-wrapper .site-article {
   padding-block: var(--s1); }
 
@@ -985,7 +971,7 @@ figure {
 
 .portfolio-list-item {
   list-style-type: none;
-  margin-block: var(--s5); }
+  margin-block: var(--s2); }
   .portfolio-list-item a:hover {
     outline: none; }
   .portfolio-list-item__content {
@@ -1030,7 +1016,8 @@ figure {
       @media (min-width: 48em) {
         .portfolio-list-item__content h2 {
           grid-column: 1 / 3;
-          grid-row: 2 / 3; } }
+          grid-row: 2 / 3;
+          transform: translateX(calc(var(--s1) * -1.1)); } }
     .portfolio-list-item__content--description {
       align-self: end;
       font-size: clamp(var(--s05), 4.37743189vw, var(--s0));
@@ -1768,6 +1755,7 @@ footer {
     filter: drop-shadow(2px 2px 22px rgba(66, 16, 42, 0.4)); }
 
 .has-dropcap {
+  --measure: 50ch;
   color: var(--text-color);
   font-size: clamp(var(--s-1), 4.37743189vw, var(--s2));
   line-height: clamp(var(--s-1), 4.37743189vw, var(--s2));
@@ -1779,7 +1767,7 @@ footer {
     font-size: clamp(var(--s5), 4.37743189vw, calc(var(--s5) * 4));
     font-weight: 900;
     margin-block: calc(var(--s0) * 5) 0;
-    margin-inline: 0 var(--s-2); }
+    margin-inline: calc(var(--s0) * -1) calc(var(--s0) * .15); }
     @media (max-width: 19.25em) {
       .has-dropcap .dropcap {
         line-height: 0.35em; } }
@@ -1814,20 +1802,13 @@ footer {
   .homepage-content .has-dropcap .dropcap:after {
     margin: 0; } }
 
-.mast-container {
-  background-color: transparent; }
-
 .mast {
-  background-color: rgba(255, 255, 255, 0.8);
-  margin-block-start: -9px;
-  position: relative;
-  z-index: 10; }
+  background-color: rgba(255, 255, 255, 0.8); }
   .mast > div {
     display: flex;
     justify-content: center;
-    padding: clamp(var(--s1), 4.37743189vw, var(--s2));
-    margin-inline-end: clamp(var(--s05), 4.37743189vw, var(--s2));
-    margin-inline-start: clamp(var(--s05), 4.37743189vw, var(--s2)); }
+    padding-block: var(--s6);
+    padding-inline: var(--s4); }
 
 .dome {
   background-color: white; }

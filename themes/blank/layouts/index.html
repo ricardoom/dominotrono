@@ -1,5 +1,6 @@
 {{ $local := .Site.IsServer }} 
-{{ $mainContent := partial "first-paragraph.html" .Content }} {{ partial "header.html" . }}
+{{ $mainContent := partial "first-paragraph.html" .Content }}
+{{ partial "header.html" . }}
 {{ if $local }}
   {{ printf "<!-- === root index === -->" | safeHTML }}
 {{ end  }}
@@ -7,7 +8,7 @@
   <div class="[ mast-container ]">
     {{/*  {{ partial "svg/onion_dome.svg" (dict "class" "[ first-dome ]") }}  */}}
     <section class="[ wrapper ][ mast ]">
-      <div>{{ $mainContent }}</div>
+      <div>{{ .Content }}</div>
     </section>
     {{/*  {{ partial "svg/onion_dome.svg" (dict "class" "[ second-dome ]") }}  */}}
   </div>

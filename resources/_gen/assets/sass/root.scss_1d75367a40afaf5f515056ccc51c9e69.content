@@ -1079,13 +1079,14 @@ figure {
   .article-grid-wrapper__portfolioParent {
     grid-column: 1 / 3;
     grid-row: 2 / 4;
-    margin-top: 0;
     margin-block-start: 0; }
     .article-grid-wrapper__portfolioParent h3 {
       font-size: clamp(var(--s0), 4.37743189vw, var(--s1));
       margin: var(--s1) 0 0; }
       .article-grid-wrapper__portfolioParent h3:first-child {
         margin-bottom: var(--s0); }
+    .article-grid-wrapper__portfolioParent .resume-dl {
+      max-width: max-content; }
     .article-grid-wrapper__portfolioParent .portfolio__content section {
       max-width: 80rem; }
     .article-grid-wrapper__portfolioParent .portfolio__content .hero-grid,
@@ -1183,6 +1184,14 @@ figure {
           grid-row: 1 / 2; } }
       @media (min-width: 48em) {
         .article-grid-wrapper__portfolioParent .portfolio__content .details-grid > .heading.right {
+          grid-column: 3 / 4;
+          grid-row: 1 / 2; } }
+      @media (min-width: 19.25em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid > .heading.left {
+          grid-column: 1 / -1;
+          grid-row: 1 / 2; } }
+      @media (min-width: 48em) {
+        .article-grid-wrapper__portfolioParent .portfolio__content .details-grid > .heading.left {
           grid-column: 3 / 4;
           grid-row: 1 / 2; } }
       @media (min-width: 19.25em) {

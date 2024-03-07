@@ -2,6 +2,7 @@
 {{ if $local }}
 {{ printf "<!-- +++ custom page single item  -->" | safeHTML }}
 {{ end  }}
+
 <!-- new layout flag: -->
 {{ $newLayout := .Params.newLayout }}
 <!-- put all the two main classes into variables: -->
@@ -10,9 +11,11 @@
 {{ $imgWrapper := "grid-wrapper" }}
 {{ $local := .Site.IsServer }}
 {{ $headerText := $.Scratch.Get "section-header" }}
+{{ $resume := .Params.resume }}
 {{ partial "header.html" . }}
 <main>
   {{ with $newLayout }}
+  
   <article class="[ wrapper ][ {{ $agWrapper }} ]">
   {{ else }}
   <article class="[ {{ $imgWrapper }} ]">
@@ -22,6 +25,9 @@
   <time>{{ .Lastmod | time.Format ":date_long" }}</time>
 {{ end }}
   <div class="[ {{ if ( $newLayout ) }}{{ $agWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioParent ]">
+  <div class="[ stack ][ resume-dl ]">
+    <a href="{{ $resume }}">Download Resume ↘</a>
+  </div>
   <div  class="[ portfolio__content ][ stack ]">{{- .Content -}}</div>
   </div>
   </article>

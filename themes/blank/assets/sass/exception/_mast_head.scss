@@ -13,10 +13,32 @@
 
 .mast {
   background-color: transparentize($site-white, 0.2);
+  color: var(--text-color);
+  
+  p {
+    --measure: 50ch;
+    font-size: var(--s1);
+    line-height: 1.3;
+    text-wrap: balance;
+    width: var(--measure);
+  }
+
+  p::first-letter {
+    --wght: 700;
+    float: left;
+    font-size: var(--s5);
+    font-weight: var(--wght);
+    line-height: 0.8;
+  }
 
   > div {
     display: flex;
     justify-content: center;
+    
+    @include media('<=tablet') {
+      padding-block: var(--s1);
+      padding-inline: var(--s1);  
+    }
     padding-block: var(--s6);
     padding-inline: var(--s4);
   }

@@ -55,11 +55,17 @@
 // @Param
 //
 
-@mixin focus-ring($type, $color: $site-focus-ring, $size: #{var(--s-3)}) {
+@mixin focus-ring(
+  $type: outline, 
+  $kind: solid, 
+  $color: $site-focus-ring, 
+  $size: #{var(--s-4)}) {
   @if $type == 'outline' {
-    outline: dotted $color $size;
+    outline-color: $color;
+    outline-style: $kind;
+    outline-width: $size;
   } @else if $type == 'border' {
-    border: $size dotted $color;
+    border: $kind $color $size  ;
   } @else if $type == 'box-shadow' {
     box-shadow: inset 0 0 0 $size $color;
   }

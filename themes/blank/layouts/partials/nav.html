@@ -9,11 +9,11 @@
     </span>
     <span class="menu-label" id="menuLabel">Menu</span>
     </button>
-  <ul id="navItems" class="[ siteNavigation--items ]" aria-expanded="false">
+  <ul id="navItems" class="[ siteNavigation--items ] is-inactive" aria-expanded="false">
     {{ range .Site.Menus.main }}
     <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
     {{ end }}
-    <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>
+    {{/*  <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>  */}}
     {{- partial "social_list.html" . -}}
   </ul>
 </nav>

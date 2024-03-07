@@ -154,16 +154,19 @@
         padding-inline-end: var(--s-2);
         padding-inline-start: var(--s-2);
       }
-
-      &.is-inactive {
-        @include visually-hidden;
+      
+      @include media('<=tablet') {
+        &.is-inactive {
+          @include visually-hidden;
+        }
       }
+      
 
       &.is-active {
         color: $site-white;
         filter: opacity(1);
         transition: all ease-in 101ms;
-        z-index: 1000;
+        z-index: 1100;
       }
     }
 

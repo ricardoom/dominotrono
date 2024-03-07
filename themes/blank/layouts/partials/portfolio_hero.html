@@ -15,8 +15,9 @@
 {{ $tag := .Params.tags }}
 {{ $projectDescription := .Params.projectDesc }}
 {{ $tags := delimit $tag ", "}}
+{{ $id := lower (replace .Title " " "-") }}
 
-<li class="[ portfolio-list-item ]" data-post-date="{{ $date }}" aria-labelledby="{{ .Title }}">
+<li class="[ portfolio-list-item ]" data-post-date="{{ $date }}" aria-labelledby="{{ $id }}">
   <a href="{{ .Permalink }}">
     <section class="[ portfolio-list-item__content ][ {{ $color }} ] ">
       {{ if and ( $portfolioHero ) ( ne $portfolioHero "" ) }}

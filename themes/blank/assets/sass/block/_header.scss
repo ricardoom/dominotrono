@@ -4,7 +4,7 @@
 
 header {
   background-color: $site-black;
-  padding-block: ft(var(--s1), var(--s2));
+  // padding-block: ft(var(--s1), var(--s2));
   // padding-block-end: var(--s1);
   @include media('>=tablet') {
     display: block;

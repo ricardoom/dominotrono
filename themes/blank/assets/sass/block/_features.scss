@@ -27,9 +27,9 @@
     max-width: 60%;
   }
 
-  section:first-child {
-    z-index: 1000;
-  }
+  // section:first-child {
+  //   z-index: 1000;
+  // }
 
   section:last-child {
     margin-bottom: var(--s3);
@@ -90,9 +90,10 @@
     }
 
     h1 {
+      --wght: 573;
       align-self: end;
       font-size: ft(var(--s1), var(--s4));
-      font-weight: 674;
+      font-weight: var(--wght);
       line-height: 1;
       margin-bottom: 0;
       margin-block-end: 0;
@@ -140,8 +141,7 @@
     @include media('<=tablet') {
       background-color: transparentize($color: $site-white, $amount: 0.45);
       span {
-        color: red;
-        // font-size: ft(var(--s-1), var(--s1));
+        font-size: ft(var(--s-1), var(--s0));
       }
     }
 
@@ -151,7 +151,7 @@
         background-color: transparentize($color: $site-white, $amount: 0.45);
 
         & span {
-          color: red;
+          // color: currentColor;
           
         }
       }
@@ -159,7 +159,7 @@
     
 
     &:focus {
-      @include focus-ring(outline, $site-punk-pink, #{var(--s-3)});
+      @include focus-ring(outline, solid, var(--hover-color), var(--s-2));
     }
   }
 

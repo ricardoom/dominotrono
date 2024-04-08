@@ -11,7 +11,8 @@
 {{ $imgWrapper := "grid-wrapper" }}
 {{ $local := .Site.IsServer }}
 {{ $headerText := $.Scratch.Get "section-header" }}
-{{ $resume := .Params.resume }}
+{{ $resume := .Site.Params.resume }}
+{{ $cr := .Params.customresume }}
 {{ partial "header.html" . }}
 <main>
   {{ with $newLayout }}
@@ -26,7 +27,11 @@
 {{ end }}
   <div class="[ {{ if ( $newLayout ) }}{{ $agWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioParent ]">
   <div class="[ stack ][ resume-dl ]">
-    <a href="{{ $resume }}">Download Resume ↘</a>
+    {{ with $cr }}
+    <a href="{{ $resume.custom }}{{ $cr }}">Download Resume ↘</a>
+    {{ else }}
+    <a href="{{ $resume.url }}">Download Resume ↘</a>
+    {{ end }}
   </div>
   <div  class="[ portfolio__content ][ stack ]">{{- .Content -}}</div>
   </div>

@@ -69,6 +69,7 @@ pluralizelisttitles = "false"
     [params.resume]
         url = "/about/Ricardo_Galvez_Resume.pdf"
         name = "Resume"
+        custom = "../media/resume/"
     # [params.instagram]
     #     name = "instagram"
     #     userName = "@rixblargh"

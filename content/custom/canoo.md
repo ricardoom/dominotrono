@@ -1,13 +1,13 @@
 ---
 author: Ricardo Galvez
 categories: []
-date: 2024-03-07T13:19:53-08:00
+date: 2024-02-15T17:35:54-08:00
 draft: false
 tags: []
-title: "Senior UI/UX Designer at Santa Clara University"
-url: /santa-clara-university
+title: "Senior UI UX Designer at Canoo"
+url: /canoo
 newLayout: true
-customresume: "RGalvezUXResumeSC.docx"
+customresume: "RGalvezUXResumeCanoo.pdf"
 ---
 {{< section_wrapper class="hero-grid" >}}
     {{< image_cld
@@ -19,17 +19,17 @@ customresume: "RGalvezUXResumeSC.docx"
       class="hero-grid__imageBlock"
       >}}
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
-     I created this web page to highlight my expertise and demonstrate my qualifications for the Senior UI/UX Designer role at Santa Clara University. The following examples highlight a cross-section of my web and app design experience. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw all visual and user experience design efforts.
-    {{< /copy_wrapper >}}
-{{< /section_wrapper >}}
+     I created this web page to highlight my expertise and demonstrate my qualifications for the Senior UI UX Designer at Cedars-Sinai Hospital. The following examples highlight a cross-section of my web and app design experience. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw all visual and user experience design efforts.
+    {{< /copy_wrapper>}}
+{{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
     {{< section_header level="2" text="Pearson" >}}
     {{< section_header level="3" text="Bronte ePublishing Platform" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
       Most of my work at Pearson centered around an internal eText authoring environment called "Bronte." As a result, the user experience work focused specifically on the publishing workflow and administration. 
-    {{< /copy_wrapper >}}
-{{< /section_wrapper >}}
+    {{< /copy_wrapper>}}
+{{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
 {{< section_header level="4" text="Publishing Management UI" >}}    
     {{< image_cld
@@ -44,12 +44,11 @@ customresume: "RGalvezUXResumeSC.docx"
     {{< section_header level="4" text="Design Discovery" >}}
       {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.
-      {{< /copy_wrapper>}}
+      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.{{< /copy_wrapper>}}
       {{< copy_wrapper
         class="details-grid__twoByTwo copy-block__left" >}}
         My recommendation was to bring the publishing workflow into the management overview screen and embed the publishing functions, activating a kebab menu item and visually indicating the state and status of a given document.
-      {{< /copy_wrapper >}}
+        {{< /copy_wrapper>}}
 
       {{< image_cld
       loading="lazy"
@@ -161,8 +160,7 @@ customresume: "RGalvezUXResumeSC.docx"
         figcaption="A detailed concept for the interactive content library"
         class="details-grid__twentyWords image-block__right"
       >}}
-      {{< sl "portfolio/curriculex" "Learn more about Curriculex" >}}
-      
+
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
     
@@ -276,12 +274,7 @@ customresume: "RGalvezUXResumeSC.docx"
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="New York Public Library" >}}
-    {{< section_header level="3" text="Website Redesign" >}}
-        {{< copy_wrapper
-        class="details-grid__twentyWords copy-block__left" >}}
-        While at the New York Public Library, I was responsible for overseeing and executing a large redesign of the library's website. Aside from top-level pages and interactions, I was instrumental in the design and implementation of new features. These included new search interfaces for new arrivals, a discovery interface for research materials as well as new features and redesigned UI for SimplyE, an open-source application and eReader platform.
-    {{< /copy_wrapper>}}
-    {{< image_cld 
+     {{< image_cld 
       loading="lazy"
       class="details-grid__fiftyWords big-image"
       alt="An image of the NYPL home page early in the design and prototype stage"
@@ -290,7 +283,15 @@ customresume: "RGalvezUXResumeSC.docx"
     >}}
 
 {{< /section_wrapper >}}
+{{< section_wrapper class="details-grid" >}}
 
+    {{< section_header level="3" text="Website Redesign" >}}
+        {{< copy_wrapper
+        class="details-grid__twentyWords copy-block__left" >}}
+        While at the New York Public Library, I was responsible for overseeing and executing a large redesign of the library's website. Aside from top-level pages and interactions, I was instrumental in the design and implementation of new features. These included new search interfaces for new arrivals, a discovery interface for research materials as well as new features and redesigned UI for SimplyE, an open-source application and eReader platform.
+    {{< /copy_wrapper>}}
+
+{{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="4" text="Interior Pages and Components" >}}

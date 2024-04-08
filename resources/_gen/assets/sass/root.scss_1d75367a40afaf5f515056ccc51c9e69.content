@@ -1683,9 +1683,13 @@ footer {
       .feature .pivot:hover, .feature .pivot:focus {
         background-color: rgba(255, 255, 255, 0.55); } }
     .feature .pivot:focus {
+<<<<<<< HEAD
       outline-color: var(--hover-color);
       outline-style: solid;
       outline-width: var(--s-2); }
+=======
+      outline: solid #f542ad var(--s-3); }
+>>>>>>> 30eb2fc9 (feat(Design Improvements): :lipstick: New and big changes)
   .feature .card-state {
     --string: 'px';
     --perspective: 25;

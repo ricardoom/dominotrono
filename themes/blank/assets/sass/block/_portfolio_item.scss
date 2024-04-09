@@ -98,7 +98,7 @@
       // details grid specific variables:
       $details-grid-columns: #{1fr 6.5vw 1fr 2.5vw};
       $details-grid-rows: #{minmax(4vh, auto) auto};
-      $row-gap: var(--s0);
+      $row-gap: var(--s-1);
       //
 
       .details-grid {
@@ -119,11 +119,21 @@
         }
 
         // TODO this section needs to be refactored, but for now it can stand...
+
+        > h2 {
+          margin-block: 0;
+        }
+        
+        > h2 + h3 {
+          margin-block-start: var(--s0);
+        }
+
         > h4 {
           margin-block-end: 0;
         }
 
-        > h4 + p {
+        > h3 + p,
+          h4 + p {
           margin-block-start: 0;
         }
         // TODO see above ⬆

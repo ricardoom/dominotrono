@@ -1,13 +1,13 @@
 ---
 author: Ricardo Galvez
 categories: []
-date: 2024-03-07T13:19:53-08:00
+date: 2024-02-15T17:35:54-08:00
 draft: false
 tags: []
-title: "Senior UI/UX Designer at Santa Clara University"
-url: /santa-clara-university
+title: "Seeking the Sr. Product Designer position with Canoo"
+url: /canoo
 newLayout: true
-customresume: "RGalvezUXResumeSC.docx"
+customresume: "RGalvezUXResumeCanoo.pdf"
 ---
 {{< section_wrapper class="hero-grid" >}}
     {{< image_cld
@@ -19,17 +19,17 @@ customresume: "RGalvezUXResumeSC.docx"
       class="hero-grid__imageBlock"
       >}}
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
-     I created this web page to highlight my expertise and demonstrate my qualifications for the Senior UI/UX Designer role at Santa Clara University. The following examples highlight a cross-section of my web and app design experience. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw all visual and user experience design efforts.
-    {{< /copy_wrapper >}}
-{{< /section_wrapper >}}
+     I created this web page to highlight my expertise and demonstrate my qualifications for the Senior UI UX Designer at Canoo. The following examples highlight my experience in Interface and UX design. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw a variety of administrative and end-user interface design efforts.
+    {{< /copy_wrapper>}}
+{{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
     {{< section_header level="2" text="Pearson" >}}
     {{< section_header level="3" text="Bronte ePublishing Platform" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
       Most of my work at Pearson centered around an internal eText authoring environment called "Bronte." As a result, the user experience work focused specifically on the publishing workflow and administration. 
-    {{< /copy_wrapper >}}
-{{< /section_wrapper >}}
+    {{< /copy_wrapper>}}
+{{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
 {{< section_header level="4" text="Publishing Management UI" >}}    
     {{< image_cld
@@ -44,12 +44,11 @@ customresume: "RGalvezUXResumeSC.docx"
     {{< section_header level="4" text="Design Discovery" >}}
       {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.
-      {{< /copy_wrapper>}}
+      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.{{< /copy_wrapper>}}
       {{< copy_wrapper
         class="details-grid__twoByTwo copy-block__left" >}}
         My recommendation was to bring the publishing workflow into the management overview screen and embed the publishing functions, activating a kebab menu item and visually indicating the state and status of a given document.
-      {{< /copy_wrapper >}}
+        {{< /copy_wrapper>}}
 
       {{< image_cld
       loading="lazy"
@@ -90,9 +89,7 @@ customresume: "RGalvezUXResumeSC.docx"
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="3" text="Design System Artifacts & Accessibility" >}}
-    
-
-    {{< copy_wrapper
+      {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
       As a general rule, we created specification sheets for all proposed components. We were required to outline specifically all states, where they changed, and any subsequent animations. Because Pearson has very strict Accessibility protocols, all new proposals are required to pass through an A11y audit. New features were required to have each possible state specified and in alignment with Bronte's design system.
     {{< /copy_wrapper>}}
@@ -118,18 +115,23 @@ customresume: "RGalvezUXResumeSC.docx"
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="3" text="Curriculex Nursing Education Platform" >}}
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Curriculex seeks to disrupt traditional textbook learning with engaging interactive lessons and a live instructional platform for both in-person and remote classrooms. My work focused on the instructor's experience; covering both class and learning asset/content management, while other team members focused on the student experience. For an instructor, managing course and group work can be challenging. I focused primarily on reducing friction between understanding a student's progress overall and acting upon incoming data in real time.
+    {{< /copy_wrapper >}}
     {{< section_header level="4" text="Design Discovery and UX Research" >}}
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      During our discovery phase, we sought to break down so-called learning pathways into modular course units with coursework designed to be consumed and completed before, during and after class. Much of my explorations encircled the experience related to "during class" group work. Much of this encapsulation was expressed as low to high-fidelity analytics dashboards.
+    {{< /copy_wrapper >}}
     {{< image_cld
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686070114/curriculex/curriculexOverview.webp"
       alt=""
-      figcaption=""
+      figcaption="A larger Figma view of showing"
       class="details-grid__fiftyWords big-image"
     >}}
-    {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__left" >}}
-      Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. My work focused on the instructor's experience; covering both class and learning asset/content management, while other team members focused on the student experience.
-    {{< /copy_wrapper >}}
+    
         
     {{< image_cld
         loading="lazy"
@@ -161,15 +163,73 @@ customresume: "RGalvezUXResumeSC.docx"
         figcaption="A detailed concept for the interactive content library"
         class="details-grid__twentyWords image-block__right"
       >}}
-      {{< sl "portfolio/curriculex" "Learn more about Curriculex" >}}
-      
+
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-    
+{{< section_header level="3" text="Curriculex Interactive Lecture" >}}
+  {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Lastly, another component to my explorations was to investigate an in-class lecture feature, taking traditional presentation decks to another level. Designed to go beyond static images and diagrams the "Interactive Lecture" feature allowed for pre and post-class coursework to be tightly coupled to a pre-composed yet customizable lecture, rich with interactive components, strong visuals and, in the case of remote learning scenarios, group and private chat functionality allowing a new range of discourse between instructors and students. 
+
+    {{< /copy_wrapper >}}
+
+    {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007878/curriculex/Interactive%20Lecture/InteractiveLectureOverview.webp"
+        alt="An image of the lecture library screen"
+        figcaption="A Figma board with a broad view of the conceptual intent of the interactive lecture"
+        class="details-grid__fiftyWords big-image"
+      >}}
+      {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712605984/curriculex/Interactive%20Lecture/interactive-lecture-detail-2.webp"
+        alt="An image of the lecture library screen"
+        figcaption="Conceptual flow view of the interactive lecture "
+        class="details-grid__twentyWords image-block__left"
+      >}}
+      {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712605984/curriculex/Interactive%20Lecture/interactive-lecture-detail-3.webp"
+        alt="An image of the lecture library screen"
+        figcaption="Details of thought process and functionality"
+        class="details-grid__fiftyWords big-image"
+      >}}
+      
+    {{< section_header level="4" text="Interactive Lecture Management" >}}
+    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
+    As part of our push for funding for this project, we felt it important to model a UI for managing lecture modules and associated assets. We wanted to be able to do things
+    {{< /copy_wrapper>}}
+    {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1712613319/curriculex/Interactive%20Lecture/Initial_Screen.webp"
+        alt="An image of the initial interface"
+        figcaption="An overview of the Instructor's landing screen"
+        class="details-grid__twentyWords image-block__right"
+      >}}
+{{< /section_wrapper >}}
+{{< section_wrapper class="details-grid" >}}
+      {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712613474/curriculex/Interactive%20Lecture/Insights_Lecture_Component.png"
+        alt="Instructors landing screen"
+        figcaption="Detail from the Instructors landing screen, where the instructor can view the next lecture in the queue, as well two fundamental controls"
+        class="details-grid__twoByTwo image-block__left"
+      >}}
+      {{< image_cld
+        loading="lazy"
+        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712616509/curriculex/Interactive%20Lecture/interactive-lecture-detail-5.png"
+        alt="An image of the initial interface"
+        figcaption="Detail of a Figma screen describing our thinking and functionality regarding certain UI elements"
+        class="details-grid__fiftyWords big-image"
+      >}}
+{{< /section_wrapper >}}
+
+{{< section_wrapper class="details-grid" >}}
     {{< section_header level="2" text="Native Bound Unbound" >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
     {{< /copy_wrapper>}}
+    
     
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
@@ -276,12 +336,7 @@ customresume: "RGalvezUXResumeSC.docx"
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="2" text="New York Public Library" >}}
-    {{< section_header level="3" text="Website Redesign" >}}
-        {{< copy_wrapper
-        class="details-grid__twentyWords copy-block__left" >}}
-        While at the New York Public Library, I was responsible for overseeing and executing a large redesign of the library's website. Aside from top-level pages and interactions, I was instrumental in the design and implementation of new features. These included new search interfaces for new arrivals, a discovery interface for research materials as well as new features and redesigned UI for SimplyE, an open-source application and eReader platform.
-    {{< /copy_wrapper>}}
-    {{< image_cld 
+     {{< image_cld 
       loading="lazy"
       class="details-grid__fiftyWords big-image"
       alt="An image of the NYPL home page early in the design and prototype stage"
@@ -290,7 +345,15 @@ customresume: "RGalvezUXResumeSC.docx"
     >}}
 
 {{< /section_wrapper >}}
+{{< section_wrapper class="details-grid" >}}
 
+    {{< section_header level="3" text="Website Redesign" >}}
+        {{< copy_wrapper
+        class="details-grid__twentyWords copy-block__left" >}}
+        While at the New York Public Library, I was responsible for overseeing and executing a large redesign of the library's website. Aside from top-level pages and interactions, I was instrumental in the design and implementation of new features. These included new search interfaces for new arrivals, a discovery interface for research materials as well as new features and redesigned UI for SimplyE, an open-source application and eReader platform.
+    {{< /copy_wrapper>}}
+
+{{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
 
     {{< section_header level="4" text="Interior Pages and Components" >}}

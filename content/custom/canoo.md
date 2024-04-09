@@ -20,7 +20,6 @@ customresume: "RGalvezUXResumeCanoo.docx"
       >}}
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
      I created this web page to highlight my expertise and demonstrate my qualifications for the Senior UI UX Designer at Canoo. The following examples highlight my experience in Interface and UX design. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw a variety of administrative and end-user interface design efforts.
-     I created this web page to highlight my expertise and demonstrate my qualifications for the Senior UI UX Designer at Canoo. The following examples highlight my experience in Interface and UX design. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw a variety of administrative and end-user interface design efforts.
     {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}

@@ -7,7 +7,7 @@ tags: []
 title: "Seeking the Sr. Product Designer position with Canoo"
 url: /canoo
 newLayout: true
-customresume: "RGalvezUXResumeCanoo.pdf"
+customresume: "RGalvezUXResumeCanoo.docx"
 ---
 {{< section_wrapper class="hero-grid" >}}
     {{< image_cld

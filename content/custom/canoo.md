@@ -88,7 +88,7 @@ customresume: "RGalvezUXResumeCanoo.docx"
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
 
-    {{< section_header level="3" text="Design System Artifacts & Accessibility" >}}
+    {{< section_header level="4" text="Design System Artifacts & Accessibility" >}}
       {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
       As a general rule, we created specification sheets for all proposed components. We were required to outline specifically all states, where they changed, and any subsequent animations. Because Pearson has very strict Accessibility protocols, all new proposals are required to pass through an A11y audit. New features were required to have each possible state specified and in alignment with Bronte's design system.
@@ -166,7 +166,7 @@ customresume: "RGalvezUXResumeCanoo.docx"
 
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-{{< section_header level="3" text="Curriculex Interactive Lecture" >}}
+{{< section_header level="4" text="Curriculex Interactive Lecture" >}}
   {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
       Lastly, another component to my explorations was to investigate an in-class lecture feature, taking traditional presentation decks to another level. Designed to go beyond static images and diagrams the "Interactive Lecture" feature allowed for pre and post-class coursework to be tightly coupled to a pre-composed yet customizable lecture, rich with interactive components, strong visuals and, in the case of remote learning scenarios, group and private chat functionality allowing a new range of discourse between instructors and students. 

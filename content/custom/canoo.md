@@ -203,7 +203,7 @@ customresume: "RGalvezUXResumeCanoo.pdf"
         loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1712613319/curriculex/Interactive%20Lecture/Initial_Screen.webp"
         alt="An image of the initial interface"
-        figcaption="Instructors landing screen."
+        figcaption="An overview of the Instructor's landing screen"
         class="details-grid__twentyWords image-block__right"
       >}}
 {{< /section_wrapper >}}
@@ -211,8 +211,8 @@ customresume: "RGalvezUXResumeCanoo.pdf"
       {{< image_cld
         loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712613474/curriculex/Interactive%20Lecture/Insights_Lecture_Component.png"
-        alt="An image of the initial interface"
-        figcaption="Instructors landing screen."
+        alt="Instructors landing screen"
+        figcaption="Detail from the Instructors landing screen, where the instructor can view the next lecture in the queue, as well two fundamental controls"
         class="details-grid__twoByTwo image-block__left"
       >}}
       {{< image_cld

@@ -28,5 +28,5 @@ sandbox/
 
 # ignore finger printing files
 
-resources/_gen/assets/scss/sass/root.*.content
-resources/_gen/assets/scss/sass/root.*.json
+resources/_gen/assets/scss/sass/**
+

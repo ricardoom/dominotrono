@@ -7,7 +7,7 @@ tags: []
 title: "Seeking the Sr. Product Designer position with Canoo"
 url: /canoo
 newLayout: true
-customresume: "RGalvezUXResumeCanoo.pdf"
+customresume: "RGalvezUXResumeCanoo.docx"
 ---
 {{< section_wrapper class="hero-grid" >}}
     {{< image_cld
@@ -166,7 +166,7 @@ customresume: "RGalvezUXResumeCanoo.pdf"
 
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-{{< section_header level="3" text="Curriculex Interactive Lecture" >}}
+{{< section_header level="4" text="Curriculex Interactive Lecture" >}}
   {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
       Lastly, another component to my explorations was to investigate an in-class lecture feature, taking traditional presentation decks to another level. Designed to go beyond static images and diagrams the "Interactive Lecture" feature allowed for pre and post-class coursework to be tightly coupled to a pre-composed yet customizable lecture, rich with interactive components, strong visuals and, in the case of remote learning scenarios, group and private chat functionality allowing a new range of discourse between instructors and students. 

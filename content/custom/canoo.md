@@ -88,8 +88,10 @@ customresume: "RGalvezUXResumeCanoo.pdf"
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
 
-    {{< section_header level="4" text="Design System Artifacts & Accessibility" >}}
-      {{< copy_wrapper
+    {{< section_header level="3" text="Design System Artifacts & Accessibility" >}}
+    
+
+    {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
       As a general rule, we created specification sheets for all proposed components. We were required to outline specifically all states, where they changed, and any subsequent animations. Because Pearson has very strict Accessibility protocols, all new proposals are required to pass through an A11y audit. New features were required to have each possible state specified and in alignment with Bronte's design system.
     {{< /copy_wrapper>}}
@@ -128,10 +130,13 @@ customresume: "RGalvezUXResumeCanoo.pdf"
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686070114/curriculex/curriculexOverview.webp"
       alt=""
-      figcaption="A larger Figma view of showing"
+      figcaption=""
       class="details-grid__fiftyWords big-image"
     >}}
-    
+    {{< copy_wrapper
+      class="details-grid__twentyWords copy-block__left" >}}
+      Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. My work focused on the instructor's experience; covering both class and learning asset/content management, while other team members focused on the student experience.
+    {{< /copy_wrapper >}}
         
     {{< image_cld
         loading="lazy"
@@ -166,70 +171,11 @@ customresume: "RGalvezUXResumeCanoo.pdf"
 
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
-{{< section_header level="3" text="Curriculex Interactive Lecture" >}}
-  {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__left" >}}
-      Lastly, another component to my explorations was to investigate an in-class lecture feature, taking traditional presentation decks to another level. Designed to go beyond static images and diagrams the "Interactive Lecture" feature allowed for pre and post-class coursework to be tightly coupled to a pre-composed yet customizable lecture, rich with interactive components, strong visuals and, in the case of remote learning scenarios, group and private chat functionality allowing a new range of discourse between instructors and students. 
-
-    {{< /copy_wrapper >}}
-
-    {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007878/curriculex/Interactive%20Lecture/InteractiveLectureOverview.webp"
-        alt="An image of the lecture library screen"
-        figcaption="A Figma board with a broad view of the conceptual intent of the interactive lecture"
-        class="details-grid__fiftyWords big-image"
-      >}}
-      {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712605984/curriculex/Interactive%20Lecture/interactive-lecture-detail-2.webp"
-        alt="An image of the lecture library screen"
-        figcaption="Conceptual flow view of the interactive lecture "
-        class="details-grid__twentyWords image-block__left"
-      >}}
-      {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712605984/curriculex/Interactive%20Lecture/interactive-lecture-detail-3.webp"
-        alt="An image of the lecture library screen"
-        figcaption="Details of thought process and functionality"
-        class="details-grid__fiftyWords big-image"
-      >}}
-      
-    {{< section_header level="4" text="Interactive Lecture Management" >}}
-    {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-    As part of our push for funding for this project, we felt it important to model a UI for managing lecture modules and associated assets. We wanted to be able to do things
-    {{< /copy_wrapper>}}
-    {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,w_auto,f_auto/v1712613319/curriculex/Interactive%20Lecture/Initial_Screen.webp"
-        alt="An image of the initial interface"
-        figcaption="An overview of the Instructor's landing screen"
-        class="details-grid__twentyWords image-block__right"
-      >}}
-{{< /section_wrapper >}}
-{{< section_wrapper class="details-grid" >}}
-      {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712613474/curriculex/Interactive%20Lecture/Insights_Lecture_Component.png"
-        alt="Instructors landing screen"
-        figcaption="Detail from the Instructors landing screen, where the instructor can view the next lecture in the queue, as well two fundamental controls"
-        class="details-grid__twoByTwo image-block__left"
-      >}}
-      {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1712616509/curriculex/Interactive%20Lecture/interactive-lecture-detail-5.png"
-        alt="An image of the initial interface"
-        figcaption="Detail of a Figma screen describing our thinking and functionality regarding certain UI elements"
-        class="details-grid__fiftyWords big-image"
-      >}}
-{{< /section_wrapper >}}
-
-{{< section_wrapper class="details-grid" >}}
+    
     {{< section_header level="2" text="Native Bound Unbound" >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
     My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
     {{< /copy_wrapper>}}
-    
     
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}

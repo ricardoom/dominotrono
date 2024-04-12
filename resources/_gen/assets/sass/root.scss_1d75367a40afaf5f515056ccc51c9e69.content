@@ -976,11 +976,7 @@ figure {
   .portfolio-list-item a:hover {
     outline: none; }
   .portfolio-list-item__content {
-    display: grid;
-    transition: background-color 200ms ease-out; }
-    .portfolio-list-item__content:hover {
-      transition: background-color 250ms ease-in;
-      background-color: rgba(0, 0, 0, 0); }
+    display: grid; }
     .portfolio-list-item__content--hero {
       margin: 0;
       max-width: 80rem;
@@ -997,10 +993,7 @@ figure {
           grid-row: 1 / 5; } }
       .portfolio-list-item__content--hero img {
         height: 100%;
-        opacity: 0.75;
         width: 100%; }
-        .portfolio-list-item__content--hero img:hover {
-          opacity: 1; }
       .portfolio-list-item__content--hero figcaption {
         color: oklab(from color l a b); }
     .portfolio-list-item__content h2 {

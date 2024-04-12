@@ -13,12 +13,6 @@
 
   &__content {
     display: grid;
-    transition: background-color 200ms ease-out;
-
-    &:hover {
-      transition: background-color 250ms ease-in;
-      background-color: hsla(0, 0%, 0%, 0);
-    }
 
     &--hero {
       // height: 100%;
@@ -40,12 +34,7 @@
 
       img {
         height: 100%;
-        opacity: 0.75;
         width: 100%;
-
-        &:hover {
-          opacity: 1;
-        }
       }
 
       figcaption {

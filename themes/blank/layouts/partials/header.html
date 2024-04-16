@@ -8,7 +8,6 @@
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }}
 {{ $prodStyle := resources.Get $sassRoot | resources.ToCSS $prodOptions | resources.Fingerprint }} 
 {{ $typography := .Site.Params.typography }}
-
 {{ $class := .Site.Params.classes }}
 
 <!DOCTYPE html>

@@ -4,7 +4,7 @@ categories: []
 date: 2024-05-01T10:54:17-07:00
 draft: false
 tags: []
-title: "Seeking the Senior Designer with Fabletics"
+title: "Senior UX Designer with Fabletics"
 url: /fabletics
 newLayout: true
 customresume: "RGalvezUXResumeFabletics.docx"

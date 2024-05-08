@@ -2,7 +2,7 @@
 author: Ricardo Galvez
 categories: []
 date: 2024-03-07T13:19:53-08:00
-draft: false
+draft: true
 tags: []
 title: "Senior UI/UX Designer at Santa Clara University"
 url: /santa-clara-university

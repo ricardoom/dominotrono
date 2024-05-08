@@ -4,7 +4,7 @@ categories: []
 date: 2024-05-07T16:33:51-07:00
 draft: false
 tags: []
-title: "Work & Co."
+title: "Senior Designer at Work & Co."
 url: /workandco
 newLayout: true
 customresume: "RGalvezUXResumeWork.docx"

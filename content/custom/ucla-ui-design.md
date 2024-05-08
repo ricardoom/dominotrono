@@ -7,7 +7,7 @@ tags: []
 title: "UCLA User Interface Designer Candidate"
 url: /ucla-ui-designer
 newLayout: true
-customresume: "RGalvezUXResumeUCLA.docx"
+customresume: "RGalvezUXResumeUCLA-UI.docx"
 ---
 {{< section_wrapper class="hero-grid" >}}
     {{< image_cld

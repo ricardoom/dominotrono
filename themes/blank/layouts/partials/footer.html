@@ -16,6 +16,7 @@
 {{ $cat := .Param "categories" }}
 {{ $resume := .Site.Params.resume  }}
 {{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
+{{ $footerSVG := "svg/selfPortrait.svg" }}
 
 
 <footer>
@@ -33,8 +34,7 @@
     </nav>
     <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
     </div>
-    {{ partial "svg/footerBlob.svg" . }}
-  
+    
 </div>
 </footer>
 {{ if $local }}

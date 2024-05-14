@@ -1,6 +1,7 @@
 {{ $local := .Site.IsServer }} 
 {{ $mainContent := partial "first-paragraph.html" .Content }}
 {{ partial "header.html" . }}
+{{ $footerSVG := "svg/selfPortrait.svg" }}
 {{ if $local }}
   {{ printf "<!-- === root index === -->" | safeHTML }}
 {{ end  }}
@@ -22,8 +23,12 @@
         {{ end }} 
         {{ end }}
       </div>
+      <div class="[ stack ][ thing ]">
+        {{ partial $footerSVG . }}
+      </div>
     </div>
   </section>
+
   {{/*  {{ partial "jumbo_two.html" . }}  */}}
 </main>
 

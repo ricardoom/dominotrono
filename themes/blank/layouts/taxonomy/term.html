@@ -1,4 +1,4 @@
-{{ $local := $.Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ $blurb := .Params.blurb }}
 {{ if $local }}
   {{ printf "<!-- ++++ TAXONOMY TERM TEMPLATE +++++  -->" | safeHTML }}

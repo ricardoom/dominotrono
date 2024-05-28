@@ -1,7 +1,7 @@
 
 
 
-{{ $local := .Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ if $local }}
 {{ printf "<!-- +++ Default summary template +++ -->" | safeHTML }}
 {{ end  }}

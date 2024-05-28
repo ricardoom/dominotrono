@@ -1,5 +1,5 @@
 {{/*  Section Wrapper  */}}
-{{ $local := $.Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ $layout := $.Get "layout" }}
 {{ $hasHeader := $.Get "section-header" }}
 {{ $hasCopy := $.Get "section-copy" }}

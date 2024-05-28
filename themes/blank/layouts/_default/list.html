@@ -1,6 +1,6 @@
 
 
-{{ $local := .Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ if $local }}
 {{ printf "<!-- ++ default list template ++ -->" | safeHTML }}
 {{ end  }}

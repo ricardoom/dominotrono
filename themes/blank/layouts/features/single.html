@@ -1,4 +1,4 @@
-{{ $local := .Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ if $local }}
 {{ printf "<!-- XXX feature single item XXX -->" | safeHTML }}
 {{ end  }}
@@ -8,7 +8,7 @@
 {{ $agWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}  */}}
-{{ $local := .Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ $headerText := $.Scratch.Get "section-header" }}
 {{ partial "header.html" . }}
 <main>

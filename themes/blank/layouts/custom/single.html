@@ -1,4 +1,4 @@
-{{ $local := .Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ if $local }}
 {{ printf "<!-- +++ custom page single item  -->" | safeHTML }}
 {{ end  }}
@@ -9,7 +9,7 @@
 {{ $agWrapper := "article-grid-wrapper"}}
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
-{{ $local := .Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ $headerText := $.Scratch.Get "section-header" }}
 {{ $resume := .Site.Params.resume }}
 {{ $cr := .Params.customresume }}

@@ -1,4 +1,4 @@
-{{ $local := .Site.IsServer }} {{ if $local }} {{ printf "<!-- +++ jumbo_two.html  -->" | safeHTML }} {{ end }}
+{{ $local := hugo.IsServer }} {{ if $local }} {{ printf "<!-- +++ jumbo_two.html  -->" | safeHTML }} {{ end }}
 <div class="[ jumbo ]">
   <div class=" [ bot-contain ]">
     {{ partial "svg/spookyBackground.svg" . }}

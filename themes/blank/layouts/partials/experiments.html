@@ -5,7 +5,7 @@
 {{ $vendorPath := .Site.Params.vendorPath }}
 {{ $jsVendor := .Site.Params.vendors }}
 {{ $jsLowerCased := lower $pageJS }}
-{{ $local := .Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ $cat := .Param "categories" }}
 
 {{ if $pageJS }}

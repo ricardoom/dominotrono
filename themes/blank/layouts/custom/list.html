@@ -1,4 +1,4 @@
-{{ $local := $.Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ if $local }}
 {{ printf "<!-- custom content list template here  -->" | safeHTML }}
 {{ end }}

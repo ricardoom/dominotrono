@@ -2,7 +2,7 @@
 author: Ricardo Galvez
 categories: []
 date: 2024-01-10T09:48:08-08:00
-draft: false
+draft: true
 tags: []
 title: "Senior Web Designer/UX Candidate"
 url: /custom-screen

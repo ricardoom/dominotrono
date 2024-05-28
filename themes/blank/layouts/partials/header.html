@@ -1,4 +1,4 @@
-{{ $local := .Site.IsServer }} 
+{{ $local := hugo.IsServer }} 
 {{ $targetPath := "css/root.css" }} 
 {{ $sassRoot := "sass/root.scss" }} 
 {{ $rootClass := ( slice "homePage" "innerPage" ) }} 

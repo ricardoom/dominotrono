@@ -1,4 +1,4 @@
-{{ $local := .Site.IsServer }} 
+{{ $local := hugo.IsServer }} 
 {{ $mainContent := partial "first-paragraph.html" .Content }}
 {{ partial "header.html" . }}
 {{ if $local }}

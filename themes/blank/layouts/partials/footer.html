@@ -1,4 +1,4 @@
-{{ $local := .Site.IsServer }} 
+{{ $local := hugo.IsServer }} 
 {{ $mobileNav := resources.Get "js/mobileNav.js" }}
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $socialSprites := resources.Get "js/sprites.js" }}

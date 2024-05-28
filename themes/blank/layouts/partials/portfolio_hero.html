@@ -1,4 +1,4 @@
-{{ $local := .Site.IsServer }}
+{{ $local := hugo.IsServer }}
 {{ if $local }}
 {{ printf "<!-- portfolio hero template: /portfolio/  -->" | safeHTML }}
 {{ end  }}

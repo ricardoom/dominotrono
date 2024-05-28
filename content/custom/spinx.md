@@ -1,13 +1,13 @@
 ---
 author: Ricardo Galvez
 categories: []
-date: 2024-04-25T08:57:30-07:00
-draft: true
+date: 2024-05-28T14:40:16-07:00
+draft: false
 tags: []
-title: "Seeking the Senior Designer with Disney"
-url: /disney
+title: "Seeking the UI/UX Designer position at Spinx"
+url: /spinx
 newLayout: true
-customresume: "RGalvezDesignResumeDisney.docx"
+customresume: "GalvezResumeUXDesignerSpinx.pdf"
 ---
 {{< section_wrapper class="hero-grid" >}}
     {{< image_cld
@@ -19,7 +19,7 @@ customresume: "RGalvezDesignResumeDisney.docx"
       class="hero-grid__imageBlock"
       >}}
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
-     I created this web page to highlight my expertise and demonstrate my qualifications for the Senior Designer position at Disney. The following examples highlight my experience in Interface and UX design. Below you will find examples of my relevant design work and experience.
+     I created this web page to highlight my expertise and demonstrate my qualifications for the UI UX Designer at Spinx. The following examples highlight my experience in Interface and UX design. My work at Pearson demonstrates my ability to work within a large organization as an individual contributor to a dedicated product team. For the Native Bound Unbound project, I excelled by guiding the director through design and engineering decisions as well as completing the initial design system. During my tenure at the New York Public Library, I served as the senior staff designer and oversaw a variety of administrative and end-user interface design efforts.
     {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
@@ -165,10 +165,8 @@ customresume: "RGalvezDesignResumeDisney.docx"
       >}}
 
 {{< /section_wrapper >}}
+
 {{< section_wrapper class="details-grid" >}}
-
-
-
 {{< section_header level="4" text="Curriculex Interactive Lecture" >}}
   {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
@@ -226,6 +224,7 @@ customresume: "RGalvezDesignResumeDisney.docx"
         class="details-grid__fiftyWords big-image"
       >}}
 {{< /section_wrapper >}}
+
 
 {{< section_wrapper class="details-grid" >}}
     {{< section_header level="2" text="Native Bound Unbound" >}}
@@ -500,12 +499,28 @@ customresume: "RGalvezDesignResumeDisney.docx"
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
     
-    {{< section_header level="3" text="SimplyE Audio Books Player" >}}
+    {{< section_header level="2" text="SimplyE Audio Books Player" >}}
+    {{< image_cld
+    class="details-grid__fiftyWords big-image"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802598/simply-e/se-android-audio-player.webp"
+    alt="an image of the Android user flow and screens with interactive hot-spots set up in Sketch"
+    figcaption="The Android version of the player and user flow with interactive hot-spots set up in Sketch."
+    >}}
+
+    {{< image_cld
+    class="details-grid__fiftyWords big-image"
+    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802600/simply-e/se-Audio-flow-iOS.webp"
+    alt="an image of the iOS user flow and screens with interactive hot-spots set up in Sketch"
+    figcaption="Similar to the previous example of the player for iOS and the user flow with interactive hot-spots set up in Sketch."
+    >}}
+
     {{< copy_wrapper
-        class="details-grid__twentyWords copy-block__left" >}}
-        NYPL played host and sponsor to an open-source project named SimplyE. The project concept was to provide a simple way for library patrons to check out digital resources; primarily eBooks. The project matured to the state where an audio player was wanted and I led the interface design efforts.
+        class="details-grid__fiftyWords copy-block" >}}
+        As we progressed on our iOS version of the app, we also began creating the Android corollary designs and flows. While this was relatively trivial, Android OSes have different controls causing some minor divergence in how we considered our users and their expectations. The team decided to utilize as much of the Material design system as possible, mirroring the same attitude we held for our iOS version.
       {{< /copy_wrapper>}}
-      {{< image_cld
+
+
+    {{< image_cld
     loading=" lazy"
     data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1582830616/simply-e/se-detail-view-ios.webp"
     alt="an image of the content landing screen"
@@ -521,28 +536,8 @@ customresume: "RGalvezDesignResumeDisney.docx"
     class="details-grid__twentyWords image-block__right"
     >}}
 
-    {{< image_cld
-    class="details-grid__fiftyWords big-image"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802598/simply-e/se-android-audio-player.webp"
-    alt="an image of the Android user flow and screens with interactive hot-spots set up in Sketch"
-    figcaption="The Android version of the player and user flow with interactive hot-spots set up in Sketch."
-    >}}
-
-{{< copy_wrapper
-        class="details-grid__fiftyWords copy-block" >}}
-        As we progressed on our iOS version of the app, we also began creating the Android corollary designs and flows. While this was relatively trivial, Android OSes have different controls causing some minor divergence in how we considered our users and their expectations. The team decided to utilize as much of the Material design system as possible, mirroring the same attitude we held for our iOS version.
-      {{< /copy_wrapper>}}
-
-    {{< image_cld
-    class="details-grid__fiftyWords big-image"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802600/simply-e/se-Audio-flow-iOS.webp"
-    alt="an image of the iOS user flow and screens with interactive hot-spots set up in Sketch"
-    figcaption="Similar to the previous example of the player for iOS and the user flow with interactive hot-spots set up in Sketch."
-    >}}
-
-
     {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__left" >}}
-      {{< sl "/portfolio/simplye-audiobook-player/" "See the full project here" >}}
+      class=" details-grid__twentyWords copy-block__right" >}}
+      {{< sl "/portfolio/simplye-audiobook-player/" "Go to the full project page" >}}
     {{< /copy_wrapper>}}
 {{< /section_wrapper >}}

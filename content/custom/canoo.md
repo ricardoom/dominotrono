@@ -2,7 +2,7 @@
 author: Ricardo Galvez
 categories: []
 date: 2024-02-15T17:35:54-08:00
-draft: false
+draft: true
 tags: []
 title: "Seeking the Sr. Product Designer position with Canoo"
 url: /canoo

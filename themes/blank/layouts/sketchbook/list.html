@@ -1,0 +1,33 @@
+{{ $artworks := $.Site.Data.artworks }}
+{{ $local := hugo.IsServer }}
+{{ $format := "q_auto,f_auto,w_auto" }}
+
+{{ if $local }}
+  {{ printf "<!-- ++ sketchbook list template ++ -->" | safeHTML }}
+{{ end }}
+
+{{ partial "header.html" . }}
+
+<main>
+  <div class="[ wrapper ] [ grid-wrapper ]">
+    <div class="[ grid-wrapper__listParent ] [ posts ]">
+      {{ with $artworks }}
+      <ul>
+        {{ range .resources }}
+        <li><img src="{{ .secure_url }}" alt="{{ with .context.custom.alt }}{{ . }}{{ end }}" srcset="https://res.cloudinary.com/toupeeproofbullets/image/{{ .type }}/{{ $format }}/v{{ int .version }}/{{ .asset_folder }}/{{ .display_name }}.webp">
+        <dl>
+          <dd>{{ with .public_id }}{{ . }}{{ end }}</dd>
+        </dl>
+        </li>
+
+        {{ end }}
+      </ul>
+    {{ end }}
+    </div>
+  </div>
+  <!-- {{ partial "pagination.html" . }} -->
+</main>
+{{ partial "footer.html" . }} 
+{{/*  {{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}  */}}

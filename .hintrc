@@ -3,6 +3,7 @@
     "web-recommended"
   ],
   "hints": {
-    "axe/structure": "off"
+    "axe/structure": "off",
+    "html-checker": "off"
   }
 }

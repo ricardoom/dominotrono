@@ -1,0 +1,186 @@
+{
+  "resources": [
+    {
+      "asset_id": "0979158ab1af6763dc3d29095dbe03ca",
+      "public_id": "IMG_0069",
+      "format": "webp",
+      "version": 1717522797,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T17:39:57Z",
+      "bytes": 227736,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0069",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522797/IMG_0069.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522797/IMG_0069.webp"
+    },
+    {
+      "asset_id": "4b2d0acd6c3110de57daed46a26dbeed",
+      "public_id": "IMG_0153",
+      "format": "webp",
+      "version": 1717522767,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T17:39:27Z",
+      "bytes": 267402,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0153",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522767/IMG_0153.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522767/IMG_0153.webp"
+    },
+    {
+      "asset_id": "685e9bbb8cd45f3ca32b94c287511cc4",
+      "public_id": "IMG_0157",
+      "format": "webp",
+      "version": 1717522762,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T17:39:22Z",
+      "bytes": 144294,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0157",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522762/IMG_0157.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522762/IMG_0157.webp"
+    },
+    {
+      "asset_id": "d48de029639c100ddb86f5df142780fa",
+      "public_id": "IMG_0174",
+      "format": "webp",
+      "version": 1717522745,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T17:39:05Z",
+      "bytes": 186940,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0174",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0174.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0174.webp"
+    },
+    {
+      "asset_id": "d1f7d5219fba6767529af638b0346526",
+      "public_id": "IMG_0175",
+      "format": "webp",
+      "version": 1717522745,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T17:39:05Z",
+      "bytes": 126912,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0175",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0175.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0175.webp"
+    },
+    {
+      "asset_id": "2592836e0af8e6454e306d3563269ea4",
+      "public_id": "IMG_0176",
+      "format": "webp",
+      "version": 1717522745,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T17:39:05Z",
+      "bytes": 180556,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0176",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0176.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0176.webp"
+    },
+    {
+      "asset_id": "1cbbc987aa26bb7b1cca9fb5ed6c55e6",
+      "public_id": "IMG_0184",
+      "format": "webp",
+      "version": 1717522519,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T17:34:29Z",
+      "bytes": 128416,
+      "width": 1033,
+      "height": 1175,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0184",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522519/IMG_0184.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522519/IMG_0184.webp"
+    },
+    {
+      "asset_id": "9c788450f59fe4dd991ced5a7c0751a6",
+      "public_id": "IMG_0170",
+      "format": "webp",
+      "version": 1717522468,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T17:34:28Z",
+      "bytes": 161758,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0170",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522468/IMG_0170.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522468/IMG_0170.webp"
+    },
+    {
+      "asset_id": "03e1f14abd2319663340380c61c53101",
+      "public_id": "IMG_0063",
+      "format": "webp",
+      "version": 1717521928,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T02:07:54Z",
+      "bytes": 271880,
+      "width": 1050,
+      "height": 1109,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0063",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717521928/IMG_0063.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717521928/IMG_0063.webp",
+      "context": {
+        "custom": {
+          "alt": "A page from the sketchbook with writing and various hand drawn elements"
+        }
+      },
+      "last_updated": {
+        "context_updated_at": "2024-06-04T02:08:51+00:00",
+        "updated_at": "2024-06-04T02:08:51+00:00"
+      }
+    },
+    {
+      "asset_id": "890bcd906ee5c39f208690cbd95330e1",
+      "public_id": "artworks/blueSeries_VEZ",
+      "format": "png",
+      "version": 1576169033,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-12-12T16:43:53Z",
+      "bytes": 168296,
+      "width": 800,
+      "height": 603,
+      "asset_folder": "artworks",
+      "display_name": "blueSeries_VEZ",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1576169033/artworks/blueSeries_VEZ.png",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1576169033/artworks/blueSeries_VEZ.png",
+      "context": {
+        "custom": {
+          "alt": "an abstract painting done on black ground with blue and white strokes"
+        }
+      },
+      "last_updated": {
+        "context_updated_at": "2024-06-03T18:52:58+00:00",
+        "updated_at": "2024-06-03T18:52:58+00:00"
+      }
+    }
+  ],
+  "total_count": 13,
+  "next_cursor": "21a1cac209104a7923824b2228fce8d3c7f9d1249ebaf03e1d6126600f3fe819"
+}

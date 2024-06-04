@@ -3,9 +3,14 @@
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $socialSprites := resources.Get "js/sprites.js" }}
 {{ $utils := resources.Get "js/utils.js" }}
-{{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" }}
+{{ $ct := resources.Get "js/ct.js" }}
 {{ $cloudinaryCore := .Site.Params.cloudinary.core }}
 {{ $cloudinaryCoreSkyPack := .Site.Params.cloudinary.skypack }}
+{{ $script := slice  $mobileNav $observer $socialSprites $utils $ct | resources.Concat "/js/main.js" }}
+
+
+
+
 {{ $customJS := .Param "experimentJS" }}
 {{ $customJsURL := .Site.Params.customJsURL }}
 {{ $customJsPath := .Site.Params.customJsPath }}
@@ -13,6 +18,7 @@
 {{ $vendorPath := .Site.Params.vendorPath }}
 {{ $jsVendor := .Site.Params.vendors }}
 {{ $jsLowerCased := lower $pageJS }}
+
 {{ $cat := .Param "categories" }}
 {{ $resume := .Site.Params.resume  }}
 {{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
@@ -47,11 +53,15 @@
 {{ end }}
 {{ if ne .Type "experiments" }}
   <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
+  
   <script type="text/javascript">
     const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets" });
     // Responsive Images via Cloudinary:
     cl.responsive();
   </script>
+{{ end }}
+{{ if eq .Type "sketchbook" }}
+  <script scr="{{ $ct }}"></script>
 {{ end }}
 {{ if eq .Type "experiments" }}
 {{ if $pageJS }}

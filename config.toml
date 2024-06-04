@@ -43,7 +43,7 @@ pluralizelisttitles = "false"
         adobeTypekit = "https://use.typekit.net/ybr6uwn.css"
     [params.cloudinary]
         core = "https://unpkg.com/cloudinary-core@2.13.0/cloudinary-core-shrinkwrap.min.js"
-        skypack = "https://cdn.skypack.dev/pin/cloudinary-core@v2.13.0-AxlxpYNFHvCM892ohQjf/mode=imports,min/optimized/cloudinary-core.js"
+        #skypack = "https://cdn.skypack.dev/pin/cloudinary-core@v2.13.0-AxlxpYNFHvCM892ohQjf/mode=imports,min/optimized/cloudinary-core.js"
         class = "cld-responsive"
         cloudPath = "https://res.cloudinary.com/toupeeproofbullets/image/upload/"
         portfolioHero = "q_auto,f_auto,w_auto/"
@@ -131,6 +131,12 @@ pluralizelisttitles = "false"
         title = "about"
         url = "/about/"
         weight = -9
+    [[menu.main]]
+        identifier = "sketchbook"
+        name = "sketchbook"
+        title = "sketchbook"
+        url = "/sketchbook/"
+        weight = -8
 
 [markup]
     defaultMarkdownHandler = "goldmark"

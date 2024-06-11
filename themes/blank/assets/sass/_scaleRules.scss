@@ -20,7 +20,7 @@ $small-screen: $small * 1rem; // 414px
 $medium-screen: 48rem; // 768px
 $wide-screen: 80rem; // 1280px
 $mega-screen: $mega * 1rem; // 1488px
-
+@debug $small-screen;
 
 $tablet-column: 15vw;
 $desktop-column: 25vw;

@@ -1,6 +1,833 @@
 {
   "resources": [
     {
+      "asset_id": "0ff2a2573d12315bb055006abd6a15b9",
+      "public_id": "POBQ6304",
+      "format": "jpg",
+      "version": 1717609302,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:36:56Z",
+      "bytes": 685828,
+      "width": 3724,
+      "height": 2096,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "POBQ6304",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609302/POBQ6304.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609302/POBQ6304.jpg",
+      "context": {
+        "custom": {
+          "alt": "Pen and ink drawing with pink underdrawing",
+          "drawing": "notch-stands"
+        }
+      },
+      "last_updated": {
+        "context_updated_at": "2024-06-05T17:45:16+00:00",
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "47fb9a3aaca37d47965a98c8608e8534",
+      "public_id": "IMG_0370",
+      "format": "png",
+      "version": 1717609247,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-05T17:40:47Z",
+      "bytes": 6416847,
+      "width": 1536,
+      "height": 2048,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0370",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609247/IMG_0370.png",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609247/IMG_0370.png",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "0a04900e37107b88b91a9149f6f19272",
+      "public_id": "IMG_0052",
+      "format": "webp",
+      "version": 1717609183,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:48:08Z",
+      "bytes": 284616,
+      "width": 1050,
+      "height": 1400,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0052",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609183/IMG_0052.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609183/IMG_0052.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:29+00:00",
+        "updated_at": "2024-06-05T18:50:29+00:00"
+      }
+    },
+    {
+      "asset_id": "244e4f8a5f7c8ec70d2726e1420a122d",
+      "public_id": "blueSeries_VEZ",
+      "format": "jpg",
+      "version": 1717609118,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-05T17:38:38Z",
+      "bytes": 200167,
+      "width": 800,
+      "height": 603,
+      "asset_folder": "artworks",
+      "display_name": "blueSeries_VEZ",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609118/blueSeries_VEZ.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609118/blueSeries_VEZ.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:29+00:00",
+        "updated_at": "2024-06-05T18:50:29+00:00"
+      }
+    },
+    {
+      "asset_id": "9d27e08c9d0c759ad9ee4e9eaab926ee",
+      "public_id": "IMG_0059",
+      "format": "webp",
+      "version": 1717609083,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:48:25Z",
+      "bytes": 243970,
+      "width": 1050,
+      "height": 1078,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0059",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609083/IMG_0059.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717609083/IMG_0059.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:29+00:00",
+        "updated_at": "2024-06-05T18:50:29+00:00"
+      }
+    },
+    {
+      "asset_id": "51ae2e29029572b3acdf4f5f7d0fb2aa",
+      "public_id": "IMG_0065",
+      "format": "webp",
+      "version": 1717608122,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:48:39Z",
+      "bytes": 363560,
+      "width": 1050,
+      "height": 1400,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0065",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717608122/IMG_0065.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717608122/IMG_0065.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "828309b46e56d39877171bb302b71abf",
+      "public_id": "IMG_0093",
+      "format": "webp",
+      "version": 1717607931,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:49:01Z",
+      "bytes": 248210,
+      "width": 1050,
+      "height": 1400,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0093",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717607931/IMG_0093.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717607931/IMG_0093.webp",
+      "context": {
+        "custom": {
+          "alt": "An ink drawing on graph paper of a robot making a grand declaration",
+          "drawing": "robot"
+        }
+      },
+      "last_updated": {
+        "context_updated_at": "2024-06-05T17:21:27+00:00",
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "24de79ced198635a2045b21f66f3230b",
+      "public_id": "IMG_0097",
+      "format": "webp",
+      "version": 1717542271,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:49:10Z",
+      "bytes": 262814,
+      "width": 1050,
+      "height": 1400,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0097",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717542271/IMG_0097.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717542271/IMG_0097.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "6df2242f752b874ca335bc505722f194",
+      "public_id": "IMG_0140",
+      "format": "webp",
+      "version": 1717538805,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:54:03Z",
+      "bytes": 181878,
+      "width": 1376,
+      "height": 927,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0140",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717538805/IMG_0140.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717538805/IMG_0140.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "80599a48e191f6c387157c1f6838eaee",
+      "public_id": "IMG_0135",
+      "format": "webp",
+      "version": 1717532747,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:54:17Z",
+      "bytes": 204798,
+      "width": 1050,
+      "height": 1400,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0135",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717532747/IMG_0135.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717532747/IMG_0135.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "64e830ce5b820b83f35ffc308c77f5ad",
+      "public_id": "IMG_0134",
+      "format": "webp",
+      "version": 1717532704,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:54:27Z",
+      "bytes": 552076,
+      "width": 1050,
+      "height": 1400,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0134",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717532704/IMG_0134.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717532704/IMG_0134.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "13f704d968a234c2dc9ecc1c60bdbcbe",
+      "public_id": "IMG_3674",
+      "format": "jpg",
+      "version": 1717528151,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T19:09:11Z",
+      "bytes": 181459,
+      "width": 600,
+      "height": 800,
+      "asset_folder": "artworks",
+      "display_name": "IMG_3674",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717528151/IMG_3674.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717528151/IMG_3674.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "7043ab4341155ed16d366a532fa88a90",
+      "public_id": "IMG_0136",
+      "format": "webp",
+      "version": 1717527920,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:54:15Z",
+      "bytes": 244298,
+      "width": 1050,
+      "height": 1229,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0136",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527920/IMG_0136.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527920/IMG_0136.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "f6b5451fe79908d9aad6920dc9d13aa7",
+      "public_id": "IMG_0133",
+      "format": "webp",
+      "version": 1717527745,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:55:43Z",
+      "bytes": 279768,
+      "width": 1050,
+      "height": 1316,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0133",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527745/IMG_0133.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527745/IMG_0133.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "c1060eb18ca323449c1253fcb35242ef",
+      "public_id": "IMG_0137",
+      "format": "webp",
+      "version": 1717527251,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:54:11Z",
+      "bytes": 179616,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0137",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527251/IMG_0137.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527251/IMG_0137.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "c438f39326d482cc8fd3ec118347dcb9",
+      "public_id": "IMG_0138",
+      "format": "webp",
+      "version": 1717527249,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:54:09Z",
+      "bytes": 191796,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0138",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527249/IMG_0138.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527249/IMG_0138.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "4207b4027c8df1d1b0e37d554d4407dc",
+      "public_id": "IMG_0139",
+      "format": "webp",
+      "version": 1717527246,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:54:06Z",
+      "bytes": 168576,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0139",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527246/IMG_0139.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527246/IMG_0139.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "87ca654570ee33b5c202f2baf86299c0",
+      "public_id": "IMG_0124",
+      "format": "webp",
+      "version": 1717527199,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:50:32Z",
+      "bytes": 252106,
+      "width": 1050,
+      "height": 1191,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0124",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527199/IMG_0124.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527199/IMG_0124.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "7a4e6c833ac37f7e5abb4d63b2e6da9a",
+      "public_id": "IMG_0128",
+      "format": "webp",
+      "version": 1717527175,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:52:55Z",
+      "bytes": 178936,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0128",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527175/IMG_0128.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527175/IMG_0128.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "f3e8b79a5c57d7a9ba7fbe26002ad2fa",
+      "public_id": "IMG_0125",
+      "format": "webp",
+      "version": 1717527128,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:51:18Z",
+      "bytes": 188130,
+      "width": 1050,
+      "height": 1137,
+      "backup": true,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0125",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527128/IMG_0125.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527128/IMG_0125.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "b15b83bd550bae18de21f628dc0a1ef3",
+      "public_id": "IMG_0123",
+      "format": "webp",
+      "version": 1717527022,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:50:22Z",
+      "bytes": 250826,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0123",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527022/IMG_0123.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527022/IMG_0123.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "8767a1515295997b02b0be029c4607de",
+      "public_id": "IMG_0121",
+      "format": "webp",
+      "version": 1717527014,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:50:14Z",
+      "bytes": 204526,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0121",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527014/IMG_0121.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527014/IMG_0121.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "e5f232a38328f01745938e0f9cac9797",
+      "public_id": "IMG_0122",
+      "format": "webp",
+      "version": 1717527011,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:50:11Z",
+      "bytes": 69620,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0122",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527011/IMG_0122.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527011/IMG_0122.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "3045405e78d9ca42674d06b33349a588",
+      "public_id": "IMG_0115",
+      "format": "webp",
+      "version": 1717526986,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:49:46Z",
+      "bytes": 187432,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0115",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526986/IMG_0115.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526986/IMG_0115.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "59e77554b7980fa2f0a913e6031efea0",
+      "public_id": "IMG_0108",
+      "format": "webp",
+      "version": 1717526978,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:49:38Z",
+      "bytes": 157424,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0108",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526978/IMG_0108.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526978/IMG_0108.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "303d83cbf6aacf288a932b288ad644a4",
+      "public_id": "IMG_0109",
+      "format": "webp",
+      "version": 1717526975,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:49:35Z",
+      "bytes": 153798,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0109",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526975/IMG_0109.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526975/IMG_0109.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "e624c25a56419a9930aad831a2e81582",
+      "public_id": "IMG_0087",
+      "format": "webp",
+      "version": 1717526929,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:48:49Z",
+      "bytes": 188332,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0087",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526929/IMG_0087.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526929/IMG_0087.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
+    },
+    {
+      "asset_id": "38b76540c232bf40e9ee04295357d781",
+      "public_id": "IMG_0056",
+      "format": "webp",
+      "version": 1717526894,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:48:14Z",
+      "bytes": 274564,
+      "width": 1400,
+      "height": 1050,
+      "asset_folder": "artworks",
+      "display_name": "IMG_0056",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526894/IMG_0056.webp",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526894/IMG_0056.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:29+00:00",
+        "updated_at": "2024-06-05T18:50:29+00:00"
+      }
+    },
+    {
+      "asset_id": "b5fb942f50ed9a9f73faf6970d11c783",
+      "public_id": "IMG_7312",
+      "format": "jpg",
+      "version": 1717526747,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:45:47Z",
+      "bytes": 2261504,
+      "width": 4032,
+      "height": 3024,
+      "asset_folder": "artworks",
+      "display_name": "IMG_7312",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526747/IMG_7312.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526747/IMG_7312.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "c4a0554764d20c79f932e6dc4c492041",
+      "public_id": "IMG_8102",
+      "format": "jpg",
+      "version": 1717526530,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:42:10Z",
+      "bytes": 952657,
+      "width": 1536,
+      "height": 2048,
+      "asset_folder": "artworks",
+      "display_name": "IMG_8102",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526530/IMG_8102.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526530/IMG_8102.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "7ec679a8461148413d8a2a8f37e7e67a",
+      "public_id": "IMG_8243",
+      "format": "jpg",
+      "version": 1717526463,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:41:03Z",
+      "bytes": 2014807,
+      "width": 3024,
+      "height": 4032,
+      "asset_folder": "artworks",
+      "display_name": "IMG_8243",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526463/IMG_8243.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526463/IMG_8243.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "2c25deed236fbd6d6c50ac8dfeef3a0e",
+      "public_id": "IMG_8333",
+      "format": "jpg",
+      "version": 1717526421,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:40:21Z",
+      "bytes": 3386153,
+      "width": 3024,
+      "height": 4032,
+      "asset_folder": "artworks",
+      "display_name": "IMG_8333",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526421/IMG_8333.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526421/IMG_8333.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "9a80d0fa460a8b4e3d578e564aa58616",
+      "public_id": "RKFK6107",
+      "format": "jpg",
+      "version": 1717526330,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:38:50Z",
+      "bytes": 2433141,
+      "width": 3024,
+      "height": 4032,
+      "asset_folder": "artworks",
+      "display_name": "RKFK6107",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526330/RKFK6107.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526330/RKFK6107.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "2f25d65249a3c94a38efbe5ef4d1c2b0",
+      "public_id": "IMG_8746",
+      "format": "jpg",
+      "version": 1717526217,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:36:57Z",
+      "bytes": 1862078,
+      "width": 3024,
+      "height": 4032,
+      "asset_folder": "artworks",
+      "display_name": "IMG_8746",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526217/IMG_8746.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526217/IMG_8746.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "957797488aeb87821f4f86d4e8a9ebf7",
+      "public_id": "AYRI2348",
+      "format": "jpg",
+      "version": 1717526213,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:36:53Z",
+      "bytes": 1872646,
+      "width": 2096,
+      "height": 3724,
+      "asset_folder": "artworks",
+      "display_name": "AYRI2348",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526213/AYRI2348.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526213/AYRI2348.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:29+00:00",
+        "updated_at": "2024-06-05T18:50:29+00:00"
+      }
+    },
+    {
+      "asset_id": "f05ac99cde49bd210fd7c9e699f762ad",
+      "public_id": "UMDZ7757",
+      "format": "jpg",
+      "version": 1717526212,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:36:52Z",
+      "bytes": 1529006,
+      "width": 3724,
+      "height": 2096,
+      "asset_folder": "artworks",
+      "display_name": "UMDZ7757",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526212/UMDZ7757.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526212/UMDZ7757.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "d9bd078506cf3399e0e25aa32c4724c9",
+      "public_id": "IMG_8750",
+      "format": "jpg",
+      "version": 1717526211,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:36:51Z",
+      "bytes": 2029973,
+      "width": 3024,
+      "height": 3024,
+      "asset_folder": "artworks",
+      "display_name": "IMG_8750",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526211/IMG_8750.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526211/IMG_8750.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "77f37326b0c7a22f47e4462b276a0150",
+      "public_id": "IMG_8932",
+      "format": "jpg",
+      "version": 1717526068,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:34:28Z",
+      "bytes": 1222817,
+      "width": 3024,
+      "height": 3024,
+      "asset_folder": "artworks",
+      "display_name": "IMG_8932",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526068/IMG_8932.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526068/IMG_8932.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "8327b604b3a5d7223fe063c6422bedba",
+      "public_id": "IMG_9192",
+      "format": "jpg",
+      "version": 1717525961,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:32:41Z",
+      "bytes": 1359808,
+      "width": 3024,
+      "height": 3024,
+      "asset_folder": "artworks",
+      "display_name": "IMG_9192",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717525961/IMG_9192.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717525961/IMG_9192.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
+      "asset_id": "9f6448b91f9618a915fe5c55b4959810",
+      "public_id": "IMG_9285",
+      "format": "jpg",
+      "version": 1717525925,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2024-06-04T18:32:05Z",
+      "bytes": 2442397,
+      "width": 3024,
+      "height": 4032,
+      "asset_folder": "artworks",
+      "display_name": "IMG_9285",
+      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717525925/IMG_9285.jpg",
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717525925/IMG_9285.jpg",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
+    },
+    {
       "asset_id": "0979158ab1af6763dc3d29095dbe03ca",
       "public_id": "IMG_0069",
       "format": "webp",
@@ -14,7 +841,11 @@
       "asset_folder": "artworks",
       "display_name": "IMG_0069",
       "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522797/IMG_0069.webp",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522797/IMG_0069.webp"
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522797/IMG_0069.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
     },
     {
       "asset_id": "4b2d0acd6c3110de57daed46a26dbeed",
@@ -30,7 +861,11 @@
       "asset_folder": "artworks",
       "display_name": "IMG_0153",
       "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522767/IMG_0153.webp",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522767/IMG_0153.webp"
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522767/IMG_0153.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
     },
     {
       "asset_id": "685e9bbb8cd45f3ca32b94c287511cc4",
@@ -46,7 +881,11 @@
       "asset_folder": "artworks",
       "display_name": "IMG_0157",
       "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522762/IMG_0157.webp",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522762/IMG_0157.webp"
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522762/IMG_0157.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
     },
     {
       "asset_id": "d48de029639c100ddb86f5df142780fa",
@@ -62,7 +901,11 @@
       "asset_folder": "artworks",
       "display_name": "IMG_0174",
       "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0174.webp",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0174.webp"
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0174.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
     },
     {
       "asset_id": "d1f7d5219fba6767529af638b0346526",
@@ -78,7 +921,11 @@
       "asset_folder": "artworks",
       "display_name": "IMG_0175",
       "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0175.webp",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0175.webp"
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0175.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
     },
     {
       "asset_id": "2592836e0af8e6454e306d3563269ea4",
@@ -94,7 +941,11 @@
       "asset_folder": "artworks",
       "display_name": "IMG_0176",
       "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0176.webp",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0176.webp"
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522745/IMG_0176.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
     },
     {
       "asset_id": "1cbbc987aa26bb7b1cca9fb5ed6c55e6",
@@ -111,7 +962,11 @@
       "asset_folder": "artworks",
       "display_name": "IMG_0184",
       "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522519/IMG_0184.webp",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522519/IMG_0184.webp"
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522519/IMG_0184.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:31+00:00",
+        "updated_at": "2024-06-05T18:50:31+00:00"
+      }
     },
     {
       "asset_id": "9c788450f59fe4dd991ced5a7c0751a6",
@@ -127,7 +982,11 @@
       "asset_folder": "artworks",
       "display_name": "IMG_0170",
       "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522468/IMG_0170.webp",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522468/IMG_0170.webp"
+      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717522468/IMG_0170.webp",
+      "last_updated": {
+        "tags_updated_at": "2024-06-05T18:50:30+00:00",
+        "updated_at": "2024-06-05T18:50:30+00:00"
+      }
     },
     {
       "asset_id": "03e1f14abd2319663340380c61c53101",
@@ -152,35 +1011,11 @@
       },
       "last_updated": {
         "context_updated_at": "2024-06-04T02:08:51+00:00",
-        "updated_at": "2024-06-04T02:08:51+00:00"
-      }
-    },
-    {
-      "asset_id": "890bcd906ee5c39f208690cbd95330e1",
-      "public_id": "artworks/blueSeries_VEZ",
-      "format": "png",
-      "version": 1576169033,
-      "resource_type": "image",
-      "type": "upload",
-      "created_at": "2019-12-12T16:43:53Z",
-      "bytes": 168296,
-      "width": 800,
-      "height": 603,
-      "asset_folder": "artworks",
-      "display_name": "blueSeries_VEZ",
-      "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1576169033/artworks/blueSeries_VEZ.png",
-      "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1576169033/artworks/blueSeries_VEZ.png",
-      "context": {
-        "custom": {
-          "alt": "an abstract painting done on black ground with blue and white strokes"
-        }
-      },
-      "last_updated": {
-        "context_updated_at": "2024-06-03T18:52:58+00:00",
-        "updated_at": "2024-06-03T18:52:58+00:00"
+        "tags_updated_at": "2024-06-05T18:50:29+00:00",
+        "updated_at": "2024-06-05T18:50:29+00:00"
       }
     }
   ],
-  "total_count": 13,
-  "next_cursor": "21a1cac209104a7923824b2228fce8d3c7f9d1249ebaf03e1d6126600f3fe819"
+  "total_count": 49,
+  "next_cursor": null
 }

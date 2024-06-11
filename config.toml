@@ -44,6 +44,7 @@ pluralizelisttitles = "false"
     [params.cloudinary]
         core = "https://unpkg.com/cloudinary-core@2.13.0/cloudinary-core-shrinkwrap.min.js"
         #skypack = "https://cdn.skypack.dev/pin/cloudinary-core@v2.13.0-AxlxpYNFHvCM892ohQjf/mode=imports,min/optimized/cloudinary-core.js"
+        urlGen = "https://unpkg.com/@cloudinary/url-gen@1.19.0/index.js"
         class = "cld-responsive"
         cloudPath = "https://res.cloudinary.com/toupeeproofbullets/image/upload/"
         portfolioHero = "q_auto,f_auto,w_auto/"

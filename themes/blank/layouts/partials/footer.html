@@ -5,9 +5,14 @@
 {{ $utils := resources.Get "js/utils.js" }}
 {{ $ct := resources.Get "js/ct.js" }}
 {{ $cloudinaryCore := .Site.Params.cloudinary.core }}
-{{ $cloudinaryCoreSkyPack := .Site.Params.cloudinary.skypack }}
-{{ $script := slice  $mobileNav $observer $socialSprites $utils $ct | resources.Concat "/js/main.js" }}
 
+
+{{/*  {{ $cloudinaryCoreSkyPack := .Site.Params.cloudinary.skypack }}  */}}
+{{ $script := slice $ct $mobileNav $observer $socialSprites $utils  | resources.Concat "js/main.js" }}
+
+{{ $params := dict "artworks" site.Data.artworks.resources }}
+{{ $opts := dict "params" $params }}
+{{ $built := $script | js.Build $opts }}
 
 
 
@@ -23,8 +28,11 @@
 {{ $resume := .Site.Params.resume  }}
 {{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
 
+{{ printf "<!-- ++ sketchbook list template ++ -->" | safeHTML }}
 
-<footer>
+
+<footer id="{{ .Section }}">
+  
 <div class="[ wrapper ][ content-container ]">
     <div class="[ footer-info ]">
     {{ partial "site_name.html" . }}
@@ -44,7 +52,14 @@
 </div>
 </footer>
 {{ if $local }}
-  <script src="{{ $script.RelPermalink }}"></script>
+  
+  {{/*  <script src="{{ $script.RelPermalink }}"></script>  */}}
+  
+    
+    <script src="{{ $built.RelPermalink }}"></script>    
+    
+  
+  {{/*  <script src="{{ $built }}"></script>  */}}
 {{ else }}
   {{ $script := $script | minify | fingerprint "sha256" }}
     
@@ -55,14 +70,34 @@
   <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
   
   <script type="text/javascript">
-    const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets" });
+    const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets", url: { secure: true } });
     // Responsive Images via Cloudinary:
     cl.responsive();
   </script>
 {{ end }}
-{{ if eq .Type "sketchbook" }}
-  <script scr="{{ $ct }}"></script>
+{{ if .IsHome }}
+  {{ with $.Site.Data.artworks }}
+  {{ $output := slice  }}
+    {{ range .resources }}
+      {{ $output = $output | append .display_name }}
+    {{ end }}
+  
+  <script type="text/javascript">
+  //export const sketchbook = {{ $output }};
+  
+  // Get a random image from the array
+  //const randomImage = sketchbook[(Math.floor(Math.random() * (sketchbook.length)))];
+  
+  //const img = cl.image(randomImage);
+  //img.resize(Resize.scale().width(960));
+  //const hero = img.toURL();
+
+  //console.log(sketchbook, randomImage, hero);
+  </script>  
+  {{ end }}
 {{ end }}
+
+
 {{ if eq .Type "experiments" }}
 {{ if $pageJS }}
   {{  range $vendorName, $vendorURL := $jsVendor }}

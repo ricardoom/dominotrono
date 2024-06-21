@@ -8,7 +8,6 @@
 {{ $taxo := .Data.Terms }}
 {{ $localURL := delimit (slice "/tags/" $title) "" | string  }}
 <section class="[ feature-{{ $title }} ]">
-  
   {{ if and ( $extURL ) ( ne $extURL "" ) }}
   <a href="{{ $extURL }}" class="[ card-state ]" data-class="[ pivot ]">
   {{ else }}

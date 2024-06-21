@@ -6,11 +6,11 @@
 {{ end  }}
 <main class="[ site-content ]" id="siteContent">
   <div class="[ mast-container ]">
-    {{/*  {{ partial "svg/onion_dome.svg" (dict "class" "[ first-dome ]") }}  */}}
+    {{ partial "mast-image.html" . }}
+    {{ partial "svg/mastBG.svg" . }}
     <section class="[ wrapper ][ mast ]">
       <div>{{ .Content }}</div>
     </section>
-    {{/*  {{ partial "svg/onion_dome.svg" (dict "class" "[ second-dome ]") }}  */}}
   </div>
   <section class="[ features ]">
     <div class="[ wrapper ]">
@@ -24,17 +24,15 @@
       </div>
     </div>
   </section>
-  {{/*  {{ partial "jumbo_two.html" . }}  */}}
 </main>
-
-
 {{/*  {{ if $local }}
   {{ partial "sidebar.html" . }}
 {{ end }}  */}}
 
 {{ partial "footer.html" . }}
+
 {{ if $local }} 
-  {{ partial "svg/filter.html" . }}
+  {{/*  {{ partial "svg/filter.html" . }}  */}}
   {{/*  {{ partial "dev.html" . }}  */}}
 {{ end }}
   

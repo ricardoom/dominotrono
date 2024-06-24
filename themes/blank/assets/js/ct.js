@@ -12,8 +12,8 @@ const data = params.artworks;
 // for (const {secure_url} of data) {
 //   console.log(secure_url);
 // }
-const rand = getRandomIntInclusive(0, data.length);
-// console.log(data.length, data[5].secure_url);
+const rand = getRandomIntInclusive(0, (data.length - 1));
+console.log(data.length, rand);
 
 const randImg = data[rand].display_name;
 // console.log(randImg);
@@ -34,7 +34,9 @@ const myImage = cld.image(randImg);
 
 // Import the resize transformation and apply it to myImage
 // Resize the image to 100x100
-myImage.resize(Resize.scale().width(1200));
+myImage
+  .resize(Resize.scale().width(1200))
+  .format('webp');
 
 // When we're done, we can apply all our changes and create a URL.
 const myURL = myImage.toURL();

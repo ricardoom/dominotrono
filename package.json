@@ -4,14 +4,15 @@
   "description": "personal website thing",
   "main": "index.html",
   "dependencies": {
-    "@cloudinary/url-gen": "^1.19.0"
+    "@cloudinary/url-gen": "^1.19.0",
+    "pure-rand": "^6.1.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ricardoom/dominotrono.git"
   },
   "scripts": {
-    "hugo": "hugo serve --disableFastRender --gc",
+    "hugo": "npm i && hugo serve --disableFastRender --gc",
     "data": "cld admin resources_by_asset_folder artworks max_results=500 metadata=true > artworks.json",
     "dev": "somenode && hugo",
     "_build": "tinacms build && hugo",

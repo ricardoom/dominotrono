@@ -28,9 +28,6 @@
 {{ $resume := .Site.Params.resume  }}
 {{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
 
-{{ printf "<!-- ++ sketchbook list template ++ -->" | safeHTML }}
-
-
 <footer id="{{ .Section }}">
   
 <div class="[ wrapper ][ content-container ]">
@@ -51,15 +48,9 @@
   
 </div>
 </footer>
-{{ if $local }}
-  
-  {{/*  <script src="{{ $script.RelPermalink }}"></script>  */}}
-  
-    
+{{/*  * MARK: Begin Local block  */}}
+{{ if $local }}  
     <script src="{{ $built.RelPermalink }}"></script>    
-    
-  
-  {{/*  <script src="{{ $built }}"></script>  */}}
 {{ else }}
   {{ $script := $script | minify | fingerprint "sha256" }}
     

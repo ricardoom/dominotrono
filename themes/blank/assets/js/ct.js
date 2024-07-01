@@ -1,22 +1,17 @@
-// Import the Cloudinary class
-// import * as data from './artworks.json';
-// const {display_name} = data;
-
 import params from "@params";
-// import { getRandomIntInclusive } from "./utils";
-import {Cloudinary} from '@cloudinary/url-gen';
-import {Resize} from '@cloudinary/url-gen/actions/resize';
-// console.log(params.artworks);
+import prand from 'pure-rand';
+
+// import { Cloudinary } from '@cloudinary/url-gen';
+// import { Cloudinary } from 'https://unpkg.com/browse/@cloudinary/url-gen@1.16.1/';
+// import { Resize } from '@cloudinary/url-gen/actions/resize';
+
+
 const data = params.artworks;
 
-// for (const {secure_url} of data) {
-//   console.log(secure_url);
-// }
 const rand = getRandomIntInclusive(0, (data.length - 1));
 console.log(data.length, rand);
 
 const randImg = data[rand].display_name;
-// console.log(randImg);
 
 // Create your instance
 // TODO: sort out this double call to Cloudinary

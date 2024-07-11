@@ -4,7 +4,7 @@ date: 2023-05-11T13:31:19-07:00
 draft: false
 categories: 'portfolio'
 author: Ricardo G.
-cloudID: 'v1234567'
+cloudID: 'v1234567' 
 ## Placeholders
 postImageSqip: '../media/portfolio/bronte/postimage-sqip.svg'
 

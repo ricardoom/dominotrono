@@ -1,5 +1,6 @@
 {{ $local := hugo.IsServer }}
 {{ $blurb := .Params.blurb }}
+{{ $portfolioHeroSqip := .Params.portfolioHeroSqip }}
 {{ if $local }}
   {{ printf "<!-- ++++ TAXONOMY TERM TEMPLATE +++++  -->" | safeHTML }}
 {{ end }}

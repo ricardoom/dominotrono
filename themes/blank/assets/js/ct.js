@@ -1,19 +1,14 @@
+// Cloudinary Image Import and Transformations
+
 import params from "@params";
-import prand from 'pure-rand';
-
-// import { Cloudinary } from '@cloudinary/url-gen';
-// import { Cloudinary } from 'https://unpkg.com/browse/@cloudinary/url-gen@1.16.1/';
-// import { Resize } from '@cloudinary/url-gen/actions/resize';
-
-
+import {Cloudinary} from '@cloudinary/url-gen';
+import { Resize } from '@cloudinary/url-gen/actions/resize';
+// console.log(params.artworks);
 const data = params.artworks;
-
 const rand = getRandomIntInclusive(0, (data.length - 1));
-console.log(data.length, rand);
-
 const randImg = data[rand].display_name;
 
-// Create your instance
+// Create Instance instance
 // TODO: sort out this double call to Cloudinary
 const cld = new Cloudinary({
   cloud: {
@@ -36,10 +31,15 @@ myImage
 // When we're done, we can apply all our changes and create a URL.
 const myURL = myImage.toURL();
 
-// https://res.cloudinary.com/demo/image/upload/c_scale,w_100,h_100/sample
-console.log(myURL);
-// update the mastBG
-const siteContent = document.getElementById('siteContent');
-const mastimg = siteContent.querySelector('.mast-img');
-mastimg.setAttribute("src", myURL);
-console.log(mastimg);
+const baseURL = document.location;
+const [local, remote] = ['http://localhost:1313/', "https://ricardogalvez.design/"];
+// console.log(baseURL === local || remote);
+console.log(baseURL.href, local === baseURL.href)
+
+if (baseURL.href === local || baseURL.href === remote) {
+  console.log('its local...', baseURL.href)
+  const siteContent = document.querySelector('.site-content');
+  const mastimg = siteContent.querySelector('.mast-img');
+  mastimg.setAttribute("src", myURL);
+}
+ 

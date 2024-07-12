@@ -1,0 +1,39 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@cloudinary/url-gen':
+        specifier: ^1.19.0
+        version: 1.19.0
+      pure-rand:
+        specifier: ^6.1.0
+        version: 6.1.0
+
+packages:
+
+  '@cloudinary/transformation-builder-sdk@1.13.3':
+    resolution: {integrity: sha512-tBMpjcwBjUgINGm2lKodb1fe32yBeq2KTSD7TrrFPm2/dQOb7lKmVuDaDe89IPcV+QZbb1JY/ZWL9pZjUV4aKw==}
+
+  '@cloudinary/url-gen@1.19.0':
+    resolution: {integrity: sha512-3WSqYAMEe8lcYMFmkNPhOfv6Ql76mpf8O7YEC+CCaoIYrfBubzzeF8yENCaZK9tFJEHvMepI+uWWfilNrz48XA==}
+
+  pure-rand@6.1.0:
+    resolution: {integrity: sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==}
+
+snapshots:
+
+  '@cloudinary/transformation-builder-sdk@1.13.3':
+    dependencies:
+      '@cloudinary/url-gen': 1.19.0
+
+  '@cloudinary/url-gen@1.19.0':
+    dependencies:
+      '@cloudinary/transformation-builder-sdk': 1.13.3
+
+  pure-rand@6.1.0: {}

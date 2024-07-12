@@ -2,8 +2,6 @@
 
 import params from "@params";
 import { Cloudinary } from '@cloudinary/url-gen';
-import { Resize } from '@cloudinary/url-gen/actions/resize';
-import { focusOn } from "@cloudinary/url-gen/qualifiers/gravity";
 import { name } from "@cloudinary/url-gen/actions/namedTransformation";
 // console.log(params.artworks);
 const data = params.artworks;

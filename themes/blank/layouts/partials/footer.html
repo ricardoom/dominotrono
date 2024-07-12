@@ -45,7 +45,6 @@
     <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
     </div>
     {{ partial "svg/footerBlob.svg" . }}
-  
 </div>
 </footer>
 {{/*  * MARK: Begin Local block  */}}
@@ -53,13 +52,10 @@
     <script src="{{ $built.RelPermalink }}"></script>    
 {{ else }}
   {{ $script := $script | minify | fingerprint "sha256" }}
-    
     <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
-    
 {{ end }}
 {{ if ne .Type "experiments" }}
   <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
-  
   <script type="text/javascript">
     const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets", url: { secure: true } });
     // Responsive Images via Cloudinary:
@@ -72,19 +68,6 @@
     {{ range .resources }}
       {{ $output = $output | append .display_name }}
     {{ end }}
-  
-  <script type="text/javascript">
-  //export const sketchbook = {{ $output }};
-  
-  // Get a random image from the array
-  //const randomImage = sketchbook[(Math.floor(Math.random() * (sketchbook.length)))];
-  
-  //const img = cl.image(randomImage);
-  //img.resize(Resize.scale().width(960));
-  //const hero = img.toURL();
-
-  //console.log(sketchbook, randomImage, hero);
-  </script>  
   {{ end }}
 {{ end }}
 

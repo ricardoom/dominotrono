@@ -3,6 +3,8 @@
 import params from "@params";
 import { Cloudinary } from '@cloudinary/url-gen';
 import { Resize } from '@cloudinary/url-gen/actions/resize';
+import { focusOn } from "@cloudinary/url-gen/qualifiers/gravity";
+import { name } from "@cloudinary/url-gen/actions/namedTransformation";
 // console.log(params.artworks);
 const data = params.artworks;
 const rand = getRandomIntInclusive(0, (data.length - 1));
@@ -25,7 +27,8 @@ const myImage = cld.image(randImg);
 // Import the resize transformation and apply it to myImage
 // Resize the image to 100x100
 myImage
-  .resize(Resize.scale().width(1200))
+  // .resize(Resize.scale().width(1200))
+  .namedTransformation(name("ct1610"))
   .format('webp');
 
 // When we're done, we can apply all our changes and create a URL.

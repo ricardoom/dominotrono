@@ -11,9 +11,6 @@ importers:
       '@cloudinary/url-gen':
         specifier: ^1.19.0
         version: 1.19.0
-      pure-rand:
-        specifier: ^6.1.0
-        version: 6.1.0
 
 packages:
 
@@ -22,9 +19,6 @@ packages:
 
   '@cloudinary/url-gen@1.19.0':
     resolution: {integrity: sha512-3WSqYAMEe8lcYMFmkNPhOfv6Ql76mpf8O7YEC+CCaoIYrfBubzzeF8yENCaZK9tFJEHvMepI+uWWfilNrz48XA==}
-
-  pure-rand@6.1.0:
-    resolution: {integrity: sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==}
 
 snapshots:
 
@@ -35,5 +29,3 @@ snapshots:
   '@cloudinary/url-gen@1.19.0':
     dependencies:
       '@cloudinary/transformation-builder-sdk': 1.13.3
-
-  pure-rand@6.1.0: {}

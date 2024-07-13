@@ -33,22 +33,7 @@ const cld = new Cloudinary({
   }
 });
   
-// Let's create a new image
-// const myImage = cld.image(randImg);
-
-// // Import the resize transformation and apply it to myImage
-// // Resize the image to 100x100
-// myImage
-//   // .resize(Resize.scale().width(1200))
-//   .namedTransformation(name("ct1610"))
-//   .format('webp');
-
-// // When we're done, we can apply all our changes and create a URL.
-// const myURL = myImage.toURL();
-
-
-
-
+// Let's get images from our data file and build a URLs to use 
 // Function to use different data sources, but does same thing as above:
 // 1. get the name of the file we want
 // 2. takes a named transformation
@@ -63,9 +48,6 @@ const imgAsset = function(asset, transform, format = 'webp') {
   const url = img.toURL();
   return url;
 };
-
-const asset = imgAsset(randSlide, 'ct1610', 'webp');
-console.log(asset);
 
 const baseURL = document.location;
 const [local, remote] = ['http://localhost:1313/', "https://ricardogalvez.design/"];

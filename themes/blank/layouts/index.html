@@ -5,18 +5,7 @@
   {{ printf "<!-- === root index === -->" | safeHTML }}
 {{ end  }}
 <main class="[ site-content ]" id="siteContent">
-  <div class="[ mast-container ]">
-    {{ partial "mast-image.html" . }}
-    <section class="[ wrapper ][ mast ]">
-      <div>{{ .Content }}</div>
-    </section>
-    {{ partial "svg/radiantStep.html" . }}
-    <section class="[  ][ small-mast ]">
-      {{ partial "svg/funnyTeeth.svg" . }}
-      <img src="" alt="">
-    </section>
-    
-  </div>
+  {{ partial "mast-head-block.html" . }}
   <section class="[ features ]">
     <div class="[ wrapper ]">
       <div class="[ stack ][ feature ]">

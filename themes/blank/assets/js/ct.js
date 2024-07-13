@@ -4,10 +4,9 @@ import params from "@params";
 import { Cloudinary } from '@cloudinary/url-gen';
 import { name } from "@cloudinary/url-gen/actions/namedTransformation";
 
+// Data pulled in from respective JSON files in the ./data directory. See HUGO template: partials/footer $params for which files are 
 const data = params.artworks;
 const slides = params.hpslides;
-
-// const rand = getRandomIntInclusive(0, (data.length - 1));
 
 // Function that gets the right number of items from its respective source, and returns the public_id, which utilizes both the parent folder and file name
 
@@ -19,8 +18,6 @@ const getRandItems = function(source) {
 
 const randImg = getRandItems(data);
 const randSlide = getRandItems(slides);
-// console.log(randImg, randSlide);
-
 
 // Create Instance instance
 // TODO: sort out this double call to Cloudinary
@@ -51,15 +48,13 @@ const imgAsset = function(asset, transform, format = 'webp') {
 
 const baseURL = document.location;
 const [local, remote] = ['http://localhost:1313/', "https://ricardogalvez.design/"];
-// console.log(baseURL === local || remote);
-// console.log(baseURL.href, local === baseURL.href)
+
 
 if (baseURL.href === local || baseURL.href === remote) {
-  // console.log('its local...', baseURL.href)
   const siteContent = document.querySelector('.site-content');
   const mastimg = siteContent.querySelector('.mast-img');
   const smallMast = siteContent.querySelector('.small-mast > img');
   mastimg.setAttribute("src", imgAsset(randImg, 'ct1610', 'webp'));
-  smallMast.setAttribute("src", imgAsset(randSlide, '480', 'webp'))
+  smallMast.setAttribute("src", imgAsset(randSlide, 'secondaryGraphic', 'webp'))
 }
  

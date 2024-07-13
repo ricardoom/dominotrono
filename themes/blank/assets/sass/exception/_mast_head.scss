@@ -25,18 +25,18 @@
   grid-column: col-segundo / col-end;
   grid-row: row-segundo / row-end;
   height: 100%;
-  // overflow: hidden;
+  object-position: center;
   width: 100%;
 
   > img,
   .secondary-graphic { 
     grid-column: 1 / -1;
-    grid-row: 1 / -1;
+    grid-row: 1 / -1;    
     };
 
   .secondary-graphic {
+    filter: opacity(0.85);
     transform: translate(calc(var(--s2) * -1),calc(var(--s1) * -1));
-    z-index: 2;
     }
   }
 

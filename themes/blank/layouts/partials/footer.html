@@ -6,16 +6,11 @@
 {{ $ct := resources.Get "js/ct.js" }}
 {{ $cloudinaryCore := .Site.Params.cloudinary.core }}
 
-
-{{/*  {{ $cloudinaryCoreSkyPack := .Site.Params.cloudinary.skypack }}  */}}
 {{ $script := slice $ct $mobileNav $observer $socialSprites $utils  | resources.Concat "js/main.js" }}
 
 {{ $params := dict "artworks" site.Data.artworks.resources "hpslides" site.Data.hpslides.resources }}
 {{ $opts := dict "params" $params }}
 {{ $built := $script | js.Build $opts }}
-
-
-
 {{ $customJS := .Param "experimentJS" }}
 {{ $customJsURL := .Site.Params.customJsURL }}
 {{ $customJsPath := .Site.Params.customJsPath }}

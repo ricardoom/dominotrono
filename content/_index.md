@@ -12,4 +12,4 @@ features:
   # - /features/git.md
   
 ---
-Hello! My name is Ricardo Galvez. I am a cross-functional designer committed to designing and implementing accessible interfaces and functional designs. I am well-versed in user experience design and front-end development, with over 15 years of experience.
+Hello! My name is Ricardo Galvez. I am a cross-functional designer committed to designing and implementing accessible interfaces and functional designs. I am well-versed in user experience design and front-end development.

@@ -4,8 +4,7 @@
   "description": "personal website thing",
   "main": "index.html",
   "dependencies": {
-    "@cloudinary/url-gen": "^1.19.0",
-    "pure-rand": "^6.1.0"
+    "@cloudinary/url-gen": "^1.19.0"
   },
   "repository": {
     "type": "git",

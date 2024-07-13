@@ -17,13 +17,28 @@
  grid-row: row-prime / row-segundo;
 }
 
-.secondary-graphic {
+
+.small-mast  {
+  display: grid;
+  place-content: center;
+  grid-template: max-content / max-content;
   grid-column: col-segundo / col-end;
   grid-row: row-segundo / row-end;
   height: 100%;
-  padding: var(--s1);
+  // overflow: hidden;
   width: 100%;
-}
+
+  > img,
+  .secondary-graphic { 
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    };
+
+  .secondary-graphic {
+    transform: translate(calc(var(--s2) * -1),calc(var(--s1) * -1));
+    z-index: 2;
+    }
+  }
 
 .mast-img-contain {
   display: grid;
@@ -49,6 +64,7 @@
     grid-row: row-prime / row-segundo;
   }
 }
+// * MARK: Mast Head Text
 .mast {
   background-color: transparentize($site-white, 0.2);
   color: var(--text-color);

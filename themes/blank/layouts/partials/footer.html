@@ -10,7 +10,7 @@
 {{/*  {{ $cloudinaryCoreSkyPack := .Site.Params.cloudinary.skypack }}  */}}
 {{ $script := slice $ct $mobileNav $observer $socialSprites $utils  | resources.Concat "js/main.js" }}
 
-{{ $params := dict "artworks" site.Data.artworks.resources }}
+{{ $params := dict "artworks" site.Data.artworks.resources "hpslides" site.Data.hpslides.resources }}
 {{ $opts := dict "params" $params }}
 {{ $built := $script | js.Build $opts }}
 
@@ -29,7 +29,6 @@
 {{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
 
 <footer id="{{ .Section }}">
-  
 <div class="[ wrapper ][ content-container ]">
     <div class="[ footer-info ]">
     {{ partial "site_name.html" . }}
@@ -41,7 +40,7 @@
         {{/*  <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>  */}}
           {{- partial "social_list.html" . -}}
       </ul>
-    </nav>
+    </nav>cd 
     <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
     </div>
     {{ partial "svg/footerBlob.svg" . }}

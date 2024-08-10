@@ -1,15 +1,16 @@
 <div class="[ mast-container ]">
     <section class="[ mast-img-contain ][ quad-1 ]">
       <img class="[ mast-img ]" src="" alt="" >
-      {{ partial "svg/mastBG.svg" . }}
+      {{ partial "svg/mastBG.svg" (dict "context" . "classes" "mast-overlay") }}
     </section>
     <section class="[ wrapper ][ mast ][ quad-2 ]">
       <div>{{ .Content }}</div>
     </section>
     <section class="[ quad-3 ]">
       {{/*  {{ partial "svg/radiantStep.html" . }}  */}}
+      {{ partial "quad-3.html" . }}
     </section>
-    <section class="[  ][ small-mast ][ quad-4 ]">
+    <section class="[ small-mast ][ quad-4 ]">
       {{ partial "svg/funnyTeeth.svg" . }}
       <img src="" alt="" width="440">
     </section>

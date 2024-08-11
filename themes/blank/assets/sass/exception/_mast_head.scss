@@ -1,5 +1,7 @@
 //
 // Masthead class on the homepage
+// TODO: refactor this. Mostly naming conventions and combining reused grid configurations
+
 .mast-container {
   // background-color: transparent;
   @include media('>=tablet') {
@@ -34,7 +36,7 @@
     width: 100%;
     grid-column: col-prime / col-segundo;
     grid-row: row-segundo / row-end;
-
+    // TODO: refactor this to be utilized more broadly
     > * > rect {
       fill: hsl(279, 99%, 45%);
     }

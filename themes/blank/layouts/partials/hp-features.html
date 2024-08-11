@@ -8,14 +8,18 @@
 {{ $taxo := .Data.Terms }}
 {{ $localURL := delimit (slice "/tags/" $title) "" | string  }}
 <section class="[ feature-{{ $title }} ]">
+  {{ with and ( $svg ) ( ne $svg "" ) }} 
+    {{ partial $fullPath (dict "polygonClass" $svgClass) }}
+  {{ end }}
+  <div>
+  <h1>{{ .Title }}</h1>
+  <p>{{ if $deck }} {{ $deck }} {{ else }} {{ .Summary }} {{ end }}</p>
   {{ if and ( $extURL ) ( ne $extURL "" ) }}
   <a href="{{ $extURL }}" class="[ card-state ]" data-class="[ pivot ]">
   {{ else }}
   <a href="{{ $localURL }}" class="[ card-state ]" data-class="[ pivot ]">
   {{ end }}
-    {{ with and ( $svg ) ( ne $svg "" ) }} {{ partial $fullPath (dict "polygonClass" $svgClass) }} {{ end }}
-    <h1>{{ .Title }}</h1>
-    <p>{{ if $deck }} {{ $deck }} {{ else }} {{ .Summary }} {{ end }}</p>
-    <span>See more of my {{ .Title }} projects ↘</span>
+    See more of my {{ .Title }} projects ↘
   </a>
+</div>
 </section>

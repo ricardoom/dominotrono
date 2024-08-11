@@ -34,6 +34,10 @@
     width: 100%;
     grid-column: col-prime / col-segundo;
     grid-row: row-segundo / row-end;
+
+    > * > rect {
+      fill: hsl(279, 99%, 45%);
+    }
   }
 }
 

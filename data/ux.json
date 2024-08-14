@@ -1,0 +1,365 @@
+{
+    "resources": [
+        {
+            "asset_id": "d1bafa1adb15c05bb276ff80685644da",
+            "public_id": "IMG_0121_crop2",
+            "format": "heic",
+            "version": 1723489651,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-08-12T19:07:31Z",
+            "bytes": 216099,
+            "width": 655,
+            "height": 520,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0121_crop2",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1723489651/IMG_0121_crop2.heic",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1723489651/IMG_0121_crop2.heic",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T19:09:09+00:00",
+                "updated_at": "2024-08-12T19:09:09+00:00"
+            }
+        },
+        {
+            "asset_id": "d03ef28c2190f94a94d89b28b335e286",
+            "public_id": "IMG_0121_crop1",
+            "format": "jpg",
+            "version": 1723489651,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-08-12T19:07:31Z",
+            "bytes": 97259,
+            "width": 637,
+            "height": 529,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0121_crop1",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1723489651/IMG_0121_crop1.jpg",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1723489651/IMG_0121_crop1.jpg",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T19:09:09+00:00",
+                "updated_at": "2024-08-12T19:09:09+00:00"
+            }
+        },
+        {
+            "asset_id": "80599a48e191f6c387157c1f6838eaee",
+            "public_id": "IMG_0135",
+            "format": "webp",
+            "version": 1717532747,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-06-04T18:54:17Z",
+            "bytes": 204798,
+            "width": 1050,
+            "height": 1400,
+            "backup": true,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0135",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717532747/IMG_0135.webp",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717532747/IMG_0135.webp",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:30:10+00:00",
+                "updated_at": "2024-08-12T14:30:10+00:00"
+            }
+        },
+        {
+            "asset_id": "87ca654570ee33b5c202f2baf86299c0",
+            "public_id": "IMG_0124",
+            "format": "webp",
+            "version": 1717527199,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-06-04T18:50:32Z",
+            "bytes": 252106,
+            "width": 1050,
+            "height": 1191,
+            "backup": true,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0124",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527199/IMG_0124.webp",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527199/IMG_0124.webp",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:30:10+00:00",
+                "updated_at": "2024-08-12T14:30:10+00:00"
+            }
+        },
+        {
+            "asset_id": "8767a1515295997b02b0be029c4607de",
+            "public_id": "IMG_0121",
+            "format": "webp",
+            "version": 1717527014,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-06-04T18:50:14Z",
+            "bytes": 204526,
+            "width": 1400,
+            "height": 1050,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0121",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527014/IMG_0121.webp",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527014/IMG_0121.webp",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:23:59+00:00",
+                "updated_at": "2024-08-12T14:23:59+00:00"
+            }
+        },
+        {
+            "asset_id": "e5f232a38328f01745938e0f9cac9797",
+            "public_id": "IMG_0122",
+            "format": "webp",
+            "version": 1717527011,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-06-04T18:50:11Z",
+            "bytes": 69620,
+            "width": 1400,
+            "height": 1050,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0122",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527011/IMG_0122.webp",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717527011/IMG_0122.webp",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:23:59+00:00",
+                "updated_at": "2024-08-12T14:23:59+00:00"
+            }
+        },
+        {
+            "asset_id": "3045405e78d9ca42674d06b33349a588",
+            "public_id": "IMG_0115",
+            "format": "webp",
+            "version": 1717526986,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-06-04T18:49:46Z",
+            "bytes": 187432,
+            "width": 1400,
+            "height": 1050,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0115",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526986/IMG_0115.webp",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526986/IMG_0115.webp",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:23:59+00:00",
+                "updated_at": "2024-08-12T14:23:59+00:00"
+            }
+        },
+        {
+            "asset_id": "59e77554b7980fa2f0a913e6031efea0",
+            "public_id": "IMG_0108",
+            "format": "webp",
+            "version": 1717526978,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-06-04T18:49:38Z",
+            "bytes": 157424,
+            "width": 1400,
+            "height": 1050,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0108",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526978/IMG_0108.webp",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526978/IMG_0108.webp",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:23:59+00:00",
+                "updated_at": "2024-08-12T14:23:59+00:00"
+            }
+        },
+        {
+            "asset_id": "303d83cbf6aacf288a932b288ad644a4",
+            "public_id": "IMG_0109",
+            "format": "webp",
+            "version": 1717526975,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-06-04T18:49:35Z",
+            "bytes": 153798,
+            "width": 1400,
+            "height": 1050,
+            "asset_folder": "sketchbook",
+            "display_name": "IMG_0109",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526975/IMG_0109.webp",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717526975/IMG_0109.webp",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:23:59+00:00",
+                "updated_at": "2024-08-12T14:23:59+00:00"
+            }
+        },
+        {
+            "asset_id": "0394e6769ef8a730da6fc791da2317ce",
+            "public_id": "curriculex/Interactive Lecture/interactive-lecture-detail-5",
+            "format": "png",
+            "version": 1712616509,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-04-08T22:48:29Z",
+            "bytes": 664633,
+            "width": 3358,
+            "height": 1830,
+            "asset_folder": "curriculex/Interactive Lecture",
+            "display_name": "interactive-lecture-detail-5",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1712616509/curriculex/Interactive%20Lecture/interactive-lecture-detail-5.png",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1712616509/curriculex/Interactive%20Lecture/interactive-lecture-detail-5.png",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:23:59+00:00",
+                "updated_at": "2024-08-12T14:23:59+00:00"
+            }
+        },
+        {
+            "asset_id": "406d5a4637ac53078c9c5e6ccc194ef0",
+            "public_id": "curriculex/Interactive Lecture/interactive-lecture-detail-2",
+            "format": "png",
+            "version": 1712605985,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2024-04-08T19:53:05Z",
+            "bytes": 3854757,
+            "width": 6152,
+            "height": 3470,
+            "asset_folder": "curriculex/Interactive Lecture",
+            "display_name": "interactive-lecture-detail-2",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1712605985/curriculex/Interactive%20Lecture/interactive-lecture-detail-2.png",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1712605985/curriculex/Interactive%20Lecture/interactive-lecture-detail-2.png",
+            "last_updated": {
+                "public_id_updated_at": "2024-04-08T19:59:43+00:00",
+                "tags_updated_at": "2024-08-12T14:23:59+00:00",
+                "updated_at": "2024-08-12T14:23:59+00:00"
+            }
+        },
+        {
+            "asset_id": "1a389ab50a2c5802d05e14e3d5b83212",
+            "public_id": "bronte/itemTray",
+            "format": "webp",
+            "version": 1686860274,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2023-06-15T20:17:54Z",
+            "bytes": 72030,
+            "width": 2560,
+            "height": 1944,
+            "asset_folder": "bronte",
+            "display_name": "itemTray",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1686860274/bronte/itemTray.webp",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686860274/bronte/itemTray.webp",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:23:59+00:00",
+                "updated_at": "2024-08-12T14:23:59+00:00"
+            }
+        },
+        {
+            "asset_id": "bf6bdb81a4282638db495a3c8daeb2c0",
+            "public_id": "simply-e/se-adroid-audio-screens",
+            "format": "jpg",
+            "version": 1582832190,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2020-02-27T19:27:07Z",
+            "bytes": 225398,
+            "width": 1748,
+            "height": 1358,
+            "backup": true,
+            "asset_folder": "simply-e",
+            "display_name": "se-adroid-audio-screens",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1582832190/simply-e/se-adroid-audio-screens.jpg",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1582832190/simply-e/se-adroid-audio-screens.jpg",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:25:07+00:00",
+                "updated_at": "2024-08-12T14:25:07+00:00"
+            }
+        },
+        {
+            "asset_id": "44c62767ad7b37ef57f12f8a4ec452c0",
+            "public_id": "acqwash/acqwash-mobileWires",
+            "format": "png",
+            "version": 1580149837,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2020-01-27T18:30:37Z",
+            "bytes": 311036,
+            "width": 1737,
+            "height": 872,
+            "asset_folder": "acqwash",
+            "display_name": "acqwash-mobileWires",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1580149837/acqwash/acqwash-mobileWires.png",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1580149837/acqwash/acqwash-mobileWires.png",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:25:07+00:00",
+                "updated_at": "2024-08-12T14:25:07+00:00"
+            }
+        },
+        {
+            "asset_id": "d633883f2a97d3d8fcbf4bb76c3e1b02",
+            "public_id": "nypl-staff-picks/nyplBbMobileWire_3x",
+            "format": "jpg",
+            "version": 1575990418,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2019-12-10T15:06:58Z",
+            "bytes": 223080,
+            "width": 720,
+            "height": 1280,
+            "asset_folder": "nypl-staff-picks",
+            "display_name": "nyplBbMobileWire_3x",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1575990418/nypl-staff-picks/nyplBbMobileWire_3x.jpg",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1575990418/nypl-staff-picks/nyplBbMobileWire_3x.jpg",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:25:07+00:00",
+                "updated_at": "2024-08-12T14:25:07+00:00"
+            }
+        },
+        {
+            "asset_id": "960b2a84522066f088caf15dc8417851",
+            "public_id": "nypl-staff-picks/sp_large_screen_initial_2x",
+            "format": "png",
+            "version": 1575990375,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2019-12-10T15:06:15Z",
+            "bytes": 179013,
+            "width": 1350,
+            "height": 1145,
+            "asset_folder": "nypl-staff-picks",
+            "display_name": "sp_large_screen_initial_2x",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1575990375/nypl-staff-picks/sp_large_screen_initial_2x.png",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1575990375/nypl-staff-picks/sp_large_screen_initial_2x.png",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:25:07+00:00",
+                "updated_at": "2024-08-12T14:25:07+00:00"
+            }
+        },
+        {
+            "asset_id": "9a00ac3292f32eff77b0874c01899abe",
+            "public_id": "simply-e/se-browser-flow",
+            "format": "png",
+            "version": 1548802602,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2019-01-29T22:56:42Z",
+            "bytes": 372243,
+            "width": 957,
+            "height": 650,
+            "asset_folder": "simply-e",
+            "display_name": "se-browser-flow",
+            "access_mode": "public",
+            "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548802602/simply-e/se-browser-flow.png",
+            "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548802602/simply-e/se-browser-flow.png",
+            "last_updated": {
+                "tags_updated_at": "2024-08-12T14:25:07+00:00",
+                "updated_at": "2024-08-12T14:25:07+00:00"
+            }
+        }
+    ]
+}

@@ -5,10 +5,10 @@ import { Cloudinary } from '@cloudinary/url-gen';
 import { name } from "@cloudinary/url-gen/actions/namedTransformation";
 
 // Data pulled in from respective JSON files in the ./data directory. See HUGO template: partials/footer $params for which files are 
-const data = params.artworks;
-const slides = params.hpslides;
+const artworkSlides = params.artworks;
+const hpSlides = params.hpslides;
 const quad3Slides = params.quad3Images;
-
+const uxSlides = params.ux;
 // Function that gets the right number of items from its respective source, and returns the public_id, which utilizes both the parent folder and file name
 
 const getRandItems = function(source) {
@@ -17,9 +17,10 @@ const getRandItems = function(source) {
   return randItem;
 }
 
-const randImg = getRandItems(data);
-const randSlide = getRandItems(slides);
-const randQuad3Img = getRandItems(quad3Slides);
+const randArtworkSlide = getRandItems(artworkSlides);
+const randHpSlide = getRandItems(hpSlides);
+const randQuad3Slide = getRandItems(quad3Slides);
+const randUxSlide = getRandItems(uxSlides);
 // Create Instance instance
 // TODO: sort out this double call to Cloudinary
 // Outsource it to a module perhaps?
@@ -55,11 +56,13 @@ const [local, remote] = ['http://localhost:1313/', "https://ricardogalvez.design
 
 if (baseURL.href === local || baseURL.href === remote) {
   const siteContent = document.querySelector('.site-content');
-  const mastimg = siteContent.querySelector('.mast-img');
-  const smallMast = siteContent.querySelector('.small-mast > img');
+  const mastImg = siteContent.querySelector('.mast-img');
+  const smallMastImg = siteContent.querySelector('.small-mast > img');
   const quad3Img = siteContent.querySelector('.quad-3-img');
-  mastimg.setAttribute("src", imgAsset(randImg, 'ct1610', 'webp'));
-  smallMast.setAttribute("src", imgAsset(randSlide, 'secondaryGraphic', 'webp'));
-  quad3Img.setAttribute("src", imgAsset(randQuad3Img, 'quad3_219', 'webp'));
+  const uxImg = siteContent.querySelector('.user-experience');
+  mastImg.setAttribute("src", imgAsset(randArtworkSlide, 'ct1610', 'webp'));
+  smallMastImg.setAttribute("src", imgAsset(randHpSlide, 'secondaryGraphic', 'webp'));
+  quad3Img.setAttribute("src", imgAsset(randQuad3Slide, 'quad3_219', 'webp'));
+  uxImg.setAttribute('src', imgAsset(randUxSlide, '2x3_3x', 'webp'));
 }
  

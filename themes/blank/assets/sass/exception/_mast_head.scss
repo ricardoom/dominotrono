@@ -20,6 +20,15 @@
  grid-row: row-prime / row-segundo;
 }
 
+.svg-filter {
+  fill: transparent;
+  filter: url(#gggrain-filter);
+  height: 100%;
+  mix-blend-mode: soft-light;
+  opacity: 1;
+  width: 100%;
+}
+
 .quad-3 {
   display: grid;
   grid-template-columns: subgrid;
@@ -29,17 +38,16 @@
   
   > img  {
     aspect-ratio: 21/9;
+    grid-column: col-prime / col-segundo;
+    grid-row: row-segundo / row-end;
   }
+
   > .overlay {
     filter: opacity(0.5);
     height: 100%;
     width: 100%;
     grid-column: col-prime / col-segundo;
     grid-row: row-segundo / row-end;
-    // TODO: refactor this to be utilized more broadly
-    > * > rect {
-      fill: hsl(279, 99%, 45%);
-    }
   }
 }
 
@@ -104,7 +112,7 @@
 
   p::first-letter {
     --wght: 700;
-    float: left;
+    // float: left;
     font-size: var(--s5);
     font-weight: var(--wght);
     line-height: 0.8;

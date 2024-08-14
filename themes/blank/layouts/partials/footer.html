@@ -8,7 +8,7 @@
 
 {{ $script := slice $ct $mobileNav $observer $socialSprites $utils  | resources.Concat "js/main.js" }}
 
-{{ $params := dict "artworks" site.Data.artworks.resources "hpslides" site.Data.hpslides.resources "quad3Images" site.Data.quad3Images.resources }}
+{{ $params := dict "artworks" site.Data.artworks.resources "hpslides" site.Data.hpslides.resources "quad3Images" site.Data.quad3Images.resources "ux" site.Data.ux.resources  }}
 {{ $opts := dict "params" $params }}
 {{ $built := $script | js.Build $opts }}
 {{ $customJS := .Param "experimentJS" }}

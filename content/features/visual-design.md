@@ -10,7 +10,7 @@ graphics:
   url: designBlobDos.svg
   class: designBlob
 ---
-I have been working in some capacity as a designer for my entire adult life. At some point I will dig into the crates and give examples of my work from as far back as I can reach. For now the works below function as a companion and overview of my main portfolio. But in no particular order
+I have been working in some capacity as a designer for my entire adult life. At some point, I will dig into the crates and give examples of my work from as far back as I can reach. For now the works below function as a companion and overview of my main portfolio. But in no particular order
 
 ### Native Bound Unbound
 

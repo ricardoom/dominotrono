@@ -11,9 +11,8 @@ should have companion Sass file / inline styles here are just for dev
 {{/*  Use the snippet below to pass args into the markup  */}}
 {{/*  {{ $Args := (dict "context" . "classes" "overlay")}}  */}}
 <div class="[ img-container ]">
-  
   <img class="[ {{ .contName }} {{ .imgClasses }} layout ][ utils ]" src="" alt="" />
-  <svg class="[ {{ .svgClasses }} layout ][ svg-overlay ]">
+    <svg class="[ {{ .svgClasses }} layout ][ svg-overlay ]">
     <g filter="url(#gggrain-saturate)">
       <rect width="100%" height="100%"></rect>
       <rect width="100%" height="100%" fill="url(#gggrain-gradient3)"></rect>

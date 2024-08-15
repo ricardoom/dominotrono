@@ -13,11 +13,12 @@ $oneQuarter: 0.25;
 $oneFifth: 0.2;
 
 $small: 25.875;
+$medium: 48;
 $mega: 93;
 
 // Set a smallest screen width
 $small-screen: $small * 1rem; // 414px
-$medium-screen: 48rem; // 768px
+$medium-screen: $medium * 1rem; // 768px
 $wide-screen: 80rem; // 1280px
 $mega-screen: $mega * 1rem; // 1488px
 // @debug $small-screen;
@@ -64,6 +65,7 @@ $s3: $s2 * $ratio;
    --s1-5: calc(var(--s1) * var(--halfRatio));
 
    --small-screen: #{$small-screen}; 
+   --medium-screen: calc(#{$medium} * 1rem);
    --oneThird: calc(100vh * #{$oneThirdHeight});
    --threeQuarter: calc(100vh * #{$threeQuartersHeight});
    --oneQuarter: calc(100vh * #{$oneQuarter});

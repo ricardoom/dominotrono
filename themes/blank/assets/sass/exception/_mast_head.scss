@@ -3,7 +3,10 @@
 // TODO: refactor this. Mostly naming conventions and combining reused grid configurations
 
 .mast-container {
-  // background-color: transparent;
+  container-name: mast-container;
+  container-type: inline-size;
+  background-image: conic-gradient(from -.5turn at bottom right, $site-dark-blue, $cool-sky-blue, $site-purple);
+
   @include media('>=tablet') {
     --h: calc(100vh - var(--s8));
     display: grid;
@@ -15,10 +18,6 @@
   }  
 }
 
-.mast {
- grid-column: col-segundo / col-end;
- grid-row: row-prime / row-segundo;
-}
 
 .svg-filter {
   fill: transparent;
@@ -40,6 +39,8 @@
     aspect-ratio: 21/9;
     grid-column: col-prime / col-segundo;
     grid-row: row-segundo / row-end;
+    height: 100%;
+    object-fit: cover;
   }
 
   > .overlay {
@@ -58,7 +59,6 @@
   grid-column: col-segundo / col-end;
   grid-row: row-segundo / row-end;
   height: 100%;
-  object-position: center;
   width: 100%;
 
   > img,
@@ -97,36 +97,48 @@
     grid-row: row-prime / row-segundo;
   }
 }
+
 // * MARK: Mast Head Text
-.mast {
+.mast-head-text {
   background-color: transparentize($site-white, 0.2);
   color: var(--text-color);
   
-  p {
-    --measure: 50ch;
-    font-size: var(--s1);
-    line-height: 1.3;
-    text-wrap: balance;
-    // width: var(--measure);
-  }
-
-  p::first-letter {
-    --wght: 700;
-    // float: left;
-    font-size: var(--s5);
-    font-weight: var(--wght);
-    line-height: 0.8;
-  }
-
+  grid-column: col-segundo / col-end;
+  grid-row: row-prime / row-segundo;
+  margin-inline: unset;
+  
   > div {
     display: flex;
     justify-content: center;
     
-    @include media('<=tablet') {
-      padding-block: var(--s1);
-      padding-inline: var(--s1);  
-    }
-    // padding-block: var(--s6);
-    // padding-inline: var(--s4);
+    // @include media('<=tablet') {
+  // * MARK: Container Query
+    @container mast-container (width > 767px) {
+      padding-block: var(--s0);
+      padding-inline: var(--s0);
+     }
   }
+
+  p {
+    --measure: 50ch;
+    font-size: ft(var(--s0), var(--s1));
+    line-height: 1.3;
+    text-wrap: balance;
+    // width: var(--measure);
+  }
+// * MARK: ::first-letter
+  p::first-letter {
+// * MARK: Container Query
+    @container mast-container (width > 767px) {
+      font-size: var(--s5);
+    }
+    --wght: 700;
+    // font-size: ft(var(--s3), var(--s5));
+    float: left;
+    font-size: var(--s3);
+    font-weight: var(--wght);
+    line-height: 0.8;
+  }
+
+  
 }

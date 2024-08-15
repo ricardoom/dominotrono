@@ -18,35 +18,13 @@
 }
 
 .feature {
+  container: feature-section / inline-size;
 
   section {
-    // @include media ('<=tablet') {
-    //   max-width: 100%;
-    //   padding-block-start: var(--s2);
-    // }
+    
 
     display: flex;
-    // gap: var(--s0);
     max-width: 100%;
-      
-    
-    // .feat-img-contain {
-    //   display: grid;
-    //   grid-template-columns: 1fr;
-    //   grid-template-rows: 1fr;
-    //   padding: 0;
-    //   width: 33%;
-    // }
-
-    // svg,
-    // img  {
-    //   aspect-ratio: 2/3;
-    //   background-color: $site-lilac;
-    //   grid-column: 1 / -1;
-    //   grid-row: 1 / -1;
-    //   height: 100%;
-    //   width: 100%;
-    // }
 
     .feat-overlay {
       filter: opacity(0.5);
@@ -55,7 +33,7 @@
         fill: hsl(23, 90%, 51%);
       }
     }
-    
+
     .feat-text-contain {
       width: 66%;
       align-content: center;
@@ -63,21 +41,15 @@
       flex-direction: column;
       gap: var(--s1);
       justify-content: center;
-      // grid-template-columns: repeat(3, 1fr);
-      // grid-template-rows: repeat(3, max-content);
       padding-block: var(--s1);
       padding-inline: ft(var(--s-1),var(--s1));
       transition: filter 200ms ease-in;
       text-decoration: none;
-  
-      // &:hover,
-      // &:visited {
-      //   color: currentColor;
-      // }
-  
+
+      
+
       h1 {
         --wght: 573;
-        // align-self: end;
         font-size: ft(var(--s1), var(--s4));
         font-weight: var(--wght);
         line-height: 1;
@@ -93,7 +65,6 @@
       }
     }
   
-
     a {
       color: $site-prince-purple;
       font-size: ft(var(--s-1), var(--s0));
@@ -104,6 +75,20 @@
     a:hover {
       color: currentColor;
       outline-color: currentColor;
+    }
+// * MARK: Container Query
+    @container feature-section (width < #{$medium-screen}) {
+      flex-direction: column;
+
+      .feat-text-contain {
+        width: 100%;
+      }
+
+      .img-container {
+        grid-template-rows: 33vh;
+
+
+      }
     }
   }
 
@@ -121,53 +106,38 @@
   }
 
   
-  .pivot {
-    // @include media('<=tablet') {
-    //   padding-inline: var(--s0);
-    //   }
-
-    // border-radius: var(--s0);
-    // color: currentColor;
-    filter: none;
-    // padding-inline: var(--s2);
-    transform: scale(1);
-    transition: filter 300ms ease-out, transform 310ms ease-out;
-    will-change: transform, transition;
+  // .pivot {
+  //   filter: none;
+  //   transform: scale(1);
+  //   transition: filter 300ms ease-out, transform 310ms ease-out;
+  //   will-change: transform, transition;
     
     
-    span {
-      grid-column: 1 / -1;
-    }
+  //   span {
+  //     grid-column: 1 / -1;
+  //   }
+  //   // TODO: replace with @container
+  //   @include media('<=tablet') {
 
-    @include media('<=tablet') {
-      // background-color: transparentize($color: $site-white, $amount: 0.45);
-      span {
-        font-size: ft(var(--s-1), var(--s0));
-      }
-    }
+  //     span {
+  //       font-size: ft(var(--s-1), var(--s0));
+  //     }
+  //   }
 
-    // @include media('>=tablet') {
-    //   &:hover,
-    //   &:focus {
-    //     background-color: transparentize($color: $site-white, $amount: 0.45);
-    //   }
-    // }
-    
+  //   &:focus {
+  //     @include focus-ring(outline, solid, var(--hover-color), var(--s-2));
+  //   }
+  // }
 
-    &:focus {
-      @include focus-ring(outline, solid, var(--hover-color), var(--s-2));
-    }
-  }
-
-  .card-state {
-    $angles: 25;
-    --string: 'px';
-    --perspective: #{$angles};
-    color: currentColor;
-    filter: blur(var(--s-4)) opacity(0.8);
-    transform: scale(0.85);
-    will-change: transform;
-  }
+  // .card-state {
+  //   $angles: 25;
+  //   --string: 'px';
+  //   --perspective: #{$angles};
+  //   color: currentColor;
+  //   filter: blur(var(--s-4)) opacity(0.8);
+  //   transform: scale(0.85);
+  //   will-change: transform;
+  // }
 //
 // Working Strictly for img-block.html
 // TODO: Move this to its own file
@@ -181,6 +151,7 @@
     height: 100%;
     grid-column: 1 / -1;
     grid-row: 1 / -1;
+    object-fit: cover;
     width: 100%;
   }
   

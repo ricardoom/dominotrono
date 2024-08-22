@@ -3,7 +3,7 @@
 {{ $sassRoot := "sass/root.scss" }} 
 {{ $rootClass := ( slice "homePage" "innerPage" ) }} 
 {{ $prodOptions := ( dict "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" false ) }} 
-{{ $devOptions := (dict "targetPath" $targetPath "outputStyle" ""
+{{ $devOptions := (dict "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" ""
 "enableSourceMap" true) }} 
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }}
 {{ $prodStyle := resources.Get $sassRoot | resources.ToCSS $prodOptions | resources.Fingerprint }} 

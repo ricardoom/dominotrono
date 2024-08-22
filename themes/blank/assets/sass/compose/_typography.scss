@@ -92,7 +92,8 @@ $headings: (h1, h2, h3, h4, h5, h6);
 // 
 $screenDifference: $mega - $small;
 $fontDifference: $s3 - $s1;
-$slope: $fontDifference / $screenDifference;
+$slope: calc($fontDifference / $screenDifference);
+
 $yAxisIntersection: (($small * -1) * $slope) + $s0;
 $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 
@@ -100,18 +101,18 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
 @function pv() {
   $screenDifference: $mega - $small;
   $fontDifference: $s3 - $s1;
-  $slope: $fontDifference / $screenDifference;
+  $slope: calc($fontDifference / $screenDifference);
   $yAxisIntersection: (($small * -1) * $slope) + $s0;
   $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
   @return $preferredValue;
 }
 
-// @debug $s0, $s1, $s2;
-// @debug $screenDifference;
-// @debug $fontDifference;
-// @debug $slope;
-// @debug $yAxisIntersection ;
-//  @debug $preferredValue;
+@debug $s0, $s1, $s2;
+@debug $screenDifference;
+@debug $fontDifference;
+@debug $slope;
+@debug $yAxisIntersection ;
+ @debug $preferredValue;
 
 // Fluid Type Function
 // $lower-limit: 

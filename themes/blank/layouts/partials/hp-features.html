@@ -20,7 +20,7 @@
      {{ partial "svg/mastBG.svg" $svgArgs }}
   </div>    */}}
 
-  {{ $imgBlock := (dict "context" . "contName" $title "imgClasses" "image-class" "svgClasses" "svg-class") }}
+  {{ $imgBlock := ( dict "context" . "contName" $title "imgClasses" "image-class" "svgClasses" "svg-class" "svg" true ) }}
   {{ partial "img-block.html" $imgBlock }}
   <div class="[ feat-text-contain ]">
     <h1>{{ .Title }}</h1>
@@ -33,7 +33,7 @@
     {{ else }}
     <a href="{{ $localURL }}" class="[ card-state ]" data-class="[ pivot ]">
     {{ end }}
-      See more of my {{ .Title }} projects ↘
+      See more {{ .Title }} projects ↘
     </a>
   </div>
 </section>

@@ -35,7 +35,7 @@
   {{ with . | toCSS $opts }}
     {{ if hugo.IsDevelopment }}
       <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{ else }}
+      {{ else }}
       {{ with . | minify | fingerprint }}
         <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
       {{ end }}

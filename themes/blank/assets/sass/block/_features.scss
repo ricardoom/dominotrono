@@ -63,7 +63,7 @@
       }
     }
   
-    a {
+    & a {
       @container feature-section (width > #{$medium-screen}) {
         max-height: max-content;
         max-width: fit-content;

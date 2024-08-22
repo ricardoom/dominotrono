@@ -24,11 +24,26 @@
   {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}" />
   {{ end }} 
-  {{ if $local }}
-  <link rel="stylesheet" href="{{ $devStyle.Permalink }}" />
+  {{/*  {{ if $local }}
+    <link rel="stylesheet" href="{{ $devStyle.Permalink }}" />
   {{ else }}
-  <link rel="stylesheet" href="{{ $prodStyle.Permalink }}" />
-  {{ end }} 
+    <link rel="stylesheet" href="{{ $prodStyle.Permalink }}" />
+  {{ end }}   */}}
+
+  {{ with resources.Get "sass/root.scss" }}
+  {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/root.css" }}
+  {{ with . | toCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+
   {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ $typography.adobeTypekit }}" />
   
@@ -47,5 +62,5 @@
         {{ partial "nav.html" . }}
       </div>
     </header>
-  </body>
+  </body> 
 </body>

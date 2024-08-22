@@ -15,6 +15,7 @@ footer {
     display: flex;
     justify-content: space-between;
     @include media('<=tablet') {
+      align-items: start;
       flex-direction: column;
     }
   }

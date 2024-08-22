@@ -45,8 +45,9 @@
 {{ if $local }}  
     <script src="{{ $built.RelPermalink }}"></script>    
 {{ else }}
-  {{ $script := $script | minify | fingerprint "sha256" }}
-    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
+  {{/*  {{ $script := $script | minify | fingerprint "sha256" }}
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>  */}}
+    <script src="{{ $built.RelPermalink }}"></script>
 {{ end }}
 {{ if ne .Type "experiments" }}
   <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>

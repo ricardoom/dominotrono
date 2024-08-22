@@ -2,7 +2,7 @@
 {{ $targetPath := "css/root.css" }} 
 {{ $sassRoot := "sass/root.scss" }} 
 {{ $rootClass := ( slice "homePage" "innerPage" ) }} 
-{{ $prodOptions := ( dict "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" false ) }} 
+{{ $prodOptions := ( dict  "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" false ) }} 
 {{ $devOptions := (dict "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" ""
 "enableSourceMap" true) }} 
 {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }}

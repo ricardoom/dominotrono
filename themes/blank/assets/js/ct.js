@@ -9,6 +9,8 @@ const artworkSlides = params.artworks;
 const hpSlides = params.hpslides;
 const quad3Slides = params.quad3Images;
 const uxSlides = params.ux;
+const vdSlides = params.vd;
+const webdevSlides = params.webdev;
 // Function that gets the right number of items from its respective source, and returns the public_id, which utilizes both the parent folder and file name
 
 const getRandItems = function(source) {
@@ -21,6 +23,9 @@ const randArtworkSlide = getRandItems(artworkSlides);
 const randHpSlide = getRandItems(hpSlides);
 const randQuad3Slide = getRandItems(quad3Slides);
 const randUxSlide = getRandItems(uxSlides);
+const randVDSlide = getRandItems(vdSlides);
+const randWDSlide = getRandItems(webdevSlides);
+
 // Create Instance instance
 // TODO: sort out this double call to Cloudinary
 // Outsource it to a module perhaps?
@@ -60,9 +65,14 @@ if (baseURL.href === local || baseURL.href === remote) {
   const smallMastImg = siteContent.querySelector('.small-mast > img');
   const quad3Img = siteContent.querySelector('.quad-3-img');
   const uxImg = siteContent.querySelector('.user-experience');
+  const vdImg = siteContent.querySelector('.visual-design');
+  const wdImg = siteContent.querySelector('.web-development');
+
   mastImg.setAttribute("src", imgAsset(randArtworkSlide, 'ct1610', 'webp'));
   smallMastImg.setAttribute("src", imgAsset(randHpSlide, 'secondaryGraphic', 'webp'));
   quad3Img.setAttribute("src", imgAsset(randQuad3Slide, 'quad3_219', 'webp'));
   uxImg.setAttribute('src', imgAsset(randUxSlide, '2x3_3x', 'webp'));
+  vdImg.setAttribute('src', imgAsset(randVDSlide, '2x3_3x', 'webp'));
+  wdImg.setAttribute('src', imgAsset(randWDSlide, '2x3_3x', 'webp'));
 }
  

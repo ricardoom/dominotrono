@@ -21,8 +21,6 @@
   container: feature-section / inline-size;
 
   section {
-    
-
     display: flex;
     max-width: 100%;
 
@@ -39,7 +37,7 @@
       align-content: center;
       display: flex;
       flex-direction: column;
-      gap: var(--s1);
+      // gap: var(--s1);
       justify-content: center;
       padding-block: var(--s1);
       padding-inline: ft(var(--s-1),var(--s1));
@@ -66,15 +64,35 @@
     }
   
     a {
+      @container feature-section (width > #{$medium-screen}) {
+        max-height: max-content;
+        max-width: fit-content;
+        padding-inline: var(--s0);
+      }
+
+      align-content: center; //? this necessary?
+      background-color: transparentize($overlay-color, 0.45);
+      border-radius: var(--s-3);
       color: $site-prince-purple;
+      display: flex;
       font-size: ft(var(--s-1), var(--s0));
-      padding: var(--s0);
-      max-width: max-content;
+      justify-content: center;
+      padding-block: var((--s0));
+      // padding-inline: var(--s0);
+      max-width: 100%;
+      // margin-inline-start: calc(var(--s0) * -1);
     }
     
-    a:hover {
+    a:hover, a:focus {
+      background-color: var(--overlay-color);
+      
+      outline-width: var(--s-4);
       color: currentColor;
       outline-color: currentColor;
+    }
+
+    a:focus {
+      outline-color: var(--focus-color);
     }
 // * MARK: Container Query
     @container feature-section (width < #{$medium-screen}) {
@@ -86,13 +104,13 @@
 
       .img-container {
         grid-template-rows: 33vh;
-
-
       }
     }
   }
 
+  @container feature-section (width > #{$small-screen}) {
   section:nth-child(even) {
+    
     align-self: flex-start;
     flex-direction: row-reverse;
 
@@ -104,7 +122,7 @@
   section:nth-child(odd) {
     align-self: flex-end;
   }
-
+}
   
   // .pivot {
   //   filter: none;
@@ -151,6 +169,7 @@
     height: 100%;
     grid-column: 1 / -1;
     grid-row: 1 / -1;
+    max-block-size: 33vh;
     object-fit: cover;
     width: 100%;
   }

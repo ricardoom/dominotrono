@@ -1,0 +1,510 @@
+{
+  "resources": [
+      {
+          "asset_id": "7c5d6a65a7972bd94aa4c9a9e500d5d9",
+          "public_id": "Screenshot_2024-03-04_at_15-36-17_collage_make",
+          "format": "png",
+          "version": 1720980103,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2024-07-14T18:01:43Z",
+          "bytes": 3018780,
+          "width": 2919,
+          "height": 2343,
+          "asset_folder": "collageMake",
+          "display_name": "Screenshot_2024-03-04_at_15-36-17_collage_make",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980103/Screenshot_2024-03-04_at_15-36-17_collage_make.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980103/Screenshot_2024-03-04_at_15-36-17_collage_make.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:58:23+00:00",
+              "updated_at": "2024-08-22T18:58:23+00:00"
+          }
+      },
+      {
+          "asset_id": "6872c8bbd6f656e98ae3159181e76dc5",
+          "public_id": "Screenshot_2024-03-04_at_15-02-54_collage_make",
+          "format": "png",
+          "version": 1720980101,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2024-07-14T18:01:41Z",
+          "bytes": 908644,
+          "width": 2369,
+          "height": 2044,
+          "asset_folder": "collageMake",
+          "display_name": "Screenshot_2024-03-04_at_15-02-54_collage_make",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980101/Screenshot_2024-03-04_at_15-02-54_collage_make.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980101/Screenshot_2024-03-04_at_15-02-54_collage_make.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:58:23+00:00",
+              "updated_at": "2024-08-22T18:58:23+00:00"
+          }
+      },
+      {
+          "asset_id": "60d0bca83048ba750f7802349abb78f5",
+          "public_id": "Screenshot_2024-03-04_at_15-08-27_collage_make",
+          "format": "png",
+          "version": 1720980101,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2024-07-14T18:01:41Z",
+          "bytes": 1716385,
+          "width": 2369,
+          "height": 2044,
+          "asset_folder": "collageMake",
+          "display_name": "Screenshot_2024-03-04_at_15-08-27_collage_make",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980101/Screenshot_2024-03-04_at_15-08-27_collage_make.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980101/Screenshot_2024-03-04_at_15-08-27_collage_make.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:58:23+00:00",
+              "updated_at": "2024-08-22T18:58:23+00:00"
+          }
+      },
+      {
+          "asset_id": "a6e37da22ed4924e085d11f8b6c0cdaa",
+          "public_id": "Screenshot_2024-03-12_at_10-11-44_collage_make",
+          "format": "png",
+          "version": 1720980098,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2024-07-14T18:01:38Z",
+          "bytes": 3898994,
+          "width": 2759,
+          "height": 2343,
+          "asset_folder": "collageMake",
+          "display_name": "Screenshot_2024-03-12_at_10-11-44_collage_make",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980098/Screenshot_2024-03-12_at_10-11-44_collage_make.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980098/Screenshot_2024-03-12_at_10-11-44_collage_make.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:58:23+00:00",
+              "updated_at": "2024-08-22T18:58:23+00:00"
+          }
+      },
+      {
+          "asset_id": "3e99295978b6441ab3586065c1dc9eac",
+          "public_id": "Screenshot_2024-03-12_at_11-58-50_collage_make",
+          "format": "png",
+          "version": 1720980097,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2024-07-14T18:01:37Z",
+          "bytes": 1119836,
+          "width": 2235,
+          "height": 2343,
+          "asset_folder": "collageMake",
+          "display_name": "Screenshot_2024-03-12_at_11-58-50_collage_make",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980097/Screenshot_2024-03-12_at_11-58-50_collage_make.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1720980097/Screenshot_2024-03-12_at_11-58-50_collage_make.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:58:23+00:00",
+              "updated_at": "2024-08-22T18:58:23+00:00"
+          }
+      },
+      {
+          "asset_id": "5450a5a63a9f8a33312c43e84a0fd037",
+          "public_id": "collagemake10_10",
+          "format": "jpg",
+          "version": 1720979715,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2024-07-14T17:55:15Z",
+          "bytes": 79550,
+          "width": 821,
+          "height": 733,
+          "asset_folder": "collageMake",
+          "display_name": "collagemake10_10",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1720979715/collagemake10_10.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1720979715/collagemake10_10.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:58:23+00:00",
+              "updated_at": "2024-08-22T18:58:23+00:00"
+          }
+      },
+      {
+          "asset_id": "40e8dd0b8c0d735a1332dc13139bf0fa",
+          "public_id": "native-bound-unbound/HomePageLight",
+          "format": "jpg",
+          "version": 1683580754,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-05-08T21:19:14Z",
+          "bytes": 6478093,
+          "width": 3456,
+          "height": 7686,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "HomePageLight",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1683580754/native-bound-unbound/HomePageLight.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1683580754/native-bound-unbound/HomePageLight.jpg",
+          "last_updated": {
+              "public_id_updated_at": "2023-05-11T18:14:20+00:00",
+              "tags_updated_at": "2024-08-22T19:11:05+00:00",
+              "updated_at": "2024-08-22T19:11:05+00:00"
+          }
+      },
+      {
+          "asset_id": "84f3ad2b4ba95e3febf55300c9f48a69",
+          "public_id": "native-bound-unbound/HomePageDark",
+          "format": "jpg",
+          "version": 1683580752,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-05-08T21:19:12Z",
+          "bytes": 7920499,
+          "width": 3456,
+          "height": 7562,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "HomePageDark",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1683580752/native-bound-unbound/HomePageDark.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1683580752/native-bound-unbound/HomePageDark.jpg",
+          "last_updated": {
+              "public_id_updated_at": "2023-05-11T18:14:20+00:00",
+              "tags_updated_at": "2024-08-22T19:11:04+00:00",
+              "updated_at": "2024-08-22T19:11:04+00:00"
+          }
+      },
+      {
+          "asset_id": "f6b0f86cf3e9fa1f24e50a38847077f4",
+          "public_id": "stablehouse/shHomeScreen",
+          "format": "png",
+          "version": 1647544269,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-03-17T19:11:09Z",
+          "bytes": 2396782,
+          "width": 1697,
+          "height": 8823,
+          "asset_folder": "stablehouse",
+          "display_name": "shHomeScreen",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544269/stablehouse/shHomeScreen.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544269/stablehouse/shHomeScreen.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T19:11:31+00:00",
+              "updated_at": "2024-08-22T19:11:31+00:00"
+          }
+      },
+      {
+          "asset_id": "aec85f96776a2a75ff8706ea5f90349e",
+          "public_id": "stablehouse/shLearningHubScreen",
+          "format": "png",
+          "version": 1647544268,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-03-17T19:11:08Z",
+          "bytes": 2991163,
+          "width": 1697,
+          "height": 4913,
+          "asset_folder": "stablehouse",
+          "display_name": "shLearningHubScreen",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544268/stablehouse/shLearningHubScreen.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544268/stablehouse/shLearningHubScreen.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T19:11:31+00:00",
+              "updated_at": "2024-08-22T19:11:31+00:00"
+          }
+      },
+      {
+          "asset_id": "07f9ccd0539ccd43f0bd450e20800764",
+          "public_id": "stablehouse/shInstitutionsScreen",
+          "format": "png",
+          "version": 1647544266,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-03-17T19:11:06Z",
+          "bytes": 1974715,
+          "width": 1697,
+          "height": 6335,
+          "asset_folder": "stablehouse",
+          "display_name": "shInstitutionsScreen",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544266/stablehouse/shInstitutionsScreen.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544266/stablehouse/shInstitutionsScreen.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T19:11:31+00:00",
+              "updated_at": "2024-08-22T19:11:31+00:00"
+          }
+      },
+      {
+          "asset_id": "464babc8c3f50f97d8c3d055173c67aa",
+          "public_id": "stablehouse/shAboutScreen",
+          "format": "png",
+          "version": 1647544265,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-03-17T19:11:05Z",
+          "bytes": 2136598,
+          "width": 1697,
+          "height": 5243,
+          "asset_folder": "stablehouse",
+          "display_name": "shAboutScreen",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544265/stablehouse/shAboutScreen.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1647544265/stablehouse/shAboutScreen.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T19:11:31+00:00",
+              "updated_at": "2024-08-22T19:11:31+00:00"
+          }
+      },
+      {
+          "asset_id": "38f3ff75b0734a7962d630d2e4c0e9af",
+          "public_id": "nypl-design-toolkit/dtk-color-table",
+          "format": "png",
+          "version": 1647269981,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-03-14T14:59:41Z",
+          "bytes": 503902,
+          "width": 2880,
+          "height": 1558,
+          "asset_folder": "nypl-design-toolkit",
+          "display_name": "dtk-color-table",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1647269981/nypl-design-toolkit/dtk-color-table.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1647269981/nypl-design-toolkit/dtk-color-table.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T19:12:50+00:00",
+              "updated_at": "2024-08-22T19:12:50+00:00"
+          }
+      },
+      {
+          "asset_id": "af1b0ebddb8f79dffe2d4a6fad01a6c5",
+          "public_id": "decolonizing-nm/dcnm-full-bleed",
+          "format": "png",
+          "version": 1614706175,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-03-02T17:29:35Z",
+          "bytes": 3559913,
+          "width": 2564,
+          "height": 2186,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-full-bleed",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614706175/decolonizing-nm/dcnm-full-bleed.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614706175/decolonizing-nm/dcnm-full-bleed.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:59:20+00:00",
+              "updated_at": "2024-08-22T18:59:20+00:00"
+          }
+      },
+      {
+          "asset_id": "5981deef6aed9df3025928f3854068de",
+          "public_id": "decolonizing-nm/dcnm-text-grid-2",
+          "format": "png",
+          "version": 1614706173,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-03-02T17:29:33Z",
+          "bytes": 514373,
+          "width": 2084,
+          "height": 1930,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-text-grid-2",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614706173/decolonizing-nm/dcnm-text-grid-2.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614706173/decolonizing-nm/dcnm-text-grid-2.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:59:20+00:00",
+              "updated_at": "2024-08-22T18:59:20+00:00"
+          }
+      },
+      {
+          "asset_id": "f2b478d2a9418384711a16fadcb3dfab",
+          "public_id": "decolonizing-nm/dcnm-detail-2",
+          "format": "png",
+          "version": 1614544669,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-02-28T20:37:49Z",
+          "bytes": 2196024,
+          "width": 1552,
+          "height": 1356,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-detail-2",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614544669/decolonizing-nm/dcnm-detail-2.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614544669/decolonizing-nm/dcnm-detail-2.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:59:20+00:00",
+              "updated_at": "2024-08-22T18:59:20+00:00"
+          }
+      },
+      {
+          "asset_id": "281aba6ebe81e62a313f820c48a74471",
+          "public_id": "decolonizing-nm/dcnm-detail",
+          "format": "png",
+          "version": 1614544666,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-02-28T20:37:46Z",
+          "bytes": 913252,
+          "width": 1418,
+          "height": 1392,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-detail",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614544666/decolonizing-nm/dcnm-detail.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614544666/decolonizing-nm/dcnm-detail.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:59:20+00:00",
+              "updated_at": "2024-08-22T18:59:20+00:00"
+          }
+      },
+      {
+          "asset_id": "aa3ee81cf1e311df9ee062ca344b2a28",
+          "public_id": "decolonizing-nm/dcnm-interior",
+          "format": "jpg",
+          "version": 1614443500,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-02-27T16:31:40Z",
+          "bytes": 126826,
+          "width": 960,
+          "height": 1080,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-interior",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614443500/decolonizing-nm/dcnm-interior.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614443500/decolonizing-nm/dcnm-interior.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:59:20+00:00",
+              "updated_at": "2024-08-22T18:59:20+00:00"
+          }
+      },
+      {
+          "asset_id": "2e3159eab3d59832409e23b7a2cc5f3d",
+          "public_id": "decolonizing-nm/dcnm-hp-typography",
+          "format": "jpg",
+          "version": 1614442719,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-02-27T16:18:39Z",
+          "bytes": 80097,
+          "width": 640,
+          "height": 560,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-hp-typography",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614442719/decolonizing-nm/dcnm-hp-typography.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614442719/decolonizing-nm/dcnm-hp-typography.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:59:20+00:00",
+              "updated_at": "2024-08-22T18:59:20+00:00"
+          }
+      },
+      {
+          "asset_id": "fb93ba7659fced744fe905b89b1f8a98",
+          "public_id": "decolonizing-nm/dcnm-text-grid",
+          "format": "jpg",
+          "version": 1614442619,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-02-27T16:16:59Z",
+          "bytes": 48357,
+          "width": 640,
+          "height": 515,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-text-grid",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614442619/decolonizing-nm/dcnm-text-grid.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614442619/decolonizing-nm/dcnm-text-grid.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:59:20+00:00",
+              "updated_at": "2024-08-22T18:59:20+00:00"
+          }
+      },
+      {
+          "asset_id": "61bb191968d652a0484f8031104d9ff0",
+          "public_id": "decolonizing-nm/dcnm-toc",
+          "format": "jpg",
+          "version": 1614441095,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-02-27T15:51:35Z",
+          "bytes": 122723,
+          "width": 1005,
+          "height": 926,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-toc",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614441095/decolonizing-nm/dcnm-toc.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614441095/decolonizing-nm/dcnm-toc.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T18:59:20+00:00",
+              "updated_at": "2024-08-22T18:59:20+00:00"
+          }
+      },
+      {
+          "asset_id": "4c52a0838f444fabde249f4b298b6e21",
+          "public_id": "nypl-design-toolkit/nypl-dtk-tables",
+          "format": "png",
+          "version": 1576612344,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-12-17T19:52:24Z",
+          "bytes": 307586,
+          "width": 1280,
+          "height": 3221,
+          "asset_folder": "nypl-design-toolkit",
+          "display_name": "nypl-dtk-tables",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1576612344/nypl-design-toolkit/nypl-dtk-tables.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1576612344/nypl-design-toolkit/nypl-dtk-tables.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T19:12:50+00:00",
+              "updated_at": "2024-08-22T19:12:50+00:00"
+          }
+      },
+      {
+          "asset_id": "d23f8accac833922b937c384ff8aa068",
+          "public_id": "nypl-design-toolkit/dtk.small",
+          "format": "png",
+          "version": 1548722203,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-29T00:36:43Z",
+          "bytes": 95789,
+          "width": 1435,
+          "height": 2133,
+          "asset_folder": "nypl-design-toolkit",
+          "display_name": "dtk.small",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548722203/nypl-design-toolkit/dtk.small.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548722203/nypl-design-toolkit/dtk.small.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T19:12:50+00:00",
+              "updated_at": "2024-08-22T19:12:50+00:00"
+          }
+      },
+      {
+          "asset_id": "1126118c6fab6ac3b48474429b0db1da",
+          "public_id": "nypl-design-toolkit/Design-Toolkit",
+          "format": "png",
+          "version": 1548722203,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-29T00:36:43Z",
+          "bytes": 340952,
+          "width": 1435,
+          "height": 2133,
+          "asset_folder": "nypl-design-toolkit",
+          "display_name": "Design-Toolkit",
+          "access_mode": "public",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548722203/nypl-design-toolkit/Design-Toolkit.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548722203/nypl-design-toolkit/Design-Toolkit.png",
+          "last_updated": {
+              "tags_updated_at": "2024-08-22T19:12:49+00:00",
+              "updated_at": "2024-08-22T19:12:49+00:00"
+          }
+      }
+  ]
+}

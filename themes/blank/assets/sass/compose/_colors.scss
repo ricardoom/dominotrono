@@ -23,12 +23,13 @@ $pale-lave-mint: hsl(187, 45%, 67%);
 $cool-mint: hsl(169, 60%, 79%);
 $minty-lilac: hsl(209, 60%, 79%);
 $site-lilac: hsl(317, 40%, 68%);
-
+$overlay-color: hsla(0, 0%, 100%, 1);
 :root {
   --black: #{$site-black};
   --acid-green: #{$site-acid-green};
-  --overlay-color: hsla(0, 0%, 100%, 1);
+  --overlay-color: #{$overlay-color};
   --hover-color: #{$cool-sky-blue};
+  --focus-color: #{$site-prince-purple};
   --text-color: #{$site-dark-blue};
   
 }

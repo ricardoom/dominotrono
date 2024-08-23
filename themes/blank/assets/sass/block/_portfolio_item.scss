@@ -3,7 +3,7 @@
 ///
 
 .article-grid-wrapper {
-  @include media('<=tablet') {
+  @media screen and (max-width: $medium-screen) {  
       display: block;
     }
 
@@ -27,13 +27,10 @@
     //
     h3 {
       &:first-child {
-        margin-bottom: var(--s0);
+        margin-block-end: var(--s0);
       }
-    // magic numbers
-      // @include responsive-font(1.5vw, 1.6em, 22px, 32px);
-      // font-size: var(--s0);
-      font-size: ft(var(--s0), var(--s1));
-      margin: var(--s1) 0 0;
+    
+      margin-block-start: var(--s1);
     }
     .resume-dl {
       max-width: max-content;
@@ -42,7 +39,7 @@
       //
       // uses the same grid styles, but namespaced to differentiate
       //
-      section { // utility style:
+      section {
         max-width: $wide-screen;
       }
       .hero-grid,
@@ -83,9 +80,9 @@
         &__copyBlock {
           @include add-to-grid('>=phone', 1, 6, 2, 3);
           @include add-to-grid('>=tablet', 1, -2, 2, 3);
-          @include responsive-font(1.8vw, 18px, 32px, 20px);
+          // @include responsive-font(1.8vw, 18px, 32px, 20px);
+          font-size: ft(var(--s0), var(--s1));
           background-color: transparentize($site-black, 0.03);
-          // margin-inline-end: var(--s1);
           padding: var(--s1);
           z-index: 1;
         }
@@ -114,7 +111,6 @@
         }
 
         > p {
-          // margin: var(--s0) 0;
           margin-block: var(--s1);
         }
 
@@ -147,15 +143,15 @@
         // Uses flex and grid together
         //
 
-        &__flex-section {
-          //! Not ready for prime time.
-          // need styles to allow for a more traditional header / content relationship. 
-          // TODO: keep working this out
-          > .heading {
-            @include add-to-grid('>=phone', 1, -1, 1, 2);
-            @include add-to-grid('>=tablet', 1, 2, 1, 2);
-          }
-        }
+        // &__flex-section {
+        //   //! Not ready for prime time.
+        //   // need styles to allow for a more traditional header / content relationship. 
+        //   // TODO: keep working this out
+        //   > .heading {
+        //     @include add-to-grid('>=phone', 1, -1, 1, 2);
+        //     @include add-to-grid('>=tablet', 1, 2, 1, 2);
+        //   }
+        // }
 
         & > .heading {
             @include add-to-grid('>=phone', 1, -1, auto, auto);
@@ -238,13 +234,11 @@
             &__left {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
               @include add-to-grid('>=tablet', 1, 2, auto, auto);
-              // padding: 0 0 3ex 3ex;
             }
 
             &__right {
               @include add-to-grid('>=phone', 1, -1, auto, auto);
               @include add-to-grid('>=tablet', 3, 4, auto, auto);
-              // margin: 3ex 0 5ex;
             }
           }
           @include grid-figcaption;
@@ -261,7 +255,6 @@
           }
 
           &.figma-embed {
-            background-color: red;
             width: 1244px;
             height: 804px;
           }
@@ -294,7 +287,6 @@
 
         &__sectionHeading {
           @include add-to-grid('>=phone', 1, 6, auto, auto);
-          background-color: $site-hot-orange;
         }
       } // /details-grid
     }

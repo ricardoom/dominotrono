@@ -121,11 +121,6 @@ $preferredValue: $yAxisIntersection + ($slope * 100) * 1vw;
   @return clamp(#{$lower-limit}, pv(), #{$upper-limit});
 }
 
-// .test {
-//   font-size: ft(var(--s3), 4vw, var(--s6));
-// }
-
-
 html {
   --wdth: 100;
   --wght: 100;
@@ -139,8 +134,6 @@ h1 {
     calc(var(--s4) * 1.5));
     font-family: $ivyepic;
     font-size: ft(var(--s2), var(--s4));
-    // font-variation-settings: 'wdth' var(--wdth), 'wght' var(--wght), 'slnt' 0;
-    // font-weight: 100;
     letter-spacing: .017em;
     line-height: var(--line-height);
 }
@@ -149,14 +142,11 @@ h2 {
   --wght: 250;
   --wdth: 100;
   --line-height: clamp((var(--s05), #{$preferredValue}, var(--s1))); 
-  // font-size: clamp(var(--s0), $preferredValue, var(--s2));
   font-size: ft(var(--s1), var(--s2));
-  
   line-height: var(--line-height);
 }
 
 h3 {
-  // font-size: clamp(1rem, var(--s1), 1.5rem);
   font-size: ft(var(--s0), var(--s1));
 }
 
@@ -165,13 +155,9 @@ h3 {
   margin-bottom: var(--s-1);
 }
 
- 
-// .fonts-loaded h4,
 h4 {
-  // font-family: $sans-serif;
   --wght: 100;
   font-size: ft(var(--s-2), var(--s0));
-  // font-variation-settings: 'wght' var(--wght);
   text-transform: uppercase;
   letter-spacing: var(--s-4);
 }
@@ -202,14 +188,14 @@ a {
 /// Basic typographic rules
 ///
 
-code {
-  background: transparentize($site-hot-orange, 0.85);
-  border-radius: 0.125em;
-  color: $site-white;
-  font-family: $monospace;
-  font-size: var(--s05);
-  padding: 0.15em;
-}
+// code {
+//   background: transparentize($site-hot-orange, 0.85);
+//   border-radius: 0.125em;
+//   color: $site-white;
+//   font-family: $monospace;
+//   font-size: var(--s05);
+//   padding: 0.15em;
+// }
 
 
 // set the max width for <p> elements to a reasonable / standard amount of characters

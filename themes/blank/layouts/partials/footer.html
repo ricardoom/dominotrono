@@ -3,9 +3,14 @@
 {{ $observer := resources.Get "js/observer.js" }}
 {{ $socialSprites := resources.Get "js/sprites.js" }}
 {{ $utils := resources.Get "js/utils.js" }}
-{{ $script := slice  $mobileNav $observer $socialSprites $utils | resources.Concat "/js/main.js" }}
+{{ $ct := resources.Get "js/ct.js" }}
 {{ $cloudinaryCore := .Site.Params.cloudinary.core }}
-{{ $cloudinaryCoreSkyPack := .Site.Params.cloudinary.skypack }}
+
+{{ $script := slice $ct $mobileNav $observer $socialSprites $utils  | resources.Concat "js/main.js" }}
+
+{{ $params := dict "artworks" site.Data.artworks.resources "hpslides" site.Data.hpslides.resources "quad3Images" site.Data.quad3Images.resources "ux" site.Data.ux.resources "vd" site.Data.visualdesign.resources "webdev" site.Data.webdev.resources }}
+{{ $opts := dict "params" $params }}
+{{ $built := $script | js.Build $opts }}
 {{ $customJS := .Param "experimentJS" }}
 {{ $customJsURL := .Site.Params.customJsURL }}
 {{ $customJsPath := .Site.Params.customJsPath }}
@@ -13,12 +18,12 @@
 {{ $vendorPath := .Site.Params.vendorPath }}
 {{ $jsVendor := .Site.Params.vendors }}
 {{ $jsLowerCased := lower $pageJS }}
+
 {{ $cat := .Param "categories" }}
 {{ $resume := .Site.Params.resume  }}
 {{ $navControlIcon := partial "svg/singlePattyIcon.svg" (dict "AriaHidden" "true") }}
 
-
-<footer>
+<footer id="{{ .Section }}">
 <div class="[ wrapper ][ content-container ]">
     <div class="[ footer-info ]">
     {{ partial "site_name.html" . }}
@@ -30,29 +35,38 @@
         {{/*  <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>  */}}
           {{- partial "social_list.html" . -}}
       </ul>
-    </nav>
+    </nav>cd 
     <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
     </div>
     {{ partial "svg/footerBlob.svg" . }}
-  
 </div>
 </footer>
-{{ if $local }}
-  <script src="{{ $script.RelPermalink }}"></script>
+{{/*  * MARK: Begin Local block  */}}
+{{ if $local }}  
+    <script src="{{ $built.RelPermalink }}"></script>    
 {{ else }}
-  {{ $script := $script | minify | fingerprint "sha256" }}
-    
-    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
-    
+  {{/*  {{ $script := $script | minify | fingerprint "sha256" }}
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>  */}}
+    <script src="{{ $built.RelPermalink }}"></script>
 {{ end }}
 {{ if ne .Type "experiments" }}
   <script src="{{ $cloudinaryCore }}" type="text/javascript"></script>
   <script type="text/javascript">
-    const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets" });
+    const cl = cloudinary.Cloudinary.new({ cloud_name: "toupeeproofbullets", url: { secure: true } });
     // Responsive Images via Cloudinary:
     cl.responsive();
   </script>
 {{ end }}
+{{ if .IsHome }}
+  {{ with $.Site.Data.artworks }}
+  {{ $output := slice  }}
+    {{ range .resources }}
+      {{ $output = $output | append .display_name }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+
 {{ if eq .Type "experiments" }}
 {{ if $pageJS }}
   {{  range $vendorName, $vendorURL := $jsVendor }}
@@ -96,5 +110,6 @@
     <script src="{{ $.Site.BaseURL }}{{ $customJsPath }}{{ $customJS }}"></script>
 {{ end }}
 {{ end }}
+{{ partial "svg/mastFilter.svg" . }}
 </body>
 </html>

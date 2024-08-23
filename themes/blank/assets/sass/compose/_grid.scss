@@ -61,9 +61,9 @@
     margin-block-end: var(--s3);
     //  padding-inline-start: 0;
 
-    @include media('>=tablet') {
-      // margin-inline-start: var(--s0);
-      // padding-inline-start: clamp(var(--s0), 2.5vw, var(--s1));
-    }
+    // @include media('>=tablet') {
+    //   // margin-inline-start: var(--s0);
+    //   // padding-inline-start: clamp(var(--s0), 2.5vw, var(--s1));
+    // }
   }
 }

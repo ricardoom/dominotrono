@@ -1,6 +1,6 @@
 {{ $local := hugo.IsServer }}
 {{ if $local }}
-{{ printf "<!-- +++ portfolio single item  +++ -->" | safeHTML }}
+{{ printf "<!-- +++ sketchbook single item  +++ -->" | safeHTML }}
 {{ end  }}
 <!-- new layout flag: -->
 {{ $newLayout := .Params.newLayout }}
@@ -9,10 +9,9 @@
 {{ $sgWrapper := "section-grid-wrapper"}}
 {{ $imgWrapper := "grid-wrapper" }}
 {{ $local := hugo.IsServer }}
-{{ $headerText := $.Scratch.Get "section-header" }}
+
 {{ partial "header.html" . }}
 <main>
-  
   {{ if $newLayout }}
   <article class="[ wrapper ][ {{ $agWrapper }} ]">
     {{ else }}
@@ -24,10 +23,18 @@
     {{ end }}
      <div class="[ {{ if ( $newLayout ) }}{{ $agWrapper }}{{ else }}{{ $imgWrapper }}{{ end }}__portfolioParent ]">
         <div  class="[ portfolio__content ][ stack ]">
-          {{ .Content }}
+          {{ range $.Site.Data.artworks }}
+            <ul>
+              {{ range .resources "secure_url" }}
+              <li>
+                {{ . }}
+              </li>
+              {{ end }}
+            </ul>
+          {{ end }}
         </div>
       </div>
-       {{ partial "portfolio_involvement.html" . }}
+       
   </article>
 </main>
 {{/*  {{ if $local }}

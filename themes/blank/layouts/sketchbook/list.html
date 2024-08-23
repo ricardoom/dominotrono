@@ -1,0 +1,49 @@
+{{ $artworks := $.Site.Data.artworks }}
+{{ $data := dict }}
+{{ $path := "data/artworks.json" }}
+{{ $local := hugo.IsServer }}
+{{/*  https://res.cloudinary.com/toupeeproofbullets/image/list/sketchbook.json  */}}
+{{ $format := "q_auto,f_auto,w_auto" }}
+{{ $cl := $.Site.Params.cloudinary }}
+
+{{ if $local }}
+  {{ printf "<!-- ++ sketchbook list template ++ -->" | safeHTML }}
+{{ end }}
+
+{{ partial "header.html" . }}
+
+<main>
+  <div class="[ wrapper ] [ grid-wrapper ] [ sketchbook ]">
+    <div class="[ grid-wrapper__listParent ] [ posts ]">
+     
+      {{ with $artworks }}
+       <ul>
+        {{ range .resources }}
+        <li>
+          <img class="{{ $cl.class }}" loading="lazy"
+          src="{{ .secure_url }}" alt="{{ with .context.custom.alt }}{{ . }}{{ end }}" srcset="https://res.cloudinary.com/toupeeproofbullets/image/{{ .type }}/{{ $format }}/v{{ int .version }}/{{ .display_name }}.webp" />
+        {{ if $local }}
+        <dl>
+          <dd>{{ with .public_id }}<i>{{ . }}</i>{{ end }}</dd>
+          {{ with .last_updated }}
+          <dd>{{ .updated_at }}</dd>
+          {{ end }}
+        </dl>
+        {{ end }}
+        </li>
+        {{ end }}
+      </ul>  
+    {{ end }}
+    </div>
+  </div>
+  <!-- {{ partial "pagination.html" . }} -->
+</main>
+{{ partial "footer.html" . }} 
+{{/*  {{ if $local }}
+{{ partial "dev.html" . }}
+{{ end }}  */}}
+{{/*  https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1717521928/IMG_0063.webp
+
+https://res.cloudinary.com/toupeeproofbullets/image/upload/v1717521928/IMG_0063.webp
+
+https://res.cloudinary.com/toupeeproofbullets/image/upload/t_1280_2x_portfolioHero/v1717521928/IMG_0063.webp  */}}

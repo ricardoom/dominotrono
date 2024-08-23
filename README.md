@@ -1,10 +1,18 @@
 # The professional website of Ricardo E. Galvez
 
-Built with static site generator Hugo, SASS, and vanilla JavaScript
+Built with static site generator Hugo, Sass, and vanilla JavaScript
+Additionally, using Cloudinary to serve, transform and optimize images. 🌩️
 
 ## Versions ~ Changelog
 
 ### Versions
+- 0.2.0
+  - New layout for the home page with some new design work.
+  - Utilizes Cloudinary features for transforming and formatting images.
+  - Utilizes Hugo's ability to read JSON data from static file and pass to JS
+  - Taking advantage / test driving CSS container queries, and better usage of grids and flex box.
+  - Using SVG gradients and noise features to create interesting overlays.
+
 - 0.1.3
   - Much clean up of repetitive CSS on the nav
   - Added navigation to the footer

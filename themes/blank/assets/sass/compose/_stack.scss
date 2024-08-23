@@ -1,8 +1,8 @@
 .stack {
-  gap: var(--s1);
-  @include media('>=tablet') {
-    gap: var(--s3);
-  }
+  // // gap: var(--s1);
+  // @include media('>=tablet') {
+  //   // gap: var(--s3);
+  // }
 
   display: flex;
   flex-direction: column;

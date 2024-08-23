@@ -7,16 +7,33 @@
 {{ $extURL := .Params.externalURL | string }}
 {{ $taxo := .Data.Terms }}
 {{ $localURL := delimit (slice "/tags/" $title) "" | string  }}
+{{ $featURL := delimit (slice "/features/" $title) "" | string }}
+
 <section class="[ feature-{{ $title }} ]">
+  {{/*  {{ with and ( $svg ) ( ne $svg "" ) }} 
+    {{ partial $fullPath (dict "polygonClass" $svgClass) }}
+  {{ end }}  */}}
   
-  {{ if and ( $extURL ) ( ne $extURL "" ) }}
-  <a href="{{ $extURL }}" class="[ card-state ]" data-class="[ pivot ]">
-  {{ else }}
-  <a href="{{ $localURL }}" class="[ card-state ]" data-class="[ pivot ]">
-  {{ end }}
-    {{ with and ( $svg ) ( ne $svg "" ) }} {{ partial $fullPath (dict "polygonClass" $svgClass) }} {{ end }}
+  {{/*  <div class="[ feat-img-contain ]">
+    <img class="[ {{ $title }} ]" src="" alt="">
+     {{ $svgArgs := (dict "context" . "classes" "feat-overlay")}}
+     {{ partial "svg/mastBG.svg" $svgArgs }}
+  </div>    */}}
+
+  {{ $imgBlock := ( dict "context" . "contName" $title "imgClasses" "image-class" "svgClasses" "svg-class" "svg" true ) }}
+  {{ partial "img-block.html" $imgBlock }}
+  <div class="[ feat-text-contain ]">
     <h1>{{ .Title }}</h1>
-    <p>{{ if $deck }} {{ $deck }} {{ else }} {{ .Summary }} {{ end }}</p>
-    <span>See more of my {{ .Title }} projects ↘</span>
-  </a>
+    <p>{{ if $deck }} {{ $deck }}
+      {{ else }} {{ .Summary }}
+      {{ end }}
+    </p>
+    {{ if and ( $extURL ) ( ne $extURL "" ) }}
+    <a href="{{ $extURL }}" class="[ card-state ]" data-class="[ pivot ]">
+    {{ else }}
+    <a href="{{ $localURL }}" class="[ card-state ]" data-class="[ pivot ]">
+    {{ end }}
+      See more {{ .Title }} projects ↘
+    </a>
+  </div>
 </section>

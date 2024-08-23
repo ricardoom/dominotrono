@@ -23,12 +23,13 @@ $pale-lave-mint: hsl(187, 45%, 67%);
 $cool-mint: hsl(169, 60%, 79%);
 $minty-lilac: hsl(209, 60%, 79%);
 $site-lilac: hsl(317, 40%, 68%);
-
+$overlay-color: hsla(0, 0%, 100%, 1);
 :root {
   --black: #{$site-black};
   --acid-green: #{$site-acid-green};
-  --overlay-color: hsla(0, 0%, 100%, 1);
+  --overlay-color: #{$overlay-color};
   --hover-color: #{$cool-sky-blue};
+  --focus-color: #{$site-prince-purple};
   --text-color: #{$site-dark-blue};
   
 }
@@ -70,14 +71,14 @@ $large-bg-color: lighten($site-background-color, 8.5%);
 $site-colors: (
   dark-blue: $site-dark-blue,
   green-blue: $site-green-blue,
-  white: $site-white,
+  site-white: $site-white,
   punk-pink: $site-punk-pink,
   hot-orange: $site-hot-orange,
   lava-orange: $site-lava-orange,
   acid-green: $site-acid-green,
-  black: $site-black,
-  purple: $site-purple,
-  red: $site-red,
+  site-black: $site-black,
+  site-purple: $site-purple,
+  site-red: $site-red,
   canary-yellow: $site-canary-yellow,
   sage-green: $site-sage-green,
   seafoam-green: $site-seafoam-green,

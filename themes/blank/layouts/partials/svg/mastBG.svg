@@ -1,0 +1,8 @@
+<svg class="[ {{ .classes }} ]">
+      <g filter="url(#gggrain-saturate)">
+        <rect width="100%" height="100%" fill="hsla(320.8, 88.1%, 46.3%, 0.46)"></rect>
+        <rect width="100%" height="100%" fill="url(#gggrain-gradient3)"></rect>
+        <rect width="100%" height="100%" fill="url(#gggrain-gradient2)"></rect>
+        <rect class="[ svg-filter ]" width="100%" height="100%"></rect>
+        </g>
+    </svg>

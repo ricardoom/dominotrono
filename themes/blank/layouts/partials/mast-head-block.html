@@ -1,0 +1,22 @@
+<div class="[ mast-container ]">
+    <section class="[ mast-img-contain ][ quad-1 ]">
+      
+      <img class="[ mast-img ]" src="" alt="" />
+      {{ partial "svg/mastBG.svg" (dict "context" . "classes" "mast-overlay") }}
+
+    </section>
+    <section class="[ wrapper mast-head-text ][ quad-2 ]">
+      <div>{{ .Content }}</div>
+    </section>
+    <section class="[ quad-3 ]">
+      {{ $imgBlock := ( dict "context" . "contName" "title" "imgClasses" "image-class quad-3-img" "svgClasses" "svg-class" "svg" false ) }}
+      {{ partial "img-block.html" $imgBlock }}
+      {{/*  <div>
+        {{ partial "quad-3.html" (dict "context" . "imgClasses" "quad-3-img") }}
+      </div>  */}}
+    </section>
+    <section class="[ small-mast ][ quad-4 ]">
+      {{ partial "svg/funnyTeeth.svg" . }}
+      <img src="" alt="" width="440">
+    </section>
+  </div>

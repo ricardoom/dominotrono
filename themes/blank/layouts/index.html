@@ -5,17 +5,12 @@
   {{ printf "<!-- === root index === -->" | safeHTML }}
 {{ end  }}
 <main class="[ site-content ]" id="siteContent">
-  <div class="[ mast-container ]">
-    {{/*  {{ partial "svg/onion_dome.svg" (dict "class" "[ first-dome ]") }}  */}}
-    <section class="[ wrapper ][ mast ]">
-      <div>{{ .Content }}</div>
-    </section>
-    {{/*  {{ partial "svg/onion_dome.svg" (dict "class" "[ second-dome ]") }}  */}}
-  </div>
+  {{ partial "mast-head-block.html" . }}
   <section class="[ features ]">
     <div class="[ wrapper ]">
       <div class="[ stack ][ feature ]">
         {{/* Ranges through the Content type Features based on the "features" param set on _index.md */}} 
+        
         {{ range .Params.features }} 
         {{ with $.GetPage . }} 
           {{ partial "partials/hp-features.html" . }} 
@@ -24,17 +19,15 @@
       </div>
     </div>
   </section>
-  {{/*  {{ partial "jumbo_two.html" . }}  */}}
 </main>
-
-
 {{/*  {{ if $local }}
   {{ partial "sidebar.html" . }}
 {{ end }}  */}}
 
 {{ partial "footer.html" . }}
+
 {{ if $local }} 
-  {{ partial "svg/filter.html" . }}
+  {{/*  {{ partial "svg/filter.html" . }}  */}}
   {{/*  {{ partial "dev.html" . }}  */}}
 {{ end }}
   

@@ -1,0 +1,25 @@
+// Handles the sketchbook section
+
+.sketchbook {
+  
+  ul {
+    align-items: center;
+    container-type: inline-size;
+    display: flex;
+    flex-flow: row wrap;
+
+    li {
+      margin: var(--s0);
+      // width: 50%;
+      flex: 2 0 30%;
+      // TODO: try container query here
+      @container (width < #{$medium-screen}) {
+      flex: 1 1 100%;
+      }
+
+      // &:nth-child(2n + 1) {
+      //   // width: 100%;
+      // }
+    }
+  }
+}

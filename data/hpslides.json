@@ -1,0 +1,725 @@
+{
+  "resources": [
+      {
+          "asset_id": "52a7523d38a7430800da5aaf720f4cd2",
+          "public_id": "curriculex/Interactive Lecture/interactive-lecture-detail-3",
+          "format": "webp",
+          "version": 1712611717,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2024-04-08T21:22:56Z",
+          "bytes": 174612,
+          "width": 1440,
+          "height": 900,
+          "asset_folder": "curriculex/Interactive Lecture",
+          "display_name": "interactive-lecture-detail-3",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1712611717/curriculex/Interactive%20Lecture/interactive-lecture-detail-3.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1712611717/curriculex/Interactive%20Lecture/interactive-lecture-detail-3.webp",
+          "last_updated": {
+              "public_id_updated_at": "2024-04-08T21:23:36+00:00",
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "6d93ac2dc639b9099430ceb304c536e4",
+          "public_id": "native-bound-unbound/ThemeBrightWhite",
+          "format": "webp",
+          "version": 1688154138,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-30T19:42:18Z",
+          "bytes": 1323362,
+          "width": 1422,
+          "height": 3950,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "ThemeBrightWhite",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1688154138/native-bound-unbound/ThemeBrightWhite.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688154138/native-bound-unbound/ThemeBrightWhite.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:04+00:00",
+              "updated_at": "2024-07-13T00:03:04+00:00"
+          }
+      },
+      {
+          "asset_id": "424f83f0a65821209144bcf13ecba87d",
+          "public_id": "native-bound-unbound/ThemeMidnight",
+          "format": "webp",
+          "version": 1688154138,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-30T19:42:18Z",
+          "bytes": 1397838,
+          "width": 1483,
+          "height": 3643,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "ThemeMidnight",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1688154138/native-bound-unbound/ThemeMidnight.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688154138/native-bound-unbound/ThemeMidnight.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T14:58:14+00:00",
+              "updated_at": "2024-07-14T14:58:14+00:00"
+          }
+      },
+      {
+          "asset_id": "99337bc8910769887bf8a7cfb1444ea5",
+          "public_id": "native-bound-unbound/MobileCardDetail",
+          "format": "webp",
+          "version": 1688073270,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-29T21:14:30Z",
+          "bytes": 1013418,
+          "width": 1280,
+          "height": 1628,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "MobileCardDetail",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1688073270/native-bound-unbound/MobileCardDetail.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688073270/native-bound-unbound/MobileCardDetail.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "fa2a9e21ad06883d74b7bcfa46c98346",
+          "public_id": "native-bound-unbound/Avatars",
+          "format": "webp",
+          "version": 1688066539,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-29T19:22:19Z",
+          "bytes": 1097006,
+          "width": 3214,
+          "height": 2778,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "Avatars",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1688066539/native-bound-unbound/Avatars.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1688066539/native-bound-unbound/Avatars.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "1799c22bd12fa44f9ddfa713b7ed14b8",
+          "public_id": "nypl-browse-new-arrivals/bna-mobile-filters",
+          "format": "webp",
+          "version": 1687286651,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-20T18:44:11Z",
+          "bytes": 96928,
+          "width": 878,
+          "height": 1776,
+          "asset_folder": "nypl-browse-new-arrivals",
+          "display_name": "bna-mobile-filters",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1687286651/nypl-browse-new-arrivals/bna-mobile-filters.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1687286651/nypl-browse-new-arrivals/bna-mobile-filters.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T14:58:14+00:00",
+              "updated_at": "2024-07-14T14:58:14+00:00"
+          }
+      },
+      {
+          "asset_id": "a7c12b3e7b8ae1f6c6e22e1e510bd75e",
+          "public_id": "nypl-browse-new-arrivals/bna-ya-filter-detail",
+          "format": "webp",
+          "version": 1686948247,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-16T20:44:07Z",
+          "bytes": 1237630,
+          "width": 2372,
+          "height": 1828,
+          "asset_folder": "nypl-browse-new-arrivals",
+          "display_name": "bna-ya-filter-detail",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1686948247/nypl-browse-new-arrivals/bna-ya-filter-detail.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686948247/nypl-browse-new-arrivals/bna-ya-filter-detail.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:04+00:00",
+              "updated_at": "2024-07-13T00:03:04+00:00"
+          }
+      },
+      {
+          "asset_id": "1a389ab50a2c5802d05e14e3d5b83212",
+          "public_id": "bronte/itemTray",
+          "format": "webp",
+          "version": 1686860274,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-15T20:17:54Z",
+          "bytes": 72030,
+          "width": 2560,
+          "height": 1944,
+          "asset_folder": "bronte",
+          "display_name": "itemTray",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1686860274/bronte/itemTray.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686860274/bronte/itemTray.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "e8577b93be04674c96e82cff89794c32",
+          "public_id": "bronte/kebabDetails",
+          "format": "webp",
+          "version": 1686794395,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-15T01:59:55Z",
+          "bytes": 67132,
+          "width": 1440,
+          "height": 662,
+          "asset_folder": "bronte",
+          "display_name": "kebabDetails",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1686794395/bronte/kebabDetails.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686794395/bronte/kebabDetails.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "81aa7fb9cdaf11a0434d9ffb09fc74d0",
+          "public_id": "curriculex/analytics/InitialScreen",
+          "format": "webp",
+          "version": 1686087889,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-06T21:08:36Z",
+          "bytes": 107964,
+          "width": 1440,
+          "height": 931,
+          "asset_folder": "curriculex/analytics",
+          "display_name": "InitialScreen",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1686087889/curriculex/analytics/InitialScreen.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686087889/curriculex/analytics/InitialScreen.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "b7b1e23febc30675561f21941f3abc9d",
+          "public_id": "bronte/publishingCourseModal",
+          "format": "webp",
+          "version": 1685993822,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-06-05T19:37:02Z",
+          "bytes": 106972,
+          "width": 1440,
+          "height": 1024,
+          "asset_folder": "bronte",
+          "display_name": "publishingCourseModal",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1685993822/bronte/publishingCourseModal.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1685993822/bronte/publishingCourseModal.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "8976069f289d724ba0bd32a419002409",
+          "public_id": "native-bound-unbound/Logos",
+          "format": "webp",
+          "version": 1685569391,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-05-31T21:43:11Z",
+          "bytes": 257192,
+          "width": 1440,
+          "height": 1243,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "Logos",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1685569391/native-bound-unbound/Logos.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1685569391/native-bound-unbound/Logos.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "f4c0cad02583b026e28144ac0da55006",
+          "public_id": "native-bound-unbound/Color_Set_Final",
+          "format": "webp",
+          "version": 1685557266,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-05-31T18:21:06Z",
+          "bytes": 39958,
+          "width": 1440,
+          "height": 855,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "Color_Set_Final",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1685557266/native-bound-unbound/Color_Set_Final.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1685557266/native-bound-unbound/Color_Set_Final.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "68355a3393d8ca73cc4418e71d4c179b",
+          "public_id": "native-bound-unbound/WIPInitalScreens",
+          "format": "webp",
+          "version": 1684799847,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2023-05-22T23:57:27Z",
+          "bytes": 277226,
+          "width": 1440,
+          "height": 1063,
+          "asset_folder": "native-bound-unbound",
+          "display_name": "WIPInitalScreens",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1684799847/native-bound-unbound/WIPInitalScreens.webp",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1684799847/native-bound-unbound/WIPInitalScreens.webp",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:04+00:00",
+              "updated_at": "2024-07-13T00:03:04+00:00"
+          }
+      },
+      {
+          "asset_id": "2fee231422b7288ab8df4f53ba2661cd",
+          "public_id": "native bound unbound/266-OYB-7221-A",
+          "format": "jpg",
+          "version": 1665187384,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-10-08T00:03:04Z",
+          "bytes": 2867967,
+          "width": 3264,
+          "height": 4477,
+          "asset_folder": "native bound unbound",
+          "display_name": "266-OYB-7221-A",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1665187384/native%20bound%20unbound/266-OYB-7221-A.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1665187384/native%20bound%20unbound/266-OYB-7221-A.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "ab8b87bb84dd0341f89850506f49ccba",
+          "public_id": "il-nido-il-corvo/ilNidodeskTopDetail",
+          "format": "jpg",
+          "version": 1646419784,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-03-04T18:49:44Z",
+          "bytes": 3276883,
+          "width": 2050,
+          "height": 1720,
+          "asset_folder": "il-nido-il-corvo",
+          "display_name": "ilNidodeskTopDetail",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1646419784/il-nido-il-corvo/ilNidodeskTopDetail.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1646419784/il-nido-il-corvo/ilNidodeskTopDetail.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "419a2d1b7b3ac7bc4fd95ae84ede0fbf",
+          "public_id": "il-nido-il-corvo/ilNidoScreens",
+          "format": "jpg",
+          "version": 1646417904,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-03-04T18:18:24Z",
+          "bytes": 8204819,
+          "width": 4420,
+          "height": 2486,
+          "asset_folder": "il-nido-il-corvo",
+          "display_name": "ilNidoScreens",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1646417904/il-nido-il-corvo/ilNidoScreens.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1646417904/il-nido-il-corvo/ilNidoScreens.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "0b9d66affea684a061cc798e09c7b3d5",
+          "public_id": "advancedReact/61f2e45ff45b69bcbf80e1bb",
+          "format": "png",
+          "version": 1643308128,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-01-27T18:28:48Z",
+          "bytes": 1528888,
+          "width": 5068,
+          "height": 2402,
+          "asset_folder": "advancedReact",
+          "display_name": "61f2e45ff45b69bcbf80e1bb",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1643308128/advancedReact/61f2e45ff45b69bcbf80e1bb.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1643308128/advancedReact/61f2e45ff45b69bcbf80e1bb.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "71880e4e0e252706a222a37515c7492c",
+          "public_id": "advancedReact/61f1df12f45b69bcbf80e150",
+          "format": "png",
+          "version": 1643241235,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2022-01-26T23:53:55Z",
+          "bytes": 308556,
+          "width": 1769,
+          "height": 1769,
+          "asset_folder": "advancedReact",
+          "display_name": "61f1df12f45b69bcbf80e150",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1643241235/advancedReact/61f1df12f45b69bcbf80e150.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1643241235/advancedReact/61f1df12f45b69bcbf80e150.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "5981deef6aed9df3025928f3854068de",
+          "public_id": "decolonizing-nm/dcnm-text-grid-2",
+          "format": "png",
+          "version": 1614706173,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-03-02T17:29:33Z",
+          "bytes": 514373,
+          "width": 2084,
+          "height": 1930,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "dcnm-text-grid-2",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614706173/decolonizing-nm/dcnm-text-grid-2.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614706173/decolonizing-nm/dcnm-text-grid-2.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "e8dc390414871070bfd3732f05482557",
+          "public_id": "decolonizing-nm/mood_board_1",
+          "format": "jpg",
+          "version": 1614282451,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2021-02-25T19:47:31Z",
+          "bytes": 2804127,
+          "width": 1920,
+          "height": 1080,
+          "asset_folder": "decolonizing-nm",
+          "display_name": "mood_board_1",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1614282451/decolonizing-nm/mood_board_1.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1614282451/decolonizing-nm/mood_board_1.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "304bcad512104c6d6590ef4ee8be3519",
+          "public_id": "diorama/diorama.intro.rhinoHP",
+          "format": "png",
+          "version": 1581613958,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2020-02-13T17:12:38Z",
+          "bytes": 1789334,
+          "width": 958,
+          "height": 958,
+          "asset_folder": "diorama",
+          "display_name": "diorama.intro.rhinoHP",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1581613958/diorama/diorama.intro.rhinoHP.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1581613958/diorama/diorama.intro.rhinoHP.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:45+00:00",
+              "updated_at": "2024-07-14T15:00:45+00:00"
+          }
+      },
+      {
+          "asset_id": "9380c1d0a8f0114cc2e1720d1ffdaa11",
+          "public_id": "wnet/shakespeare.Content.v2",
+          "format": "png",
+          "version": 1581539538,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2020-02-12T20:32:18Z",
+          "bytes": 476524,
+          "width": 1100,
+          "height": 2190,
+          "asset_folder": "wnet",
+          "display_name": "shakespeare.Content.v2",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1581539538/wnet/shakespeare.Content.v2.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1581539538/wnet/shakespeare.Content.v2.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "26bb95af5569482db16d655fbd4b3bc8",
+          "public_id": "nypl-staff-picks/basic_mobile_card_v3",
+          "format": "jpg",
+          "version": 1576000908,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-12-10T18:01:48Z",
+          "bytes": 358741,
+          "width": 960,
+          "height": 2175,
+          "asset_folder": "nypl-staff-picks",
+          "display_name": "basic_mobile_card_v3",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1576000908/nypl-staff-picks/basic_mobile_card_v3.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1576000908/nypl-staff-picks/basic_mobile_card_v3.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "960b2a84522066f088caf15dc8417851",
+          "public_id": "nypl-staff-picks/sp_large_screen_initial_2x",
+          "format": "png",
+          "version": 1575990375,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-12-10T15:06:15Z",
+          "bytes": 179013,
+          "width": 1350,
+          "height": 1145,
+          "asset_folder": "nypl-staff-picks",
+          "display_name": "sp_large_screen_initial_2x",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1575990375/nypl-staff-picks/sp_large_screen_initial_2x.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1575990375/nypl-staff-picks/sp_large_screen_initial_2x.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "fe745d6aee06b27de8638affa9fe6e86",
+          "public_id": "mamasan-soul-shack/soulshackhp",
+          "format": "jpg",
+          "version": 1571677244,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-10-21T17:00:44Z",
+          "bytes": 888282,
+          "width": 2545,
+          "height": 1318,
+          "asset_folder": "mamasan-soul-shack",
+          "display_name": "soulshackhp",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1571677244/mamasan-soul-shack/soulshackhp.jpg",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1571677244/mamasan-soul-shack/soulshackhp.jpg",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "6ffbf4bacc6f1fea0139020285f9e5e0",
+          "public_id": "diorama/diorama_termite_vid_card",
+          "format": "png",
+          "version": 1549730541,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-02-09T16:42:21Z",
+          "bytes": 1434810,
+          "width": 1920,
+          "height": 1080,
+          "asset_folder": "diorama",
+          "display_name": "diorama_termite_vid_card",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1549730541/diorama/diorama_termite_vid_card.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1549730541/diorama/diorama_termite_vid_card.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:45+00:00",
+              "updated_at": "2024-07-14T15:00:45+00:00"
+          }
+      },
+      {
+          "asset_id": "22113bf37a62f35c96b54492b3e0a07f",
+          "public_id": "mamasan-soul-shack/mamasan.soulshack.sq",
+          "format": "png",
+          "version": 1549726162,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-02-09T15:29:22Z",
+          "bytes": 5045,
+          "width": 309,
+          "height": 338,
+          "asset_folder": "mamasan-soul-shack",
+          "display_name": "mamasan.soulshack.sq",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1549726162/mamasan-soul-shack/mamasan.soulshack.sq.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1549726162/mamasan-soul-shack/mamasan.soulshack.sq.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "caf30e0312dc656ad03ddb7ddb853c0a",
+          "public_id": "wnet/shakespeare.battles.3.3",
+          "format": "png",
+          "version": 1548844452,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-30T10:34:12Z",
+          "bytes": 905232,
+          "width": 1370,
+          "height": 1134,
+          "asset_folder": "wnet",
+          "display_name": "shakespeare.battles.3.3",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548844452/wnet/shakespeare.battles.3.3.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548844452/wnet/shakespeare.battles.3.3.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "27fa114bc8b7d10095ea2d627b4d0eaf",
+          "public_id": "wnet/shakespeare.battles.2",
+          "format": "png",
+          "version": 1548844425,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-30T10:33:45Z",
+          "bytes": 645761,
+          "width": 1186,
+          "height": 841,
+          "asset_folder": "wnet",
+          "display_name": "shakespeare.battles.2",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548844425/wnet/shakespeare.battles.2.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548844425/wnet/shakespeare.battles.2.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "cebede77872350167b108f1f456dc8e0",
+          "public_id": "wnet/shakespeare.battles.1.5",
+          "format": "png",
+          "version": 1548844294,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-30T10:31:34Z",
+          "bytes": 583317,
+          "width": 1186,
+          "height": 841,
+          "asset_folder": "wnet",
+          "display_name": "shakespeare.battles.1.5",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548844294/wnet/shakespeare.battles.1.5.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548844294/wnet/shakespeare.battles.1.5.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "fd1a294e5b9ed59dd42bffba035e4e88",
+          "public_id": "mamasan-soul-shack/mamasan.soulshack",
+          "format": "png",
+          "version": 1548802706,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-29T22:58:26Z",
+          "bytes": 102541,
+          "width": 1035,
+          "height": 792,
+          "asset_folder": "mamasan-soul-shack",
+          "display_name": "mamasan.soulshack",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548802706/mamasan-soul-shack/mamasan.soulshack.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548802706/mamasan-soul-shack/mamasan.soulshack.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:45+00:00",
+              "updated_at": "2024-07-14T15:00:45+00:00"
+          }
+      },
+      {
+          "asset_id": "a65dc32f41947bfc93ddac8ebbd3a38b",
+          "public_id": "nypl-staff-picks/newCard2",
+          "format": "png",
+          "version": 1548801963,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-29T22:46:03Z",
+          "bytes": 18512,
+          "width": 393,
+          "height": 365,
+          "asset_folder": "nypl-staff-picks",
+          "display_name": "newCard2",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548801963/nypl-staff-picks/newCard2.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548801963/nypl-staff-picks/newCard2.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "45288927d959d52fcdbc7974fd9e46af",
+          "public_id": "nasa-posters/electric_charge",
+          "format": "png",
+          "version": 1548760618,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-29T11:16:58Z",
+          "bytes": 725664,
+          "width": 1200,
+          "height": 1821,
+          "asset_folder": "nasa-posters",
+          "display_name": "electric_charge",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548760618/nasa-posters/electric_charge.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548760618/nasa-posters/electric_charge.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-13T00:03:03+00:00",
+              "updated_at": "2024-07-13T00:03:03+00:00"
+          }
+      },
+      {
+          "asset_id": "2a0b5a07055a7c862a9483e41582aebd",
+          "public_id": "nypl-blogs/nypl.blog.landingFeature.wire.v3",
+          "format": "png",
+          "version": 1548722029,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-29T00:33:49Z",
+          "bytes": 497678,
+          "width": 1591,
+          "height": 2117,
+          "asset_folder": "nypl-blogs",
+          "display_name": "nypl.blog.landingFeature.wire.v3",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548722029/nypl-blogs/nypl.blog.landingFeature.wire.v3.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      },
+      {
+          "asset_id": "d6a174534f1fb1ecd3ae710b75605a27",
+          "public_id": "nasa-posters/mass_vs_weight",
+          "format": "png",
+          "version": 1548721896,
+          "resource_type": "image",
+          "type": "upload",
+          "created_at": "2019-01-29T00:31:36Z",
+          "bytes": 9228942,
+          "width": 3168,
+          "height": 2088,
+          "asset_folder": "nasa-posters",
+          "display_name": "mass_vs_weight",
+          "url": "http://res.cloudinary.com/toupeeproofbullets/image/upload/v1548721896/nasa-posters/mass_vs_weight.png",
+          "secure_url": "https://res.cloudinary.com/toupeeproofbullets/image/upload/v1548721896/nasa-posters/mass_vs_weight.png",
+          "last_updated": {
+              "tags_updated_at": "2024-07-14T15:00:46+00:00",
+              "updated_at": "2024-07-14T15:00:46+00:00"
+          }
+      }
+  ]
+}

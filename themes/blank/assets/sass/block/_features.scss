@@ -123,39 +123,6 @@
     align-self: flex-end;
   }
 }
-  
-  // .pivot {
-  //   filter: none;
-  //   transform: scale(1);
-  //   transition: filter 300ms ease-out, transform 310ms ease-out;
-  //   will-change: transform, transition;
-    
-    
-  //   span {
-  //     grid-column: 1 / -1;
-  //   }
-  //   // TODO: replace with @container
-  //   @include media('<=tablet') {
-
-  //     span {
-  //       font-size: ft(var(--s-1), var(--s0));
-  //     }
-  //   }
-
-  //   &:focus {
-  //     @include focus-ring(outline, solid, var(--hover-color), var(--s-2));
-  //   }
-  // }
-
-  // .card-state {
-  //   $angles: 25;
-  //   --string: 'px';
-  //   --perspective: #{$angles};
-  //   color: currentColor;
-  //   filter: blur(var(--s-4)) opacity(0.8);
-  //   transform: scale(0.85);
-  //   will-change: transform;
-  // }
 //
 // Working Strictly for img-block.html
 // TODO: Move this to its own file

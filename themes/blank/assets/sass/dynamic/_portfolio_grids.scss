@@ -10,6 +10,7 @@
   $row-end: ''
 ) {
   @include media(#{$breakpoint}) {
+  // @media screen and (width: $breakpoint) {
     grid-column: #{$col-start} / #{$col-end};
     grid-row: #{$row-start} / #{$row-end};
   }
@@ -50,15 +51,15 @@
 @mixin grid-figcaption { // makes the figcaption portable... but maybe we just set all figcaptions to be this?
   > figcaption {
     color: $site-dark-blue;
-    font-size: var(--s05);
+    font-size: ft(var(--s05), var(--s0));
     font-style: italic;
-    padding-top: var(--s0);
-    padding-right: var(--s0);
-    padding-bottom: var(--s0);
-    padding-left: var(--s0);
-    background-color: #fff;
+    padding-block: var(--s0);
+    padding-inline: var(--s0);
+    background-color: var(--site-white);
     box-shadow: var(--s-2) var(--s0) var(--s3) transparentize($site-black, 0.3);
-    @include media('>=phone') {
+    
+    // @include media('>=phone') {
+    @media screen and (min-width: $small-screen) {
       position: relative;
       right: calc(var(--s2)  * -1.2);
       top: calc(var(--s2)  * -1);
@@ -68,12 +69,12 @@
   }
 }
 
-@mixin two-by-two($left: false, $right: false) {
-  @if $left == true {
-    background-color: $site-acid-green;
-    @content;
-  } @else if $right == true {
-    background-color: $site-punk-pink;
-    @content;
-  }
-}
+// @mixin two-by-two($left: false, $right: false) {
+//   @if $left == true {
+//     background-color: $site-acid-green;
+//     @content;
+//   } @else if $right == true {
+//     background-color: $site-punk-pink;
+//     @content;
+//   }
+// }

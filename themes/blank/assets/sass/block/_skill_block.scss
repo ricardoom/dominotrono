@@ -3,25 +3,9 @@
 ///
 
 .biography-skills {
-  // @include media('>=phone') {
-  //   // padding: 4ex 6vw;
-  // }
-
-  // @include media('>=tablet') {
-  //   // padding: 8ex 0;
-  // }
-
-  // @include responsive-font(2vw, 18px, 1em, 48px);
   font-size: clamp(var(--s0), var(--s1), 24px);
   margin-top: var(--s0);
   margin-block-start: var(--s0);
-  // border-bottom: 0;
-  // grid-column: 1 / 5;
-  // grid-row: 5 / 6;
-
-  // h3 {
-  //   // margin-bottom: var(--s0);
-  // }
 
   /// TODO: there has to be a better way to do this ↓
   /// Refactor!
@@ -69,9 +53,4 @@
       }
     }
   }
-
-  // p {
-  //   font-size: 1.8rem;
-  //   margin: 3ex 0 0;
-  // }
 }

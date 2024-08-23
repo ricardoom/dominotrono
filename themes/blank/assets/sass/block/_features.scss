@@ -108,15 +108,15 @@
     }
   }
 
-  @container feature-section (width > #{$small-screen}) {
+  @container feature-section (width > #{$medium-screen}) {
   section:nth-child(even) {
     
     align-self: flex-start;
     flex-direction: row-reverse;
 
-    div {
-      padding-inline-start: var(--s0);
-    }
+    // div {
+    //   padding-inline-start: var(--s0);
+    // }
   }
 
   section:nth-child(odd) {

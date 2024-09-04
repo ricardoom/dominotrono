@@ -32,10 +32,13 @@
         {{ range .Site.Menus.main }}
         <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}
+        {{ range .Site.Menus.footer }}
+        <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        {{ end }}
         {{/*  <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>  */}}
           {{- partial "social_list.html" . -}}
       </ul>
-    </nav>cd 
+    </nav>
     <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
     </div>
     {{ partial "svg/footerBlob.svg" . }}

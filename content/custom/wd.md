@@ -1,13 +1,13 @@
 ---
 author: Ricardo Galvez
 categories: []
-date: 2024-05-07T17:19:53-07:00
-draft: true
+date: 2024-04-16T09:26:52-07:00
+draft: false
 tags: []
-title: "UCLA User Interface Designer Candidate"
-url: /ucla-ui-designer
+title: "UI/UX Designer at Western Digital"
+url: /wd
 newLayout: true
-customresume: "RGalvezUXResumeUCLA-UI.docx"
+customresume: "RGalvezUXResumeWD.pdf"
 ---
 {{< section_wrapper class="hero-grid" >}}
     {{< image_cld
@@ -19,7 +19,7 @@ customresume: "RGalvezUXResumeUCLA-UI.docx"
       class="hero-grid__imageBlock"
       >}}
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
-     I designed this web page to showcase my expertise and qualifications for the User Interface Designer position at UCLA. The examples below demonstrate my skills in web development and interface design.
+     I created this web page to highlight my expertise and demonstrate my qualifications for the  UX Designer at Western Digital. The following examples highlight my experience in Interface and UX design.
     {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}

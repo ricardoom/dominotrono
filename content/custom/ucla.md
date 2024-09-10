@@ -2,7 +2,7 @@
 author: Ricardo Galvez
 categories: []
 date: 2024-04-16T09:26:52-07:00
-draft: false
+draft: true
 tags: []
 title: "Seeking the Sr. UX Designer position at UCLA"
 url: /ucla-senior-ux-designer

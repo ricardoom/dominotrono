@@ -2,7 +2,7 @@
 author: Ricardo Galvez
 categories: []
 date: 2024-05-28T14:40:16-07:00
-draft: false
+draft: true
 tags: []
 title: "Seeking the UI/UX Designer position at Spinx"
 url: /spinx

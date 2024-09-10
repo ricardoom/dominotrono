@@ -34,6 +34,7 @@
     }
     .resume-dl {
       max-width: max-content;
+      margin-block-end: var(--s0);
     }
     .portfolio__content {
       //
@@ -69,24 +70,26 @@
         }
 
         &__imageBlock {
-          margin-left: calc(var(--s0) * -1);
-          margin-right: calc(var(--s0) * -1);
-          margin-inline-end: calc(var(--s0) * -1);
-          margin-inline-start: calc(var(--s0) * -1);
+          // margin-left: calc(var(--s0) * -1);
+          // margin-right: calc(var(--s0) * -1);
+          // margin-inline-end: calc(var(--s0) * -1);
+          // margin-inline-start: calc(var(--s0) * -1);
           @include add-to-grid('>=phone', 1, -1, 1, 2);
           @include add-to-grid('>=tablet', 1, -1, 1, -1); 
         }
 
         &__copyBlock {
           @include add-to-grid('>=phone', 1, 6, 2, 3);
-          @include add-to-grid('>=tablet', 1, -2, 2, 3);
+          @include add-to-grid('>=tablet', 1, -2, 3, 4);
           // @include responsive-font(1.8vw, 18px, 32px, 20px);
           font-size: ft(var(--s0), var(--s1));
           background-color: transparentize($site-black, 0.03);
+          margin-block-start: 0;
+          // margin-inline-start: calc(var(--s0) * -1);
           padding: var(--s1);
           z-index: 1;
         }
-      } 
+      }
   // /.hero-grid
 
       //

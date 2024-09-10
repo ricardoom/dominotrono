@@ -2,33 +2,6 @@
 /// Grid & Flexbox Settings
 ///
 
-///
-/// Header
-///
-
-/// Some Common Variables that should be moved to a separate file, possibly the _functions mixin...
-/// Desktop view ports
-
-
-.site-header {
-
-  //
-  // Sets up the flexbox and layout ONLY for the nav...
-  //
-  &__siteNavigation {
-    @include media('>=phone') {
-      flex: 1 1 5%;
-    }
-
-    @include media('>=tablet') {
-      padding-block-end: var(--s-1);
-      padding-block-start: var(--s-1);
-      padding-bottom: var(--s-1);
-      padding-top: var(--s-1);
-    }
-  }
-}
-
 //
 // Grid Wrapper(s)
 //
@@ -59,11 +32,5 @@
     @include add-to-grid('>=phone', 2, 5, 1, 2);
     @include add-to-grid('>=tablet', 2, 5, 1, 2);
     margin-block-end: var(--s3);
-    //  padding-inline-start: 0;
-
-    // @include media('>=tablet') {
-    //   // margin-inline-start: var(--s0);
-    //   // padding-inline-start: clamp(var(--s0), 2.5vw, var(--s1));
-    // }
   }
 }

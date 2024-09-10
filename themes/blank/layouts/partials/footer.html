@@ -6,7 +6,7 @@
 {{ $ct := resources.Get "js/ct.js" }}
 {{ $cloudinaryCore := .Site.Params.cloudinary.core }}
 
-{{ $script := slice $ct $mobileNav $observer $socialSprites $utils  | resources.Concat "js/main.js" }}
+{{ $script := slice $ct $mobileNav $observer $socialSprites $utils | resources.Concat "js/main.js" }}
 
 {{ $params := dict "artworks" site.Data.artworks.resources "hpslides" site.Data.hpslides.resources "quad3Images" site.Data.quad3Images.resources "ux" site.Data.ux.resources "vd" site.Data.visualdesign.resources "webdev" site.Data.webdev.resources }}
 {{ $opts := dict "params" $params }}
@@ -29,10 +29,10 @@
     {{ partial "site_name.html" . }}
     <nav id="footer-navigation" class="[ footerNavigation ]">
       <ul id="footer-nav-items" class="[ siteNavigation--items ]">
-        {{ range .Site.Menus.main }}
+        {{ range site.Menus.main }}
         <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}
-        {{ range .Site.Menus.footer }}
+        {{ range site.Menus.footer }}
         <li class="[ text-link ]"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}
         {{/*  <li class="[ text-link ]"><a href="{{ $resume.url }}">{{ $resume.name }}</a></li>  */}}

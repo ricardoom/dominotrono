@@ -138,7 +138,12 @@ pluralizelisttitles = "false"
         title = "sketchbook"
         url = "/sketchbook/"
         weight = -8
-
+    [[menus.footer]]
+        identifier = "everythingelse"
+        name = "everything else"
+        title = "everything else"
+        url = "/everything-else/"
+        weight = -7
 [markup]
     defaultMarkdownHandler = "goldmark"
     [markup.goldmark]

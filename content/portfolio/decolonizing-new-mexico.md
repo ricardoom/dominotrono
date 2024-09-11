@@ -1,7 +1,7 @@
 ---
 title: 'Decolonizing New Mexico'
 date: 2021-02-24T14:58:13-05:00
-draft: false
+draft: true
 categories: 'portfolio'
 author: Ricardo G.
 portfolioHeroSqip: '../media/portfolio/decolonizing-new-mexico/hero-sqip.svg'

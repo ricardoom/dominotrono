@@ -1,7 +1,7 @@
 ---
 title: 'Mamasan Soulshack'
 date: 2018-09-15T13:06:26-04:00
-draft: false
+draft: true
 categories: 'portfolio'
 author: Ricardo G.
 postImageSqip: '../media/portfolio/soulshack/soulShack320.svg'

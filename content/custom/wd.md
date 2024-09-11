@@ -248,7 +248,7 @@ customresume: "RGalvezUXResumeWD.pdf"
     
      {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      I began the design process by determining the typefaces and scale needed to achieve a visually pleasing composition. I utilized an online tool called utopia.xyz. That tool allows you to choose a scalar, upper and lower bounds (largest & smallest) and it will produce a set of scale rules allowing the designer to create a scalable type and layout system. This system takes advantage of the browser's capabilities to render a page back to the viewer at the right size for their screen without the need for breakpoints. 
+      I began the design process by determining the typefaces and scale needed to achieve a visually pleasing composition. 
     {{< /copy_wrapper>}}
 
     {{< image_cld
@@ -261,7 +261,7 @@ customresume: "RGalvezUXResumeWD.pdf"
 
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      The fundamental aspect of the typographic work centers around headline and body copy type styles. All other forms are derived from these two core design artifacts. The reasoning behind this methodology is to sustain a very low level of design complexity. In my Figma, Sass and HTML I can easily modify these core elements and rely on cascading to effect all the descendant styles and layouts.
+      The fundamental aspect of the typographic work centers around headline and body copy type styles. All other forms are derived from these two core design artifacts.
     {{< /copy_wrapper>}}
    
     {{< image_cld
@@ -288,7 +288,7 @@ customresume: "RGalvezUXResumeWD.pdf"
 
      {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      Following the essential and more fundamental elements are components derived by compositing together the core elements. These tend towards more complex arrangements; again, the essential nature of these elements is their relationship to their origins within the ecosystem. Of primary importance is navigation. For both small and large screens, I devised a simple and flexible solution where designers or engineers could easily add any number of navigation items.
+      Following the essential and more fundamental elements are components derived by compositing together the core elements. These tend towards more complex arrangements. The essential nature of these elements is their relationship to their origins within the ecosystem.
     {{< /copy_wrapper>}}
 
     {{< image_cld
@@ -347,7 +347,7 @@ customresume: "RGalvezUXResumeWD.pdf"
     {{< section_header level="3" text="Website Redesign" >}}
         {{< copy_wrapper
         class="details-grid__twentyWords copy-block__left" >}}
-        While at the New York Public Library, I was responsible for overseeing and executing a large redesign of the library's website. Aside from top-level pages and interactions, I was instrumental in the design and implementation of new features. These included new search interfaces for new arrivals, a discovery interface for research materials as well as new features and redesigned UI for SimplyE, an open-source application and eReader platform.
+        While at the New York Public Library, I was responsible for overseeing and executing a large redesign of the library's website. Aside from top-level pages and interactions, I was instrumental in the design and implementation of new features. These included new search interfaces for new arrivals, a discovery interface for research materials among many others.
     {{< /copy_wrapper>}}
 
 {{< /section_wrapper >}}
@@ -377,7 +377,7 @@ customresume: "RGalvezUXResumeWD.pdf"
 
     {{< section_header level="3" text="Best Books & Staff Picks" >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-        The New York Public Library offers many librarian-curated lists. Annually and Seasonally, a group of librarians creates the Staff Picks and Best of lists.  Part of our task was to make a fully Accessible web application where these lists could be searched, sorted, and filtered.  
+        The New York Public Library offers many librarian-curated lists. Part of our task was to make a fully accessible web application where these lists could be searched, sorted, and filtered.  
     {{< /copy_wrapper >}}
 
     {{< image_cld
@@ -399,7 +399,7 @@ customresume: "RGalvezUXResumeWD.pdf"
     {{< section_header level="3" text="New Arrivals" >}}
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      The New Arrivals web app/product is meant to allow library patrons to view and discover newly acquired materials by the library. It is capable of complex sorting functionality. Allowing patrons to see, at a very granular level, incoming materials. The New Arrivals sorting functionality can sort by language, genre and among other facets format.
+      The New Arrivals web app is meant to allow library patrons to discover newly acquired materials. It is capable of complex sorting functionality, allowing patrons to view, at a very granular level, incoming materials.
     {{< /copy_wrapper >}}
 
     {{< image_cld
@@ -414,7 +414,7 @@ customresume: "RGalvezUXResumeWD.pdf"
 
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      As with all other aspects of my work at NYPL the New Arrivals app was no exception concerning Accessibility, mobile friendliness and progressive enhancements.
+      As with all other aspects of my work at NYPL the New Arrivals app was no exception concerning accessibility and progressive enhancement.
     {{< /copy_wrapper>}}
 
     {{< image_cld
@@ -468,7 +468,7 @@ customresume: "RGalvezUXResumeWD.pdf"
     {{< section_header level="4" text="Accessibility" >}}
     {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      We conducted an extensive survey of nypl.org and all of our internal tools, micro-sites, and applications for proper WCAG 2.0 Compliance. With the understanding that the Design Toolkit will need to inform and influence all projects going forward. For structure and style to be fully accessible by default, all components included in the Design Tool Kit would have their accessibility rules baked into their design patterns.
+      We conducted an extensive survey of nypl.org and all of our internal tools, micro-sites, and applications for proper WCAG 2.0 Compliance. The structure and style to be fully accessible by default, all components  would have their accessibility rules embedded into their design patterns.
     {{< /copy_wrapper>}}
         
     {{< image_cld

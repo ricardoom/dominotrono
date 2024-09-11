@@ -19,7 +19,7 @@ customresume: "RGalvezUXResumeWD.pdf"
       class="hero-grid__imageBlock"
       >}}
     {{< copy_wrapper class="hero-grid__copyBlock" >}}
-     I created this web page to highlight my expertise and demonstrate my qualifications for the  UX Designer at Western Digital. The following examples highlight my experience in Interface and UX design.
+     This web page is a showcase of my extensive experience, a testament to my qualifications for the  UX Designer role at Western Digital. The examples presented here underscore my experience in Interface and UX design, serving as a testament to my creativity, capability, and collaborative spirit.
     {{< /copy_wrapper>}}
 {{< /section_wrapper>}}
 {{< section_wrapper class="details-grid" >}}
@@ -36,7 +36,7 @@ customresume: "RGalvezUXResumeWD.pdf"
       loading="eager"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686770581/bronte/BrontePublishingWire.webp"
       alt="An image of a set of screens related to the publishing workflow"
-      figcaption="Initial overview of my improved publishing workflows"
+      figcaption="Initial overview of my improved publishing workflows."
       class="details-grid__fiftyWords big-image"
       >}}
 {{< /section_wrapper >}}
@@ -44,7 +44,7 @@ customresume: "RGalvezUXResumeWD.pdf"
     {{< section_header level="4" text="Design Discovery" >}}
       {{< copy_wrapper
       class=" details-grid__twentyWords copy-block__left" >}}
-      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText management ecosystem and beyond to their public marketplace.{{< /copy_wrapper>}}
+      The publishing workflow was tedious and time-consuming, compelling the author to navigate to two separate parts of the tool's project management interface to publish the work to Pearson's eText ecosystem and to the public marketplace.{{< /copy_wrapper>}}
       {{< copy_wrapper
         class="details-grid__twoByTwo copy-block__left" >}}
         My recommendation was to bring the publishing workflow into the management overview screen and embed the publishing functions, activating a kebab menu item and visually indicating the state and status of a given document.
@@ -81,7 +81,7 @@ customresume: "RGalvezUXResumeWD.pdf"
       loading="lazy"
       data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1686866819/bronte/rowItemExpanded.webp"
       alt="an image of the completed design"
-      figcaption="This screen conveys all possible meta-data to the administrator as to the current state of all published versions of a given chapter of an Epub. Previously the user was compelled to visit an entirely separate part of the app to complete or manage publications."
+      figcaption="This screen conveys the array of meta-data available to the administrator as to the current state of all published versions of a given chapter of an Epub."
       class="details-grid__fiftyWords big-image"
       >}}
     
@@ -91,7 +91,7 @@ customresume: "RGalvezUXResumeWD.pdf"
     {{< section_header level="4" text="Design System Artifacts & Accessibility" >}}
       {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      As a general rule, we created specification sheets for all proposed components. We were required to outline specifically all states, where they changed, and any subsequent animations. Because Pearson has very strict Accessibility protocols, all new proposals are required to pass through an A11y audit. New features were required to have each possible state specified and in alignment with Bronte's design system.
+      As a general rule, we created specification sheets for all proposed components. We were required to outline specifically all states, where they changed, and any subsequent animations. Because Pearson has very strict accessibility protocols, and all new features must pass an accessibility audit.
     {{< /copy_wrapper>}}
 
      {{< image_cld
@@ -115,37 +115,39 @@ customresume: "RGalvezUXResumeWD.pdf"
 {{< section_wrapper class="details-grid" >}}
     
     {{< section_header level="3" text="Curriculex Nursing Education Platform" >}}
+     {{< image_cld
+      loading="lazy"
+      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686070114/curriculex/curriculexOverview.webp"
+      alt=""
+      figcaption="A high-level view of the information architecture, combined with the prototyping user flows."
+      class="details-grid__fiftyWords big-image"
+    >}}
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      Curriculex seeks to disrupt traditional textbook learning with engaging interactive lessons and a live instructional platform for both in-person and remote classrooms. My work focused on the instructor's experience; covering both class and learning asset/content management, while other team members focused on the student experience. For an instructor, managing course and group work can be challenging. I focused primarily on reducing friction between understanding a student's progress overall and acting upon incoming data in real time.
+      Curriculex seeks to disrupt traditional textbook learning with engaging interactive lessons and a live instructional platform for both in-person and remote classrooms. My work focused on the instructor's experience; covering both class and learning content management.
     {{< /copy_wrapper >}}
     {{< section_header level="4" text="Design Discovery and UX Research" >}}
     {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      During our discovery phase, we sought to break down so-called learning pathways into modular course units with coursework designed to be consumed and completed before, during and after class. Much of my explorations encircled the experience related to "during class" group work. Much of this encapsulation was expressed as low to high-fidelity analytics dashboards.
+      During our discovery phase, we sought to break down so-called learning pathways. Much of my explorations encircled the experience related to "during class" group work, this is expressed as low to analytics dashboards.
     {{< /copy_wrapper >}}
-    {{< image_cld
-      loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686070114/curriculex/curriculexOverview.webp"
-      alt=""
-      figcaption="A larger Figma view of showing"
-      class="details-grid__fiftyWords big-image"
-    >}}
+   
     
         
     {{< image_cld
         loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684517113/curriculex/Curriculex_Hero.webp"
         alt=""
-        figcaption="An overview of top-level instructor admin and analytics screens"
+        figcaption="An overview of top-level instructor admin and analytics screens."
         class="details-grid__fiftyWords big-image"
         >}}
+        
         {{< image_cld
         loading="lazy"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686598671/curriculex/TopLevelLandingScreen.webp"
         alt=""
-        figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering the current roster, subject matter as well as pathways to subject and course work prep."
-        class="details-grid__fiftyWords big-image"
+        figcaption="The instructor's landing screen, a key feature of our platform, provides a practical and user-friendly interface."
+        class="details-grid__twentyWords image-block__left"
         >}}
 
     {{< image_cld
@@ -153,16 +155,8 @@ customresume: "RGalvezUXResumeWD.pdf"
         data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686086098/curriculex/analytics/student.webp"
         alt="An image screen for a student's progress"
         figcaption="A detail screen for a student's progress."
-        class="details-grid__twentyWords image-block__left"
-      >}} 
-
-    {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007879/curriculex/Interactive%20Lecture/InteractiveLectureLanding.webp"
-        alt="An image of the lecture library screen"
-        figcaption="A detailed concept for the interactive content library"
         class="details-grid__twentyWords image-block__right"
-      >}}
+      >}} 
 
 {{< /section_wrapper >}}
 {{< section_wrapper class="details-grid" >}}
@@ -172,7 +166,7 @@ customresume: "RGalvezUXResumeWD.pdf"
 {{< section_header level="4" text="Curriculex Interactive Lecture" >}}
   {{< copy_wrapper
       class="details-grid__twentyWords copy-block__left" >}}
-      Lastly, another component to my explorations was to investigate an in-class lecture feature, taking traditional presentation decks to another level. Designed to go beyond static images and diagrams the "Interactive Lecture" feature allowed for pre and post-class coursework to be tightly coupled to a pre-composed yet customizable lecture, rich with interactive components, strong visuals and, in the case of remote learning scenarios, group and private chat functionality allowing a new range of discourse between instructors and students. 
+      Another significant aspect of my work was the development of an in-class lecture feature that takes traditional presentation decks to a new level. The 'Interactive Lecture' feature, designed to surpass static images and diagrams, allows for pre and post-class coursework tightly integrated with a pre-composed yet customizable lecture.
 
     {{< /copy_wrapper >}}
 
@@ -230,7 +224,7 @@ customresume: "RGalvezUXResumeWD.pdf"
 {{< section_wrapper class="details-grid" >}}
     {{< section_header level="2" text="Native Bound Unbound" >}}
     {{< copy_wrapper class="details-grid__twentyWords copy-block__left" >}}
-    My initial investigations began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
+   My initial investigations for the Native Bound Unbound project began by working with the logo designer's color recommendations. I built out the color set and expanded the possible use cases for the logos. The color themes inherent to the logos were helpful, but I needed to create a more versatile and sturdy design system. To do this, I had to broaden the range of colors and typography to accommodate different scenarios. We needed to account for body copy, several different headline levels, and various potential typographic contexts.  
     {{< /copy_wrapper>}}
     
     
@@ -498,47 +492,3 @@ customresume: "RGalvezUXResumeWD.pdf"
 
     {{< sl "/portfolio/nypl-design-toolkit/" "Go to the full project page">}}
 {{< /section_wrapper>}}
-{{< section_wrapper class="details-grid" >}}
-    
-    {{< section_header level="2" text="SimplyE Audio Books Player" >}}
-    {{< image_cld
-    class="details-grid__fiftyWords big-image"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802598/simply-e/se-android-audio-player.webp"
-    alt="an image of the Android user flow and screens with interactive hot-spots set up in Sketch"
-    figcaption="The Android version of the player and user flow with interactive hot-spots set up in Sketch."
-    >}}
-
-    {{< image_cld
-    class="details-grid__fiftyWords big-image"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1548802600/simply-e/se-Audio-flow-iOS.webp"
-    alt="an image of the iOS user flow and screens with interactive hot-spots set up in Sketch"
-    figcaption="Similar to the previous example of the player for iOS and the user flow with interactive hot-spots set up in Sketch."
-    >}}
-
-    {{< copy_wrapper
-        class="details-grid__fiftyWords copy-block" >}}
-        As we progressed on our iOS version of the app, we also began creating the Android corollary designs and flows. While this was relatively trivial, Android OSes have different controls causing some minor divergence in how we considered our users and their expectations. The team decided to utilize as much of the Material design system as possible, mirroring the same attitude we held for our iOS version.
-      {{< /copy_wrapper>}}
-
-
-    {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/f_auto,q_auto,w_auto/v1582830616/simply-e/se-detail-view-ios.webp"
-    alt="an image of the content landing screen"
-    figcaption="The item screen with subsequent actions, meta-data, and related content lanes"
-    class="details-grid__twentyWords image-block__left"
-    >}}
-    
-    {{< image_cld
-    loading=" lazy"
-    data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1582830616/simply-e/se-main-player-ios.webp"
-    alt="An image of the player screen"
-    figcaption="The player screen"
-    class="details-grid__twentyWords image-block__right"
-    >}}
-
-    {{< copy_wrapper
-      class=" details-grid__twentyWords copy-block__right" >}}
-      {{< sl "/portfolio/simplye-audiobook-player/" "Go to the full project page" >}}
-    {{< /copy_wrapper>}}
-{{< /section_wrapper >}}

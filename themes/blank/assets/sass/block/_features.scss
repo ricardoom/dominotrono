@@ -13,8 +13,9 @@
 }
 
 .wrapper:has(.feature) {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  max-width: $mega-screen;
 }
 
 .feature {
@@ -78,8 +79,8 @@
       font-size: ft(var(--s-1), var(--s0));
       justify-content: center;
       padding-block: var((--s0));
-      // padding-inline: var(--s0);
-      max-width: 100%;
+      padding-inline: var(--s0);
+      max-width: max-content;
       // margin-inline-start: calc(var(--s0) * -1);
     }
     
@@ -112,11 +113,7 @@
   section:nth-child(even) {
     
     align-self: flex-start;
-    // flex-direction: row-reverse;
-
-    // div {
-    //   padding-inline-start: var(--s0);
-    // }
+    flex-direction: row-reverse;
   }
 
   section:nth-child(odd) {

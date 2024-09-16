@@ -74,7 +74,7 @@
 {{ if $pageJS }}
   {{  range $vendorName, $vendorURL := $jsVendor }}
     {{ if eq $vendorName $jsLowerCased }}
-      <div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
+      {{/*  <div class="{{ $vendorName }}" data-vendor="{{ lower $pageJS }}">
         <p>JS vendor's name: <b>{{ $vendorName }}</b><br>
           the initial path to the javascript: <b>{{ $vendorPath }}</b><br>
           the actual file name: <b>{{ $vendorURL }}</b><br>
@@ -84,7 +84,7 @@
           <p>Here is the full path: {{ $.Site.BaseURL }}{{ $customJsPath }}{{ $customJS }}</p>
         {{ end }} 
         </p>
-      </div>
+      </div>  */}}
       {{ if eq $jsLowerCased "paperjs" }}
         {{ if $local }}
         {{ printf "<!-- If paper js is present then we do special stuff  -->" | safeHTML }}
@@ -95,11 +95,11 @@
           
           <canvas class="canvas__myCanvas" id="paperCanvas" resize></canvas>
 
-      {{ else if eq $jsLowerCased "gsapjs" }}
+      {{ else if eq $jsLowerCased "gsapcdn" }}
         {{ if $local }}
-        {{ printf "<!-- If GSAP is present then we directly load from their CDN  -->" | safeHTML }}
+        {{ printf "<!-- Greensock CDN, %s  -->" $jsLowerCased | safeHTML }}
         {{ end }}
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+          <script src="{{ $jsVendor.gsapCDN }}"></script>
 
       {{ else }}
         <p>and the full path we set is here: <b>{{ $.Site.BaseURL }}
@@ -109,7 +109,7 @@
     {{ end }}
   {{ end }}
 {{ end }}
-{{ if $customJS }}  
+{{ with $customJS }}  
     <script src="{{ $.Site.BaseURL }}{{ $customJsPath }}{{ $customJS }}"></script>
 {{ end }}
 {{ end }}

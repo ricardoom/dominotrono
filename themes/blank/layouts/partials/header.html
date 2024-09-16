@@ -38,8 +38,10 @@
   {{ with . | toCSS $opts }}
     {{ if hugo.IsServer }}
       <link rel="stylesheet" href="{{ .RelPermalink }}">
+      {{ printf "<!-- Local -->" | safeHTML }}
       {{ else }}
       {{ with . | minify | fingerprint }}
+      {{ printf "<!-- Production -->" | safeHTML }}
         <link rel="stylesheet" href="{{ .RelPermalink }}">
       {{ end }}
     {{ end }}

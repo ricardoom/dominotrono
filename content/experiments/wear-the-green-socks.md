@@ -2,10 +2,10 @@
 author: Ricardo G.
 categories: ['experiments']
 date: 2019-01-02T23:02:49-05:00
-draft: true
+draft: false
 tags: ['GSAP']
 title: 'Wear the Green Socks'
-vendorJS: 'gsapJS'
+vendorJS: 'gsapCDN'
 experimentJS: 'whatsthehaps.js'
 ---
 

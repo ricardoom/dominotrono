@@ -103,6 +103,7 @@ pluralizelisttitles = "false"
         svgJS = "svg/svg.min.js"
         threeJS = "three/three.min.js"
         gsapJS = "gsap/3.6.0/gsap.min.js"
+        gsapCDN = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
         animeJS = "anime/anime.min.js"
 [permalinks]
     post = "/:year/:month/:title/"
@@ -143,6 +144,12 @@ pluralizelisttitles = "false"
         name = "everything else"
         title = "everything else"
         url = "/everything-else/"
+        weight = -7
+    [[menus.footer]]
+        identifier = "experiments"
+        name = "experiments"
+        title = "experiments"
+        url = "/experiments/"
         weight = -7
 [markup]
     defaultMarkdownHandler = "goldmark"

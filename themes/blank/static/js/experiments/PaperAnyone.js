@@ -5,10 +5,7 @@
 /// Keep in mind Paper has special markup
 ///
 /// note paperscript type attribute
-/// TODO:
-/// Something more sustainable needs to be developed...
-/// this is tantamount to hard coding, and we should be able to pass these experimental snippets as modules
-/// especially w/ paper, since we have to pass it the text=
+
 
 var paperJsContainer = document.querySelector('[data-vendor="paperjs"]');
 // console.log(paperJsContainer);

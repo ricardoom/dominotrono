@@ -145,6 +145,12 @@ pluralizelisttitles = "false"
         title = "everything else"
         url = "/everything-else/"
         weight = -7
+    [[menus.footer]]
+        identifier = "experiments"
+        name = "experiments"
+        title = "experiments"
+        url = "/experiments/"
+        weight = -7
 [markup]
     defaultMarkdownHandler = "goldmark"
     [markup.goldmark]

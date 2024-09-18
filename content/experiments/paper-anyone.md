@@ -4,8 +4,9 @@ categories: ['experiments']
 date: 2018-12-17T19:26:30-05:00
 draft: false
 tags: ['javascript']
-title: 'Paper JS any one?'
+title: 'Paper JS'
 vendorJS: 'paperJS'
+experimentJS: 'PaperAnyone.js'
 ---
 
 ## A winding path of sorts

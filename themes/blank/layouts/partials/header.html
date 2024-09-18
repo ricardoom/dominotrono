@@ -2,9 +2,8 @@
 {{ $targetPath := "css/root.css" }} 
 {{ $sassRoot := "sass/root.scss" }} 
 {{ $rootClass := ( slice "homePage" "innerPage" ) }} 
-{{ $prodOptions := ( dict  "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" false ) }} 
-{{ $devOptions := (dict "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" ""
-"enableSourceMap" true) }} 
+{{/*  {{ $prodOptions := ( dict  "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" false ) }}   */}}
+{{/*  {{ $devOptions := (dict "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" "" "enableSourceMap" true) }}   */}}
 {{/*  {{ $devStyle := resources.Get $sassRoot | resources.ToCSS $devOptions }}  */}}
 {{/*  {{ $prodStyle := resources.Get $sassRoot | resources.ToCSS $prodOptions | resources.Fingerprint }}   */}}
 {{ $typography := .Site.Params.typography }}
@@ -33,16 +32,16 @@
   {{ with resources.Get "sass/root.scss" }}
   {{ $opts := dict 
     "transpiler" "dartsass" 
-    "targetPath" "css/root.css"
+    "targetPath" $targetPath
     "enableSourceMap" (not hugo.IsProduction) }}
   {{ with . | toCSS $opts }}
     {{ if hugo.IsServer }}
       <link rel="stylesheet" href="{{ .RelPermalink }}">
       {{ printf "<!-- Local -->" | safeHTML }}
       {{ else }}
-      {{ with . | minify | fingerprint }}
+      {{ with . | minify }}
       {{ printf "<!-- Production -->" | safeHTML }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}">
+        <link rel="stylesheet" href="{{ .RelPermalink }}" >
       {{ end }}
     {{ end }}
   {{ end }}

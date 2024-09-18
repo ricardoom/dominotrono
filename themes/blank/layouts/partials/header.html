@@ -1,6 +1,7 @@
 {{ $local := hugo.IsServer }} 
 {{ $targetPath := "css/root.css" }} 
-{{ $sassRoot := "sass/root.scss" }} 
+{{ $sassRoot := "sass/root.scss" }}
+{{ $scss := resources.Get "sass/root.scss" }}
 {{ $rootClass := ( slice "homePage" "innerPage" ) }} 
 {{/*  {{ $prodOptions := ( dict  "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" "compressed" "enableSourceMap" false ) }}   */}}
 {{/*  {{ $devOptions := (dict "transpiler" "dartsass" "targetPath" $targetPath "outputStyle" "" "enableSourceMap" true) }}   */}}
@@ -28,7 +29,7 @@
   {{ else }}
     <link rel="stylesheet" href="{{ $prodStyle.Permalink }}" />
   {{ end }}   */}}
-  {{ $scss := resources.Get "sass/root.scss" }}
+  
   
   {{ with $scss }}
   {{ $opts := dict 
@@ -40,9 +41,9 @@
       <link rel="stylesheet" href="{{ .RelPermalink }}" >
       {{ printf "<!-- Local -->" | safeHTML }}
       {{ else }}
-      {{ with . | minify | fingerprint }}
+      {{ with . | minify | fingerprint "sha512" }}
       {{ printf "<!-- Production -->" | safeHTML }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ $scss.Data.Integrity }}" >
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" >
       {{ end }}
     {{ end }}
   {{ end }}

@@ -41,9 +41,9 @@
       <link rel="stylesheet" href="{{ .RelPermalink }}" >
       {{ printf "<!-- Local -->" | safeHTML }}
       {{ else }}
-      {{ with . | minify | fingerprint "sha512" }}
+      {{ with . | minify }}
       {{ printf "<!-- Production -->" | safeHTML }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" >
+        <link rel="stylesheet" href="{{ .RelPermalink }}" >
       {{ end }}
     {{ end }}
   {{ end }}

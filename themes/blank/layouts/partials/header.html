@@ -28,20 +28,21 @@
   {{ else }}
     <link rel="stylesheet" href="{{ $prodStyle.Permalink }}" />
   {{ end }}   */}}
-
-  {{ with resources.Get "sass/root.scss" }}
+  {{ $scss := resources.Get "sass/root.scss" }}
+  
+  {{ with $scss }}
   {{ $opts := dict 
     "transpiler" "dartsass" 
     "targetPath" $targetPath
     "enableSourceMap" (not hugo.IsProduction) }}
   {{ with . | toCSS $opts }}
     {{ if hugo.IsServer }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
+      <link rel="stylesheet" href="{{ .RelPermalink }}" >
       {{ printf "<!-- Local -->" | safeHTML }}
       {{ else }}
-      {{ with . | minify }}
+      {{ with . | minify | fingerprint }}
       {{ printf "<!-- Production -->" | safeHTML }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" >
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ $scss.Data.Integrity }}" >
       {{ end }}
     {{ end }}
   {{ end }}

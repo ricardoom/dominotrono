@@ -1,12 +1,11 @@
 {{ $local := hugo.IsServer }} 
 {{ $mainContent := partial "first-paragraph.html" .Content }}
 {{ partial "header.html" . }}
-{{ $lastmod := .Lastmod | time.Format ":date_long" }}
+{{ $lastmod := site.Lastmod | time.Format ":date_long" }}
 {{ if $local }}
-  {{ printf "<!-- === root index === -->" | safeHTML }}
-  {{ printf "<!-- === This site is hand crafted by Ricardo, built with gohugo Sass, and some JS. I work on it most days, last update was %s === -->" $lastmod | safeHTML }}
-  
+  {{ printf "<!-- === root index === -->" | safeHTML }}  
 {{ end  }}
+{{ printf "<!-- === This site is hand crafted by Ricardo, built with gohugo Sass, and some JS. I wrench on it on the regular... last update was %s === -->" $lastmod | safeHTML }}
 <main class="[ site-content ]" id="siteContent">
   {{ partial "mast-head-block.html" . }}
   <section class="[ features ]">

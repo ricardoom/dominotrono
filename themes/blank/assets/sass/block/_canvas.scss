@@ -1,5 +1,7 @@
-.canvas {
-  &__myCanvas {
+//
+// Paper JS canvas
+//
+.paper-canvas {
     filter: opacity(0.5);
     height: 100vh;
     left: 0;
@@ -8,4 +10,3 @@
     width: 100vw;
     z-index: -1;
   }
-}

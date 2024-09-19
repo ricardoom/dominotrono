@@ -5,20 +5,17 @@
 
 .grid-wrapper {
 
-  // & > h1 {
-  //   padding-block: var(--s1)
-  // }
-
   .site-article {
     padding-block: var(--s1);
   }
 
-  &__listParent {
-    .site-article {
-      @include basic-article-wrapper('>=tablet', var(--measure), 0, var(--s1));
-      @include basic-article-wrapper('>=desktop', var(--measure), 0, 0);
-      padding-block: var(--s1);
-    }
+  .list-parent {
+
+      .site-article {
+        @include basic-article-wrapper('>=tablet', var(--measure), 0, var(--s1));
+        @include basic-article-wrapper('>=desktop', var(--measure), 0, 0);
+        padding-block: var(--s1);
+      }
   }
 }
 
@@ -26,4 +23,3 @@
 [data-date] {
   font-size: var(--s-1);
 }
-

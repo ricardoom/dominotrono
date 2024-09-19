@@ -1,5 +1,3 @@
-
-
 {{ $local := hugo.IsServer }}
 {{ if $local }}
 {{ printf "<!-- ++ default list template ++ -->" | safeHTML }}
@@ -9,15 +7,16 @@
 <main>
   <div class="[ wrapper ] [ grid-wrapper ]">
     <div class="[ grid-wrapper__listParent ] [ posts ]">
+      {{ if eq .Title "Everything Else" }}
+      <h1>{{ .Title }}</h1>
+      {{ end }}
       {{ range .Pages }}
         {{ partial "summary.html" . }}
       {{ end }}
     </div>
   </div>
-  <!-- {{ partial "pagination.html" . }} -->
 </main>
-{{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }} 
-{{ if $local }}
+{{/*  {{ if $local }}
 {{ partial "dev.html" . }}
-{{ end }}
+{{ end }}  */}}

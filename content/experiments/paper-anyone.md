@@ -8,9 +8,6 @@ title: 'Paper JS'
 vendorJS: 'paperJS'
 experimentJS: 'PaperAnyone.js'
 ---
-
-## A winding path of sorts
-
 So this was some doing getting hooked up. Paper has its own formating/ name spacing thing (need to find out exactly what its called) and getting it going wasn't that easy. And right now its kludged in...
 
 <!--more-->

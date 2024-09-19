@@ -139,12 +139,12 @@ pluralizelisttitles = "false"
         title = "sketchbook"
         url = "/sketchbook/"
         weight = -8
-    [[menus.footer]]
-        identifier = "everythingelse"
-        name = "everything else"
-        title = "everything else"
-        url = "/everything-else/"
-        weight = -7
+    # [[menus.footer]]
+    #     identifier = "everythingelse"
+    #     name = "everything else"
+    #     title = "everything else"
+    #     url = "/everything-else/"
+    #     weight = -6
     [[menus.footer]]
         identifier = "experiments"
         name = "experiments"

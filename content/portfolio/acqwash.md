@@ -28,6 +28,7 @@ weight: -8
 externalURL: ''
 projectDesc: 'My role in this project was to create the UX and explore visual designs for this exciting NYC startup.'
 newLayout: true
+everythingElse: true
 ---
 
 {{< section_wrapper class="hero-grid" >}}

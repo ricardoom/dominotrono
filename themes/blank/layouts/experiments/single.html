@@ -18,11 +18,13 @@
 
   
   <div class="[ wrapper ][ grid-wrapper ]">
-    <div class="[ grid-wrapper__listParent ]">
-      <article class="site-article">
+    <div class="[ list-parent ]">
+      <article class="[ site-article ]">
         <h1>{{ .Title }}</h1>
         <p class="[ siteAuthor ]">by: {{ .Site.Params.author }}</p>
-        <time>{{ .Date.Format "01.02.2006 15:04" }}</time>
+        <time>Created on: {{ .Date.Format "01.02.2006 15:04" }}</time>
+        <span>&nbsp;|&nbsp;</span>
+        <time>Last Modified: {{ site.Lastmod | time.Format ":date_long" }}</time>
         <div class="[ site-single__content ]">
           {{ .Content }}
         </div>

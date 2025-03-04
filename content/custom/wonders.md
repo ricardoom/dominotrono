@@ -129,54 +129,7 @@ newLayout: true
     {{< sl "/portfolio/bronte" "See the full project" >}}
 {{< /section_wrapper>}}
 
-{{< section_wrapper class="details-grid" >}}
-    
-    {{< section_header level="3" text="Curriculex Nursing Education Platform" >}}
-    {{< section_header level="4" text="Design Discovery and UX Research" >}}
-    {{< image_cld
-      loading="lazy"
-      data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/t_porfolio_hero_1280_2x,f_auto,q_auto/v1686070114/curriculex/curriculexOverview.webp"
-      alt=""
-      figcaption=""
-      class="details-grid__fiftyWords big-image"
-    >}}
-    {{< copy_wrapper
-      class="details-grid__twentyWords copy-block__left" >}}
-      Curriculex seeks to replace traditional textbook learning with interactive and engaging lessons. For an instructor, managing course and group work can be challenging. My work focused on the instructor's experience; covering both class and learning asset/content management, while other team members focused on the student experience.
-    {{< /copy_wrapper >}}
-        
-    {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1684517113/curriculex/Curriculex_Hero.webp"
-        alt=""
-        figcaption="An overview of top-level instructor admin and analytics screens"
-        class="details-grid__fiftyWords big-image"
-        >}}
-        {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/v1686598671/curriculex/TopLevelLandingScreen.webp"
-        alt=""
-        figcaption="The instructor's landing screen with current assignments and schedule. This screen has ancillary information covering the current roster, subject matter as well as pathways to subject and course work prep."
-        class="details-grid__fiftyWords big-image"
-        >}}
 
-    {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686086098/curriculex/analytics/student.webp"
-        alt="An image screen for a student's progress"
-        figcaption="A detail screen for a student's progress."
-        class="details-grid__twentyWords image-block__left"
-      >}} 
-
-    {{< image_cld
-        loading="lazy"
-        data-src="https://res.cloudinary.com/toupeeproofbullets/image/upload/q_auto,f_auto,w_auto/v1686007879/curriculex/Interactive%20Lecture/InteractiveLectureLanding.webp"
-        alt="An image of the lecture library screen"
-        figcaption="A detailed concept for the interactive content library"
-        class="details-grid__twentyWords image-block__right"
-      >}}
-
-{{< /section_wrapper >}}
 
 
 
